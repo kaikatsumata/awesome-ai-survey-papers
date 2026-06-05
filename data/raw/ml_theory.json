@@ -403,19 +403,6 @@
     "note": "枝刈り研究の評価不統一を指摘しメタ分析した重要サーベイ"
   },
   {
-    "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
-    "authors": "Jonathan Frankle et al.",
-    "venue": "ICLR",
-    "year": 2019,
-    "paper": "https://arxiv.org/abs/1803.03635",
-    "arxiv": "1803.03635",
-    "github": null,
-    "page": null,
-    "field": "ml",
-    "subfield": "Pruning",
-    "note": "疎な訓練可能部分網の存在を示した宝くじ仮説の定番論文(ICLR best paper)"
-  },
-  {
     "title": "Image Data Augmentation for Deep Learning: A Survey",
     "authors": "Suorong Yang et al.",
     "venue": "arXiv",
@@ -559,32 +546,6 @@
     "note": "深層学習のモデル複雑度と汎化の関係を整理したサーベイ"
   },
   {
-    "title": "Understanding deep learning requires rethinking generalization",
-    "authors": "Chiyuan Zhang et al.",
-    "venue": "ICLR",
-    "year": 2017,
-    "paper": "https://arxiv.org/abs/1611.03530",
-    "arxiv": "1611.03530",
-    "github": null,
-    "page": null,
-    "field": "ml",
-    "subfield": "Generalization",
-    "note": "ランダムラベル暗記実験で従来の汎化理論を覆した記念碑的論文(ICLR best paper)"
-  },
-  {
-    "title": "How Does Batch Normalization Help Optimization?",
-    "authors": "Shibani Santurkar et al.",
-    "venue": "NeurIPS",
-    "year": 2018,
-    "paper": "https://arxiv.org/abs/1805.11604",
-    "arxiv": "1805.11604",
-    "github": null,
-    "page": null,
-    "field": "ml",
-    "subfield": "Batch Normalization",
-    "note": "BatchNormが最適化地形を平滑化することを示した重要論文"
-  },
-  {
     "title": "An overview of gradient descent optimization algorithms",
     "authors": "Sebastian Ruder et al.",
     "venue": "arXiv",
@@ -676,32 +637,6 @@
     "note": "表形式データ向け深層学習手法を体系的に整理したサーベイ"
   },
   {
-    "title": "Scaling Laws for Neural Language Models",
-    "authors": "Jared Kaplan et al.",
-    "venue": "arXiv",
-    "year": 2020,
-    "paper": "https://arxiv.org/abs/2001.08361",
-    "arxiv": "2001.08361",
-    "github": null,
-    "page": null,
-    "field": "ml",
-    "subfield": "Scaling Laws",
-    "note": "モデル/データ/計算量に対する損失のべき乗則を示した記念碑的論文"
-  },
-  {
-    "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
-    "authors": "Albert Gu et al.",
-    "venue": "COLM",
-    "year": 2023,
-    "paper": "https://arxiv.org/abs/2312.00752",
-    "arxiv": "2312.00752",
-    "github": "state-spaces/mamba",
-    "page": null,
-    "field": "ml",
-    "subfield": "State Space Models",
-    "note": "選択的状態空間で線形時間系列モデリングを実現したMambaの原論文"
-  },
-  {
     "title": "Mamba-360: Survey of State Space Models as Transformer Alternative for Long Sequence Modelling",
     "authors": "Badri Narayana Patro et al.",
     "venue": "arXiv",
@@ -713,19 +648,6 @@
     "field": "ml",
     "subfield": "State Space Models",
     "note": "Transformer代替としての状態空間モデルを網羅した近年のサーベイ"
-  },
-  {
-    "title": "KAN: Kolmogorov-Arnold Networks",
-    "authors": "Ziming Liu et al.",
-    "venue": "ICLR",
-    "year": 2024,
-    "paper": "https://arxiv.org/abs/2404.19756",
-    "arxiv": "2404.19756",
-    "github": "KindXiaoming/pykan",
-    "page": null,
-    "field": "ml",
-    "subfield": "Kolmogorov-Arnold Networks",
-    "note": "辺に学習可能活性化を置く新アーキテクチャKANの原論文"
   },
   {
     "title": "A Survey on Kolmogorov-Arnold Network",
@@ -767,19 +689,6 @@
     "note": "有効場理論的アプローチで深層学習を解析した体系的教科書/概説"
   },
   {
-    "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
-    "authors": "Arthur Jacot et al.",
-    "venue": "NeurIPS",
-    "year": 2018,
-    "paper": "https://arxiv.org/abs/1806.07572",
-    "arxiv": "1806.07572",
-    "github": null,
-    "page": null,
-    "field": "learning-theory",
-    "subfield": "Neural Tangent Kernel",
-    "note": "無限幅NNの学習を記述するNTKを導入した記念碑的論文"
-  },
-  {
     "title": "Online Learning: A Comprehensive Survey",
     "authors": "Steven C. H. Hoi et al.",
     "venue": "Neurocomputing",
@@ -817,19 +726,6 @@
     "field": "learning-theory",
     "subfield": "Generalization Bounds",
     "note": "深層学習の汎化に関する理論的洞察を整理した概説"
-  },
-  {
-    "title": "A Convergence Theory for Deep Learning via Over-Parameterization",
-    "authors": "Zeyuan Allen-Zhu et al.",
-    "venue": "ICML",
-    "year": 2019,
-    "paper": "https://arxiv.org/abs/1811.03962",
-    "arxiv": "1811.03962",
-    "github": null,
-    "page": null,
-    "field": "learning-theory",
-    "subfield": "Optimization Theory",
-    "note": "過剰パラメータ化下でのSGDの大域収束を示した重要な理論論文"
   },
   {
     "title": "The Modern Mathematics of Deep Learning",

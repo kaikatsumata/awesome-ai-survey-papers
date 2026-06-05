@@ -247,19 +247,6 @@
     "note": "グラフデータへのLLM適用シナリオを網羅的に整理"
   },
   {
-    "title": "The Case for Learned Index Structures",
-    "authors": "Tim Kraska et al.",
-    "venue": "SIGMOD",
-    "year": 2018,
-    "paper": "https://arxiv.org/abs/1712.01208",
-    "arxiv": "1712.01208",
-    "github": null,
-    "page": null,
-    "field": "database",
-    "subfield": "Learned Index",
-    "note": "インデックスをモデルと捉える学習型インデックスを提唱した起点論文"
-  },
-  {
     "title": "A Survey of Learned Indexes for the Multi-dimensional Space",
     "authors": "Abdullah Al-Mamun et al.",
     "venue": "arXiv",

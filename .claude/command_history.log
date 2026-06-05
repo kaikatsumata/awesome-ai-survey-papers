@@ -1748,3 +1748,444 @@ Exit Code: 0
 Working Directory: /Users/s25705/awesome-ai-survey-papers
 Exit Code: 0
 ---
+[2026-06-05 21:23:26] TZ=Asia/Tokyo date "+%Y-%m-%d %H:%M %Z"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:24:28] gh auth status 2>&1 | head -5; echo "---"; which gh jq
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:24:47] gh api -X GET search/repositories -f q='embodied AI survey paper list stars:>200' -f sort=stars -f per_page=15 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:24:49] gh api -X GET search/repositories -f q='world model survey awesome stars:>200' -f sort=stars -f per_page=15 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:24:51] gh api -X GET search/repositories -f q='LLM agents survey paper list stars:>300' -f sort=stars -f per_page=15 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:24:57] gh api -X GET search/repositories -f q='video generation survey awesome stars:>200' -f sort=stars -f per_page=15 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:24:59] gh api -X GET search/repositories -f q='gaussian splatting survey awesome stars:>200' -f sort=stars -f per_page=15 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:01] gh api -X GET search/repositories -f q='neural rendering NeRF survey awesome stars:>150' -f sort=stars -f per_page=15 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:03] gh api -X GET search/repositories -f q='point cloud survey paper list stars:>150' -f sort=stars -f per_page=15 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:10] gh api -X GET search/repositories -f q='point cloud deep learning survey topic:awesome-list stars:>150' -f sort=stars -f per_page=10 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:12] gh api -X GET search/repositories -f q='speech language model survey awesome stars:>150' -f sort=stars -f per_page=12 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:14] gh api -X GET search/repositories -f q='music generation survey awesome stars:>100' -f sort=stars -f per_page=12 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:16] gh api -X GET search/repositories -f q='knowledge editing survey LLM stars:>150' -f sort=stars -f per_page=12 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:21] gh api -X GET search/repositories -f q='knowledge editing awesome stars:>200' -f sort=stars -f per_page=12 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:23] gh api -X GET search/repositories -f q='model merging survey awesome stars:>100' -f sort=stars -f per_page=12 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:26] gh api -X GET search/repositories -f q='continual learning survey awesome stars:>300' -f sort=stars -f per_page=12 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:25:28] gh api -X GET search/repositories -f q='machine unlearning survey awesome stars:>100' -f sort=stars -f per_page=12 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:26:04] gh api repos/HCPLab-SYSU/Embodied_AI_Paper_List/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -5
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:26:09] gh api repos/worldbench/awesome-3d-4d-world-models/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:26:16] gh api repos/ALEEEHU/World-Simulator/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -3; echo "==WOODY=="; gh api repos/WooooDyy/LLM-Agent-Paper-List/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:26:25] gh api repos/WooooDyy/LLM-Agent-Paper-List/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/(abs|pdf)/[0-9]{4}\.[0-9]{4,5}' | sort | uniq -c | sort -rn | head; echo "---first lines---"; gh api repos/WooooDyy/LLM-Agent-Paper-List/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'arxiv|survey' | head -8
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:26:31] gh api repos/worldbench/awesome-3d-4d-world-models/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|a survey|arxiv.org/abs/25' | head -6
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:26:33] gh api repos/Li-Zn-H/AwesomeWorldModels/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -6
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:26:53] gh api repos/mayuelala/Awesome-Controllable-Video-Generation/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -4; echo "==T2V=="; gh api repos/heshuting555/Awesome-3DGS-Applications/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -4
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:04] gh api repos/qqqqqqy0227/awesome-3DGS/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -3; echo "==MERGE=="; gh api repos/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'arxiv.org/abs/' | head -3; echo "==FORGET=="; gh api repos/EnnengYang/Awesome-Forgetting-in-Deep-Learning/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'arxiv.org/abs/' | head -3; echo "==UNLEARN=="; gh api repos/tamlhp/awesome-machine-unlearning/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'arxiv.org/abs/' | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:13] gh api repos/dreamtheater123/Awesome-SpeechLM-Survey/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'arxiv.org/abs/' | head -2; echo "==SPEECHSYN=="; gh api repos/imxtx/awesome-controllable-speech-synthesis/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'arxiv.org/abs/' | head -2; echo "==VIS2MUSIC=="; gh api repos/wzk1015/Awesome-Vision-to-Music-Generation/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'arxiv.org/abs/' | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:20] gh api repos/imxtx/awesome-controllable-speech-synthesis/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|2412|2411|2501|2502|systematic' | head -4
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:28] gh api -X GET search/repositories -f q='knowledge editing language models awesome stars:>150' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:30] gh api -X GET search/repositories -f q='out-of-distribution OOD detection survey awesome stars:>200' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:36] gh api -X GET search/repositories -f q='knowledge editing awesome' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:38] gh api -X GET search/repositories -f q='out of distribution generalization awesome' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:45] gh api -X GET search/repositories -f q='knowledge edit LLM paper list in:name,description' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:47] gh api -X GET search/repositories -f q='watermarking large language model survey awesome' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:54] gh api -X GET search/repositories -f q='ModelEditingPapers OR KnowledgeEditing OR EasyEdit' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:27:56] gh api -X GET search/repositories -f q='LLM watermark survey awesome' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:02] gh api repos/zjunlp/KnowledgeEditingPapers/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -4
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:04] gh api repos/huytransformer/Awesome-Out-Of-Distribution-Detection/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|generalized out-of-distribution|arxiv.org/abs/2110' | head -4
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:11] gh api -X GET search/repositories -f q='prompt engineering survey awesome stars:>500' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:13] gh api -X GET search/repositories -f q='vision transformer survey awesome stars:>300' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:18] gh api -X GET search/repositories -f q='transformers in vision survey paper list' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:20] gh api -X GET search/repositories -f q='self-supervised learning survey awesome stars:>300' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:25] gh api -X GET search/repositories -f q='medical image segmentation survey awesome stars:>300' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:27] gh api -X GET search/repositories -f q='LLM evaluation benchmark survey awesome stars:>500' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:34] gh api -X GET search/repositories -f q='SAM medical image segmentation survey' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:36] gh api -X GET search/repositories -f q='evaluation large language models survey awesome stars:>800' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:40] gh api repos/Yutong-Zhou-cv/Awesome-Survey-Papers --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:42] gh api -X GET search/repositories -f q='retrieval augmented generation survey awesome stars:>800' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:44] gh api -X GET search/repositories -f q='mixture of experts survey awesome stars:>200' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:50] gh api -X GET search/repositories -f q='mixture-of-experts MoE paper list survey' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:52] gh api -X GET search/repositories -f q='multimodal large language model survey awesome stars:>1000' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:28:58] gh api -X GET search/repositories -f q='Mixture of Experts LLM survey' -f sort=stars -f per_page=10 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:08] gh api repos/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -2; echo "==RAGAIGC=="; gh api repos/hymie122/RAG-Survey/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -2; echo "==GRAPHRAG=="; gh api repos/DEEP-PolyU/Awesome-GraphRAG/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:14] gh api -X GET search/repositories -f q='hallucination large language models survey awesome stars:>400' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:14] gh api repos/jishengpeng/WavChat --jq .full_name 2>/dev/null; echo "---rong/XAI---"; gh api repos/cisco-open/REVEL-XAI --jq .full_name 2>/dev/null || echo "no"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:16] gh api -X GET search/repositories -f q='GUI agents survey awesome stars:>200' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:17] gh api repos/Eclipsess/Awesome-Efficient-Reasoning-LLMs --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:19] gh api repos/quchangle1/LLM-Tool-Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:21] gh api repos/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:21] gh api -X GET search/repositories -f q='LLM hallucination survey paper list' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:22] gh api repos/yaotingwangofficial/Awesome-MCoT --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:23] gh api repos/asinghcsu/AgenticRAG-Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:25] gh api repos/ChaofanTao/Autoregressive-Models-in-Vision-Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:27] gh api -X GET search/repositories -f q='GUI agent paper list survey' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:29] gh api -X GET search/repositories -f q='multimodal large language models survey awesome' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:29] gh api repos/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:31] gh api repos/ryokamoi/llm-self-correction-papers --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:32] gh api repos/AIDC-AI/Awesome-Unified-Multimodal-Models --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:34] gh api repos/llm-as-a-judge/Awesome-LLM-as-a-judge --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:36] gh api repos/Event-AHU/Mamba_State_Space_Model_Paper_List --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:37] gh api repos/digailab/awesome-llm-implicit-reasoning --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:45] gh api repos/HillZhang1999/llm-hallucination-survey/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==EFFREASON=="; gh api repos/XiaoYee/Awesome_Efficient_LRM_Reasoning/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==RSMLLM=="; gh api repos/ZhanYang-nwpu/Awesome-Remote-Sensing-Multimodal-Large-Language-Model/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==ADMLLM=="; gh api repos/IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==CONTEXTENG=="; gh api repos/Meirtz/Awesome-Context-Engineering/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:47] gh api repos/Tebmer/Awesome-Knowledge-Distillation-of-LLMs --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:50] gh api repos/vbordalo/Agents-Tuto --jq .full_name 2>/dev/null; gh api repos/Paitesanshi/LLM-Agent-Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:51] gh api -X GET search/repositories -f q='AI safety large language model survey awesome stars:>300' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:51] gh api repos/yueliu1999/Awesome-Jailbreak-on-LLMs --jq .full_name 2>/dev/null; gh api repos/GestaltCogTeam/Awesome-Time-Series-Foundation-Models --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:53] gh api repos/Mooler0410/LLMsPracticalGuide --jq .full_name 2>/dev/null; gh api repos/yuleiqin/awesome-data-synthesis --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:29:53] gh api -X GET search/repositories -f q='diffusion models survey awesome stars:>800' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:03] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/wave2_apps.json')); print('total:', len(d)); from collections import Counter; print('field:', dict(Counter(x['field'] for x in d))); assert all(set(x.keys())=={'title','authors','venue','year','paper','arxiv','github','page','field','subfield','note'} for x in d), 'key mismatch'; print('keys OK'); ids=[x['arxiv'] for x in d if x['arxiv']]; print('arxiv ids:', len(ids), 'unique:', len(set(ids)))"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:08] gh api repos/ChenHsing/Awesome-Video-Diffusion-Models/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==DLM=="; gh api repos/VILA-Lab/Awesome-DLMs/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==TSDIFF=="; gh api repos/yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==MIM=="; gh api repos/Lupin1998/Awesome-MIM/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==EVAL=="; gh api repos/tjunlp-lab/Awesome-LLMs-Evaluation-Papers/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==CTXENG already=="; gh api repos/JindongGu/Awesome-Prompting-on-Vision-Language-Model/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:15] gh api -X GET search/repositories -f q='large language model safety paper list survey' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:16] gh api repos/dreamtheater123/Awesome-SpeechLM-Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:17] gh api -X GET search/repositories -f q='contrastive learning survey awesome paper list' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:18] gh api repos/JinjieNi/Awesome-LLM-Agent-Memory --jq .full_name 2>/dev/null; gh api repos/nuochenpku/Awesome-Role-Play-Papers --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:22] gh api -X GET search/repositories -f q='jailbreak large language models survey awesome' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:27] gh api repos/vbordalo/LLM-Brained-GUI-Agents-Survey --jq .full_name 2>/dev/null; gh api repos/OSU-NLP-Group/GUI-Agents-Paper-List --jq .full_name 2>/dev/null; gh api repos/GUI-Agent/Awesome-GUI-Agent --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:28] gh api -X GET search/repositories -f q='jailbreak attack survey large language model' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:30] gh api repos/yueyang130/Awesome-VLA --jq .full_name 2>/dev/null; gh api repos/GestaltCogTeam/awesome-llm-graph --jq .full_name 2>/dev/null; gh api repos/Galaxies99/awesome-3d-generation --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:32] gh api repos/yzhuoning/Awesome-Time-Series-LLM --jq .full_name 2>/dev/null; gh api repos/start2020/Awesome-TimeSeries-LLM-FM --jq .full_name 2>/dev/null; gh api repos/CHaoFanTao/KAN-Survey --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:35] gh api -X GET search/repositories -f q='awesome jailbreak LLM' -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:42] gh api -X GET search/repositories -f q='semi-supervised learning awesome paper list' -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:44] gh api -X GET search/repositories -f q='data augmentation NLP survey awesome' -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:50] gh api -X GET search/repositories -f q='GUI agents large language model survey' -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:52] gh api -X GET search/repositories -f q='autonomous driving survey awesome paper list stars:>500' -f sort=stars -f per_page=8 --jq '.items[]|"\(.stargazers_count)\t\(.full_name)\t\(.description)"'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:30:59] gh api repos/ActiveVisionLab/Awesome-LLM-3D --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:31:06] gh api repos/vyokky/LLM-Brained-GUI-Agents-Survey/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==JAILBREAK=="; gh api repos/yueliu1999/Awesome-Jailbreak-on-LLMs/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -3; echo "==LMSSP=="; gh api repos/CryptoAILab/Awesome-LM-SSP/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -3; echo "==SSL4TS=="; gh api repos/qingsongedu/Awesome-SSL4TS/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1; echo "==SSLREAL=="; gh api repos/Xnhyacinth/Awesome-LLM-Long-Context-Modeling/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:31:22] gh api repos/ZhanYang-nwpu/Awesome-Remote-Sensing-Multimodal-Large-Language-Model/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|our paper|arxiv.org/abs/' | head -5
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:31:43] python3 -c "import json; d=json.load(open('data/raw/wave2_thin.json')); print('count:', len(d)); 
+from collections import Counter; c=Counter(x['field'] for x in d); print(dict(c)); 
+assert all(set(x.keys())=={'title','authors','venue','year','paper','arxiv','github','page','field','subfield','note'} for x in d), 'key mismatch'; print('all 11 keys OK')"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:32:12] gh api repos/tjunlp-lab/Awesome-LLMs-Evaluation-Papers/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'comprehensive survey|2310.19736|our survey' | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:33:00] gh api repos/HKUSTDial/awesome-data-agents/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -2; echo "==T2V=="; gh api repos/jianzhnie/awesome-text-to-video/readme --jq '.content' | base64 -d 2>/dev/null | grep -iE 'survey|arxiv.org/abs/' | head -3; echo "==PERSONAL=="; gh api repos/MobileLLM/Personal_LLM_Agents_Survey/readme --jq '.content' | base64 -d 2>/dev/null | grep -oiE 'arxiv\.org/abs/[0-9]{4}\.[0-9]{4,5}' | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:33:18] gh api repos/luo-junyu/Awesome-Agent-Papers --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:33:20] gh api repos/SCIR-SC-Qiaoban-Team/FlagEval-LLM-Math-Reasoning --jq .full_name 2>/dev/null; gh api repos/friedrichor/Awesome-Multimodal-Papers --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:33:40] python3 -c "
+import json
+d=json.load(open('data/raw/wave2_emerging.json'))
+print('total:', len(d))
+from collections import Counter
+print('field:', dict(Counter(x['field'] for x in d)))
+ids=[x['arxiv'] for x in d]
+print('unique arxiv:', len(set(ids)), 'dups:', [i for i in ids if ids.count(i)>1])
+gh=[x['github'] for x in d if x['github']]
+print('with github:', len(gh))
+print('year:', dict(sorted(Counter(x['year'] for x in d).items())))
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:34:14] gh api repos/LAMDA-Tabular/Tabular-Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:34:42] jq 'length' /Users/s25705/awesome-ai-survey-papers/data/raw/wave2_github.json && jq -r '.[]|.github' /Users/s25705/awesome-ai-survey-papers/data/raw/wave2_github.json | sort | uniq -d
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:34:43] python3 /tmp/validate_wave2.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:35:20] gh api repos/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models --jq .full_name 2>/dev/null; gh api repos/ZJU-LLMs/Awesome-LoRAs --jq .full_name 2>/dev/null; gh api repos/LCLM-Horizon/A-Comprehensive-Survey-For-Long-Context-Language-Modeling --jq .full_name 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:36:01] python3 /tmp/validate_wave2.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
