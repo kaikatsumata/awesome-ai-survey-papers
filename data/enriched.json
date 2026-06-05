@@ -1917,10 +1917,10 @@
     "subfield": "RAG and Retrieval",
     "note": "Naive/Advanced/Modular RAGの発展と検索・生成・拡張を網羅した定番サーベイ",
     "_src": "dm_db_ir.json",
-    "github_stars": 2133,
+    "github_stars": 2134,
     "github_pushed": "2024-05-08T05:55:17Z",
     "github_archived": false,
-    "citations": 3410
+    "citations": 3411
   },
   {
     "title": "A Survey on Retrieval-Augmented Text Generation",
@@ -2403,7 +2403,7 @@
     "subfield": "GNN Benchmark",
     "note": "中規模データセットで主要GNNを公平比較する定番ベンチマーク論文",
     "_src": "gnn_kg_causal.json",
-    "citations": 1186
+    "citations": 1187
   },
   {
     "title": "Representation Learning for Dynamic Graphs: A Survey",
@@ -3180,7 +3180,7 @@
     "subfield": "Instruction Tuning",
     "note": "InstructGPT論文。人間フィードバックによる指示追従学習の基礎を確立",
     "_src": "llm_genai.json",
-    "citations": 21350
+    "citations": 21352
   },
   {
     "title": "Secrets of RLHF in Large Language Models Part I: PPO",
@@ -3327,7 +3327,7 @@
     "github_stars": 335,
     "github_pushed": "2024-03-11T12:49:15Z",
     "github_archived": false,
-    "citations": 2940
+    "citations": 2942
   },
   {
     "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
@@ -3342,7 +3342,7 @@
     "subfield": "Hallucination",
     "note": "入力矛盾・文脈矛盾・事実矛盾の分類でLLM幻覚を整理したサーベイ",
     "_src": "llm_genai.json",
-    "github_stars": 1086,
+    "github_stars": 1085,
     "github_pushed": "2025-09-27T13:49:22Z",
     "github_archived": false,
     "citations": 1014
@@ -3393,7 +3393,7 @@
     "github_stars": 2901,
     "github_pushed": "2025-02-20T00:59:30Z",
     "github_archived": false,
-    "citations": 3008
+    "citations": 3009
   },
   {
     "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
@@ -5423,7 +5423,7 @@
     "github_stars": 4314,
     "github_pushed": "2023-07-17T09:54:36Z",
     "github_archived": false,
-    "citations": 5397
+    "citations": 5398
   },
   {
     "title": "A Survey of Evaluation Metrics Used for NLG Systems",
@@ -6552,7 +6552,7 @@
     "subfield": "Legged Locomotion",
     "note": "学習則・カリキュラム・報酬・sim-to-realを含む四足歩行RL制御の概観",
     "_src": "rl_robotics.json",
-    "citations": 2
+    "citations": 3
   },
   {
     "title": "Survey of Deep Reinforcement Learning for Motion Planning of Autonomous Vehicles",
@@ -8088,7 +8088,7 @@
     "github_stars": 126,
     "github_pushed": "2026-06-03T16:21:33Z",
     "github_archived": false,
-    "citations": 38
+    "citations": 39
   },
   {
     "title": "A Survey on Knowledge Distillation of Large Language Models",
@@ -9300,7 +9300,7 @@
     "subfield": "Efficient Reasoning",
     "note": "冗長な推論トレースの効率化を言語・マルチモーダル・エージェント横断で整理",
     "_src": "wave2_github.json",
-    "github_stars": 355,
+    "github_stars": 354,
     "github_pushed": "2026-01-22T01:44:37Z",
     "github_archived": false,
     "citations": 131
@@ -9505,7 +9505,8 @@
     "field": "knowledge",
     "subfield": "Knowledge Graph Embedding",
     "note": "KG埋め込みモデルとグラフ構造の関係を初めて包括的に整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 2
   },
   {
     "title": "Negative Sampling in Knowledge Graph Representation Learning: A Review",
@@ -9519,7 +9520,8 @@
     "field": "knowledge",
     "subfield": "Knowledge Graph Embedding",
     "note": "KG表現学習における負例サンプリング手法を体系的に整理したレビュー。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 14
   },
   {
     "title": "A Benchmark and Comprehensive Survey on Knowledge Graph Entity Alignment via Representation Learning",
@@ -9533,7 +9535,8 @@
     "field": "knowledge",
     "subfield": "Entity Alignment",
     "note": "表現学習による知識グラフのエンティティアラインメント手法のベンチマーク付き総覧。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 93
   },
   {
     "title": "Ontology Embedding: A Survey of Methods, Applications and Resources",
@@ -9547,7 +9550,8 @@
     "field": "knowledge",
     "subfield": "Ontology Embedding",
     "note": "オントロジー埋め込みの手法・応用・リソースを整理した初の包括サーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 28
   },
   {
     "title": "Complex Knowledge Base Question Answering: A Survey",
@@ -9561,7 +9565,8 @@
     "field": "knowledge",
     "subfield": "Knowledge Base Question Answering",
     "note": "複雑な質問に対するKBQAを意味解析型と情報検索型に分けて整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 135
   },
   {
     "title": "Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities",
@@ -9575,7 +9580,8 @@
     "field": "knowledge",
     "subfield": "Knowledge Graph Question Answering",
     "note": "LLMと知識グラフを統合したKGQA手法を新たな分類体系で整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 28
   },
   {
     "title": "Graph Retrieval-Augmented Generation: A Survey",
@@ -9589,7 +9595,8 @@
     "field": "knowledge",
     "subfield": "Graph Retrieval-Augmented Generation",
     "note": "知識グラフを用いたGraphRAGの手法を初めて包括的に整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 418
   },
   {
     "title": "How Good Are Multi-dimensional Learned Indices? An Experimental Survey",
@@ -9603,7 +9610,8 @@
     "field": "database",
     "subfield": "Learned Index",
     "note": "6種の多次元学習型索引を統一環境で比較評価した実験的サーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 7
   },
   {
     "title": "Are We Ready For Learned Cardinality Estimation?",
@@ -9617,7 +9625,8 @@
     "field": "database",
     "subfield": "Cardinality Estimation",
     "note": "学習型カーディナリティ推定5手法と従来8手法を比較した実験的サーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 156
   },
   {
     "title": "Data Lakes: A Survey of Functions and Systems",
@@ -9631,7 +9640,8 @@
     "field": "database",
     "subfield": "Data Lake",
     "note": "データレイクの発展・アーキテクチャ・システムを整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 105
   },
   {
     "title": "Time Series Management Systems: A Survey",
@@ -9645,7 +9655,8 @@
     "field": "database",
     "subfield": "Time Series Database",
     "note": "時系列管理システム(TSMS)の保存・問い合わせ・ストリーム処理機能を分類した総覧。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 198
   },
   {
     "title": "A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge",
@@ -9659,7 +9670,8 @@
     "field": "database",
     "subfield": "Vector Database",
     "note": "ベクトルDBの保存・検索技術と課題を体系的にまとめたサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 122
   },
   {
     "title": "A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions",
@@ -9673,7 +9685,8 @@
     "field": "database",
     "subfield": "Text-to-SQL",
     "note": "深層学習によるText-to-SQL構文解析の概念・手法・将来方向を整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 96
   },
   {
     "title": "Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey",
@@ -9687,7 +9700,8 @@
     "field": "database",
     "subfield": "Text-to-SQL",
     "note": "24のニューラルモデルと11データセットを整理したText-to-SQLサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 26
   },
   {
     "title": "Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL",
@@ -9701,7 +9715,8 @@
     "field": "database",
     "subfield": "Text-to-SQL",
     "note": "LLMベースのText-to-SQL研究を包括的にレビューしたサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 220
   },
   {
     "title": "Neural Networks for Entity Matching: A Survey",
@@ -9715,7 +9730,8 @@
     "field": "database",
     "subfield": "Entity Matching",
     "note": "ニューラルネットワークによるエンティティマッチング手法を工程別に整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 137
   },
   {
     "title": "Spatiotemporal Data Mining: A Survey",
@@ -9729,7 +9745,8 @@
     "field": "data-mining",
     "subfield": "Spatiotemporal Data Mining",
     "note": "時空間データマイニング手法を6つの出力パターン族と並列定式化で整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 9
   },
   {
     "title": "Advances in Process Optimization: A Comprehensive Survey of Process Mining, Predictive Process Monitoring, and Process-Aware Recommender Systems",
@@ -9743,7 +9760,8 @@
     "field": "data-mining",
     "subfield": "Process Mining",
     "note": "プロセスマイニング・予測的プロセス監視・プロセス対応推薦を包括的に整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 2
   },
   {
     "title": "Deep Learning for Predictive Business Process Monitoring: Review and Benchmark",
@@ -9757,7 +9775,8 @@
     "field": "data-mining",
     "subfield": "Process Mining",
     "note": "予測的ビジネスプロセス監視の深層学習10手法を12ログで比較したレビュー兼ベンチマーク。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 126
   },
   {
     "title": "Educational data mining and learning analytics: An updated survey",
@@ -9771,7 +9790,8 @@
     "field": "data-mining",
     "subfield": "Educational Data Mining",
     "note": "教育データマイニングと学習分析の最新動向を2013年版から更新したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 893
   },
   {
     "title": "A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining",
@@ -9785,7 +9805,8 @@
     "field": "data-mining",
     "subfield": "Educational Data Mining",
     "note": "知識追跡・行動検出・成績予測・推薦の4場面での教育データマイニング深層学習を整理。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 46
   },
   {
     "title": "Concept Drift Adaptation in Text Stream Mining Settings: A Systematic Review",
@@ -9799,7 +9820,8 @@
     "field": "data-mining",
     "subfield": "Concept Drift",
     "note": "テキストストリームにおける概念ドリフト適応を48文献で整理した体系的レビュー。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 12
   },
   {
     "title": "A Brief Survey of Text Mining: Classification, Clustering and Extraction Techniques",
@@ -9813,7 +9835,8 @@
     "field": "data-mining",
     "subfield": "Text Mining",
     "note": "テキストマイニングの分類・クラスタリング・抽出技術を概観したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 565
   },
   {
     "title": "Influence Maximization in Social Networks: A Survey",
@@ -9827,7 +9850,8 @@
     "field": "data-mining",
     "subfield": "Social Mining",
     "note": "ソーシャルネットワークにおける影響最大化問題の拡散モデルとアルゴリズムを整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 10
   },
   {
     "title": "Automatic Rumor Detection on Microblogs: A Survey",
@@ -9841,7 +9865,8 @@
     "field": "data-mining",
     "subfield": "Social Mining",
     "note": "マイクロブログ上の自動デマ検出を特徴量・伝播・ニューラルの3系統で整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 91
   },
   {
     "title": "Graph Anomaly Detection in Time Series: A Survey",
@@ -9855,7 +9880,8 @@
     "field": "data-mining",
     "subfield": "Graph Anomaly Detection",
     "note": "時系列に対するグラフベース異常検知(G-TSAD)を包括的に整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 29
   },
   {
     "title": "A Survey on Explainable Anomaly Detection",
@@ -9869,7 +9895,8 @@
     "field": "data-mining",
     "subfield": "Explainable Anomaly Detection",
     "note": "説明可能な異常検知手法を分類体系付きで包括的に整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 177
   },
   {
     "title": "Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval with Multilingual LLMs",
@@ -9883,7 +9910,8 @@
     "field": "ir",
     "subfield": "Cross-Lingual IR",
     "note": "翻訳ベースから埋め込み・生成型まで多言語LLMによるクロスリンガルIRを概観したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 4
   },
   {
     "title": "A Comprehensive Survey on Cross-modal Retrieval",
@@ -9897,7 +9925,8 @@
     "field": "ir",
     "subfield": "Cross-modal Retrieval",
     "note": "クロスモーダル検索を実数値表現学習と二値表現学習に分けて整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 329
   },
   {
     "title": "Explainable Information Retrieval: A Survey",
@@ -9911,7 +9940,8 @@
     "field": "ir",
     "subfield": "Explainable IR",
     "note": "説明可能な情報検索手法を統一的枠組みで分類・整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 39
   },
   {
     "title": "A Survey of Model Architectures in Information Retrieval",
@@ -9925,7 +9955,8 @@
     "field": "ir",
     "subfield": "Neural IR Architectures",
     "note": "情報検索におけるモデルアーキテクチャの進化を密/疎/BM25を統一的観点で整理したサーベイ。",
-    "_src": "wave2_kg_db.json"
+    "_src": "wave2_kg_db.json",
+    "citations": 25
   },
   {
     "title": "A Survey on Speech Large Language Models for Understanding",
@@ -9939,7 +9970,8 @@
     "field": "speech",
     "subfield": "Speech LLM / Audio Foundation Models",
     "note": "音声理解向け音声大規模言語モデルのアーキテクチャと学習戦略を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 87
   },
   {
     "title": "Audio-Language Models for Audio-Centric Tasks: A Systematic Survey",
@@ -9953,7 +9985,8 @@
     "field": "speech",
     "subfield": "Audio Foundation Models",
     "note": "音声中心タスク向け音声言語モデル（audio-language models）を体系的に俯瞰した最新サーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 1
   },
   {
     "title": "WavChat: A Survey of Spoken Dialogue Models",
@@ -9970,7 +10003,8 @@
     "_src": "wave2_thin.json",
     "github_stars": 317,
     "github_pushed": "2024-11-28T06:10:40Z",
-    "github_archived": false
+    "github_archived": false,
+    "citations": 98
   },
   {
     "title": "A Survey on Spoken Language Understanding: Recent Advances and New Frontiers",
@@ -9984,7 +10018,8 @@
     "field": "speech",
     "subfield": "Spoken Language Understanding (SLU)",
     "note": "音声言語理解(SLU)の単一/結合モデルや事前学習パラダイムを整理した定番サーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 120
   },
   {
     "title": "A Survey of Multilingual Models for Automatic Speech Recognition",
@@ -9998,7 +10033,8 @@
     "field": "speech",
     "subfield": "Multilingual ASR",
     "note": "多言語ASRの転移学習・共同学習・自己教師あり手法とベストプラクティスをまとめたサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 52
   },
   {
     "title": "Reimagining Speech: A Scoping Review of Deep Learning-Powered Voice Conversion",
@@ -10012,7 +10048,8 @@
     "field": "speech",
     "subfield": "Voice Conversion",
     "note": "2017-2023年の123本を精査した深層学習ベース声質変換のスコーピングレビュー",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 9
   },
   {
     "title": "An Overview of Voice Conversion and its Challenges: From Statistical Modeling to Deep Learning",
@@ -10026,7 +10063,8 @@
     "field": "speech",
     "subfield": "Voice Conversion",
     "note": "声質変換を統計モデルから深層学習まで通観した定番の包括的オーバービュー",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 417
   },
   {
     "title": "Generative Adversarial Network based Voice Conversion: Techniques, Challenges, and Recent Advancements",
@@ -10040,7 +10078,8 @@
     "field": "speech",
     "subfield": "Voice Conversion",
     "note": "GANベース声質変換の手法・課題・最新動向を体系化したレビュー",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 7
   },
   {
     "title": "Advances in Small-Footprint Keyword Spotting: A Comprehensive Review of Efficient Models and Algorithms",
@@ -10054,7 +10093,8 @@
     "field": "speech",
     "subfield": "Keyword Spotting",
     "note": "小型デバイス向けキーワード検出の効率モデル・アルゴリズムを7分類で包括レビュー",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 5
   },
   {
     "title": "Sound Event Detection: A Tutorial",
@@ -10068,7 +10108,8 @@
     "field": "speech",
     "subfield": "Sound Event Detection",
     "note": "音響イベント検出(SED)の基礎・手法・評価を解説した入門チュートリアル",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 265
   },
   {
     "title": "A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning",
@@ -10082,7 +10123,8 @@
     "field": "speech",
     "subfield": "Speech Emotion Recognition",
     "note": "音声を含むマルチモーダル会話感情認識の深層学習手法を4分類で網羅したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 51
   },
   {
     "title": "Emotion Recognition and Generation: A Comprehensive Review of Face, Speech, and Text Modalities",
@@ -10096,7 +10138,8 @@
     "field": "speech",
     "subfield": "Speech Emotion Recognition",
     "note": "顔・音声・テキストにまたがる感情認識と生成の最新技術を包括的にレビュー",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 9
   },
   {
     "title": "A Survey on Practical Applications of Multi-Armed and Contextual Bandits",
@@ -10110,7 +10153,8 @@
     "field": "learning-theory",
     "subfield": "Multi-Armed Bandits",
     "note": "多腕バンディット・文脈バンディットの実応用を幅広く概観したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 141
   },
   {
     "title": "A Survey on Contextual Multi-armed Bandits",
@@ -10124,7 +10168,8 @@
     "field": "learning-theory",
     "subfield": "Multi-Armed Bandits",
     "note": "確率的・敵対的文脈バンディットの各アルゴリズムと後悔限界を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 141
   },
   {
     "title": "A Survey of Risk-Aware Multi-Armed Bandits",
@@ -10138,7 +10183,8 @@
     "field": "learning-theory",
     "subfield": "Multi-Armed Bandits",
     "note": "リスク尺度を考慮した多腕バンディット研究を統合・整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 10
   },
   {
     "title": "Introduction to Online Convex Optimization",
@@ -10152,7 +10198,8 @@
     "field": "learning-theory",
     "subfield": "Online Convex Optimization",
     "note": "オンライン凸最適化の理論とアルゴリズムを体系化した定番の入門書/サーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 2253
   },
   {
     "title": "A Modern Introduction to Online Learning",
@@ -10166,7 +10213,8 @@
     "field": "learning-theory",
     "subfield": "Online Learning",
     "note": "OMD/FTRLを軸にオンライン学習の一次・二次法を統一的に解説した入門サーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 537
   },
   {
     "title": "Online convex optimization and no-regret learning: Algorithms, guarantees and applications",
@@ -10180,7 +10228,8 @@
     "field": "learning-theory",
     "subfield": "Online Convex Optimization",
     "note": "no-regret学習の保証と応用例(計量学習・無線資源配分等)を解説するチュートリアル",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 45
   },
   {
     "title": "A Primer on PAC-Bayesian Learning",
@@ -10194,7 +10243,8 @@
     "field": "learning-theory",
     "subfield": "PAC-Bayes",
     "note": "PAC-Bayes枠組みの理論とアルゴリズム的発展を自己完結的に解説した入門サーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 238
   },
   {
     "title": "A Comprehensive Guide to Differential Privacy: From Theory to User Expectations",
@@ -10208,7 +10258,8 @@
     "field": "learning-theory",
     "subfield": "Differential Privacy Theory",
     "note": "微分プライバシーの理論基盤・メカニズム・応用を網羅した包括ガイド",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 2
   },
   {
     "title": "Fairness in Machine Learning: A Survey",
@@ -10222,7 +10273,8 @@
     "field": "learning-theory",
     "subfield": "Fairness Theory",
     "note": "機械学習の公平性を前処理/学習中/後処理の11手法群に整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 878
   },
   {
     "title": "On the Implicit Bias in Deep-Learning Algorithms",
@@ -10236,7 +10288,8 @@
     "field": "learning-theory",
     "subfield": "Implicit Regularization",
     "note": "勾配ベース学習の暗黙的バイアス(暗黙的正則化)の主要結果を概説したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 116
   },
   {
     "title": "A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models",
@@ -10250,7 +10303,8 @@
     "field": "learning-theory",
     "subfield": "Deep Learning Theory",
     "note": "深層学習の統計理論(近似・学習ダイナミクス・生成モデル)を俯瞰したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 24
   },
   {
     "title": "Generalization in Neural Networks: A Broad Survey",
@@ -10264,7 +10318,8 @@
     "field": "learning-theory",
     "subfield": "Overparameterization / Generalization",
     "note": "過剰パラメータ化を含むニューラルネットの汎化を広範に整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 32
   },
   {
     "title": "Approximation Power of Deep Neural Networks: an explanatory mathematical survey",
@@ -10278,7 +10333,8 @@
     "field": "learning-theory",
     "subfield": "Approximation Theory / Expressive Power",
     "note": "深層ニューラルネットの近似能力(表現能力)を数学的に解説したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 5
   },
   {
     "title": "Convex Analysis and Optimization with Submodular Functions: a Tutorial",
@@ -10292,7 +10348,8 @@
     "field": "tcs",
     "subfield": "Submodular Optimization",
     "note": "劣モジュラ関数の凸解析と最適化を第一原理から解説したチュートリアル",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 40
   },
   {
     "title": "Learning with Submodular Functions: A Convex Optimization Perspective",
@@ -10306,7 +10363,8 @@
     "field": "tcs",
     "subfield": "Submodular Optimization",
     "note": "劣モジュラ関数を凸最適化の観点から学習に結びつけた定番のモノグラフ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 518
   },
   {
     "title": "Streaming and Sketching Complexity of CSPs: A survey",
@@ -10320,7 +10378,8 @@
     "field": "tcs",
     "subfield": "Streaming / Sketching Algorithms",
     "note": "ストリーミング・スケッチ計算モデルでのCSP近似解法の複雑性を概観したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 11
   },
   {
     "title": "Preference Restrictions in Computational Social Choice: A Survey",
@@ -10334,7 +10393,8 @@
     "field": "tcs",
     "subfield": "Computational Social Choice",
     "note": "単峰性など制限選好領域が計算社会選択を容易化する仕組みを整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 48
   },
   {
     "title": "Towards Human-centered Design of Explainable Artificial Intelligence (XAI): A Survey of Empirical Studies",
@@ -10348,7 +10408,8 @@
     "field": "hci",
     "subfield": "Explainable AI and Users",
     "note": "人間中心XAI設計に関する実証研究を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 7
   },
   {
     "title": "Advancing Human-Machine Teaming: Concepts, Challenges, and Applications",
@@ -10362,7 +10423,8 @@
     "field": "hci",
     "subfield": "Human-AI Teaming",
     "note": "ヒューマンマシンチーミングの分類学と信頼較正・チーム認知等を体系化したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 4
   },
   {
     "title": "A Survey of AI Reliance",
@@ -10376,7 +10438,8 @@
     "field": "hci",
     "subfield": "AI Trust and Reliance",
     "note": "AIへの依存(reliance)行動に関する研究を整理し概念枠組みを与えたサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 12
   },
   {
     "title": "Trust, distrust, and appropriate reliance in (X)AI: a survey of empirical evaluation of user trust",
@@ -10390,7 +10453,8 @@
     "field": "hci",
     "subfield": "AI Trust and Reliance",
     "note": "XAIがユーザ信頼に与える影響の実証評価を整理し分類学を提示したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 13
   },
   {
     "title": "How should my chatbot interact? A survey on human-chatbot interaction design",
@@ -10404,7 +10468,8 @@
     "field": "hci",
     "subfield": "Conversational UI",
     "note": "チャットボットの社会的特性に着目した会話型UI設計の課題と戦略を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 541
   },
   {
     "title": "The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing",
@@ -10418,7 +10483,8 @@
     "field": "hci",
     "subfield": "AI Writing Assistance",
     "note": "生成AIライティング支援の価値・便益・懸念を実験的に検証した研究",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 102
   },
   {
     "title": "Co-Writing with AI, on Human Terms: Aligning Research with User Demands Across the Writing Process",
@@ -10432,7 +10498,8 @@
     "field": "hci",
     "subfield": "AI Writing Assistance",
     "note": "執筆プロセス全体でのAI共同執筆研究をユーザ要求と対応づけて整理したレビュー",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 40
   },
   {
     "title": "Towards generalisable hate speech detection: a review on obstacles and solutions",
@@ -10446,7 +10513,8 @@
     "field": "web",
     "subfield": "Hate Speech Detection",
     "note": "ヘイトスピーチ検出モデルの汎化性の障壁と解決策を整理したレビュー",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 204
   },
   {
     "title": "A Survey on Automatic Online Hate Speech Detection in Low-Resource Languages",
@@ -10460,7 +10528,8 @@
     "field": "web",
     "subfield": "Hate Speech Detection",
     "note": "低資源言語のオンラインヘイトスピーチ検出のデータ・特徴・手法を概観したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 8
   },
   {
     "title": "Social Media Bot Detection Research: Review of Literature",
@@ -10474,7 +10543,8 @@
     "field": "web",
     "subfield": "Bot Detection",
     "note": "ソーシャルメディアのボット検出研究の手法と課題を文献レビューで整理",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 2
   },
   {
     "title": "Fake News Detection Through Graph-based Neural Networks: A Survey",
@@ -10488,7 +10558,8 @@
     "field": "web",
     "subfield": "Graph-based Fake News Detection",
     "note": "グラフベースのフェイクニュース検出手法を知識・伝播・社会文脈の3分類で整理",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 25
   },
   {
     "title": "A Survey of Link Prediction Algorithms",
@@ -10516,7 +10587,8 @@
     "field": "web",
     "subfield": "Recommendation Fairness",
     "note": "公平性配慮型推薦システムをシナリオ別に分類し信頼性原則と結びつけたサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 77
   },
   {
     "title": "Fairness and Diversity in Recommender Systems: A Survey",
@@ -10530,7 +10602,8 @@
     "field": "web",
     "subfield": "Recommendation Fairness",
     "note": "推薦における公平性と多様性の関係を統合的に整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 113
   },
   {
     "title": "A Survey of Decomposition-Based Evolutionary Multi-Objective Optimization: Part I-Past and Future",
@@ -10544,7 +10617,8 @@
     "field": "evolutionary",
     "subfield": "Evolutionary Multi-Objective Optimization",
     "note": "MOEA/Dを代表に分解ベース進化的多目的最適化の発展を概観したサーベイ(Part I)",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 0
   },
   {
     "title": "A Survey on Learnable Evolutionary Algorithms for Scalable Multiobjective Optimization",
@@ -10558,7 +10632,8 @@
     "field": "evolutionary",
     "subfield": "Large-Scale Evolutionary Optimization",
     "note": "スケールアップ多目的最適化向け学習可能な進化的アルゴリズムを4方向で概観",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 102
   },
   {
     "title": "Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives",
@@ -10572,7 +10647,8 @@
     "field": "evolutionary",
     "subfield": "Swarm Intelligence (PSO)",
     "note": "PSOの歴史的・最新の発展とハイブリッド化の観点を網羅したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 475
   },
   {
     "title": "A Recent Survey on the Applications of Genetic Programming in Image Processing",
@@ -10586,7 +10662,8 @@
     "field": "evolutionary",
     "subfield": "Genetic Programming",
     "note": "画像処理における遺伝的プログラミングの応用(分類・特徴選択等)を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 38
   },
   {
     "title": "Quantum-Inspired Evolutionary Algorithms for Feature Subset Selection: A Comprehensive Survey",
@@ -10600,7 +10677,8 @@
     "field": "evolutionary",
     "subfield": "Evolutionary Feature Selection",
     "note": "量子インスパイア進化的アルゴリズムによる特徴部分集合選択を網羅したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 14
   },
   {
     "title": "A Survey on LLM-as-a-Judge",
@@ -10614,7 +10692,8 @@
     "field": "data-eval",
     "subfield": "LLM-as-Judge Evaluation",
     "note": "LLM-as-a-Judgeの信頼性向上(一貫性・バイアス緩和等)の戦略を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 1407
   },
   {
     "title": "Benchmark Data Contamination of Large Language Models: A Survey",
@@ -10628,7 +10707,8 @@
     "field": "data-eval",
     "subfield": "Benchmark Contamination",
     "note": "LLMのベンチマーク汚染問題と検出・緩和手法を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 120
   },
   {
     "title": "A Survey on Data Contamination for Large Language Models",
@@ -10642,7 +10722,8 @@
     "field": "data-eval",
     "subfield": "Benchmark Contamination",
     "note": "データ汚染の定義・影響と汚染フリー評価手法(更新/書換/予防)を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 28
   },
   {
     "title": "A Survey on Data Synthesis and Augmentation for Large Language Models",
@@ -10656,7 +10737,8 @@
     "field": "data-eval",
     "subfield": "Synthetic Data Generation",
     "note": "LLMのライフサイクル全体にわたるデータ合成・拡張技術を整理したサーベイ",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 46
   },
   {
     "title": "Synthetic Data Generation Using Large Language Models: Advances in Text and Code",
@@ -10670,7 +10752,8 @@
     "field": "data-eval",
     "subfield": "Synthetic Data Generation",
     "note": "LLMによるテキスト・コードの合成データ生成手法(プロンプト/RAG/自己改良)を概観",
-    "_src": "wave2_thin.json"
+    "_src": "wave2_thin.json",
+    "citations": 84
   },
   {
     "title": "A Survey on 3D Gaussian Splatting",
@@ -10687,7 +10770,8 @@
     "_src": "wave3_cv.json",
     "github_stars": 91,
     "github_pushed": "2026-01-18T01:13:21Z",
-    "github_archived": false
+    "github_archived": false,
+    "citations": 334
   },
   {
     "title": "Advances in Neural Rendering",
@@ -10701,7 +10785,8 @@
     "field": "cv",
     "subfield": "Neural Rendering",
     "note": "ニューラルレンダリングの進展を包括的にまとめたstate-of-the-artレポート",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 544
   },
   {
     "title": "Deep Learning for Video-based Person Re-Identification: A Survey",
@@ -10715,7 +10800,8 @@
     "field": "cv",
     "subfield": "Person Re-identification",
     "note": "動画ベース人物再同定の深層学習手法を整理したサーベイ",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 10
   },
   {
     "title": "Deep Learning-Based Multi-Object Tracking: A Comprehensive Survey from Foundations to State-of-the-Art",
@@ -10729,7 +10815,8 @@
     "field": "cv",
     "subfield": "Multi-Object Tracking",
     "note": "深層学習による多物体追跡を基礎から最新手法まで包括的に整理",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 7
   },
   {
     "title": "A Survey on Deep Learning-based Single Image Crowd Counting: Network Design, Loss Function and Supervisory Signal",
@@ -10743,7 +10830,8 @@
     "field": "cv",
     "subfield": "Crowd Counting",
     "note": "単一画像群衆カウントをネットワーク設計・損失・監督信号の観点で整理",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 30
   },
   {
     "title": "Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark",
@@ -10757,7 +10845,8 @@
     "field": "cv",
     "subfield": "Gaze Estimation",
     "note": "外観ベース視線推定の深層学習手法のレビューとベンチマーク",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 249
   },
   {
     "title": "Deep Gait Recognition: A Survey",
@@ -10771,7 +10860,8 @@
     "field": "cv",
     "subfield": "Gait Recognition",
     "note": "歩容認識の深層学習手法・データセット・課題を体系的に整理",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 261
   },
   {
     "title": "Deep Facial Expression Recognition: A Survey",
@@ -10785,7 +10875,8 @@
     "field": "cv",
     "subfield": "Facial Expression Recognition",
     "note": "深層表情認識(FER)の標準パイプライン・データセット・課題を整理",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 1647
   },
   {
     "title": "Deep Learning for Micro-expression Recognition: A Survey",
@@ -10799,7 +10890,8 @@
     "field": "cv",
     "subfield": "Facial Expression Recognition",
     "note": "微表情認識の深層学習手法・データセット・ベンチマークを整理",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 135
   },
   {
     "title": "A Review of Human-Object Interaction Detection",
@@ -10813,7 +10905,8 @@
     "field": "cv",
     "subfield": "Human-Object Interaction",
     "note": "HOI検出の2段階・1段階・Transformer手法を包括的にレビュー",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 11
   },
   {
     "title": "Scene Graph Generation: A Comprehensive Survey",
@@ -10827,7 +10920,8 @@
     "field": "cv",
     "subfield": "Scene Graph Generation",
     "note": "シーングラフ生成の138本を特徴表現・精緻化の観点で整理した包括サーベイ",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 159
   },
   {
     "title": "A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook",
@@ -10841,7 +10935,8 @@
     "field": "cv",
     "subfield": "Image Quality Assessment",
     "note": "画質評価(IQA)の統計手法からCNN/Transformerまでを整理した最新サーベイ",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 15
   },
   {
     "title": "Diffusion Models, Image Super-Resolution And Everything: A Survey",
@@ -10855,7 +10950,8 @@
     "field": "cv",
     "subfield": "Super-Resolution",
     "note": "拡散モデルによる画像超解像の進化と動向を詳述したサーベイ",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 140
   },
   {
     "title": "Video Super Resolution Based on Deep Learning: A Comprehensive Survey",
@@ -10869,7 +10965,8 @@
     "field": "cv",
     "subfield": "Super-Resolution",
     "note": "動画超解像の深層学習33手法をフレーム間情報利用法で分類した包括サーベイ",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 220
   },
   {
     "title": "Low-Light Image and Video Enhancement Using Deep Learning: A Survey",
@@ -10886,7 +10983,8 @@
     "_src": "wave3_cv.json",
     "github_stars": 154,
     "github_pushed": "2024-10-09T19:47:17Z",
-    "github_archived": false
+    "github_archived": false,
+    "citations": 550
   },
   {
     "title": "A Comprehensive Survey and Taxonomy on Single Image Dehazing Based on Deep Learning",
@@ -10900,7 +10998,8 @@
     "field": "cv",
     "subfield": "Image Dehazing",
     "note": "単一画像デヘイズの深層学習手法を分類学とともに包括的に整理",
-    "_src": "wave3_cv.json"
+    "_src": "wave3_cv.json",
+    "citations": 98
   },
   {
     "title": "Towards Unified Deep Image Deraining: A Survey and A New Benchmark",
@@ -13582,5 +13681,993 @@
     "note": "ARC-AGIの3世代ベンチと82手法を横断分析しプログラム合成/ニューロシンボリック/ニューラルの限界を示した生きたサーベイ",
     "_src": "wave3_thin2.json",
     "citations": 0
+  },
+  {
+    "title": "A Survey on Transfer Learning",
+    "authors": "Sinno Jialin Pan et al.",
+    "venue": "IEEE TKDE",
+    "year": 2010,
+    "paper": "https://doi.org/10.1109/TKDE.2009.191",
+    "arxiv": null,
+    "github": null,
+    "page": null,
+    "field": "ml",
+    "subfield": "Transfer Learning",
+    "note": "転移学習分野の元祖的定番サーベイ。被引用2万超で未収録だった決定版。",
+    "_src": "wave4_gaps.json"
+  },
+  {
+    "title": "Representation Learning: A Review and New Perspectives",
+    "authors": "Yoshua Bengio et al.",
+    "venue": "IEEE TPAMI",
+    "year": 2013,
+    "paper": "https://arxiv.org/abs/1206.5538",
+    "arxiv": "1206.5538",
+    "github": null,
+    "page": null,
+    "field": "ml",
+    "subfield": "Representation Learning",
+    "note": "表現学習・深層学習の古典的レビュー。被引用1万超の超定番で未収録だった。",
+    "_src": "wave4_gaps.json",
+    "citations": 13850
+  },
+  {
+    "title": "Deep Learning in Neural Networks: An Overview",
+    "authors": "Juergen Schmidhuber",
+    "venue": "Neural Networks",
+    "year": 2015,
+    "paper": "https://arxiv.org/abs/1404.7828",
+    "arxiv": "1404.7828",
+    "github": null,
+    "page": null,
+    "field": "neural-nets",
+    "subfield": "Deep Learning Overview",
+    "note": "深層学習の歴史と全体像を網羅したSchmidhuberの大型レビュー。超高被引用。",
+    "_src": "wave4_gaps.json",
+    "citations": 17500
+  },
+  {
+    "title": "Generative Adversarial Networks in Computer Vision: A Survey and Taxonomy",
+    "authors": "Zhengwei Wang et al.",
+    "venue": "ACM Computing Surveys",
+    "year": 2021,
+    "paper": "https://arxiv.org/abs/1906.01529",
+    "arxiv": "1906.01529",
+    "github": null,
+    "page": null,
+    "field": "genai",
+    "subfield": "GAN",
+    "note": "GANの分類体系を整理した高被引用サーベイ。CV応用を体系化。",
+    "_src": "wave4_gaps.json",
+    "citations": 92
+  },
+  {
+    "title": "NIPS 2016 Tutorial: Generative Adversarial Networks",
+    "authors": "Ian Goodfellow",
+    "venue": "NIPS Tutorial",
+    "year": 2016,
+    "paper": "https://arxiv.org/abs/1701.00160",
+    "arxiv": "1701.00160",
+    "github": null,
+    "page": null,
+    "field": "genai",
+    "subfield": "GAN",
+    "note": "GAN提案者本人によるNIPSチュートリアル。GAN理論の定番入門で超高被引用。",
+    "_src": "wave4_gaps.json",
+    "citations": 1812
+  },
+  {
+    "title": "Generative Adversarial Networks: Challenges, Solutions, and Future Directions",
+    "authors": "Divya Saxena et al.",
+    "venue": "ACM Computing Surveys",
+    "year": 2021,
+    "paper": "https://arxiv.org/abs/2005.00065",
+    "arxiv": "2005.00065",
+    "github": null,
+    "page": null,
+    "field": "genai",
+    "subfield": "GAN",
+    "note": "GANの学習困難性と解決策・将来課題を整理した定番サーベイ。",
+    "_src": "wave4_gaps.json",
+    "citations": 452
+  },
+  {
+    "title": "A Survey of Methods for Explaining Black Box Models",
+    "authors": "Riccardo Guidotti et al.",
+    "venue": "ACM Computing Surveys",
+    "year": 2018,
+    "paper": "https://arxiv.org/abs/1802.01933",
+    "arxiv": "1802.01933",
+    "github": null,
+    "page": null,
+    "field": "trustworthy",
+    "subfield": "Explainable AI (XAI)",
+    "note": "XAIの分類体系を確立した被引用数千超の決定版サーベイ。未収録だった。",
+    "_src": "wave4_gaps.json",
+    "citations": 4924
+  },
+  {
+    "title": "A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications",
+    "authors": "Hongyun Cai et al.",
+    "venue": "IEEE TKDE",
+    "year": 2018,
+    "paper": "https://arxiv.org/abs/1709.07604",
+    "arxiv": "1709.07604",
+    "github": null,
+    "page": null,
+    "field": "gnn",
+    "subfield": "Graph Embedding",
+    "note": "グラフ埋め込みの問題・手法・応用を体系化した高被引用の定番。",
+    "_src": "wave4_gaps.json",
+    "citations": 1950
+  },
+  {
+    "title": "Graph Embedding Techniques, Applications, and Performance: A Survey",
+    "authors": "Palash Goyal et al.",
+    "venue": "Knowledge-Based Systems",
+    "year": 2018,
+    "paper": "https://arxiv.org/abs/1705.02801",
+    "arxiv": "1705.02801",
+    "github": null,
+    "page": null,
+    "field": "gnn",
+    "subfield": "Graph Embedding",
+    "note": "グラフ埋め込み手法の性能比較を含む定番サーベイ。Cai版と並ぶ古典。",
+    "_src": "wave4_gaps.json",
+    "citations": 1819
+  },
+  {
+    "title": "A Survey of Optimization Methods from a Machine Learning Perspective",
+    "authors": "Shiliang Sun et al.",
+    "venue": "IEEE Transactions on Cybernetics",
+    "year": 2020,
+    "paper": "https://arxiv.org/abs/1906.06821",
+    "arxiv": "1906.06821",
+    "github": null,
+    "page": null,
+    "field": "ml",
+    "subfield": "Optimization",
+    "note": "機械学習視点での最適化手法を体系的に整理した高被引用サーベイ。",
+    "_src": "wave4_gaps.json",
+    "citations": 660
+  },
+  {
+    "title": "Domain Adaptation for Visual Applications: A Comprehensive Survey",
+    "authors": "Gabriela Csurka",
+    "venue": "Springer (book chapter)",
+    "year": 2017,
+    "paper": "https://arxiv.org/abs/1702.05374",
+    "arxiv": "1702.05374",
+    "github": null,
+    "page": null,
+    "field": "cv",
+    "subfield": "Domain Adaptation",
+    "note": "視覚タスク向けドメイン適応の包括的サーベイ。CV分野の定番。",
+    "_src": "wave4_gaps.json",
+    "citations": 548
+  },
+  {
+    "title": "A Survey of Unsupervised Deep Domain Adaptation",
+    "authors": "Garrett Wilson et al.",
+    "venue": "ACM TIST",
+    "year": 2020,
+    "paper": "https://arxiv.org/abs/1812.02849",
+    "arxiv": "1812.02849",
+    "github": null,
+    "page": null,
+    "field": "ml",
+    "subfield": "Domain Adaptation",
+    "note": "教師なし深層ドメイン適応の高被引用サーベイ。手法分類が定番。",
+    "_src": "wave4_gaps.json",
+    "citations": 996
+  },
+  {
+    "title": "Survey of Dropout Methods for Deep Neural Networks",
+    "authors": "Alex Labach et al.",
+    "venue": "arXiv",
+    "year": 2019,
+    "paper": "https://arxiv.org/abs/1904.13310",
+    "arxiv": "1904.13310",
+    "github": null,
+    "page": null,
+    "field": "neural-nets",
+    "subfield": "Regularization / Dropout",
+    "note": "Dropout系正則化手法を網羅した数少ない専門サーベイ。未収録だった。",
+    "_src": "wave4_gaps.json",
+    "citations": 174
+  },
+  {
+    "title": "Self-supervised Learning: Generative or Contrastive",
+    "authors": "Xiao Liu et al.",
+    "venue": "IEEE TKDE",
+    "year": 2021,
+    "paper": "https://arxiv.org/abs/2006.08218",
+    "arxiv": "2006.08218",
+    "github": null,
+    "page": null,
+    "field": "ml",
+    "subfield": "Self-Supervised Learning",
+    "note": "自己教師あり学習を生成系と対照系で大別した高被引用の決定版。",
+    "_src": "wave4_gaps.json",
+    "citations": 2153
+  },
+  {
+    "title": "Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey",
+    "authors": "Longlong Jing et al.",
+    "venue": "IEEE TPAMI",
+    "year": 2021,
+    "paper": "https://arxiv.org/abs/1902.06162",
+    "arxiv": "1902.06162",
+    "github": null,
+    "page": null,
+    "field": "cv",
+    "subfield": "Self-Supervised Learning",
+    "note": "視覚特徴の自己教師あり学習を体系化した高被引用サーベイ。",
+    "_src": "wave4_gaps.json",
+    "citations": 1998
+  },
+  {
+    "title": "Variational Inference: A Review for Statisticians",
+    "authors": "David M. Blei et al.",
+    "venue": "JASA",
+    "year": 2017,
+    "paper": "https://arxiv.org/abs/1601.00670",
+    "arxiv": "1601.00670",
+    "github": null,
+    "page": null,
+    "field": "ml",
+    "subfield": "Variational Inference",
+    "note": "変分推論の標準的レビュー。VAE等の基盤として超高被引用。未収録だった。",
+    "_src": "wave4_gaps.json",
+    "citations": 5693
+  },
+  {
+    "title": "Curriculum Learning: A Survey",
+    "authors": "Petru Soviany et al.",
+    "venue": "IJCV",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2101.10382",
+    "arxiv": "2101.10382",
+    "github": null,
+    "page": null,
+    "field": "ml",
+    "subfield": "Curriculum Learning",
+    "note": "カリキュラム学習の分野横断的な定番サーベイ。RL以外も網羅。",
+    "_src": "wave4_gaps.json",
+    "citations": 551
+  },
+  {
+    "title": "Speech Recognition Using Deep Neural Networks: A Systematic Review",
+    "authors": "Ali Bou Nassif et al.",
+    "venue": "IEEE Access",
+    "year": 2019,
+    "paper": "https://doi.org/10.1109/ACCESS.2019.2896880",
+    "arxiv": null,
+    "github": null,
+    "page": null,
+    "field": "speech",
+    "subfield": "Automatic Speech Recognition (ASR)",
+    "note": "深層音声認識の体系的レビュー。174論文を統計分析した高被引用の定番。",
+    "_src": "wave4_gaps.json"
+  },
+  {
+    "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+    "authors": "Vivienne Sze et al.",
+    "venue": "Proceedings of the IEEE",
+    "year": 2017,
+    "paper": "https://arxiv.org/abs/1703.09039",
+    "arxiv": "1703.09039",
+    "github": null,
+    "page": null,
+    "field": "ml",
+    "subfield": "Efficient Inference / Hardware",
+    "note": "DNNの効率的処理(ハードウェア含む)を網羅したSzeの超高被引用チュートリアル。",
+    "_src": "wave4_gaps.json",
+    "citations": 3594
+  },
+  {
+    "title": "Deep Learning for Anomaly Detection: A Survey",
+    "authors": "Raghavendra Chalapathy et al.",
+    "venue": "arXiv",
+    "year": 2019,
+    "paper": "https://arxiv.org/abs/1901.03407",
+    "arxiv": "1901.03407",
+    "github": null,
+    "page": null,
+    "field": "data-mining",
+    "subfield": "Anomaly Detection",
+    "note": "深層異常検知の初期定番サーベイ。被引用数千超で未収録だった。",
+    "_src": "wave4_gaps.json",
+    "citations": 1804
+  },
+  {
+    "title": "Recent Advances in Recurrent Neural Networks",
+    "authors": "Hojjat Salehinejad et al.",
+    "venue": "arXiv",
+    "year": 2018,
+    "paper": "https://arxiv.org/abs/1801.01078",
+    "arxiv": "1801.01078",
+    "github": null,
+    "page": null,
+    "field": "neural-nets",
+    "subfield": "RNN / LSTM",
+    "note": "RNNの基礎と最新動向を整理したレビュー。系列モデルの定番入門。",
+    "_src": "wave4_gaps.json",
+    "citations": 728
+  },
+  {
+    "title": "Word Embeddings: A Survey",
+    "authors": "Felipe Almeida et al.",
+    "venue": "arXiv",
+    "year": 2019,
+    "paper": "https://arxiv.org/abs/1901.09069",
+    "arxiv": "1901.09069",
+    "github": null,
+    "page": null,
+    "field": "nlp",
+    "subfield": "Word Embeddings",
+    "note": "単語埋め込み手法を整理した簡潔な定番サーベイ。NLP基礎の未収録枠。",
+    "_src": "wave4_gaps.json",
+    "citations": 243
+  },
+  {
+    "title": "A Survey of the Usages of Deep Learning in Natural Language Processing",
+    "authors": "Daniel W. Otter et al.",
+    "venue": "IEEE TNNLS",
+    "year": 2021,
+    "paper": "https://arxiv.org/abs/1807.10854",
+    "arxiv": "1807.10854",
+    "github": null,
+    "page": null,
+    "field": "nlp",
+    "subfield": "Deep Learning for NLP (Overview)",
+    "note": "NLPにおける深層学習応用を横断的に概観した高被引用サーベイ。",
+    "_src": "wave4_gaps.json",
+    "citations": 12
+  },
+  {
+    "title": "Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems",
+    "authors": "Jared Willard et al.",
+    "venue": "ACM Computing Surveys",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2003.04919",
+    "arxiv": "2003.04919",
+    "github": null,
+    "page": null,
+    "field": "ai4science",
+    "subfield": "Physics-Guided / Scientific ML",
+    "note": "物理知識と機械学習の統合手法を体系化した科学ML分野の定番サーベイ。",
+    "_src": "wave4_gaps.json",
+    "citations": 660
+  },
+  {
+    "title": "Convex Optimization: Algorithms and Complexity",
+    "authors": "Sébastien Bubeck",
+    "venue": "Foundations and Trends in Machine Learning",
+    "year": 2015,
+    "paper": "https://arxiv.org/abs/1405.4980",
+    "arxiv": "1405.4980",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Convex Optimization Theory",
+    "note": "機械学習向け凸最適化の主要な複雑性定理とアルゴリズム(勾配法/ミラー降下/確率的最適化)を体系化したモノグラフ",
+    "_src": "wave4_thin3.json",
+    "citations": 116
+  },
+  {
+    "title": "End-to-End Constrained Optimization Learning: A Survey",
+    "authors": "James Kotary et al.",
+    "venue": "IJCAI",
+    "year": 2021,
+    "paper": "https://arxiv.org/abs/2103.16378",
+    "arxiv": "2103.16378",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Constrained Optimization Learning",
+    "note": "制約付き最適化を機械学習で解く取り組みを組合せソルバ統合の観点で整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 255
+  },
+  {
+    "title": "Differential Privacy in Machine Learning: A Survey from Symbolic AI to LLMs",
+    "authors": "Francisco Aguilera-Martínez et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2506.11687",
+    "arxiv": "2506.11687",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Differential Privacy Theory",
+    "note": "差分プライバシーの基礎定義から機械学習・LLMへの統合まで理論的発展を辿ったサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 2
+  },
+  {
+    "title": "Fair Division: The Computer Scientist's Perspective",
+    "authors": "Toby Walsh",
+    "venue": "IJCAI",
+    "year": 2020,
+    "paper": "https://arxiv.org/abs/2005.04855",
+    "arxiv": "2005.04855",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Fair Division",
+    "note": "不可分財の公平分割問題を計算機科学の視点から効率性と公平性の両面で整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 40
+  },
+  {
+    "title": "Fair Division of Indivisible Goods: A Survey",
+    "authors": "Georgios Amanatidis et al.",
+    "venue": "IJCAI",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2202.07551",
+    "arxiv": "2202.07551",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Fair Division",
+    "note": "MMS/EFXなど不可分財の公平性概念の存在性と計算可能性に関する計算論的問題を整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 94
+  },
+  {
+    "title": "Empirical Game-Theoretic Analysis: A Survey",
+    "authors": "Michael P. Wellman et al.",
+    "venue": "JAIR",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2403.04018",
+    "arxiv": "2403.04018",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Algorithmic Game Theory",
+    "note": "経験的ゲーム理論解析(EGTA)の手法を構成サブ問題ごとに整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 37
+  },
+  {
+    "title": "Review of Mathematical Optimization in Federated Learning",
+    "authors": "Shusen Yang et al.",
+    "venue": "arXiv",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2412.01630",
+    "arxiv": "2412.01630",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Federated Optimization Theory",
+    "note": "連邦学習の最適化を仮定・定式化・手法・収束理論の観点で体系的にレビューした論文",
+    "_src": "wave4_thin3.json",
+    "citations": 6
+  },
+  {
+    "title": "Survey of Distributed Algorithms for Resource Allocation over Multi-Agent Systems",
+    "authors": "Mohammadreza Doostmohammadian et al.",
+    "venue": "arXiv",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2401.15607",
+    "arxiv": "2401.15607",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Distributed Optimization",
+    "note": "マルチエージェント系上の分散資源割当アルゴリズムを最適化・合意計算の交差点から包括分析したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 27
+  },
+  {
+    "title": "A Survey of Distributed Optimization Methods for Multi-Robot Systems",
+    "authors": "Trevor Halsted et al.",
+    "venue": "arXiv",
+    "year": 2021,
+    "paper": "https://arxiv.org/abs/2103.12840",
+    "arxiv": "2103.12840",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Distributed Optimization",
+    "note": "マルチロボット系向け分散最適化手法(C-ADMM等)を実用適合性の観点で分類評価したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 59
+  },
+  {
+    "title": "A Comprehensive Survey on Spectral Clustering with Graph Structure Learning",
+    "authors": "Kamal Berahmand et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2501.13597",
+    "arxiv": "2501.13597",
+    "github": null,
+    "page": null,
+    "field": "tcs",
+    "subfield": "Spectral Methods",
+    "note": "スペクトラルクラスタリングをグラフ構造学習の観点から包括レビューしたサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 58
+  },
+  {
+    "title": "Machine Learning Methods in Solving the Boolean Satisfiability Problem",
+    "authors": "Wenxuan Guo et al.",
+    "venue": "Machine Intelligence Research",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2203.04755",
+    "arxiv": "2203.04755",
+    "github": null,
+    "page": null,
+    "field": "ai-general",
+    "subfield": "SAT Solving and ML",
+    "note": "SAT問題を機械学習で解く研究を手作り特徴量からNeuroSATまで体系レビューしたサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 52
+  },
+  {
+    "title": "LLMs as Planning Formalizers: A Survey for Leveraging Large Language Models to Construct Automated Planning Models",
+    "authors": "Marcus Tantakoun et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2503.18971",
+    "arxiv": "2503.18971",
+    "github": null,
+    "page": null,
+    "field": "ai-general",
+    "subfield": "Automated Planning",
+    "note": "LLMで計画問題を形式化し外部プランナと連携する手法を整理したNLP-自動計画交差領域のサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 37
+  },
+  {
+    "title": "Computational Argumentation-based Chatbots: a Survey",
+    "authors": "Federico Castagna et al.",
+    "venue": "JAIR",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2401.03454",
+    "arxiv": "2401.03454",
+    "github": null,
+    "page": null,
+    "field": "ai-general",
+    "subfield": "Computational Argumentation",
+    "note": "計算論的議論モデルを統合したチャットボットの利点・限界とLLM統合の可能性を論じたサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 19
+  },
+  {
+    "title": "Neuro-Symbolic AI in 2024: A Systematic Review",
+    "authors": "Brandon C. Colelough et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2501.05435",
+    "arxiv": "2501.05435",
+    "github": null,
+    "page": null,
+    "field": "ai-general",
+    "subfield": "Neurosymbolic AI",
+    "note": "ニューロシンボリックAIの2020-2024年の研究をPRISMA手法で167本精査した体系的レビュー",
+    "_src": "wave4_thin3.json",
+    "citations": 67
+  },
+  {
+    "title": "Approaches to Artificial General Intelligence: An Analysis",
+    "authors": "Soumil Rathi",
+    "venue": "arXiv",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2202.03153",
+    "arxiv": "2202.03153",
+    "github": null,
+    "page": null,
+    "field": "ai-general",
+    "subfield": "Artificial General Intelligence",
+    "note": "脳エミュレーション/AIXI/統合認知アーキテクチャなどAGI達成手法を比較分析した論文",
+    "_src": "wave4_thin3.json",
+    "citations": 4
+  },
+  {
+    "title": "A Survey on Self-Evolution of Large Language Models",
+    "authors": "Zhengwei Tao et al.",
+    "venue": "arXiv",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2404.14387",
+    "arxiv": "2404.14387",
+    "github": null,
+    "page": null,
+    "field": "ai-general",
+    "subfield": "Self-Improving AI",
+    "note": "LLMが自己生成経験から自律的に獲得・改良・学習する自己進化手法を反復サイクルで整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 70
+  },
+  {
+    "title": "Detection of Rumors and Their Sources in Social Networks: A Comprehensive Survey",
+    "authors": "Otabek Sattarov et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2501.05292",
+    "arxiv": "2501.05292",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Rumor Detection",
+    "note": "ソーシャルネットワークにおけるルーモア検出とその発信源特定を統合的に扱った包括サーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 10
+  },
+  {
+    "title": "Social Bots: Detection and Challenges",
+    "authors": "Kai-Cheng Yang et al.",
+    "venue": "Handbook of Computational Social Science",
+    "year": 2023,
+    "paper": "https://arxiv.org/abs/2312.17423",
+    "arxiv": "2312.17423",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Social Bot Detection",
+    "note": "悪意あるソーシャルボットの実世界影響・検出課題・研究指針をBotometerを例に論じたレビュー章",
+    "_src": "wave4_thin3.json",
+    "citations": 6
+  },
+  {
+    "title": "Toxicity in Online Platforms and AI Systems: A Survey of Needs, Challenges, Mitigations, and Future Directions",
+    "authors": "Smita Khapre et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2509.25539",
+    "arxiv": "2509.25539",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Online Toxicity Detection",
+    "note": "オンライン有害性の分類体系・データセット・LLM活用検出・緩和策を多面的に整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 8
+  },
+  {
+    "title": "Toxic Memes: A Survey of Computational Perspectives on the Detection and Explanation of Meme Toxicities",
+    "authors": "Delfina Sol Martinez Pandiani et al.",
+    "venue": "arXiv",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2406.07353",
+    "arxiv": "2406.07353",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Meme Analysis",
+    "note": "ミームの有害性検出と説明に関する計算論的研究を体系化したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 18
+  },
+  {
+    "title": "Web Table Extraction, Retrieval and Augmentation: A Survey",
+    "authors": "Shuo Zhang et al.",
+    "venue": "ACM TIST",
+    "year": 2020,
+    "paper": "https://arxiv.org/abs/2002.00207",
+    "arxiv": "2002.00207",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Web Table Extraction",
+    "note": "Webテーブルの抽出・解釈・検索・QA・KB拡張の20年の研究を6カテゴリで整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 65
+  },
+  {
+    "title": "Heterogeneity in Entity Matching: A Survey and Experimental Analysis",
+    "authors": "Mohammad Hossein Moslemi et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2508.08076",
+    "arxiv": "2508.08076",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Entity Resolution",
+    "note": "エンティティマッチングにおける構造的・意味的異質性への対応手法を分類し実験的に評価したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 2
+  },
+  {
+    "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
+    "authors": "Kartik Sharma et al.",
+    "venue": "ACM Computing Surveys",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2212.04481",
+    "arxiv": "2212.04481",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "GNN for Social Networks",
+    "note": "ソーシャル推薦システム向けGNNを入力・表現・エンコーダ・損失の分類体系で整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 272
+  },
+  {
+    "title": "A Survey on Expert Recommendation in Community Question Answering",
+    "authors": "Xianzhi Wang et al.",
+    "venue": "Journal of Computer Science and Technology",
+    "year": 2018,
+    "paper": "https://arxiv.org/abs/1807.05540",
+    "arxiv": "1807.05540",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Community QA",
+    "note": "コミュニティQAにおける専門家推薦の研究と最新手法を概観したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 75
+  },
+  {
+    "title": "Quality Control in Open-Ended Crowdsourcing: A Survey",
+    "authors": "Lei Chai et al.",
+    "venue": "arXiv",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2412.03991",
+    "arxiv": "2412.03991",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Crowdsourcing Quality",
+    "note": "QA・翻訳・セグメンテーション等のオープンエンドなクラウドソーシングタスクの品質管理手法を整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 2
+  },
+  {
+    "title": "A Technical Survey on Statistical Modelling and Design Methods for Crowdsourcing Quality Control",
+    "authors": "Yuan Jin et al.",
+    "venue": "Artificial Intelligence",
+    "year": 2018,
+    "paper": "https://arxiv.org/abs/1812.02736",
+    "arxiv": "1812.02736",
+    "github": null,
+    "page": null,
+    "field": "web",
+    "subfield": "Crowdsourcing Quality",
+    "note": "クラウドソーシング品質管理の機構設計と統計モデルの2分野を橋渡しした技術的サーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 42
+  },
+  {
+    "title": "Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey on Hybrid Algorithms",
+    "authors": "Pengyi Li et al.",
+    "venue": "IEEE TEVC",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2401.11963",
+    "arxiv": "2401.11963",
+    "github": null,
+    "page": null,
+    "field": "evolutionary",
+    "subfield": "Evolutionary Reinforcement Learning",
+    "note": "進化計算と強化学習のハイブリッド(ERL)をEA支援RL/RL支援EA/協調最適化の3方向で整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 71
+  },
+  {
+    "title": "Evolutionary Multitask Optimization: a Methodological Overview, Challenges and Future Research Directions",
+    "authors": "Eneko Osaba et al.",
+    "venue": "Cognitive Computation",
+    "year": 2021,
+    "paper": "https://arxiv.org/abs/2102.02558",
+    "arxiv": "2102.02558",
+    "github": null,
+    "page": null,
+    "field": "evolutionary",
+    "subfield": "Evolutionary Transfer Optimization",
+    "note": "進化的マルチタスク最適化(転移最適化)の文献を方法論的パターンの観点で批判的に整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 81
+  },
+  {
+    "title": "A Survey on Deep Active Learning: Recent Advances and New Frontiers",
+    "authors": "Dongyuan Li et al.",
+    "venue": "IEEE TNNLS",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2405.00334",
+    "arxiv": "2405.00334",
+    "github": null,
+    "page": null,
+    "field": "data-eval",
+    "subfield": "Active Learning",
+    "note": "深層能動学習をアノテーション種別・クエリ戦略・モデル・学習パラダイム・訓練過程の5観点で分類したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 136
+  },
+  {
+    "title": "Graph Data Augmentation for Graph Machine Learning: A Survey",
+    "authors": "Tong Zhao et al.",
+    "venue": "IEEE Data Engineering Bulletin",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2202.08871",
+    "arxiv": "2202.08871",
+    "github": null,
+    "page": null,
+    "field": "data-eval",
+    "subfield": "Data Augmentation (Graph)",
+    "note": "グラフ機械学習向けのデータ拡張手法を体系的に整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 106
+  },
+  {
+    "title": "Comprehensive Exploration of Synthetic Data Generation: A Survey",
+    "authors": "André Bauer et al.",
+    "venue": "arXiv",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2401.02524",
+    "arxiv": "2401.02524",
+    "github": null,
+    "page": null,
+    "field": "data-eval",
+    "subfield": "Synthetic Data",
+    "note": "過去10年の合成データ生成モデル417件を分類しトレンドを分析したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 103
+  },
+  {
+    "title": "Machine Learning for Synthetic Data Generation: A Review",
+    "authors": "Yingzhou Lu et al.",
+    "venue": "arXiv",
+    "year": 2023,
+    "paper": "https://arxiv.org/abs/2302.04062",
+    "arxiv": "2302.04062",
+    "github": null,
+    "page": null,
+    "field": "data-eval",
+    "subfield": "Synthetic Data",
+    "note": "機械学習による合成データ生成を応用領域・深層生成モデル・プライバシ/公平性の観点で体系レビューした論文",
+    "_src": "wave4_thin3.json",
+    "citations": 281
+  },
+  {
+    "title": "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey",
+    "authors": "Lin Long et al.",
+    "venue": "ACL Findings",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2406.15126",
+    "arxiv": "2406.15126",
+    "github": null,
+    "page": null,
+    "field": "data-eval",
+    "subfield": "Synthetic Data (LLM)",
+    "note": "LLM駆動の合成データ生成・キュレーション・評価を統一ワークフローで整理したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 324
+  },
+  {
+    "title": "Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation",
+    "authors": "Maria Eriksson et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2502.06559",
+    "arxiv": "2502.06559",
+    "github": null,
+    "page": null,
+    "field": "data-eval",
+    "subfield": "Benchmark Methodology",
+    "note": "AIベンチマークの設計上の欠陥とデータ汚染・指標ゲーミング等の問題を約100本から学際的にレビューした論文",
+    "_src": "wave4_thin3.json",
+    "citations": 57
+  },
+  {
+    "title": "Detecting and Understanding Harmful Memes: A Survey",
+    "authors": "Shivam Sharma et al.",
+    "venue": "IJCAI",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2205.04274",
+    "arxiv": "2205.04274",
+    "github": null,
+    "page": null,
+    "field": "data-eval",
+    "subfield": "Multimodal Harmful Content",
+    "note": "有害ミームの検出と理解に関する研究を体系化したIJCAIサーベイトラック論文",
+    "_src": "wave4_thin3.json",
+    "citations": 108
+  },
+  {
+    "title": "Generative AI and Creativity: A Systematic Literature Review and Meta-Analysis",
+    "authors": "Niklas Holzner et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2505.17241",
+    "arxiv": "2505.17241",
+    "github": null,
+    "page": null,
+    "field": "hci",
+    "subfield": "Generative AI and Creativity",
+    "note": "生成AIが創造的タスクの成果に与える効果を体系的文献レビューとメタ分析で評価した論文",
+    "_src": "wave4_thin3.json",
+    "citations": 20
+  },
+  {
+    "title": "How Human-Centered Explainable AI Interface Are Designed and Evaluated: A Systematic Survey",
+    "authors": "Thu Nguyen et al.",
+    "venue": "arXiv",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2403.14496",
+    "arxiv": "2403.14496",
+    "github": null,
+    "page": null,
+    "field": "hci",
+    "subfield": "Explainable AI Interface",
+    "note": "人間中心の説明可能AIインタフェースの設計と評価の動向を53本から体系的に調査したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 18
+  },
+  {
+    "title": "UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital Library",
+    "authors": "Qingxiao Zheng et al.",
+    "venue": "CHI",
+    "year": 2022,
+    "paper": "https://arxiv.org/abs/2202.09895",
+    "arxiv": "2202.09895",
+    "github": null,
+    "page": null,
+    "field": "hci",
+    "subfield": "Conversational Agent UX",
+    "note": "対話エージェントのUX研究をダイアド/ポリアド対話の観点で評価指標まで体系的にレビューした論文",
+    "_src": "wave4_thin3.json",
+    "citations": 113
+  },
+  {
+    "title": "Concerns and Values in Human-Robot Interactions: A Focus on Social Robotics",
+    "authors": "Giulio Antonio Abbo et al.",
+    "venue": "arXiv",
+    "year": 2025,
+    "paper": "https://arxiv.org/abs/2501.05628",
+    "arxiv": "2501.05628",
+    "github": null,
+    "page": null,
+    "field": "hci",
+    "subfield": "Social Robot HRI",
+    "note": "ソーシャルロボティクスにおける懸念と価値を技術倫理の視点から特定したスコーピングレビュー",
+    "_src": "wave4_thin3.json",
+    "citations": 13
+  },
+  {
+    "title": "A Deep Look into Neural Ranking Models for Information Retrieval",
+    "authors": "Jiafeng Guo et al.",
+    "venue": "Information Processing & Management",
+    "year": 2019,
+    "paper": "https://arxiv.org/abs/1903.06902",
+    "arxiv": "1903.06902",
+    "github": null,
+    "page": null,
+    "field": "ir",
+    "subfield": "Neural Ranking",
+    "note": "ニューラルランキングモデルを前提仮定・設計原理・学習戦略の多次元で深く分析した統一的サーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 378
+  },
+  {
+    "title": "Information Retrieval: Recent Advances and Beyond",
+    "authors": "Kailash A. Hambarde et al.",
+    "venue": "IEEE Access",
+    "year": 2023,
+    "paper": "https://arxiv.org/abs/2301.08801",
+    "arxiv": "2301.08801",
+    "github": null,
+    "page": null,
+    "field": "ir",
+    "subfield": "Neural Retrieval",
+    "note": "情報検索のモデルを項ベース・意味検索・ニューラル手法にわたり学習過程も含め概観したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 157
+  },
+  {
+    "title": "Large Language Model for Table Processing: A Survey",
+    "authors": "Weizheng Lu et al.",
+    "venue": "Frontiers of Computer Science",
+    "year": 2024,
+    "paper": "https://arxiv.org/abs/2402.05121",
+    "arxiv": "2402.05121",
+    "github": null,
+    "page": null,
+    "field": "ir",
+    "subfield": "Table Retrieval and QA",
+    "note": "テーブルQAから表計算操作・データ分析までLLMによる表処理タスクを包括的に概観したサーベイ",
+    "_src": "wave4_thin3.json",
+    "citations": 102
   }
 ]

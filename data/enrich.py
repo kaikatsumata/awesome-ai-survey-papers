@@ -12,6 +12,7 @@ enriched.json を生成する。
 import json
 import re
 import glob
+import time
 import subprocess
 import urllib.request
 import urllib.error
@@ -102,20 +103,31 @@ def fetch_citations(items):
     for i in range(0, len(ids), 100):
         chunk = ids[i:i + 100]
         chunk_items = ax[i:i + 100]
-        try:
-            req = urllib.request.Request(
-                "https://api.semanticscholar.org/graph/v1/paper/batch?fields=citationCount,year,venue",
-                data=json.dumps({"ids": chunk}).encode(),
-                headers={"Content-Type": "application/json"},
-            )
-            with urllib.request.urlopen(req, timeout=40) as resp:
-                arr = json.loads(resp.read())
-            for it, rec in zip(chunk_items, arr):
-                if rec and rec.get("citationCount") is not None:
-                    it["citations"] = rec["citationCount"]
-                    got += 1
-        except Exception as e:
-            print(f"  WARN: S2 batch {i}: {str(e)[:80]}")
+        # 429対策: 指数バックオフで最大4回再試行
+        for attempt in range(4):
+            try:
+                req = urllib.request.Request(
+                    "https://api.semanticscholar.org/graph/v1/paper/batch?fields=citationCount,year,venue",
+                    data=json.dumps({"ids": chunk}).encode(),
+                    headers={"Content-Type": "application/json"},
+                )
+                with urllib.request.urlopen(req, timeout=40) as resp:
+                    arr = json.loads(resp.read())
+                for it, rec in zip(chunk_items, arr):
+                    if rec and rec.get("citationCount") is not None:
+                        it["citations"] = rec["citationCount"]
+                        got += 1
+                time.sleep(2)  # レート制限緩和
+                break
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and attempt < 3:
+                    time.sleep(5 * (attempt + 1))
+                    continue
+                print(f"  WARN: S2 batch {i}: HTTP {e.code}")
+                break
+            except Exception as e:
+                print(f"  WARN: S2 batch {i}: {str(e)[:80]}")
+                break
     return got
 
 

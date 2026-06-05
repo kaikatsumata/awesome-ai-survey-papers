@@ -169,6 +169,30 @@ def gen_notes(items, ordered_fields, by_field):
     out.append(f"本ドキュメントは収集した全サーベイ論文のメタデータ・統計・調査手法をまとめたもの。"
                f"READMEは分類済みリストに徹し、ここに全調査結果を集約する。最終更新 {today}。\n")
 
+    # 調査手法・波の履歴・飽和判定
+    out.append("## 調査手法と飽和判定\n")
+    out.append("分野fan-out 並列収集 → 反復波で純増の逓減を観測 → 飽和で終了、という手順を採った"
+               "（詳細は [`docs/best-practice.md`](best-practice.md)）。各波は分野クラスタ単位で"
+               "複数の収集エージェントを並列起動し、各エージェントが arXiv abs ページの照合・`gh api` による"
+               "companion repo 実在確認を経た JSON を出力。親が全 raw をマージ→ arXiv ID/正規化タイトルで"
+               "重複排除→ Semantic Scholar batch API で被引用数を付与した。\n")
+    out.append("| 波 | 収集テーマ | 重複排除後の累計 | 純増 |")
+    out.append("|---|---|---:|---:|")
+    out.append("| 第1波 | 主要17分野クラスタ(CV/NLP/LLM/ML/RL/DM・DB・IR/GNN/信頼AI/AI全般 等) | 490 | +490 |")
+    out.append("| 第2波 | 薄い分野深掘り・新興ニッチ・GitHubトピック掃き出し・応用横断・知識/DB/DM | 697 | +207 |")
+    out.append("| 第3波 | CV深掘り・NLP/古典ML niche・causal/federated/time-series・未収録掃き出し | 889 | +192 |")
+    out.append("| 第4波 | 残る薄い分野(tcs/web/hci/ir/evolutionary等)の最終補強・網羅性メタ監査 | 955 | +66 |")
+    out.append("")
+    out.append("**飽和判定**: 純増が +207 → +192 → +66 と明確に逓減。第4波の網羅性監査では"
+               "「必ずあるべき定番サーベイ」の未収録が24件のみで、その大半が2010年代前半の古典層"
+               "（最新サーベイは既に高網羅）。rl/knowledge/llm/multimodal/multi-agent/federated/"
+               "time-series/recsys 等は探索した定番候補がほぼ全て既収録で飽和に近いと判定された。"
+               "**新規の良質サーベイが見つかりにくくなったため、ここで収集を一旦終了する**。\n")
+    out.append("**良質な単独サーベイが構造的に乏しいテーマ**（無理に水増しせず明記）: "
+               "進化計算の細分(共進化/EDA/メメティック/品質多様性/オープンエンド進化、多くが書籍章や原著)、"
+               "TCSのゼロ次最適化・微分可能プログラミング(会議録中心)、HCIのAIフェアネス×ユーザ知覚"
+               "(実証研究中心で決定版サーベイ無し)、音声匿名化(手法論文中心)。\n")
+
     # 統計
     out.append("## 統計\n")
     out.append(f"- 総数: **{len(items)}** 本")

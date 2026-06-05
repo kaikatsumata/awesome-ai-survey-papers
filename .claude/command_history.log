@@ -2442,3 +2442,77 @@ print(dict(Counter(x['field'] for x in d)))
 Working Directory: /Users/s25705/awesome-ai-survey-papers
 Exit Code: 0
 ---
+[2026-06-05 22:47:46] python3 -c "
+import json
+d=json.load(open('data/enriched.json'))
+print('total',len(d))
+from collections import Counter
+fc=Counter(x.get('field') for x in d)
+print('fields:',dict(fc))
+sc=Counter((x.get('field'),x.get('subfield')) for x in d)
+" 
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 22:47:57] python3 << 'EOF'
+import json
+d=json.load(open('data/enriched.json'))
+ids=set()
+from collections import defaultdict
+g=defaultdict(list)
+for x in d:
+    a=x.get('arxiv')
+    if a: ids.add(str(a).strip())
+    g[x.get('field')].append((x.get('subfield'),x.get('title')))
+with open('/tmp/coverage.txt','w') as f:
+    f.write('arxiv ids count %d\n'%len(ids))
+    for fld in sorted(g):
+        f.write('===== %s (%d)\n'%(fld,len(g[fld])))
+        for s,t in sorted(g[fld]):
+            f.write('  [%s] %s\n'%(s,t))
+print('done',len(d))
+EOF
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 22:52:30] python3 /tmp/validate_wave4.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 22:56:05] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/wave4_thin3.json')); from collections import Counter; print('count',len(d)); print(dict(Counter(x['field'] for x in d))); ids=[x['arxiv'] for x in d]; print('within-dup',[k for k,v in Counter(ids).items() if v>1]); print(' '.join(ids))"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 22:56:11] python3 -c "
+import json,glob,re
+existing=set()
+for f in glob.glob('/Users/s25705/awesome-ai-survey-papers/data/raw/*.json'):
+    if 'wave4_thin3' in f: continue
+    for m in re.findall(r'[0-9]{4}\.[0-9]{4,5}', open(f).read()):
+        existing.add(m)
+new=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/wave4_thin3.json'))
+overlap=[x['arxiv'] for x in new if x['arxiv'] in existing]
+print('overlap with existing:',overlap)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 22:56:43] python3 -c "
+import json,glob,re
+existing=set()
+for f in glob.glob('/Users/s25705/awesome-ai-survey-papers/data/raw/*.json'):
+    if 'wave4_thin3' in f: continue
+    for m in re.findall(r'[0-9]{4}\.[0-9]{4,5}', open(f).read()):
+        existing.add(m)
+new=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/wave4_thin3.json'))
+print('count',len(new))
+from collections import Counter
+print(dict(Counter(x['field'] for x in new)))
+print('overlap with existing:',[x['arxiv'] for x in new if x['arxiv'] in existing])
+print('within-dup',[k for k,v in Counter(x['arxiv'] for x in new).items() if v>1])
+keys={'title','authors','venue','year','paper','arxiv','github','page','field','subfield','note'}
+print('key-issues:',[x['title'] for x in new if set(x.keys())!=keys])
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
