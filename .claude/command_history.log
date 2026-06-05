@@ -2189,3 +2189,118 @@ Exit Code: 0
 Working Directory: /Users/s25705/awesome-ai-survey-papers
 Exit Code: 0
 ---
+[2026-06-05 21:41:01] python3 -c "
+import json
+data = json.load(open('data/raw/cv.json'))
+print('count:', len(data))
+for d in data:
+    print(d.get('subfield','?'), '|', d.get('arxiv'), '|', d.get('title')[:60])
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:41:52] python3 -c "
+import json, glob, os
+ids=set(); titles=[]
+for f in glob.glob('data/raw/*.json'):
+    try:
+        d=json.load(open(f))
+    except Exception as e:
+        print('ERR',f,e); continue
+    for x in d:
+        if x.get('arxiv'): ids.add(str(x['arxiv']).strip())
+        titles.append(x.get('title',''))
+print('total entries', len(titles))
+print('unique arxiv ids', len(ids))
+" 
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:41:59] python3 -c "
+import json, glob
+ids=set(); titles=set()
+for f in glob.glob('data/raw/*.json'):
+    try: d=json.load(open(f))
+    except: continue
+    for x in d:
+        if x.get('arxiv'): ids.add(str(x['arxiv']).strip())
+        titles.add(x.get('title','').lower().strip())
+open('/tmp/existing_ids.txt','w').write('\n'.join(sorted(ids)))
+open('/tmp/existing_titles.txt','w').write('\n'.join(sorted(titles)))
+print('wrote', len(ids),'ids,',len(titles),'titles')
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:42:24] python3 -c "
+ids=set(open('/tmp/existing_ids.txt').read().split())
+check='2503.06027 2501.03265 2505.08793 2411.17063 2402.02000 2405.11868 2408.14520 2401.11720 2402.03358 2504.03765 2410.14677 2403.01152 2310.15264 2405.02358 2504.04011 2403.14735 2401.13912'.split()
+for c in check:
+    print('DUP' if c in ids else 'NEW', c)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:42:48] python3 -c "
+ids=set(open('/tmp/existing_ids.txt').read().split())
+check='2502.07978 2402.02025 2505.17342 2510.27157 2502.10050 2309.01157'.split()
+for c in check:
+    print('DUP' if c in ids else 'NEW', c)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:43:16] python3 -c "
+ids=set(open('/tmp/existing_ids.txt').read().split())
+check='2410.22377 2503.07959 2308.06767 2405.08011 2505.18475 2311.12399 2407.20018 2301.02691 2503.01742 2404.00629 2605.00080 2509.16679 2508.08189'.split()
+for c in check:
+    print('DUP' if c in ids else 'NEW', c)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:43:29] python3 -c "
+ids=set(open('/tmp/existing_ids.txt').read().split())
+check='2410.22854 2402.11153 2410.19265 2402.16374'.split()
+for c in check:
+    print('DUP' if c in ids else 'NEW', c)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:43:43] python3 -c "
+ids=set(open('/tmp/existing_ids.txt').read().split())
+check='2511.07090 2508.05547 2503.01854 2407.20516 2405.07406'.split()
+for c in check:
+    print('DUP' if c in ids else 'NEW', c)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:43:57] python3 -c "
+ids=set(open('/tmp/existing_ids.txt').read().split())
+check='2510.10541 2507.06278 2509.06733 2504.14772 2503.12067 2502.05673 2402.13116 2301.05603'.split()
+for c in check:
+    print('DUP' if c in ids else 'NEW', c)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:44:25] python3 -c "
+ids=set(open('/tmp/existing_ids.txt').read().split())
+check='2512.23914 2410.04466 2409.03384 2401.09890 2504.14280'.split()
+for c in check:
+    print('DUP' if c in ids else 'NEW', c)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:44:43] python3 -c "
+ids=set(open('/tmp/existing_ids.txt').read().split())
+check='2410.12034 2404.18211 2411.13157 2508.06297'.split()
+for c in check:
+    print('DUP' if c in ids else 'NEW', c)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
