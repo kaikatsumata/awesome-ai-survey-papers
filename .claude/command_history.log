@@ -1,0 +1,1750 @@
+[2026-06-05 16:15:54] git init -q && mkdir -p data scripts docs/design docs/research && echo "created" && ls -la
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:18:15] curl -s "http://export.arxiv.org/api/query?id_list=2303.18223" | grep -A1 '<entry>' | head; echo "===TITLE==="; curl -s "http://export.arxiv.org/api/query?id_list=2303.18223" | python3 -c "import sys,re; t=sys.stdin.read(); m=re.findall(r'<title>(.*?)</title>',t,re.S); print(m[1] if len(m)>1 else 'NONE')"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:14] for id in 1908.09635 1702.08608 2004.14545 1810.08810 2103.11251 1901.00596 2007.07646 1912.04977 2003.02133 2009.13303; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>" | head -2
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:19] curl -s "http://export.arxiv.org/api/query?id_list=1908.09635" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:24] for id in 1901.00596 1812.08434 2003.00982 2005.00687 2202.07082 2106.05234 2007.06559 2003.08271 2105.00696 2204.07321; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:24] curl -sv "http://export.arxiv.org/api/query?id_list=1908.09635" 2>&1 | tail -20
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:25] for id in 1901.03407 2110.14051 2009.06732 2007.15951 2004.13408 2010.06467 2104.10501 2009.00236; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:26] for id in 1808.05377 1611.03530 1808.06226 1912.02292 2004.05439 1912.08855 1808.01974 2004.05439; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:28] curl -s --max-time 30 "http://export.arxiv.org/api/query?id_list=2303.18223" -o /tmp/test_arxiv.xml; echo "exit:$?"; wc -c /tmp/test_arxiv.xml; head -c 500 /tmp/test_arxiv.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:28] curl -s "http://export.arxiv.org/api/query?id_list=1901.00596" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:29] curl -s "http://export.arxiv.org/api/query?id_list=1901.03407" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:30] curl -s "http://export.arxiv.org/api/query?id_list=1808.05377" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:30] check() { for id in "$@"; do t=$(curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -m1 -o '<title>[^<]*</title>' | head -1); echo "$id => $t"; done; }
+check 2008.00401 2105.05080 1709.07809 2007.01702 2003.07278 2105.11644 1812.02462 2106.04554 2204.07705 2107.13586
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:32] curl -sv "http://export.arxiv.org/api/query?id_list=1901.03407" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:33] curl -sS -m 20 "http://export.arxiv.org/api/query?id_list=1901.00596" 2>&1 | head -50; echo "EXIT: $?"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:33] curl -sv "http://export.arxiv.org/api/query?id_list=1808.05377" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:35] curl -s "http://export.arxiv.org/api/query?id_list=2107.13586" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:37] for id in 1809.02165 2104.11892 2110.05352 1704.06857 2001.05566 2012.12556 2103.00112 2206.08016 2110.07641; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -o '<title>[^<]*</title>' | sed -n '2p'
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:37] curl -sS -m 25 "http://export.arxiv.org/api/query?id_list=1901.00596" 2>&1 | head -60; echo "EXIT: $?"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:38] curl -sv "http://export.arxiv.org/api/query?id_list=2107.13586" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:38] curl -sL --max-time 30 "https://export.arxiv.org/api/query?id_list=2303.18223" -o /tmp/test2.xml -w "http:%{http_code} size:%{size_download}\n"; echo "---retry with verbose---"; curl -sL --max-time 30 "http://export.arxiv.org/api/query?search_query=all:electron&max_results=1" -w "\nhttp:%{http_code} size:%{size_download}\n" 2>&1 | tail -5
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:39] for id in 1908.09635 1702.08608 2004.14545 1810.08810 2103.11251 1901.00596 2007.07646 1912.04977 2003.02133 2009.13303; do
+  t=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -A1 "<entry>" | grep "<title>" | sed 's/<[^>]*>//g' | tr -d '\n' | xargs)
+  echo "$id | $t"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:41] verify_arxiv() {
+  for id in "$@"; do
+    title=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -A1 "<entry>" | grep "<title>" | sed 's/<[^>]*>//g' | tr -s ' ')
+    # fallback parse
+    if [ -z "$title" ]; then
+      title=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | python3 -c "import sys,re; t=sys.stdin.read(); m=re.findall(r'<title>(.*?)</title>',t,re.S); print(m[1].strip() if len(m)>1 else 'NOTFOUND')")
+    fi
+    echo "$id :: $title"
+  done
+}
+verify_arxiv 1808.05377 1611.03530 1912.02292
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:43] verify_arxiv() {
+  for id in "$@"; do
+    title=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -A1 "<entry>" | grep "<title>" | sed 's/<[^>]*>//g' | tr -s ' ' | head -1)
+    echo "$id | $title"
+  done
+}
+verify_arxiv 1901.03407 2110.14051 2009.06732 2007.15951 2004.13408 2010.06467 2104.10501 2009.00236
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:44] curl -sS -m 15 "http://export.arxiv.org/api/query?id_list=2005.01643" 2>&1 | head -20; echo "EXIT: $?"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:23:47] curl -sL "https://export.arxiv.org/api/query?id_list=1901.03407" | head -50
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:26] curl -sS -m 20 "http://export.arxiv.org/api/query?id_list=2005.01643" 2>&1 | head -30; echo "EXIT: ${PIPESTATUS[0]}"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:28] for id in 1809.02165 2104.11892 1704.06857 2001.05566 2012.12556 2103.00112 2206.08016 2110.07641 2111.06091; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | python3 -c "import sys,re; t=sys.stdin.read(); m=re.findall(r'<title>(.*?)</title>', t, re.S); print(m[1].strip().replace(chr(10),' ') if len(m)>1 else 'NOT FOUND')"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:28] check() { for id in "$@"; do t=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -A20 '<entry>' | grep -m1 -o '<title>[^<]*</title>' | sed 's/<[^>]*>//g'); echo "$id => $t"; done; }
+check 2107.13586 2204.07705 2106.04554 2008.00401 2105.05080
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:29] for id in 1901.00596 1812.08434 2003.00982 2005.00687 2202.07082 2106.05234 2007.06559 2105.00696; do
+  t=$(curl -sS -m 25 "https://export.arxiv.org/api/query?id_list=$id" | grep -A1 "<entry>" | grep "<title>" | sed 's/<[^>]*>//g' | head -1)
+  # fallback: second title is the entry title
+  t=$(curl -sS -m 25 "https://export.arxiv.org/api/query?id_list=$id" | python3 -c "import sys,re;d=sys.stdin.read();m=re.findall(r'<entry>.*?<title>(.*?)</title>',d,re.S);print(m[0].strip() if m else 'NOT_FOUND')")
+  echo "$id => $t"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:31] curl -v -m 20 "http://export.arxiv.org/api/query?id_list=2005.01643" 2>&1 | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:32] curl -s "http://export.arxiv.org/api/query?id_list=2012.12556" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:32] curl -sL "https://export.arxiv.org/api/query?id_list=2107.13586" | tr '>' '>\n' | grep -i title | head
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:34] /tmp/check_arxiv.sh "2303.18223,2307.06435,2402.06196,2303.15647,2308.10792,2310.19852,2203.02155,2310.12321,2301.00234,2309.15402"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:36] curl -sL "https://export.arxiv.org/api/query?id_list=2107.13586" -o /tmp/arx.xml; wc -c /tmp/arx.xml; head -c 1500 /tmp/arx.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:36] curl -sv "http://export.arxiv.org/api/query?id_list=2012.12556" 2>&1 | head -20; echo "EXIT: $?"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:37] /tmp/check_arxiv.sh "2303.18223,2307.06435,2402.06196,2303.15647,2308.10792"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:40] curl -sv "https://export.arxiv.org/api/query?id_list=2107.13586" 2>&1 | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:40] python3 /tmp/verify.py \
+  1808.05377 1611.03530 1912.02292 1808.01974 2004.05439 \
+  1808.06226 2009.06732 2103.13630 1710.09282 1808.04752 \
+  2106.10165 1806.07572 1912.08957 2103.00065 1909.08053 \
+  1911.02685 2004.05439 2009.07888 1904.05046 2004.05439
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:42] curl -sL --max-time 60 "https://export.arxiv.org/api/query?id_list=2303.18223,2307.06435" -w "\nHTTP:%{http_code} SIZE:%{size_download}\n" | tail -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:43] verify() {
+  for id in "$@"; do
+    title=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | python3 -c "import sys,re; t=sys.stdin.read(); m=re.findall(r'<title>(.*?)</title>', t, re.S); print(m[1].strip().replace(chr(10),' ').replace('  ',' ') if len(m)>1 else 'NOT FOUND')")
+    echo "$id :: $title"
+  done
+}
+verify 1809.02165 2104.11892 1704.06857 2001.05566 2012.12556 2103.00112 2206.08016 2111.06091
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:44] curl -s "https://export.arxiv.org/api/query?id_list=2107.13586" 2>&1 | tail -20; echo "EXIT=$?"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:47] curl -sL "https://export.arxiv.org/api/query?id_list=2012.12556" | head -c 600; echo; echo "EXIT $?"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:49] curl -s "https://export.arxiv.org/api/query?id_list=2107.13586" -o /tmp/a.xml; wc -c /tmp/a.xml; head -c 200 /tmp/a.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:52] curl -sL "https://export.arxiv.org/api/query?id_list=2012.12556" | head -c 400
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:24:56] curl -sSL "https://export.arxiv.org/api/query?id_list=2012.12556" -o /tmp/arxiv_test.xml -w "HTTP %{http_code} size=%{size_download}\n" 2>&1; wc -c /tmp/arxiv_test.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:25:11] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 1
+  done
+}
+verify 2107.13586 2204.07705 2106.04554
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:25:13] python3 /tmp/verify_arxiv.py 1812.08434 2003.00982 2005.00687 2202.07082 2106.05234 2007.06559 2105.00696 2204.07321 2104.13478 1709.05584
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:25:16] curl -sSL -A "survey-collector/1.0" "https://export.arxiv.org/api/query?id_list=1809.02165,2104.11892,1704.06857,2001.05566,2103.00112,2206.08016,2111.06091,2101.01169" -o /tmp/a.xml -w "HTTP %{http_code} size=%{size_download}\n"; python3 -c "
+import re
+t=open('/tmp/a.xml').read()
+for e in t.split('<entry>')[1:]:
+    m=re.search(r'<id>(.*?)</id>', e); tt=re.search(r'<title>(.*?)</title>', e, re.S)
+    print((m.group(1) if m else '?'), '::', (tt.group(1).strip().replace(chr(10),' ') if tt else '?'))
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:25:35] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+# MT, QA, NER, RE, sentiment, summarization, dialogue
+verify 2002.07526 1912.02047 1804.09691 2008.03415 2212.04634 2010.12309 2005.06249 2107.04259 1801.07883 2005.04305 2008.03067 2104.13346 2105.07346
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:26:35] python3 /tmp/varxiv.py 2010.06467 2104.10501 2009.00236 1906.05799 2007.05566 2105.14491 2010.04903 2104.13030
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:26:41] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2105.05080 2003.07278 1906.01502 2107.13586 2004.03705 1709.07809 2006.06195 2008.00401 2010.02573 1708.02709 2204.07705 2308.10792 2303.18223
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:27:07] /tmp/verify.sh 1702.08608 2004.14545 1810.08810 2103.11251 1901.00596 2007.07646 1912.04977 2003.02133 2009.13303 2103.00020
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:27:12] python3 /tmp/verify.py \
+  1808.01974 2004.05439 1808.06226 1710.09282 1808.04752 \
+  2106.10165 1912.08957 2103.00065 1911.02685 2009.07888 \
+  1904.05046 2110.11334
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:27:50] /tmp/verify.sh 1808.00033 1906.02243 2001.07685 1909.08072 2007.08199 2012.14261 1909.03012 2103.11251 2006.11371 2202.01602
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:27:56] until [ -s "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bc19eadd5.output" ] && grep -q "2308.07107" "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bc19eadd5.output"; do sleep 2; done; cat "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bc19eadd5.output"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:13] /tmp/verify_all.sh
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:18] for r in CroitoruAlin/Diffusion-Models-in-Vision-A-Survey PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving; do
+  echo -n "$r => "; gh api repos/$r --jq .full_name 2>&1 | head -1
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:31] python3 /tmp/verify_batch.py \
+  2002.06715 1904.07734 1802.07569 2302.00487 2104.13478 \
+  2103.10689 1903.04476 2007.02500 2103.05247 2011.00362 \
+  2006.10637 1812.05069 1909.03012 2103.11251 2103.13076 \
+  1904.04232 2103.00710 1907.08610 2008.05756 2103.12239
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:33] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2009.13478 2002.06177 2105.11644 1902.06006 2106.00978 2007.04068 2105.04387 2009.06732 1812.08434 2002.12327 2010.16039 2111.01243 2212.10403
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:35] for repo in "Trusted-AI/adversarial-robustness-toolbox" "tensorflow/privacy" "yzhao062/pyod"; do
+  echo -n "$repo => "
+  gh api repos/$repo --jq .full_name 2>/dev/null || echo "NOT FOUND"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:42] until [ -f /tmp/res1.txt ] && grep -q . /tmp/res1.txt; do sleep 5; done; echo "ready"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:42] python3 /tmp/verify_batch.py \
+  2110.01889 2107.07511 2009.00236 1905.05055 2006.05525 \
+  2103.04922 1906.02691 2108.08810 2102.12092 2103.10697 \
+  2004.11149 2103.13192 2104.10350 2110.06296 2103.00111 \
+  2206.02871 2206.07682 2001.08361 2203.15556 2305.13245
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:44] for r in \
+  "RUCAIBox/LLMSurvey" \
+  "Hannibal046/Awesome-LLM" \
+  "xinya-du/awesome-instruction-tuning" \
+  "opendilab/awesome-RLHF" \
+  "dqxiu/ICL_PaperList" \
+  "atfortes/Awesome-LLM-Reasoning" \
+  "HillZhang1999/llm-hallucination-survey" \
+  "Tongji-KGLLM/RAG-Survey" \
+  "WooooDyy/LLM-Agent-Paper-List" \
+  "MLGroupJLU/LLM-eval-survey" \
+  "AmberLJC/LLMSys-PaperList" \
+  "horseee/Awesome-Efficient-LLM" \
+  "Xnhyacinth/Awesome-LLM-Long-Context-Modeling" \
+  "XueFuzhao/awesome-mixture-of-experts" \
+  "zjunlp/KnowledgeEditingPapers" \
+  "verazuo/jailbreak_llms" \
+  "huybery/Awesome-Code-LLM" \
+  ; do
+  echo -n "$r => "; gh api repos/$r --jq .full_name 2>/dev/null || echo "NULL"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:48] until [ -f /tmp/verify_results.txt ] && [ "$(grep -c . /tmp/verify_results.txt 2>/dev/null)" -ge 63 ]; do sleep 10; done; echo "ALL DONE"; cat /tmp/verify_results.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:49] until grep -q "2004.00646" "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/b6ccheptm.output" 2>/dev/null; do sleep 3; done; cat "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/b6ccheptm.output"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:50] for r in weihaox/GAN-Inversion tfzhou/VS-Survey lxtGH/Awesome-Segmentation-With-Transformer; do
+  echo -n "$r => "; gh api repos/$r --jq .full_name 2>&1 | head -1
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:41:56] python3 /tmp/verify_batch.py \
+  1609.04747 2007.01547 1912.06059 2002.07526 2106.04554 \
+  2103.16775 2110.13041 2202.13473 2206.11357 2312.00752 \
+  2404.19756 2108.07258 2104.02395 1808.06865 2003.05689 \
+  2007.07314 1707.09457 2103.16886 2110.04596 2108.04417
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:03] python3 /tmp/verify_batch.py \
+  2007.08199 2202.05924 2103.00550 1904.07911 2206.14774 \
+  2103.13392 2008.11687 1908.09635 2010.16061 2110.11334 \
+  2106.04972 1912.02757 2107.03342 2011.04918 2208.01066 \
+  2103.10158 2105.06419 2009.12836 2011.15091 1912.03263
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:04] until [ "$(grep -c . /tmp/verify_results.txt 2>/dev/null)" -ge 63 ]; do sleep 15; done; echo "READY: $(wc -l < /tmp/verify_results.txt) lines"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:06] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2008.05991 1707.02919 2105.03075 2106.07139 1909.00161 2010.06467 2103.00498 2010.00711 2004.14974 2107.04922 2109.01652 2010.15036 2203.08075
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:08] until [ -s /tmp/res2.txt ]; do sleep 5; done; cat /tmp/res2.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:13] python3 /tmp/verify_batch.py \
+  1904.12848 2107.10043 2103.03230 2104.13712 2002.05709 \
+  1904.05526 2011.03395 2206.04046 2103.09762 1901.06032 \
+  1802.06175 2103.16922 2012.09816 1906.10025 2103.04030 \
+  2207.09238 1904.03626 2103.05127 2305.13048 2111.00396
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:19] until grep -q "2009.13485" "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/b0h6necfq.output" 2>/dev/null; do sleep 3; done; cat "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/b0h6necfq.output"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:22] python3 /tmp/verify_batch.py \
+  2010.03978 1702.05374 1911.02685 2009.00909 2105.01601 \
+  2304.00501 2402.01761 2406.06647 2103.15691 2006.10029 \
+  1904.05046 2103.00710 1908.08593 2103.01988 2204.07756 \
+  1909.13231 2103.10374 2206.15331 2110.07342 1605.07678
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:25] for r in \
+  "YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy" \
+  "ChenHsing/Awesome-Video-Diffusion-Models" \
+  "hee9joon/Awesome-Diffusion-Models" \
+  "showlab/Awesome-Video-Diffusion" \
+  "kuan-wang/awesome-text-to-image" \
+  "Yutong-Zhou-cv/Awesome-Text-to-Image" \
+  "yzhang2016/awesome-cv-3d" \
+  "justinpinkney/awesome-pretrained-stylegan2" \
+  "BradyFU/Awesome-Multimodal-Large-Language-Models" \
+  "VainF/Awesome-Anything" \
+  "jingyi0000/VLM_survey" \
+  "Yangyi-Chen/Multimodal-AND-Large-Language-Models" \
+  "yuewang-cuhk/awesome-vision-language-pretraining-papers" \
+  "showlab/Awesome-MLLM-Hallucination" \
+  "wangkai930418/awesome-diffusion-categorized" \
+  "weihaox/awesome-image-editing" \
+  "diff-usion/Awesome-Diffusion-Models" \
+  ; do
+  echo -n "$r => "; gh api repos/$r --jq .full_name 2>/dev/null || echo "NULL"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:27] gh api repos/yunfanLu/Awesome-Image-Prior --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:31] python3 /tmp/verify_batch.py \
+  2103.02503 2103.03097 1908.00709 1904.07272 1904.04063 \
+  2103.13558 2206.00364 2404.18021 2406.01563 2106.10860 \
+  2307.06435 2303.18223 2103.10689 2009.00516 2103.14749 \
+  1810.04805 2108.13624 2103.13620 2103.04574 2404.16112
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:39] python3 /tmp/verify_batch.py \
+  2301.05712 1912.08881 2105.07197 2206.07579 2407.11233 \
+  2206.10139 2202.03555 2106.08962 2103.14030 2103.00020 \
+  2003.05991 1912.09363 2111.06377 2104.14294 2406.07887 \
+  2503.01037 2206.13446 2106.04560 2207.07842 2108.11510
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:41] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+# NER, RE, sentiment, semantic parsing, coref, eval, adversarial, KG
+verify 1812.09449 1902.01069 2005.06149 2203.03540 2109.04332 2004.14373 1902.00753 2002.00388 2105.05847 2306.01116 2107.03374 2009.03300 2112.04359
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:47] python3 /tmp/verify_batch.py \
+  2206.15475 2406.11668 2003.01200 2305.18703 1903.00089 \
+  2103.05633 2007.05558 2106.11342 2308.00306 2102.04906 \
+  2103.04922 2103.07579 2103.13076 2306.10125 2103.16797 \
+  1912.10557 2103.10689 2103.05991 2104.10350 2206.04615
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:42:49] until grep -q "2308.11131" "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bqqwph8bz.output" 2>/dev/null; do sleep 3; done; cat "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bqqwph8bz.output"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:43:03] for r in \
+  "GLGmenghani/Awesome-3D-AIGC" \
+  "hitcslj/Awesome-AIGC-3D" \
+  "Mael-zys/awesome-3D-generation" \
+  "RUCAIBox/Awesome-Text2SQL" \
+  "Active-AI-survey/audio-generation" \
+  "AmadeusChan/Awesome-LLM-System-Papers" \
+  "DefTruth/Awesome-LLM-Inference" \
+  "yokuns/Awesome-Document-AI" \
+  "tstanislawek/awesome-document-understanding" \
+  "GT-RIPL/Awesome-LLM-Robotics" \
+  "OpenGVLab/Awesome-LLM4AD" \
+  "krishnakanthnakkav2/Awesome-Audio-LLM" \
+  "EmbodiedGPT/Awesome-Embodied-AI" \
+  "haoosz/awesome-video-generation" \
+  "wenhao728/awesome-diffusion-v2v" \
+  ; do
+  echo -n "$r => "; gh api repos/$r --jq .full_name 2>/dev/null || echo "NULL"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:43:11] gh api repos/jingyi0000/VLM_survey --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:43:16] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2103.16929 1812.10464 2010.12812 2008.07267 2009.13658 2107.12808 1906.00091 2202.08772 2304.08818 2009.07118 2305.14533 2107.06342 1906.05317
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:40] until [ -s /tmp/res3.txt ]; do sleep 5; done; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:46] for r in opendilab/awesome-model-based-RL hanjuku-kaso/awesome-offline-rl Plan-D/awesome-safe-rl LantaoYu/MARL-Algorithms opendilab/awesome-multi-agent-reinforcement-learning; do
+  echo -n "$r => "; gh api repos/$r --jq .full_name 2>/dev/null || echo "NOT FOUND"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:48] for r in yzhao062/anomaly-detection-resources RUCAIBox/LLM4IR-Survey hongleizhang/RSPapers WLiK/LLM4Rec-Awesome-Papers Tongji-KGLLM/RAG-Survey nancheng58/Awesome-LLM4RS-Papers wzhe06/Reco-papers FreedomIntelligence/LLMs-in-IR; do
+  echo "=== $r ==="
+  gh api repos/$r --jq .full_name 2>&1 | head -1
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:53] until grep -q "b3 done" /tmp/res3.txt 2>/dev/null || [ -f /tmp/err3.txt -a $(wc -l < /tmp/res3.txt 2>/dev/null || echo 0) -gt 5 ]; do sleep 5; done; cat /tmp/res3.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:55] python3 /tmp/verify_batch.py \
+  2407.11075 2104.10201 2204.08610 1904.12387 2103.09177 \
+  2106.10165 2105.04026 2011.00050 2103.00065 1912.08957 \
+  2103.12871 2103.05127 2105.13283 2406.02550 2103.16302 \
+  2308.10620 2103.00710 2103.09762 2103.03230 2002.06715
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:56] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+# summarization, NLG eval, sentiment ABSA, adversarial, multilingual, coref
+verify 2008.11293 2203.05227 1707.02268 2005.00813 2203.13909 2107.02331 1901.11196 2005.14165 2306.04528 2211.05100 2302.04023 2005.04118 2202.01764
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:56] python3 -c "
+import json,collections
+d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/cv.json'))
+print('total:',len(d))
+ids=[x['arxiv'] for x in d if x['arxiv']]
+print('unique arxiv:',len(set(ids)),'/',len(ids))
+print('with github:',sum(1 for x in d if x['github']))
+c=collections.Counter(x['subfield'] for x in d)
+for k,v in sorted(c.items()): print(f'  {k}: {v}')
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:58] for r in RUC-NLPIR/LLM4IR-Survey Paitesanshi/LLM-Agent-Survey RUCAIBox/LLMSurvey hymie122/RAG-Survey yzhao062/pyod; do
+  echo "=== $r ==="
+  gh api repos/$r --jq .full_name 2>&1 | head -1
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:44:58] WORK=/Users/s25705/awesome-ai-survey-papers/.verify_llm; python3 "$WORK/verify.py" "$WORK/ids.txt" "$WORK/results.txt"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:45:05] until [ "$(tail -1 /tmp/res3.txt 2>/dev/null)" != "" ] && [ "$(wc -l < /tmp/res3.txt)" -ge 13 ]; do sleep 8; done; cat /tmp/res3.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:45:24] until [ -s /tmp/res3.txt ]; do sleep 10; done; echo "POPULATED"; cat /tmp/res3.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:45:26] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+# Speech: ASR, TTS, SSL speech, diarization, separation, speech translation, emotion
+verify 1808.10583 2106.07447 2205.10643 2101.00390 2106.04624 2008.00744 1904.05862 2006.11477 2204.12765 2303.00733 2009.09679 2102.01672 2104.04473
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:45:28] for r in \
+  "zjunlp/Prompt4ReasoningPapers" \
+  "Paitesanshi/LLM-Agent-Survey" \
+  "RManLuo/Awesome-LLM-KG" \
+  "EgoAlpha/prompt-in-context-learning" \
+  "luban-agi/Awesome-Domain-LLM" \
+  "Mooler0410/LLMsPracticalGuide" \
+  "tensorush/Awesome-Diffusion-Models" \
+  "heejkoo/Awesome-Diffusion-Models" \
+  "PKU-Alignment/AlignmentSurvey" \
+  "IAAR-Shanghai/Awesome-Attention-Heads" \
+  "thunlp/ToolLearningPapers" \
+  "EmbodiedGPT/EmbodiedGPT_Pytorch" \
+  "zchuz/CoT-Reasoning-Survey" \
+  "Strivin0311/long-llms-learning" \
+  "thu-ml/awesome-diffusion-model-acceleration" \
+  ; do
+  echo -n "$r => "; gh api repos/$r --jq .full_name 2>/dev/null || echo "NULL"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:45:33] f=/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/batjv26d7.output; ls -la "$f"; echo "==="; tail -30 "$f"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:45:51] until [ -s /tmp/res3.txt ] || grep -q "all attempts failed" /tmp/err3.txt 2>/dev/null; do sleep 10; done; echo "=== RES3 ==="; cat /tmp/res3.txt; echo "=== ERR3 ==="; cat /tmp/err3.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:46:00] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2106.15561 1906.00935 2101.08382 2008.00925 2104.04054 2111.09574 2303.11607 2203.05844 2204.07120 2008.04566 2009.03522 2111.07910 2104.13438
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:46:26] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2101.09624 2011.00504 2207.05481 2305.00359 2106.04624 1912.06670 2010.11567 2305.11013 2204.09934 2204.05298 2303.13336 2106.15561 2210.13438
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:46:37] WORK=/Users/s25705/awesome-ai-survey-papers/.verify_llm; python3 "$WORK/verify.py" "$WORK/ids2.txt" "$WORK/results2.txt"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:46:52] until grep -q "===DONE===" /Users/s25705/awesome-ai-survey-papers/.verify_llm/results.txt 2>/dev/null && grep -q "===DONE===" /Users/s25705/awesome-ai-survey-papers/.verify_llm/results2.txt 2>/dev/null; do sleep 5; done; echo "BOTH DONE"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:47:04] until grep -q "2103.14000" "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bag4jhfgi.output" 2>/dev/null; do sleep 3; done; cat "/private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bag4jhfgi.output"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:47:35] until [ -s /Users/s25705/awesome-ai-survey-papers/.verify_llm/results.txt ]; do sleep 5; done; echo "results.txt has content now"; cat /Users/s25705/awesome-ai-survey-papers/.verify_llm/results.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:47:37] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2008.07221 2206.07871 1912.07814 2305.18486 2106.04624 2104.11178 2202.13239 1709.07814 2308.16505 2211.06474 2002.06091 2306.10125 2010.10504
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:47:48] for r in WenjieWWJ/Awesome-Fairness-in-Recommendation jihoo-kim/awesome-RecSys datawhalechina/awesome-compression mli/paper-reading aHuiWang/Awesome-Sequential-Recommendation; do
+  echo "=== $r ==="
+  gh api repos/$r --jq .full_name 2>&1 | head -1
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:47:55] until grep -q "DONE" /tmp/batchD.txt 2>/dev/null; do sleep 3; done; grep -v DONE /tmp/batchD.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:48:03] pkill -f "verify.py" 2>/dev/null; sleep 1; pgrep -fl "verify.py" || echo "all killed"; ls -la /Users/s25705/awesome-ai-survey-papers/.verify_llm/results*.txt
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:48:04] for r in google-research/automl awesome-NAS-list szq0214/Awesome-Knowledge-Distillation thuml/Transfer-Learning-Library haoosz/awesome-domain-generalization amusi/awesome-object-detection state-spaces/mamba KindXiaoming/pykan; do
+  echo -n "$r => "
+  gh api repos/$r --jq .full_name 2>/dev/null || echo "NOT FOUND"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:48:18] for r in google-research/google-research state-spaces/s4 facebookresearch/dino facebookresearch/mae facebookresearch/barlowtwins google-research/simclr cleanlab/cleanlab amitness/awesome-active-learning yzhao062/anomaly-detection-resources jindongwang/transferlearning; do
+  echo -n "$r => "
+  gh api repos/$r --jq .full_name 2>/dev/null || echo "NF"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:48:30] WORK=/Users/s25705/awesome-ai-survey-papers/.verify_llm; python3 "$WORK/verify2.py" "$WORK/all_ids.txt" "$WORK/final.txt"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:49:26] kill 89802 89799 2>/dev/null; echo killed; sleep 1; ps aux | grep varxiv3 | grep -v grep | wc -l
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:49:40] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2303.03329 2111.01690 2312.01053 1709.04396 2008.09586 2312.05735 2203.14266 2202.03629 2311.05232 2307.03109 2201.05273 1901.06796 2203.06414
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:50:00] WORK=/Users/s25705/awesome-ai-survey-papers/.verify_llm; bash "$WORK/curl_verify.sh" "$WORK/all_ids.txt" "$WORK/final.txt"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:50:44] until grep -q "2106.07139" /private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bki43rrxi.output 2>/dev/null; do sleep 5; done; echo READY; cat /private/tmp/claude-111520707/-Users-s25705-awesome-ai-survey-papers/6f698fb6-ed10-4546-b9a4-7a548d468321/tasks/bki43rrxi.output
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:50:47] pkill -f varxiv3 2>/dev/null; sleep 1; ps aux | grep varxiv | grep -v grep | wc -l
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:50:56] verify() {
+  for id in "$@"; do
+    code=$(curl -s -o /tmp/abs.html -w "%{http_code}" "https://arxiv.org/abs/$id")
+    if [ "$code" = "200" ]; then
+      title=$(grep -o '<title>[^<]*</title>' /tmp/abs.html | head -1 | sed 's/<[^>]*>//g')
+      echo "OK $id => $title"
+    else
+      echo "FAIL($code) $id"
+    fi
+    sleep 0.8
+  done
+}
+verify 2107.07842 2312.10997 2101.00774 2112.03572 1910.09329 2106.15115 2107.04239 2012.00931 1812.00978 2402.07927 1804.04589 2104.14839
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:51:10] for r in MLGroupJLU/LLM-eval-survey RUCAIBox/LLMSurvey thunlp/PromptPapers Tongji-KGLLM/RAG-Survey HillZhang1999/llm-hallucination-survey jind11/word2vec-on-wikipedia; do
+  echo -n "$r => "; gh api "repos/$r" --jq .full_name 2>/dev/null || echo "NOT FOUND"
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:08] curl -s "http://export.arxiv.org/api/query?id_list=1804.09653,2002.07526,2107.13586,2009.06732,1910.13461" | grep -E "<title>|<published>" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:12] curl -s "http://export.arxiv.org/api/query?id_list=2107.13586" | head -c 1500
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:16] curl -sv "http://export.arxiv.org/api/query?id_list=2107.13586" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:20] curl -s "https://export.arxiv.org/api/query?id_list=2107.13586" | grep -E "<title>|<published>" | head
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:25] curl -s "https://export.arxiv.org/api/query?id_list=2107.13586" | head -c 1500; echo "===EXIT $?==="
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:30] curl -s "https://export.arxiv.org/api/query?id_list=2107.13586" | head -c 800; echo "===EXIT==="
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:35] curl -sL -A "Mozilla/5.0" "https://export.arxiv.org/api/query?id_list=2107.13586" -o /tmp/arxiv_test.xml; wc -c /tmp/arxiv_test.xml; head -c 600 /tmp/arxiv_test.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:48] for id in 1708.05866 1811.12560 2005.01643 2009.07888 2103.04931 1811.06711 2206.03378 1904.07854 1908.10635 2103.06257; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+  sleep 1
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:51] curl -s "http://export.arxiv.org/api/query?id_list=1708.05866" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:55] for id in 1808.05377 1906.02530 1802.07569 1906.08158 2002.12478 2004.05439 2009.07485 1912.13213 2009.05673; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+  sleep 3
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:55] for id in 1812.08434 1901.00596 2104.13478 2003.00982 2202.07082 2106.06090; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:55] curl -sS "http://export.arxiv.org/api/query?id_list=1708.05866" 2>&1 | head -20; echo "EXIT: $?"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:58] for id in 1901.03407 2110.14051 2007.15951 1906.06821 1808.03426 2007.10729; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+  sleep 2
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:58] curl -s "http://export.arxiv.org/api/query?id_list=1808.05377" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:52:58] curl -s "http://export.arxiv.org/api/query?id_list=1901.00596" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:00] curl -sS "http://export.arxiv.org/api/query?id_list=1708.05866" 2>&1 | head -30; echo "EXIT: $?"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:02] curl -sv "http://export.arxiv.org/api/query?id_list=1901.00596" 2>&1 | tail -20
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:03] curl -sv "http://export.arxiv.org/api/query?id_list=1808.05377" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:03] curl -s "http://export.arxiv.org/api/query?id_list=1901.03407" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:05] curl -v "https://export.arxiv.org/api/query?id_list=1708.05866" 2>&1 | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:07] curl -sv "http://export.arxiv.org/api/query?id_list=1901.03407" 2>&1 | head -20
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:11] curl -s "https://export.arxiv.org/api/query?id_list=1708.05866" 2>&1 | grep -oE "<title>[^<]*</title>" | head -5; echo "EXIT ${PIPESTATUS[0]}"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:12] curl -sL "https://export.arxiv.org/api/query?id_list=1901.03407" | grep -E "<title>" | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:12] /tmp/verify_arxiv.sh 1804.09653 2002.07526 2107.13586 2009.06732 1910.13461 2003.07278 2004.03705 2105.03075 2003.04967 2010.06467
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:17] curl -s "https://export.arxiv.org/api/query?id_list=1708.05866" -o /tmp/arxiv_test.xml 2>&1; wc -c /tmp/arxiv_test.xml; echo "---"; head -c 600 /tmp/arxiv_test.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:27] curl -s --max-time 30 "http://export.arxiv.org/api/query?id_list=1708.05866" -o /tmp/arxiv_test.xml; echo "exit=$?"; wc -c /tmp/arxiv_test.xml; head -c 800 /tmp/arxiv_test.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:28] for id in 1812.08434 1901.00596 2104.13478 2003.00982 2202.07082 2106.06090; do
+  echo "=== $id ==="
+  curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -oE "<title>[^<]*</title>" | sed -n '2p'
+  sleep 1
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:31] /tmp/verify_arxiv.sh 2003.08271 1708.02709 2101.00133 2111.01243 2204.06125 2305.18703 2212.10403 2308.10792 2303.18223 2402.06196
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:33] verify_id() {
+  for id in "$@"; do
+    echo "=== $id ==="
+    curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -oE "<title>[^<]*</title>" | sed -n '2p'
+    sleep 3
+  done
+}
+verify_id 1808.05377 1906.02530 1802.07569 1906.08158 2002.12478 2004.05439
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:34] curl -sL --max-time 30 "https://arxiv.org/abs/1708.05866" -o /tmp/abs.html; echo "exit=$?"; wc -c /tmp/abs.html; echo "---google test---"; curl -s --max-time 20 "https://www.google.com" -o /tmp/g.html; wc -c /tmp/g.html
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:39] for id in 2108.07258 2104.13478 2009.06732 2111.06377 1808.06601 1912.05911; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+  sleep 2
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:42] verify() {
+  for id in "$@"; do
+    title=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -A20 "<entry>" | grep "<title>" | head -1 | sed 's/<[^>]*>//g' | sed 's/^ *//')
+    echo "$id | $title"
+    sleep 3
+  done
+}
+# Anomaly detection, outlier, deep learning AD
+verify 1901.03407 2110.14051 2009.11732 2007.02500 2004.00433
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:43] curl -s "http://export.arxiv.org/api/query?id_list=2108.07258" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:47] curl -s "http://export.arxiv.org/api/query?id_list=2108.07258" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:48] for id in 1908.09635 2010.04053 1702.08608 1708.08296 1606.03490 2103.11251 2004.07213 1810.08810 2006.11371 1909.08072; do
+  echo "=== $id ==="
+  curl -s "http://export.arxiv.org/api/query?id_list=$id" | grep -E "<title>|<published>" | head -3
+  sleep 3
+done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:51] curl -sv "http://export.arxiv.org/api/query?id_list=2108.07258" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:52] curl -s "http://export.arxiv.org/api/query?id_list=1908.09635" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:55] curl -s "https://export.arxiv.org/api/query?id_list=2108.07258" | grep -E "<title>" | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:56] curl -sS "http://export.arxiv.org/api/query?id_list=1908.09635" -w "\nHTTP:%{http_code} SIZE:%{size_download}\n" 2>&1 | tail -20
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:53:59] curl -s "https://export.arxiv.org/api/query?id_list=2108.07258" | head -50
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:00] curl -sSL "https://export.arxiv.org/api/query?id_list=1908.09635" -w "\nHTTP:%{http_code} SIZE:%{size_download}\n" 2>&1 | grep -E "<title>|HTTP:" | head -5
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:03] curl -sv "https://export.arxiv.org/api/query?id_list=2108.07258" 2>&1 | tail -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:04] /tmp/verify_arxiv.sh 2101.00774 1812.10995 2005.06249 2110.08975 1909.00161 2005.14165 2203.13088 2102.07350 2107.13239 2106.07139
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:04] /tmp/verify.sh 1708.05866 1811.12560 2005.01643 2009.07888 2103.04931 1811.06711 1904.07854 1908.10635 2103.06257 2206.03378
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:04] verify() {
+  for id in "$@"; do
+    title=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -A20 "<entry>" | grep "<title>" | head -1 | sed 's/<[^>]*>//g' | sed 's/^ *//')
+    echo "$id | $title"
+    sleep 3
+  done
+}
+# Deep AD review (Pang/Ruff), graph anomaly, time series AD
+verify 2007.02500 2106.07178 2004.00433 2211.05244 2009.11732
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:04] verify_id() {
+  for id in "$@"; do
+    t=$(curl -sL "https://export.arxiv.org/api/query?id_list=$id" | grep -oE "<title>[^<]*</title>" | sed -n '2p' | sed 's/<[^>]*>//g')
+    echo "$id | $t"
+    sleep 3
+  done
+}
+verify_id 1906.02530 1906.08158 2002.12478 2004.05439 2009.07485 1912.13213 2110.00476 2103.13630 1808.01974 2004.05439
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:10] curl -s "http://export.arxiv.org/api/query?id_list=1701.07274" | grep -E "<title>|<published>" | head -5
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:16] curl -s "http://export.arxiv.org/api/query?id_list=2303.18223" | grep -o "<title>[^<]*</title>" | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:19] curl -s "http://export.arxiv.org/api/query?id_list=2303.18223"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:21] curl -s "http://export.arxiv.org/api/query?id_list=2108.07258,1706.03762,2009.06732,2106.04554,1808.03314,2004.02806,2006.09661,2104.13478" | grep -E "<title>|<id>arxiv" | sed 's/<[^>]*>//g'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:21] curl -s "http://export.arxiv.org/api/query?id_list=2106.04554,2108.07258,1808.05377,1906.02243,2002.05709,1911.02685,2009.05673,1907.05415,2004.05439,2006.07733" | grep -oE "<title>[^<]*</title>"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:21] curl -s "http://export.arxiv.org/api/query?id_list=2107.13586" | grep -E "<title>|<published>" | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:21] curl -s "http://export.arxiv.org/api/query?id_list=1901.00596,1812.08434,2003.00982,2104.13478,1709.05584" | grep -E "<title>" | head -20
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:21] curl -s "http://export.arxiv.org/api/query?id_list=2009.11732" | grep -E "<title>" | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:23] curl -sv "http://export.arxiv.org/api/query?id_list=2303.18223" 2>&1 | head -20
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:25] curl -s "http://export.arxiv.org/api/query?id_list=2108.07258,1706.03762,2009.06732,2106.04554,1808.03314,2004.02806,2006.09661,2104.13478" | grep "<title>"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:25] curl -s "http://export.arxiv.org/api/query?id_list=2106.04554,2108.07258,1808.05377" -o /tmp/arxiv_test.xml; wc -c /tmp/arxiv_test.xml; grep -oE "<title>[^<]*</title>" /tmp/arxiv_test.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:25] curl -s "http://export.arxiv.org/api/query?id_list=2009.11732"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:25] curl -s "http://export.arxiv.org/api/query?id_list=1908.09635" | grep "<title>" | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:25] curl -s "http://export.arxiv.org/api/query?id_list=1901.00596,1812.08434,2003.00982,2104.13478,1709.05584" -o /tmp/q1.xml; wc -c /tmp/q1.xml; grep -c "<entry>" /tmp/q1.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:28] curl -sS "http://export.arxiv.org/api/query?id_list=2107.13586" -o /tmp/arxiv_test.xml -w "HTTP %{http_code}, size %{size_download}\n"; head -c 500 /tmp/arxiv_test.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:28] curl -sL "https://export.arxiv.org/api/query?id_list=2303.18223,2308.10792,2203.02155,2311.05232,2312.10997,2308.11432,2308.07107" | grep -o "<title>[^<]*</title>"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:28] curl -s "http://export.arxiv.org/api/query?id_list=2108.07258" -o /tmp/test_arxiv.xml -w "HTTP %{http_code}, size %{size_download}\n"; wc -l /tmp/test_arxiv.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:29] curl -sv "http://export.arxiv.org/api/query?id_list=2009.11732" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:29] curl -sS -m 15 "http://export.arxiv.org/api/query?id_list=2106.04554" -o /tmp/a.xml 2>&1; echo "exit=$?"; wc -c /tmp/a.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:29] curl -sS -w "HTTP %{http_code}\n" "http://export.arxiv.org/api/query?id_list=1901.00596" -o /tmp/q1.xml 2>&1; echo "---"; head -c 500 /tmp/q1.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:30] curl -s "http://export.arxiv.org/api/query?id_list=1908.09635,1702.08608,2006.11371,1909.03012,1810.08810,1909.08072,1810.00069,2007.07399" | grep -E "<title>"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:32] curl -s -w "\nHTTP:%{http_code} SIZE:%{size_download}\n" "http://export.arxiv.org/api/query?id_list=1701.07274" -o /tmp/arxiv_test.xml; wc -c /tmp/arxiv_test.xml; head -c 500 /tmp/arxiv_test.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:33] curl -sSL "https://export.arxiv.org/api/query?id_list=2107.13586" -o /tmp/arxiv_test.xml -w "HTTP %{http_code}, size %{size_download}\n"; grep -E "<title>" /tmp/arxiv_test.xml | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:33] curl -sL "https://export.arxiv.org/api/query?id_list=2303.18223,2308.10792,2203.02155,2311.05232,2312.10997,2308.11432,2308.07107" -o /tmp/b1.xml; wc -c /tmp/b1.xml; grep -o "<title>[^<]*</title>" /tmp/b1.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:33] curl -sL "https://export.arxiv.org/api/query?id_list=2108.07258,1706.03762,2009.06732,2106.04554,1808.03314,2004.02806,2006.09661,2104.13478" | grep "<title>" | sed 's/<[^>]*>//g'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:33] curl -s "https://export.arxiv.org/api/query?id_list=2009.11732" | grep -E "<title>|<published>" 
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:34] curl -sS -w "HTTP %{http_code}\n" "https://export.arxiv.org/api/query?id_list=1901.00596,1812.08434,2003.00982,2104.13478,1709.05584" -o /tmp/q1.xml; echo "entries:"; grep -c "<entry>" /tmp/q1.xml; grep "<title>" /tmp/q1.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:34] curl -sS -m 20 "http://export.arxiv.org/api/query?id_list=2106.04554" -o /tmp/a.xml 2>&1; echo "exit=$?"; wc -c /tmp/a.xml; grep -oE "<title>[^<]*</title>" /tmp/a.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:34] curl -s "http://export.arxiv.org/api/query?id_list=1908.09635,1702.08608,2006.11371" | grep -oE "<title>[^<]*</title>"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:36] curl -sv "https://export.arxiv.org/api/query?id_list=2303.18223" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:37] curl -s "https://export.arxiv.org/api/query?id_list=2009.11732" | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:37] curl -sL "http://export.arxiv.org/api/query?id_list=1701.07274" | python3 -c "import sys,re; d=sys.stdin.read(); t=re.findall(r'<entry>.*?<title>(.*?)</title>', d, re.S); print('TITLE:', t)"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:37] curl -sL "https://export.arxiv.org/api/query?id_list=2108.07258" -o /tmp/t.xml -w "HTTP %{http_code}, size %{size_download}\n"; grep -c title /tmp/t.xml; grep "<title>" /tmp/t.xml | head
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:38] curl -s "http://export.arxiv.org/api/query?id_list=1908.09635,1702.08608,2006.11371" -o /tmp/arxiv_test.xml; wc -l /tmp/arxiv_test.xml; grep -c "<entry>" /tmp/arxiv_test.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:39] curl -sSL -A "survey-collector/1.0 (mailto:s25705@cyberagent.email)" "https://export.arxiv.org/api/query?id_list=2107.13586" -o /tmp/a1.xml -w "HTTP %{http_code}\n"; grep -oE "<title>[^<]*</title>" /tmp/a1.xml | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:40] curl -v -m 20 "http://export.arxiv.org/api/query?id_list=2106.04554" 2>&1 | head -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:40] curl -sv "https://export.arxiv.org/api/query?id_list=2009.11732" 2>&1 | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:40] curl -sL "https://export.arxiv.org/api/query?id_list=1701.07274" -w "\nHTTP:%{http_code} SIZE:%{size_download}\n" | tail -c 1500
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:41] curl -s "https://export.arxiv.org/api/query?id_list=2303.18223" 2>&1 | tail -c 2000
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:43] curl -sv "http://export.arxiv.org/api/query?id_list=1908.09635" 2>&1 | head -20
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:44] curl -sSL "https://arxiv.org/abs/2107.13586" -o /tmp/abs1.html -w "HTTP %{http_code}\n"; grep -oE "<title>[^<]*</title>" /tmp/abs1.html | head -1; grep -oE "citation_author\" content=\"[^\"]*" /tmp/abs1.html | head -3
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:44] curl -sv "https://export.arxiv.org/api/query?id_list=2009.11732" 2>&1 | tail -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:45] curl -sS -m 25 "https://export.arxiv.org/api/query?id_list=2106.04554,2108.07258,1808.05377,1906.02243,1911.02685,2009.05673,1907.05415,2004.05439,2002.05709,2006.07733" -o /tmp/b.xml; echo "exit=$?"; grep -oE "<title>[^<]*</title>" /tmp/b.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:46] curl -sL "https://export.arxiv.org/api/query?id_list=2108.07258" -o /tmp/t.xml -w "HTTP %{http_code} size %{size_download}\n"; grep "<title>" /tmp/t.xml | sed 's/<[^>]*>//g'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:48] curl -sL "https://export.arxiv.org/api/query?id_list=1908.09635,1702.08608,2006.11371,1909.03012,1810.08810,1909.08072,1810.00069,2007.07399" -o /tmp/a1.xml; grep -oE "<title>[^<]*</title>" /tmp/a1.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:52] curl -sL "https://export.arxiv.org/api/query?id_list=1908.09635" -o /tmp/a1.xml; wc -c /tmp/a1.xml; grep -i title /tmp/a1.xml | head
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:52] curl -v -m 25 "https://export.arxiv.org/api/query?id_list=2106.04554" 2>&1 | head -40
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:56] curl -s "https://export.arxiv.org/api/query?id_list=2303.18223,2308.10792,2203.02155" > /tmp/b1.xml 2>/dev/null; wc -c /tmp/b1.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:56] curl -sL "https://export.arxiv.org/api/query?id_list=1908.09635,1702.08608,2006.11371,1909.03012,1810.08810,1909.08072,1810.00069,2007.07399&max_results=20" -o /tmp/b1.xml; grep "<title>" /tmp/b1.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:57] curl -s -m 25 --http1.1 "https://export.arxiv.org/api/query?id_list=2106.04554" -o /tmp/c.xml; echo "exit=$?"; wc -c /tmp/c.xml; grep -oE "<title>[^<]*</title>" /tmp/c.xml | head
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:54:59] curl -s "https://export.arxiv.org/api/query?id_list=2303.18223,2308.10792,2203.02155" | head -c 500
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:55:15] rm -f /tmp/verify_arxiv.py /tmp/verify_arxiv.sh; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:55:22] /tmp/verify_arxiv.sh 1809.08731 2002.07526 1812.09449 2006.11477 2010.11982 2107.13586 2009.06732 2105.03075 2002.12327 1901.09069
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:55:26] curl -sL "https://export.arxiv.org/api/query?id_list=1702.08608&max_results=1" | grep -a -A1 "</id>" | grep -a "<title>"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:55:31] curl -sL "https://export.arxiv.org/api/query?id_list=1702.08608&max_results=1" -o /tmp/c.xml; wc -c /tmp/c.xml
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:55:43] curl -sL "https://export.arxiv.org/api/query?id_list=2108.07258" -o /tmp/t.xml -w "HTTP %{http_code} size %{size_download}\n" --retry 5 --retry-delay 10 --retry-all-errors; grep "<title>" /tmp/t.xml | sed 's/<[^>]*>//g'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:55:48] curl -s "https://export.arxiv.org/api/query?id_list=2007.02500" -w "\nHTTP %{http_code}\n" | grep -oE "<title>[^<]+" | tail -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:55:52] curl -s "https://export.arxiv.org/api/query?id_list=2007.02500" -w "HTTP %{http_code}"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:03] python3 -c "import json; d=json.load(open('data/raw/cv.json')); print('cv.json entries:', len(d)); print('sample:', json.dumps(d[0], ensure_ascii=False))" && echo "--- raw dir ---" && ls -la data/raw/
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:06] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 1703.09902 2105.09938 2006.03654 2204.07705 2308.10792 2303.18223 2307.09793 2212.10403 2203.13366 2009.13081
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:13] gh api repos/wusw14/GNN-in-RS --jq .full_name 2>&1; echo "==="; gh api repos/RUCAIBox/DenseRetrieval --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:33] gh api repos/jiawei-chen/RecDebiasing --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:34] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 1708.02709 2103.06922 2005.06149 1905.06566 2006.06195 2104.10810 2204.09269 2202.01110 2305.18703 2010.12321
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:36] gh api repos/RManLuo/Awesome-LLM-KG --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:37] gh api repos/HKUDS/Awesome-LLM4Graph-Papers --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:39] gh api repos/yhLeeee/Awesome-LLMs-in-Graph-tasks --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:56:40] gh api repos/pygod-team/pygod --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:57:01] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 1812.10464 2106.07139 2009.05673 2105.11644 2305.10435 2003.07278 2104.08663 2010.16061 1909.00161 2204.06125
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:57:10] gh api repos/Lsyhprum/WEAVESS --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:57:15] python3 -c "
+import urllib.request, xml.etree.ElementTree as ET, time, sys
+ids='2303.18223,2308.10792,2203.02155,2311.05232,2312.10997'.split(',')
+ns={'a':'http://www.w3.org/2005/Atom'}
+time.sleep(20)
+for i in ids:
+    for attempt in range(5):
+        try:
+            url='https://export.arxiv.org/api/query?id_list=%s'%i
+            req=urllib.request.Request(url,headers={'User-Agent':'survey-librarian/1.0'})
+            x=urllib.request.urlopen(req,timeout=30).read()
+            r=ET.fromstring(x)
+            e=r.find('a:entry',ns)
+            t=' '.join(e.find('a:title',ns).text.split())
+            au=e.find('a:author/a:name',ns).text
+            yr=e.find('a:published',ns).text[:4]
+            print(i,'|',yr,'|',au,'|',t)
+            break
+        except Exception as ex:
+            time.sleep(15)
+    time.sleep(5)
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:57:20] gh api repos/tsinghua-fib-lab/World-Model --jq .full_name 2>&1 | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:57:29] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2104.06390 2106.04554 2008.00401 2101.00390 2205.12643 2106.11342 2304.10557 2212.10773 2009.02252 2103.12028
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:57:38] gh api repos/jwwthu/GNN4Traffic --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:57:45] gh api repos/YuanchenBei/Awesome-Cold-Start-Recommendation --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:57:57] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2305.13245 2402.06196 2311.12351 2310.07521 2312.10997 2308.07107 2402.19473 2401.01313 2309.07864 2308.11432
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:00] gh api repos/huangleiBuaa/NormalizationSurvey --jq .full_name 2>&1 | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:04] gh api repos/PeterGriffinJin/Awesome-Language-Model-on-Graphs --jq .full_name 2>&1; echo "==="; gh api repos/Coder-Yu/SELFRec --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:05] gh api repos/qingsongedu/time-series-transformers-review --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:06] gh api repos/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:06] python3 /tmp/arxiv_verify.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:07] gh api repos/start2020/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:09] gh api repos/mims-harvard/TFC-pretraining --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:15] gh api repos/RManLuo/Awesome-Causal-Inference --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:16] gh api repos/yuanmingqi/awesome-graph-self-supervised-learning --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:16] gh api repos/subeeshvasu/Awesome-Learning-with-Label-Noise --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:17] gh api repos/LirongWu/awesome-graph-self-supervised-learning --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:19] gh api repos/SitaoLuan/awesome-graph-transformer --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:27] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2005.04118 1911.10470 2107.04212 2105.08919 2204.10854 2304.13712 2009.12534 2107.13586 1708.05148 2106.04147
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:31] gh api repos/RUCAIBox/LLMSurvey --jq .full_name 2>&1; gh api repos/Hannibal046/Awesome-LLM --jq .full_name 2>&1; gh api repos/hymie122/RAG-Survey --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:41] gh api repos/Paitesanshi/LLM-Agent-Survey --jq .full_name 2>&1; gh api repos/EgoAlpha/prompt-in-context-learning --jq .full_name 2>&1; gh api repos/atfortes/Awesome-LLM-Reasoning --jq .full_name 2>&1; gh api repos/HqWu-HITCS/Awesome-LLM-Survey --jq .full_name 2>&1; gh api repos/BradyFU/Awesome-Multimodal-Large-Language-Models --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:51] gh api repos/AmberLJC/LLMSys-PaperList --jq .full_name 2>&1; gh api repos/Zefan-Cai/Awesome-LLM-KV-Cache --jq .full_name 2>&1; gh api repos/huggingface/peft --jq .full_name 2>&1; gh api repos/Xnhyacinth/Awesome-LLM-Long-Context-Modeling --jq .full_name 2>&1; gh api repos/zjunlp/KnowledgeEditingPapers --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:58:55] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2105.00377 2204.08387 2010.06467 2002.06177 2106.06090 1906.01502 2103.00498 2305.13169 2204.05832 2305.14233
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:00] gh api repos/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy --jq .full_name 2>&1; gh api repos/heejkoo/Awesome-Diffusion-Models --jq .full_name 2>&1; gh api repos/Vision-CAIR/Diffusion-Models-Survey --jq .full_name 2>&1; gh api repos/showlab/Awesome-Video-Diffusion --jq .full_name 2>&1; gh api repos/yzhuoning/Awesome-CLIP --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:09] gh api repos/IDEA-Research/awesome-controllable-generation --jq .full_name 2>&1; gh api repos/justinpinkney/awesome-pretrained-stylegan --jq .full_name 2>&1; gh api repos/wangkai930418/awesome-diffusion-categorized --jq .full_name 2>&1; gh api repos/hee9joon/Awesome-Diffusion-Models --jq .full_name 2>&1; gh api repos/Yangyi-Chen/Multimodal-AND-Large-Language-Models --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:22] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2205.10643 2106.15561 2008.00768 2303.00733 2106.04624 2101.07597 2104.01778 1804.04212 2011.12640 2207.05172
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:24] gh api repos/Codium-ai/awesome-code-llm --jq .full_name 2>&1; gh api repos/huybery/Awesome-Code-Intelligence --jq .full_name 2>&1; gh api repos/HuangOwen/Awesome-LLM-Compression --jq .full_name 2>&1; gh api repos/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs --jq .full_name 2>&1; gh api repos/EmbodiedGPT/EmbodiedGPT_Pytorch --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:32] gh api repos/MLGroupJLU/LLM-eval-survey --jq .full_name 2>&1; gh api repos/HillZhang1999/llm-hallucination-survey --jq .full_name 2>&1; gh api repos/SihengLi99/TextRL --jq .full_name 2>&1; gh api repos/zaibutcooler/awesome-rlhf --jq .full_name 2>&1; gh api repos/opendilab/awesome-RLHF --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:37] gh api repos/daochenzha/data-centric-AI --jq .full_name 2>&1 | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:38] gh api repos/PKU-Alignment/AlignmentSurvey --jq .full_name 2>/dev/null; echo "---try2---"; gh api repos/PKU-Alignment/alignment-survey --jq .full_name 2>/dev/null; echo "done"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:42] gh api repos/zjukg/KnowledgeEditingPapers --jq .full_name 2>&1; gh api repos/WindyLee0822/Process_Q_Model --jq .full_name 2>&1; gh api repos/luban-agi/Awesome-Tool-Learning --jq .full_name 2>&1; gh api repos/RUCAIBox/Awesome-LLM-Tool-Learning --jq .full_name 2>&1; gh api repos/showlab/Awesome-Unified-Multimodal-Models --jq .full_name 2>&1; gh api repos/marslanm/Multimodality-Representation-Learning --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 16:59:51] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2101.09624 1912.10211 2202.13841 2305.00359 2308.01018 2107.10470 1709.01515 2006.05530 2304.00250 2104.04473
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:14] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/gnn_kg_causal.json')); print('count',len(d)); from collections import Counter; print(Counter(x['field'] for x in d))"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:19] gh api repos/state-spaces/mamba --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:19] python3 /tmp/arxiv_verify2.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:20] gh api repos/KindXiaoming/pykan --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:22] gh api repos/google-deepmind/deepmind-research --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:35] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/gnn_kg_causal.json')); print('count',len(d)); keys=set(); [keys.update(x.keys()) for x in d]; print('keys',sorted(keys)); from collections import Counter; print(Counter(x['field'] for x in d)); print('arxiv_null',sum(1 for x in d if x['arxiv'] is None)); print('github_set',sum(1 for x in d if x['github']))"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:36] python3 -c "
+import json,collections
+d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/ml_theory.json'))
+print('total',len(d))
+print('fields',collections.Counter(x['field'] for x in d))
+ids=[x['arxiv'] for x in d if x['arxiv']]
+print('arxiv dup',[k for k,v in collections.Counter(ids).items() if v>1])
+print('title dup',[k for k,v in collections.Counter(x['title'] for x in d).items() if v>1])
+for k in ['title','authors','venue','year','paper','arxiv','github','page','field','subfield','note']:
+    miss=[x['title'] for x in d if k not in x]
+    if miss: print('MISSING',k,miss)
+print('subfields',sorted(set(x['subfield'] for x in d)))
+print('with github',[x['github'] for x in d if x['github']])
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:37] gh api repos/ChenHsing/Awesome-Video-Diffusion-Models --jq .full_name 2>&1; gh api repos/showlab/Awesome-Video-Generation --jq .full_name 2>&1; gh api repos/hyp1231/awesome-llm-powered-agent --jq .full_name 2>&1; gh api repos/WooooDyy/LLM-Agent-Paper-List --jq .full_name 2>&1; gh api repos/Mooler0410/LLMsPracticalGuide --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:46] gh api repos/jingyi0000/VLM_survey --jq .full_name 2>&1; gh api repos/zhanghm1995/Forge_VFM4AD --jq .full_name 2>&1; gh api repos/lupantech/dl4math --jq .full_name 2>&1; gh api repos/jxzhangjhu/Awesome-LLM-RAG --jq .full_name 2>&1; gh api repos/Tongji-KGLLM/RAG-Survey --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:00:56] gh api repos/IAAR-Shanghai/Awesome-Attention-Heads --jq .full_name 2>&1; gh api repos/THUDM/Awesome-3D-AIGC --jq .full_name 2>&1; gh api repos/hitcslj/Awesome-AIGC-3D --jq .full_name 2>&1; gh api repos/EmbodiedGPT/Awesome-Embodied-AI --jq .full_name 2>&1; gh api repos/HCPLab-SYSU/Embodied_AI_Paper_List --jq .full_name 2>&1; gh api repos/GT-RIPL/Awesome-LLM-Robotics --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:01:00] python3 -c "
+import json,collections
+d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/ml_theory.json'))
+print('total',len(d))
+print('fields',collections.Counter(x['field'] for x in d))
+ids=[x['arxiv'] for x in d if x['arxiv']]
+print('arxiv dup',[k for k,v in collections.Counter(ids).items() if v>1])
+print('JSON OK')
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:01:05] gh api repos/Hannibal046/Awesome-LLM --jq .full_name 2>&1; gh api repos/cmhungsteve/Awesome-Transformer-Attention --jq .full_name 2>&1; gh api repos/wangxb96/Awesome-AI-Agents --jq .full_name 2>&1; gh api repos/Vincentqyw/cv-arxiv-daily --jq .full_name 2>&1; gh api repos/zchuz/awesome-jailbreak-on-llms --jq .full_name 2>&1; gh api repos/yueliu1999/Awesome-Jailbreak-on-LLMs --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:01:11] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2303.03329 1708.07524 1912.02047 1709.04396 2411.14453 1910.09329 1705.03645 2306.02051 1801.07883 2203.01054
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:01:15] gh api repos/tim-learn/awesome-test-time-adaptation --jq .full_name 2>&1 | head -2
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:01:32] python3 -c "import json,collections;d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/dm_db_ir.json'));print('total',len(d));print(dict(collections.Counter(x['field'] for x in d)));print('arxiv',sum(1 for x in d if x['arxiv']));print('github',sum(1 for x in d if x['github']))"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:01:38] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2105.04387 1711.01731 1804.04589 2204.09519 2108.04840 2010.00711 2203.06414 2005.14108 1901.06796 2103.11072
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:01:54] python3 /tmp/validate.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:01:57] gh api repos/llm-misinformation/llm-misinformation-survey --jq .full_name 2>&1; echo "==="; gh api repos/RUC-NLPIR/GenIR-Survey --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:02:07] gh api repos/badripatro/mamba360 --jq .full_name 2>&1 | head -1; gh api repos/zhaoyu-li/DL4TP --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:02:26] gh api repos/lupantech/dl4math --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:02:32] python3 /tmp/validate.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:02:37] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2107.07842 1906.03824 2107.12708 2008.00364 2004.03705 2107.04239 2106.15115 1812.00978 2008.12009 2401.10825
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:02:56] python3 -c "import json,collections;d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/dm_db_ir.json'));print('total',len(d));print(dict(collections.Counter(x['field'] for x in d)));print('arxiv',sum(1 for x in d if x['arxiv']));print('github',sum(1 for x in d if x['github']));req={'title','authors','venue','year','paper','arxiv','github','page','field','subfield','note'};print('keys_ok',all(set(x)==req for x in d));ids=[x['arxiv'] for x in d if x['arxiv']];print('dup_arxiv',[i for i in set(ids) if ids.count(i)>1]);ts=[x['title'] for x in d];print('dup_title',[t for t in set(ts) if ts.count(t)>1])"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:03:10] curl -sL "https://export.arxiv.org/api/query?id_list=1706.03762,2108.07258" -o /tmp/t.xml -w "HTTP %{http_code} size %{size_download}\n"; grep "<title>" /tmp/t.xml | sed 's/<[^>]*>//g'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:03:33] bash /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh 2003.08271 2111.01243 2301.00234 2307.03109 2306.08302 2305.12641 2309.15402 2106.07139 2305.18703
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:03:45] gh api repos/RUCAIBox/LLMSurvey --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:03:50] gh api repos/Tongji-KGLLM/RAG-Survey --jq .full_name 2>&1 | head -1; echo "---"; gh api repos/thunlp/PromptPapers --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:03:57] gh api repos/zjukg/KG-LLM-Papers --jq .full_name 2>&1 | head -1; echo "==="; gh api repos/RManLuo/Awesome-LLM-KG --jq .full_name 2>&1 | head -1; echo "==="; gh api repos/MLNLP-World/Awesome-LLM --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:04:03] gh api repos/xcfcode/Summarization-Papers --jq .full_name 2>&1 | head -1; echo "==="; gh api repos/jind11/awesome-text-classification --jq .full_name 2>&1 | head -1; echo "==="; gh api repos/yzhangcs/parser --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:04:12] gh api repos/xiaoya-li/Instruction-Tuning-Survey --jq .full_name 2>&1 | head -1; echo "==="; gh api repos/Paitesanshi/LLM-Agent-Survey --jq .full_name 2>&1 | head -1; echo "==="; gh api repos/Zoeyyao27/CoT-Igniting-Agent --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:04:19] gh api repos/RayYoh/OCRM_survey --jq .full_name 2>&1; echo "---"; gh api repos/larocs/offline-rl-suvey --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:04:21] gh api repos/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey --jq .full_name 2>&1; gh api repos/Atomic-man007/Awesome_Multimodel_LLM --jq .full_name 2>&1; gh api repos/Yutong-Zhou-cv/Awesome-Text-to-Image --jq .full_name 2>&1; gh api repos/yzhang2016/video-generation-survey --jq .full_name 2>&1; gh api repos/daochenzha/data-centric-AI --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:04:31] gh api repos/xiaoya-li/Instruction-Tuning-Survey --jq .full_name 2>&1; gh api repos/Hannibal046/Awesome-LLM --jq .full_name 2>&1; gh api repos/ndrwmlnk/Awesome-Video-Diffusion-Models --jq .full_name 2>&1; gh api repos/ChenHsing/Awesome-Video-Diffusion-Models --jq .full_name 2>&1; gh api repos/Zhen-Dong/Awesome-Quantization-Papers --jq .full_name 2>&1; gh api repos/Tebmer/Awesome-Knowledge-Distillation-of-LLMs --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:04:46] gh api repos/chauncygu/Safe-Reinforcement-Learning-Baselines --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:06:29] python3 /Users/s25705/awesome-ai-survey-papers/.verify_llm/count.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:06:50] python3 -c "
+import json
+d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/rl_robotics.json'))
+print('TOTAL:', len(d))
+from collections import Counter
+print('FIELD:', dict(Counter(x['field'] for x in d)))
+print('SUBFIELD:')
+for k,v in sorted(Counter(x['subfield'] for x in d).items()):
+    print(f'  {k}: {v}')
+miss=[x['title'] for x in d if not all(kk in x for kk in ('title','authors','venue','year','paper','arxiv','github','page','field','subfield','note'))]
+print('MISSING KEYS:', miss)
+print('FIELDS VALID:', all(x['field'] in ('rl','robotics','multi-agent') for x in d))
+print('GITHUB:', [x['github'] for x in d if x['github']])
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:06:59] python3 /Users/s25705/awesome-ai-survey-papers/.verify_llm/count.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:07:06] rm -f /Users/s25705/awesome-ai-survey-papers/.verify_llm/va.sh /Users/s25705/awesome-ai-survey-papers/.verify_llm/count.py; ls /Users/s25705/awesome-ai-survey-papers/.verify_llm/ 2>/dev/null; echo done
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:07:32] python3 /tmp/validate.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:07:43] gh api repos/AIoT-MLSys-Lab/Efficient-LLMs-Survey --jq .full_name 2>&1; gh api repos/EgoAlpha/prompt-in-context-learning --jq .full_name 2>&1; gh api repos/EmulationAI/awesome-large-audio-models --jq .full_name 2>&1; gh api repos/LuckyyySTA/Awesome-LLM-hallucination --jq .full_name 2>&1; gh api repos/OpenBMB/BMTools --jq .full_name 2>&1; gh api repos/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:07:51] gh api repos/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods --jq .full_name 2>&1; gh api repos/Zoeyyao27/CoT-Igniting-Agent --jq .full_name 2>&1; gh api repos/jun0wanan/awesome-large-multimodal-agents --jq .full_name 2>&1; gh api repos/niconi19/LLM-conversation-safety --jq .full_name 2>&1; gh api repos/thunlp/ChatEval --jq .full_name 2>&1; gh api repos/tjunlp-lab/Awesome-LLMs-Evaluation-Papers --jq .full_name 2>&1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:08:01] python3 /tmp/validate.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:08:26] python3 /tmp/validate_rl.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:08:30] rm -f /tmp/validate_rl.py /tmp/verify_arxiv.py /tmp/verify_batch.py /tmp/arxiv_test.xml; echo cleaned
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:09:25] python3 data/enrich.py 2>&1 | tail -30
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 17:09:30] python3 data/gen.py 2>&1 | tail -10 && echo "=== sizes ===" && wc -l README.md docs/research-notes.md
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
