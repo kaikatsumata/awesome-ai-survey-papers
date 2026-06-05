@@ -2304,3 +2304,141 @@ for c in check:
 Working Directory: /Users/s25705/awesome-ai-survey-papers
 Exit Code: 0
 ---
+[2026-06-05 21:45:31] gh api repos/zhijing-jin/CausalNLP_Papers --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:45:32] gh api repos/zhaoyu-li/DL4TP --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:45:41] gh api repos/RManLuo/Awesome-LLM-KG --jq '.full_name' 2>&1 | head -1; gh api repos/xiyuanzh/awesome-llm-time-series --jq '.full_name' 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:45:47] gh api repos/xiyuanzh/awesome-llm-time-series --jq '.description'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:45:49] gh api repos/KaiyuanWang-bit/Awesome-Federated-LLM-Learning --jq '.full_name' 2>&1 | head -1; gh api repos/Xtra-Computing/Awesome-Federated-Graph-Learning --jq '.full_name' 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:11] gh api repos/JizhiziLi/matting-survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:15] gh api repos/ShenZheng2000/LLIE_Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:20] gh api repos/taozh2017/RGBD-SODsurvey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:24] gh api repos/jianzongwu/Awesome-Open-Vocabulary --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:29] gh api repos/vignywang/Awesome-Local-Feature-Matching --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:34] gh api repos/mangye16/ReID-Survey --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:39] gh api repos/visionxiang/awesome-camouflaged-object-detection --jq .full_name
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:40] gh api repos/limengran98/Awesome-Literature-Graph-Learning-Challenges --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:45] gh api repos/weijiawu/Awesome-Visual-Reinforcement-Learning --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:46] gh api repos/HuKai97/awesome-3D-gaussian-splatting --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:47] gh api repos/kaize0409/Awesome-Graph-OOD-Adaptation --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:49] gh api repos/kaize0409/Awesome-Graph-OOD --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:51] gh api repos/franciscoliu/GenAI-MU-Reading --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:52] gh api repos/guikunchen/Awesome3DGS --jq .full_name 2>&1 | head -1
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:53] gh api repos/tim-learn/Awesome-LabelFree-VLMs --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:55] gh api repos/IPL-Sharif/KD_Survey --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:56] gh api repos/Kimho666/LLM_Hardware_Survey --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:58] gh api repos/jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:46:59] gh api repos/LAMDA-Tabular/Tabular-Survey --jq '.full_name'
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:47:34] python3 /tmp/validate_wave3.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:47:44] python3 /tmp/validate_wave3.py
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:48:51] python3 -c "
+import json
+d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/wave3_sweep.json'))
+ids=set(open('/tmp/existing_ids.txt').read().split())
+print('entries', len(d))
+dup=[x['arxiv'] for x in d if x['arxiv'] in ids]
+print('dups vs existing', dup)
+seen=set(); intern=[]
+for x in d:
+    if x['arxiv'] in seen: intern.append(x['arxiv'])
+    seen.add(x['arxiv'])
+print('internal dups', intern)
+from collections import Counter
+print(Counter(x['field'] for x in d))
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:49:00] python3 -c "import json,collections; d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/wave3_cv.json')); print('total',len(d)); c=collections.Counter(x['subfield'] for x in d); [print(v,k) for k,v in sorted(c.items())]; ks={'title','authors','venue','year','paper','arxiv','github','page','field','subfield','note'}; print('keyissues',[x['title'] for x in d if set(x)!=ks]); print('gh',len([x for x in d if x['github']])); print('allcv',all(x['field']=='cv' for x in d)); ax=[x['arxiv'] for x in d]; print('dups',[a for a,n in collections.Counter(ax).items() if n>1])"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
+[2026-06-05 21:49:04] python3 -c "
+import json
+from collections import Counter
+d=json.load(open('/Users/s25705/awesome-ai-survey-papers/data/raw/wave3_sweep.json'))
+ids=set(open('/tmp/existing_ids.txt').read().split())
+print('entries', len(d))
+print('dups vs existing', [x['arxiv'] for x in d if x['arxiv'] in ids])
+print(dict(Counter(x['field'] for x in d)))
+"
+Working Directory: /Users/s25705/awesome-ai-survey-papers
+Exit Code: 0
+---
