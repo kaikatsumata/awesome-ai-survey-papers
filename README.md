@@ -1,8 +1,10 @@
 # Awesome AI Survey Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+**Languages:** **日本語** · [English](README.en.md)
+
 > AI関連分野のトップ会議・トップジャーナル・arXiv で公開された**サーベイ論文 (survey / review / overview)** の厳選キュレーション。研究サーベイの出発点として、良質で網羅的なレビュー論文へ最短で辿り着くことを目的とします。
 
-**955 本のサーベイ論文** / 30 分野 / companion リポジトリ 122 件付き。最終更新 2026-06-05。
+**955 本のサーベイ論文** / 30 分野 / companion リポジトリ 122 件付き。最終更新 2026-06-06。
 
 各項目は `[タイトル](論文URL) — *venue 年* · 📈被引用数。説明 — [`companion repo`](github) ⭐star🟢鮮度 · [project](ページ)` の形式。
 

@@ -5,3 +5,4 @@ __pycache__/
 # 検証作業の残骸
 .verify_llm/
 *.tmp
+docs/design/codex-task.md

@@ -21,7 +21,8 @@
 2. `python3 data/enrich.py` で検証・メタデータ補強（`data/enriched.json` 生成）。
 3. `python3 data/gen.py` で `README.md` と `docs/research-notes.md` を再生成。
 
-`README.md` / `docs/research-notes.md` は**自動生成物**なので直接編集しないこと。
+`README.md` / `README.en.md` / `docs/research-notes.md` は**自動生成物**なので直接編集しないこと。
+READMEは多言語自動生成。翻訳は `data/i18n/note.<lang>.json` に追記してください。
 
 ## 品質方針
 - 高被引用の定番サーベイと近年の重要サーベイをバランス良く。
