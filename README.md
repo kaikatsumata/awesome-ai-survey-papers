@@ -4,7 +4,7 @@
 
 > AI関連分野のトップ会議・トップジャーナル・arXiv で公開された**サーベイ論文 (survey / review / overview)** の厳選キュレーション。研究サーベイの出発点として、良質で網羅的なレビュー論文へ最短で辿り着くことを目的とします。
 
-**955 本のサーベイ論文** / 30 分野 / companion リポジトリ 122 件付き。最終更新 2026-08-16。
+**955 本のサーベイ論文** / 30 分野 / companion リポジトリ 122 件付き。最終更新 2026-08-23。
 
 各項目は `[タイトル](論文URL) — *venue 年* · 📈被引用数。説明 — [`companion repo`](github) ⭐star🟢鮮度 · [project](ページ)` の形式。
 
@@ -49,23 +49,23 @@
 
 ### Code LLM
 
-- [Large Language Models for Software Engineering: A Systematic Literature Review](https://arxiv.org/abs/2308.10620) — *ACM TOSEM 2023* · 📈1251。395論文を分析したソフトウェア工学向けLLMの系統的文献レビュー
-- [A Survey on Large Language Models for Code Generation](https://arxiv.org/abs/2406.00515) — *arXiv 2024* · 📈1108。コード生成LLMのデータ・手法・評価・倫理を体系化したサーベイ — [`huybery/Awesome-Code-LLM`](https://github.com/huybery/Awesome-Code-LLM) ⭐1291🔴
-- [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) — *TMLR 2023* · 📈117。70+モデル・900+研究を整理したコード言語モデルの包括的サーベイ — [`codefuse-ai/Awesome-Code-LLM`](https://github.com/codefuse-ai/Awesome-Code-LLM) ⭐3425🟢
+- [Large Language Models for Software Engineering: A Systematic Literature Review](https://arxiv.org/abs/2308.10620) — *ACM TOSEM 2023* · 📈1265。395論文を分析したソフトウェア工学向けLLMの系統的文献レビュー
+- [A Survey on Large Language Models for Code Generation](https://arxiv.org/abs/2406.00515) — *arXiv 2024* · 📈1117。コード生成LLMのデータ・手法・評価・倫理を体系化したサーベイ — [`huybery/Awesome-Code-LLM`](https://github.com/huybery/Awesome-Code-LLM) ⭐1289🔴
+- [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) — *TMLR 2023* · 📈116。70+モデル・900+研究を整理したコード言語モデルの包括的サーベイ — [`codefuse-ai/Awesome-Code-LLM`](https://github.com/codefuse-ai/Awesome-Code-LLM) ⭐3430🟢
 
 ### Code Reasoning
 
-- [Code to Think, Think to Code: A Survey on Code-Enhanced Reasoning and Reasoning-Driven Code Intelligence in LLMs](https://arxiv.org/abs/2502.19411) — *arXiv 2025* · 📈57。コードと推論の双方向関係(コード生成と推論駆動)を整理した総説
+- [Code to Think, Think to Code: A Survey on Code-Enhanced Reasoning and Reasoning-Driven Code Intelligence in LLMs](https://arxiv.org/abs/2502.19411) — *arXiv 2025* · 📈59。コードと推論の双方向関係(コード生成と推論駆動)を整理した総説
 
 ### Compression / Quantization
 
-- [A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633) — *TACL 2023* · 📈496。量子化・枝刈り・蒸留を軸にLLM圧縮を整理したTACLサーベイ
+- [A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633) — *TACL 2023* · 📈498。量子化・枝刈り・蒸留を軸にLLM圧縮を整理したTACLサーベイ
 - [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863) — *TMLR 2023* · 📈251。モデル/データ/フレームワークの3視点でLLM効率化を網羅した総説 — [`AIoT-MLSys-Lab/Efficient-LLMs-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey) ⭐1257🟡
 - [The Efficiency Spectrum of Large Language Models: An Algorithmic Survey](https://arxiv.org/abs/2312.00678) — *arXiv 2023* · 📈41。スケーリング則から推論までLLM効率のアルゴリズム的側面を俯瞰
 
 ### Context Engineering
 
-- [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334) — *arXiv 2025* · 📈141。1400本超を分析しプロンプト設計を超える文脈最適化を体系化(3k+ star companion) — [`Meirtz/Awesome-Context-Engineering`](https://github.com/Meirtz/Awesome-Context-Engineering) ⭐3277🟢
+- [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334) — *arXiv 2025* · 📈144。1400本超を分析しプロンプト設計を超える文脈最適化を体系化(3k+ star companion) — [`Meirtz/Awesome-Context-Engineering`](https://github.com/Meirtz/Awesome-Context-Engineering) ⭐3277🟢
 
 ### Continual Learning
 
@@ -73,22 +73,22 @@
 
 ### Data Agents
 
-- [A Survey of Data Agents: Emerging Paradigm or Overstated Hype?](https://arxiv.org/abs/2510.23587) — *arXiv 2025* · 📈37。自律性の度合いに沿ってデータエージェント研究を構造化したサーベイ — [`HKUSTDial/awesome-data-agents`](https://github.com/HKUSTDial/awesome-data-agents) ⭐700🟢
+- [A Survey of Data Agents: Emerging Paradigm or Overstated Hype?](https://arxiv.org/abs/2510.23587) — *arXiv 2025* · 📈40。自律性の度合いに沿ってデータエージェント研究を構造化したサーベイ — [`HKUSTDial/awesome-data-agents`](https://github.com/HKUSTDial/awesome-data-agents) ⭐708🟢
 
 ### Diffusion Language Models
 
-- [A Survey on Diffusion Language Models](https://arxiv.org/abs/2508.10875) — *arXiv 2025* · 📈68。拡散言語モデルの原理・最新モデル・学習・推論・マルチモーダル拡張を俯瞰(1k+ star) — [`VILA-Lab/Awesome-DLMs`](https://github.com/VILA-Lab/Awesome-DLMs) ⭐1175🟢
+- [A Survey on Diffusion Language Models](https://arxiv.org/abs/2508.10875) — *arXiv 2025* · 📈69。拡散言語モデルの原理・最新モデル・学習・推論・マルチモーダル拡張を俯瞰(1k+ star) — [`VILA-Lab/Awesome-DLMs`](https://github.com/VILA-Lab/Awesome-DLMs) ⭐1181🟢
 
 ### Efficient Inference / KV Cache
 
-- [A Survey on Efficient Inference for Large Language Models](https://arxiv.org/abs/2404.14294) — *arXiv 2024* · 📈253。データ/モデル/システムの3層でLLM効率推論を整理し比較実験も実施
-- [LLM Inference Unveiled: Survey and Roofline Model Insights](https://arxiv.org/abs/2402.16363) — *arXiv 2024* · 📈214。Rooflineモデルでボトルネックを可視化したLLM推論効率化サーベイ
-- [Towards Efficient Generative LLM Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234) — *ACM Computing Surveys 2023* · 📈182。アルゴリズムからシステムまでLLMサービングの効率化技術を俯瞰
+- [A Survey on Efficient Inference for Large Language Models](https://arxiv.org/abs/2404.14294) — *arXiv 2024* · 📈255。データ/モデル/システムの3層でLLM効率推論を整理し比較実験も実施
+- [LLM Inference Unveiled: Survey and Roofline Model Insights](https://arxiv.org/abs/2402.16363) — *arXiv 2024* · 📈216。Rooflineモデルでボトルネックを可視化したLLM推論効率化サーベイ
+- [Towards Efficient Generative LLM Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234) — *ACM Computing Surveys 2023* · 📈184。アルゴリズムからシステムまでLLMサービングの効率化技術を俯瞰
 
 ### Efficient Reasoning
 
-- [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.16419) — *arXiv 2025* · 📈439。推論モデルの過剰思考を抑える効率的推論手法を体系化したサーベイ — [`Eclipsess/Awesome-Efficient-Reasoning-LLMs`](https://github.com/Eclipsess/Awesome-Efficient-Reasoning-LLMs) ⭐786🟢
-- [A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond](https://arxiv.org/abs/2503.21614) — *arXiv 2025* · 📈142。冗長な推論トレースの効率化を言語・マルチモーダル・エージェント横断で整理 — [`XiaoYee/Awesome_Efficient_LRM_Reasoning`](https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning) ⭐357🟡
+- [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.16419) — *arXiv 2025* · 📈445。推論モデルの過剰思考を抑える効率的推論手法を体系化したサーベイ — [`Eclipsess/Awesome-Efficient-Reasoning-LLMs`](https://github.com/Eclipsess/Awesome-Efficient-Reasoning-LLMs) ⭐785🟢
+- [A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond](https://arxiv.org/abs/2503.21614) — *arXiv 2025* · 📈142。冗長な推論トレースの効率化を言語・マルチモーダル・エージェント横断で整理 — [`XiaoYee/Awesome_Efficient_LRM_Reasoning`](https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning) ⭐359🟡
 
 ### Emergent Abilities / Scaling
 
@@ -96,21 +96,21 @@
 
 ### GUI Agents
 
-- [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/abs/2411.18279) — *arXiv 2024* · 📈191。GUI操作を行うLLMエージェントの歴史・構成要素・技術を包括的に整理 — [`vyokky/LLM-Brained-GUI-Agents-Survey`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey) ⭐231🟡
+- [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/abs/2411.18279) — *arXiv 2024* · 📈193。GUI操作を行うLLMエージェントの歴史・構成要素・技術を包括的に整理 — [`vyokky/LLM-Brained-GUI-Agents-Survey`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey) ⭐231🟡
 
 ### GraphRAG
 
-- [A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models](https://arxiv.org/abs/2501.13958) — *arXiv 2025* · 📈138。グラフベースRAG(GraphRAG)を体系的に分析したサーベイ(2.4k+ star companion) — [`DEEP-PolyU/Awesome-GraphRAG`](https://github.com/DEEP-PolyU/Awesome-GraphRAG) ⭐2592🟢
+- [A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models](https://arxiv.org/abs/2501.13958) — *arXiv 2025* · 📈139。グラフベースRAG(GraphRAG)を体系的に分析したサーベイ(2.4k+ star companion) — [`DEEP-PolyU/Awesome-GraphRAG`](https://github.com/DEEP-PolyU/Awesome-GraphRAG) ⭐2605🟢
 
 ### Hallucination
 
-- [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/abs/2311.05232) — *ACM TOIS 2023* · 📈3531。幻覚の原理・分類・課題を網羅した代表的ハルシネーションサーベイ — [`LuckyyySTA/Awesome-LLM-hallucination`](https://github.com/LuckyyySTA/Awesome-LLM-hallucination) ⭐339🔴
-- [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219) — *arXiv 2023* · 📈1119。入力矛盾・文脈矛盾・事実矛盾の分類でLLM幻覚を整理したサーベイ — [`HillZhang1999/llm-hallucination-survey`](https://github.com/HillZhang1999/llm-hallucination-survey) ⭐1084🟡
-- [A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models](https://arxiv.org/abs/2401.01313) — *arXiv 2024* · 📈504。RAG等32種超の幻覚緩和手法を分類・比較したミティゲーション専門サーベイ
+- [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/abs/2311.05232) — *ACM TOIS 2023* · 📈3590。幻覚の原理・分類・課題を網羅した代表的ハルシネーションサーベイ — [`LuckyyySTA/Awesome-LLM-hallucination`](https://github.com/LuckyyySTA/Awesome-LLM-hallucination) ⭐338🔴
+- [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219) — *arXiv 2023* · 📈1128。入力矛盾・文脈矛盾・事実矛盾の分類でLLM幻覚を整理したサーベイ — [`HillZhang1999/llm-hallucination-survey`](https://github.com/HillZhang1999/llm-hallucination-survey) ⭐1085🟡
+- [A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models](https://arxiv.org/abs/2401.01313) — *arXiv 2024* · 📈506。RAG等32種超の幻覚緩和手法を分類・比較したミティゲーション専門サーベイ
 
 ### In-Context Learning
 
-- [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234) — *EMNLP 2023* · 📈1130。文脈内学習の定義・手法・分析を体系化した定番サーベイ — [`EgoAlpha/prompt-in-context-learning`](https://github.com/EgoAlpha/prompt-in-context-learning) ⭐2248🟢
+- [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234) — *EMNLP 2023* · 📈1137。文脈内学習の定義・手法・分析を体系化した定番サーベイ — [`EgoAlpha/prompt-in-context-learning`](https://github.com/EgoAlpha/prompt-in-context-learning) ⭐2248🟢
 
 ### In-Context Learning Theory
 
@@ -118,8 +118,8 @@
 
 ### Instruction Tuning
 
-- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) — *NeurIPS 2022* · 📈23378。InstructGPT論文。人間フィードバックによる指示追従学習の基礎を確立
-- [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792) — *arXiv 2023* · 📈919。指示チューニング(SFT)の手法・データ構築・応用を整理した代表的サーベイ — [`xiaoya-li/Instruction-Tuning-Survey`](https://github.com/xiaoya-li/Instruction-Tuning-Survey) ⭐232🟡
+- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) — *NeurIPS 2022* · 📈23521。InstructGPT論文。人間フィードバックによる指示追従学習の基礎を確立
+- [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792) — *arXiv 2023* · 📈923。指示チューニング(SFT)の手法・データ構築・応用を整理した代表的サーベイ — [`xiaoya-li/Instruction-Tuning-Survey`](https://github.com/xiaoya-li/Instruction-Tuning-Survey) ⭐232🟡
 
 ### KV Cache Compression
 
@@ -127,38 +127,38 @@
 
 ### Knowledge & Dataset Distillation for LLMs
 
-- [Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions](https://arxiv.org/abs/2504.14772) — *arXiv preprint 2025* · 📈55。LLM圧縮の補完的2手法、知識蒸留とデータセット蒸留を包括的に分析したサーベイ。
+- [Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions](https://arxiv.org/abs/2504.14772) — *arXiv preprint 2025* · 📈58。LLM圧縮の補完的2手法、知識蒸留とデータセット蒸留を包括的に分析したサーベイ。
 
 ### Knowledge Distillation
 
-- [A Survey on Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2402.13116) — *arXiv 2024* · 📈368。LLMの知識蒸留(技能蒸留・データ拡張)を体系化した総説 — [`Tebmer/Awesome-Knowledge-Distillation-of-LLMs`](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs) ⭐1301🟡
+- [A Survey on Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2402.13116) — *arXiv 2024* · 📈369。LLMの知識蒸留(技能蒸留・データ拡張)を体系化した総説 — [`Tebmer/Awesome-Knowledge-Distillation-of-LLMs`](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs) ⭐1302🟡
 
 ### Knowledge Editing
 
-- [Editing Large Language Models: Problems, Methods, and Opportunities](https://arxiv.org/abs/2305.13172) — *EMNLP 2023* · 📈484。知識編集タスクの定義・手法・課題を整理しベンチも提供(1.2k+ star companion) — [`zjunlp/KnowledgeEditingPapers`](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐1246🟢
-- [Knowledge Editing for Large Language Models: A Survey](https://arxiv.org/abs/2310.16218) — *ACM Computing Surveys 2023* · 📈280。知識編集(KME)技術の分類・評価・課題を整理した代表的サーベイ
-- [A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286) — *arXiv 2024* · 📈178。外部/パラメータ/内部の3分類とKnowEditベンチを提案した知識編集研究 — [`zjunlp/EasyEdit`](https://github.com/zjunlp/EasyEdit) ⭐2896🟢
+- [Editing Large Language Models: Problems, Methods, and Opportunities](https://arxiv.org/abs/2305.13172) — *EMNLP 2023* · 📈487。知識編集タスクの定義・手法・課題を整理しベンチも提供(1.2k+ star companion) — [`zjunlp/KnowledgeEditingPapers`](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐1247🟢
+- [Knowledge Editing for Large Language Models: A Survey](https://arxiv.org/abs/2310.16218) — *ACM Computing Surveys 2023* · 📈282。知識編集(KME)技術の分類・評価・課題を整理した代表的サーベイ
+- [A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286) — *arXiv 2024* · 📈178。外部/パラメータ/内部の3分類とKnowEditベンチを提案した知識編集研究 — [`zjunlp/EasyEdit`](https://github.com/zjunlp/EasyEdit) ⭐2902🟢
 
 ### Knowledge Mechanisms
 
-- [Knowledge Mechanisms in Large Language Models: A Survey and Perspective](https://arxiv.org/abs/2407.15017) — *EMNLP Findings 2024* · 📈76。LLMが知識を記憶・理解・適用・進化させる機構をレビュー(EMNLP 2024 Findings) — [`zjunlp/KnowledgeEditingPapers`](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐1246🟢
+- [Knowledge Mechanisms in Large Language Models: A Survey and Perspective](https://arxiv.org/abs/2407.15017) — *EMNLP Findings 2024* · 📈76。LLMが知識を記憶・理解・適用・進化させる機構をレビュー(EMNLP 2024 Findings) — [`zjunlp/KnowledgeEditingPapers`](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐1247🟢
 
 ### LLM Agents
 
-- [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) — *Frontiers of Computer Science 2023* · 📈3591。LLM自律エージェントの構築統一枠組・応用・評価を整理した代表的サーベイ — [`Paitesanshi/LLM-Agent-Survey`](https://github.com/Paitesanshi/LLM-Agent-Survey) ⭐2911🔴
-- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) — *arXiv 2023* · 📈1995。脳・知覚・行動の枠組で単体/マルチエージェントと社会を俯瞰した大規模総説 — [`WooooDyy/LLM-Agent-Paper-List`](https://github.com/WooooDyy/LLM-Agent-Paper-List) ⭐8172🟡
-- [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201) — *ICLR 2024* · 📈967。複数LLMの討論で評価精度を高めるマルチエージェント評価枠組 — [`thunlp/ChatEval`](https://github.com/thunlp/ChatEval) ⭐340🔴
+- [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) — *Frontiers of Computer Science 2023* · 📈3638。LLM自律エージェントの構築統一枠組・応用・評価を整理した代表的サーベイ — [`Paitesanshi/LLM-Agent-Survey`](https://github.com/Paitesanshi/LLM-Agent-Survey) ⭐2910🔴
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) — *arXiv 2023* · 📈2012。脳・知覚・行動の枠組で単体/マルチエージェントと社会を俯瞰した大規模総説 — [`WooooDyy/LLM-Agent-Paper-List`](https://github.com/WooooDyy/LLM-Agent-Paper-List) ⭐8178🟡
+- [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201) — *ICLR 2024* · 📈974。複数LLMの討論で評価精度を高めるマルチエージェント評価枠組 — [`thunlp/ChatEval`](https://github.com/thunlp/ChatEval) ⭐340🔴
 
 ### LLM Evaluation
 
-- [A Survey on Evaluation of Large Language Models](https://arxiv.org/abs/2307.03109) — *ACM TIST 2023* · 📈3697。何を/どこで/どう評価するかの3軸でLLM評価を整理した定番サーベイ — [`MLGroupJLU/LLM-eval-survey`](https://github.com/MLGroupJLU/LLM-eval-survey) ⭐1610🟢
-- [Evaluating Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2310.19736) — *arXiv 2023* · 📈321。知識能力・整合性・安全性の3分類でLLM評価を網羅したサーベイ — [`tjunlp-lab/Awesome-LLMs-Evaluation-Papers`](https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers) ⭐805🔴
+- [A Survey on Evaluation of Large Language Models](https://arxiv.org/abs/2307.03109) — *ACM TIST 2023* · 📈3721。何を/どこで/どう評価するかの3軸でLLM評価を整理した定番サーベイ — [`MLGroupJLU/LLM-eval-survey`](https://github.com/MLGroupJLU/LLM-eval-survey) ⭐1610🟢
+- [Evaluating Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2310.19736) — *arXiv 2023* · 📈323。知識能力・整合性・安全性の3分類でLLM評価を網羅したサーベイ — [`tjunlp-lab/Awesome-LLMs-Evaluation-Papers`](https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers) ⭐807🔴
 
 ### LLM General
 
-- [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) — *arXiv 2023* · 📈4847。事前学習・適応・利用・評価の4側面でLLMを俯瞰した定番大規模サーベイ(144頁) — [`RUCAIBox/LLMSurvey`](https://github.com/RUCAIBox/LLMSurvey) ⭐12206🟡
-- [A Comprehensive Overview of Large Language Models](https://arxiv.org/abs/2307.06435) — *arXiv 2023* · 📈1890。アーキテクチャ・学習・微調整・マルチモーダル等を広く整理したLLM総説
-- [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196) — *arXiv 2024* · 📈1053。主要LLMファミリと構築・評価・データセットを概観した総説
+- [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) — *arXiv 2023* · 📈4886。事前学習・適応・利用・評価の4側面でLLMを俯瞰した定番大規模サーベイ(144頁) — [`RUCAIBox/LLMSurvey`](https://github.com/RUCAIBox/LLMSurvey) ⭐12205🟡
+- [A Comprehensive Overview of Large Language Models](https://arxiv.org/abs/2307.06435) — *arXiv 2023* · 📈1909。アーキテクチャ・学習・微調整・マルチモーダル等を広く整理したLLM総説
+- [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196) — *arXiv 2024* · 📈1061。主要LLMファミリと構築・評価・データセットを概観した総説
 - [Datasets for Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2402.18041) — *arXiv 2024* · 📈141。事前学習・指示・選好・評価データ444件を体系化したデータセットサーベイ
 
 ### LLM Unlearning
@@ -173,38 +173,38 @@
 
 ### Long Context Modeling
 
-- [A Comprehensive Survey on Long Context Language Modeling](https://arxiv.org/abs/2503.17407) — *arXiv 2025* · 📈131。長文脈LLMの獲得・学習/展開・評価を網羅した包括サーベイ(2k+ star companion) — [`Xnhyacinth/Awesome-LLM-Long-Context-Modeling`](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) ⭐2163🟢
+- [A Comprehensive Survey on Long Context Language Modeling](https://arxiv.org/abs/2503.17407) — *arXiv 2025* · 📈131。長文脈LLMの獲得・学習/展開・評価を網羅した包括サーベイ(2k+ star companion) — [`Xnhyacinth/Awesome-LLM-Long-Context-Modeling`](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) ⭐2165🟢
 
 ### Mathematical Reasoning
 
-- [A Survey on Large Language Models for Mathematical Reasoning](https://arxiv.org/abs/2506.08446) — *arXiv 2025* · 📈70。LLMの数学推論を理解と解生成の2認知段階で整理したサーベイ
+- [A Survey on Large Language Models for Mathematical Reasoning](https://arxiv.org/abs/2506.08446) — *arXiv 2025* · 📈72。LLMの数学推論を理解と解生成の2認知段階で整理したサーベイ
 
 ### Mechanistic Interpretability
 
-- [A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models](https://arxiv.org/abs/2503.05613) — *arXiv 2025* · 📈74。スパースオートエンコーダによるLLM内部機構の解釈手法を整理
+- [A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models](https://arxiv.org/abs/2503.05613) — *arXiv 2025* · 📈75。スパースオートエンコーダによるLLM内部機構の解釈手法を整理
 
 ### Mixture-of-Experts
 
-- [A Survey on Mixture of Experts in Large Language Models](https://arxiv.org/abs/2407.06204) — *IEEE TKDE 2024* · 📈379。LLMにおけるMoEのアルゴリズム・システム・応用を整理した専門サーベイ — [`withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs`](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs) ⭐506🟢
+- [A Survey on Mixture of Experts in Large Language Models](https://arxiv.org/abs/2407.06204) — *IEEE TKDE 2024* · 📈387。LLMにおけるMoEのアルゴリズム・システム・応用を整理した専門サーベイ — [`withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs`](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs) ⭐505🟢
 
 ### Multilingual LLM
 
-- [A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias](https://arxiv.org/abs/2404.00929) — *arXiv 2024* · 📈147。多言語LLMのコーパス・アラインメント・バイアスを整理したサーベイ
+- [A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias](https://arxiv.org/abs/2404.00929) — *arXiv 2024* · 📈149。多言語LLMのコーパス・アラインメント・バイアスを整理したサーベイ
 
 ### Parameter-Efficient Fine-Tuning
 
-- [Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey](https://arxiv.org/abs/2403.14608) — *TMLR 2024* · 📈1053。LoRA系を含むPEFTの分類・アルゴリズム・システム実装を網羅した総説
-- [Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment](https://arxiv.org/abs/2312.12148) — *arXiv 2023* · 📈384。PEFT手法を批判的にレビューしパラメータ/メモリ効率を実験評価
-- [Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2303.15647) — *arXiv 2023* · 📈289。50件超のPEFTを分類し15手法を実験比較した実践ガイド型サーベイ
-- [A Survey on LoRA of Large Language Models](https://arxiv.org/abs/2407.11046) — *Frontiers of Computer Science 2024* · 📈178。LLMのLoRAをパラメータ効率/分散学習/応用の観点で整理したサーベイ — [`ZJU-LLMs/Awesome-LoRAs`](https://github.com/ZJU-LLMs/Awesome-LoRAs) ⭐279🔴
+- [Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey](https://arxiv.org/abs/2403.14608) — *TMLR 2024* · 📈1063。LoRA系を含むPEFTの分類・アルゴリズム・システム実装を網羅した総説
+- [Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment](https://arxiv.org/abs/2312.12148) — *arXiv 2023* · 📈385。PEFT手法を批判的にレビューしパラメータ/メモリ効率を実験評価
+- [Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2303.15647) — *arXiv 2023* · 📈290。50件超のPEFTを分類し15手法を実験比較した実践ガイド型サーベイ
+- [A Survey on LoRA of Large Language Models](https://arxiv.org/abs/2407.11046) — *Frontiers of Computer Science 2024* · 📈180。LLMのLoRAをパラメータ効率/分散学習/応用の観点で整理したサーベイ — [`ZJU-LLMs/Awesome-LoRAs`](https://github.com/ZJU-LLMs/Awesome-LoRAs) ⭐278🔴
 
 ### Persona / Role-Play
 
-- [Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization](https://arxiv.org/abs/2406.01171) — *arXiv 2024* · 📈301。LLMのロールプレイとパーソナライゼーションを二系統で整理したサーベイ
+- [Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization](https://arxiv.org/abs/2406.01171) — *arXiv 2024* · 📈303。LLMのロールプレイとパーソナライゼーションを二系統で整理したサーベイ
 
 ### Personal LLM Agents
 
-- [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459) — *arXiv 2024* · 📈370。能力・効率・セキュリティの観点で個人向けLLMエージェントを整理 — [`MobileLLM/Personal_LLM_Agents_Survey`](https://github.com/MobileLLM/Personal_LLM_Agents_Survey) ⭐434🟢
+- [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459) — *arXiv 2024* · 📈373。能力・効率・セキュリティの観点で個人向けLLMエージェントを整理 — [`MobileLLM/Personal_LLM_Agents_Survey`](https://github.com/MobileLLM/Personal_LLM_Agents_Survey) ⭐436🟢
 
 ### RL for Deep Research Agents
 
@@ -212,39 +212,39 @@
 
 ### RL for LLMs
 
-- [Reinforcement Learning Meets Large Language Models: A Survey of Advancements and Applications Across the LLM Lifecycle](https://arxiv.org/abs/2509.16679) — *arXiv preprint 2025* · 📈32。事前学習・アライメント・推論強化までLLMの全段階でのRL活用を俯瞰したサーベイ。
+- [Reinforcement Learning Meets Large Language Models: A Survey of Advancements and Applications Across the LLM Lifecycle](https://arxiv.org/abs/2509.16679) — *arXiv preprint 2025* · 📈34。事前学習・アライメント・推論強化までLLMの全段階でのRL活用を俯瞰したサーベイ。
 
 ### RL for Reasoning
 
-- [A Survey of Reinforcement Learning for Large Reasoning Models](https://arxiv.org/abs/2509.08827) — *arXiv 2025* · 📈162。推論自体を促す大規模推論モデル向けRLを整理したサーベイ
+- [A Survey of Reinforcement Learning for Large Reasoning Models](https://arxiv.org/abs/2509.08827) — *arXiv 2025* · 📈163。推論自体を促す大規模推論モデル向けRLを整理したサーベイ
 
 ### RLHF / Alignment
 
-- [Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2310.12773) — *ICLR 2024* · 📈759。有用性と無害性を分離し制約付き最適化で安全に整合する手法を提示
-- [AI Alignment: A Comprehensive Survey](https://arxiv.org/abs/2310.19852) — *arXiv 2023* · 📈387。RICE原則と前方/後方アラインメントでAI整合性研究を網羅した大規模総説 — [`PKU-Alignment/AlignmentSurvey`](https://github.com/PKU-Alignment/AlignmentSurvey) ⭐139🔴 · [project](https://alignmentsurvey.com)
-- [Large Language Model Alignment: A Survey](https://arxiv.org/abs/2309.15025) — *arXiv 2023* · 📈331。外部/内部アラインメントの分類と評価手法を整理したアラインメント総説
+- [Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2310.12773) — *ICLR 2024* · 📈761。有用性と無害性を分離し制約付き最適化で安全に整合する手法を提示
+- [AI Alignment: A Comprehensive Survey](https://arxiv.org/abs/2310.19852) — *arXiv 2023* · 📈389。RICE原則と前方/後方アラインメントでAI整合性研究を網羅した大規模総説 — [`PKU-Alignment/AlignmentSurvey`](https://github.com/PKU-Alignment/AlignmentSurvey) ⭐139🔴 · [project](https://alignmentsurvey.com)
+- [Large Language Model Alignment: A Survey](https://arxiv.org/abs/2309.15025) — *arXiv 2023* · 📈333。外部/内部アラインメントの分類と評価手法を整理したアラインメント総説
 - [Secrets of RLHF in Large Language Models Part I: PPO](https://arxiv.org/abs/2307.04964) — *arXiv 2023* · 📈284。RLHFのPPO実装の要点と安定化(PPO-max)を詳細に解説した実践サーベイ
 
 ### Reasoning / Chain-of-Thought
 
 - [Towards Reasoning in Large Language Models: A Survey](https://arxiv.org/abs/2212.10403) — *ACL Findings 2022* · 📈946。LLMの推論能力を喚起・評価・分析する技術を俯瞰した推論サーベイ
-- [Navigate through Enigmatic Labyrinth: A Survey of Chain of Thought Reasoning](https://arxiv.org/abs/2309.15402) — *ACL 2024* · 📈273。Chain-of-Thought推論の進展・フロンティア・将来を整理したCoT専門サーベイ — [`Zoeyyao27/CoT-Igniting-Agent`](https://github.com/Zoeyyao27/CoT-Igniting-Agent) ⭐365🔴
-- [LLM Post-Training: A Deep Dive into Reasoning Large Language Models](https://arxiv.org/abs/2502.21321) — *arXiv 2025* · 📈121。微調整・強化学習・推論時スケーリング等のポストトレーニングを概観
+- [Navigate through Enigmatic Labyrinth: A Survey of Chain of Thought Reasoning](https://arxiv.org/abs/2309.15402) — *ACL 2024* · 📈275。Chain-of-Thought推論の進展・フロンティア・将来を整理したCoT専門サーベイ — [`Zoeyyao27/CoT-Igniting-Agent`](https://github.com/Zoeyyao27/CoT-Igniting-Agent) ⭐365🔴
+- [LLM Post-Training: A Deep Dive into Reasoning Large Language Models](https://arxiv.org/abs/2502.21321) — *arXiv 2025* · 📈122。微調整・強化学習・推論時スケーリング等のポストトレーニングを概観
 
 ### Retrieval-Augmented Generation
 
-- [A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2405.06211) — *KDD 2024* · 📈1076。LLM時代のRAGアーキテクチャと学習・応用を俯瞰したKDDサーベイ
-- [Retrieval-Augmented Generation for AI-Generated Content: A Survey](https://arxiv.org/abs/2402.19473) — *arXiv 2024* · 📈678。RAGの基盤・強化・応用をAIGC全般にわたり分類した大規模サーベイ(1.7k+ star) — [`hymie122/RAG-Survey`](https://github.com/hymie122/RAG-Survey) ⭐1789🔴
+- [A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2405.06211) — *KDD 2024* · 📈1094。LLM時代のRAGアーキテクチャと学習・応用を俯瞰したKDDサーベイ
+- [Retrieval-Augmented Generation for AI-Generated Content: A Survey](https://arxiv.org/abs/2402.19473) — *arXiv 2024* · 📈683。RAGの基盤・強化・応用をAIGC全般にわたり分類した大規模サーベイ(1.7k+ star) — [`hymie122/RAG-Survey`](https://github.com/hymie122/RAG-Survey) ⭐1788🔴
 
 ### Role-Play
 
-- [The Oscars of AI Theater: A Survey on Role-Playing with Language Models](https://arxiv.org/abs/2407.11484) — *arXiv 2024* · 📈61。言語モデルのキャラクタ・ロールプレイ研究を体系化した総説
+- [The Oscars of AI Theater: A Survey on Role-Playing with Language Models](https://arxiv.org/abs/2407.11484) — *arXiv 2024* · 📈62。言語モデルのキャラクタ・ロールプレイ研究を体系化した総説
 
 ### Safety / Jailbreak
 
-- [Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models' Alignment](https://arxiv.org/abs/2308.05374) — *arXiv 2023* · 📈579。信頼性7カテゴリ29サブカテゴリでLLMの安全性評価指針を提示
-- [Jailbreak Attacks and Defenses Against Large Language Models: A Survey](https://arxiv.org/abs/2407.04295) — *arXiv 2024* · 📈300。ジェイルブレイク攻撃と防御の分類体系を整理した専門サーベイ
-- [Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey](https://arxiv.org/abs/2402.09283) — *NAACL 2024* · 📈177。会話安全の攻撃・防御・評価を3分類で整理したNAACLサーベイ — [`niconi19/LLM-Conversation-Safety`](https://github.com/niconi19/LLM-Conversation-Safety) ⭐111🔴
+- [Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models' Alignment](https://arxiv.org/abs/2308.05374) — *arXiv 2023* · 📈584。信頼性7カテゴリ29サブカテゴリでLLMの安全性評価指針を提示
+- [Jailbreak Attacks and Defenses Against Large Language Models: A Survey](https://arxiv.org/abs/2407.04295) — *arXiv 2024* · 📈302。ジェイルブレイク攻撃と防御の分類体系を整理した専門サーベイ
+- [Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey](https://arxiv.org/abs/2402.09283) — *NAACL 2024* · 📈178。会話安全の攻撃・防御・評価を3分類で整理したNAACLサーベイ — [`niconi19/LLM-Conversation-Safety`](https://github.com/niconi19/LLM-Conversation-Safety) ⭐112🔴
 
 ### Self-Correction
 
@@ -252,8 +252,8 @@
 
 ### Small Language Models
 
-- [A Comprehensive Survey of Small Language Models in the Era of Large Language Models](https://arxiv.org/abs/2411.03350) — *arXiv 2024* · 📈256。SLMの技術・応用・LLMとの協調・信頼性を包括的に整理したサーベイ
-- [A Survey of Small Language Models](https://arxiv.org/abs/2410.20011) — *arXiv 2024* · 📈68。小規模言語モデルのアーキテクチャ・学習・圧縮手法を分類した総説
+- [A Comprehensive Survey of Small Language Models in the Era of Large Language Models](https://arxiv.org/abs/2411.03350) — *arXiv 2024* · 📈261。SLMの技術・応用・LLMとの協調・信頼性を包括的に整理したサーベイ
+- [A Survey of Small Language Models](https://arxiv.org/abs/2410.20011) — *arXiv 2024* · 📈69。小規模言語モデルのアーキテクチャ・学習・圧縮手法を分類した総説
 
 ### Speculative Decoding
 
@@ -265,7 +265,7 @@
 
 ### Text Watermarking
 
-- [A Survey of Text Watermarking in the Era of Large Language Models](https://arxiv.org/abs/2312.07913) — *arXiv 2023* · 📈187。LLM時代のテキスト透かし技術・評価・応用を概観したサーベイ
+- [A Survey of Text Watermarking in the Era of Large Language Models](https://arxiv.org/abs/2312.07913) — *arXiv 2023* · 📈190。LLM時代のテキスト透かし技術・評価・応用を概観したサーベイ
 
 ### Theory of Mind
 
@@ -273,14 +273,14 @@
 
 ### Tool Use
 
-- [Tool Learning with Foundation Models](https://arxiv.org/abs/2304.08354) — *ACM Computing Surveys 2023* · 📈441。基盤モデルのツール学習を体系化し18種ツールで実証した代表的サーベイ — [`OpenBMB/BMTools`](https://github.com/OpenBMB/BMTools) ⭐2769🔴
-- [What Are Tools Anyway? A Survey from the Language Model Perspective](https://arxiv.org/abs/2403.15452) — *COLM 2024* · 📈66。LM視点でツールを定義し利用効果と効率を実証分析したツール利用サーベイ
+- [Tool Learning with Foundation Models](https://arxiv.org/abs/2304.08354) — *ACM Computing Surveys 2023* · 📈445。基盤モデルのツール学習を体系化し18種ツールで実証した代表的サーベイ — [`OpenBMB/BMTools`](https://github.com/OpenBMB/BMTools) ⭐2771🔴
+- [What Are Tools Anyway? A Survey from the Language Model Perspective](https://arxiv.org/abs/2403.15452) — *COLM 2024* · 📈68。LM視点でツールを定義し利用効果と効率を実証分析したツール利用サーベイ
 
 ## 🎨 生成AI・拡散モデル
 
 ### 3D Generation
 
-- [Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era](https://arxiv.org/abs/2305.06131) — *arXiv 2023* · 📈108。忠実度・効率・一貫性等の観点でテキスト3D生成を整理したサーベイ
+- [Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era](https://arxiv.org/abs/2305.06131) — *arXiv 2023* · 📈109。忠実度・効率・一貫性等の観点でテキスト3D生成を整理したサーベイ
 - [Advances in 3D Generation: A Survey](https://arxiv.org/abs/2401.17807) — *arXiv 2024* · 📈94。3D表現・生成手法・データ・応用を俯瞰した3D生成サーベイ
 
 ### 4D Generation
@@ -289,11 +289,11 @@
 
 ### AIGC General
 
-- [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/abs/2303.04226) — *arXiv 2023* · 📈830。GANからChatGPTまで生成AIの歴史と単一/マルチモーダル生成を俯瞰
+- [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/abs/2303.04226) — *arXiv 2023* · 📈837。GANからChatGPTまで生成AIの歴史と単一/マルチモーダル生成を俯瞰
 
 ### Audio / Music Generation
 
-- [Sparks of Large Audio Models: A Survey and Outlook](https://arxiv.org/abs/2308.12792) — *arXiv 2023* · 📈68。音声認識・TTS・音楽生成等の大規模音声モデルを概観したサーベイ — [`EmulationAI/awesome-large-audio-models`](https://github.com/EmulationAI/awesome-large-audio-models) ⭐736🟢
+- [Sparks of Large Audio Models: A Survey and Outlook](https://arxiv.org/abs/2308.12792) — *arXiv 2023* · 📈68。音声認識・TTS・音楽生成等の大規模音声モデルを概観したサーベイ — [`EmulationAI/awesome-large-audio-models`](https://github.com/EmulationAI/awesome-large-audio-models) ⭐737🟢
 
 ### Autoregressive Visual Generation
 
@@ -305,11 +305,11 @@
 
 ### Controllable Generation
 
-- [Controllable Generation with Text-to-Image Diffusion Models: A Survey](https://arxiv.org/abs/2403.04279) — *IEEE TPAMI 2024* · 📈116。特定条件・複数条件・汎用制御の3分類で制御可能T2I生成を整理 — [`PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models`](https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models) ⭐1110🔴
+- [Controllable Generation with Text-to-Image Diffusion Models: A Survey](https://arxiv.org/abs/2403.04279) — *IEEE TPAMI 2024* · 📈118。特定条件・複数条件・汎用制御の3分類で制御可能T2I生成を整理 — [`PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models`](https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models) ⭐1110🔴
 
 ### Diffusion Acceleration
 
-- [Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices](https://arxiv.org/abs/2410.11795) — *TMLR 2024* · 📈58。アーキ・学習・高速推論・展開の効率視点で拡散モデルを俯瞰したサーベイ — [`AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey) ⭐186🟡
+- [Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices](https://arxiv.org/abs/2410.11795) — *TMLR 2024* · 📈59。アーキ・学習・高速推論・展開の効率視点で拡散モデルを俯瞰したサーベイ — [`AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey) ⭐186🟡
 
 ### Diffusion Distillation
 
@@ -321,23 +321,23 @@
 
 ### Efficient Diffusion
 
-- [Efficient Diffusion Models: A Survey](https://arxiv.org/abs/2502.06805) — *TMLR 2025* · 📈48。拡散モデルの効率化をアルゴリズム/システム/フレームワークで整理 — [`AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey) ⭐186🟡
+- [Efficient Diffusion Models: A Survey](https://arxiv.org/abs/2502.06805) — *TMLR 2025* · 📈49。拡散モデルの効率化をアルゴリズム/システム/フレームワークで整理 — [`AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey) ⭐186🟡
 
 ### GAN
 
 - [NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160) — *NIPS Tutorial 2016* · 📈1823。GAN提案者本人によるNIPSチュートリアル。GAN理論の定番入門で超高被引用。
-- [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937) — *IEEE TKDE 2020* · 📈1150。GANのアルゴリズム・理論・応用を体系的に俯瞰した代表的レビュー
-- [Generative Adversarial Networks: Challenges, Solutions, and Future Directions](https://arxiv.org/abs/2005.00065) — *ACM Computing Surveys 2021* · 📈480。GANの学習困難性と解決策・将来課題を整理した定番サーベイ。
+- [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937) — *IEEE TKDE 2020* · 📈1154。GANのアルゴリズム・理論・応用を体系的に俯瞰した代表的レビュー
+- [Generative Adversarial Networks: Challenges, Solutions, and Future Directions](https://arxiv.org/abs/2005.00065) — *ACM Computing Surveys 2021* · 📈481。GANの学習困難性と解決策・将来課題を整理した定番サーベイ。
 - [Generative Adversarial Networks in Computer Vision: A Survey and Taxonomy](https://arxiv.org/abs/1906.01529) — *ACM Computing Surveys 2021* · 📈94。GANの分類体系を整理した高被引用サーベイ。CV応用を体系化。
 
 ### Human Motion Generation
 
-- [Human Motion Generation: A Survey](https://arxiv.org/abs/2307.10894) — *IEEE TPAMI 2023* · 📈151。テキスト/音声/シーン条件付きの人間モーション生成を概観した総説
+- [Human Motion Generation: A Survey](https://arxiv.org/abs/2307.10894) — *IEEE TPAMI 2023* · 📈153。テキスト/音声/シーン条件付きの人間モーション生成を概観した総説
 
 ### Image Editing
 
-- [Diffusion Model-Based Image Editing: A Survey](https://arxiv.org/abs/2402.17525) — *IEEE TPAMI 2024* · 📈292。学習戦略・入力条件・タスク別に拡散ベース画像編集を整理したサーベイ — [`SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods`](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) ⭐712🟡
-- [A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models](https://arxiv.org/abs/2406.14555) — *arXiv 2024* · 📈69。テキスト画像拡散モデルによるマルチモーダル誘導画像編集の総説
+- [Diffusion Model-Based Image Editing: A Survey](https://arxiv.org/abs/2402.17525) — *IEEE TPAMI 2024* · 📈296。学習戦略・入力条件・タスク別に拡散ベース画像編集を整理したサーベイ — [`SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods`](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) ⭐713🟡
+- [A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models](https://arxiv.org/abs/2406.14555) — *arXiv 2024* · 📈70。テキスト画像拡散モデルによるマルチモーダル誘導画像編集の総説
 
 ### Music Generation
 
@@ -353,25 +353,25 @@
 
 ### Text-to-Image
 
-- [RenAIssance: A Survey into AI Text-to-Image Generation in the Era of Large Model](https://arxiv.org/abs/2309.00810) — *IEEE TPAMI 2023* · 📈90。大規模モデル時代のテキスト画像生成を5節で俯瞰したTPAMIサーベイ
+- [RenAIssance: A Survey into AI Text-to-Image Generation in the Era of Large Model](https://arxiv.org/abs/2309.00810) — *IEEE TPAMI 2023* · 📈92。大規模モデル時代のテキスト画像生成を5節で俯瞰したTPAMIサーベイ
 
 ### Text-to-Video
 
-- [A Survey on Video Diffusion Models](https://arxiv.org/abs/2310.10647) — *ACM Computing Surveys 2023* · 📈298。動画生成・編集・理解の3領域で動画拡散モデルを整理した代表的サーベイ — [`ChenHsing/Awesome-Video-Diffusion-Models`](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models) ⭐2309🟢
+- [A Survey on Video Diffusion Models](https://arxiv.org/abs/2310.10647) — *ACM Computing Surveys 2023* · 📈300。動画生成・編集・理解の3領域で動画拡散モデルを整理した代表的サーベイ — [`ChenHsing/Awesome-Video-Diffusion-Models`](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models) ⭐2311🟢
 - [Sora as a World Model? A Complete Survey on Text-to-Video Generation](https://arxiv.org/abs/2403.05131) — *arXiv 2024* · 📈78。250件超を世界モデルの観点で整理したテキスト動画生成サーベイ
 - [Video Diffusion Models: A Survey](https://arxiv.org/abs/2405.03150) — *TMLR 2024* · 📈48。時間的一貫性や入力モダリティ別に動画拡散モデルを分類したサーベイ — [`ndrwmlnk/Awesome-Video-Diffusion-Models`](https://github.com/ndrwmlnk/Awesome-Video-Diffusion-Models) ⭐57🔴
 
 ### VAE
 
-- [An Introduction to Variational Autoencoders](https://arxiv.org/abs/1906.02691) — *Foundations and Trends in ML 2019* · 📈3157。VAEの理論と実装を体系的に解説した定番の入門・総説
+- [An Introduction to Variational Autoencoders](https://arxiv.org/abs/1906.02691) — *Foundations and Trends in ML 2019* · 📈3174。VAEの理論と実装を体系的に解説した定番の入門・総説
 
 ### Video Editing
 
-- [Diffusion Model-Based Video Editing: A Survey](https://arxiv.org/abs/2407.07111) — *arXiv 2024* · 📈52。拡散モデルによる動画編集の理論基盤と手法を整理した総説
+- [Diffusion Model-Based Video Editing: A Survey](https://arxiv.org/abs/2407.07111) — *arXiv 2024* · 📈54。拡散モデルによる動画編集の理論基盤と手法を整理した総説
 
 ### Video Generation
 
-- [Controllable Video Generation: A Survey](https://arxiv.org/abs/2507.16869) — *arXiv 2025* · 📈84。カメラ・深度・ポーズ等の条件付き制御動画生成を体系的にレビュー — [`mayuelala/Awesome-Controllable-Video-Generation`](https://github.com/mayuelala/Awesome-Controllable-Video-Generation) ⭐765🟢
+- [Controllable Video Generation: A Survey](https://arxiv.org/abs/2507.16869) — *arXiv 2025* · 📈85。カメラ・深度・ポーズ等の条件付き制御動画生成を体系的にレビュー — [`mayuelala/Awesome-Controllable-Video-Generation`](https://github.com/mayuelala/Awesome-Controllable-Video-Generation) ⭐768🟢
 
 ### World Models
 
@@ -381,7 +381,7 @@
 
 ### 3D-LLM
 
-- [When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models](https://arxiv.org/abs/2405.10255) — *arXiv 2024* · 📈46。点群/NeRF等の3DタスクをMLLMで扱う研究を網羅したメタ分析付き総説 — [`ActiveVisionLab/Awesome-LLM-3D`](https://github.com/ActiveVisionLab/Awesome-LLM-3D) ⭐2248🟢
+- [When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models](https://arxiv.org/abs/2405.10255) — *arXiv 2024* · 📈46。点群/NeRF等の3DタスクをMLLMで扱う研究を網羅したメタ分析付き総説 — [`ActiveVisionLab/Awesome-LLM-3D`](https://github.com/ActiveVisionLab/Awesome-LLM-3D) ⭐2253🟢
 
 ### Audio-Visual
 
@@ -389,7 +389,7 @@
 
 ### Autonomous Driving
 
-- [A Survey on Multimodal Large Language Models for Autonomous Driving](https://arxiv.org/abs/2311.12320) — *WACV 2024* · 📈554。自動運転向けマルチモーダルLLMのツール・データ・課題を整理(WACV 2024) — [`IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving`](https://github.com/IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving) ⭐313🔴
+- [A Survey on Multimodal Large Language Models for Autonomous Driving](https://arxiv.org/abs/2311.12320) — *WACV 2024* · 📈557。自動運転向けマルチモーダルLLMのツール・データ・課題を整理(WACV 2024) — [`IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving`](https://github.com/IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving) ⭐311🔴
 
 ### Document AI
 
@@ -397,12 +397,12 @@
 
 ### Embodied Multimodal
 
-- [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) — *arXiv 2024* · 📈341。身体化AI向けVision-Language-Action(VLA)モデルを整理したサーベイ
+- [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) — *arXiv 2024* · 📈345。身体化AI向けVision-Language-Action(VLA)モデルを整理したサーベイ
 - [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568) — *arXiv 2024* · 📈275。環境に接地したマルチモーダルエージェントAIの地平を俯瞰した総説
 
 ### Label-Free VLM Adaptation
 
-- [Adapting Vision-Language Models Without Labels: A Comprehensive Survey](https://arxiv.org/abs/2508.05547) — *arXiv preprint 2025* · 📈8。ラベルなしでVLMを適応する手法(プロンプト学習・擬似ラベル等)を4パラダイムで整理したサーベイ。 — [`tim-learn/Awesome-LabelFree-VLMs`](https://github.com/tim-learn/Awesome-LabelFree-VLMs) ⭐94🟢
+- [Adapting Vision-Language Models Without Labels: A Comprehensive Survey](https://arxiv.org/abs/2508.05547) — *arXiv preprint 2025* · 📈9。ラベルなしでVLMを適応する手法(プロンプト学習・擬似ラベル等)を4パラダイムで整理したサーベイ。 — [`tim-learn/Awesome-LabelFree-VLMs`](https://github.com/tim-learn/Awesome-LabelFree-VLMs) ⭐94🟢
 
 ### Mathematical Reasoning
 
@@ -414,25 +414,25 @@
 
 ### Multimodal Agents
 
-- [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116) — *arXiv 2024* · 📈125。大規模マルチモーダルエージェント(LMA)の構成要素と協調枠組を整理 — [`jun0wanan/awesome-large-multimodal-agents`](https://github.com/jun0wanan/awesome-large-multimodal-agents) ⭐497🔴
+- [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116) — *arXiv 2024* · 📈127。大規模マルチモーダルエージェント(LMA)の構成要素と協調枠組を整理 — [`jun0wanan/awesome-large-multimodal-agents`](https://github.com/jun0wanan/awesome-large-multimodal-agents) ⭐497🔴
 
 ### Multimodal Hallucination
 
-- [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930) — *arXiv 2024* · 📈445。MLLMの視覚と不整合な出力(幻覚)の原因・評価・緩和を整理したサーベイ
+- [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930) — *arXiv 2024* · 📈452。MLLMの視覚と不整合な出力(幻覚)の原因・評価・緩和を整理したサーベイ
 
 ### Multimodal LLM
 
-- [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) — *National Science Review 2023* · 📈1571。MLLMのアーキ・学習・データ・評価を整理した最も参照される代表的サーベイ — [`BradyFU/Awesome-Multimodal-Large-Language-Models`](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) ⭐17978🟢
-- [MM-LLMs: Recent Advances in MultiModal Large Language Models](https://arxiv.org/abs/2401.13601) — *ACL Findings 2024* · 📈457。126種MM-LLMの設計枠組と学習技術を分類したACLサーベイ — [project](https://mm-llms.github.io)
+- [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) — *National Science Review 2023* · 📈1588。MLLMのアーキ・学習・データ・評価を整理した最も参照される代表的サーベイ — [`BradyFU/Awesome-Multimodal-Large-Language-Models`](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) ⭐17987🟢
+- [MM-LLMs: Recent Advances in MultiModal Large Language Models](https://arxiv.org/abs/2401.13601) — *ACL Findings 2024* · 📈461。126種MM-LLMの設計枠組と学習技術を分類したACLサーベイ — [project](https://mm-llms.github.io)
 
 ### Multimodal RAG
 
 - [Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2502.08826) — *ACL Findings 2025* · 📈74。任意モダリティのマルチモーダルRAGを包括的に整理した総説
-- [A Survey of Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2504.08748) — *arXiv 2025* · 📈53。マルチモーダルRAGの検索・生成統合手法を概観したサーベイ
+- [A Survey of Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2504.08748) — *arXiv 2025* · 📈55。マルチモーダルRAGの検索・生成統合手法を概観したサーベイ
 
 ### Multimodal Reasoning
 
-- [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/abs/2503.12605) — *arXiv 2025* · 📈201。マルチモーダル連鎖思考(MCoT)推論を初めて体系的に整理した総説 — [`yaotingwangofficial/Awesome-MCoT`](https://github.com/yaotingwangofficial/Awesome-MCoT) ⭐1019🟢
+- [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/abs/2503.12605) — *arXiv 2025* · 📈201。マルチモーダル連鎖思考(MCoT)推論を初めて体系的に整理した総説 — [`yaotingwangofficial/Awesome-MCoT`](https://github.com/yaotingwangofficial/Awesome-MCoT) ⭐1022🟢
 - [Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models](https://arxiv.org/abs/2505.04921) — *arXiv 2025* · 📈93。大規模マルチモーダル推論モデルをSystem-2志向で整理した総説
 
 ### Prompt Engineering
@@ -441,11 +441,11 @@
 
 ### Unified Multimodal Models
 
-- [Unified Multimodal Understanding and Generation Models: Advances, Challenges, and Opportunities](https://arxiv.org/abs/2505.02567) — *arXiv 2025* · 📈78。理解と生成を統一するマルチモーダルモデルの進展と課題を概観 — [`ATH-MaaS/Awesome-Unified-Multimodal-Models`](https://github.com/ATH-MaaS/Awesome-Unified-Multimodal-Models) ⭐1310🟢
+- [Unified Multimodal Understanding and Generation Models: Advances, Challenges, and Opportunities](https://arxiv.org/abs/2505.02567) — *arXiv 2025* · 📈81。理解と生成を統一するマルチモーダルモデルの進展と課題を概観 — [`ATH-MaaS/Awesome-Unified-Multimodal-Models`](https://github.com/ATH-MaaS/Awesome-Unified-Multimodal-Models) ⭐1312🟢
 
 ### Video LLM
 
-- [Video Understanding with Large Language Models: A Survey](https://arxiv.org/abs/2312.17432) — *arXiv 2023* · 📈291。LLMを活用したビデオ理解(Vid-LLM)の手法を分類した総説
+- [Video Understanding with Large Language Models: A Survey](https://arxiv.org/abs/2312.17432) — *arXiv 2023* · 📈292。LLMを活用したビデオ理解(Vid-LLM)の手法を分類した総説
 
 ### Video-Language
 
@@ -453,7 +453,7 @@
 
 ### Vision-Language Pretraining
 
-- [Vision-Language Pre-training: Basics, Recent Advances, and Future Trends](https://arxiv.org/abs/2210.09263) — *Foundations and Trends in CV 2022* · 📈227。画像テキスト・コアCV・動画テキストでVLP手法を俯瞰した大規模総説(102頁)
+- [Vision-Language Pre-training: Basics, Recent Advances, and Future Trends](https://arxiv.org/abs/2210.09263) — *Foundations and Trends in CV 2022* · 📈228。画像テキスト・コアCV・動画テキストでVLP手法を俯瞰した大規模総説(102頁)
 
 ## 💬 自然言語処理 (NLP)
 
@@ -465,37 +465,37 @@
 
 ### Argument Mining
 
-- [Large Language Models in Argument Mining: A Survey](https://arxiv.org/abs/2506.16383) — *arXiv 2025*。LLM時代の議論マイニング各サブタスクを再整理したサーベイ
+- [Large Language Models in Argument Mining: A Survey](https://arxiv.org/abs/2506.16383) — *arXiv 2025* · 📈17。LLM時代の議論マイニング各サブタスクを再整理したサーベイ
 
 ### Biomedical NLP
 
-- [SECNLP: A Survey of Embeddings in Clinical Natural Language Processing](https://arxiv.org/abs/1903.01039) — *Journal of Biomedical Informatics 2019*。臨床NLPにおける各種埋め込み表現を初めて詳細に整理したサーベイ
+- [SECNLP: A Survey of Embeddings in Clinical Natural Language Processing](https://arxiv.org/abs/1903.01039) — *Journal of Biomedical Informatics 2019* · 📈96。臨床NLPにおける各種埋め込み表現を初めて詳細に整理したサーベイ
 
 ### Code-switching
 
-- [The Decades Progress on Code-Switching Research in NLP: A Systematic Survey on Trends and Challenges](https://arxiv.org/abs/2212.09660) — *ACL Findings 2023*。数十年のコードスイッチング研究の動向と課題を体系的に整理
-- [A Survey of Code-switched Speech and Language Processing](https://arxiv.org/abs/1904.00784) — *arXiv 2019*。コードスイッチングの音声・言語処理とデータ資源を整理したサーベイ
+- [A Survey of Code-switched Speech and Language Processing](https://arxiv.org/abs/1904.00784) — *arXiv 2019* · 📈166。コードスイッチングの音声・言語処理とデータ資源を整理したサーベイ
+- [The Decades Progress on Code-Switching Research in NLP: A Systematic Survey on Trends and Challenges](https://arxiv.org/abs/2212.09660) — *ACL Findings 2023* · 📈70。数十年のコードスイッチング研究の動向と課題を体系的に整理
 
 ### Computational Morphology
 
-- [Recent advancements in computational morphology: A comprehensive survey](https://arxiv.org/abs/2406.05424) — *arXiv 2024*。形態素解析・語形変化・分割等の計算形態論を包括的に整理したサーベイ
+- [Recent advancements in computational morphology: A comprehensive survey](https://arxiv.org/abs/2406.05424) — *arXiv 2024* · 📈6。形態素解析・語形変化・分割等の計算形態論を包括的に整理したサーベイ
 
 ### Coreference Resolution
 
 - [A Neural Entity Coreference Resolution Review](https://arxiv.org/abs/1910.09329) — *Expert Systems with Applications 2019* · 📈43。ニューラル共参照解析の進展・データ・評価指標を整理
-- [Coreference Resolution for the Biomedical Domain: A Survey](https://arxiv.org/abs/2109.12424) — *arXiv 2021*。生物医学ドメインの共参照解析データと手法を整理したサーベイ
+- [Coreference Resolution for the Biomedical Domain: A Survey](https://arxiv.org/abs/2109.12424) — *arXiv 2021* · 📈21。生物医学ドメインの共参照解析データと手法を整理したサーベイ
 
 ### Cross-lingual Transfer
 
-- [Transfer Learning for Multi-lingual Tasks -- a Survey](https://arxiv.org/abs/2110.02052) — *arXiv 2021*。多言語・言語横断タスクへの転移学習をアーキテクチャ視点で整理
+- [Transfer Learning for Multi-lingual Tasks -- a Survey](https://arxiv.org/abs/2110.02052) — *arXiv 2021* · 📈6。多言語・言語横断タスクへの転移学習をアーキテクチャ視点で整理
 
 ### Data Augmentation (NLP)
 
-- [A Survey of Data Augmentation Approaches for NLP](https://arxiv.org/abs/2105.03075) — *Findings of ACL 2021* · 📈1010。NLPのデータ拡張手法を体系的に整理した代表的サーベイ
+- [A Survey of Data Augmentation Approaches for NLP](https://arxiv.org/abs/2105.03075) — *Findings of ACL 2021* · 📈1013。NLPのデータ拡張手法を体系的に整理した代表的サーベイ
 
 ### Data-to-Text Generation
 
-- [Innovations in Neural Data-to-text Generation: A Survey](https://arxiv.org/abs/2207.12571) — *arXiv 2022*。ニューラルなデータ/表→テキスト生成の手法とデータを整理したサーベイ
+- [Innovations in Neural Data-to-text Generation: A Survey](https://arxiv.org/abs/2207.12571) — *arXiv 2022* · 📈12。ニューラルなデータ/表→テキスト生成の手法とデータを整理したサーベイ
 
 ### Deep Learning for NLP (Overview)
 
@@ -503,141 +503,141 @@
 
 ### Dialogue State Tracking
 
-- ["Do you follow me?": A Survey of Recent Approaches in Dialogue State Tracking](https://arxiv.org/abs/2207.14627) — *SIGDIAL 2022*。タスク指向対話の対話状態追跡の近年の手法を整理したサーベイ
+- ["Do you follow me?": A Survey of Recent Approaches in Dialogue State Tracking](https://arxiv.org/abs/2207.14627) — *SIGDIAL 2022* · 📈38。タスク指向対話の対話状態追跡の近年の手法を整理したサーベイ
 
 ### Dialogue Systems
 
 - [A Survey on Dialogue Systems: Recent Advances and New Frontiers](https://arxiv.org/abs/1711.01731) — *ACM SIGKDD Explorations 2017* · 📈784。タスク指向型・非タスク指向型対話システムを概観した定番サーベイ
-- [Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey](https://arxiv.org/abs/2105.04387) — *Artificial Intelligence Review 2021* · 📈354。深層学習ベース対話システムを体系的に整理した大規模サーベイ
+- [Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey](https://arxiv.org/abs/2105.04387) — *Artificial Intelligence Review 2021* · 📈355。深層学習ベース対話システムを体系的に整理した大規模サーベイ
 - [A Short Survey of Pre-trained Language Models for Conversational AI - A New Age in NLP](https://arxiv.org/abs/2104.10810) — *ACSW 2020* · 📈83。会話AIにおける事前学習言語モデル活用を簡潔に整理
 
 ### Discourse Parsing
 
-- [A Survey of Implicit Discourse Relation Recognition](https://arxiv.org/abs/2203.02982) — *ACM Computing Surveys 2022*。暗黙的談話関係認識の手法を体系的に整理した談話解析サーベイ
+- [A Survey of Implicit Discourse Relation Recognition](https://arxiv.org/abs/2203.02982) — *ACM Computing Surveys 2022* · 📈34。暗黙的談話関係認識の手法を体系的に整理した談話解析サーベイ
 
 ### Empathetic Dialogue
 
-- [Empathetic Conversational Systems: A Review of Current Advances, Gaps, and Opportunities](https://arxiv.org/abs/2206.05017) — *IEEE Transactions on Affective Computing 2022*。共感的対話システムの進展・ギャップ・機会をレビューしたサーベイ
+- [Empathetic Conversational Systems: A Review of Current Advances, Gaps, and Opportunities](https://arxiv.org/abs/2206.05017) — *IEEE Transactions on Affective Computing 2022* · 📈59。共感的対話システムの進展・ギャップ・機会をレビューしたサーベイ
 
 ### Evaluation & Benchmarks
 
-- [A Survey of Evaluation Metrics Used for NLG Systems](https://arxiv.org/abs/2008.12009) — *ACM Computing Surveys 2020* · 📈351。NLG評価指標の発展(ヒューリスティック〜学習型)を整理
-- [Survey on Factuality in Large Language Models: Knowledge, Retrieval and Domain-Specificity](https://arxiv.org/abs/2310.07521) — *arXiv 2023* · 📈301。LLMの事実性(factuality)を知識・検索・ドメイン観点で整理
+- [A Survey of Evaluation Metrics Used for NLG Systems](https://arxiv.org/abs/2008.12009) — *ACM Computing Surveys 2020* · 📈352。NLG評価指標の発展(ヒューリスティック〜学習型)を整理
+- [Survey on Factuality in Large Language Models: Knowledge, Retrieval and Domain-Specificity](https://arxiv.org/abs/2310.07521) — *arXiv 2023* · 📈302。LLMの事実性(factuality)を知識・検索・ドメイン観点で整理
 
 ### Explainability (NLP)
 
-- [A Survey of the State of Explainable AI for Natural Language Processing](https://arxiv.org/abs/2010.00711) — *AACL-IJCNLP 2020* · 📈476。NLPの説明可能AI技術を概観した代表的サーベイ
+- [A Survey of the State of Explainable AI for Natural Language Processing](https://arxiv.org/abs/2010.00711) — *AACL-IJCNLP 2020* · 📈478。NLPの説明可能AI技術を概観した代表的サーベイ
 - [Post-hoc Interpretability for Neural NLP: A Survey](https://arxiv.org/abs/2108.04840) — *ACM Computing Surveys 2021* · 📈327。ニューラルNLPの事後解釈手法を分類・検証法とともに整理
 - [Local Interpretations for Explainable Natural Language Processing: A Survey](https://arxiv.org/abs/2103.11072) — *ACM Computing Surveys 2021* · 📈76。局所的解釈手法に焦点を当てた説明可能NLPのサーベイ
 
 ### Fact-Checking
 
-- [Generative Large Language Models in Automated Fact-Checking: A Survey](https://arxiv.org/abs/2407.02351) — *arXiv 2024*。生成LLMを事実検証に用いる手法とプロンプト戦略を整理したサーベイ
-- [A Survey on Automated Fact-Checking](https://arxiv.org/abs/2108.11896) — *TACL 2021*。主張検出・証拠検索・検証を貫く自動事実検証の定番サーベイ
-- [Explainable Automated Fact-Checking: A Survey](https://arxiv.org/abs/2011.03870) — *COLING 2020*。事実検証における説明生成手法に焦点を当てたサーベイ
+- [A Survey on Automated Fact-Checking](https://arxiv.org/abs/2108.11896) — *TACL 2021* · 📈773。主張検出・証拠検索・検証を貫く自動事実検証の定番サーベイ
+- [Explainable Automated Fact-Checking: A Survey](https://arxiv.org/abs/2011.03870) — *COLING 2020* · 📈156。事実検証における説明生成手法に焦点を当てたサーベイ
+- [Generative Large Language Models in Automated Fact-Checking: A Survey](https://arxiv.org/abs/2407.02351) — *arXiv 2024* · 📈26。生成LLMを事実検証に用いる手法とプロンプト戦略を整理したサーベイ
 
 ### Financial NLP
 
-- [Language Modeling for the Future of Finance: A Survey into Metrics, Tasks, and Data Opportunities](https://arxiv.org/abs/2504.07274) — *arXiv 2025*。金融NLP論文374件を指標・タスク・データの観点で定量分析したサーベイ
-- [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/abs/2402.02315) — *arXiv 2024*。金融特化LLMの歴史・技術・性能と課題を整理したサーベイ
+- [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/abs/2402.02315) — *arXiv 2024* · 📈171。金融特化LLMの歴史・技術・性能と課題を整理したサーベイ
+- [Language Modeling for the Future of Finance: A Survey into Metrics, Tasks, and Data Opportunities](https://arxiv.org/abs/2504.07274) — *arXiv 2025* · 📈6。金融NLP論文374件を指標・タスク・データの観点で定量分析したサーベイ
 
 ### Grammatical Error Correction
 
-- [Grammatical Error Correction: A Survey of the State of the Art](https://arxiv.org/abs/2211.05166) — *Computational Linguistics 2023*。文法誤り訂正の手法・データ・評価を網羅した決定版サーベイ
-- [A Comprehensive Survey of Grammar Error Correction](https://arxiv.org/abs/2005.06600) — *arXiv 2020*。SMT/NMT/分類/言語モデルの4系統でGECを整理した包括サーベイ
+- [Grammatical Error Correction: A Survey of the State of the Art](https://arxiv.org/abs/2211.05166) — *Computational Linguistics 2023* · 📈144。文法誤り訂正の手法・データ・評価を網羅した決定版サーベイ
+- [A Comprehensive Survey of Grammar Error Correction](https://arxiv.org/abs/2005.06600) — *arXiv 2020* · 📈42。SMT/NMT/分類/言語モデルの4系統でGECを整理した包括サーベイ
 
 ### Keyphrase Extraction
 
-- [Keyphrase Generation: A Multi-Aspect Survey](https://arxiv.org/abs/1910.05059) — *FRUCT 2019*。抽出型・生成型のキーフレーズ抽出/生成を多角的に整理したサーベイ
+- [Keyphrase Generation: A Multi-Aspect Survey](https://arxiv.org/abs/1910.05059) — *FRUCT 2019* · 📈24。抽出型・生成型のキーフレーズ抽出/生成を多角的に整理したサーベイ
 
 ### Legal NLP
 
-- [Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models, and Challenges](https://arxiv.org/abs/2410.21306) — *ACM Computing Surveys 2025*。法律ドメインNLPのタスク・データ・モデル・課題を体系化したサーベイ
+- [Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models, and Challenges](https://arxiv.org/abs/2410.21306) — *ACM Computing Surveys 2025* · 📈123。法律ドメインNLPのタスク・データ・モデル・課題を体系化したサーベイ
 
 ### Long Document Summarization
 
-- [An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics](https://arxiv.org/abs/2207.00939) — *ACM Computing Surveys 2022*。長文要約のデータ・モデル・評価指標を実証的に比較したサーベイ
+- [An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics](https://arxiv.org/abs/2207.00939) — *ACM Computing Surveys 2022* · 📈190。長文要約のデータ・モデル・評価指標を実証的に比較したサーベイ
 
 ### Low-Resource & Multilingual
 
-- [Neural Machine Translation for Low-Resource Languages: A Survey](https://arxiv.org/abs/2106.15115) — *ACM Computing Surveys 2021* · 📈382。低資源言語NMTの研究進展を定量分析付きで概観
+- [Neural Machine Translation for Low-Resource Languages: A Survey](https://arxiv.org/abs/2106.15115) — *ACM Computing Surveys 2021* · 📈386。低資源言語NMTの研究進展を定量分析付きで概観
 - [A Survey on Low-Resource Neural Machine Translation](https://arxiv.org/abs/2107.04239) — *IJCAI 2021* · 📈83。低資源NMTの補助データ活用手法を3分類で整理
 
 ### Machine Translation
 
-- [Neural Machine Translation: A Review and Survey](https://arxiv.org/abs/1912.02047) — *JAIR 2020* · 📈438。NMTのモデル・学習・推論を網羅した定番の包括的レビュー
-- [A Survey of Deep Learning Techniques for Neural Machine Translation](https://arxiv.org/abs/2002.07526) — *arXiv 2020* · 📈155。ニューラル機械翻訳の深層学習技術を体系的に整理した入門的サーベイ
+- [Neural Machine Translation: A Review and Survey](https://arxiv.org/abs/1912.02047) — *JAIR 2020* · 📈440。NMTのモデル・学習・推論を網羅した定番の包括的レビュー
+- [A Survey of Deep Learning Techniques for Neural Machine Translation](https://arxiv.org/abs/2002.07526) — *arXiv 2020* · 📈156。ニューラル機械翻訳の深層学習技術を体系的に整理した入門的サーベイ
 - [A Survey on Non-Autoregressive Generation for Neural Machine Translation and Beyond](https://arxiv.org/abs/2204.09269) — *IEEE TPAMI 2022* · 📈130。非自己回帰生成によるNMT高速化手法を整理したサーベイ
 
 ### Multi-document Summarization
 
-- [Survey on Multi-Document Summarization: Systematic Literature Review](https://arxiv.org/abs/2312.12915) — *arXiv 2023*。多文書要約手法を系統的文献レビューで整理したサーベイ
-- [Multi-document Summarization via Deep Learning Techniques: A Survey](https://arxiv.org/abs/2011.04843) — *ACM Computing Surveys 2020*。深層学習による多文書要約モデルを初めて体系化したサーベイ
+- [Multi-document Summarization via Deep Learning Techniques: A Survey](https://arxiv.org/abs/2011.04843) — *ACM Computing Surveys 2020* · 📈163。深層学習による多文書要約モデルを初めて体系化したサーベイ
+- [Survey on Multi-Document Summarization: Systematic Literature Review](https://arxiv.org/abs/2312.12915) — *arXiv 2023* · 📈3。多文書要約手法を系統的文献レビューで整理したサーベイ
 
 ### NLG Evaluation
 
-- [Leveraging Large Language Models for NLG Evaluation: Advances and Challenges](https://arxiv.org/abs/2401.07103) — *EMNLP 2024*。LLMを用いたNLG評価手法を分類整理したサーベイ
+- [Leveraging Large Language Models for NLG Evaluation: Advances and Challenges](https://arxiv.org/abs/2401.07103) — *EMNLP 2024* · 📈46。LLMを用いたNLG評価手法を分類整理したサーベイ
 
 ### Named Entity Recognition
 
-- [A Survey on Deep Learning for Named Entity Recognition](https://arxiv.org/abs/1812.09449) — *IEEE TKDE 2020* · 📈1515。深層学習によるNERの定番サーベイ(分散表現・文脈エンコーダ等)
-- [Recent Advances in Named Entity Recognition: A Comprehensive Survey and Comparative Study](https://arxiv.org/abs/2401.10825) — *arXiv 2024* · 📈58。Transformer/LLM時代のNER最新手法と比較実験を含むサーベイ
+- [A Survey on Deep Learning for Named Entity Recognition](https://arxiv.org/abs/1812.09449) — *IEEE TKDE 2020* · 📈1519。深層学習によるNERの定番サーベイ(分散表現・文脈エンコーダ等)
+- [Recent Advances in Named Entity Recognition: A Comprehensive Survey and Comparative Study](https://arxiv.org/abs/2401.10825) — *arXiv 2024* · 📈59。Transformer/LLM時代のNER最新手法と比較実験を含むサーベイ
 
 ### Neural Topic Models
 
-- [A Survey on Neural Topic Models: Methods, Applications, and Challenges](https://arxiv.org/abs/2401.15351) — *Artificial Intelligence Review 2024*。ニューラルトピックモデルの手法・応用・課題を網羅したサーベイ
+- [A Survey on Neural Topic Models: Methods, Applications, and Challenges](https://arxiv.org/abs/2401.15351) — *Artificial Intelligence Review 2024* · 📈123。ニューラルトピックモデルの手法・応用・課題を網羅したサーベイ
 
 ### Persona Dialogue
 
-- [Recent Trends in Personalized Dialogue Generation: A Review of Datasets, Methodologies, and Evaluations](https://arxiv.org/abs/2405.17974) — *LREC-COLING 2024*。ペルソナ対話生成のデータ・手法・評価を体系的にレビューしたサーベイ
+- [Recent Trends in Personalized Dialogue Generation: A Review of Datasets, Methodologies, and Evaluations](https://arxiv.org/abs/2405.17974) — *LREC-COLING 2024* · 📈42。ペルソナ対話生成のデータ・手法・評価を体系的にレビューしたサーベイ
 
 ### Pretrained Language Models (BERT)
 
-- [A Primer in BERTology: What We Know About How BERT Works](https://arxiv.org/abs/2002.12327) — *TACL 2020* · 📈1959。BERTの内部挙動に関する知見をまとめた定番BERTologyサーベイ
-- [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271) — *Science China Technological Sciences 2020* · 📈1727。NLP事前学習モデルを4視点の分類学で整理した高被引用サーベイ
-- [Recent Advances in Natural Language Processing via Large Pre-Trained Language Models: A Survey](https://arxiv.org/abs/2111.01243) — *ACM Computing Surveys 2021* · 📈1616。大規模事前学習モデルによるNLPの最近の進展を整理
-- [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139) — *AI Open 2021* · 📈1102。事前学習モデルの過去・現在・未来を俯瞰した大規模レビュー
+- [A Primer in BERTology: What We Know About How BERT Works](https://arxiv.org/abs/2002.12327) — *TACL 2020* · 📈1964。BERTの内部挙動に関する知見をまとめた定番BERTologyサーベイ
+- [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271) — *Science China Technological Sciences 2020* · 📈1730。NLP事前学習モデルを4視点の分類学で整理した高被引用サーベイ
+- [Recent Advances in Natural Language Processing via Large Pre-Trained Language Models: A Survey](https://arxiv.org/abs/2111.01243) — *ACM Computing Surveys 2021* · 📈1621。大規模事前学習モデルによるNLPの最近の進展を整理
+- [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139) — *AI Open 2021* · 📈1103。事前学習モデルの過去・現在・未来を俯瞰した大規模レビュー
 
 ### Prompting
 
-- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/abs/2107.13586) — *ACM Computing Surveys 2021* · 📈5683。プロンプト手法を体系化した最重要サーベイ(prompt paradigm) — [`thunlp/PromptPapers`](https://github.com/thunlp/PromptPapers) ⭐4324🔴
+- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/abs/2107.13586) — *ACM Computing Surveys 2021* · 📈5696。プロンプト手法を体系化した最重要サーベイ(prompt paradigm) — [`thunlp/PromptPapers`](https://github.com/thunlp/PromptPapers) ⭐4326🔴
 
 ### Question Answering
 
-- [A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions](https://arxiv.org/abs/2105.11644) — *IJCAI 2021* · 📈212。複雑な知識ベースQA(KBQA)の手法と課題を整理
-- [QA Dataset Explosion: A Taxonomy of NLP Resources for Question Answering and Reading Comprehension](https://arxiv.org/abs/2107.12708) — *ACM Computing Surveys 2021* · 📈204。QA/読解の大量データセットを分類学として体系化
+- [A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions](https://arxiv.org/abs/2105.11644) — *IJCAI 2021* · 📈214。複雑な知識ベースQA(KBQA)の手法と課題を整理
+- [QA Dataset Explosion: A Taxonomy of NLP Resources for Question Answering and Reading Comprehension](https://arxiv.org/abs/2107.12708) — *ACM Computing Surveys 2021* · 📈206。QA/読解の大量データセットを分類学として体系化
 - [A Survey on Neural Machine Reading Comprehension](https://arxiv.org/abs/1906.03824) — *arXiv 2019* · 📈32。ニューラル機械読解(MRC)の手法とデータセットを整理
 
 ### Question Generation
 
-- [A Survey on Neural Question Generation: Methods, Applications, and Prospects](https://arxiv.org/abs/2402.18267) — *IJCAI 2024*。構造化/非構造化/ハイブリッドの観点でニューラル質問生成を整理
+- [A Survey on Neural Question Generation: Methods, Applications, and Prospects](https://arxiv.org/abs/2402.18267) — *IJCAI 2024* · 📈22。構造化/非構造化/ハイブリッドの観点でニューラル質問生成を整理
 
 ### Readability Assessment
 
-- [Trends, Limitations and Open Challenges in Automatic Readability Assessment Research](https://arxiv.org/abs/2105.00973) — *LREC 2022*。自動可読性評価研究の動向・限界・課題を総括したサーベイ
+- [Trends, Limitations and Open Challenges in Automatic Readability Assessment Research](https://arxiv.org/abs/2105.00973) — *LREC 2022* · 📈66。自動可読性評価研究の動向・限界・課題を総括したサーベイ
 
 ### Relation Extraction
 
-- [A Comprehensive Survey on Relation Extraction: Recent Advances and New Frontiers](https://arxiv.org/abs/2306.02051) — *ACM Computing Surveys 2023* · 📈144。関係抽出を表現・文脈・トリプル予測の3視点で整理した新分類学
+- [A Comprehensive Survey on Relation Extraction: Recent Advances and New Frontiers](https://arxiv.org/abs/2306.02051) — *ACM Computing Surveys 2023* · 📈145。関係抽出を表現・文脈・トリプル予測の3視点で整理した新分類学
 - [A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/abs/1705.03645) — *arXiv 2017* · 📈123。関係抽出における各種深層学習モデルの初期サーベイ
 
 ### Sarcasm Detection
 
-- [A Survey of Multimodal Sarcasm Detection](https://arxiv.org/abs/2410.18882) — *IJCAI 2024*。マルチモーダル皮肉検出のモデルとデータを初めて体系化したサーベイ
+- [A Survey of Multimodal Sarcasm Detection](https://arxiv.org/abs/2410.18882) — *IJCAI 2024* · 📈43。マルチモーダル皮肉検出のモデルとデータを初めて体系化したサーベイ
 
 ### Sentiment Analysis
 
-- [Deep Learning for Sentiment Analysis: A Survey](https://arxiv.org/abs/1801.07883) — *WIREs Data Mining and Knowledge Discovery 2018* · 📈1943。感情分析への深層学習適用を概観した高被引用サーベイ
-- [A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges](https://arxiv.org/abs/2203.01054) — *IEEE TKDE 2022* · 📈439。アスペクトベース感情分析(ABSA)のタスク・手法・課題を体系化
+- [Deep Learning for Sentiment Analysis: A Survey](https://arxiv.org/abs/1801.07883) — *WIREs Data Mining and Knowledge Discovery 2018* · 📈1945。感情分析への深層学習適用を概観した高被引用サーベイ
+- [A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges](https://arxiv.org/abs/2203.01054) — *IEEE TKDE 2022* · 📈444。アスペクトベース感情分析(ABSA)のタスク・手法・課題を体系化
 
 ### Stance Detection
 
-- [A Survey of Stance Detection on Social Media: New Directions and Perspectives](https://arxiv.org/abs/2409.15690) — *arXiv 2024*。ソーシャルメディアにおけるスタンス検出の課題・手法・展望を整理
-- [A Survey on Stance Detection for Mis- and Disinformation Identification](https://arxiv.org/abs/2103.00242) — *NAACL Findings 2021*。偽情報識別のためのスタンス検出に焦点を当てたサーベイ
+- [A Survey on Stance Detection for Mis- and Disinformation Identification](https://arxiv.org/abs/2103.00242) — *NAACL Findings 2021* · 📈181。偽情報識別のためのスタンス検出に焦点を当てたサーベイ
+- [A Survey of Stance Detection on Social Media: New Directions and Perspectives](https://arxiv.org/abs/2409.15690) — *arXiv 2024* · 📈19。ソーシャルメディアにおけるスタンス検出の課題・手法・展望を整理
 
 ### Summarization
 
-- [A Survey on Neural Network-Based Summarization Methods](https://arxiv.org/abs/1804.04589) — *arXiv 2018* · 📈37。抽出型・生成型ニューラル要約手法を整理した初期サーベイ
+- [A Survey on Neural Network-Based Summarization Methods](https://arxiv.org/abs/1804.04589) — *arXiv 2018* · 📈38。抽出型・生成型ニューラル要約手法を整理した初期サーベイ
 - [A Survey on Neural Abstractive Summarization Methods and Factual Consistency of Summarization](https://arxiv.org/abs/2204.09519) — *arXiv 2022* · 📈9。生成型要約と事実整合性(factual consistency)に焦点を当てたサーベイ
 
 ### Syntactic & Semantic Parsing
@@ -646,23 +646,23 @@
 
 ### Text Classification
 
-- [Recent Trends in Deep Learning Based Natural Language Processing](https://arxiv.org/abs/1708.02709) — *IEEE Computational Intelligence Magazine 2018* · 📈3094。深層学習NLPの主要モデルと応用を俯瞰した高被引用レビュー
+- [Recent Trends in Deep Learning Based Natural Language Processing](https://arxiv.org/abs/1708.02709) — *IEEE Computational Intelligence Magazine 2018* · 📈3095。深層学習NLPの主要モデルと応用を俯瞰した高被引用レビュー
 - [Deep Learning Based Text Classification: A Comprehensive Review](https://arxiv.org/abs/2004.03705) — *ACM Computing Surveys 2020* · 📈1361。150超の深層学習テキスト分類モデルと40超のデータセットを整理
-- [A Survey on Text Classification: From Shallow to Deep Learning](https://arxiv.org/abs/2008.00364) — *ACM TIST 2020* · 📈555。テキスト分類を浅い手法から深層学習まで時系列で整理
+- [A Survey on Text Classification: From Shallow to Deep Learning](https://arxiv.org/abs/2008.00364) — *ACM TIST 2020* · 📈557。テキスト分類を浅い手法から深層学習まで時系列で整理
 - [Topic Modelling Meets Deep Neural Networks: A Survey](https://arxiv.org/abs/2103.00498) — *IJCAI 2021* · 📈172。ニューラルトピックモデルの手法を体系的に整理したサーベイ
 
 ### Text Generation
 
-- [Survey of the State of the Art in Natural Language Generation: Core Tasks, Applications and Evaluation](https://arxiv.org/abs/1703.09902) — *JAIR 2018* · 📈916。自然言語生成のコアタスク・応用・評価を網羅した定番サーベイ
+- [Survey of the State of the Art in Natural Language Generation: Core Tasks, Applications and Evaluation](https://arxiv.org/abs/1703.09902) — *JAIR 2018* · 📈917。自然言語生成のコアタスク・応用・評価を網羅した定番サーベイ
 
 ### Text Simplification
 
-- [Deep Learning Approaches to Lexical Simplification: A Survey](https://arxiv.org/abs/2305.12000) — *arXiv 2023*。語彙平易化の深層学習手法を2017-2023年で整理したサーベイ
-- [A Survey on Text Simplification](https://arxiv.org/abs/2008.08612) — *arXiv 2020*。語彙・統語・意味の各側面からテキスト平易化を概観したサーベイ
+- [A Survey on Text Simplification](https://arxiv.org/abs/2008.08612) — *arXiv 2020* · 📈32。語彙・統語・意味の各側面からテキスト平易化を概観したサーベイ
+- [Deep Learning Approaches to Lexical Simplification: A Survey](https://arxiv.org/abs/2305.12000) — *arXiv 2023* · 📈27。語彙平易化の深層学習手法を2017-2023年で整理したサーベイ
 
 ### Text Style Transfer
 
-- [A Survey of Text Style Transfer: Applications and Ethical Implications](https://arxiv.org/abs/2407.16737) — *arXiv 2024*。テキストスタイル変換を応用と倫理的含意の観点から整理したサーベイ
+- [A Survey of Text Style Transfer: Applications and Ethical Implications](https://arxiv.org/abs/2407.16737) — *arXiv 2024* · 📈2。テキストスタイル変換を応用と倫理的含意の観点から整理したサーベイ
 
 ### Word & Sentence Embeddings
 
@@ -675,18 +675,18 @@
 
 ### Word Sense Disambiguation
 
-- [A Survey on Lexical Ambiguity Detection and Word Sense Disambiguation](https://arxiv.org/abs/2403.16129) — *arXiv 2024*。語彙的曖昧性検出と語義曖昧性解消の手法を整理したサーベイ
+- [A Survey on Lexical Ambiguity Detection and Word Sense Disambiguation](https://arxiv.org/abs/2403.16129) — *arXiv 2024* · 📈14。語彙的曖昧性検出と語義曖昧性解消の手法を整理したサーベイ
 
 ## 🔊 音声・信号処理
 
 ### Audio Foundation Models
 
-- [Audio-Language Models for Audio-Centric Tasks: A Systematic Survey](https://arxiv.org/abs/2501.15177) — *arXiv 2025*。音声中心タスク向け音声言語モデル（audio-language models）を体系的に俯瞰した最新サーベイ
+- [Audio-Language Models for Audio-Centric Tasks: A Systematic Survey](https://arxiv.org/abs/2501.15177) — *arXiv 2025* · 📈1。音声中心タスク向け音声言語モデル（audio-language models）を体系的に俯瞰した最新サーベイ
 
 ### Automatic Speech Recognition (ASR)
 
-- [A Review of Deep Learning Techniques for Speech Processing](https://arxiv.org/abs/2305.00359) — *Information Fusion 2023* · 📈362。音声処理全般の深層学習技術を網羅的に概観したレビュー
-- [End-to-End Speech Recognition: A Survey](https://arxiv.org/abs/2303.03329) — *IEEE/ACM TASLP 2023* · 📈314。エンドツーエンドASRのモデル分類と古典HMM系との関係を整理
+- [A Review of Deep Learning Techniques for Speech Processing](https://arxiv.org/abs/2305.00359) — *Information Fusion 2023* · 📈365。音声処理全般の深層学習技術を網羅的に概観したレビュー
+- [End-to-End Speech Recognition: A Survey](https://arxiv.org/abs/2303.03329) — *IEEE/ACM TASLP 2023* · 📈317。エンドツーエンドASRのモデル分類と古典HMM系との関係を整理
 - [Speech Recognition Using Deep Neural Networks: A Systematic Review](https://doi.org/10.1109/ACCESS.2019.2896880) — *IEEE Access 2019*。深層音声認識の体系的レビュー。174論文を統計分析した高被引用の定番。
 
 ### Controllable TTS
@@ -695,11 +695,11 @@
 
 ### Keyword Spotting
 
-- [Advances in Small-Footprint Keyword Spotting: A Comprehensive Review of Efficient Models and Algorithms](https://arxiv.org/abs/2506.11169) — *arXiv 2025*。小型デバイス向けキーワード検出の効率モデル・アルゴリズムを7分類で包括レビュー
+- [Advances in Small-Footprint Keyword Spotting: A Comprehensive Review of Efficient Models and Algorithms](https://arxiv.org/abs/2506.11169) — *arXiv 2025* · 📈10。小型デバイス向けキーワード検出の効率モデル・アルゴリズムを7分類で包括レビュー
 
 ### Multilingual ASR
 
-- [A Survey of Multilingual Models for Automatic Speech Recognition](https://arxiv.org/abs/2202.12576) — *LREC 2022*。多言語ASRの転移学習・共同学習・自己教師あり手法とベストプラクティスをまとめたサーベイ
+- [A Survey of Multilingual Models for Automatic Speech Recognition](https://arxiv.org/abs/2202.12576) — *LREC 2022* · 📈57。多言語ASRの転移学習・共同学習・自己教師あり手法とベストプラクティスをまとめたサーベイ
 
 ### Music Information Retrieval
 
@@ -707,33 +707,33 @@
 
 ### Self-Supervised Speech (wav2vec)
 
-- [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477) — *NeurIPS 2020* · 📈9034。自己教師あり音声表現学習の代表的基盤モデル(分野の基礎参照)
-- [Self-Supervised Speech Representation Learning: A Review](https://arxiv.org/abs/2205.10643) — *IEEE JSTSP 2022* · 📈523。自己教師あり音声表現学習(wav2vec/HuBERT系)を網羅した定番レビュー
+- [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477) — *NeurIPS 2020* · 📈9086。自己教師あり音声表現学習の代表的基盤モデル(分野の基礎参照)
+- [Self-Supervised Speech Representation Learning: A Review](https://arxiv.org/abs/2205.10643) — *IEEE JSTSP 2022* · 📈525。自己教師あり音声表現学習(wav2vec/HuBERT系)を網羅した定番レビュー
 
 ### Sound Event Detection
 
-- [Sound Event Detection: A Tutorial](https://arxiv.org/abs/2107.05463) — *IEEE Signal Processing Magazine 2021*。音響イベント検出(SED)の基礎・手法・評価を解説した入門チュートリアル
+- [Sound Event Detection: A Tutorial](https://arxiv.org/abs/2107.05463) — *IEEE Signal Processing Magazine 2021* · 📈281。音響イベント検出(SED)の基礎・手法・評価を解説した入門チュートリアル
 
 ### Speaker Recognition & Diarization
 
-- [A Review of Speaker Diarization: Recent Advances with Deep Learning](https://arxiv.org/abs/2101.09624) — *Computer Speech & Language 2021* · 📈441。話者ダイアライゼーションの深層学習による進展を整理した定番レビュー
+- [A Review of Speaker Diarization: Recent Advances with Deep Learning](https://arxiv.org/abs/2101.09624) — *Computer Speech & Language 2021* · 📈446。話者ダイアライゼーションの深層学習による進展を整理した定番レビュー
 
 ### Speech Emotion Recognition
 
-- [Emotion Recognition and Generation: A Comprehensive Review of Face, Speech, and Text Modalities](https://arxiv.org/abs/2502.06803) — *arXiv 2025*。顔・音声・テキストにまたがる感情認識と生成の最新技術を包括的にレビュー
-- [A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning](https://arxiv.org/abs/2312.05735) — *arXiv 2023*。音声を含むマルチモーダル会話感情認識の深層学習手法を4分類で網羅したサーベイ
+- [A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning](https://arxiv.org/abs/2312.05735) — *arXiv 2023* · 📈61。音声を含むマルチモーダル会話感情認識の深層学習手法を4分類で網羅したサーベイ
+- [Emotion Recognition and Generation: A Comprehensive Review of Face, Speech, and Text Modalities](https://arxiv.org/abs/2502.06803) — *arXiv 2025* · 📈12。顔・音声・テキストにまたがる感情認識と生成の最新技術を包括的にレビュー
 
 ### Speech Enhancement & Separation
 
-- [Supervised Speech Separation Based on Deep Learning: An Overview](https://arxiv.org/abs/1708.07524) — *IEEE/ACM TASLP 2018* · 📈1614。深層学習による教師あり音声分離・強調を網羅した定番オーバービュー
+- [Supervised Speech Separation Based on Deep Learning: An Overview](https://arxiv.org/abs/1708.07524) — *IEEE/ACM TASLP 2018* · 📈1615。深層学習による教師あり音声分離・強調を網羅した定番オーバービュー
 
 ### Speech LLM / Audio Foundation Models
 
-- [A Survey on Speech Large Language Models for Understanding](https://arxiv.org/abs/2410.18908) — *arXiv 2024*。音声理解向け音声大規模言語モデルのアーキテクチャと学習戦略を整理したサーベイ
+- [A Survey on Speech Large Language Models for Understanding](https://arxiv.org/abs/2410.18908) — *arXiv 2024* · 📈107。音声理解向け音声大規模言語モデルのアーキテクチャと学習戦略を整理したサーベイ
 
 ### Speech Language Models
 
-- [Recent Advances in Speech Language Models: A Survey](https://arxiv.org/abs/2410.03751) — *ACL 2025* · 📈131。テキストを介さずend-to-endで音声対話する音声LMの初の包括サーベイ(ACL 2025) — [`dreamtheater123/Awesome-SpeechLM-Survey`](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey) ⭐218🟢
+- [Recent Advances in Speech Language Models: A Survey](https://arxiv.org/abs/2410.03751) — *ACL 2025* · 📈132。テキストを介さずend-to-endで音声対話する音声LMの初の包括サーベイ(ACL 2025) — [`dreamtheater123/Awesome-SpeechLM-Survey`](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey) ⭐218🟢
 
 ### Speech Translation
 
@@ -741,418 +741,418 @@
 
 ### Spoken Dialogue Systems
 
-- [WavChat: A Survey of Spoken Dialogue Models](https://arxiv.org/abs/2411.13577) — *arXiv 2024*。音声対話モデルをcascaded/end-to-endに分類し技術・データ・評価を網羅したサーベイ — [`jishengpeng/WavChat`](https://github.com/jishengpeng/WavChat) ⭐316🔴
+- [WavChat: A Survey of Spoken Dialogue Models](https://arxiv.org/abs/2411.13577) — *arXiv 2024* · 📈113。音声対話モデルをcascaded/end-to-endに分類し技術・データ・評価を網羅したサーベイ — [`jishengpeng/WavChat`](https://github.com/jishengpeng/WavChat) ⭐317🔴
 
 ### Spoken Language Understanding (SLU)
 
-- [A Survey on Spoken Language Understanding: Recent Advances and New Frontiers](https://arxiv.org/abs/2103.03095) — *IJCAI 2021*。音声言語理解(SLU)の単一/結合モデルや事前学習パラダイムを整理した定番サーベイ
+- [A Survey on Spoken Language Understanding: Recent Advances and New Frontiers](https://arxiv.org/abs/2103.03095) — *IJCAI 2021* · 📈125。音声言語理解(SLU)の単一/結合モデルや事前学習パラダイムを整理した定番サーベイ
 
 ### Text-to-Speech (TTS)
 
-- [A Survey on Neural Speech Synthesis](https://arxiv.org/abs/2106.15561) — *arXiv 2021* · 📈488。ニューラル音声合成(テキスト解析・音響モデル・ボコーダ)の定番サーベイ
+- [A Survey on Neural Speech Synthesis](https://arxiv.org/abs/2106.15561) — *arXiv 2021* · 📈489。ニューラル音声合成(テキスト解析・音響モデル・ボコーダ)の定番サーベイ
 
 ### Voice Conversion
 
-- [Generative Adversarial Network based Voice Conversion: Techniques, Challenges, and Recent Advancements](https://arxiv.org/abs/2504.19197) — *arXiv 2025*。GANベース声質変換の手法・課題・最新動向を体系化したレビュー
-- [Reimagining Speech: A Scoping Review of Deep Learning-Powered Voice Conversion](https://arxiv.org/abs/2311.08104) — *arXiv 2023*。2017-2023年の123本を精査した深層学習ベース声質変換のスコーピングレビュー
-- [An Overview of Voice Conversion and its Challenges: From Statistical Modeling to Deep Learning](https://arxiv.org/abs/2008.03648) — *IEEE/ACM TASLP 2020*。声質変換を統計モデルから深層学習まで通観した定番の包括的オーバービュー
+- [An Overview of Voice Conversion and its Challenges: From Statistical Modeling to Deep Learning](https://arxiv.org/abs/2008.03648) — *IEEE/ACM TASLP 2020* · 📈430。声質変換を統計モデルから深層学習まで通観した定番の包括的オーバービュー
+- [Reimagining Speech: A Scoping Review of Deep Learning-Powered Voice Conversion](https://arxiv.org/abs/2311.08104) — *arXiv 2023* · 📈9。2017-2023年の123本を精査した深層学習ベース声質変換のスコーピングレビュー
+- [Generative Adversarial Network based Voice Conversion: Techniques, Challenges, and Recent Advancements](https://arxiv.org/abs/2504.19197) — *arXiv 2025* · 📈7。GANベース声質変換の手法・課題・最新動向を体系化したレビュー
 
 ## 👁️ コンピュータビジョン (CV)
 
 ### 3D Gaussian Splatting
 
-- [A Survey on 3D Gaussian Splatting](https://arxiv.org/abs/2401.03890) — *TPAMI 2024*。3Dガウシアンスプラッティングの体系的サーベイ。表現・最適化・応用を整理 — [`guikunchen/Awesome3DGS`](https://github.com/guikunchen/Awesome3DGS) ⭐102🟡
+- [A Survey on 3D Gaussian Splatting](https://arxiv.org/abs/2401.03890) — *TPAMI 2024* · 📈362。3Dガウシアンスプラッティングの体系的サーベイ。表現・最適化・応用を整理 — [`guikunchen/Awesome3DGS`](https://github.com/guikunchen/Awesome3DGS) ⭐102🟡
 
 ### 3D Object Detection
 
-- [3D Object Detection for Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2206.09474) — *IJCV 2023*。自動運転向け3D物体検出(LiDAR/カメラ/マルチモーダル)の包括サーベイ — [`PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving`](https://github.com/PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving) ⭐613🔴
+- [3D Object Detection for Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2206.09474) — *IJCV 2023* · 📈484。自動運転向け3D物体検出(LiDAR/カメラ/マルチモーダル)の包括サーベイ — [`PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving`](https://github.com/PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving) ⭐612🔴
 
 ### 3D Vision / Point Cloud
 
-- [Transformers in 3D Point Clouds: A Survey](https://arxiv.org/abs/2205.07417) — *arXiv 2022*。3D点群解析へのTransformer適用を分類・整理した初の包括サーベイ
-- [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/abs/1912.12033) — *TPAMI 2021*。点群の分類/検出/セグメンテーションを網羅した定番サーベイ
+- [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/abs/1912.12033) — *TPAMI 2021* · 📈2329。点群の分類/検出/セグメンテーションを網羅した定番サーベイ
+- [Transformers in 3D Point Clouds: A Survey](https://arxiv.org/abs/2205.07417) — *arXiv 2022* · 📈79。3D点群解析へのTransformer適用を分類・整理した初の包括サーベイ
 
 ### 6D Pose Estimation
 
-- [Deep Learning-Based Object Pose Estimation: A Comprehensive Survey](https://arxiv.org/abs/2405.07801) — *IJCV 2024*。物体姿勢推定(インスタンス/カテゴリレベル6D)の包括的サーベイ
+- [Deep Learning-Based Object Pose Estimation: A Comprehensive Survey](https://arxiv.org/abs/2405.07801) — *IJCV 2024* · 📈82。物体姿勢推定(インスタンス/カテゴリレベル6D)の包括的サーベイ
 
 ### Action Recognition
 
-- [Human Action Recognition from Various Data Modalities: A Review](https://arxiv.org/abs/2012.11866) — *TPAMI 2023*。RGB/骨格/深度など多様なモダリティでの行動認識を整理
-- [Going Deeper into Action Recognition: A Survey](https://arxiv.org/abs/1605.04988) — *Image and Vision Computing 2017*。行動認識の手作り表現から深層手法までの進化を俯瞰した定番サーベイ
+- [Human Action Recognition from Various Data Modalities: A Review](https://arxiv.org/abs/2012.11866) — *TPAMI 2023* · 📈813。RGB/骨格/深度など多様なモダリティでの行動認識を整理
+- [Going Deeper into Action Recognition: A Survey](https://arxiv.org/abs/1605.04988) — *Image and Vision Computing 2017* · 📈648。行動認識の手作り表現から深層手法までの進化を俯瞰した定番サーベイ
 
 ### Adversarial Robustness
 
-- [Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey](https://arxiv.org/abs/1801.00553) — *IEEE Access 2018*。CVにおける敵対的攻撃と防御を初めて包括的に整理した定番サーベイ
+- [Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey](https://arxiv.org/abs/1801.00553) — *IEEE Access 2018* · 📈2090。CVにおける敵対的攻撃と防御を初めて包括的に整理した定番サーベイ
 
 ### Anomaly Detection
 
-- [Deep Learning for Anomaly Detection: A Review](https://arxiv.org/abs/2007.02500) — *CSUR 2021*。深層異常検知の手法を体系的な分類で整理したCSURレビュー
+- [Deep Learning for Anomaly Detection: A Review](https://arxiv.org/abs/2007.02500) — *CSUR 2021* · 📈1432。深層異常検知の手法を体系的な分類で整理したCSURレビュー
 
 ### Camouflaged Object Detection
 
-- [A Survey of Camouflaged Object Detection and Beyond](https://arxiv.org/abs/2408.14562) — *arXiv 2024*。カモフラージュ物体検出(COD)の最新までを包括的にレビュー
+- [A Survey of Camouflaged Object Detection and Beyond](https://arxiv.org/abs/2408.14562) — *arXiv 2024* · 📈74。カモフラージュ物体検出(COD)の最新までを包括的にレビュー
 
 ### Continual Learning
 
-- [Class-Incremental Learning: A Survey](https://arxiv.org/abs/2302.03648) — *TPAMI 2023*。クラス増分学習(継続学習)の深層手法を分類・比較した包括サーベイ
+- [Class-Incremental Learning: A Survey](https://arxiv.org/abs/2302.03648) — *TPAMI 2023* · 📈398。クラス増分学習(継続学習)の深層手法を分類・比較した包括サーベイ
 
 ### Crowd Counting
 
-- [A Survey on Deep Learning-based Single Image Crowd Counting: Network Design, Loss Function and Supervisory Signal](https://arxiv.org/abs/2012.15685) — *Neurocomputing 2020*。単一画像群衆カウントをネットワーク設計・損失・監督信号の観点で整理
+- [A Survey on Deep Learning-based Single Image Crowd Counting: Network Design, Loss Function and Supervisory Signal](https://arxiv.org/abs/2012.15685) — *Neurocomputing 2020* · 📈32。単一画像群衆カウントをネットワーク設計・損失・監督信号の観点で整理
 
 ### Deepfake Detection
 
-- [Deepfake Generation and Detection: A Benchmark and Survey](https://arxiv.org/abs/2403.17881) — *arXiv 2024*。ディープフェイク生成と検出をベンチマークとともに包括的に整理
-- [Deepfake Detection: A Comprehensive Survey from the Reliability Perspective](https://arxiv.org/abs/2211.10881) — *ACM Computing Surveys 2022*。ディープフェイク検出を信頼性(転移性・解釈性・頑健性)の観点で整理
+- [Deepfake Detection: A Comprehensive Survey from the Reliability Perspective](https://arxiv.org/abs/2211.10881) — *ACM Computing Surveys 2022* · 📈145。ディープフェイク検出を信頼性(転移性・解釈性・頑健性)の観点で整理
+- [Deepfake Generation and Detection: A Benchmark and Survey](https://arxiv.org/abs/2403.17881) — *arXiv 2024* · 📈142。ディープフェイク生成と検出をベンチマークとともに包括的に整理
 
 ### Depth Estimation
 
-- [Monocular Depth Estimation Based On Deep Learning: An Overview](https://arxiv.org/abs/2003.06620) — *Science China Technological Sciences 2020*。単眼深度推定の深層手法・損失・学習戦略を概観したサーベイ
+- [Monocular Depth Estimation Based On Deep Learning: An Overview](https://arxiv.org/abs/2003.06620) — *Science China Technological Sciences 2020* · 📈298。単眼深度推定の深層手法・損失・学習戦略を概観したサーベイ
 
 ### Domain Adaptation
 
-- [Domain Adaptation for Visual Applications: A Comprehensive Survey](https://arxiv.org/abs/1702.05374) — *Springer (book chapter) 2017* · 📈553。視覚タスク向けドメイン適応の包括的サーベイ。CV分野の定番。
-- [Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601) — *Neurocomputing 2018*。視覚タスク向け深層ドメイン適応をシナリオ別に分類した定番サーベイ
+- [Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601) — *Neurocomputing 2018* · 📈2360。視覚タスク向け深層ドメイン適応をシナリオ別に分類した定番サーベイ
+- [Domain Adaptation for Visual Applications: A Comprehensive Survey](https://arxiv.org/abs/1702.05374) — *Springer (book chapter) 2017* · 📈554。視覚タスク向けドメイン適応の包括的サーベイ。CV分野の定番。
 
 ### Domain Generalization / Adaptation (CLIP)
 
-- [CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey](https://arxiv.org/abs/2504.14280) — *arXiv preprint 2025* · 📈19。CLIPのゼロショット能力を活かしたドメイン汎化・適応手法を体系化した包括サーベイ。 — [`jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation`](https://github.com/jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation) ⭐80🟢
+- [CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey](https://arxiv.org/abs/2504.14280) — *arXiv preprint 2025* · 📈20。CLIPのゼロショット能力を活かしたドメイン汎化・適応手法を体系化した包括サーベイ。 — [`jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation`](https://github.com/jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation) ⭐80🟢
 
 ### Event Camera
 
-- [Deep Learning for Event-based Vision: A Comprehensive Survey and Benchmarks](https://arxiv.org/abs/2302.08890) — *arXiv 2023*。イベントカメラ向け深層学習の表現・タスク・ベンチマークを包括整理
+- [Deep Learning for Event-based Vision: A Comprehensive Survey and Benchmarks](https://arxiv.org/abs/2302.08890) — *arXiv 2023* · 📈148。イベントカメラ向け深層学習の表現・タスク・ベンチマークを包括整理
 
 ### Face Generation/Editing
 
-- [Face Generation and Editing with StyleGAN: A Survey](https://arxiv.org/abs/2212.09102) — *TPAMI 2022*。StyleGANによる顔生成・編集をインバージョン・潜在空間の観点で整理
+- [Face Generation and Editing with StyleGAN: A Survey](https://arxiv.org/abs/2212.09102) — *TPAMI 2022* · 📈104。StyleGANによる顔生成・編集をインバージョン・潜在空間の観点で整理
 
 ### Face Recognition
 
-- [Deep Face Recognition: A Survey](https://arxiv.org/abs/1804.06655) — *Neurocomputing 2021*。深層顔認識のアルゴリズム/損失関数/データセットを網羅した定番サーベイ
+- [Deep Face Recognition: A Survey](https://arxiv.org/abs/1804.06655) — *Neurocomputing 2021* · 📈1469。深層顔認識のアルゴリズム/損失関数/データセットを網羅した定番サーベイ
 
 ### Facial Expression Recognition
 
-- [Deep Learning for Micro-expression Recognition: A Survey](https://arxiv.org/abs/2107.02823) — *IEEE Trans. Affective Computing 2021*。微表情認識の深層学習手法・データセット・ベンチマークを整理
-- [Deep Facial Expression Recognition: A Survey](https://arxiv.org/abs/1804.08348) — *IEEE Trans. Affective Computing 2018*。深層表情認識(FER)の標準パイプライン・データセット・課題を整理
+- [Deep Facial Expression Recognition: A Survey](https://arxiv.org/abs/1804.08348) — *IEEE Trans. Affective Computing 2018* · 📈1734。深層表情認識(FER)の標準パイプライン・データセット・課題を整理
+- [Deep Learning for Micro-expression Recognition: A Survey](https://arxiv.org/abs/2107.02823) — *IEEE Trans. Affective Computing 2021* · 📈151。微表情認識の深層学習手法・データセット・ベンチマークを整理
 
 ### Few-Shot Learning
 
-- [Few-Shot Object Detection: A Comprehensive Survey](https://arxiv.org/abs/2112.11699) — *TNNLS 2023*。少数ショット物体検出手法の包括的な分類とサーベイ
-- [Generalizing from a Few Examples: A Survey on Few-Shot Learning](https://arxiv.org/abs/1904.05046) — *CSUR 2020*。少数ショット学習をデータ/モデル/アルゴリズム観点で整理した定番サーベイ
+- [Generalizing from a Few Examples: A Survey on Few-Shot Learning](https://arxiv.org/abs/1904.05046) — *CSUR 2020* · 📈2185。少数ショット学習をデータ/モデル/アルゴリズム観点で整理した定番サーベイ
+- [Few-Shot Object Detection: A Comprehensive Survey](https://arxiv.org/abs/2112.11699) — *TNNLS 2023* · 📈130。少数ショット物体検出手法の包括的な分類とサーベイ
 
 ### Fine-Grained Recognition
 
-- [Fine-Grained Image Analysis with Deep Learning: A Survey](https://arxiv.org/abs/2111.06119) — *TPAMI 2021*。細粒度画像解析(認識・検索)の深層学習手法を統合的に整理
+- [Fine-Grained Image Analysis with Deep Learning: A Survey](https://arxiv.org/abs/2111.06119) — *TPAMI 2021* · 📈465。細粒度画像解析(認識・検索)の深層学習手法を統合的に整理
 
 ### Foundation Models / Segmentation
 
-- [A Comprehensive Survey on Segment Anything Model for Vision and Beyond](https://arxiv.org/abs/2305.08196) — *arXiv 2023*。基盤モデルSAMの応用・限界を視覚分野横断で整理した初の包括サーベイ
+- [A Comprehensive Survey on Segment Anything Model for Vision and Beyond](https://arxiv.org/abs/2305.08196) — *arXiv 2023* · 📈152。基盤モデルSAMの応用・限界を視覚分野横断で整理した初の包括サーベイ
 
 ### Gait Recognition
 
-- [Deep Gait Recognition: A Survey](https://arxiv.org/abs/2102.09546) — *TPAMI 2021*。歩容認識の深層学習手法・データセット・課題を体系的に整理
+- [Deep Gait Recognition: A Survey](https://arxiv.org/abs/2102.09546) — *TPAMI 2021* · 📈283。歩容認識の深層学習手法・データセット・課題を体系的に整理
 
 ### Gaussian Splatting
 
-- [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](https://arxiv.org/abs/2407.17418) — *arXiv 2024* · 📈159。タスク・技術・課題の多視点から3DGSを分析した包括的サーベイ — [`qqqqqqy0227/awesome-3DGS`](https://github.com/qqqqqqy0227/awesome-3DGS) ⭐315🔴
-- [A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977) — *arXiv 2025* · 📈22。セグメンテーション・編集・生成という3DGS下流応用に特化した初のサーベイ — [`heshuting555/Awesome-3DGS-Applications`](https://github.com/heshuting555/Awesome-3DGS-Applications) ⭐401🟢
+- [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](https://arxiv.org/abs/2407.17418) — *arXiv 2024* · 📈160。タスク・技術・課題の多視点から3DGSを分析した包括的サーベイ — [`qqqqqqy0227/awesome-3DGS`](https://github.com/qqqqqqy0227/awesome-3DGS) ⭐316🔴
+- [A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977) — *arXiv 2025* · 📈22。セグメンテーション・編集・生成という3DGS下流応用に特化した初のサーベイ — [`heshuting555/Awesome-3DGS-Applications`](https://github.com/heshuting555/Awesome-3DGS-Applications) ⭐405🟢
 
 ### Gaze Estimation
 
-- [Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark](https://arxiv.org/abs/2104.12668) — *TPAMI 2021*。外観ベース視線推定の深層学習手法のレビューとベンチマーク
+- [Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark](https://arxiv.org/abs/2104.12668) — *TPAMI 2021* · 📈264。外観ベース視線推定の深層学習手法のレビューとベンチマーク
 
 ### Hand Pose Estimation
 
-- [Efficient Annotation and Learning for 3D Hand Pose Estimation: A Survey](https://arxiv.org/abs/2206.02257) — *IJCV 2022*。3D手姿勢推定をアノテーション・学習効率の観点で整理したサーベイ
+- [Efficient Annotation and Learning for 3D Hand Pose Estimation: A Survey](https://arxiv.org/abs/2206.02257) — *IJCV 2022* · 📈31。3D手姿勢推定をアノテーション・学習効率の観点で整理したサーベイ
 
 ### Human Pose Estimation
 
-- [Deep learning for 3D human pose estimation and mesh recovery: A survey](https://arxiv.org/abs/2402.18844) — *Neurocomputing 2024*。3D人体姿勢推定・メッシュ復元の深層学習手法を200本超で整理
+- [Deep learning for 3D human pose estimation and mesh recovery: A survey](https://arxiv.org/abs/2402.18844) — *Neurocomputing 2024* · 📈41。3D人体姿勢推定・メッシュ復元の深層学習手法を200本超で整理
 
 ### Human-Object Interaction
 
-- [A Review of Human-Object Interaction Detection](https://arxiv.org/abs/2408.10641) — *arXiv 2024*。HOI検出の2段階・1段階・Transformer手法を包括的にレビュー
+- [A Review of Human-Object Interaction Detection](https://arxiv.org/abs/2408.10641) — *arXiv 2024* · 📈11。HOI検出の2段階・1段階・Transformer手法を包括的にレビュー
 
 ### Image Captioning
 
-- [A Comprehensive Survey of Deep Learning for Image Captioning](https://arxiv.org/abs/1810.04020) — *CSUR 2019*。画像キャプション生成の深層手法・データセット・評価を整理したCSURサーベイ
+- [A Comprehensive Survey of Deep Learning for Image Captioning](https://arxiv.org/abs/1810.04020) — *CSUR 2019* · 📈906。画像キャプション生成の深層手法・データセット・評価を整理したCSURサーベイ
 
 ### Image Classification / Backbone
 
-- [A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects](https://arxiv.org/abs/2004.02806) — *TNNLS 2022*。CNNの歴史・代表モデル・応用を俯瞰したバックボーンサーベイ
+- [A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects](https://arxiv.org/abs/2004.02806) — *TNNLS 2022* · 📈4407。CNNの歴史・代表モデル・応用を俯瞰したバックボーンサーベイ
 
 ### Image Colorization
 
-- [Image Colorization: A Survey and Dataset](https://arxiv.org/abs/2008.10774) — *Information Fusion 2020*。画像カラー化の深層学習手法を7分類し新データセットも提供
+- [Image Colorization: A Survey and Dataset](https://arxiv.org/abs/2008.10774) — *Information Fusion 2020* · 📈110。画像カラー化の深層学習手法を7分類し新データセットも提供
 
 ### Image Deblurring
 
-- [Deep Image Deblurring: A Survey](https://arxiv.org/abs/2201.10700) — *IJCV 2022*。画像ボケ除去の深層学習手法をアーキテクチャ・損失・応用で分類
+- [Deep Image Deblurring: A Survey](https://arxiv.org/abs/2201.10700) — *IJCV 2022* · 📈400。画像ボケ除去の深層学習手法をアーキテクチャ・損失・応用で分類
 
 ### Image Dehazing
 
-- [A Comprehensive Survey and Taxonomy on Single Image Dehazing Based on Deep Learning](https://arxiv.org/abs/2106.03323) — *ACM Computing Surveys 2021*。単一画像デヘイズの深層学習手法を分類学とともに包括的に整理
+- [A Comprehensive Survey and Taxonomy on Single Image Dehazing Based on Deep Learning](https://arxiv.org/abs/2106.03323) — *ACM Computing Surveys 2021* · 📈111。単一画像デヘイズの深層学習手法を分類学とともに包括的に整理
 
 ### Image Deraining
 
-- [Towards Unified Deep Image Deraining: A Survey and A New Benchmark](https://arxiv.org/abs/2310.03535) — *arXiv 2023*。画像デレイン(雨除去)の統一的サーベイと新ベンチマーク
+- [Towards Unified Deep Image Deraining: A Survey and A New Benchmark](https://arxiv.org/abs/2310.03535) — *arXiv 2023* · 📈69。画像デレイン(雨除去)の統一的サーベイと新ベンチマーク
 
 ### Image Fusion
 
-- [Multimodal Alignment and Fusion: A Survey](https://arxiv.org/abs/2411.17040) — *arXiv 2024*。マルチモーダルアラインメント・融合を構造・手法論の観点で整理
+- [Multimodal Alignment and Fusion: A Survey](https://arxiv.org/abs/2411.17040) — *arXiv 2024* · 📈182。マルチモーダルアラインメント・融合を構造・手法論の観点で整理
 
 ### Image Generation (Diffusion)
 
-- [Diffusion Models in Vision: A Survey](https://arxiv.org/abs/2209.04747) — *TPAMI 2023*。視覚タスクへの拡散モデル応用を理論・実装両面で整理 — [`CroitoruAlin/Diffusion-Models-in-Vision-A-Survey`](https://github.com/CroitoruAlin/Diffusion-Models-in-Vision-A-Survey) ⭐405🔴
-- [Text-to-image Diffusion Models in Generative AI: A Survey](https://arxiv.org/abs/2303.07909) — *arXiv 2023*。テキストから画像への拡散モデル生成と応用を整理したサーベイ
+- [Diffusion Models in Vision: A Survey](https://arxiv.org/abs/2209.04747) — *TPAMI 2023* · 📈2282。視覚タスクへの拡散モデル応用を理論・実装両面で整理 — [`CroitoruAlin/Diffusion-Models-in-Vision-A-Survey`](https://github.com/CroitoruAlin/Diffusion-Models-in-Vision-A-Survey) ⭐405🔴
+- [Text-to-image Diffusion Models in Generative AI: A Survey](https://arxiv.org/abs/2303.07909) — *arXiv 2023* · 📈447。テキストから画像への拡散モデル生成と応用を整理したサーベイ
 
 ### Image Generation (GAN)
 
-- [GAN Inversion: A Survey](https://arxiv.org/abs/2101.05278) — *TPAMI 2022*。実画像編集を支えるGANインバージョン手法のサーベイ — [`weihaox/GAN-Inversion`](https://github.com/weihaox/GAN-Inversion) ⭐1127🟢
-- [Generative Adversarial Networks: An Overview](https://arxiv.org/abs/1710.07035) — *IEEE Signal Processing Magazine 2018*。画像合成等を含むGANの学習・構築手法を概観した定番オーバービュー
+- [Generative Adversarial Networks: An Overview](https://arxiv.org/abs/1710.07035) — *IEEE Signal Processing Magazine 2018* · 📈3838。画像合成等を含むGANの学習・構築手法を概観した定番オーバービュー
+- [GAN Inversion: A Survey](https://arxiv.org/abs/2101.05278) — *TPAMI 2022* · 📈641。実画像編集を支えるGANインバージョン手法のサーベイ — [`weihaox/GAN-Inversion`](https://github.com/weihaox/GAN-Inversion) ⭐1127🟢
 
 ### Image Inpainting
 
-- [Deep Learning-based Image and Video Inpainting: A Survey](https://arxiv.org/abs/2401.03395) — *IJCV 2024*。画像・動画インペインティングをCNN/VAE/GAN/拡散で分類した包括サーベイ
+- [Deep Learning-based Image and Video Inpainting: A Survey](https://arxiv.org/abs/2401.03395) — *IJCV 2024* · 📈101。画像・動画インペインティングをCNN/VAE/GAN/拡散で分類した包括サーベイ
 
 ### Image Matching / Local Features
 
-- [Local Feature Matching Using Deep Learning: A Survey](https://arxiv.org/abs/2401.17592) — *Information Fusion 2024*。局所特徴マッチングの深層学習手法をdetector有無で分類整理 — [`vignywang/Awesome-Local-Feature-Matching`](https://github.com/vignywang/Awesome-Local-Feature-Matching) ⭐160🔴
+- [Local Feature Matching Using Deep Learning: A Survey](https://arxiv.org/abs/2401.17592) — *Information Fusion 2024* · 📈111。局所特徴マッチングの深層学習手法をdetector有無で分類整理 — [`vignywang/Awesome-Local-Feature-Matching`](https://github.com/vignywang/Awesome-Local-Feature-Matching) ⭐160🔴
 
 ### Image Matting
 
-- [Deep Image Matting: A Comprehensive Survey](https://arxiv.org/abs/2304.04672) — *arXiv 2023*。画像マッティングの深層学習手法を補助入力型・自動型で整理 — [`JizhiziLi/matting-survey`](https://github.com/JizhiziLi/matting-survey) ⭐201🔴
+- [Deep Image Matting: A Comprehensive Survey](https://arxiv.org/abs/2304.04672) — *arXiv 2023* · 📈23。画像マッティングの深層学習手法を補助入力型・自動型で整理 — [`JizhiziLi/matting-survey`](https://github.com/JizhiziLi/matting-survey) ⭐200🔴
 
 ### Image Quality Assessment
 
-- [A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook](https://arxiv.org/abs/2502.08540) — *arXiv 2025*。画質評価(IQA)の統計手法からCNN/Transformerまでを整理した最新サーベイ
+- [A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook](https://arxiv.org/abs/2502.08540) — *arXiv 2025* · 📈20。画質評価(IQA)の統計手法からCNN/Transformerまでを整理した最新サーベイ
 
 ### Image Restoration
 
-- [Priors in Deep Image Restoration and Enhancement: A Survey](https://arxiv.org/abs/2206.02070) — *arXiv 2022*。画像復元・強調における事前分布(prior)の観点で手法を整理 — [`yunfanLu/Awesome-Image-Prior`](https://github.com/yunfanLu/Awesome-Image-Prior) ⭐87🟡
+- [Priors in Deep Image Restoration and Enhancement: A Survey](https://arxiv.org/abs/2206.02070) — *arXiv 2022* · 📈10。画像復元・強調における事前分布(prior)の観点で手法を整理 — [`yunfanLu/Awesome-Image-Prior`](https://github.com/yunfanLu/Awesome-Image-Prior) ⭐87🟡
 
 ### Long-Tailed Recognition
 
-- [A Survey on Long-Tailed Visual Recognition](https://arxiv.org/abs/2205.13775) — *IJCV 2022*。ロングテール視覚認識のデータセット・主要手法を整理したサーベイ
+- [A Survey on Long-Tailed Visual Recognition](https://arxiv.org/abs/2205.13775) — *IJCV 2022* · 📈204。ロングテール視覚認識のデータセット・主要手法を整理したサーベイ
 
 ### Low-Light Image Enhancement
 
-- [Low-Light Image and Video Enhancement Using Deep Learning: A Survey](https://arxiv.org/abs/2104.10729) — *TPAMI 2021*。低照度画像・動画強調の深層学習手法を網羅的に整理したサーベイ — [`ShenZheng2000/LLIE_Survey`](https://github.com/ShenZheng2000/LLIE_Survey) ⭐154🔴
+- [Low-Light Image and Video Enhancement Using Deep Learning: A Survey](https://arxiv.org/abs/2104.10729) — *TPAMI 2021* · 📈587。低照度画像・動画強調の深層学習手法を網羅的に整理したサーベイ — [`ShenZheng2000/LLIE_Survey`](https://github.com/ShenZheng2000/LLIE_Survey) ⭐155🔴
 
 ### Medical Image Analysis
 
-- [Transformers in Medical Imaging: A Survey](https://arxiv.org/abs/2201.09873) — *Medical Image Analysis 2023*。医用画像のセグメンテーション/分類/再構成等へのTransformer応用を整理
-- [A Survey on Deep Learning in Medical Image Analysis](https://arxiv.org/abs/1702.05747) — *Medical Image Analysis 2017*。医用画像解析への深層学習応用を300本超で整理した古典的定番サーベイ
+- [A Survey on Deep Learning in Medical Image Analysis](https://arxiv.org/abs/1702.05747) — *Medical Image Analysis 2017* · 📈14186。医用画像解析への深層学習応用を300本超で整理した古典的定番サーベイ
+- [Transformers in Medical Imaging: A Survey](https://arxiv.org/abs/2201.09873) — *Medical Image Analysis 2023* · 📈1261。医用画像のセグメンテーション/分類/再構成等へのTransformer応用を整理
 
 ### Multi-Object Tracking
 
-- [Deep Learning-Based Multi-Object Tracking: A Comprehensive Survey from Foundations to State-of-the-Art](https://arxiv.org/abs/2506.13457) — *arXiv 2025*。深層学習による多物体追跡を基礎から最新手法まで包括的に整理
+- [Deep Learning-Based Multi-Object Tracking: A Comprehensive Survey from Foundations to State-of-the-Art](https://arxiv.org/abs/2506.13457) — *arXiv 2025* · 📈10。深層学習による多物体追跡を基礎から最新手法まで包括的に整理
 
 ### Multi-View Stereo
 
-- [Learning-based Multi-View Stereo: A Survey](https://arxiv.org/abs/2408.15235) — *arXiv 2024*。学習ベースMVSをdepth/voxel/NeRF/3DGS/feed-forwardで分類整理
+- [Learning-based Multi-View Stereo: A Survey](https://arxiv.org/abs/2408.15235) — *arXiv 2024* · 📈40。学習ベースMVSをdepth/voxel/NeRF/3DGS/feed-forwardで分類整理
 
 ### Neural Rendering
 
-- [Advances in Neural Rendering](https://arxiv.org/abs/2111.05849) — *Computer Graphics Forum 2021*。ニューラルレンダリングの進展を包括的にまとめたstate-of-the-artレポート
+- [Advances in Neural Rendering](https://arxiv.org/abs/2111.05849) — *Computer Graphics Forum 2021* · 📈558。ニューラルレンダリングの進展を包括的にまとめたstate-of-the-artレポート
 
 ### Neural Rendering / NeRF
 
-- [NeRF: Neural Radiance Field in 3D Vision: A Comprehensive Review](https://arxiv.org/abs/2210.00379) — *arXiv 2022*。NeRFのアーキテクチャ/応用/性能を体系化した包括的レビュー
-- [Neural Volume Rendering: NeRF And Beyond](https://arxiv.org/abs/2101.05204) — *arXiv 2021*。ニューラルボリュームレンダリング(NeRF)の俯瞰レビュー
+- [NeRF: Neural Radiance Field in 3D Vision: A Comprehensive Review](https://arxiv.org/abs/2210.00379) — *arXiv 2022* · 📈310。NeRFのアーキテクチャ/応用/性能を体系化した包括的レビュー
+- [Neural Volume Rendering: NeRF And Beyond](https://arxiv.org/abs/2101.05204) — *arXiv 2021* · 📈73。ニューラルボリュームレンダリング(NeRF)の俯瞰レビュー
 
 ### Neural Style Transfer
 
-- [Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058) — *TVCG 2017*。ニューラルスタイル変換の手法・評価を整理した代表的レビュー
+- [Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058) — *TVCG 2017* · 📈880。ニューラルスタイル変換の手法・評価を整理した代表的レビュー
 
 ### OCR / Document Analysis
 
-- [A Survey of Deep Learning Approaches for OCR and Document Understanding](https://arxiv.org/abs/2011.13534) — *arXiv 2020*。OCRと文書理解の深層手法を整理した実務向けサーベイ
+- [A Survey of Deep Learning Approaches for OCR and Document Understanding](https://arxiv.org/abs/2011.13534) — *arXiv 2020* · 📈89。OCRと文書理解の深層手法を整理した実務向けサーベイ
 
 ### OCR / Scene Text
 
-- [Scene Text Detection and Recognition: The Deep Learning Era](https://arxiv.org/abs/1811.04256) — *IJCV 2021*。シーンテキスト検出・認識の深層学習時代の進展を整理した定番サーベイ
+- [Scene Text Detection and Recognition: The Deep Learning Era](https://arxiv.org/abs/1811.04256) — *IJCV 2021* · 📈509。シーンテキスト検出・認識の深層学習時代の進展を整理した定番サーベイ
 
 ### Object Detection
 
-- [Object Detection in 20 Years: A Survey](https://arxiv.org/abs/1905.05055) — *Proceedings of the IEEE 2023*。物体検出20年の技術進化を400本超で俯瞰した定番サーベイ
-- [A Survey of Modern Deep Learning based Object Detection Models](https://arxiv.org/abs/2104.11892) — *Digital Signal Processing 2022*。近代的な深層物体検出モデルとバックボーン・軽量化を整理
-- [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/abs/1809.02165) — *IJCV 2020*。深層学習による汎用物体検出の包括的サーベイ(300本超を整理)
-- [A Survey of Deep Learning-based Object Detection](https://arxiv.org/abs/1907.09408) — *IEEE Access 2019*。一段/二段検出器を体系的に整理した深層物体検出サーベイ
+- [Object Detection in 20 Years: A Survey](https://arxiv.org/abs/1905.05055) — *Proceedings of the IEEE 2023* · 📈3563。物体検出20年の技術進化を400本超で俯瞰した定番サーベイ
+- [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/abs/1809.02165) — *IJCV 2020* · 📈2856。深層学習による汎用物体検出の包括的サーベイ(300本超を整理)
+- [A Survey of Deep Learning-based Object Detection](https://arxiv.org/abs/1907.09408) — *IEEE Access 2019* · 📈1155。一段/二段検出器を体系的に整理した深層物体検出サーベイ
+- [A Survey of Modern Deep Learning based Object Detection Models](https://arxiv.org/abs/2104.11892) — *Digital Signal Processing 2022* · 📈929。近代的な深層物体検出モデルとバックボーン・軽量化を整理
 
 ### Object Tracking
 
-- [Deep Learning for Visual Tracking: A Comprehensive Survey](https://arxiv.org/abs/1912.00535) — *IEEE T-ITS 2022*。深層学習ベースの視覚追跡手法・ベンチマークを包括的に整理
+- [Deep Learning for Visual Tracking: A Comprehensive Survey](https://arxiv.org/abs/1912.00535) — *IEEE T-ITS 2022* · 📈367。深層学習ベースの視覚追跡手法・ベンチマークを包括的に整理
 
 ### Open-Vocabulary Detection/Segmentation
 
-- [A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future](https://arxiv.org/abs/2307.09220) — *TPAMI 2023*。オープン語彙検出・セグメンテーションを分類学とともに整理
-- [Towards Open Vocabulary Learning: A Survey](https://arxiv.org/abs/2306.15880) — *TPAMI 2023*。オープン語彙学習(検出・セグメンテーション等)の包括的サーベイ — [`jianzongwu/Awesome-Open-Vocabulary`](https://github.com/jianzongwu/Awesome-Open-Vocabulary) ⭐1002🟢
+- [Towards Open Vocabulary Learning: A Survey](https://arxiv.org/abs/2306.15880) — *TPAMI 2023* · 📈273。オープン語彙学習(検出・セグメンテーション等)の包括的サーベイ — [`jianzongwu/Awesome-Open-Vocabulary`](https://github.com/jianzongwu/Awesome-Open-Vocabulary) ⭐1000🟢
+- [A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future](https://arxiv.org/abs/2307.09220) — *TPAMI 2023* · 📈111。オープン語彙検出・セグメンテーションを分類学とともに整理
 
 ### Optical Flow
 
-- [Optical Flow Estimation in the Deep Learning Age](https://arxiv.org/abs/2004.02853) — *arXiv 2020*。古典的エネルギー最小化からCNNまでのオプティカルフロー推定を整理
+- [Optical Flow Estimation in the Deep Learning Age](https://arxiv.org/abs/2004.02853) — *arXiv 2020* · 📈42。古典的エネルギー最小化からCNNまでのオプティカルフロー推定を整理
 
 ### Panoptic Segmentation
 
-- [Panoptic Segmentation: A Review](https://arxiv.org/abs/2111.10250) — *arXiv 2021*。セマンティック+インスタンスを統合するパノプティックセグの初の包括レビュー
+- [Panoptic Segmentation: A Review](https://arxiv.org/abs/2111.10250) — *arXiv 2021* · 📈51。セマンティック+インスタンスを統合するパノプティックセグの初の包括レビュー
 
 ### Person Re-identification
 
-- [Deep Learning for Video-based Person Re-Identification: A Survey](https://arxiv.org/abs/2303.11332) — *arXiv 2023*。動画ベース人物再同定の深層学習手法を整理したサーベイ
-- [Deep Learning for Person Re-identification: A Survey and Outlook](https://arxiv.org/abs/2001.04193) — *TPAMI 2022*。人物再同定をclosed/open-world双方の観点で整理した定番サーベイ
+- [Deep Learning for Person Re-identification: A Survey and Outlook](https://arxiv.org/abs/2001.04193) — *TPAMI 2022* · 📈2237。人物再同定をclosed/open-world双方の観点で整理した定番サーベイ
+- [Deep Learning for Video-based Person Re-Identification: A Survey](https://arxiv.org/abs/2303.11332) — *arXiv 2023* · 📈12。動画ベース人物再同定の深層学習手法を整理したサーベイ
 
 ### Point Cloud
 
-- [A Survey of Label-Efficient Deep Learning for 3D Point Clouds](https://arxiv.org/abs/2305.19812) — *TPAMI 2023*。ラベル効率(弱/半/自己教師)の3D点群深層学習を整理したサーベイ
+- [A Survey of Label-Efficient Deep Learning for 3D Point Clouds](https://arxiv.org/abs/2305.19812) — *TPAMI 2023* · 📈54。ラベル効率(弱/半/自己教師)の3D点群深層学習を整理したサーベイ
 
 ### Point Cloud Completion
 
-- [Comprehensive Review of Deep Learning-Based 3D Point Cloud Completion Processing and Analysis](https://arxiv.org/abs/2203.03311) — *IEEE T-ITS 2022*。3D点群補完の深層学習手法(point/conv/graph/生成系)を包括レビュー
+- [Comprehensive Review of Deep Learning-Based 3D Point Cloud Completion Processing and Analysis](https://arxiv.org/abs/2203.03311) — *IEEE T-ITS 2022* · 📈202。3D点群補完の深層学習手法(point/conv/graph/生成系)を包括レビュー
 
 ### Point Cloud Registration
 
-- [Deep Learning-Based Point Cloud Registration: A Comprehensive Survey and Taxonomy](https://arxiv.org/abs/2404.13830) — *IJCV 2024*。点群レジストレーションの深層学習手法を分類学とともに包括整理
+- [Deep Learning-Based Point Cloud Registration: A Comprehensive Survey and Taxonomy](https://arxiv.org/abs/2404.13830) — *IJCV 2024* · 📈17。点群レジストレーションの深層学習手法を分類学とともに包括整理
 
 ### Pose Estimation
 
-- [Deep Learning-Based Human Pose Estimation: A Survey](https://arxiv.org/abs/2012.13392) — *CSUR 2023*。2D/3D人体姿勢推定の深層手法を250本超で整理したCSURサーベイ
-- [2D Human Pose Estimation: A Survey](https://arxiv.org/abs/2204.07370) — *arXiv 2022*。2D人体姿勢推定をネットワーク設計/学習/後処理の観点で整理
+- [Deep Learning-Based Human Pose Estimation: A Survey](https://arxiv.org/abs/2012.13392) — *CSUR 2023* · 📈1010。2D/3D人体姿勢推定の深層手法を250本超で整理したCSURサーベイ
+- [2D Human Pose Estimation: A Survey](https://arxiv.org/abs/2204.07370) — *arXiv 2022* · 📈107。2D人体姿勢推定をネットワーク設計/学習/後処理の観点で整理
 
 ### Referring Segmentation
 
-- [Multimodal Referring Segmentation: A Survey](https://arxiv.org/abs/2508.00265) — *arXiv 2025*。画像・動画・3Dにわたる参照セグメンテーションの統一的サーベイ
+- [Multimodal Referring Segmentation: A Survey](https://arxiv.org/abs/2508.00265) — *arXiv 2025* · 📈29。画像・動画・3Dにわたる参照セグメンテーションの統一的サーベイ
 
 ### Remote Sensing
 
-- [Deep Learning in Remote Sensing: A Review](https://arxiv.org/abs/1710.03959) — *IEEE GRSM 2017*。リモートセンシングデータ解析への深層学習応用を整理した定番レビュー
+- [Deep Learning in Remote Sensing: A Review](https://arxiv.org/abs/1710.03959) — *IEEE GRSM 2017* · 📈1926。リモートセンシングデータ解析への深層学習応用を整理した定番レビュー
 
 ### Salient Object Detection
 
-- [Salient Object Detection in the Deep Learning Era: An In-Depth Survey](https://arxiv.org/abs/1904.09146) — *TPAMI 2022*。深層学習時代の顕著性物体検出を体系的にベンチマーク・整理
-- [RGB-D Salient Object Detection: A Survey](https://arxiv.org/abs/2008.00230) — *Computational Visual Media 2020*。深度情報を用いたRGB-D顕著性物体検出の包括的サーベイ — [`taozh2017/RGBD-SODsurvey`](https://github.com/taozh2017/RGBD-SODsurvey) ⭐375🔴
+- [Salient Object Detection in the Deep Learning Era: An In-Depth Survey](https://arxiv.org/abs/1904.09146) — *TPAMI 2022* · 📈759。深層学習時代の顕著性物体検出を体系的にベンチマーク・整理
+- [RGB-D Salient Object Detection: A Survey](https://arxiv.org/abs/2008.00230) — *Computational Visual Media 2020* · 📈311。深度情報を用いたRGB-D顕著性物体検出の包括的サーベイ — [`taozh2017/RGBD-SODsurvey`](https://github.com/taozh2017/RGBD-SODsurvey) ⭐375🔴
 
 ### Scene Graph Generation
 
-- [Scene Graph Generation: A Comprehensive Survey](https://arxiv.org/abs/2201.00443) — *Neurocomputing 2022*。シーングラフ生成の138本を特徴表現・精緻化の観点で整理した包括サーベイ
+- [Scene Graph Generation: A Comprehensive Survey](https://arxiv.org/abs/2201.00443) — *Neurocomputing 2022* · 📈175。シーングラフ生成の138本を特徴表現・精緻化の観点で整理した包括サーベイ
 
 ### Self-Supervised Learning
 
-- [Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey](https://arxiv.org/abs/1902.06162) — *IEEE TPAMI 2021* · 📈2048。視覚特徴の自己教師あり学習を体系化した高被引用サーベイ。
+- [Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey](https://arxiv.org/abs/1902.06162) — *IEEE TPAMI 2021* · 📈2052。視覚特徴の自己教師あり学習を体系化した高被引用サーベイ。
+- [A Survey on Contrastive Self-supervised Learning](https://arxiv.org/abs/2011.00362) — *Technologies 2021* · 📈1795。対照学習を中心とした自己教師あり学習のサーベイ
+- [A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends](https://arxiv.org/abs/2301.05712) — *TPAMI 2024* · 📈586。自己教師あり学習のアルゴリズム/応用/動向を多角的に整理
+- [Masked Image Modeling: A Survey](https://arxiv.org/abs/2408.06687) — *IJCV 2025* · 📈53。マスク画像モデリング(MIM)による自己教師あり事前学習のサーベイ
 - [Masked Modeling for Self-supervised Representation Learning on Vision and Beyond](https://arxiv.org/abs/2401.00897) — *arXiv 2024* · 📈36。マスク戦略・復元対象・アーキを軸にマスクモデリング自己教師あり学習を整理 — [`Lupin1998/Awesome-MIM`](https://github.com/Lupin1998/Awesome-MIM) ⭐354🟡
-- [Masked Image Modeling: A Survey](https://arxiv.org/abs/2408.06687) — *IJCV 2025*。マスク画像モデリング(MIM)による自己教師あり事前学習のサーベイ
-- [A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends](https://arxiv.org/abs/2301.05712) — *TPAMI 2024*。自己教師あり学習のアルゴリズム/応用/動向を多角的に整理
-- [A Survey on Contrastive Self-supervised Learning](https://arxiv.org/abs/2011.00362) — *Technologies 2021*。対照学習を中心とした自己教師あり学習のサーベイ
 
 ### Semantic Segmentation
 
-- [Transformer-Based Visual Segmentation: A Survey](https://arxiv.org/abs/2304.09854) — *TPAMI 2024*。DETR系メタアーキを軸にしたTransformerベースのセグメンテーションサーベイ — [`lxtGH/Awesome-Segmentation-With-Transformer`](https://github.com/lxtGH/Awesome-Segmentation-With-Transformer) ⭐757🔴
-- [Image Segmentation Using Deep Learning: A Survey](https://arxiv.org/abs/2001.05566) — *TPAMI 2022*。意味的/インスタンスセグメンテーションの深層手法を網羅した定番サーベイ
-- [A Review on Deep Learning Techniques Applied to Semantic Segmentation](https://arxiv.org/abs/1704.06857) — *arXiv 2017*。意味的セグメンテーションの深層手法・データセット・評価を整理した初期定番
+- [Image Segmentation Using Deep Learning: A Survey](https://arxiv.org/abs/2001.05566) — *TPAMI 2022* · 📈3867。意味的/インスタンスセグメンテーションの深層手法を網羅した定番サーベイ
+- [A Review on Deep Learning Techniques Applied to Semantic Segmentation](https://arxiv.org/abs/1704.06857) — *arXiv 2017* · 📈1396。意味的セグメンテーションの深層手法・データセット・評価を整理した初期定番
+- [Transformer-Based Visual Segmentation: A Survey](https://arxiv.org/abs/2304.09854) — *TPAMI 2024* · 📈326。DETR系メタアーキを軸にしたTransformerベースのセグメンテーションサーベイ — [`lxtGH/Awesome-Segmentation-With-Transformer`](https://github.com/lxtGH/Awesome-Segmentation-With-Transformer) ⭐755🔴
 
 ### Stereo Matching
 
-- [A Survey on Deep Stereo Matching in the Twenties](https://arxiv.org/abs/2407.07816) — *IJCV 2024*。2020年代の深層ステレオマッチング手法の最新動向を整理したサーベイ
+- [A Survey on Deep Stereo Matching in the Twenties](https://arxiv.org/abs/2407.07816) — *IJCV 2024* · 📈76。2020年代の深層ステレオマッチング手法の最新動向を整理したサーベイ
 
 ### Super-Resolution
 
-- [Diffusion Models, Image Super-Resolution And Everything: A Survey](https://arxiv.org/abs/2401.00736) — *TNNLS 2024*。拡散モデルによる画像超解像の進化と動向を詳述したサーベイ
-- [Deep Learning for Image Super-resolution: A Survey](https://arxiv.org/abs/1902.06068) — *TPAMI 2021*。画像超解像の深層手法を教師あり/なし/ドメイン特化で整理した定番サーベイ
-- [Video Super Resolution Based on Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2007.12928) — *Artificial Intelligence Review 2020*。動画超解像の深層学習33手法をフレーム間情報利用法で分類した包括サーベイ
+- [Deep Learning for Image Super-resolution: A Survey](https://arxiv.org/abs/1902.06068) — *TPAMI 2021* · 📈1843。画像超解像の深層手法を教師あり/なし/ドメイン特化で整理した定番サーベイ
+- [Video Super Resolution Based on Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2007.12928) — *Artificial Intelligence Review 2020* · 📈231。動画超解像の深層学習33手法をフレーム間情報利用法で分類した包括サーベイ
+- [Diffusion Models, Image Super-Resolution And Everything: A Survey](https://arxiv.org/abs/2401.00736) — *TNNLS 2024* · 📈156。拡散モデルによる画像超解像の進化と動向を詳述したサーベイ
 
 ### Talking Head Generation
 
-- [From Pixels to Portraits: A Comprehensive Survey of Talking Head Generation Techniques and Applications](https://arxiv.org/abs/2308.16041) — *arXiv 2023*。トーキングヘッド生成を画像・音声・動画駆動・NeRF系で分類した包括サーベイ
+- [From Pixels to Portraits: A Comprehensive Survey of Talking Head Generation Techniques and Applications](https://arxiv.org/abs/2308.16041) — *arXiv 2023* · 📈11。トーキングヘッド生成を画像・音声・動画駆動・NeRF系で分類した包括サーベイ
 
 ### Temporal Action Detection
 
-- [A Survey on Deep Learning-based Spatio-temporal Action Detection](https://arxiv.org/abs/2308.01618) — *Int. J. Wavelets Multiresolut. Inf. Process. 2023*。時空間アクション検出の深層学習手法を体系的に整理したサーベイ
+- [A Survey on Deep Learning-based Spatio-temporal Action Detection](https://arxiv.org/abs/2308.01618) — *Int. J. Wavelets Multiresolut. Inf. Process. 2023* · 📈13。時空間アクション検出の深層学習手法を体系的に整理したサーベイ
 
 ### Video Anomaly Detection
 
-- [Video Anomaly Detection in 10 Years: A Survey and Outlook](https://arxiv.org/abs/2405.19387) — *arXiv 2024*。動画異常検知10年を弱教師・自己教師・教師なしまで俯瞰したサーベイ
+- [Video Anomaly Detection in 10 Years: A Survey and Outlook](https://arxiv.org/abs/2405.19387) — *arXiv 2024* · 📈70。動画異常検知10年を弱教師・自己教師・教師なしまで俯瞰したサーベイ
 
 ### Video Segmentation
 
-- [A Survey on Deep Learning Technique for Video Segmentation](https://arxiv.org/abs/2107.01153) — *TPAMI 2023*。動画オブジェクト/意味セグメンテーションの深層手法を整理 — [`tfzhou/VS-Survey`](https://github.com/tfzhou/VS-Survey) ⭐205🔴
-- [Deep Learning Techniques for Video Instance Segmentation: A Survey](https://arxiv.org/abs/2310.12393) — *arXiv 2023*。動画インスタンスセグメンテーションの深層学習手法を整理したサーベイ
+- [A Survey on Deep Learning Technique for Video Segmentation](https://arxiv.org/abs/2107.01153) — *TPAMI 2023* · 📈310。動画オブジェクト/意味セグメンテーションの深層手法を整理 — [`tfzhou/VS-Survey`](https://github.com/tfzhou/VS-Survey) ⭐205🔴
+- [Deep Learning Techniques for Video Instance Segmentation: A Survey](https://arxiv.org/abs/2310.12393) — *arXiv 2023* · 📈5。動画インスタンスセグメンテーションの深層学習手法を整理したサーベイ
 
 ### Video Understanding
 
-- [Video Transformers: A Survey](https://arxiv.org/abs/2201.05991) — *TPAMI 2023*。動画モデリング向けTransformerの効率化と自己教師あり戦略を整理
+- [Video Transformers: A Survey](https://arxiv.org/abs/2201.05991) — *TPAMI 2023* · 📈175。動画モデリング向けTransformerの効率化と自己教師あり戦略を整理
 
 ### Vision Transformer
 
-- [A Survey on Vision Transformer](https://arxiv.org/abs/2012.12556) — *TPAMI 2023*。Vision Transformerをタスク別に整理した高被引用サーベイ
-- [A Survey of Visual Transformers](https://arxiv.org/abs/2111.06091) — *TNNLS 2023*。分類/検出/セグメンテーション軸で100超のViTを整理
-- [Transformers in Vision: A Survey](https://arxiv.org/abs/2101.01169) — *CSUR 2022*。視覚タスク全般へのTransformer応用を網羅したACM CSURサーベイ
+- [A Survey on Vision Transformer](https://arxiv.org/abs/2012.12556) — *TPAMI 2023* · 📈3838。Vision Transformerをタスク別に整理した高被引用サーベイ
+- [Transformers in Vision: A Survey](https://arxiv.org/abs/2101.01169) — *CSUR 2022* · 📈3779。視覚タスク全般へのTransformer応用を網羅したACM CSURサーベイ
+- [A Survey of Visual Transformers](https://arxiv.org/abs/2111.06091) — *TNNLS 2023* · 📈559。分類/検出/セグメンテーション軸で100超のViTを整理
 
 ### Vision-Language Models
 
-- [Vision-Language Models for Vision Tasks: A Survey](https://arxiv.org/abs/2304.00685) — *TPAMI 2024*。視覚認識タスク向けVLMの事前学習/転移/蒸留を体系的に整理 — [`jingyi0000/VLM_survey`](https://github.com/jingyi0000/VLM_survey) ⭐3128🟡
+- [Vision-Language Models for Vision Tasks: A Survey](https://arxiv.org/abs/2304.00685) — *TPAMI 2024* · 📈1569。視覚認識タスク向けVLMの事前学習/転移/蒸留を体系的に整理 — [`jingyi0000/VLM_survey`](https://github.com/jingyi0000/VLM_survey) ⭐3128🟡
 
 ### Visual SLAM
 
-- [Deep Learning for Visual Localization and Mapping: A Survey](https://arxiv.org/abs/2308.14039) — *arXiv 2023*。学習ベースの視覚オドメトリ・再局在化・マッピング・SLAMを整理
+- [Deep Learning for Visual Localization and Mapping: A Survey](https://arxiv.org/abs/2308.14039) — *arXiv 2023* · 📈93。学習ベースの視覚オドメトリ・再局在化・マッピング・SLAMを整理
 
 ### World Models
 
-- [3D and 4D World Modeling: A Survey](https://arxiv.org/abs/2509.07996) — *arXiv 2025* · 📈65。video/occupancy/LiDARベースの3D・4Dワールドモデリングを初めて統合的に整理 — [`worldbench/awesome-3d-4d-world-models`](https://github.com/worldbench/awesome-3d-4d-world-models) ⭐965🟢 · [project](https://worldbench.github.io/survey)
+- [3D and 4D World Modeling: A Survey](https://arxiv.org/abs/2509.07996) — *arXiv 2025* · 📈66。video/occupancy/LiDARベースの3D・4Dワールドモデリングを初めて統合的に整理 — [`worldbench/awesome-3d-4d-world-models`](https://github.com/worldbench/awesome-3d-4d-world-models) ⭐967🟢 · [project](https://worldbench.github.io/survey)
 
 ### Zero-Shot Learning
 
-- [Zero-Shot Learning -- A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://arxiv.org/abs/1707.00600) — *TPAMI 2019*。ゼロショット学習の統一ベンチマーク・評価を提示した定番サーベイ
+- [Zero-Shot Learning -- A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://arxiv.org/abs/1707.00600) — *TPAMI 2019* · 📈1881。ゼロショット学習の統一ベンチマーク・評価を提示した定番サーベイ
 
 ## 📈 機械学習 (一般)
 
 ### Anomaly Detection
 
-- [A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges](https://arxiv.org/abs/2110.14051) — *TMLR 2022*。異常検知・新規性検出・開集合認識・OOD検出を統一的に整理したサーベイ
+- [A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges](https://arxiv.org/abs/2110.14051) — *TMLR 2022* · 📈256。異常検知・新規性検出・開集合認識・OOD検出を統一的に整理したサーベイ
 
 ### AutoML
 
-- [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/abs/1908.00709) — *Knowledge-Based Systems 2021* · 📈1850。データ準備からNASまでAutoMLパイプライン全体を概観したサーベイ
+- [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/abs/1908.00709) — *Knowledge-Based Systems 2021* · 📈1861。データ準備からNASまでAutoMLパイプライン全体を概観したサーベイ
 
 ### Bayesian Deep Learning
 
-- [Hands-on Bayesian Neural Networks -- a Tutorial for Deep Learning Users](https://arxiv.org/abs/2007.06823) — *IEEE Computational Intelligence Magazine 2022* · 📈928。ベイズ深層学習の実践的チュートリアル兼概説
+- [Hands-on Bayesian Neural Networks -- a Tutorial for Deep Learning Users](https://arxiv.org/abs/2007.06823) — *IEEE Computational Intelligence Magazine 2022* · 📈930。ベイズ深層学習の実践的チュートリアル兼概説
 
 ### Calibration
 
-- [Calibration in Deep Learning: A Survey of the State-of-the-Art](https://arxiv.org/abs/2308.01222) — *arXiv 2023*。深層学習モデルの確信度キャリブレーション手法を整理したサーベイ
+- [Calibration in Deep Learning: A Survey of the State-of-the-Art](https://arxiv.org/abs/2308.01222) — *arXiv 2023* · 📈112。深層学習モデルの確信度キャリブレーション手法を整理したサーベイ
 
 ### Causal Machine Learning
 
-- [Towards Causal Representation Learning](https://arxiv.org/abs/2102.11107) — *Proceedings of the IEEE 2021* · 📈364。因果性と表現学習の融合を論じた影響力の大きい概説
+- [Towards Causal Representation Learning](https://arxiv.org/abs/2102.11107) — *Proceedings of the IEEE 2021* · 📈365。因果性と表現学習の融合を論じた影響力の大きい概説
 
 ### Clustering
 
-- [Deep Clustering: A Comprehensive Survey](https://arxiv.org/abs/2210.04142) — *IEEE TNNLS 2022*。深層クラスタリングを単視点/半教師/多視点/転移で分類したサーベイ
+- [Deep Clustering: A Comprehensive Survey](https://arxiv.org/abs/2210.04142) — *IEEE TNNLS 2022* · 📈281。深層クラスタリングを単視点/半教師/多視点/転移で分類したサーベイ
 
 ### Conformal Prediction
 
-- [Conformal Prediction for Natural Language Processing: A Survey](https://arxiv.org/abs/2405.01976) — *TACL 2024*。NLPタスクへのコンフォーマル予測適用を整理したサーベイ
-- [A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511) — *arXiv 2021*。分布フリー不確実性定量化とコンフォーマル予測の実践的入門兼レビュー
-- [A tutorial on conformal prediction](https://arxiv.org/abs/0706.3188) — *JMLR 2008*。コンフォーマル予測の原理を解説した古典的チュートリアル
+- [A tutorial on conformal prediction](https://arxiv.org/abs/0706.3188) — *JMLR 2008* · 📈1753。コンフォーマル予測の原理を解説した古典的チュートリアル
+- [A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511) — *arXiv 2021* · 📈1249。分布フリー不確実性定量化とコンフォーマル予測の実践的入門兼レビュー
+- [Conformal Prediction for Natural Language Processing: A Survey](https://arxiv.org/abs/2405.01976) — *TACL 2024* · 📈70。NLPタスクへのコンフォーマル予測適用を整理したサーベイ
 
 ### Continual Learning
 
-- [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) — *Neural Networks 2019* · 📈3678。破滅的忘却と継続学習手法を整理した定番レビュー
-- [A Comprehensive Survey of Continual Learning: Theory, Method and Application](https://arxiv.org/abs/2302.00487) — *TPAMI 2023* · 📈1532。継続学習を理論/手法/応用の3層で網羅した近年の包括サーベイ
+- [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) — *Neural Networks 2019* · 📈3700。破滅的忘却と継続学習手法を整理した定番レビュー
+- [A Comprehensive Survey of Continual Learning: Theory, Method and Application](https://arxiv.org/abs/2302.00487) — *TPAMI 2023* · 📈1548。継続学習を理論/手法/応用の3層で網羅した近年の包括サーベイ
 
 ### Continual Learning / Forgetting
 
-- [A Comprehensive Survey of Forgetting in Deep Learning Beyond Continual Learning](https://arxiv.org/abs/2307.09218) — *IEEE TPAMI 2024* · 📈125。継続学習を越えて生成・連合学習等での忘却を両義的に論じたTPAMIサーベイ — [`EnnengYang/Awesome-Forgetting-in-Deep-Learning`](https://github.com/EnnengYang/Awesome-Forgetting-in-Deep-Learning) ⭐366🟡
+- [A Comprehensive Survey of Forgetting in Deep Learning Beyond Continual Learning](https://arxiv.org/abs/2307.09218) — *IEEE TPAMI 2024* · 📈127。継続学習を越えて生成・連合学習等での忘却を両義的に論じたTPAMIサーベイ — [`EnnengYang/Awesome-Forgetting-in-Deep-Learning`](https://github.com/EnnengYang/Awesome-Forgetting-in-Deep-Learning) ⭐366🟡
 
 ### Curriculum Learning
 
-- [Curriculum Learning: A Survey](https://arxiv.org/abs/2101.10382) — *IJCV 2022* · 📈594。カリキュラム学習の分野横断的な定番サーベイ。RL以外も網羅。
+- [Curriculum Learning: A Survey](https://arxiv.org/abs/2101.10382) — *IJCV 2022* · 📈600。カリキュラム学習の分野横断的な定番サーベイ。RL以外も網羅。
 
 ### Data Augmentation
 
-- [Time Series Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2002.12478) — *IJCAI 2021* · 📈853。時系列データ拡張手法を整理したサーベイ
-- [Image Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2204.08610) — *arXiv 2022* · 📈417。画像データ拡張手法を体系的に分類したサーベイ
+- [Time Series Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2002.12478) — *IJCAI 2021* · 📈858。時系列データ拡張手法を整理したサーベイ
+- [Image Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2204.08610) — *arXiv 2022* · 📈416。画像データ拡張手法を体系的に分類したサーベイ
 
 ### Dataset Distillation
 
@@ -1160,11 +1160,11 @@
 
 ### Dictionary Learning
 
-- [Supervised Dictionary Learning and Sparse Representation-A Review](https://arxiv.org/abs/1502.05928) — *arXiv 2015*。教師あり辞書学習とスパース表現を6分類で整理したレビュー
+- [Supervised Dictionary Learning and Sparse Representation-A Review](https://arxiv.org/abs/1502.05928) — *arXiv 2015* · 📈60。教師あり辞書学習とスパース表現を6分類で整理したレビュー
 
 ### Diffusion (Time Series)
 
-- [A Survey on Diffusion Models for Time Series and Spatio-Temporal Data](https://arxiv.org/abs/2404.18886) — *arXiv 2024* · 📈129。時系列・時空間データへの拡散モデルをモデル/タスク/応用で整理 — [`yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model`](https://github.com/yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model) ⭐1008🟡
+- [A Survey on Diffusion Models for Time Series and Spatio-Temporal Data](https://arxiv.org/abs/2404.18886) — *arXiv 2024* · 📈132。時系列・時空間データへの拡散モデルをモデル/タスク/応用で整理 — [`yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model`](https://github.com/yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model) ⭐1005🟡
 
 ### Distributed Deep Learning Systems
 
@@ -1176,47 +1176,47 @@
 
 ### Domain Adaptation
 
-- [A Survey of Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1812.02849) — *ACM TIST 2020* · 📈1048。教師なし深層ドメイン適応の高被引用サーベイ。手法分類が定番。
-- [A Brief Review of Domain Adaptation](https://arxiv.org/abs/2010.03978) — *arXiv 2020* · 📈819。ドメイン適応の主要手法を簡潔に整理したレビュー
+- [A Survey of Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1812.02849) — *ACM TIST 2020* · 📈1052。教師なし深層ドメイン適応の高被引用サーベイ。手法分類が定番。
+- [A Brief Review of Domain Adaptation](https://arxiv.org/abs/2010.03978) — *arXiv 2020* · 📈822。ドメイン適応の主要手法を簡潔に整理したレビュー
 
 ### Domain Generalization
 
-- [Domain Generalization: A Survey](https://arxiv.org/abs/2103.02503) — *TPAMI 2022* · 📈1652。ドメイン汎化の手法分類とベンチマークを整理したサーベイ
+- [Domain Generalization: A Survey](https://arxiv.org/abs/2103.02503) — *TPAMI 2022* · 📈1659。ドメイン汎化の手法分類とベンチマークを整理したサーベイ
 
 ### Dynamic Networks
 
-- [Dynamic Neural Networks: A Survey](https://arxiv.org/abs/2102.04906) — *TPAMI 2022* · 📈957。入力依存で計算を変える動的ニューラルネットを整理したサーベイ
+- [Dynamic Neural Networks: A Survey](https://arxiv.org/abs/2102.04906) — *TPAMI 2022* · 📈963。入力依存で計算を変える動的ニューラルネットを整理したサーベイ
 
 ### Edge AI / Model Optimization
 
-- [Cognitive Edge Computing: A Comprehensive Survey on Optimizing Large Models and AI Agents for Pervasive Deployment](https://arxiv.org/abs/2501.03265) — *arXiv preprint 2025*。大規模モデルとAIエージェントのエッジ展開に向けたモデル最適化・システム設計を整理したサーベイ。
+- [Cognitive Edge Computing: A Comprehensive Survey on Optimizing Large Models and AI Agents for Pervasive Deployment](https://arxiv.org/abs/2501.03265) — *arXiv preprint 2025* · 📈36。大規模モデルとAIエージェントのエッジ展開に向けたモデル最適化・システム設計を整理したサーベイ。
 
 ### Efficient Inference / Hardware
 
-- [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039) — *Proceedings of the IEEE 2017* · 📈3769。DNNの効率的処理(ハードウェア含む)を網羅したSzeの超高被引用チュートリアル。
+- [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039) — *Proceedings of the IEEE 2017* · 📈3781。DNNの効率的処理(ハードウェア含む)を網羅したSzeの超高被引用チュートリアル。
 
 ### Energy-Based Models
 
-- [Hitchhiker's guide on the relation of Energy-Based Models with other generative models, sampling and statistical physics: a comprehensive review](https://arxiv.org/abs/2406.13661) — *TMLR 2025*。エネルギーベースモデルと他の生成モデル/統計物理の関係を整理した包括レビュー
+- [Hitchhiker's guide on the relation of Energy-Based Models with other generative models, sampling and statistical physics: a comprehensive review](https://arxiv.org/abs/2406.13661) — *TMLR 2025* · 📈6。エネルギーベースモデルと他の生成モデル/統計物理の関係を整理した包括レビュー
 
 ### Ensemble Learning
 
-- [Ensemble deep learning: A review](https://arxiv.org/abs/2104.02395) — *Engineering Applications of AI 2022* · 📈2056。アンサンブル深層学習(bagging/boosting/stacking等)を概観したレビュー
+- [Ensemble deep learning: A review](https://arxiv.org/abs/2104.02395) — *Engineering Applications of AI 2022* · 📈2060。アンサンブル深層学習(bagging/boosting/stacking等)を概観したレビュー
 
 ### Explainable AI
 
-- [Interpretable Deep Learning: Interpretation, Interpretability, Trustworthiness, and Beyond](https://arxiv.org/abs/2103.10689) — *Knowledge and Information Systems 2021* · 📈514。解釈/解釈可能性/信頼性の概念整理と手法分類を行ったサーベイ
-- [Explainable Artificial Intelligence: a Systematic Review](https://arxiv.org/abs/2006.00093) — *arXiv 2020* · 📈323。XAI手法を体系的レビューで分類した網羅的サーベイ
+- [Interpretable Deep Learning: Interpretation, Interpretability, Trustworthiness, and Beyond](https://arxiv.org/abs/2103.10689) — *Knowledge and Information Systems 2021* · 📈516。解釈/解釈可能性/信頼性の概念整理と手法分類を行ったサーベイ
+- [Explainable Artificial Intelligence: a Systematic Review](https://arxiv.org/abs/2006.00093) — *arXiv 2020* · 📈324。XAI手法を体系的レビューで分類した網羅的サーベイ
 
 ### Fairness
 
-- [A Survey on Bias and Fairness in Machine Learning](https://arxiv.org/abs/1908.09635) — *ACM Computing Surveys 2021* · 📈6204。機械学習のバイアスと公平性の定義/対策を網羅した高被引用サーベイ
+- [A Survey on Bias and Fairness in Machine Learning](https://arxiv.org/abs/1908.09635) — *ACM Computing Surveys 2021* · 📈6240。機械学習のバイアスと公平性の定義/対策を網羅した高被引用サーベイ
 - [What-is and How-to for Fairness in Machine Learning: A Survey, Reflection, and Perspective](https://arxiv.org/abs/2206.04101) — *ACM Computing Surveys 2023* · 📈43。公平性の定義と実現手法を反省的視点で整理したサーベイ
 
 ### Gaussian Processes
 
-- [Deep Gaussian Processes: A Survey](https://arxiv.org/abs/2106.12135) — *arXiv 2021*。深層ガウス過程の定式化・限界・研究動向を整理したサーベイ
-- [When Gaussian Process Meets Big Data: A Review of Scalable GPs](https://arxiv.org/abs/1807.01065) — *IEEE TNNLS 2018*。大規模データ向けスケーラブルなガウス過程手法を整理したレビュー
+- [When Gaussian Process Meets Big Data: A Review of Scalable GPs](https://arxiv.org/abs/1807.01065) — *IEEE TNNLS 2018* · 📈885。大規模データ向けスケーラブルなガウス過程手法を整理したレビュー
+- [Deep Gaussian Processes: A Survey](https://arxiv.org/abs/2106.12135) — *arXiv 2021* · 📈27。深層ガウス過程の定式化・限界・研究動向を整理したサーベイ
 
 ### Generalization
 
@@ -1224,13 +1224,13 @@
 
 ### Generative Recommendation
 
-- [Large Language Models for Generative Recommendation: A Survey and Visionary Discussions](https://arxiv.org/abs/2309.01157) — *arXiv 2023* · 📈177。LLMによる生成的推薦の手法と将来展望を整理したサーベイ
+- [Large Language Models for Generative Recommendation: A Survey and Visionary Discussions](https://arxiv.org/abs/2309.01157) — *arXiv 2023* · 📈178。LLMによる生成的推薦の手法と将来展望を整理したサーベイ
 - [A Survey of Generative Search and Recommendation in the Era of Large Language Models](https://arxiv.org/abs/2404.16924) — *arXiv 2024* · 📈29。LLM時代の生成的検索・推薦を統一的観点で整理した総説
 - [GR-LLMs: Recent Advances in Generative Recommendation Based on Large Language Models](https://arxiv.org/abs/2507.06507) — *arXiv 2025* · 📈4。LLMベース生成的推薦(GR-LLM)の最新動向と産業応用を整理
 
 ### Graph Foundation Models
 
-- [Graph Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2505.15116) — *arXiv 2025* · 📈50。グラフ基盤モデルの事前学習と転移をGNNからの転換として整理
+- [Graph Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2505.15116) — *arXiv 2025* · 📈51。グラフ基盤モデルの事前学習と転移をGNNからの転換として整理
 
 ### Green AI / Sustainable ML
 
@@ -1238,7 +1238,7 @@
 
 ### Hardware Acceleration / ML Systems
 
-- [Hardware Acceleration for Neural Networks: A Comprehensive Survey](https://arxiv.org/abs/2512.23914) — *arXiv preprint 2025* · 📈5。GPU・TPU/NPU・FPGA・ASIC・LPU等を横断したニューラルネット向けハードウェア加速の包括サーベイ。
+- [Hardware Acceleration for Neural Networks: A Comprehensive Survey](https://arxiv.org/abs/2512.23914) — *arXiv preprint 2025* · 📈6。GPU・TPU/NPU・FPGA・ASIC・LPU等を横断したニューラルネット向けハードウェア加速の包括サーベイ。
 
 ### Hyperparameter Optimization
 
@@ -1247,26 +1247,26 @@
 
 ### Imbalanced Learning
 
-- [A Survey of Methods for Addressing Class Imbalance in Deep-Learning Based Natural Language Processing](https://arxiv.org/abs/2210.04675) — *EACL 2023*。深層学習NLPにおけるクラス不均衡対処法を体系的に整理したサーベイ
+- [A Survey of Methods for Addressing Class Imbalance in Deep-Learning Based Natural Language Processing](https://arxiv.org/abs/2210.04675) — *EACL 2023* · 📈62。深層学習NLPにおけるクラス不均衡対処法を体系的に整理したサーベイ
 
 ### Kernel Methods
 
-- [Neural Tangent Kernel: A Survey](https://arxiv.org/abs/2208.13614) — *arXiv 2022*。ニューラルタンジェントカーネル理論を整理したサーベイ
-- [Reproducing Kernel Hilbert Space, Mercer's Theorem, Eigenfunctions, Nystrom Method, and Use of Kernels in Machine Learning: Tutorial and Survey](https://arxiv.org/abs/2106.08443) — *arXiv 2021*。RKHS・Mercer定理・カーネル法の基礎を解説したチュートリアル兼サーベイ
-- [Kernel Mean Embedding of Distributions: A Review and Beyond](https://arxiv.org/abs/1605.09522) — *Foundations and Trends in ML 2017*。分布のカーネル平均埋め込みの理論と応用を整理した包括レビュー
+- [Kernel Mean Embedding of Distributions: A Review and Beyond](https://arxiv.org/abs/1605.09522) — *Foundations and Trends in ML 2017* · 📈918。分布のカーネル平均埋め込みの理論と応用を整理した包括レビュー
+- [Reproducing Kernel Hilbert Space, Mercer's Theorem, Eigenfunctions, Nystrom Method, and Use of Kernels in Machine Learning: Tutorial and Survey](https://arxiv.org/abs/2106.08443) — *arXiv 2021* · 📈62。RKHS・Mercer定理・カーネル法の基礎を解説したチュートリアル兼サーベイ
+- [Neural Tangent Kernel: A Survey](https://arxiv.org/abs/2208.13614) — *arXiv 2022* · 📈23。ニューラルタンジェントカーネル理論を整理したサーベイ
 
 ### Knowledge Distillation
 
-- [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525) — *IJCV 2021* · 📈4509。知識蒸留の知識種別/スキーム/アルゴリズムを網羅した定番サーベイ
+- [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525) — *IJCV 2021* · 📈4527。知識蒸留の知識種別/スキーム/アルゴリズムを網羅した定番サーベイ
 
 ### Knowledge Distillation / Amalgamation
 
-- [A Comprehensive Survey on Knowledge Distillation](https://arxiv.org/abs/2503.12067) — *arXiv preprint 2025* · 📈92。知識融合(multi-teacher amalgamation)を含む知識蒸留全般を網羅した包括サーベイ。 — [`IPL-sharif/KD_Survey`](https://github.com/IPL-sharif/KD_Survey) ⭐79🟢
+- [A Comprehensive Survey on Knowledge Distillation](https://arxiv.org/abs/2503.12067) — *arXiv preprint 2025* · 📈94。知識融合(multi-teacher amalgamation)を含む知識蒸留全般を網羅した包括サーベイ。 — [`IPL-sharif/KD_Survey`](https://github.com/IPL-sharif/KD_Survey) ⭐79🟢
 
 ### Kolmogorov-Arnold Networks
 
-- [A Survey on Kolmogorov-Arnold Network](https://arxiv.org/abs/2411.06078) — *arXiv 2024* · 📈256。KANの理論/変種/応用を整理した近年のサーベイ
-- [Kolmogorov-Arnold Networks: A Critical Assessment of Claims, Performance, and Practical Viability](https://arxiv.org/abs/2407.11075) — *arXiv 2024* · 📈56。KANの理論・性能・実用性を批判的に評価したサーベイ
+- [A Survey on Kolmogorov-Arnold Network](https://arxiv.org/abs/2411.06078) — *arXiv 2024* · 📈260。KANの理論/変種/応用を整理した近年のサーベイ
+- [Kolmogorov-Arnold Networks: A Critical Assessment of Claims, Performance, and Practical Viability](https://arxiv.org/abs/2407.11075) — *arXiv 2024* · 📈55。KANの理論・性能・実用性を批判的に評価したサーベイ
 
 ### LLM Hardware Acceleration
 
@@ -1274,55 +1274,55 @@
 
 ### LLM Inference Acceleration (Hardware)
 
-- [Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective](https://arxiv.org/abs/2410.04466) — *arXiv preprint 2024* · 📈89。CPU/GPU/FPGA/ASIC/PIM等プラットフォーム別にLLM推論加速をハードウェア視点で整理したサーベイ。 — [`Kimho666/LLM_Hardware_Survey`](https://github.com/Kimho666/LLM_Hardware_Survey) ⭐20🟡
+- [Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective](https://arxiv.org/abs/2410.04466) — *arXiv preprint 2024* · 📈90。CPU/GPU/FPGA/ASIC/PIM等プラットフォーム別にLLM推論加速をハードウェア視点で整理したサーベイ。 — [`Kimho666/LLM_Hardware_Survey`](https://github.com/Kimho666/LLM_Hardware_Survey) ⭐20🟡
 
 ### Label-Noise Learning
 
-- [Learning from Noisy Labels with Deep Neural Networks: A Survey](https://arxiv.org/abs/2007.08199) — *IEEE TNNLS 2022* · 📈1445。ノイズラベル下の頑健学習手法を体系化した定番サーベイ
+- [Learning from Noisy Labels with Deep Neural Networks: A Survey](https://arxiv.org/abs/2007.08199) — *IEEE TNNLS 2022* · 📈1453。ノイズラベル下の頑健学習手法を体系化した定番サーベイ
 
 ### Machine Unlearning
 
-- [A Survey of Machine Unlearning](https://arxiv.org/abs/2209.02299) — *arXiv 2022* · 📈456。機械的忘却の概念・シナリオ・手法・応用を包括した定番サーベイ(950+ star companion) — [`tamlhp/awesome-machine-unlearning`](https://github.com/tamlhp/awesome-machine-unlearning) ⭐962🟢
+- [A Survey of Machine Unlearning](https://arxiv.org/abs/2209.02299) — *arXiv 2022* · 📈461。機械的忘却の概念・シナリオ・手法・応用を包括した定番サーベイ(950+ star companion) — [`tamlhp/awesome-machine-unlearning`](https://github.com/tamlhp/awesome-machine-unlearning) ⭐962🟢
 
 ### Manifold Learning
 
-- [Manifold learning: what, how, and why](https://arxiv.org/abs/2311.03757) — *Annual Review of Statistics 2023*。多様体学習の原理・代表手法・統計的基盤を整理したレビュー
+- [Manifold learning: what, how, and why](https://arxiv.org/abs/2311.03757) — *Annual Review of Statistics 2023* · 📈166。多様体学習の原理・代表手法・統計的基盤を整理したレビュー
 
 ### Meta-Learning
 
-- [Meta-Learning in Neural Networks: A Survey](https://arxiv.org/abs/2004.05439) — *TPAMI 2022* · 📈2753。メタ学習の統一的分類法を提示した定番サーベイ
+- [Meta-Learning in Neural Networks: A Survey](https://arxiv.org/abs/2004.05439) — *TPAMI 2022* · 📈2766。メタ学習の統一的分類法を提示した定番サーベイ
 
 ### Metric Learning
 
-- [Spectral, Probabilistic, and Deep Metric Learning: Tutorial and Survey](https://arxiv.org/abs/2201.09267) — *arXiv 2022*。スペクトル/確率/深層の各距離学習を統一的に解説したチュートリアル兼サーベイ
-- [A Survey on Metric Learning for Feature Vectors and Structured Data](https://arxiv.org/abs/1306.6709) — *arXiv 2013*。特徴ベクトルと構造化データの距離学習を体系化した定番サーベイ
+- [A Survey on Metric Learning for Feature Vectors and Structured Data](https://arxiv.org/abs/1306.6709) — *arXiv 2013* · 📈719。特徴ベクトルと構造化データの距離学習を体系化した定番サーベイ
+- [Spectral, Probabilistic, and Deep Metric Learning: Tutorial and Survey](https://arxiv.org/abs/2201.09267) — *arXiv 2022* · 📈30。スペクトル/確率/深層の各距離学習を統一的に解説したチュートリアル兼サーベイ
 
 ### Model Compression
 
-- [A Survey of Model Compression and Acceleration for Deep Neural Networks](https://arxiv.org/abs/1710.09282) — *IEEE Signal Processing Magazine 2020* · 📈1260。枝刈り/量子化/蒸留など圧縮高速化手法を概観した高被引用サーベイ
-- [Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better](https://arxiv.org/abs/2106.08962) — *ACM Computing Surveys 2021* · 📈672。効率的深層学習の手法/インフラ/ハードを横断的に整理したサーベイ
+- [A Survey of Model Compression and Acceleration for Deep Neural Networks](https://arxiv.org/abs/1710.09282) — *IEEE Signal Processing Magazine 2020* · 📈1264。枝刈り/量子化/蒸留など圧縮高速化手法を概観した高被引用サーベイ
+- [Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better](https://arxiv.org/abs/2106.08962) — *ACM Computing Surveys 2021* · 📈677。効率的深層学習の手法/インフラ/ハードを横断的に整理したサーベイ
 
 ### Model Merging
 
-- [Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities](https://arxiv.org/abs/2408.07666) — *ACM Computing Surveys 2024* · 📈288。モデルマージの手法・理論・応用を網羅したCSUR採録サーベイ — [`EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications`](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) ⭐775🟢
+- [Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities](https://arxiv.org/abs/2408.07666) — *ACM Computing Surveys 2024* · 📈293。モデルマージの手法・理論・応用を網羅したCSUR採録サーベイ — [`EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications`](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) ⭐777🟢
 
 ### Multi-Task Learning
 
-- [A Survey on Multi-Task Learning](https://arxiv.org/abs/1707.08114) — *IEEE TKDE 2021* · 📈3060。マルチタスク学習の手法を体系的に分類した定番サーベイ
-- [Multi-Task Learning with Deep Neural Networks: A Survey](https://arxiv.org/abs/2009.09796) — *arXiv 2020* · 📈816。深層マルチタスク学習のアーキテクチャと最適化を整理したサーベイ
+- [A Survey on Multi-Task Learning](https://arxiv.org/abs/1707.08114) — *IEEE TKDE 2021* · 📈3073。マルチタスク学習の手法を体系的に分類した定番サーベイ
+- [Multi-Task Learning with Deep Neural Networks: A Survey](https://arxiv.org/abs/2009.09796) — *arXiv 2020* · 📈817。深層マルチタスク学習のアーキテクチャと最適化を整理したサーベイ
 
 ### Multi-label Learning
 
-- [Deep Learning for Multi-Label Learning: A Comprehensive Survey](https://arxiv.org/abs/2401.16549) — *arXiv 2024*。深層学習によるマルチラベル学習を2006-2023年で網羅したサーベイ
-- [A Survey on Extreme Multi-label Learning](https://arxiv.org/abs/2210.03968) — *arXiv 2022*。超大規模ラベル空間の極端マルチラベル学習を整理したサーベイ
+- [Deep Learning for Multi-Label Learning: A Comprehensive Survey](https://arxiv.org/abs/2401.16549) — *arXiv 2024* · 📈52。深層学習によるマルチラベル学習を2006-2023年で網羅したサーベイ
+- [A Survey on Extreme Multi-label Learning](https://arxiv.org/abs/2210.03968) — *arXiv 2022* · 📈15。超大規模ラベル空間の極端マルチラベル学習を整理したサーベイ
 
 ### Multiple Instance Learning
 
-- [Multiple Instance Learning: A Survey of Problem Characteristics and Applications](https://arxiv.org/abs/1612.03365) — *Pattern Recognition 2016*。マルチインスタンス学習の問題特性と応用を体系化した代表的サーベイ
+- [Multiple Instance Learning: A Survey of Problem Characteristics and Applications](https://arxiv.org/abs/1612.03365) — *Pattern Recognition 2016* · 📈760。マルチインスタンス学習の問題特性と応用を体系化した代表的サーベイ
 
 ### Neural Architecture Search
 
-- [Neural Architecture Search: Insights from 1000 Papers](https://arxiv.org/abs/2301.08727) — *arXiv 2023* · 📈235。1000本超の論文からNAS研究全体を俯瞰した近年の包括的サーベイ
+- [Neural Architecture Search: Insights from 1000 Papers](https://arxiv.org/abs/2301.08727) — *arXiv 2023* · 📈237。1000本超の論文からNAS研究全体を俯瞰した近年の包括的サーベイ
 - [Neural Architecture Search: A Survey](https://arxiv.org/abs/1808.05377) — *JMLR 2019*。探索空間/探索戦略/性能推定の3軸でNASを整理した代表的サーベイ
 
 ### Neural Compression
@@ -1331,7 +1331,7 @@
 
 ### On-Device AI / Edge Intelligence
 
-- [Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models](https://arxiv.org/abs/2503.06027) — *arXiv preprint 2025*。エッジ端末上で動くAIモデルの設計・最適化・ハードウェア加速を体系化した包括サーベイ。
+- [Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models](https://arxiv.org/abs/2503.06027) — *arXiv preprint 2025* · 📈239。エッジ端末上で動くAIモデルの設計・最適化・ハードウェア加速を体系化した包括サーベイ。
 
 ### On-Device Optimization / Edge ML
 
@@ -1339,44 +1339,44 @@
 
 ### Open-set Recognition
 
-- [A Survey on Open Set Recognition](https://arxiv.org/abs/2109.00893) — *arXiv 2021*。未知クラスを扱う開集合認識の手法を体系的に整理したサーベイ
+- [A Survey on Open Set Recognition](https://arxiv.org/abs/2109.00893) — *arXiv 2021* · 📈56。未知クラスを扱う開集合認識の手法を体系的に整理したサーベイ
 
 ### Optimization
 
-- [An overview of gradient descent optimization algorithms](https://arxiv.org/abs/1609.04747) — *arXiv 2016* · 📈7026。SGD/Momentum/Adam等の勾配降下最適化手法を概説した高被引用記事
-- [A Survey of Optimization Methods from a Machine Learning Perspective](https://arxiv.org/abs/1906.06821) — *IEEE Transactions on Cybernetics 2020* · 📈680。機械学習視点での最適化手法を体系的に整理した高被引用サーベイ。
-- [A survey and taxonomy of loss functions in machine learning](https://arxiv.org/abs/2301.05579) — *arXiv 2023* · 📈56。機械学習における損失関数を網羅的に分類した近年のサーベイ
+- [An overview of gradient descent optimization algorithms](https://arxiv.org/abs/1609.04747) — *arXiv 2016* · 📈7036。SGD/Momentum/Adam等の勾配降下最適化手法を概説した高被引用記事
+- [A Survey of Optimization Methods from a Machine Learning Perspective](https://arxiv.org/abs/1906.06821) — *IEEE Transactions on Cybernetics 2020* · 📈681。機械学習視点での最適化手法を体系的に整理した高被引用サーベイ。
+- [A survey and taxonomy of loss functions in machine learning](https://arxiv.org/abs/2301.05579) — *arXiv 2023* · 📈57。機械学習における損失関数を網羅的に分類した近年のサーベイ
 
 ### Ordinal Regression
 
-- [A Survey on Ordinal Regression: Applications, Advances and Prospects](https://arxiv.org/abs/2503.00952) — *arXiv 2025*。順序回帰の手法と応用を3カテゴリで初めて体系化したサーベイ
+- [A Survey on Ordinal Regression: Applications, Advances and Prospects](https://arxiv.org/abs/2503.00952) — *arXiv 2025* · 📈7。順序回帰の手法と応用を3カテゴリで初めて体系化したサーベイ
 
 ### Out-of-Distribution Detection
 
-- [Generalized Out-of-Distribution Detection: A Survey](https://arxiv.org/abs/2110.11334) — *IJCV 2024* · 📈1496。OOD検出/異常検知/新規性検出を統一的枠組みで整理したサーベイ — [`huytransformer/Awesome-Out-Of-Distribution-Detection`](https://github.com/huytransformer/Awesome-Out-Of-Distribution-Detection) ⭐1018🟢
+- [Generalized Out-of-Distribution Detection: A Survey](https://arxiv.org/abs/2110.11334) — *IJCV 2024* · 📈1506。OOD検出/異常検知/新規性検出を統一的枠組みで整理したサーベイ — [`huytransformer/Awesome-Out-Of-Distribution-Detection`](https://github.com/huytransformer/Awesome-Out-Of-Distribution-Detection) ⭐1020🟢
 
 ### PU Learning
 
-- [Learning from positive and unlabeled data: a survey](https://arxiv.org/abs/1811.04820) — *Machine Learning 2020*。正例とラベルなしデータからの学習(PU learning)の決定版サーベイ
+- [Learning from positive and unlabeled data: a survey](https://arxiv.org/abs/1811.04820) — *Machine Learning 2020* · 📈720。正例とラベルなしデータからの学習(PU learning)の決定版サーベイ
 
 ### Pruning
 
-- [What is the State of Neural Network Pruning?](https://arxiv.org/abs/2003.03033) — *MLSys 2020* · 📈1285。枝刈り研究の評価不統一を指摘しメタ分析した重要サーベイ
+- [What is the State of Neural Network Pruning?](https://arxiv.org/abs/2003.03033) — *MLSys 2020* · 📈1291。枝刈り研究の評価不統一を指摘しメタ分析した重要サーベイ
 
 ### Quantization
 
-- [A Survey of Quantization Methods for Efficient Neural Network Inference](https://arxiv.org/abs/2103.13630) — *arXiv 2021* · 📈1670。ニューラルネット量子化手法を体系的に整理した定番サーベイ
+- [A Survey of Quantization Methods for Efficient Neural Network Inference](https://arxiv.org/abs/2103.13630) — *arXiv 2021* · 📈1677。ニューラルネット量子化手法を体系的に整理した定番サーベイ
 
 ### Representation Learning
 
-- [Representation Learning: A Review and New Perspectives](https://arxiv.org/abs/1206.5538) — *IEEE TPAMI 2013* · 📈14189。表現学習・深層学習の古典的レビュー。被引用1万超の超定番で未収録だった。
-- [Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069) — *NeurIPS Workshop 2018* · 📈515。オートエンコーダによる表現学習の最新進展を整理した概説
+- [Representation Learning: A Review and New Perspectives](https://arxiv.org/abs/1206.5538) — *IEEE TPAMI 2013* · 📈14219。表現学習・深層学習の古典的レビュー。被引用1万超の超定番で未収録だった。
+- [Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069) — *NeurIPS Workshop 2018* · 📈516。オートエンコーダによる表現学習の最新進展を整理した概説
 
 ### Self-Supervised Learning
 
-- [Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) — *NeurIPS 2020* · 📈8912。負例なしで自己教師あり学習を達成したBYOLの代表論文
-- [Self-supervised Learning: Generative or Contrastive](https://arxiv.org/abs/2006.08218) — *IEEE TKDE 2021* · 📈2218。自己教師あり学習を生成系と対照系で大別した高被引用の決定版。
-- [Self-Supervised Representation Learning: Introduction, Advances and Challenges](https://arxiv.org/abs/2110.09327) — *IEEE Signal Processing Magazine 2021* · 📈418。自己教師あり表現学習の入門と最新動向を整理した概説
+- [Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) — *NeurIPS 2020* · 📈8937。負例なしで自己教師あり学習を達成したBYOLの代表論文
+- [Self-supervised Learning: Generative or Contrastive](https://arxiv.org/abs/2006.08218) — *IEEE TKDE 2021* · 📈2226。自己教師あり学習を生成系と対照系で大別した高被引用の決定版。
+- [Self-Supervised Representation Learning: Introduction, Advances and Challenges](https://arxiv.org/abs/2110.09327) — *IEEE Signal Processing Magazine 2021* · 📈423。自己教師あり表現学習の入門と最新動向を整理した概説
 
 ### Semi-Supervised Learning
 
@@ -1384,7 +1384,7 @@
 
 ### Sparse Representation
 
-- [A survey of sparse representation: algorithms and applications](https://arxiv.org/abs/1602.07017) — *IEEE Access 2015*。スパース表現のアルゴリズムと応用を網羅的に整理したサーベイ
+- [A survey of sparse representation: algorithms and applications](https://arxiv.org/abs/1602.07017) — *IEEE Access 2015* · 📈1069。スパース表現のアルゴリズムと応用を網羅的に整理したサーベイ
 
 ### State Space Models
 
@@ -1392,60 +1392,60 @@
 
 ### Tabular Deep Learning
 
-- [Deep Neural Networks and Tabular Data: A Survey](https://arxiv.org/abs/2110.01889) — *IEEE TNNLS 2022* · 📈1267。表形式データ向け深層学習手法を体系的に整理したサーベイ
+- [Deep Neural Networks and Tabular Data: A Survey](https://arxiv.org/abs/2110.01889) — *IEEE TNNLS 2022* · 📈1274。表形式データ向け深層学習手法を体系的に整理したサーベイ
 - [A Survey on Deep Tabular Learning](https://arxiv.org/abs/2410.12034) — *arXiv 2024* · 📈54。表形式データの深層学習をFCNからTabNet/Mamba系まで概観した総説
 
 ### Tabular Foundation Models
 
-- [Representation Learning for Tabular Data: A Comprehensive Survey](https://arxiv.org/abs/2504.16109) — *arXiv 2025* · 📈61。表形式データの表現学習と表基盤モデルを包括的に整理したサーベイ — [`LAMDA-Tabular/Tabular-Survey`](https://github.com/LAMDA-Tabular/Tabular-Survey) ⭐133🟢
+- [Representation Learning for Tabular Data: A Comprehensive Survey](https://arxiv.org/abs/2504.16109) — *arXiv 2025* · 📈63。表形式データの表現学習と表基盤モデルを包括的に整理したサーベイ — [`LAMDA-Tabular/Tabular-Survey`](https://github.com/LAMDA-Tabular/Tabular-Survey) ⭐135🟢
 
 ### Time Series Foundation Models
 
-- [Foundation Models for Time Series: A Survey](https://arxiv.org/abs/2504.04011) — *arXiv 2025* · 📈36。時系列基盤モデルを予測形式やスケールで分類した総説
+- [Foundation Models for Time Series: A Survey](https://arxiv.org/abs/2504.04011) — *arXiv 2025* · 📈37。時系列基盤モデルを予測形式やスケールで分類した総説
 
 ### Transfer Learning
 
-- [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685) — *Proceedings of the IEEE 2020* · 📈6035。転移学習の手法を機構別に分類した高被引用サーベイ
-- [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974) — *ICANN 2018* · 📈2946。深層転移学習を4カテゴリに分類した簡潔なサーベイ
-- [A Survey on Negative Transfer](https://arxiv.org/abs/2009.00909) — *IEEE/CAA JAS 2022* · 📈388。転移学習で性能低下を招く負の転移を体系化したサーベイ
+- [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685) — *Proceedings of the IEEE 2020* · 📈6058。転移学習の手法を機構別に分類した高被引用サーベイ
+- [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974) — *ICANN 2018* · 📈2949。深層転移学習を4カテゴリに分類した簡潔なサーベイ
+- [A Survey on Negative Transfer](https://arxiv.org/abs/2009.00909) — *IEEE/CAA JAS 2022* · 📈393。転移学習で性能低下を招く負の転移を体系化したサーベイ
 - [A Survey on Transfer Learning](https://doi.org/10.1109/TKDE.2009.191) — *IEEE TKDE 2010*。転移学習分野の元祖的定番サーベイ。被引用2万超で未収録だった決定版。
 
 ### Uncertainty Estimation
 
-- [A Review of Uncertainty Quantification in Deep Learning: Techniques, Applications and Challenges](https://arxiv.org/abs/2011.06225) — *Information Fusion 2021* · 📈2748。深層学習の不確実性定量化技術を網羅した高被引用レビュー
-- [A Survey of Uncertainty in Deep Neural Networks](https://arxiv.org/abs/2107.03342) — *Artificial Intelligence Review 2021* · 📈1919。DNNの不確実性の源泉と推定/較正手法を体系化したサーベイ
+- [A Review of Uncertainty Quantification in Deep Learning: Techniques, Applications and Challenges](https://arxiv.org/abs/2011.06225) — *Information Fusion 2021* · 📈2763。深層学習の不確実性定量化技術を網羅した高被引用レビュー
+- [A Survey of Uncertainty in Deep Neural Networks](https://arxiv.org/abs/2107.03342) — *Artificial Intelligence Review 2021* · 📈1935。DNNの不確実性の源泉と推定/較正手法を体系化したサーベイ
 
 ### Variational Inference
 
-- [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) — *JASA 2017* · 📈5881。変分推論の標準的レビュー。VAE等の基盤として超高被引用。未収録だった。
+- [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) — *JASA 2017* · 📈5893。変分推論の標準的レビュー。VAE等の基盤として超高被引用。未収録だった。
 
 ### Weak Supervision
 
-- [A Survey on Programmatic Weak Supervision](https://arxiv.org/abs/2202.05433) — *arXiv 2022*。プログラム的弱教師あり学習の手法とパイプラインを整理したサーベイ
+- [A Survey on Programmatic Weak Supervision](https://arxiv.org/abs/2202.05433) — *arXiv 2022* · 📈116。プログラム的弱教師あり学習の手法とパイプラインを整理したサーベイ
 
 ## 📐 学習理論
 
 ### Approximation Theory / Expressive Power
 
-- [Approximation Power of Deep Neural Networks: an explanatory mathematical survey](https://arxiv.org/abs/2207.09511) — *arXiv 2022*。深層ニューラルネットの近似能力(表現能力)を数学的に解説したサーベイ
+- [Approximation Power of Deep Neural Networks: an explanatory mathematical survey](https://arxiv.org/abs/2207.09511) — *arXiv 2022* · 📈5。深層ニューラルネットの近似能力(表現能力)を数学的に解説したサーベイ
 
 ### Bandits
 
-- [Introduction to Multi-Armed Bandits](https://arxiv.org/abs/1904.07272) — *Foundations and Trends in ML 2019* · 📈1299。多腕バンディットの理論を体系的にまとめた定番教科書/概説
+- [Introduction to Multi-Armed Bandits](https://arxiv.org/abs/1904.07272) — *Foundations and Trends in ML 2019* · 📈1303。多腕バンディットの理論を体系的にまとめた定番教科書/概説
 
 ### Deep Learning Theory
 
-- [The Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165) — *Cambridge University Press 2022* · 📈300。有効場理論的アプローチで深層学習を解析した体系的教科書/概説
-- [The Modern Mathematics of Deep Learning](https://arxiv.org/abs/2105.04026) — *Cambridge University Press 2022* · 📈140。深層学習理論(汎化/最適化/表現力)を数学的に俯瞰した包括的概説
-- [A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models](https://arxiv.org/abs/2401.07187) — *Annual Review of Statistics and Its Application 2024*。深層学習の統計理論(近似・学習ダイナミクス・生成モデル)を俯瞰したサーベイ
+- [The Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165) — *Cambridge University Press 2022* · 📈301。有効場理論的アプローチで深層学習を解析した体系的教科書/概説
+- [The Modern Mathematics of Deep Learning](https://arxiv.org/abs/2105.04026) — *Cambridge University Press 2022* · 📈141。深層学習理論(汎化/最適化/表現力)を数学的に俯瞰した包括的概説
+- [A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models](https://arxiv.org/abs/2401.07187) — *Annual Review of Statistics and Its Application 2024* · 📈31。深層学習の統計理論(近似・学習ダイナミクス・生成モデル)を俯瞰したサーベイ
 
 ### Differential Privacy Theory
 
-- [A Comprehensive Guide to Differential Privacy: From Theory to User Expectations](https://arxiv.org/abs/2509.03294) — *arXiv 2025*。微分プライバシーの理論基盤・メカニズム・応用を網羅した包括ガイド
+- [A Comprehensive Guide to Differential Privacy: From Theory to User Expectations](https://arxiv.org/abs/2509.03294) — *arXiv 2025* · 📈5。微分プライバシーの理論基盤・メカニズム・応用を網羅した包括ガイド
 
 ### Fairness Theory
 
-- [Fairness in Machine Learning: A Survey](https://arxiv.org/abs/2010.04053) — *ACM Computing Surveys 2020*。機械学習の公平性を前処理/学習中/後処理の11手法群に整理したサーベイ
+- [Fairness in Machine Learning: A Survey](https://arxiv.org/abs/2010.04053) — *ACM Computing Surveys 2020* · 📈929。機械学習の公平性を前処理/学習中/後処理の11手法群に整理したサーベイ
 
 ### Generalization Bounds
 
@@ -1453,37 +1453,37 @@
 
 ### Implicit Regularization
 
-- [On the Implicit Bias in Deep-Learning Algorithms](https://arxiv.org/abs/2208.12591) — *Communications of the ACM 2022*。勾配ベース学習の暗黙的バイアス(暗黙的正則化)の主要結果を概説したサーベイ
+- [On the Implicit Bias in Deep-Learning Algorithms](https://arxiv.org/abs/2208.12591) — *Communications of the ACM 2022* · 📈122。勾配ベース学習の暗黙的バイアス(暗黙的正則化)の主要結果を概説したサーベイ
 
 ### Multi-Armed Bandits
 
-- [A Survey of Risk-Aware Multi-Armed Bandits](https://arxiv.org/abs/2205.05843) — *IJCAI 2022*。リスク尺度を考慮した多腕バンディット研究を統合・整理したサーベイ
-- [A Survey on Practical Applications of Multi-Armed and Contextual Bandits](https://arxiv.org/abs/1904.10040) — *arXiv 2019*。多腕バンディット・文脈バンディットの実応用を幅広く概観したサーベイ
-- [A Survey on Contextual Multi-armed Bandits](https://arxiv.org/abs/1508.03326) — *arXiv 2016*。確率的・敵対的文脈バンディットの各アルゴリズムと後悔限界を整理したサーベイ
+- [A Survey on Contextual Multi-armed Bandits](https://arxiv.org/abs/1508.03326) — *arXiv 2016* · 📈145。確率的・敵対的文脈バンディットの各アルゴリズムと後悔限界を整理したサーベイ
+- [A Survey on Practical Applications of Multi-Armed and Contextual Bandits](https://arxiv.org/abs/1904.10040) — *arXiv 2019* · 📈143。多腕バンディット・文脈バンディットの実応用を幅広く概観したサーベイ
+- [A Survey of Risk-Aware Multi-Armed Bandits](https://arxiv.org/abs/2205.05843) — *IJCAI 2022* · 📈13。リスク尺度を考慮した多腕バンディット研究を統合・整理したサーベイ
 
 ### Online Convex Optimization
 
-- [Introduction to Online Convex Optimization](https://arxiv.org/abs/1909.05207) — *Foundations and Trends in Optimization 2019*。オンライン凸最適化の理論とアルゴリズムを体系化した定番の入門書/サーベイ
-- [Online convex optimization and no-regret learning: Algorithms, guarantees and applications](https://arxiv.org/abs/1804.04529) — *arXiv 2018*。no-regret学習の保証と応用例(計量学習・無線資源配分等)を解説するチュートリアル
+- [Introduction to Online Convex Optimization](https://arxiv.org/abs/1909.05207) — *Foundations and Trends in Optimization 2019* · 📈2337。オンライン凸最適化の理論とアルゴリズムを体系化した定番の入門書/サーベイ
+- [Online convex optimization and no-regret learning: Algorithms, guarantees and applications](https://arxiv.org/abs/1804.04529) — *arXiv 2018* · 📈45。no-regret学習の保証と応用例(計量学習・無線資源配分等)を解説するチュートリアル
 
 ### Online Learning
 
-- [Online Learning: A Comprehensive Survey](https://arxiv.org/abs/1802.02871) — *Neurocomputing 2021* · 📈849。オンライン学習の理論と手法を網羅した包括的サーベイ
-- [A Modern Introduction to Online Learning](https://arxiv.org/abs/1912.13213) — *arXiv 2019*。OMD/FTRLを軸にオンライン学習の一次・二次法を統一的に解説した入門サーベイ
+- [Online Learning: A Comprehensive Survey](https://arxiv.org/abs/1802.02871) — *Neurocomputing 2021* · 📈851。オンライン学習の理論と手法を網羅した包括的サーベイ
+- [A Modern Introduction to Online Learning](https://arxiv.org/abs/1912.13213) — *arXiv 2019* · 📈568。OMD/FTRLを軸にオンライン学習の一次・二次法を統一的に解説した入門サーベイ
 
 ### Overparameterization / Generalization
 
-- [Generalization in Neural Networks: A Broad Survey](https://arxiv.org/abs/2209.01610) — *Neurocomputing 2022*。過剰パラメータ化を含むニューラルネットの汎化を広範に整理したサーベイ
+- [Generalization in Neural Networks: A Broad Survey](https://arxiv.org/abs/2209.01610) — *Neurocomputing 2022* · 📈42。過剰パラメータ化を含むニューラルネットの汎化を広範に整理したサーベイ
 
 ### PAC-Bayes
 
-- [A Primer on PAC-Bayesian Learning](https://arxiv.org/abs/1901.05353) — *arXiv 2019*。PAC-Bayes枠組みの理論とアルゴリズム的発展を自己完結的に解説した入門サーベイ
+- [A Primer on PAC-Bayesian Learning](https://arxiv.org/abs/1901.05353) — *arXiv 2019* · 📈243。PAC-Bayes枠組みの理論とアルゴリズム的発展を自己完結的に解説した入門サーベイ
 
 ## 🎮 強化学習 (RL)
 
 ### Applications (Healthcare)
 
-- [Reinforcement Learning in Healthcare: A Survey](https://arxiv.org/abs/1908.08796) — *ACM Computing Surveys 2021* · 📈803。医療領域へのRL応用の理論基盤・手法・課題を整理したサーベイ
+- [Reinforcement Learning in Healthcare: A Survey](https://arxiv.org/abs/1908.08796) — *ACM Computing Surveys 2021* · 📈812。医療領域へのRL応用の理論基盤・手法・課題を整理したサーベイ
 
 ### Bayesian RL
 
@@ -1495,12 +1495,12 @@
 
 ### Curriculum Learning
 
-- [Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey](https://arxiv.org/abs/2003.04960) — *JMLR 2020* · 📈770。RL向けカリキュラム学習の枠組みを提示し既存手法を分類したサーベイ
+- [Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey](https://arxiv.org/abs/2003.04960) — *JMLR 2020* · 📈778。RL向けカリキュラム学習の枠組みを提示し既存手法を分類したサーベイ
 
 ### Deep RL (general)
 
-- [Deep Reinforcement Learning: A Brief Survey](https://arxiv.org/abs/1708.05866) — *IEEE Signal Processing Magazine 2017* · 📈3591。価値ベース/方策ベース手法と主要アルゴリズムを簡潔に整理した定番入門サーベイ
-- [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274) — *arXiv 2017* · 📈1881。深層強化学習の要素・機構・応用を網羅した初期の包括的概観
+- [Deep Reinforcement Learning: A Brief Survey](https://arxiv.org/abs/1708.05866) — *IEEE Signal Processing Magazine 2017* · 📈3593。価値ベース/方策ベース手法と主要アルゴリズムを簡潔に整理した定番入門サーベイ
+- [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274) — *arXiv 2017* · 📈1885。深層強化学習の要素・機構・応用を網羅した初期の包括的概観
 
 ### Distributed RL
 
@@ -1508,8 +1508,8 @@
 
 ### Exploration
 
-- [Exploration in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2205.00824) — *Information Fusion 2022* · 📈616。新規状態報酬・目標ベース等に分類した深層RLの探索サーベイ
-- [A Survey of Exploration Methods in Reinforcement Learning](https://arxiv.org/abs/2109.00157) — *arXiv 2021* · 📈112。RLにおける探索手法を分類体系とともに概観したサーベイ
+- [Exploration in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2205.00824) — *Information Fusion 2022* · 📈621。新規状態報酬・目標ベース等に分類した深層RLの探索サーベイ
+- [A Survey of Exploration Methods in Reinforcement Learning](https://arxiv.org/abs/2109.00157) — *arXiv 2021* · 📈113。RLにおける探索手法を分類体系とともに概観したサーベイ
 
 ### Generalization
 
@@ -1517,7 +1517,7 @@
 
 ### Goal-Conditioned RL
 
-- [Goal-Conditioned Reinforcement Learning: Problems and Solutions](https://arxiv.org/abs/2201.08299) — *IJCAI 2022* · 📈231。目標条件付きRLの問題設定・目標表現・解法を体系化したサーベイ
+- [Goal-Conditioned Reinforcement Learning: Problems and Solutions](https://arxiv.org/abs/2201.08299) — *IJCAI 2022* · 📈233。目標条件付きRLの問題設定・目標表現・解法を体系化したサーベイ
 
 ### Hierarchical RL
 
@@ -1525,7 +1525,7 @@
 
 ### Imitation Learning
 
-- [An Algorithmic Perspective on Imitation Learning](https://arxiv.org/abs/1811.06711) — *Foundations and Trends in Robotics 2018* · 📈1046。模倣学習をアルゴリズム視点で体系化した定番サーベイ
+- [An Algorithmic Perspective on Imitation Learning](https://arxiv.org/abs/1811.06711) — *Foundations and Trends in Robotics 2018* · 📈1047。模倣学習をアルゴリズム視点で体系化した定番サーベイ
 
 ### In-Context Reinforcement Learning
 
@@ -1533,7 +1533,7 @@
 
 ### Inverse RL
 
-- [A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress](https://arxiv.org/abs/1806.06877) — *Artificial Intelligence 2021* · 📈808。逆強化学習の課題・手法・進展を整理したサーベイ
+- [A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress](https://arxiv.org/abs/1806.06877) — *Artificial Intelligence 2021* · 📈814。逆強化学習の課題・手法・進展を整理したサーベイ
 
 ### Meta RL
 
@@ -1546,12 +1546,12 @@
 
 ### Multi-objective RL
 
-- [A Practical Guide to Multi-Objective Reinforcement Learning and Planning](https://arxiv.org/abs/2103.09568) — *AAMAS (JAAMAS) 2022* · 📈607。多目的RL/計画の実務的指針を提供する包括的ガイド
+- [A Practical Guide to Multi-Objective Reinforcement Learning and Planning](https://arxiv.org/abs/2103.09568) — *AAMAS (JAAMAS) 2022* · 📈612。多目的RL/計画の実務的指針を提供する包括的ガイド
 
 ### Offline RL
 
-- [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/abs/2005.01643) — *arXiv 2020* · 📈2761。オフラインRLの基礎と未解決問題を整理した最重要チュートリアル兼レビュー
-- [A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems](https://arxiv.org/abs/2203.01387) — *IEEE TNNLS 2023* · 📈436。新たな分類体系でオフラインRLアルゴリズムを整理したサーベイ — [`larocs/offline-rl-suvey`](https://github.com/larocs/offline-rl-suvey) ⭐8🔴
+- [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/abs/2005.01643) — *arXiv 2020* · 📈2769。オフラインRLの基礎と未解決問題を整理した最重要チュートリアル兼レビュー
+- [A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems](https://arxiv.org/abs/2203.01387) — *IEEE TNNLS 2023* · 📈438。新たな分類体系でオフラインRLアルゴリズムを整理したサーベイ — [`larocs/offline-rl-suvey`](https://github.com/larocs/offline-rl-suvey) ⭐8🔴
 
 ### RL for Generative AI
 
@@ -1560,8 +1560,8 @@
 
 ### RLHF
 
-- [Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2307.15217) — *TMLR 2023* · 📈954。RLHFの未解決問題・根本的限界と監査基準を整理した重要サーベイ
-- [A Survey of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2312.14925) — *arXiv 2023* · 📈352。制御・ロボティクス起源からLLMまでRLHFの原理と研究動向を概観
+- [Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2307.15217) — *TMLR 2023* · 📈959。RLHFの未解決問題・根本的限界と監査基準を整理した重要サーベイ
+- [A Survey of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2312.14925) — *arXiv 2023* · 📈353。制御・ロボティクス起源からLLMまでRLHFの原理と研究動向を概観
 
 ### RLHF / Preference-based RL
 
@@ -1569,25 +1569,25 @@
 
 ### Reward Design
 
-- [Reward Models in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2506.15421) — *IJCAI 2025* · 📈34。報酬モデルを出所・機構・学習様式の観点で整理した近年のサーベイ
+- [Reward Models in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2506.15421) — *IJCAI 2025* · 📈36。報酬モデルを出所・機構・学習様式の観点で整理した近年のサーベイ
 
 ### Safe / Constrained RL
 
-- [A Survey of Safe Reinforcement Learning and Constrained MDPs: A Technical Survey on Single-Agent and Multi-Agent Safety](https://arxiv.org/abs/2505.17342) — *arXiv preprint 2025* · 📈26。制約付きMDPに基づく安全RLを単一/マルチエージェント両面から数学的に整理した技術サーベイ。
+- [A Survey of Safe Reinforcement Learning and Constrained MDPs: A Technical Survey on Single-Agent and Multi-Agent Safety](https://arxiv.org/abs/2505.17342) — *arXiv preprint 2025* · 📈27。制約付きMDPに基づく安全RLを単一/マルチエージェント両面から数学的に整理した技術サーベイ。
 
 ### Safe RL
 
-- [A Review of Safe Reinforcement Learning: Methods, Theory and Applications](https://arxiv.org/abs/2205.10330) — *IEEE TPAMI 2024* · 📈330。2H3Wの観点で手法・理論・応用・ベンチマークを整理した近年の安全RLレビュー — [`chauncygu/Safe-Reinforcement-Learning-Baselines`](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines) ⭐811🟢
-- [A Survey of Constraint Formulations in Safe Reinforcement Learning](https://arxiv.org/abs/2402.02025) — *IJCAI 2024* · 📈86。安全RLの制約定式化を代表的アルゴリズムと数理的関係から整理したサーベイ
+- [A Review of Safe Reinforcement Learning: Methods, Theory and Applications](https://arxiv.org/abs/2205.10330) — *IEEE TPAMI 2024* · 📈331。2H3Wの観点で手法・理論・応用・ベンチマークを整理した近年の安全RLレビュー — [`chauncygu/Safe-Reinforcement-Learning-Baselines`](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines) ⭐813🟢
+- [A Survey of Constraint Formulations in Safe Reinforcement Learning](https://arxiv.org/abs/2402.02025) — *IJCAI 2024* · 📈88。安全RLの制約定式化を代表的アルゴリズムと数理的関係から整理したサーベイ
 - [A Comprehensive Survey on Safe Reinforcement Learning](https://jmlr.org/papers/v16/garcia15a.html) — *JMLR 2015*。安全RLの最適性基準修正と探索修正アプローチを整理した古典的サーベイ
 
 ### Sim-to-Real
 
-- [Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey](https://arxiv.org/abs/2009.13303) — *IEEE SSCI 2020* · 📈1086。ドメインランダム化・適応等のsim-to-real手法を概観したサーベイ
+- [Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey](https://arxiv.org/abs/2009.13303) — *IEEE SSCI 2020* · 📈1090。ドメインランダム化・適応等のsim-to-real手法を概観したサーベイ
 
 ### Transfer Learning
 
-- [Transfer Learning in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2009.07888) — *IEEE TPAMI 2023* · 📈911。転移知識の形式と転移様式で深層RLの転移学習を分類したサーベイ
+- [Transfer Learning in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2009.07888) — *IEEE TPAMI 2023* · 📈916。転移知識の形式と転移様式で深層RLの転移学習を分類したサーベイ
 
 ### Visual / Multimodal RL
 
@@ -1597,20 +1597,20 @@
 
 ### Autonomous Driving
 
-- [Deep Reinforcement Learning for Autonomous Driving: A Survey](https://arxiv.org/abs/2002.00444) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈2449。自動運転タスクへの(深層)RL適用を分類し展開上の課題を整理した定番サーベイ
-- [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/abs/1910.07738) — *Journal of Field Robotics 2020* · 📈1765。知覚・計画・制御からEnd2Endまで自動運転の深層学習技術を概観した定番サーベイ
-- [Survey of Deep Reinforcement Learning for Motion Planning of Autonomous Vehicles](https://arxiv.org/abs/2001.11231) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈608。自動運転車の階層的運動計画問題に対する深層RLを整理したサーベイ
-- [A Survey of Deep RL and IL for Autonomous Driving Policy Learning](https://arxiv.org/abs/2101.01993) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈230。自動運転の方策学習における深層RLと深層模倣学習を整理したサーベイ
+- [Deep Reinforcement Learning for Autonomous Driving: A Survey](https://arxiv.org/abs/2002.00444) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈2460。自動運転タスクへの(深層)RL適用を分類し展開上の課題を整理した定番サーベイ
+- [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/abs/1910.07738) — *Journal of Field Robotics 2020* · 📈1773。知覚・計画・制御からEnd2Endまで自動運転の深層学習技術を概観した定番サーベイ
+- [Survey of Deep Reinforcement Learning for Motion Planning of Autonomous Vehicles](https://arxiv.org/abs/2001.11231) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈613。自動運転車の階層的運動計画問題に対する深層RLを整理したサーベイ
+- [A Survey of Deep RL and IL for Autonomous Driving Policy Learning](https://arxiv.org/abs/2101.01993) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈233。自動運転の方策学習における深層RLと深層模倣学習を整理したサーベイ
 - [A Survey of Deep Reinforcement Learning Algorithms for Motion Planning and Control of Autonomous Vehicles](https://arxiv.org/abs/2105.14218) — *IEEE IV 2021* · 📈72。自動運転車の運動計画・制御に向けた深層RL手法を整理したサーベイ
 
 ### Embodied AI
 
-- [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) — *IEEE Transactions on Emerging Topics in Computational Intelligence 2022* · 📈556。シミュレータと探索・ナビ・EQAタスクを軸にEmbodied AIを概観
-- [Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI](https://arxiv.org/abs/2407.06886) — *arXiv 2024* · 📈342。サイバー空間と物理世界の統合を軸にembodied AIを体系化した大型サーベイ(2k+ star companion) — [`HCPLab-SYSU/Embodied_AI_Paper_List`](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) ⭐2147🟢
+- [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) — *IEEE Transactions on Emerging Topics in Computational Intelligence 2022* · 📈559。シミュレータと探索・ナビ・EQAタスクを軸にEmbodied AIを概観
+- [Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI](https://arxiv.org/abs/2407.06886) — *arXiv 2024* · 📈345。サイバー空間と物理世界の統合を軸にembodied AIを体系化した大型サーベイ(2k+ star companion) — [`HCPLab-SYSU/Embodied_AI_Paper_List`](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) ⭐2152🟢
 
 ### Grasping
 
-- [Deep Learning Approaches to Grasp Synthesis: A Review](https://arxiv.org/abs/2207.02556) — *IEEE Transactions on Robotics 2023* · 📈289。6自由度把持を中心に深層学習による把持合成手法を体系化したレビュー
+- [Deep Learning Approaches to Grasp Synthesis: A Review](https://arxiv.org/abs/2207.02556) — *IEEE Transactions on Robotics 2023* · 📈292。6自由度把持を中心に深層学習による把持合成手法を体系化したレビュー
 
 ### Legged Locomotion
 
@@ -1618,16 +1618,16 @@
 
 ### Manipulation
 
-- [A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms](https://arxiv.org/abs/1907.03146) — *JMLR 2021* · 📈518。ロボット操作学習問題を統一枠組みで定式化したレビュー
+- [A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms](https://arxiv.org/abs/1907.03146) — *JMLR 2021* · 📈521。ロボット操作学習問題を統一枠組みで定式化したレビュー
 - [A Survey on Deep Reinforcement Learning Algorithms for Robotic Manipulation](https://doi.org/10.3390/s23073762) — *Sensors 2023*。把持・操作タスク向けの深層RLアルゴリズムを整理したサーベイ
 
 ### Manipulation / Embodied AI
 
-- [A Survey of Embodied Learning for Object-Centric Robotic Manipulation](https://arxiv.org/abs/2408.11537) — *arXiv 2024* · 📈52。物体中心ロボット操作の身体性学習を知覚・方策・タスクで整理 — [`RayYoh/OCRM_survey`](https://github.com/RayYoh/OCRM_survey) ⭐257🔴
+- [A Survey of Embodied Learning for Object-Centric Robotic Manipulation](https://arxiv.org/abs/2408.11537) — *arXiv 2024* · 📈53。物体中心ロボット操作の身体性学習を知覚・方策・タスクで整理 — [`RayYoh/OCRM_survey`](https://github.com/RayYoh/OCRM_survey) ⭐257🔴
 
 ### Motion Planning (learning)
 
-- [A Survey of Optimization-based Task and Motion Planning: From Classical To Learning Approaches](https://arxiv.org/abs/2404.02817) — *IEEE/ASME Transactions on Mechatronics 2024* · 📈90。古典手法から学習ベースまでタスク&モーションプランニングを概観
+- [A Survey of Optimization-based Task and Motion Planning: From Classical To Learning Approaches](https://arxiv.org/abs/2404.02817) — *IEEE/ASME Transactions on Mechatronics 2024* · 📈91。古典手法から学習ベースまでタスク&モーションプランニングを概観
 - [A Survey on the Integration of Machine Learning with Sampling-based Motion Planning](https://arxiv.org/abs/2211.08368) — *Foundations and Trends in Robotics 2022* · 📈26。サンプリングベース運動計画への機械学習統合を分類したサーベイ
 
 ### Navigation
@@ -1636,24 +1636,24 @@
 
 ### Robot Foundation Models
 
-- [Foundation Models in Robotics: Applications, Challenges, and the Future](https://arxiv.org/abs/2312.07843) — *International Journal of Robotics Research 2024* · 📈416。知覚から制御まで基盤モデルのロボティクス応用と課題を整理したサーベイ
+- [Foundation Models in Robotics: Applications, Challenges, and the Future](https://arxiv.org/abs/2312.07843) — *International Journal of Robotics Research 2024* · 📈427。知覚から制御まで基盤モデルのロボティクス応用と課題を整理したサーベイ
 
 ### Robot Learning
 
-- [Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes](https://arxiv.org/abs/2408.03539) — *Annual Review of Control, Robotics, and Autonomous Systems 2025* · 📈422。実世界で成功した深層RLロボティクス事例を主要能力ごとに評価したレビュー
+- [Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes](https://arxiv.org/abs/2408.03539) — *Annual Review of Control, Robotics, and Autonomous Systems 2025* · 📈429。実世界で成功した深層RLロボティクス事例を主要能力ごとに評価したレビュー
 - [Reinforcement Learning in Robotics: A Survey](https://doi.org/10.1177/0278364913495721) — *International Journal of Robotics Research 2013*。ロボットRLの課題・表現・事前知識を整理した古典的定番サーベイ
 
 ### Safe RL / Control
 
-- [Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning](https://arxiv.org/abs/2108.06266) — *Annual Review of Control, Robotics, and Autonomous Systems 2022* · 📈1026。制御理論とRLを統一視点で結ぶロボティクスの安全学習レビュー
+- [Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning](https://arxiv.org/abs/2108.06266) — *Annual Review of Control, Robotics, and Autonomous Systems 2022* · 📈1030。制御理論とRLを統一視点で結ぶロボティクスの安全学習レビュー
 
 ### Soft Robotics (learning)
 
-- [Data-driven Methods Applied to Soft Robot Modeling and Control: A Review](https://arxiv.org/abs/2305.12137) — *IEEE Transactions on Automation Science and Engineering 2024* · 📈123。統計手法・NN・RLによるソフトロボットのモデリングと制御を整理したレビュー
+- [Data-driven Methods Applied to Soft Robot Modeling and Control: A Review](https://arxiv.org/abs/2305.12137) — *IEEE Transactions on Automation Science and Engineering 2024* · 📈124。統計手法・NN・RLによるソフトロボットのモデリングと制御を整理したレビュー
 
 ### World Models
 
-- [A Comprehensive Survey on World Models for Embodied AI](https://arxiv.org/abs/2510.16732) — *arXiv 2025* · 📈51。機能・時間・空間表現の3軸タクソノミでembodied AI向けワールドモデルを整理 — [`Li-Zn-H/AwesomeWorldModels`](https://github.com/Li-Zn-H/AwesomeWorldModels) ⭐346🟢
+- [A Comprehensive Survey on World Models for Embodied AI](https://arxiv.org/abs/2510.16732) — *arXiv 2025* · 📈52。機能・時間・空間表現の3軸タクソノミでembodied AI向けワールドモデルを整理 — [`Li-Zn-H/AwesomeWorldModels`](https://github.com/Li-Zn-H/AwesomeWorldModels) ⭐350🟢
 
 ### World Models for Robot Learning
 
@@ -1663,37 +1663,37 @@
 
 ### Agent Evaluation
 
-- [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416) — *arXiv 2025* · 📈207。LLMエージェントの評価手法・ベンチマークを体系化したサーベイ
+- [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416) — *arXiv 2025* · 📈212。LLMエージェントの評価手法・ベンチマークを体系化したサーベイ
 
 ### Agent Optimization
 
-- [A Survey on the Optimization of Large Language Model-based Agents](https://arxiv.org/abs/2503.12434) — *arXiv 2025* · 📈62。LLMエージェントの最適化(フィードバック・自己改善)を整理した総説
+- [A Survey on the Optimization of Large Language Model-based Agents](https://arxiv.org/abs/2503.12434) — *arXiv 2025* · 📈64。LLMエージェントの最適化(フィードバック・自己改善)を整理した総説
 
 ### Agentic RAG
 
-- [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](https://arxiv.org/abs/2501.09136) — *arXiv 2025* · 📈387。自律エージェントを組み込んだエージェント的RAGを類型化した総説 — [`asinghcsu/AgenticRAG-Survey`](https://github.com/asinghcsu/AgenticRAG-Survey) ⭐1715🟡
+- [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](https://arxiv.org/abs/2501.09136) — *arXiv 2025* · 📈395。自律エージェントを組み込んだエージェント的RAGを類型化した総説 — [`asinghcsu/AgenticRAG-Survey`](https://github.com/asinghcsu/AgenticRAG-Survey) ⭐1722🟡
 
 ### Agentic RL
 
-- [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://arxiv.org/abs/2509.02547) — *arXiv 2025* · 📈186。計画/ツール/記憶/自己改善を軸にエージェント的RLを体系化した総説
+- [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://arxiv.org/abs/2509.02547) — *arXiv 2025* · 📈189。計画/ツール/記憶/自己改善を軸にエージェント的RLを体系化した総説
 
 ### Autonomous Agents
 
-- [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](https://arxiv.org/abs/2503.21460) — *arXiv 2025* · 📈204。LLMエージェントを構築/協調/進化の3軸で方法論中心に整理した総説 — [`luo-junyu/Awesome-Agent-Papers`](https://github.com/luo-junyu/Awesome-Agent-Papers) ⭐2823🟡
+- [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](https://arxiv.org/abs/2503.21460) — *arXiv 2025* · 📈206。LLMエージェントを構築/協調/進化の3軸で方法論中心に整理した総説 — [`luo-junyu/Awesome-Agent-Papers`](https://github.com/luo-junyu/Awesome-Agent-Papers) ⭐2831🟡
 
 ### Cooperative MARL
 
-- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963) — *Applied Intelligence 2023* · 📈649。独立学習・価値分解・通信学習等5アプローチで協調MARLを整理
+- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963) — *Applied Intelligence 2023* · 📈650。独立学習・価値分解・通信学習等5アプローチで協調MARLを整理
 - [A Survey of Progress on Cooperative Multi-agent Reinforcement Learning in Open Environment](https://arxiv.org/abs/2312.01058) — *arXiv 2023* · 📈88。オープン環境での協調MARLの進展を整理した近年のサーベイ
 
 ### Emergent Communication
 
-- [A Survey of Multi-Agent Deep Reinforcement Learning with Communication](https://arxiv.org/abs/2203.08975) — *AAMAS (JAAMAS) 2024* · 📈326。DIAL/CommNet等の通信付きMARL 41モデルを設計次元で分類
+- [A Survey of Multi-Agent Deep Reinforcement Learning with Communication](https://arxiv.org/abs/2203.08975) — *AAMAS (JAAMAS) 2024* · 📈327。DIAL/CommNet等の通信付きMARL 41モデルを設計次元で分類
 
 ### GUI Agents
 
-- [GUI Agents: A Survey](https://arxiv.org/abs/2412.13501) — *ACL Findings 2024* · 📈109。GUIエージェントのアーキテクチャ・ベンチマークを整理した総説
-- [GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890) — *arXiv 2024* · 📈107。基盤モデルを用いたGUIエージェント/computer useを網羅したサーベイ
+- [GUI Agents: A Survey](https://arxiv.org/abs/2412.13501) — *ACL Findings 2024* · 📈110。GUIエージェントのアーキテクチャ・ベンチマークを整理した総説
+- [GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890) — *arXiv 2024* · 📈108。基盤モデルを用いたGUIエージェント/computer useを網羅したサーベイ
 
 ### Game Theory & Learning
 
@@ -1701,24 +1701,24 @@
 
 ### LLM Agent Memory
 
-- [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) — *arXiv 2024* · 📈711。LLMエージェントのメモリ機構の設計・評価を体系的に整理した総説
+- [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) — *arXiv 2024* · 📈724。LLMエージェントのメモリ機構の設計・評価を体系的に整理した総説
 
 ### MARL (deep)
 
-- [Deep Reinforcement Learning for Multi-Agent Systems: A Review of Challenges, Solutions and Applications](https://arxiv.org/abs/1812.11794) — *IEEE Transactions on Cybernetics 2020* · 📈1052。非定常性・部分観測等のMADRL課題と解決策・応用を整理したサーベイ
+- [Deep Reinforcement Learning for Multi-Agent Systems: A Review of Challenges, Solutions and Applications](https://arxiv.org/abs/1812.11794) — *IEEE Transactions on Cybernetics 2020* · 📈1056。非定常性・部分観測等のMADRL課題と解決策・応用を整理したサーベイ
 - [A Survey and Critique of Multiagent Deep Reinforcement Learning](https://arxiv.org/abs/1810.05587) — *AAMAS (JAAMAS) 2019* · 📈745。MARLと深層RLの構成要素を結びつけ実践指針を示した定番サーベイ
 
 ### MARL (general)
 
-- [Multi-Agent Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/abs/2312.10256) — *arXiv 2024* · 📈74。ゲーム理論と機械学習を結びつけMARLの課題を体系化した包括サーベイ
+- [Multi-Agent Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/abs/2312.10256) — *arXiv 2024* · 📈76。ゲーム理論と機械学習を結びつけMARLの課題を体系化した包括サーベイ
 
 ### MARL (theory)
 
-- [Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/abs/1911.10635) — *Handbook of RL and Control 2021* · 📈1722。理論的裏付けのあるMARLアルゴリズムを選択的に概観したサーベイ
+- [Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/abs/1911.10635) — *Handbook of RL and Control 2021* · 📈1728。理論的裏付けのあるMARLアルゴリズムを選択的に概観したサーベイ
 
 ### Multi-Agent Collaboration
 
-- [Multi-Agent Collaboration Mechanisms: A Survey of LLMs](https://arxiv.org/abs/2501.06322) — *arXiv 2025* · 📈548。LLMマルチエージェントの協調メカニズムを類型化したサーベイ
+- [Multi-Agent Collaboration Mechanisms: A Survey of LLMs](https://arxiv.org/abs/2501.06322) — *arXiv 2025* · 📈555。LLMマルチエージェントの協調メカニズムを類型化したサーベイ
 
 ### Multi-Agent Reinforcement Learning
 
@@ -1730,34 +1730,34 @@
 
 ### Tool Learning
 
-- [Tool Learning with Large Language Models: A Survey](https://arxiv.org/abs/2405.17935) — *arXiv 2024* · 📈314。LLMのツール学習の動機・手法・ベンチマークを体系化したサーベイ — [`quchangle1/LLM-Tool-Survey`](https://github.com/quchangle1/LLM-Tool-Survey) ⭐486🟡
+- [Tool Learning with Large Language Models: A Survey](https://arxiv.org/abs/2405.17935) — *arXiv 2024* · 📈320。LLMのツール学習の動機・手法・ベンチマークを体系化したサーベイ — [`quchangle1/LLM-Tool-Survey`](https://github.com/quchangle1/LLM-Tool-Survey) ⭐486🟡
 
 ### Web Agents
 
-- [A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models](https://arxiv.org/abs/2503.23350) — *arXiv 2025* · 📈124。大規模基盤モデルによるWeb自動化エージェントを体系化した総説
+- [A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models](https://arxiv.org/abs/2503.23350) — *arXiv 2025* · 📈125。大規模基盤モデルによるWeb自動化エージェントを体系化した総説
 
 ## 🕸️ グラフニューラルネット (GNN)
 
 ### Dynamic Graph Neural Networks
 
-- [A survey of dynamic graph neural networks](https://arxiv.org/abs/2404.18211) — *Frontiers of Computer Science 2024* · 📈125。時間情報の取り込み方で動的GNNを分類し最新モデルを概観したサーベイ。
+- [A survey of dynamic graph neural networks](https://arxiv.org/abs/2404.18211) — *Frontiers of Computer Science 2024* · 📈128。時間情報の取り込み方で動的GNNを分類し最新モデルを概観したサーベイ。
 
 ### Dynamic Graphs
 
-- [Representation Learning for Dynamic Graphs: A Survey](https://arxiv.org/abs/1905.11485) — *JMLR 2020* · 📈650。動的グラフ表現学習をエンコーダ・デコーダの枠組みで整理した定番サーベイ
-- [Graph Neural Networks for Temporal Graphs: State of the Art, Open Challenges, and Opportunities](https://arxiv.org/abs/2302.01018) — *TMLR 2023* · 📈120。時間発展グラフ向けGNNの最新動向と課題を整理した近年サーベイ
+- [Representation Learning for Dynamic Graphs: A Survey](https://arxiv.org/abs/1905.11485) — *JMLR 2020* · 📈654。動的グラフ表現学習をエンコーダ・デコーダの枠組みで整理した定番サーベイ
+- [Graph Neural Networks for Temporal Graphs: State of the Art, Open Challenges, and Opportunities](https://arxiv.org/abs/2302.01018) — *TMLR 2023* · 📈123。時間発展グラフ向けGNNの最新動向と課題を整理した近年サーベイ
 
 ### GNN Benchmark
 
-- [Benchmarking Graph Neural Networks](https://arxiv.org/abs/2003.00982) — *JMLR 2023* · 📈1239。中規模データセットで主要GNNを公平比較する定番ベンチマーク論文
+- [Benchmarking Graph Neural Networks](https://arxiv.org/abs/2003.00982) — *JMLR 2023* · 📈1240。中規模データセットで主要GNNを公平比較する定番ベンチマーク論文
 
 ### GNN Explainability
 
-- [Explainability in Graph Neural Networks: A Taxonomic Survey](https://arxiv.org/abs/2012.15445) — *IEEE TPAMI 2022* · 📈865。GNN説明可能性手法の統一的分類体系と評価指標を提示した定番サーベイ
+- [Explainability in Graph Neural Networks: A Taxonomic Survey](https://arxiv.org/abs/2012.15445) — *IEEE TPAMI 2022* · 📈875。GNN説明可能性手法の統一的分類体系と評価指標を提示した定番サーベイ
 
 ### GNN General
 
-- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434) — *AI Open 2020* · 📈7248。GNNの設計パイプラインと応用を体系化した高被引用レビュー
+- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434) — *AI Open 2020* · 📈7269。GNNの設計パイプラインと応用を体系化した高被引用レビュー
 
 ### GNN for NLP
 
@@ -1769,16 +1769,16 @@
 
 ### Graph Anomaly Detection
 
-- [Deep Graph Anomaly Detection: A Survey and New Perspectives](https://arxiv.org/abs/2409.09957) — *IEEE TKDE 2024* · 📈106。深層グラフ異常検知の新たな分類視点を提示した近年サーベイ
+- [Deep Graph Anomaly Detection: A Survey and New Perspectives](https://arxiv.org/abs/2409.09957) — *IEEE TKDE 2024* · 📈112。深層グラフ異常検知の新たな分類視点を提示した近年サーベイ
 
 ### Graph Condensation
 
-- [Graph Condensation: A Survey](https://arxiv.org/abs/2401.11720) — *arXiv preprint 2024* · 📈41。グラフ凝縮の最適化目標・生成戦略・応用を体系化したサーベイ(別系統の凝縮サーベイ)。
-- [A Survey on Graph Condensation](https://arxiv.org/abs/2402.02000) — *arXiv preprint 2024*。大規模グラフを小さく情報量の高いグラフへ凝縮するグラフ凝縮手法の定義と分類を与えたサーベイ。
+- [Graph Condensation: A Survey](https://arxiv.org/abs/2401.11720) — *arXiv preprint 2024* · 📈42。グラフ凝縮の最適化目標・生成戦略・応用を体系化したサーベイ(別系統の凝縮サーベイ)。
+- [A Survey on Graph Condensation](https://arxiv.org/abs/2402.02000) — *arXiv preprint 2024* · 📈13。大規模グラフを小さく情報量の高いグラフへ凝縮するグラフ凝縮手法の定義と分類を与えたサーベイ。
 
 ### Graph Contrastive Learning
 
-- [Towards Graph Contrastive Learning: A Survey and Beyond](https://arxiv.org/abs/2405.11868) — *arXiv 2024* · 📈71。グラフ対照学習をデータ拡張・対照モード・最適化目的の観点で網羅
+- [Towards Graph Contrastive Learning: A Survey and Beyond](https://arxiv.org/abs/2405.11868) — *arXiv 2024* · 📈73。グラフ対照学習をデータ拡張・対照モード・最適化目的の観点で網羅
 
 ### Graph Distribution Shift
 
@@ -1786,8 +1786,8 @@
 
 ### Graph Embedding
 
-- [A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications](https://arxiv.org/abs/1709.07604) — *IEEE TKDE 2018* · 📈1971。グラフ埋め込みの問題・手法・応用を体系化した高被引用の定番。
-- [Graph Embedding Techniques, Applications, and Performance: A Survey](https://arxiv.org/abs/1705.02801) — *Knowledge-Based Systems 2018* · 📈1821。グラフ埋め込み手法の性能比較を含む定番サーベイ。Cai版と並ぶ古典。
+- [A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications](https://arxiv.org/abs/1709.07604) — *IEEE TKDE 2018* · 📈1973。グラフ埋め込みの問題・手法・応用を体系化した高被引用の定番。
+- [Graph Embedding Techniques, Applications, and Performance: A Survey](https://arxiv.org/abs/1705.02801) — *Knowledge-Based Systems 2018* · 📈1825。グラフ埋め込み手法の性能比較を含む定番サーベイ。Cai版と並ぶ古典。
 
 ### Graph Generation
 
@@ -1799,7 +1799,7 @@
 
 ### Graph OOD Generalization / Adaptation
 
-- [A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation](https://arxiv.org/abs/2410.19265) — *arXiv preprint 2024* · 📈21。分布シフト下のグラフ学習をOOD汎化と訓練時/テスト時適応に分けて整理したサーベイ。 — [`kaize0409/Awesome-Graph-OOD`](https://github.com/kaize0409/Awesome-Graph-OOD) ⭐85🔴
+- [A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation](https://arxiv.org/abs/2410.19265) — *arXiv preprint 2024* · 📈22。分布シフト下のグラフ学習をOOD汎化と訓練時/テスト時適応に分けて整理したサーベイ。 — [`kaize0409/Awesome-Graph-OOD`](https://github.com/kaize0409/Awesome-Graph-OOD) ⭐85🔴
 
 ### Graph Pooling
 
@@ -1807,7 +1807,7 @@
 
 ### Graph Reduction
 
-- [A Comprehensive Survey on Graph Reduction: Sparsification, Coarsening, and Condensation](https://arxiv.org/abs/2402.03358) — *IJCAI 2024 2024*。スパース化・粗視化・凝縮を統一的に俯瞰したグラフ縮約のサーベイ(IJCAI 2024)。
+- [A Comprehensive Survey on Graph Reduction: Sparsification, Coarsening, and Condensation](https://arxiv.org/abs/2402.03358) — *IJCAI 2024 2024* · 📈114。スパース化・粗視化・凝縮を統一的に俯瞰したグラフ縮約のサーベイ(IJCAI 2024)。
 
 ### Graph Representation Learning
 
@@ -1815,13 +1815,13 @@
 
 ### Graph Self-Supervised Learning
 
-- [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111) — *IEEE TKDE 2022* · 📈769。グラフ自己教師あり学習の手法を生成・対照・予測で分類したサーベイ
-- [Self-Supervised Learning of Graph Neural Networks: A Unified Review](https://arxiv.org/abs/2102.10757) — *IEEE TPAMI 2022* · 📈414。GNNの自己教師あり学習を対照型・予測型に統一的に整理したレビュー
-- [Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive](https://arxiv.org/abs/2105.07342) — *IEEE TKDE 2023* · 📈340。グラフSSLを対照・生成・予測の3カテゴリで整理（コンパニオンawesomeリスト付） — [`LirongWu/awesome-graph-self-supervised-learning`](https://github.com/LirongWu/awesome-graph-self-supervised-learning) ⭐1438🔴
+- [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111) — *IEEE TKDE 2022* · 📈774。グラフ自己教師あり学習の手法を生成・対照・予測で分類したサーベイ
+- [Self-Supervised Learning of Graph Neural Networks: A Unified Review](https://arxiv.org/abs/2102.10757) — *IEEE TPAMI 2022* · 📈416。GNNの自己教師あり学習を対照型・予測型に統一的に整理したレビュー
+- [Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive](https://arxiv.org/abs/2105.07342) — *IEEE TKDE 2023* · 📈343。グラフSSLを対照・生成・予測の3カテゴリで整理（コンパニオンawesomeリスト付） — [`LirongWu/awesome-graph-self-supervised-learning`](https://github.com/LirongWu/awesome-graph-self-supervised-learning) ⭐1436🔴
 
 ### Graph Transformers
 
-- [Transformer for Graphs: An Overview from Architecture Perspective](https://arxiv.org/abs/2202.08455) — *arXiv 2022* · 📈215。グラフTransformerをアーキテクチャ観点で分類・比較したサーベイ
+- [Transformer for Graphs: An Overview from Architecture Perspective](https://arxiv.org/abs/2202.08455) — *arXiv 2022* · 📈216。グラフTransformerをアーキテクチャ観点で分類・比較したサーベイ
 
 ### Heterogeneous Graphs
 
@@ -1837,20 +1837,20 @@
 
 ### LLM for Graph Data Challenges
 
-- [A Survey of Large Language Models for Data Challenges in Graphs](https://arxiv.org/abs/2505.18475) — *arXiv preprint 2025* · 📈8。グラフの欠損・不均衡・異種性・動的不安定性をLLMで克服する研究を整理したサーベイ。 — [`limengran98/Awesome-Literature-Graph-Learning-Challenges`](https://github.com/limengran98/Awesome-Literature-Graph-Learning-Challenges) ⭐113🟡
+- [A Survey of Large Language Models for Data Challenges in Graphs](https://arxiv.org/abs/2505.18475) — *arXiv preprint 2025* · 📈9。グラフの欠損・不均衡・異種性・動的不安定性をLLMで克服する研究を整理したサーベイ。 — [`limengran98/Awesome-Literature-Graph-Learning-Challenges`](https://github.com/limengran98/Awesome-Literature-Graph-Learning-Challenges) ⭐113🟡
 
 ### Molecular / Drug Discovery
 
-- [Graph Neural Networks for the Prediction of Molecular Structure-Property Relationships](https://arxiv.org/abs/2208.04852) — *RSC (Machine Learning and Hybrid Modelling for Reaction Engineering) 2022* · 📈24。分子構造-物性予測のためのGNNを化学工学視点で解説したレビュー
+- [Graph Neural Networks for the Prediction of Molecular Structure-Property Relationships](https://arxiv.org/abs/2208.04852) — *RSC (Machine Learning and Hybrid Modelling for Reaction Engineering) 2022* · 📈25。分子構造-物性予測のためのGNNを化学工学視点で解説したレビュー
 - [A Survey of Graph Neural Networks for Drug Discovery: Recent Developments and Challenges](https://arxiv.org/abs/2509.07887) — *arXiv 2025* · 📈0。創薬向けGNNの最新動向（分子物性・DTI・DDI・新薬設計）を整理
 
 ### Scalable GNN
 
-- [A Comprehensive Survey on Distributed Training of Graph Neural Networks](https://arxiv.org/abs/2211.05368) — *Proceedings of the IEEE 2022* · 📈49。大規模グラフ向けGNN分散学習手法を網羅的に整理したサーベイ
+- [A Comprehensive Survey on Distributed Training of Graph Neural Networks](https://arxiv.org/abs/2211.05368) — *Proceedings of the IEEE 2022* · 📈50。大規模グラフ向けGNN分散学習手法を網羅的に整理したサーベイ
 
 ### Spatio-Temporal GNN
 
-- [A Systematic Literature Review of Spatio-Temporal Graph Neural Network Models for Time Series Forecasting and Classification](https://arxiv.org/abs/2410.22377) — *arXiv preprint 2024* · 📈33。時系列予測・分類のための時空間GNNモデルを366論文から体系的にレビュー。
+- [A Systematic Literature Review of Spatio-Temporal Graph Neural Network Models for Time Series Forecasting and Classification](https://arxiv.org/abs/2410.22377) — *arXiv preprint 2024* · 📈34。時系列予測・分類のための時空間GNNモデルを366論文から体系的にレビュー。
 
 ## 🔗 知識表現・知識グラフ
 
@@ -1864,25 +1864,25 @@
 
 ### Entity Alignment
 
-- [A Benchmark and Comprehensive Survey on Knowledge Graph Entity Alignment via Representation Learning](https://arxiv.org/abs/2103.15059) — *The VLDB Journal 2021*。表現学習による知識グラフのエンティティアラインメント手法のベンチマーク付き総覧。
+- [A Benchmark and Comprehensive Survey on Knowledge Graph Entity Alignment via Representation Learning](https://arxiv.org/abs/2103.15059) — *The VLDB Journal 2021* · 📈102。表現学習による知識グラフのエンティティアラインメント手法のベンチマーク付き総覧。
 
 ### Graph + LLM
 
-- [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) — *KDD 2024* · 📈155。グラフ向けLLM手法を分類したKDD24サーベイ（コンパニオンawesomeリスト付） — [`HKUDS/Awesome-LLM4Graph-Papers`](https://github.com/HKUDS/Awesome-LLM4Graph-Papers) ⭐370🟡
-- [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399) — *IJCAI 2024* · 📈120。LLMをenhancer/predictor/alignmentの役割で分類したサーベイ（awesomeリスト付） — [`yhLeeee/Awesome-LLMs-in-Graph-tasks`](https://github.com/yhLeeee/Awesome-LLMs-in-Graph-tasks) ⭐656🟡
+- [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) — *KDD 2024* · 📈156。グラフ向けLLM手法を分類したKDD24サーベイ（コンパニオンawesomeリスト付） — [`HKUDS/Awesome-LLM4Graph-Papers`](https://github.com/HKUDS/Awesome-LLM4Graph-Papers) ⭐370🟡
+- [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399) — *IJCAI 2024* · 📈121。LLMをenhancer/predictor/alignmentの役割で分類したサーベイ（awesomeリスト付） — [`yhLeeee/Awesome-LLMs-in-Graph-tasks`](https://github.com/yhLeeee/Awesome-LLMs-in-Graph-tasks) ⭐656🟡
 
 ### Graph Retrieval-Augmented Generation
 
-- [Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/abs/2408.08921) — *arXiv 2024*。知識グラフを用いたGraphRAGの手法を初めて包括的に整理したサーベイ。
+- [Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/abs/2408.08921) — *arXiv 2024* · 📈545。知識グラフを用いたGraphRAGの手法を初めて包括的に整理したサーベイ。
 
 ### Knowledge Base Question Answering
 
-- [Complex Knowledge Base Question Answering: A Survey](https://arxiv.org/abs/2108.06688) — *IEEE TKDE 2021*。複雑な質問に対するKBQAを意味解析型と情報検索型に分けて整理したサーベイ。
+- [Complex Knowledge Base Question Answering: A Survey](https://arxiv.org/abs/2108.06688) — *IEEE TKDE 2021* · 📈152。複雑な質問に対するKBQAを意味解析型と情報検索型に分けて整理したサーベイ。
 
 ### Knowledge Graph + LLM
 
-- [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://arxiv.org/abs/2306.08302) — *IEEE TKDE 2023* · 📈1684。LLMとKGの統合をKG強化LLM/LLM強化KG/協調の3視点で整理した定番ロードマップ — [`RManLuo/Awesome-LLM-KG`](https://github.com/RManLuo/Awesome-LLM-KG) ⭐2613🟡
-- [LLMs for Knowledge Graph Construction and Reasoning: Recent Capabilities and Future Opportunities](https://arxiv.org/abs/2305.13168) — *World Wide Web Journal 2023* · 📈300。LLMによるKG構築・推論の能力と課題を実験的に評価した論文
+- [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://arxiv.org/abs/2306.08302) — *IEEE TKDE 2023* · 📈1700。LLMとKGの統合をKG強化LLM/LLM強化KG/協調の3視点で整理した定番ロードマップ — [`RManLuo/Awesome-LLM-KG`](https://github.com/RManLuo/Awesome-LLM-KG) ⭐2613🟡
+- [LLMs for Knowledge Graph Construction and Reasoning: Recent Capabilities and Future Opportunities](https://arxiv.org/abs/2305.13168) — *World Wide Web Journal 2023* · 📈302。LLMによるKG構築・推論の能力と課題を実験的に評価した論文
 
 ### Knowledge Graph Completion
 
@@ -1890,31 +1890,31 @@
 
 ### Knowledge Graph Construction
 
-- [A Comprehensive Survey on Automatic Knowledge Graph Construction](https://arxiv.org/abs/2302.05019) — *ACM Computing Surveys 2023* · 📈365。300超の手法を整理した自動知識グラフ構築の包括的サーベイ。
+- [A Comprehensive Survey on Automatic Knowledge Graph Construction](https://arxiv.org/abs/2302.05019) — *ACM Computing Surveys 2023* · 📈372。300超の手法を整理した自動知識グラフ構築の包括的サーベイ。
 - [Construction of Knowledge Graphs: State and Challenges](https://arxiv.org/abs/2302.11509) — *arXiv 2023* · 📈84。高品質な知識グラフ構築の各工程と最新研究状況を328文献で総覧。
 
 ### Knowledge Graph Embedding
 
-- [A Review of Relational Machine Learning for Knowledge Graphs](https://arxiv.org/abs/1503.00759) — *Proceedings of the IEEE 2016* · 📈1762。知識グラフ向け関係機械学習（潜在変数・グラフ特徴）の古典的定番レビュー
+- [A Review of Relational Machine Learning for Knowledge Graphs](https://arxiv.org/abs/1503.00759) — *Proceedings of the IEEE 2016* · 📈1763。知識グラフ向け関係機械学習（潜在変数・グラフ特徴）の古典的定番レビュー
 - [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842) — *arXiv 2021* · 📈69。翻訳ベースから拡張ベースまでKG埋め込み手法と応用を整理したサーベイ
-- [A Survey on Knowledge Graph Structure and Knowledge Graph Embeddings](https://arxiv.org/abs/2412.10092) — *arXiv 2024*。KG埋め込みモデルとグラフ構造の関係を初めて包括的に整理したサーベイ。
-- [Negative Sampling in Knowledge Graph Representation Learning: A Review](https://arxiv.org/abs/2402.19195) — *arXiv 2024*。KG表現学習における負例サンプリング手法を体系的に整理したレビュー。
+- [Negative Sampling in Knowledge Graph Representation Learning: A Review](https://arxiv.org/abs/2402.19195) — *arXiv 2024* · 📈15。KG表現学習における負例サンプリング手法を体系的に整理したレビュー。
+- [A Survey on Knowledge Graph Structure and Knowledge Graph Embeddings](https://arxiv.org/abs/2412.10092) — *arXiv 2024* · 📈4。KG埋め込みモデルとグラフ構造の関係を初めて包括的に整理したサーベイ。
 
 ### Knowledge Graph General
 
-- [Knowledge Graphs](https://arxiv.org/abs/2003.02320) — *ACM Computing Surveys 2021* · 📈2709。知識グラフの定義・スキーマ・推論・品質を網羅した教科書的大著
+- [Knowledge Graphs](https://arxiv.org/abs/2003.02320) — *ACM Computing Surveys 2021* · 📈2743。知識グラフの定義・スキーマ・推論・品質を網羅した教科書的大著
 
 ### Knowledge Graph Question Answering
 
-- [Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities](https://arxiv.org/abs/2505.20099) — *arXiv 2025*。LLMと知識グラフを統合したKGQA手法を新たな分類体系で整理したサーベイ。
+- [Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities](https://arxiv.org/abs/2505.20099) — *arXiv 2025* · 📈47。LLMと知識グラフを統合したKGQA手法を新たな分類体系で整理したサーベイ。
 
 ### Knowledge Graph Reasoning
 
-- [A Survey of Knowledge Graph Reasoning on Graph Types: Static, Dynamic, and Multimodal](https://arxiv.org/abs/2212.05767) — *IEEE TPAMI 2022* · 📈323。静的・動的・マルチモーダルの観点で知識グラフ推論を整理したサーベイ
+- [A Survey of Knowledge Graph Reasoning on Graph Types: Static, Dynamic, and Multimodal](https://arxiv.org/abs/2212.05767) — *IEEE TPAMI 2022* · 📈326。静的・動的・マルチモーダルの観点で知識グラフ推論を整理したサーベイ
 
 ### LLM-based Knowledge Graph Construction
 
-- [LLM-empowered knowledge graph construction: A survey](https://arxiv.org/abs/2510.20345) — *arXiv 2025* · 📈23。LLMがオントロジー設計・知識抽出・知識融合の3層構築をどう変えるかを整理したサーベイ。
+- [LLM-empowered knowledge graph construction: A survey](https://arxiv.org/abs/2510.20345) — *arXiv 2025* · 📈26。LLMがオントロジー設計・知識抽出・知識融合の3層構築をどう変えるかを整理したサーベイ。
 
 ### Neural-Symbolic Reasoning
 
@@ -1922,15 +1922,15 @@
 
 ### Neurosymbolic AI
 
-- [From Statistical Relational to Neurosymbolic Artificial Intelligence: a Survey](https://arxiv.org/abs/2108.11451) — *Artificial Intelligence 2021* · 📈129。統計的関係学習からニューロシンボリックAIへの統合を整理したサーベイ
+- [From Statistical Relational to Neurosymbolic Artificial Intelligence: a Survey](https://arxiv.org/abs/2108.11451) — *Artificial Intelligence 2021* · 📈132。統計的関係学習からニューロシンボリックAIへの統合を整理したサーベイ
 
 ### Neurosymbolic Reasoning
 
-- [Neurosymbolic AI for Reasoning over Knowledge Graphs: A Survey](https://arxiv.org/abs/2302.07200) — *arXiv 2023* · 📈58。知識グラフ上のニューロシンボリック推論手法を新たな分類体系で整理したサーベイ。
+- [Neurosymbolic AI for Reasoning over Knowledge Graphs: A Survey](https://arxiv.org/abs/2302.07200) — *arXiv 2023* · 📈59。知識グラフ上のニューロシンボリック推論手法を新たな分類体系で整理したサーベイ。
 
 ### Ontology Embedding
 
-- [Ontology Embedding: A Survey of Methods, Applications and Resources](https://arxiv.org/abs/2406.10964) — *arXiv 2024*。オントロジー埋め込みの手法・応用・リソースを整理した初の包括サーベイ。
+- [Ontology Embedding: A Survey of Methods, Applications and Resources](https://arxiv.org/abs/2406.10964) — *arXiv 2024* · 📈33。オントロジー埋め込みの手法・応用・リソースを整理した初の包括サーベイ。
 
 ### Planning / RL for Optimization
 
@@ -1946,21 +1946,21 @@
 
 ### Temporal Knowledge Graph
 
-- [A Survey on Temporal Knowledge Graph: Representation Learning and Applications](https://arxiv.org/abs/2403.04782) — *arXiv 2024* · 📈65。時間的知識グラフの表現学習と応用を包括的にまとめたサーベイ。
+- [A Survey on Temporal Knowledge Graph: Representation Learning and Applications](https://arxiv.org/abs/2403.04782) — *arXiv 2024* · 📈68。時間的知識グラフの表現学習と応用を包括的にまとめたサーベイ。
 
 ### Temporal Knowledge Graph Completion
 
-- [A Survey on Temporal Knowledge Graph Completion: Taxonomy, Progress, and Prospects](https://arxiv.org/abs/2308.02457) — *arXiv 2023* · 📈44。時間的知識グラフ補完(TKGC)手法の分類・進展・展望を整理したサーベイ。
+- [A Survey on Temporal Knowledge Graph Completion: Taxonomy, Progress, and Prospects](https://arxiv.org/abs/2308.02457) — *arXiv 2023* · 📈43。時間的知識グラフ補完(TKGC)手法の分類・進展・展望を整理したサーベイ。
 
 ### Temporal Knowledge Graph Question Answering
 
-- [Temporal Knowledge Graph Question Answering: A Survey](https://arxiv.org/abs/2406.14191) — *arXiv 2024* · 📈19。時間的知識グラフ質問応答(TKGQA)を時間質問の分類と手法体系の2軸で整理したサーベイ。
+- [Temporal Knowledge Graph Question Answering: A Survey](https://arxiv.org/abs/2406.14191) — *arXiv 2024* · 📈20。時間的知識グラフ質問応答(TKGQA)を時間質問の分類と手法体系の2軸で整理したサーベイ。
 
 ## 🎯 因果推論
 
 ### Causal Discovery
 
-- [D'ya like DAGs? A Survey on Structure Learning and Causal Discovery](https://arxiv.org/abs/2103.02582) — *ACM Computing Surveys 2021* · 📈406。構造学習・因果発見手法を網羅的に整理した定番サーベイ
+- [D'ya like DAGs? A Survey on Structure Learning and Causal Discovery](https://arxiv.org/abs/2103.02582) — *ACM Computing Surveys 2021* · 📈407。構造学習・因果発見手法を網羅的に整理した定番サーベイ
 - [A Survey on Causal Discovery Methods for I.I.D. and Time Series Data](https://arxiv.org/abs/2303.15027) — *TMLR 2023* · 📈66。i.i.d.データと時系列データ双方の因果発見手法・ツールを整理した近年サーベイ
 
 ### Causal Generative Modeling
@@ -1969,15 +1969,15 @@
 
 ### Causal Inference
 
-- [A Survey on Causal Inference](https://arxiv.org/abs/2002.02770) — *ACM TKDD 2021* · 📈699。潜在的結果枠組みの因果推論手法を伝統的・ML手法で整理した定番サーベイ
+- [A Survey on Causal Inference](https://arxiv.org/abs/2002.02770) — *ACM TKDD 2021* · 📈700。潜在的結果枠組みの因果推論手法を伝統的・ML手法で整理した定番サーベイ
 
 ### Causal Machine Learning
 
-- [Causal Machine Learning: A Survey and Open Problems](https://arxiv.org/abs/2206.15475) — *arXiv 2022* · 📈177。因果機械学習を教師あり/生成/説明/公平性/強化学習の5系統に整理し未解決課題を提示したサーベイ
+- [Causal Machine Learning: A Survey and Open Problems](https://arxiv.org/abs/2206.15475) — *arXiv 2022* · 📈178。因果機械学習を教師あり/生成/説明/公平性/強化学習の5系統に整理し未解決課題を提示したサーベイ
 
 ### Causal Reinforcement Learning
 
-- [Causal Reinforcement Learning: A Survey](https://arxiv.org/abs/2307.01452) — *TMLR 2023* · 📈44。因果強化学習の手法をサンプル効率・汎化・転移・説明性・公平性の観点で体系化したサーベイ
+- [Causal Reinforcement Learning: A Survey](https://arxiv.org/abs/2307.01452) — *TMLR 2023* · 📈45。因果強化学習の手法をサンプル効率・汎化・転移・説明性・公平性の観点で体系化したサーベイ
 
 ### Causal Representation Learning
 
@@ -1989,7 +1989,7 @@
 
 ### Causality and Fairness
 
-- [Survey on Causal-based Machine Learning Fairness Notions](https://arxiv.org/abs/2010.09553) — *arXiv 2020* · 📈99。因果に基づく公平性概念を網羅し実世界シナリオでの適用可能性を因果のはしごで順位付けしたサーベイ
+- [Survey on Causal-based Machine Learning Fairness Notions](https://arxiv.org/abs/2010.09553) — *arXiv 2020* · 📈100。因果に基づく公平性概念を網羅し実世界シナリオでの適用可能性を因果のはしごで順位付けしたサーベイ
 
 ### Causality and LLM
 
@@ -1997,15 +1997,15 @@
 
 ### Causality and NLP
 
-- [Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond](https://arxiv.org/abs/2109.00725) — *TACL 2022* · 📈336。NLPにおける因果推論を推定・予測・解釈の観点で統一的に俯瞰した定番サーベイ
+- [Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond](https://arxiv.org/abs/2109.00725) — *TACL 2022* · 📈338。NLPにおける因果推論を推定・予測・解釈の観点で統一的に俯瞰した定番サーベイ
 
 ### Causality and Recommendation
 
-- [Causal Inference in Recommender Systems: A Survey and Future Directions](https://arxiv.org/abs/2208.12397) — *ACM TOIS 2022* · 📈172。推薦システムへの因果推論応用を3側面の課題分類で俯瞰し将来方向を示したサーベイ
+- [Causal Inference in Recommender Systems: A Survey and Future Directions](https://arxiv.org/abs/2208.12397) — *ACM TOIS 2022* · 📈174。推薦システムへの因果推論応用を3側面の課題分類で俯瞰し将来方向を示したサーベイ
 
 ### Counterfactual Explanations
 
-- [Robust Counterfactual Explanations in Machine Learning: A Survey](https://arxiv.org/abs/2402.01928) — *IJCAI 2024* · 📈47。頑健な反実仮想説明(robust CE)の研究を頑健性の形態別に分析したサーベイ
+- [Robust Counterfactual Explanations in Machine Learning: A Survey](https://arxiv.org/abs/2402.01928) — *IJCAI 2024* · 📈48。頑健な反実仮想説明(robust CE)の研究を頑健性の形態別に分析したサーベイ
 
 ### Treatment Effect Estimation
 
@@ -2016,7 +2016,7 @@
 
 ### EEG / Biosignal Deep Learning
 
-- [Deep learning-based electroencephalography analysis: a systematic review](https://arxiv.org/abs/1901.05498) — *Journal of Neural Engineering 2019* · 📈1400。EEGへの深層学習適用156編をてんかん・睡眠・BCI等の応用別に分析した定番の系統的レビュー
+- [Deep learning-based electroencephalography analysis: a systematic review](https://arxiv.org/abs/1901.05498) — *Journal of Neural Engineering 2019* · 📈1408。EEGへの深層学習適用156編をてんかん・睡眠・BCI等の応用別に分析した定番の系統的レビュー
 - [Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics](https://arxiv.org/abs/2502.17213) — *arXiv 2025* · 📈9。EEG/iEEGの深層学習を7種の神経疾患診断にわたり46データセットで体系化した最新レビュー
 
 ### Financial Time Series
@@ -2025,23 +2025,23 @@
 
 ### Graph Time Series
 
-- [A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection](https://arxiv.org/abs/2307.03759) — *IEEE TPAMI 2024* · 📈524。予測・分類・補完・異常検知の4次元でグラフニューラルネット×時系列(GNN4TS)を俯瞰したサーベイ
+- [A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection](https://arxiv.org/abs/2307.03759) — *IEEE TPAMI 2024* · 📈530。予測・分類・補完・異常検知の4次元でグラフニューラルネット×時系列(GNN4TS)を俯瞰したサーベイ
 
 ### Human Activity Recognition (HAR)
 
-- [Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities](https://arxiv.org/abs/2001.07416) — *ACM Computing Surveys 2020* · 📈876。センサーベース人間活動認識(HAR)の深層学習手法を課題別の分類体系で整理した定番サーベイ
+- [Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities](https://arxiv.org/abs/2001.07416) — *ACM Computing Surveys 2020* · 📈878。センサーベース人間活動認識(HAR)の深層学習手法を課題別の分類体系で整理した定番サーベイ
 
 ### Irregular Time Series
 
-- [A Survey on Principles, Models and Methods for Learning from Irregularly Sampled Time Series](https://arxiv.org/abs/2012.00168) — *arXiv 2020* · 📈69。不規則サンプリング時系列からの学習を3つのデータ表現と5つのモデリング基本要素で整理したサーベイ
+- [A Survey on Principles, Models and Methods for Learning from Irregularly Sampled Time Series](https://arxiv.org/abs/2012.00168) — *arXiv 2020* · 📈71。不規則サンプリング時系列からの学習を3つのデータ表現と5つのモデリング基本要素で整理したサーベイ
 
 ### Spatio-Temporal Forecasting
 
-- [Spatio-Temporal Graph Neural Networks: A Survey](https://arxiv.org/abs/2301.10569) — *arXiv 2023* · 📈62。時空間グラフニューラルネットの手法・応用・課題を整理したサーベイ
+- [Spatio-Temporal Graph Neural Networks: A Survey](https://arxiv.org/abs/2301.10569) — *arXiv 2023* · 📈63。時空間グラフニューラルネットの手法・応用・課題を整理したサーベイ
 
 ### Time Series Anomaly Detection
 
-- [Dive into Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/abs/2412.20512) — *arXiv 2024* · 📈42。時系列異常検知の10年間の研究をプロセス中心の分類体系で整理しメタ分析したレビュー
+- [Dive into Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/abs/2412.20512) — *arXiv 2024* · 📈43。時系列異常検知の10年間の研究をプロセス中心の分類体系で整理しメタ分析したレビュー
 
 ### Time Series Clustering
 
@@ -2049,75 +2049,75 @@
 
 ### Time Series Forecasting
 
-- [Time Series Forecasting With Deep Learning: A Survey](https://arxiv.org/abs/2004.13408) — *Phil. Trans. R. Soc. A 2020* · 📈2069。深層学習による時系列予測（1段/多段・確率的予測）を整理した定番サーベイ
-- [Transformers in Time Series: A Survey](https://arxiv.org/abs/2202.07125) — *IJCAI 2023* · 📈1609。時系列Transformerを予測・異常検知・分類で整理した定番サーベイ（リスト付） — [`qingsongedu/time-series-transformers-review`](https://github.com/qingsongedu/time-series-transformers-review) ⭐3000🔴
-- [A Comprehensive Survey of Deep Learning for Time Series Forecasting: Architectural Diversity and Open Challenges](https://arxiv.org/abs/2411.05793) — *Artificial Intelligence Review 2024* · 📈112。MLP/CNN/RNN/GNN/Transformer/拡散/基盤モデル/Mambaを比較した網羅的サーベイ
+- [Time Series Forecasting With Deep Learning: A Survey](https://arxiv.org/abs/2004.13408) — *Phil. Trans. R. Soc. A 2020* · 📈2078。深層学習による時系列予測（1段/多段・確率的予測）を整理した定番サーベイ
+- [Transformers in Time Series: A Survey](https://arxiv.org/abs/2202.07125) — *IJCAI 2023* · 📈1624。時系列Transformerを予測・異常検知・分類で整理した定番サーベイ（リスト付） — [`qingsongedu/time-series-transformers-review`](https://github.com/qingsongedu/time-series-transformers-review) ⭐3001🔴
+- [A Comprehensive Survey of Deep Learning for Time Series Forecasting: Architectural Diversity and Open Challenges](https://arxiv.org/abs/2411.05793) — *Artificial Intelligence Review 2024* · 📈116。MLP/CNN/RNN/GNN/Transformer/拡散/基盤モデル/Mambaを比較した網羅的サーベイ
 
 ### Time Series Foundation Models
 
-- [Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735) — *KDD 2024* · 📈463。時系列解析向け基盤モデルの設計・事前学習・応用を解説したKDD24チュートリアル
-- [A Survey of Deep Learning and Foundation Models for Time Series Forecasting](https://arxiv.org/abs/2401.13912) — *arXiv 2024* · 📈83。深層学習と基盤モデルによる時系列予測を知識・言語モデルの観点で整理
-- [Empowering Time Series Analysis with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2405.02358) — *arXiv 2024* · 📈32。他モダリティ事前学習モデルの時系列適応を網羅的に整理したサーベイ
+- [Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735) — *KDD 2024* · 📈468。時系列解析向け基盤モデルの設計・事前学習・応用を解説したKDD24チュートリアル
+- [A Survey of Deep Learning and Foundation Models for Time Series Forecasting](https://arxiv.org/abs/2401.13912) — *arXiv 2024* · 📈84。深層学習と基盤モデルによる時系列予測を知識・言語モデルの観点で整理
+- [Empowering Time Series Analysis with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2405.02358) — *arXiv 2024* · 📈33。他モダリティ事前学習モデルの時系列適応を網羅的に整理したサーベイ
 
 ### Time Series Imputation
 
-- [Deep Learning for Multivariate Time Series Imputation: A Survey](https://arxiv.org/abs/2402.04059) — *IJCAI 2024* · 📈151。多変量時系列補完(MTSI)の深層学習手法を予測型/生成型の分類体系で整理したサーベイ
+- [Deep Learning for Multivariate Time Series Imputation: A Survey](https://arxiv.org/abs/2402.04059) — *IJCAI 2024* · 📈154。多変量時系列補完(MTSI)の深層学習手法を予測型/生成型の分類体系で整理したサーベイ
 
 ### Time Series Representation Learning
 
-- [Self-Supervised Learning for Time Series Analysis: Taxonomy, Progress, and Prospects](https://arxiv.org/abs/2306.10125) — *IEEE TPAMI 2023* · 📈276。時系列SSLを生成・対照・敵対的に分類し10サブカテゴリで整理したサーベイ — [`qingsongedu/Awesome-SSL4TS`](https://github.com/qingsongedu/Awesome-SSL4TS) ⭐382🔴
+- [Self-Supervised Learning for Time Series Analysis: Taxonomy, Progress, and Prospects](https://arxiv.org/abs/2306.10125) — *IEEE TPAMI 2023* · 📈279。時系列SSLを生成・対照・敵対的に分類し10サブカテゴリで整理したサーベイ — [`qingsongedu/Awesome-SSL4TS`](https://github.com/qingsongedu/Awesome-SSL4TS) ⭐382🔴
 - [Universal Time-Series Representation Learning: A Survey](https://arxiv.org/abs/2401.03717) — *ACM Computing Surveys 2024* · 📈49。汎用時系列表現学習の手法を3要素の新分類体系で整理したサーベイ
 
 ### Time Series x LLM
 
-- [Large Language Models for Time Series: A Survey](https://arxiv.org/abs/2402.01801) — *IJCAI 2024* · 📈184。LLMを時系列解析に活用する手法(プロンプト・量子化・整列・視覚橋渡し等)を分類したサーベイ — [`xiyuanzh/awesome-llm-time-series`](https://github.com/xiyuanzh/awesome-llm-time-series) ⭐520🔴
+- [Large Language Models for Time Series: A Survey](https://arxiv.org/abs/2402.01801) — *IJCAI 2024* · 📈185。LLMを時系列解析に活用する手法(プロンプト・量子化・整列・視覚橋渡し等)を分類したサーベイ — [`xiyuanzh/awesome-llm-time-series`](https://github.com/xiyuanzh/awesome-llm-time-series) ⭐519🔴
 
 ### Traffic Forecasting
 
-- [STG4Traffic: A Survey and Benchmark of Spatial-Temporal Graph Neural Networks for Traffic Prediction](https://arxiv.org/abs/2307.00495) — *arXiv 2023* · 📈18。交通予測向け時空間GNNのサーベイ兼ベンチマーク（コンパニオンリスト付） — [`jwwthu/GNN4Traffic`](https://github.com/jwwthu/GNN4Traffic) ⭐1214🔴
+- [STG4Traffic: A Survey and Benchmark of Spatial-Temporal Graph Neural Networks for Traffic Prediction](https://arxiv.org/abs/2307.00495) — *arXiv 2023* · 📈19。交通予測向け時空間GNNのサーベイ兼ベンチマーク（コンパニオンリスト付） — [`jwwthu/GNN4Traffic`](https://github.com/jwwthu/GNN4Traffic) ⭐1212🔴
 
 ## ⛏️ データマイニング
 
 ### Anomaly Detection
 
-- [Deep Learning for Anomaly Detection: A Survey](https://arxiv.org/abs/1901.03407) — *arXiv 2019* · 📈1887。深層異常検知の初期定番サーベイ。被引用数千超で未収録だった。
-- [A Unifying Review of Deep and Shallow Anomaly Detection](https://arxiv.org/abs/2009.11732) — *Proceedings of the IEEE 2021*。深層・浅層の異常検知手法を統一的枠組みで整理した定番レビュー
+- [Deep Learning for Anomaly Detection: A Survey](https://arxiv.org/abs/1901.03407) — *arXiv 2019* · 📈1895。深層異常検知の初期定番サーベイ。被引用数千超で未収録だった。
+- [A Unifying Review of Deep and Shallow Anomaly Detection](https://arxiv.org/abs/2009.11732) — *Proceedings of the IEEE 2021* · 📈1097。深層・浅層の異常検知手法を統一的枠組みで整理した定番レビュー
 - [Anomaly Detection: A Survey](https://doi.org/10.1145/1541880.1541882) — *ACM Computing Surveys 2009*。異常検知研究の体系を確立した古典的サーベイ(被引用1万超)
 
 ### Clustering
 
-- [A Comprehensive Survey on Deep Clustering: Taxonomy, Challenges, and Future Directions](https://arxiv.org/abs/2206.07579) — *ACM Computing Surveys 2024*。深層クラスタリングの分類体系と課題・将来方向を整理
+- [A Comprehensive Survey on Deep Clustering: Taxonomy, Challenges, and Future Directions](https://arxiv.org/abs/2206.07579) — *ACM Computing Surveys 2024* · 📈229。深層クラスタリングの分類体系と課題・将来方向を整理
 
 ### Concept Drift
 
-- [Concept Drift Adaptation in Text Stream Mining Settings: A Systematic Review](https://arxiv.org/abs/2312.02901) — *ACM TIST 2024*。テキストストリームにおける概念ドリフト適応を48文献で整理した体系的レビュー。
+- [Concept Drift Adaptation in Text Stream Mining Settings: A Systematic Review](https://arxiv.org/abs/2312.02901) — *ACM TIST 2024* · 📈17。テキストストリームにおける概念ドリフト適応を48文献で整理した体系的レビュー。
 
 ### Educational Data Mining
 
-- [Educational data mining and learning analytics: An updated survey](https://arxiv.org/abs/2402.07956) — *WIREs Data Mining and Knowledge Discovery 2024*。教育データマイニングと学習分析の最新動向を2013年版から更新したサーベイ。
-- [A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining](https://arxiv.org/abs/2309.04761) — *arXiv 2023*。知識追跡・行動検出・成績予測・推薦の4場面での教育データマイニング深層学習を整理。
+- [Educational data mining and learning analytics: An updated survey](https://arxiv.org/abs/2402.07956) — *WIREs Data Mining and Knowledge Discovery 2024* · 📈1007。教育データマイニングと学習分析の最新動向を2013年版から更新したサーベイ。
+- [A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining](https://arxiv.org/abs/2309.04761) — *arXiv 2023* · 📈66。知識追跡・行動検出・成績予測・推薦の4場面での教育データマイニング深層学習を整理。
 
 ### Explainable Anomaly Detection
 
-- [A Survey on Explainable Anomaly Detection](https://arxiv.org/abs/2210.06959) — *ACM TKDD 2022*。説明可能な異常検知手法を分類体系付きで包括的に整理したサーベイ。
+- [A Survey on Explainable Anomaly Detection](https://arxiv.org/abs/2210.06959) — *ACM TKDD 2022* · 📈203。説明可能な異常検知手法を分類体系付きで包括的に整理したサーベイ。
 
 ### Frequent Pattern Mining
 
-- [A Survey of Parallel Sequential Pattern Mining](https://arxiv.org/abs/1805.10515) — *ACM TKDD 2019*。並列系列パターンマイニングの手法とフレームワークを概観
+- [A Survey of Parallel Sequential Pattern Mining](https://arxiv.org/abs/1805.10515) — *ACM TKDD 2019* · 📈259。並列系列パターンマイニングの手法とフレームワークを概観
 
 ### Graph Anomaly Detection
 
-- [A Comprehensive Survey on Graph Anomaly Detection with Deep Learning](https://arxiv.org/abs/2106.07178) — *IEEE TKDE 2023* · 📈846。グラフ上の深層異常検知をワンストップで整理した包括サーベイ
-- [Graph Anomaly Detection in Time Series: A Survey](https://arxiv.org/abs/2302.00058) — *IEEE TPAMI 2023*。時系列に対するグラフベース異常検知(G-TSAD)を包括的に整理したサーベイ。
+- [A Comprehensive Survey on Graph Anomaly Detection with Deep Learning](https://arxiv.org/abs/2106.07178) — *IEEE TKDE 2023* · 📈855。グラフ上の深層異常検知をワンストップで整理した包括サーベイ
+- [Graph Anomaly Detection in Time Series: A Survey](https://arxiv.org/abs/2302.00058) — *IEEE TPAMI 2023* · 📈42。時系列に対するグラフベース異常検知(G-TSAD)を包括的に整理したサーベイ。
 
 ### Graph Mining
 
-- [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596) — *IEEE TNNLS 2021*。GNNを4分類で体系化した最も引用される定番サーベイ
+- [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596) — *IEEE TNNLS 2021* · 📈11816。GNNを4分類で体系化した最も引用される定番サーベイ
 
 ### Graph Representation Learning
 
-- [A Comprehensive Survey on Deep Graph Representation Learning](https://arxiv.org/abs/2304.05055) — *Neural Networks 2024* · 📈344。深層グラフ表現学習の最新手法を体系的に総覧
-- [A Survey on Graph Representation Learning Methods](https://arxiv.org/abs/2204.01855) — *ACM TIST 2024* · 📈254。グラフ表現学習の非GNN/GNN手法を網羅的に整理
+- [A Comprehensive Survey on Deep Graph Representation Learning](https://arxiv.org/abs/2304.05055) — *Neural Networks 2024* · 📈349。深層グラフ表現学習の最新手法を体系的に総覧
+- [A Survey on Graph Representation Learning Methods](https://arxiv.org/abs/2204.01855) — *ACM TIST 2024* · 📈258。グラフ表現学習の非GNN/GNN手法を網羅的に整理
 
 ### Heterogeneous Information Networks
 
@@ -2130,7 +2130,7 @@
 
 ### LLM and Graphs
 
-- [Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783) — *IEEE TKDE 2024* · 📈335。グラフデータへのLLM適用シナリオを網羅的に整理 — [`PeterGriffinJin/Awesome-Language-Model-on-Graphs`](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs) ⭐997🟡
+- [Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783) — *IEEE TKDE 2024* · 📈339。グラフデータへのLLM適用シナリオを網羅的に整理 — [`PeterGriffinJin/Awesome-Language-Model-on-Graphs`](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs) ⭐997🟡
 
 ### Outlier Detection
 
@@ -2138,17 +2138,17 @@
 
 ### Process Mining
 
-- [Advances in Process Optimization: A Comprehensive Survey of Process Mining, Predictive Process Monitoring, and Process-Aware Recommender Systems](https://arxiv.org/abs/2301.10398) — *arXiv 2023*。プロセスマイニング・予測的プロセス監視・プロセス対応推薦を包括的に整理したサーベイ。
-- [Deep Learning for Predictive Business Process Monitoring: Review and Benchmark](https://arxiv.org/abs/2009.13251) — *IEEE TSC 2020*。予測的ビジネスプロセス監視の深層学習10手法を12ログで比較したレビュー兼ベンチマーク。
+- [Deep Learning for Predictive Business Process Monitoring: Review and Benchmark](https://arxiv.org/abs/2009.13251) — *IEEE TSC 2020* · 📈136。予測的ビジネスプロセス監視の深層学習10手法を12ログで比較したレビュー兼ベンチマーク。
+- [Advances in Process Optimization: A Comprehensive Survey of Process Mining, Predictive Process Monitoring, and Process-Aware Recommender Systems](https://arxiv.org/abs/2301.10398) — *arXiv 2023* · 📈2。プロセスマイニング・予測的プロセス監視・プロセス対応推薦を包括的に整理したサーベイ。
 
 ### Social Mining
 
-- [Influence Maximization in Social Networks: A Survey](https://arxiv.org/abs/2309.04668) — *arXiv 2023*。ソーシャルネットワークにおける影響最大化問題の拡散モデルとアルゴリズムを整理したサーベイ。
-- [Automatic Rumor Detection on Microblogs: A Survey](https://arxiv.org/abs/1807.03505) — *arXiv 2018*。マイクロブログ上の自動デマ検出を特徴量・伝播・ニューラルの3系統で整理したサーベイ。
+- [Automatic Rumor Detection on Microblogs: A Survey](https://arxiv.org/abs/1807.03505) — *arXiv 2018* · 📈92。マイクロブログ上の自動デマ検出を特徴量・伝播・ニューラルの3系統で整理したサーベイ。
+- [Influence Maximization in Social Networks: A Survey](https://arxiv.org/abs/2309.04668) — *arXiv 2023* · 📈11。ソーシャルネットワークにおける影響最大化問題の拡散モデルとアルゴリズムを整理したサーベイ。
 
 ### Spatiotemporal Data Mining
 
-- [Spatiotemporal Data Mining: A Survey](https://arxiv.org/abs/2206.12753) — *arXiv 2022*。時空間データマイニング手法を6つの出力パターン族と並列定式化で整理したサーベイ。
+- [Spatiotemporal Data Mining: A Survey](https://arxiv.org/abs/2206.12753) — *arXiv 2022* · 📈10。時空間データマイニング手法を6つの出力パターン族と並列定式化で整理したサーベイ。
 
 ### Stream Mining
 
@@ -2156,26 +2156,26 @@
 
 ### Text Mining
 
-- [A Brief Survey of Text Mining: Classification, Clustering and Extraction Techniques](https://arxiv.org/abs/1707.02919) — *arXiv 2017*。テキストマイニングの分類・クラスタリング・抽出技術を概観したサーベイ。
+- [A Brief Survey of Text Mining: Classification, Clustering and Extraction Techniques](https://arxiv.org/abs/1707.02919) — *arXiv 2017* · 📈568。テキストマイニングの分類・クラスタリング・抽出技術を概観したサーベイ。
 
 ### Time Series Anomaly Detection
 
-- [Deep Learning for Time Series Anomaly Detection: A Survey](https://arxiv.org/abs/2211.05244) — *ACM Computing Surveys 2024*。時系列異常検知の深層モデルを体系的に分類した近年の包括サーベイ
+- [Deep Learning for Time Series Anomaly Detection: A Survey](https://arxiv.org/abs/2211.05244) — *ACM Computing Surveys 2024* · 📈704。時系列異常検知の深層モデルを体系的に分類した近年の包括サーベイ
 
 ### Time Series Mining
 
-- [Deep Learning for Time Series Classification: A Review](https://arxiv.org/abs/1809.04356) — *Data Mining and Knowledge Discovery 2019* · 📈3376。時系列分類の深層アーキテクチャを大規模実証評価した定番レビュー
-- [Deep Learning for Time Series Classification and Extrinsic Regression: A Current Survey](https://arxiv.org/abs/2302.02515) — *ACM Computing Surveys 2024* · 📈306。時系列分類・回帰の深層手法を最新状況まで整理
+- [Deep Learning for Time Series Classification: A Review](https://arxiv.org/abs/1809.04356) — *Data Mining and Knowledge Discovery 2019* · 📈3377。時系列分類の深層アーキテクチャを大規模実証評価した定番レビュー
+- [Deep Learning for Time Series Classification and Extrinsic Regression: A Current Survey](https://arxiv.org/abs/2302.02515) — *ACM Computing Surveys 2024* · 📈312。時系列分類・回帰の深層手法を最新状況まで整理
 
 ## 🗄️ データベース・データ管理
 
 ### Approximate Nearest Neighbor Search
 
-- [A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search](https://arxiv.org/abs/2101.12631) — *PVLDB 2021* · 📈389。13のグラフベースANNS手法を統一分類・実験比較した定番サーベイ — [`Lsyhprum/WEAVESS`](https://github.com/Lsyhprum/WEAVESS) ⭐81🔴
+- [A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search](https://arxiv.org/abs/2101.12631) — *PVLDB 2021* · 📈393。13のグラフベースANNS手法を統一分類・実験比較した定番サーベイ — [`Lsyhprum/WEAVESS`](https://github.com/Lsyhprum/WEAVESS) ⭐81🔴
 
 ### Cardinality Estimation
 
-- [Are We Ready For Learned Cardinality Estimation?](https://arxiv.org/abs/2012.06743) — *VLDB 2021*。学習型カーディナリティ推定5手法と従来8手法を比較した実験的サーベイ。
+- [Are We Ready For Learned Cardinality Estimation?](https://arxiv.org/abs/2012.06743) — *VLDB 2021* · 📈163。学習型カーディナリティ推定5手法と従来8手法を比較した実験的サーベイ。
 
 ### Cloud and Serverless
 
@@ -2187,7 +2187,7 @@
 
 ### Data Lake
 
-- [Data Lakes: A Survey of Functions and Systems](https://arxiv.org/abs/2106.09592) — *IEEE TKDE 2021*。データレイクの発展・アーキテクチャ・システムを整理したサーベイ。
+- [Data Lakes: A Survey of Functions and Systems](https://arxiv.org/abs/2106.09592) — *IEEE TKDE 2021* · 📈123。データレイクの発展・アーキテクチャ・システムを整理したサーベイ。
 
 ### Data Pricing
 
@@ -2195,7 +2195,7 @@
 
 ### Entity Matching
 
-- [Neural Networks for Entity Matching: A Survey](https://arxiv.org/abs/2010.11075) — *ACM TKDD 2021*。ニューラルネットワークによるエンティティマッチング手法を工程別に整理したサーベイ。
+- [Neural Networks for Entity Matching: A Survey](https://arxiv.org/abs/2010.11075) — *ACM TKDD 2021* · 📈151。ニューラルネットワークによるエンティティマッチング手法を工程別に整理したサーベイ。
 
 ### Entity Resolution
 
@@ -2203,54 +2203,54 @@
 
 ### Learned Index
 
-- [A Survey of Learned Indexes for the Multi-dimensional Space](https://arxiv.org/abs/2403.06456) — *arXiv 2024* · 📈31。多次元空間向け学習型インデックスを分類整理したサーベイ
-- [How Good Are Multi-dimensional Learned Indices? An Experimental Survey](https://arxiv.org/abs/2405.05536) — *arXiv 2024*。6種の多次元学習型索引を統一環境で比較評価した実験的サーベイ。
+- [A Survey of Learned Indexes for the Multi-dimensional Space](https://arxiv.org/abs/2403.06456) — *arXiv 2024* · 📈32。多次元空間向け学習型インデックスを分類整理したサーベイ
+- [How Good Are Multi-dimensional Learned Indices? An Experimental Survey](https://arxiv.org/abs/2405.05536) — *arXiv 2024* · 📈8。6種の多次元学習型索引を統一環境で比較評価した実験的サーベイ。
 
 ### ML for Query Optimization
 
-- [A Survey on Advancing the DBMS Query Optimizer: Cardinality, Cost Model, and Plan Enumeration](https://arxiv.org/abs/2101.01507) — *Data Science and Engineering 2021* · 📈121。学習型のカーディナリティ推定・コストモデル・プラン列挙を概観
+- [A Survey on Advancing the DBMS Query Optimizer: Cardinality, Cost Model, and Plan Enumeration](https://arxiv.org/abs/2101.01507) — *Data Science and Engineering 2021* · 📈122。学習型のカーディナリティ推定・コストモデル・プラン列挙を概観
 
 ### Text-to-SQL
 
-- [Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL](https://arxiv.org/abs/2406.08426) — *arXiv 2024*。LLMベースのText-to-SQL研究を包括的にレビューしたサーベイ。
-- [A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions](https://arxiv.org/abs/2208.13629) — *arXiv 2022*。深層学習によるText-to-SQL構文解析の概念・手法・将来方向を整理したサーベイ。
-- [Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey](https://arxiv.org/abs/2208.04415) — *arXiv 2022*。24のニューラルモデルと11データセットを整理したText-to-SQLサーベイ。
+- [Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL](https://arxiv.org/abs/2406.08426) — *arXiv 2024* · 📈267。LLMベースのText-to-SQL研究を包括的にレビューしたサーベイ。
+- [A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions](https://arxiv.org/abs/2208.13629) — *arXiv 2022* · 📈104。深層学習によるText-to-SQL構文解析の概念・手法・将来方向を整理したサーベイ。
+- [Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey](https://arxiv.org/abs/2208.04415) — *arXiv 2022* · 📈27。24のニューラルモデルと11データセットを整理したText-to-SQLサーベイ。
 
 ### Time Series Database
 
-- [Time Series Management Systems: A Survey](https://arxiv.org/abs/1710.01077) — *IEEE TKDE 2017*。時系列管理システム(TSMS)の保存・問い合わせ・ストリーム処理機能を分類した総覧。
+- [Time Series Management Systems: A Survey](https://arxiv.org/abs/1710.01077) — *IEEE TKDE 2017* · 📈210。時系列管理システム(TSMS)の保存・問い合わせ・ストリーム処理機能を分類した総覧。
 
 ### Vector Database
 
-- [Survey of Vector Database Management Systems](https://arxiv.org/abs/2310.14021) — *The VLDB Journal 2024* · 📈206。20超の商用ベクトルDBの記憶・索引戦略を整理した包括サーベイ
-- [A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge](https://arxiv.org/abs/2310.11703) — *arXiv 2023*。ベクトルDBの保存・検索技術と課題を体系的にまとめたサーベイ。
+- [Survey of Vector Database Management Systems](https://arxiv.org/abs/2310.14021) — *The VLDB Journal 2024* · 📈207。20超の商用ベクトルDBの記憶・索引戦略を整理した包括サーベイ
+- [A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge](https://arxiv.org/abs/2310.11703) — *arXiv 2023* · 📈137。ベクトルDBの保存・検索技術と課題を体系的にまとめたサーベイ。
 
 ## 🔍 情報検索 (IR)
 
 ### Conversational Search
 
 - [Conversational Information Seeking](https://arxiv.org/abs/2201.08808) — *Foundations and Trends in Information Retrieval 2023* · 📈142。対話的情報探索の定義・設計・評価を網羅した包括的モノグラフ
-- [A Survey of Conversational Search](https://arxiv.org/abs/2410.15576) — *ACM TOIS 2025* · 📈68。クエリ再定式化・明確化・検索・応答生成と LLM 統合を網羅した会話検索サーベイ
+- [A Survey of Conversational Search](https://arxiv.org/abs/2410.15576) — *ACM TOIS 2025* · 📈69。クエリ再定式化・明確化・検索・応答生成と LLM 統合を網羅した会話検索サーベイ
 
 ### Cross-Lingual IR
 
-- [Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval with Multilingual LLMs](https://arxiv.org/abs/2510.00908) — *arXiv 2025*。翻訳ベースから埋め込み・生成型まで多言語LLMによるクロスリンガルIRを概観したサーベイ。
+- [Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval with Multilingual LLMs](https://arxiv.org/abs/2510.00908) — *arXiv 2025* · 📈9。翻訳ベースから埋め込み・生成型まで多言語LLMによるクロスリンガルIRを概観したサーベイ。
 
 ### Cross-modal Retrieval
 
-- [A Comprehensive Survey on Cross-modal Retrieval](https://arxiv.org/abs/1607.06215) — *arXiv 2016*。クロスモーダル検索を実数値表現学習と二値表現学習に分けて整理したサーベイ。
+- [A Comprehensive Survey on Cross-modal Retrieval](https://arxiv.org/abs/1607.06215) — *arXiv 2016* · 📈332。クロスモーダル検索を実数値表現学習と二値表現学習に分けて整理したサーベイ。
 
 ### Dense Retrieval
 
-- [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/abs/2211.14876) — *ACM TOIS 2024* · 📈335。アーキテクチャ・学習・索引・統合の4軸でdense retrievalを整理 — [`RUCAIBox/DenseRetrieval`](https://github.com/RUCAIBox/DenseRetrieval) ⭐221🔴
+- [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/abs/2211.14876) — *ACM TOIS 2024* · 📈337。アーキテクチャ・学習・索引・統合の4軸でdense retrievalを整理 — [`RUCAIBox/DenseRetrieval`](https://github.com/RUCAIBox/DenseRetrieval) ⭐221🔴
 
 ### Explainable IR
 
-- [Explainable Information Retrieval: A Survey](https://arxiv.org/abs/2211.02405) — *arXiv 2022*。説明可能な情報検索手法を統一的枠組みで分類・整理したサーベイ。
+- [Explainable Information Retrieval: A Survey](https://arxiv.org/abs/2211.02405) — *arXiv 2022* · 📈41。説明可能な情報検索手法を統一的枠組みで分類・整理したサーベイ。
 
 ### Generative Retrieval
 
-- [A Survey of Generative Information Retrieval](https://arxiv.org/abs/2406.01197) — *ACM TOIS 2025* · 📈6。クエリからDocIDを直接生成する生成型検索を体系的に整理 — [`RUC-NLPIR/GenIR-Survey`](https://github.com/RUC-NLPIR/GenIR-Survey) ⭐211🟡
+- [A Survey of Generative Information Retrieval](https://arxiv.org/abs/2406.01197) — *ACM TOIS 2025* · 📈6。クエリからDocIDを直接生成する生成型検索を体系的に整理 — [`RUC-NLPIR/GenIR-Survey`](https://github.com/RUC-NLPIR/GenIR-Survey) ⭐210🟡
 
 ### Learning to Rank
 
@@ -2263,20 +2263,20 @@
 
 ### Neural IR Architectures
 
-- [A Survey of Model Architectures in Information Retrieval](https://arxiv.org/abs/2502.14822) — *arXiv 2025*。情報検索におけるモデルアーキテクチャの進化を密/疎/BM25を統一的観点で整理したサーベイ。
+- [A Survey of Model Architectures in Information Retrieval](https://arxiv.org/abs/2502.14822) — *arXiv 2025* · 📈31。情報検索におけるモデルアーキテクチャの進化を密/疎/BM25を統一的観点で整理したサーベイ。
 
 ### Neural Ranking
 
-- [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467) — *Synthesis Lectures (Morgan & Claypool) 2021* · 📈786。BERT系トランスフォーマによるテキストランキングを網羅した定番サーベイ
-- [A Deep Look into Neural Ranking Models for Information Retrieval](https://arxiv.org/abs/1903.06902) — *Information Processing & Management 2019* · 📈387。ニューラルランキングモデルを前提仮定・設計原理・学習戦略の多次元で深く分析した統一的サーベイ
+- [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467) — *Synthesis Lectures (Morgan & Claypool) 2021* · 📈789。BERT系トランスフォーマによるテキストランキングを網羅した定番サーベイ
+- [A Deep Look into Neural Ranking Models for Information Retrieval](https://arxiv.org/abs/1903.06902) — *Information Processing & Management 2019* · 📈389。ニューラルランキングモデルを前提仮定・設計原理・学習戦略の多次元で深く分析した統一的サーベイ
 
 ### Neural Retrieval
 
-- [Information Retrieval: Recent Advances and Beyond](https://arxiv.org/abs/2301.08801) — *IEEE Access 2023* · 📈173。情報検索のモデルを項ベース・意味検索・ニューラル手法にわたり学習過程も含め概観したサーベイ
+- [Information Retrieval: Recent Advances and Beyond](https://arxiv.org/abs/2301.08801) — *IEEE Access 2023* · 📈174。情報検索のモデルを項ベース・意味検索・ニューラル手法にわたり学習過程も含め概観したサーベイ
 
 ### RAG and Retrieval
 
-- [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) — *arXiv 2024* · 📈3886。Naive/Advanced/Modular RAGの発展と検索・生成・拡張を網羅した定番サーベイ — [`Tongji-KGLLM/RAG-Survey`](https://github.com/Tongji-KGLLM/RAG-Survey) ⭐2138🔴
+- [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) — *arXiv 2024* · 📈3929。Naive/Advanced/Modular RAGの発展と検索・生成・拡張を網羅した定番サーベイ — [`Tongji-KGLLM/RAG-Survey`](https://github.com/Tongji-KGLLM/RAG-Survey) ⭐2139🔴
 - [A Survey on Retrieval-Augmented Text Generation](https://arxiv.org/abs/2202.01110) — *arXiv 2022* · 📈297。対話・翻訳など各タスクの検索拡張生成を整理した先駆的サーベイ
 
 ### Table Retrieval and QA
@@ -2291,16 +2291,16 @@
 
 ### Bias and Fairness
 
-- [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) — *ACM TOIS 2023* · 📈942。推薦の7種バイアスと除去手法を体系化した定番サーベイ — [`jiawei-chen/RecDebiasing`](https://github.com/jiawei-chen/RecDebiasing) ⭐467🔴
-- [A Survey on the Fairness of Recommender Systems](https://arxiv.org/abs/2206.03761) — *ACM TOIS 2023* · 📈470。推薦の公平性定義と手法を多視点で分類整理
+- [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) — *ACM TOIS 2023* · 📈947。推薦の7種バイアスと除去手法を体系化した定番サーベイ — [`jiawei-chen/RecDebiasing`](https://github.com/jiawei-chen/RecDebiasing) ⭐467🔴
+- [A Survey on the Fairness of Recommender Systems](https://arxiv.org/abs/2206.03761) — *ACM TOIS 2023* · 📈472。推薦の公平性定義と手法を多視点で分類整理
 
 ### CTR Prediction
 
-- [Deep Learning for Click-Through Rate Estimation](https://arxiv.org/abs/2104.10584) — *IJCAI 2021* · 📈135。CTR予測の浅層から深層への発展と特徴交互作用を整理
+- [Deep Learning for Click-Through Rate Estimation](https://arxiv.org/abs/2104.10584) — *IJCAI 2021* · 📈136。CTR予測の浅層から深層への発展と特徴交互作用を整理
 
 ### Cold-Start
 
-- [Cold-Start Recommendation towards the Era of Large Language Models (LLMs): A Comprehensive Survey and Roadmap](https://arxiv.org/abs/2501.01945) — *arXiv 2025* · 📈59。LLM時代のコールドスタート推薦を包括整理した最新サーベイ — [`YuanchenBei/Awesome-Cold-Start-Recommendation`](https://github.com/YuanchenBei/Awesome-Cold-Start-Recommendation) ⭐291🟢
+- [Cold-Start Recommendation towards the Era of Large Language Models (LLMs): A Comprehensive Survey and Roadmap](https://arxiv.org/abs/2501.01945) — *arXiv 2025* · 📈59。LLM時代のコールドスタート推薦を包括整理した最新サーベイ — [`YuanchenBei/Awesome-Cold-Start-Recommendation`](https://github.com/YuanchenBei/Awesome-Cold-Start-Recommendation) ⭐292🟢
 
 ### Conversational Recommendation
 
@@ -2308,15 +2308,15 @@
 
 ### Cross-Domain Recommendation
 
-- [Cross-Domain Recommendation: Challenges, Progress, and Prospects](https://arxiv.org/abs/2103.01696) — *IJCAI 2021* · 📈307。データ疎性を緩和するクロスドメイン推薦の課題と進展を整理
+- [Cross-Domain Recommendation: Challenges, Progress, and Prospects](https://arxiv.org/abs/2103.01696) — *IJCAI 2021* · 📈309。データ疎性を緩和するクロスドメイン推薦の課題と進展を整理
 
 ### Deep Learning Recommendation
 
-- [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/abs/1707.07435) — *ACM Computing Surveys 2019* · 📈1339。深層推薦100本超を分類した最も引用される定番サーベイ
+- [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/abs/1707.07435) — *ACM Computing Surveys 2019* · 📈1340。深層推薦100本超を分類した最も引用される定番サーベイ
 
 ### Explainable Recommendation
 
-- [Explainable Recommendation: A Survey and New Perspectives](https://arxiv.org/abs/1804.11192) — *Foundations and Trends in Information Retrieval 2020* · 📈1182。説明可能推薦を時系列・2次元分類体系で整理した定番サーベイ
+- [Explainable Recommendation: A Survey and New Perspectives](https://arxiv.org/abs/1804.11192) — *Foundations and Trends in Information Retrieval 2020* · 📈1188。説明可能推薦を時系列・2次元分類体系で整理した定番サーベイ
 
 ### Foundation Models Recommendation
 
@@ -2324,25 +2324,25 @@
 
 ### Generative Recommendation
 
-- [A Survey on Generative Recommendation: Data, Model, and Tasks](https://arxiv.org/abs/2510.27157) — *arXiv preprint 2025* · 📈23。生成推薦をデータ・モデル・タスクの観点で分類し、LLM/拡散/大規模推薦モデルを俯瞰したサーベイ。
+- [A Survey on Generative Recommendation: Data, Model, and Tasks](https://arxiv.org/abs/2510.27157) — *arXiv preprint 2025* · 📈25。生成推薦をデータ・モデル・タスクの観点で分類し、LLM/拡散/大規模推薦モデルを俯瞰したサーベイ。
 
 ### Graph-based Recommendation
 
-- [Graph Neural Networks in Recommender Systems: A Survey](https://arxiv.org/abs/2011.02260) — *ACM Computing Surveys 2022* · 📈1859。GNNベース推薦を情報種別とタスクで分類した定番サーベイ — [`wusw14/GNN-in-RS`](https://github.com/wusw14/GNN-in-RS) ⭐307🔴
-- [Graph Learning based Recommender Systems: A Review](https://arxiv.org/abs/2105.06339) — *IJCAI 2021* · 📈248。グラフ学習ベース推薦を初めて体系的に整理したレビュー
+- [Graph Neural Networks in Recommender Systems: A Survey](https://arxiv.org/abs/2011.02260) — *ACM Computing Surveys 2022* · 📈1862。GNNベース推薦を情報種別とタスクで分類した定番サーベイ — [`wusw14/GNN-in-RS`](https://github.com/wusw14/GNN-in-RS) ⭐307🔴
+- [Graph Learning based Recommender Systems: A Review](https://arxiv.org/abs/2105.06339) — *IJCAI 2021* · 📈249。グラフ学習ベース推薦を初めて体系的に整理したレビュー
 
 ### LLM Agents for Recommendation
 
-- [A Survey on LLM-powered Agents for Recommender Systems](https://arxiv.org/abs/2502.10050) — *arXiv preprint 2025* · 📈64。推薦システム向けLLMエージェントを推薦指向/対話指向/シミュレーション指向に分けて整理したサーベイ。
+- [A Survey on LLM-powered Agents for Recommender Systems](https://arxiv.org/abs/2502.10050) — *arXiv preprint 2025* · 📈69。推薦システム向けLLMエージェントを推薦指向/対話指向/シミュレーション指向に分けて整理したサーベイ。
 
 ### LLM and Recommendation
 
-- [A Survey on Large Language Models for Recommendation](https://arxiv.org/abs/2305.19860) — *World Wide Web Journal 2024* · 📈946。LLMベース推薦のパラダイムを分類した代表的サーベイ
+- [A Survey on Large Language Models for Recommendation](https://arxiv.org/abs/2305.19860) — *World Wide Web Journal 2024* · 📈957。LLMベース推薦のパラダイムを分類した代表的サーベイ
 
 ### Multimodal Recommendation
 
-- [Multimodal Recommender Systems: A Survey](https://arxiv.org/abs/2302.03883) — *ACM Computing Surveys 2024* · 📈193。マルチモーダル推薦を符号化・交互作用・強化・最適化で整理
-- [A Comprehensive Survey on Multimodal Recommender Systems: Taxonomy, Evaluation, and Future Directions](https://arxiv.org/abs/2302.04473) — *arXiv 2023* · 📈71。マルチモーダル推薦の分類体系と評価・将来方向を網羅
+- [Multimodal Recommender Systems: A Survey](https://arxiv.org/abs/2302.03883) — *ACM Computing Surveys 2024* · 📈198。マルチモーダル推薦を符号化・交互作用・強化・最適化で整理
+- [A Comprehensive Survey on Multimodal Recommender Systems: Taxonomy, Evaluation, and Future Directions](https://arxiv.org/abs/2302.04473) — *arXiv 2023* · 📈73。マルチモーダル推薦の分類体系と評価・将来方向を網羅
 
 ### Reinforcement Learning Recommendation
 
@@ -2350,18 +2350,18 @@
 
 ### Self-Supervised Recommendation
 
-- [Self-Supervised Learning for Recommender Systems: A Survey](https://arxiv.org/abs/2203.15876) — *IEEE TKDE 2024* · 📈444。自己教師あり推薦を対照/生成/予測/混合に分類した定番サーベイ — [`Coder-Yu/SELFRec`](https://github.com/Coder-Yu/SELFRec) ⭐642🟡
+- [Self-Supervised Learning for Recommender Systems: A Survey](https://arxiv.org/abs/2203.15876) — *IEEE TKDE 2024* · 📈445。自己教師あり推薦を対照/生成/予測/混合に分類した定番サーベイ — [`Coder-Yu/SELFRec`](https://github.com/Coder-Yu/SELFRec) ⭐641🟡
 
 ### Sequential Recommendation
 
-- [Sequential Recommender Systems: Challenges, Progress and Prospects](https://arxiv.org/abs/2001.04830) — *IJCAI 2019* · 📈529。系列推薦の課題と進展を体系化したIJCAIサーベイトラック論文
+- [Sequential Recommender Systems: Challenges, Progress and Prospects](https://arxiv.org/abs/2001.04830) — *IJCAI 2019* · 📈531。系列推薦の課題と進展を体系化したIJCAIサーベイトラック論文
 - [Deep Learning for Sequential Recommendation: Algorithms, Influential Factors, and Evaluations](https://arxiv.org/abs/1905.01997) — *ACM TOIS 2020* · 📈47。系列推薦の深層手法を行動系列タイプ別に整理し評価
 
 ## 🌐 Web・ソーシャル
 
 ### Bot Detection
 
-- [Social Media Bot Detection Research: Review of Literature](https://arxiv.org/abs/2503.22838) — *arXiv 2025*。ソーシャルメディアのボット検出研究の手法と課題を文献レビューで整理
+- [Social Media Bot Detection Research: Review of Literature](https://arxiv.org/abs/2503.22838) — *arXiv 2025* · 📈2。ソーシャルメディアのボット検出研究の手法と課題を文献レビューで整理
 
 ### Community QA
 
@@ -2382,20 +2382,20 @@
 
 ### Fake News Detection
 
-- [Fake News Detection on Social Media: A Data Mining Perspective](https://arxiv.org/abs/1708.01967) — *ACM SIGKDD Explorations 2017* · 📈3361。データマイニング視点でフェイクニュース検出を整理した高被引用サーベイ
+- [Fake News Detection on Social Media: A Data Mining Perspective](https://arxiv.org/abs/1708.01967) — *ACM SIGKDD Explorations 2017* · 📈3373。データマイニング視点でフェイクニュース検出を整理した高被引用サーベイ
 
 ### GNN for Social Networks
 
-- [A Survey of Graph Neural Networks for Social Recommender Systems](https://arxiv.org/abs/2212.04481) — *ACM Computing Surveys 2022* · 📈315。ソーシャル推薦システム向けGNNを入力・表現・エンコーダ・損失の分類体系で整理したサーベイ
+- [A Survey of Graph Neural Networks for Social Recommender Systems](https://arxiv.org/abs/2212.04481) — *ACM Computing Surveys 2022* · 📈318。ソーシャル推薦システム向けGNNを入力・表現・エンコーダ・損失の分類体系で整理したサーベイ
 
 ### Graph-based Fake News Detection
 
-- [Fake News Detection Through Graph-based Neural Networks: A Survey](https://arxiv.org/abs/2307.12639) — *arXiv 2023*。グラフベースのフェイクニュース検出手法を知識・伝播・社会文脈の3分類で整理
+- [Fake News Detection Through Graph-based Neural Networks: A Survey](https://arxiv.org/abs/2307.12639) — *arXiv 2023* · 📈27。グラフベースのフェイクニュース検出手法を知識・伝播・社会文脈の3分類で整理
 
 ### Hate Speech Detection
 
-- [A Survey on Automatic Online Hate Speech Detection in Low-Resource Languages](https://arxiv.org/abs/2411.19017) — *arXiv 2024*。低資源言語のオンラインヘイトスピーチ検出のデータ・特徴・手法を概観したサーベイ
-- [Towards generalisable hate speech detection: a review on obstacles and solutions](https://arxiv.org/abs/2102.08886) — *PeerJ Computer Science 2021*。ヘイトスピーチ検出モデルの汎化性の障壁と解決策を整理したレビュー
+- [Towards generalisable hate speech detection: a review on obstacles and solutions](https://arxiv.org/abs/2102.08886) — *PeerJ Computer Science 2021* · 📈212。ヘイトスピーチ検出モデルの汎化性の障壁と解決策を整理したレビュー
+- [A Survey on Automatic Online Hate Speech Detection in Low-Resource Languages](https://arxiv.org/abs/2411.19017) — *arXiv 2024* · 📈9。低資源言語のオンラインヘイトスピーチ検出のデータ・特徴・手法を概観したサーベイ
 
 ### Link Prediction
 
@@ -2407,7 +2407,7 @@
 
 ### Misinformation Detection
 
-- [Combating Misinformation in the Age of LLMs: Opportunities and Challenges](https://arxiv.org/abs/2311.05656) — *AI Magazine 2024* · 📈217。LLM時代の誤情報生成・検出の機会と課題を整理したサーベイ — [`llm-misinformation/llm-misinformation-survey`](https://github.com/llm-misinformation/llm-misinformation-survey) ⭐106🔴
+- [Combating Misinformation in the Age of LLMs: Opportunities and Challenges](https://arxiv.org/abs/2311.05656) — *AI Magazine 2024* · 📈220。LLM時代の誤情報生成・検出の機会と課題を整理したサーベイ — [`llm-misinformation/llm-misinformation-survey`](https://github.com/llm-misinformation/llm-misinformation-survey) ⭐106🔴
 
 ### Online Toxicity Detection
 
@@ -2415,8 +2415,8 @@
 
 ### Recommendation Fairness
 
-- [A Survey on Fairness-aware Recommender Systems](https://arxiv.org/abs/2306.00403) — *Information Fusion 2023*。公平性配慮型推薦システムをシナリオ別に分類し信頼性原則と結びつけたサーベイ
-- [Fairness and Diversity in Recommender Systems: A Survey](https://arxiv.org/abs/2307.04644) — *ACM TIST 2023*。推薦における公平性と多様性の関係を統合的に整理したサーベイ
+- [Fairness and Diversity in Recommender Systems: A Survey](https://arxiv.org/abs/2307.04644) — *ACM TIST 2023* · 📈143。推薦における公平性と多様性の関係を統合的に整理したサーベイ
+- [A Survey on Fairness-aware Recommender Systems](https://arxiv.org/abs/2306.00403) — *Information Fusion 2023* · 📈90。公平性配慮型推薦システムをシナリオ別に分類し信頼性原則と結びつけたサーベイ
 
 ### Rumor Detection
 
@@ -2428,7 +2428,7 @@
 
 ### Social Network Analysis
 
-- [A Comprehensive Survey on Community Detection with Deep Learning](https://arxiv.org/abs/2105.12584) — *IEEE TNNLS 2024* · 📈463。コミュニティ検出の深層手法を分類体系で整理した包括サーベイ
+- [A Comprehensive Survey on Community Detection with Deep Learning](https://arxiv.org/abs/2105.12584) — *IEEE TNNLS 2024* · 📈465。コミュニティ検出の深層手法を分類体系で整理した包括サーベイ
 
 ### Web Table Extraction
 
@@ -2438,20 +2438,20 @@
 
 ### AI Content Watermarking / Detection
 
-- [Watermarking for AI Content Detection: A Review on Text, Visual, and Audio Modalities](https://arxiv.org/abs/2504.03765) — *ICLR 2025 Workshop (GenAI Watermarking) 2025*。テキスト・画像・音声を横断したAI生成コンテンツの透かし検出技術を初めて体系的に整理したレビュー。
+- [Watermarking for AI Content Detection: A Review on Text, Visual, and Audio Modalities](https://arxiv.org/abs/2504.03765) — *ICLR 2025 Workshop (GenAI Watermarking) 2025* · 📈9。テキスト・画像・音声を横断したAI生成コンテンツの透かし検出技術を初めて体系的に整理したレビュー。
 
 ### AI Fairness / Bias
 
 - [The Frontiers of Fairness in Machine Learning](https://arxiv.org/abs/1810.08810) — *arXiv 2018* · 📈442。ML公平性の未解決問題と研究フロンティアを整理した展望論文
-- [Bias Mitigation for Machine Learning Classifiers: A Comprehensive Survey](https://arxiv.org/abs/2207.07068) — *ACM JRC 2022* · 📈300。分類器のバイアス緩和手法341本を網羅した包括的サーベイ
+- [Bias Mitigation for Machine Learning Classifiers: A Comprehensive Survey](https://arxiv.org/abs/2207.07068) — *ACM JRC 2022* · 📈302。分類器のバイアス緩和手法341本を網羅した包括的サーベイ
 
 ### AI Governance / Ethics
 
-- [Worldwide AI Ethics: a review of 200 guidelines and recommendations for AI governance](https://arxiv.org/abs/2206.11922) — *Patterns 2022* · 📈281。世界の200のAI倫理ガイドラインをメタ分析した大規模レビュー
+- [Worldwide AI Ethics: a review of 200 guidelines and recommendations for AI governance](https://arxiv.org/abs/2206.11922) — *Patterns 2022* · 📈283。世界の200のAI倫理ガイドラインをメタ分析した大規模レビュー
 
 ### AI Safety
 
-- [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) — *arXiv 2016* · 📈3371。AI安全性の具体的課題を提起した分野定義的論文
+- [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) — *arXiv 2016* · 📈3395。AI安全性の具体的課題を提起した分野定義的論文
 
 ### AI-Generated Text Detection
 
@@ -2463,22 +2463,22 @@
 
 ### Adversarial Robustness
 
-- [Adversarial Examples: Attacks and Defenses for Deep Learning](https://arxiv.org/abs/1712.07107) — *IEEE TNNLS 2017* · 📈1847。深層学習に対する敵対的サンプル攻撃と防御の定番サーベイ
-- [Adversarial Attacks and Defenses in Images, Graphs and Text: A Review](https://arxiv.org/abs/1909.08072) — *IJAC 2019* · 📈763。画像・グラフ・テキストの敵対的攻撃と防御を横断レビュー
+- [Adversarial Examples: Attacks and Defenses for Deep Learning](https://arxiv.org/abs/1712.07107) — *IEEE TNNLS 2017* · 📈1850。深層学習に対する敵対的サンプル攻撃と防御の定番サーベイ
+- [Adversarial Attacks and Defenses in Images, Graphs and Text: A Review](https://arxiv.org/abs/1909.08072) — *IJAC 2019* · 📈766。画像・グラフ・テキストの敵対的攻撃と防御を横断レビュー
 
 ### Backdoor Attacks
 
-- [Backdoor Learning: A Survey](https://arxiv.org/abs/2007.08745) — *IEEE TNNLS 2020* · 📈855。バックドア学習攻撃と防御を統一的に整理したサーベイ
+- [Backdoor Learning: A Survey](https://arxiv.org/abs/2007.08745) — *IEEE TNNLS 2020* · 📈860。バックドア学習攻撃と防御を統一的に整理したサーベイ
 - [Backdoor Attacks and Countermeasures on Deep Learning: A Comprehensive Review](https://arxiv.org/abs/2007.10760) — *arXiv 2020* · 📈292。深層学習へのバックドア攻撃と対策を包括的にレビュー
 
 ### Data Poisoning Security
 
-- [Wild Patterns Reloaded: A Survey of Machine Learning Security against Training Data Poisoning](https://arxiv.org/abs/2205.01992) — *ACM Computing Surveys 2022* · 📈209。学習データポイズニング攻撃と防御を15年分100本超で体系化
+- [Wild Patterns Reloaded: A Survey of Machine Learning Security against Training Data Poisoning](https://arxiv.org/abs/2205.01992) — *ACM Computing Surveys 2022* · 📈210。学習データポイズニング攻撃と防御を15年分100本超で体系化
 
 ### Deepfake Detection
 
-- [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179) — *Information Fusion 2020* · 📈1141。顔操作とディープフェイク検出を網羅した定番サーベイ
-- [The Creation and Detection of Deepfakes: A Survey](https://arxiv.org/abs/2004.11138) — *ACM Computing Surveys 2020* · 📈918。ディープフェイクの生成と検出を技術的に整理したサーベイ
+- [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179) — *Information Fusion 2020* · 📈1151。顔操作とディープフェイク検出を網羅した定番サーベイ
+- [The Creation and Detection of Deepfakes: A Survey](https://arxiv.org/abs/2004.11138) — *ACM Computing Surveys 2020* · 📈926。ディープフェイクの生成と検出を技術的に整理したサーベイ
 
 ### Differential Privacy
 
@@ -2486,11 +2486,11 @@
 
 ### Explainable AI (XAI)
 
-- [A Survey of Methods for Explaining Black Box Models](https://arxiv.org/abs/1802.01933) — *ACM Computing Surveys 2018* · 📈5193。XAIの分類体系を確立した被引用数千超の決定版サーベイ。未収録だった。
-- [A Survey on the Explainability of Supervised Machine Learning](https://arxiv.org/abs/2011.07876) — *JAIR 2021* · 📈972。教師あり学習の説明可能性手法を概観したサーベイ
-- [Opportunities and Challenges in Explainable Artificial Intelligence (XAI): A Survey](https://arxiv.org/abs/2006.11371) — *arXiv 2020* · 📈787。XAIの機会と課題を体系的に整理した概観サーベイ
+- [A Survey of Methods for Explaining Black Box Models](https://arxiv.org/abs/1802.01933) — *ACM Computing Surveys 2018* · 📈5209。XAIの分類体系を確立した被引用数千超の決定版サーベイ。未収録だった。
+- [A Survey on the Explainability of Supervised Machine Learning](https://arxiv.org/abs/2011.07876) — *JAIR 2021* · 📈976。教師あり学習の説明可能性手法を概観したサーベイ
+- [Opportunities and Challenges in Explainable Artificial Intelligence (XAI): A Survey](https://arxiv.org/abs/2006.11371) — *arXiv 2020* · 📈789。XAIの機会と課題を体系的に整理した概観サーベイ
 - [One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques](https://arxiv.org/abs/1909.03012) — *arXiv 2019* · 📈479。AI説明技術のタクソノミーとツールキット(AIX360)を提示
-- [Counterfactual Explanations and Algorithmic Recourses for Machine Learning: A Review](https://arxiv.org/abs/2010.10596) — *ACM Computing Surveys 2020* · 📈336。反実仮想説明とアルゴリズム的救済の手法をレビュー
+- [Counterfactual Explanations and Algorithmic Recourses for Machine Learning: A Review](https://arxiv.org/abs/2010.10596) — *ACM Computing Surveys 2020* · 📈339。反実仮想説明とアルゴリズム的救済の手法をレビュー
 
 ### LLM Red Teaming
 
@@ -2498,7 +2498,7 @@
 
 ### Machine Unlearning
 
-- [Machine Unlearning: A Comprehensive Survey](https://arxiv.org/abs/2405.07406) — *arXiv preprint 2024* · 📈59。中央集権/分散/検証/プライバシの4シナリオで機械アンラーニングを整理した包括サーベイ。
+- [Machine Unlearning: A Comprehensive Survey](https://arxiv.org/abs/2405.07406) — *arXiv preprint 2024* · 📈60。中央集権/分散/検証/プライバシの4シナリオで機械アンラーニングを整理した包括サーベイ。
 
 ### Machine Unlearning (GenAI)
 
@@ -2506,20 +2506,20 @@
 
 ### Machine-Generated Text Detection
 
-- [Are AI Detectors Good Enough? A Survey on Quality of Datasets With Machine-Generated Texts](https://arxiv.org/abs/2410.14677) — *arXiv preprint 2024*。機械生成テキスト検出用データセットの品質評価に焦点を当てたサーベイ。
+- [Are AI Detectors Good Enough? A Survey on Quality of Datasets With Machine-Generated Texts](https://arxiv.org/abs/2410.14677) — *arXiv preprint 2024* · 📈20。機械生成テキスト検出用データセットの品質評価に焦点を当てたサーベイ。
 
 ### Membership Inference
 
-- [Membership Inference Attacks on Machine Learning: A Survey](https://arxiv.org/abs/2103.07853) — *ACM Computing Surveys 2021* · 📈717。メンバーシップ推論攻撃と防御を初めて包括的に分類したサーベイ
+- [Membership Inference Attacks on Machine Learning: A Survey](https://arxiv.org/abs/2103.07853) — *ACM Computing Surveys 2021* · 📈720。メンバーシップ推論攻撃と防御を初めて包括的に分類したサーベイ
 
 ### Model Interpretability
 
-- [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) — *arXiv 2017* · 📈5423。解釈可能MLの定義と評価枠組みを提起した影響力の高い論文
-- [Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges](https://arxiv.org/abs/2103.11251) — *Statistics Surveys 2021* · 📈1009。解釈可能MLの基本原則と10の重要課題を提示した必読サーベイ
+- [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) — *arXiv 2017* · 📈5457。解釈可能MLの定義と評価枠組みを提起した影響力の高い論文
+- [Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges](https://arxiv.org/abs/2103.11251) — *Statistics Surveys 2021* · 📈1016。解釈可能MLの基本原則と10の重要課題を提示した必読サーベイ
 
 ### Privacy-Preserving ML
 
-- [A Survey of Privacy Attacks in Machine Learning](https://arxiv.org/abs/2007.07646) — *ACM Computing Surveys 2020* · 📈353。MLに対するプライバシー攻撃を網羅的に分類したサーベイ
+- [A Survey of Privacy Attacks in Machine Learning](https://arxiv.org/abs/2007.07646) — *ACM Computing Surveys 2020* · 📈355。MLに対するプライバシー攻撃を網羅的に分類したサーベイ
 - [Privacy-Preserving Machine Learning: Methods, Challenges and Directions](https://arxiv.org/abs/2108.04417) — *arXiv 2021* · 📈169。プライバシー保護MLの手法・課題・研究ロードマップを整理
 
 ### Red Teaming for Generative Models
@@ -2528,17 +2528,17 @@
 
 ### XAI Evaluation
 
-- [From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review on Evaluating Explainable AI](https://arxiv.org/abs/2201.08164) — *ACM Computing Surveys 2022* · 📈738。XAI評価の12特性を提案し300本超の評価実践を系統レビュー
+- [From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review on Evaluating Explainable AI](https://arxiv.org/abs/2201.08164) — *ACM Computing Surveys 2022* · 📈745。XAI評価の12特性を提案し300本超の評価実践を系統レビュー
 
 ## 📡 連合学習
 
 ### Asynchronous FL
 
-- [Asynchronous Federated Learning on Heterogeneous Devices: A Survey](https://arxiv.org/abs/2109.04269) — *arXiv 2021* · 📈390。異種デバイス上の非同期連合学習(AFL)の変種をデバイス/データ異種性・プライバシ等で分類したサーベイ
+- [Asynchronous Federated Learning on Heterogeneous Devices: A Survey](https://arxiv.org/abs/2109.04269) — *arXiv 2021* · 📈391。異種デバイス上の非同期連合学習(AFL)の変種をデバイス/データ異種性・プライバシ等で分類したサーベイ
 
 ### Communication Efficiency
 
-- [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/abs/1610.05492) — *NeurIPS Workshop 2016* · 📈5561。連合学習の通信効率改善手法を提案した基礎論文
+- [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/abs/1610.05492) — *NeurIPS Workshop 2016* · 📈5571。連合学習の通信効率改善手法を提案した基礎論文
 
 ### Decentralized FL
 
@@ -2554,7 +2554,7 @@
 
 ### FL Generalization/Robustness/Fairness
 
-- [Federated Learning for Generalization, Robustness, Fairness: A Survey and Benchmark](https://arxiv.org/abs/2311.06750) — *IEEE TPAMI 2023* · 📈264。連合学習の汎化・頑健性・公平性の3軸を背景・課題・手法とベンチマークで横断的に整理したサーベイ
+- [Federated Learning for Generalization, Robustness, Fairness: A Survey and Benchmark](https://arxiv.org/abs/2311.06750) — *IEEE TPAMI 2023* · 📈266。連合学習の汎化・頑健性・公平性の3軸を背景・課題・手法とベンチマークで横断的に整理したサーベイ
 
 ### FL Incentive Mechanisms
 
@@ -2566,51 +2566,51 @@
 
 ### FL x LLM
 
-- [Federated Large Language Models: Current Progress and Future Directions](https://arxiv.org/abs/2409.15723) — *arXiv 2024* · 📈39。連合LLM(FedLLM)のファインチューニングとプロンプト学習の進展と課題を俯瞰したサーベイ
-- [A Survey on Federated Fine-tuning of Large Language Models](https://arxiv.org/abs/2503.12016) — *arXiv 2025* · 📈33。連合学習によるLLMファインチューニング(FedLLM)を体系的に俯瞰したサーベイ
+- [Federated Large Language Models: Current Progress and Future Directions](https://arxiv.org/abs/2409.15723) — *arXiv 2024* · 📈40。連合LLM(FedLLM)のファインチューニングとプロンプト学習の進展と課題を俯瞰したサーベイ
+- [A Survey on Federated Fine-tuning of Large Language Models](https://arxiv.org/abs/2503.12016) — *arXiv 2025* · 📈34。連合学習によるLLMファインチューニング(FedLLM)を体系的に俯瞰したサーベイ
 
 ### FL x Medical
 
-- [Federated Learning for Medical Image Analysis: A Survey](https://arxiv.org/abs/2306.05980) — *Pattern Recognition 2024* · 📈458。医療画像解析における連合学習手法をクライアント側・サーバ側・通信技術の観点で整理したサーベイ
+- [Federated Learning for Medical Image Analysis: A Survey](https://arxiv.org/abs/2306.05980) — *Pattern Recognition 2024* · 📈464。医療画像解析における連合学習手法をクライアント側・サーバ側・通信技術の観点で整理したサーベイ
 
 ### Federated Learning (General)
 
-- [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977) — *FnT in ML 2019* · 📈9262。連合学習の進展と未解決問題を網羅した最も引用される定番
-- [Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873) — *IEEE Signal Processing Magazine 2019* · 📈6272。連合学習の課題・手法・将来方向を整理した高被引用サーベイ
+- [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977) — *FnT in ML 2019* · 📈9336。連合学習の進展と未解決問題を網羅した最も引用される定番
+- [Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873) — *IEEE Signal Processing Magazine 2019* · 📈6307。連合学習の課題・手法・将来方向を整理した高被引用サーベイ
 
 ### Heterogeneous FL
 
-- [Federated Learning on Non-IID Data: A Survey](https://arxiv.org/abs/2106.06843) — *Neurocomputing 2021* · 📈1385。non-IIDデータ下の連合学習の課題と手法を整理したサーベイ
-- [A Survey on Heterogeneous Federated Learning](https://arxiv.org/abs/2210.04505) — *arXiv 2022* · 📈90。データ・統計・システムの異種性に着目した連合学習サーベイ
-- [Non-IID data in Federated Learning: A Survey with Taxonomy, Metrics, Methods, Frameworks and Future Directions](https://arxiv.org/abs/2411.12377) — *arXiv 2024* · 📈34。non-IIDデータのタクソノミー・指標・手法を網羅した近年のサーベイ
+- [Federated Learning on Non-IID Data: A Survey](https://arxiv.org/abs/2106.06843) — *Neurocomputing 2021* · 📈1396。non-IIDデータ下の連合学習の課題と手法を整理したサーベイ
+- [A Survey on Heterogeneous Federated Learning](https://arxiv.org/abs/2210.04505) — *arXiv 2022* · 📈91。データ・統計・システムの異種性に着目した連合学習サーベイ
+- [Non-IID data in Federated Learning: A Survey with Taxonomy, Metrics, Methods, Frameworks and Future Directions](https://arxiv.org/abs/2411.12377) — *arXiv 2024* · 📈36。non-IIDデータのタクソノミー・指標・手法を網羅した近年のサーベイ
 
 ### Personalization (FL)
 
-- [Towards Personalized Federated Learning](https://arxiv.org/abs/2103.00710) — *IEEE TNNLS 2021* · 📈1320。パーソナライズド連合学習の手法を分類したサーベイ
+- [Towards Personalized Federated Learning](https://arxiv.org/abs/2103.00710) — *IEEE TNNLS 2021* · 📈1325。パーソナライズド連合学習の手法を分類したサーベイ
 
 ### Privacy / Security (FL)
 
-- [Threats to Federated Learning: A Survey](https://arxiv.org/abs/2003.02133) — *arXiv 2020* · 📈553。連合学習に対する脅威(攻撃・防御)を体系化したサーベイ
+- [Threats to Federated Learning: A Survey](https://arxiv.org/abs/2003.02133) — *arXiv 2020* · 📈554。連合学習に対する脅威(攻撃・防御)を体系化したサーベイ
 
 ### Vertical Federated Learning
 
-- [A Survey on Vertical Federated Learning: From a Layered Perspective](https://arxiv.org/abs/2304.01829) — *arXiv 2023* · 📈48。垂直連合学習(VFL)をハードウェア層からシステム層まで階層的視点で体系化したサーベイ
+- [A Survey on Vertical Federated Learning: From a Layered Perspective](https://arxiv.org/abs/2304.01829) — *arXiv 2023* · 📈50。垂直連合学習(VFL)をハードウェア層からシステム層まで階層的視点で体系化したサーベイ
 
 ## 🖐️ HCI・ヒューマンAI
 
 ### AI Trust and Reliance
 
-- [A Survey of AI Reliance](https://arxiv.org/abs/2408.03948) — *arXiv 2024*。AIへの依存(reliance)行動に関する研究を整理し概念枠組みを与えたサーベイ
-- [Trust, distrust, and appropriate reliance in (X)AI: a survey of empirical evaluation of user trust](https://arxiv.org/abs/2312.02034) — *arXiv 2023*。XAIがユーザ信頼に与える影響の実証評価を整理し分類学を提示したサーベイ
+- [A Survey of AI Reliance](https://arxiv.org/abs/2408.03948) — *arXiv 2024* · 📈23。AIへの依存(reliance)行動に関する研究を整理し概念枠組みを与えたサーベイ
+- [Trust, distrust, and appropriate reliance in (X)AI: a survey of empirical evaluation of user trust](https://arxiv.org/abs/2312.02034) — *arXiv 2023* · 📈14。XAIがユーザ信頼に与える影響の実証評価を整理し分類学を提示したサーベイ
 
 ### AI Writing Assistance
 
-- [Co-Writing with AI, on Human Terms: Aligning Research with User Demands Across the Writing Process](https://arxiv.org/abs/2504.12488) — *arXiv 2025*。執筆プロセス全体でのAI共同執筆研究をユーザ要求と対応づけて整理したレビュー
-- [The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing](https://arxiv.org/abs/2403.12004) — *CHI 2024*。生成AIライティング支援の価値・便益・懸念を実験的に検証した研究
+- [The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing](https://arxiv.org/abs/2403.12004) — *CHI 2024* · 📈117。生成AIライティング支援の価値・便益・懸念を実験的に検証した研究
+- [Co-Writing with AI, on Human Terms: Aligning Research with User Demands Across the Writing Process](https://arxiv.org/abs/2504.12488) — *arXiv 2025* · 📈48。執筆プロセス全体でのAI共同執筆研究をユーザ要求と対応づけて整理したレビュー
 
 ### AI-Assisted Decision Making
 
-- [Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies](https://arxiv.org/abs/2112.11471) — *arXiv 2021* · 📈250。AI支援意思決定の実証研究100本超を設計軸で整理したサーベイ
+- [Towards a Science of Human-AI Decision Making: A Survey of Empirical Studies](https://arxiv.org/abs/2112.11471) — *arXiv 2021* · 📈251。AI支援意思決定の実証研究100本超を設計軸で整理したサーベイ
 
 ### Conversational Agent UX
 
@@ -2618,7 +2618,7 @@
 
 ### Conversational UI
 
-- [How should my chatbot interact? A survey on human-chatbot interaction design](https://arxiv.org/abs/1904.02743) — *International Journal of Human-Computer Interaction 2019*。チャットボットの社会的特性に着目した会話型UI設計の課題と戦略を整理したサーベイ
+- [How should my chatbot interact? A survey on human-chatbot interaction design](https://arxiv.org/abs/1904.02743) — *International Journal of Human-Computer Interaction 2019* · 📈572。チャットボットの社会的特性に着目した会話型UI設計の課題と戦略を整理したサーベイ
 
 ### Crowdsourcing (HCOMP)
 
@@ -2627,7 +2627,7 @@
 ### Explainability & HCI
 
 - [Human-Centered Explainable AI (XAI): From Algorithms to User Experiences](https://arxiv.org/abs/2110.10790) — *arXiv 2021* · 📈351。人間中心XAIをアルゴリズムからUXまで概観した書籍章サーベイ
-- [Towards Human-centered Explainable AI: A Survey of User Studies for Model Explanations](https://arxiv.org/abs/2210.11584) — *IEEE TPAMI 2022* · 📈257。XAIのユーザ研究97本を信頼・理解・協調の観点で系統レビュー
+- [Towards Human-centered Explainable AI: A Survey of User Studies for Model Explanations](https://arxiv.org/abs/2210.11584) — *IEEE TPAMI 2022* · 📈262。XAIのユーザ研究97本を信頼・理解・協調の観点で系統レビュー
 
 ### Explainable AI Interface
 
@@ -2635,23 +2635,23 @@
 
 ### Explainable AI and Users
 
-- [Towards Human-centered Design of Explainable Artificial Intelligence (XAI): A Survey of Empirical Studies](https://arxiv.org/abs/2410.21183) — *arXiv 2024*。人間中心XAI設計に関する実証研究を整理したサーベイ
+- [Towards Human-centered Design of Explainable Artificial Intelligence (XAI): A Survey of Empirical Studies](https://arxiv.org/abs/2410.21183) — *arXiv 2024* · 📈10。人間中心XAI設計に関する実証研究を整理したサーベイ
 
 ### Generative AI and Creativity
 
-- [Generative AI and Creativity: A Systematic Literature Review and Meta-Analysis](https://arxiv.org/abs/2505.17241) — *arXiv 2025* · 📈25。生成AIが創造的タスクの成果に与える効果を体系的文献レビューとメタ分析で評価した論文
+- [Generative AI and Creativity: A Systematic Literature Review and Meta-Analysis](https://arxiv.org/abs/2505.17241) — *arXiv 2025* · 📈26。生成AIが創造的タスクの成果に与える効果を体系的文献レビューとメタ分析で評価した論文
 
 ### Human-AI Interaction
 
-- [A Survey on Human-AI Collaboration with Large Foundation Models](https://arxiv.org/abs/2403.04931) — *arXiv 2024* · 📈19。基盤モデル時代の人間-AI協調を設計・倫理・応用で概観
+- [A Survey on Human-AI Collaboration with Large Foundation Models](https://arxiv.org/abs/2403.04931) — *arXiv 2024* · 📈21。基盤モデル時代の人間-AI協調を設計・倫理・応用で概観
 
 ### Human-AI Teaming
 
-- [Advancing Human-Machine Teaming: Concepts, Challenges, and Applications](https://arxiv.org/abs/2503.16518) — *arXiv 2025*。ヒューマンマシンチーミングの分類学と信頼較正・チーム認知等を体系化したサーベイ
+- [Advancing Human-Machine Teaming: Concepts, Challenges, and Applications](https://arxiv.org/abs/2503.16518) — *arXiv 2025* · 📈6。ヒューマンマシンチーミングの分類学と信頼較正・チーム認知等を体系化したサーベイ
 
 ### Human-in-the-loop
 
-- [A Survey of Human-in-the-loop for Machine Learning](https://arxiv.org/abs/2108.00941) — *Future Generation Computer Systems 2021* · 📈794。human-in-the-loop機械学習をデータ視点で整理したサーベイ
+- [A Survey of Human-in-the-loop for Machine Learning](https://arxiv.org/abs/2108.00941) — *Future Generation Computer Systems 2021* · 📈796。human-in-the-loop機械学習をデータ視点で整理したサーベイ
 
 ### Social Robot HRI
 
@@ -2659,37 +2659,37 @@
 
 ### Visualization for ML
 
-- [A Survey of Visual Analytics Techniques for Machine Learning](https://arxiv.org/abs/2008.09632) — *Computational Visual Media 2020* · 📈278。機械学習向けビジュアルアナリティクス259本を分類したサーベイ
+- [A Survey of Visual Analytics Techniques for Machine Learning](https://arxiv.org/abs/2008.09632) — *Computational Visual Media 2020* · 📈279。機械学習向けビジュアルアナリティクス259本を分類したサーベイ
 
 ## 🧬 進化計算
 
 ### Black-box Optimization
 
-- [A Tutorial on Bayesian Optimization](https://arxiv.org/abs/1807.02811) — *arXiv 2018* · 📈2443。ベイズ最適化(ブラックボックス最適化)の定番チュートリアル
+- [A Tutorial on Bayesian Optimization](https://arxiv.org/abs/1807.02811) — *arXiv 2018* · 📈2454。ベイズ最適化(ブラックボックス最適化)の定番チュートリアル
 
 ### Evolutionary Deep Learning
 
-- [Survey on Evolutionary Deep Learning: Principles, Algorithms, Applications and Open Issues](https://arxiv.org/abs/2208.10658) — *ACM Computing Surveys 2022* · 📈126。進化計算による深層学習設計(EDL)の原理と手法を概観
+- [Survey on Evolutionary Deep Learning: Principles, Algorithms, Applications and Open Issues](https://arxiv.org/abs/2208.10658) — *ACM Computing Surveys 2022* · 📈127。進化計算による深層学習設計(EDL)の原理と手法を概観
 
 ### Evolutionary Feature Selection
 
-- [Quantum-Inspired Evolutionary Algorithms for Feature Subset Selection: A Comprehensive Survey](https://arxiv.org/abs/2407.17946) — *arXiv 2024*。量子インスパイア進化的アルゴリズムによる特徴部分集合選択を網羅したサーベイ
+- [Quantum-Inspired Evolutionary Algorithms for Feature Subset Selection: A Comprehensive Survey](https://arxiv.org/abs/2407.17946) — *arXiv 2024* · 📈25。量子インスパイア進化的アルゴリズムによる特徴部分集合選択を網羅したサーベイ
 
 ### Evolutionary Multi-Objective Optimization
 
-- [A Survey of Decomposition-Based Evolutionary Multi-Objective Optimization: Part I-Past and Future](https://arxiv.org/abs/2404.14571) — *IEEE TEVC 2024*。MOEA/Dを代表に分解ベース進化的多目的最適化の発展を概観したサーベイ(Part I)
+- [A Survey of Decomposition-Based Evolutionary Multi-Objective Optimization: Part I-Past and Future](https://arxiv.org/abs/2404.14571) — *IEEE TEVC 2024* · 📈3。MOEA/Dを代表に分解ベース進化的多目的最適化の発展を概観したサーベイ(Part I)
 
 ### Evolutionary NAS
 
-- [A Survey on Evolutionary Neural Architecture Search](https://arxiv.org/abs/2008.10937) — *IEEE TNNLS 2020* · 📈596。進化計算ベースのニューラルアーキテクチャ探索200本超を整理
+- [A Survey on Evolutionary Neural Architecture Search](https://arxiv.org/abs/2008.10937) — *IEEE TNNLS 2020* · 📈599。進化計算ベースのニューラルアーキテクチャ探索200本超を整理
 
 ### Evolutionary RL
 
-- [Combining Evolution and Deep Reinforcement Learning for Policy Search: a Survey](https://arxiv.org/abs/2203.14009) — *ACM TELO 2022* · 📈72。進化計算と深層強化学習の融合手法を統一枠組みで概観
+- [Combining Evolution and Deep Reinforcement Learning for Policy Search: a Survey](https://arxiv.org/abs/2203.14009) — *ACM TELO 2022* · 📈73。進化計算と深層強化学習の融合手法を統一枠組みで概観
 
 ### Evolutionary Reinforcement Learning
 
-- [Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey on Hybrid Algorithms](https://arxiv.org/abs/2401.11963) — *IEEE TEVC 2024* · 📈88。進化計算と強化学習のハイブリッド(ERL)をEA支援RL/RL支援EA/協調最適化の3方向で整理したサーベイ
+- [Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey on Hybrid Algorithms](https://arxiv.org/abs/2401.11963) — *IEEE TEVC 2024* · 📈90。進化計算と強化学習のハイブリッド(ERL)をEA支援RL/RL支援EA/協調最適化の3方向で整理したサーベイ
 
 ### Evolutionary Transfer Optimization
 
@@ -2697,15 +2697,15 @@
 
 ### Genetic Programming
 
-- [A Recent Survey on the Applications of Genetic Programming in Image Processing](https://arxiv.org/abs/1901.07387) — *arXiv 2019*。画像処理における遺伝的プログラミングの応用(分類・特徴選択等)を整理したサーベイ
+- [A Recent Survey on the Applications of Genetic Programming in Image Processing](https://arxiv.org/abs/1901.07387) — *arXiv 2019* · 📈38。画像処理における遺伝的プログラミングの応用(分類・特徴選択等)を整理したサーベイ
 
 ### Large-Scale Evolutionary Optimization
 
-- [A Survey on Learnable Evolutionary Algorithms for Scalable Multiobjective Optimization](https://arxiv.org/abs/2206.11526) — *IEEE TEVC 2022*。スケールアップ多目的最適化向け学習可能な進化的アルゴリズムを4方向で概観
+- [A Survey on Learnable Evolutionary Algorithms for Scalable Multiobjective Optimization](https://arxiv.org/abs/2206.11526) — *IEEE TEVC 2022* · 📈108。スケールアップ多目的最適化向け学習可能な進化的アルゴリズムを4方向で概観
 
 ### Multi-objective Optimization
 
-- [A Review of Evolutionary Multi-modal Multi-objective Optimization](https://arxiv.org/abs/2009.13347) — *IEEE TEVC 2020* · 📈200。進化的マルチモーダル多目的最適化をレビューした論文
+- [A Review of Evolutionary Multi-modal Multi-objective Optimization](https://arxiv.org/abs/2009.13347) — *IEEE TEVC 2020* · 📈201。進化的マルチモーダル多目的最適化をレビューした論文
 
 ### Neuroevolution
 
@@ -2713,13 +2713,13 @@
 
 ### Swarm Intelligence (PSO)
 
-- [Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives](https://arxiv.org/abs/1804.05319) — *Machine Learning and Knowledge Extraction 2018*。PSOの歴史的・最新の発展とハイブリッド化の観点を網羅したサーベイ
+- [Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives](https://arxiv.org/abs/1804.05319) — *Machine Learning and Knowledge Extraction 2018* · 📈489。PSOの歴史的・最新の発展とハイブリッド化の観点を網羅したサーベイ
 
 ## 🔢 理論計算機科学
 
 ### Algorithmic Fairness Testing
 
-- [Fairness Testing: A Comprehensive Survey and Analysis of Trends](https://arxiv.org/abs/2207.10223) — *ACM TOSEM 2022* · 📈153。ソフトウェア工学の観点で公平性テスト手法を体系化したサーベイ
+- [Fairness Testing: A Comprehensive Survey and Analysis of Trends](https://arxiv.org/abs/2207.10223) — *ACM TOSEM 2022* · 📈155。ソフトウェア工学の観点で公平性テスト手法を体系化したサーベイ
 
 ### Algorithmic Game Theory
 
@@ -2727,23 +2727,23 @@
 
 ### Algorithms with Predictions
 
-- [Algorithms with Predictions](https://arxiv.org/abs/2006.09123) — *Beyond the Worst-Case Analysis of Algorithms (book chapter) 2020* · 📈332。ML予測を用いて最悪ケース解析を回避する学習拡張アルゴリズムの基礎を解説した定番サーベイ章
+- [Algorithms with Predictions](https://arxiv.org/abs/2006.09123) — *Beyond the Worst-Case Analysis of Algorithms (book chapter) 2020* · 📈334。ML予測を用いて最悪ケース解析を回避する学習拡張アルゴリズムの基礎を解説した定番サーベイ章
 
 ### Computational Social Choice
 
-- [Preference Restrictions in Computational Social Choice: A Survey](https://arxiv.org/abs/2205.09092) — *arXiv 2022*。単峰性など制限選好領域が計算社会選択を容易化する仕組みを整理したサーベイ
+- [Preference Restrictions in Computational Social Choice: A Survey](https://arxiv.org/abs/2205.09092) — *arXiv 2022* · 📈54。単峰性など制限選好領域が計算社会選択を容易化する仕組みを整理したサーベイ
 
 ### Constrained Optimization Learning
 
-- [End-to-End Constrained Optimization Learning: A Survey](https://arxiv.org/abs/2103.16378) — *IJCAI 2021* · 📈275。制約付き最適化を機械学習で解く取り組みを組合せソルバ統合の観点で整理したサーベイ
+- [End-to-End Constrained Optimization Learning: A Survey](https://arxiv.org/abs/2103.16378) — *IJCAI 2021* · 📈278。制約付き最適化を機械学習で解く取り組みを組合せソルバ統合の観点で整理したサーベイ
 
 ### Convex Optimization Theory
 
-- [Convex Optimization: Algorithms and Complexity](https://arxiv.org/abs/1405.4980) — *Foundations and Trends in Machine Learning 2015* · 📈2171。機械学習向け凸最適化の主要な複雑性定理とアルゴリズム(勾配法/ミラー降下/確率的最適化)を体系化したモノグラフ
+- [Convex Optimization: Algorithms and Complexity](https://arxiv.org/abs/1405.4980) — *Foundations and Trends in Machine Learning 2015* · 📈2167。機械学習向け凸最適化の主要な複雑性定理とアルゴリズム(勾配法/ミラー降下/確率的最適化)を体系化したモノグラフ
 
 ### Differentiable Optimization
 
-- [Differentiable Convex Optimization Layers in Neural Architectures: Foundations and Perspectives](https://arxiv.org/abs/2412.20679) — *arXiv 2024* · 📈3。微分可能最適化層の基礎と発展を概観したサーベイ
+- [Differentiable Convex Optimization Layers in Neural Architectures: Foundations and Perspectives](https://arxiv.org/abs/2412.20679) — *arXiv 2024* · 📈4。微分可能最適化層の基礎と発展を概観したサーベイ
 
 ### Differential Privacy Theory
 
@@ -2765,30 +2765,30 @@
 
 ### ML for Combinatorial Optimization
 
-- [Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon](https://arxiv.org/abs/1811.06128) — *European Journal of Operational Research 2018* · 📈1880。MLとOR両分野からの組合せ最適化への機械学習活用を方法論的に俯瞰した定番サーベイ
+- [Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon](https://arxiv.org/abs/1811.06128) — *European Journal of Operational Research 2018* · 📈1895。MLとOR両分野からの組合せ最適化への機械学習活用を方法論的に俯瞰した定番サーベイ
 
 ### Spectral Methods
 
-- [A Comprehensive Survey on Spectral Clustering with Graph Structure Learning](https://arxiv.org/abs/2501.13597) — *arXiv 2025* · 📈68。スペクトラルクラスタリングをグラフ構造学習の観点から包括レビューしたサーベイ
+- [A Comprehensive Survey on Spectral Clustering with Graph Structure Learning](https://arxiv.org/abs/2501.13597) — *arXiv 2025* · 📈70。スペクトラルクラスタリングをグラフ構造学習の観点から包括レビューしたサーベイ
 
 ### Streaming / Sketching Algorithms
 
-- [Streaming and Sketching Complexity of CSPs: A survey](https://arxiv.org/abs/2205.02744) — *ICALP 2022*。ストリーミング・スケッチ計算モデルでのCSP近似解法の複雑性を概観したサーベイ
+- [Streaming and Sketching Complexity of CSPs: A survey](https://arxiv.org/abs/2205.02744) — *ICALP 2022* · 📈12。ストリーミング・スケッチ計算モデルでのCSP近似解法の複雑性を概観したサーベイ
 
 ### Submodular Optimization
 
-- [Learning with Submodular Functions: A Convex Optimization Perspective](https://arxiv.org/abs/1111.6453) — *Foundations and Trends in Machine Learning 2013*。劣モジュラ関数を凸最適化の観点から学習に結びつけた定番のモノグラフ
-- [Convex Analysis and Optimization with Submodular Functions: a Tutorial](https://arxiv.org/abs/1010.4207) — *arXiv 2010*。劣モジュラ関数の凸解析と最適化を第一原理から解説したチュートリアル
+- [Learning with Submodular Functions: A Convex Optimization Perspective](https://arxiv.org/abs/1111.6453) — *Foundations and Trends in Machine Learning 2013* · 📈532。劣モジュラ関数を凸最適化の観点から学習に結びつけた定番のモノグラフ
+- [Convex Analysis and Optimization with Submodular Functions: a Tutorial](https://arxiv.org/abs/1010.4207) — *arXiv 2010* · 📈40。劣モジュラ関数の凸解析と最適化を第一原理から解説したチュートリアル
 
 ## 🔬 AI for Science
 
 ### AI Drug Discovery
 
-- [Deep Learning Methods for Small Molecule Drug Discovery: A Survey](https://arxiv.org/abs/2303.00313) — *IEEE TKDE 2023* · 📈24。低分子創薬の深層学習(生成・物性予測・逆合成)を概観
+- [Deep Learning Methods for Small Molecule Drug Discovery: A Survey](https://arxiv.org/abs/2303.00313) — *IEEE TKDE 2023* · 📈25。低分子創薬の深層学習(生成・物性予測・逆合成)を概観
 
 ### AI Physics Simulation
 
-- [Scientific Machine Learning through Physics-Informed Neural Networks: Where we are and What's next](https://arxiv.org/abs/2201.05624) — *Journal of Scientific Computing 2022* · 📈2605。物理情報ニューラルネット(PINN)の現状と展望を概観
+- [Scientific Machine Learning through Physics-Informed Neural Networks: Where we are and What's next](https://arxiv.org/abs/2201.05624) — *Journal of Scientific Computing 2022* · 📈2624。物理情報ニューラルネット(PINN)の現状と展望を概観
 
 ### AI for Science (Overview)
 
@@ -2796,23 +2796,23 @@
 
 ### AI4Science - Astronomy / Astrophysics
 
-- [Deep Learning in Astrophysics](https://arxiv.org/abs/2510.10713) — *Annual Review of Astronomy and Astrophysics 2026* · 📈5。天体物理におけるニューラルネットの役割と物理対称性の組込みを整理したレビュー
+- [Deep Learning in Astrophysics](https://arxiv.org/abs/2510.10713) — *Annual Review of Astronomy and Astrophysics 2026* · 📈6。天体物理におけるニューラルネットの役割と物理対称性の組込みを整理したレビュー
 
 ### AI4Science - Computational Fluid Dynamics
 
-- [Recent Advances on Machine Learning for Computational Fluid Dynamics: A Survey](https://arxiv.org/abs/2408.12171) — *arXiv 2024* · 📈72。計算流体力学への機械学習応用(2020-2024)を空力・燃焼等で整理したサーベイ
+- [Recent Advances on Machine Learning for Computational Fluid Dynamics: A Survey](https://arxiv.org/abs/2408.12171) — *arXiv 2024* · 📈73。計算流体力学への機械学習応用(2020-2024)を空力・燃焼等で整理したサーベイ
 
 ### AI4Science - Materials Discovery
 
-- [Machine Learning-Driven Materials Discovery: Unlocking Next-Generation Functional Materials - A review](https://arxiv.org/abs/2503.18975) — *arXiv 2025* · 📈35。機械学習による材料発見手法を物性予測・新材料探索の観点で整理したレビュー
+- [Machine Learning-Driven Materials Discovery: Unlocking Next-Generation Functional Materials - A review](https://arxiv.org/abs/2503.18975) — *arXiv 2025* · 📈37。機械学習による材料発見手法を物性予測・新材料探索の観点で整理したレビュー
 
 ### AI4Science - Molecular Generation / Drug Design
 
-- [A Survey of Generative AI for de novo Drug Design: New Frontiers in Molecule and Protein Generation](https://arxiv.org/abs/2402.08703) — *arXiv 2024* · 📈123。de novo創薬の生成AI(分子生成・タンパク質生成)を網羅したサーベイ
+- [A Survey of Generative AI for de novo Drug Design: New Frontiers in Molecule and Protein Generation](https://arxiv.org/abs/2402.08703) — *arXiv 2024* · 📈124。de novo創薬の生成AI(分子生成・タンパク質生成)を網羅したサーベイ
 
 ### AI4Science - Neuroscience & Deep Learning
 
-- [A Review of Neuroscience-Inspired Machine Learning](https://arxiv.org/abs/2403.18929) — *arXiv 2024* · 📈18。神経科学に着想を得た機械学習(エネルギーベース/前向き/スパイキング)のレビュー
+- [A Review of Neuroscience-Inspired Machine Learning](https://arxiv.org/abs/2403.18929) — *arXiv 2024* · 📈19。神経科学に着想を得た機械学習(エネルギーベース/前向き/スパイキング)のレビュー
 
 ### AI4Science - PDE Solvers
 
@@ -2828,7 +2828,7 @@
 
 ### AI4Science - Quantum Chemistry
 
-- [Ab-initio Quantum Chemistry with Neural-Network Wavefunctions](https://doi.org/10.1038/s41570-023-00516-8) — *Nature Reviews Chemistry 2023* · 📈143。ニューラルネット波動関数によるab-initio量子化学(QMC)を俯瞰したレビュー
+- [Ab-initio Quantum Chemistry with Neural-Network Wavefunctions](https://doi.org/10.1038/s41570-023-00516-8) — *Nature Reviews Chemistry 2023* · 📈145。ニューラルネット波動関数によるab-initio量子化学(QMC)を俯瞰したレビュー
 
 ### AI4Science - Single-Cell Bioinformatics
 
@@ -2840,12 +2840,12 @@
 
 ### Climate / Weather ML
 
-- [Deep Learning and Foundation Models for Weather Prediction: A Survey](https://arxiv.org/abs/2501.06907) — *arXiv 2025* · 📈27。天気予測の深層学習・基盤モデルを学習パラダイムで分類
+- [Deep Learning and Foundation Models for Weather Prediction: A Survey](https://arxiv.org/abs/2501.06907) — *arXiv 2025* · 📈28。天気予測の深層学習・基盤モデルを学習パラダイムで分類
 - [Interpretable Machine Learning for Weather and Climate Prediction: A Survey](https://arxiv.org/abs/2403.18864) — *arXiv 2024* · 📈11。天気・気候予測における解釈可能MLを概観したサーベイ
 
 ### Clinical NLP
 
-- [Neural Natural Language Processing for Unstructured Data in Electronic Health Records: a Review](https://arxiv.org/abs/2107.02975) — *Computer Science Review 2021* · 📈235。電子カルテ非構造化テキストへのニューラルNLPをレビュー
+- [Neural Natural Language Processing for Unstructured Data in Electronic Health Records: a Review](https://arxiv.org/abs/2107.02975) — *Computer Science Review 2021* · 📈236。電子カルテ非構造化テキストへのニューラルNLPをレビュー
 
 ### Materials Science ML
 
@@ -2853,7 +2853,7 @@
 
 ### Physics-Guided / Scientific ML
 
-- [Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems](https://arxiv.org/abs/2003.04919) — *ACM Computing Surveys 2022* · 📈783。物理知識と機械学習の統合手法を体系化した科学ML分野の定番サーベイ。
+- [Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems](https://arxiv.org/abs/2003.04919) — *ACM Computing Surveys 2022* · 📈796。物理知識と機械学習の統合手法を体系化した科学ML分野の定番サーベイ。
 
 ### Protein Structure Prediction
 
@@ -2867,13 +2867,13 @@
 
 ### Automated Planning
 
-- [LLMs as Planning Formalizers: A Survey for Leveraging Large Language Models to Construct Automated Planning Models](https://arxiv.org/abs/2503.18971) — *arXiv 2025* · 📈48。LLMで計画問題を形式化し外部プランナと連携する手法を整理したNLP-自動計画交差領域のサーベイ
-- [AI Planning: A Primer and Survey (Preliminary Report)](https://arxiv.org/abs/2412.05528) — *arXiv 2024*。AIプランニングの基礎と学習ベース手法・基盤モデル連携を俯瞰した入門サーベイ
+- [LLMs as Planning Formalizers: A Survey for Leveraging Large Language Models to Construct Automated Planning Models](https://arxiv.org/abs/2503.18971) — *arXiv 2025* · 📈52。LLMで計画問題を形式化し外部プランナと連携する手法を整理したNLP-自動計画交差領域のサーベイ
+- [AI Planning: A Primer and Survey (Preliminary Report)](https://arxiv.org/abs/2412.05528) — *arXiv 2024* · 📈5。AIプランニングの基礎と学習ベース手法・基盤モデル連携を俯瞰した入門サーベイ
 
 ### Commonsense Reasoning
 
-- [Commonsense Knowledge Reasoning and Generation with Pre-trained Language Models: A Survey](https://arxiv.org/abs/2201.12438) — *AAAI 2022*。事前学習言語モデルによる常識推論・生成タスクの強み弱みを整理したサーベイ
-- [Commonsense Reasoning for Natural Language Understanding: A Survey of Benchmarks, Resources, and Approaches](https://arxiv.org/abs/1904.01172) — *arXiv 2019*。常識推論のベンチマーク・知識資源・手法を整理した定番サーベイ
+- [Commonsense Reasoning for Natural Language Understanding: A Survey of Benchmarks, Resources, and Approaches](https://arxiv.org/abs/1904.01172) — *arXiv 2019* · 📈145。常識推論のベンチマーク・知識資源・手法を整理した定番サーベイ
+- [Commonsense Knowledge Reasoning and Generation with Pre-trained Language Models: A Survey](https://arxiv.org/abs/2201.12438) — *AAAI 2022* · 📈77。事前学習言語モデルによる常識推論・生成タスクの強み弱みを整理したサーベイ
 
 ### Computational Argumentation
 
@@ -2881,23 +2881,23 @@
 
 ### Foundation Models
 
-- [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) — *arXiv 2021*。基盤モデルの能力・技術・応用・社会影響を横断的に論じたStanford大規模レポート
+- [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) — *arXiv 2021* · 📈7188。基盤モデルの能力・技術・応用・社会影響を横断的に論じたStanford大規模レポート
 
 ### Knowledge Graphs & Reasoning
 
-- [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/abs/2002.00388) — *IEEE TNNLS 2021*。知識グラフの表現学習・獲得・推論・応用を網羅した高被引用サーベイ
+- [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/abs/2002.00388) — *IEEE TNNLS 2021* · 📈2866。知識グラフの表現学習・獲得・推論・応用を網羅した高被引用サーベイ
 
 ### Mathematical Reasoning
 
-- [A Survey of Deep Learning for Mathematical Reasoning](https://arxiv.org/abs/2212.10535) — *ACL 2023*。数学的推論の課題・データセット・深層学習手法を10年分整理したサーベイ — [`lupantech/dl4math`](https://github.com/lupantech/dl4math) ⭐374🔴
+- [A Survey of Deep Learning for Mathematical Reasoning](https://arxiv.org/abs/2212.10535) — *ACL 2023* · 📈208。数学的推論の課題・データセット・深層学習手法を10年分整理したサーベイ — [`lupantech/dl4math`](https://github.com/lupantech/dl4math) ⭐371🔴
 
 ### Neuro-Symbolic AI
 
-- [Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing](https://arxiv.org/abs/2210.15889) — *IEEE TPAMI 2024*。ニューラルと記号推論を統合するニューロシンボリック計算の体系的サーベイ
+- [Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing](https://arxiv.org/abs/2210.15889) — *IEEE TPAMI 2024* · 📈69。ニューラルと記号推論を統合するニューロシンボリック計算の体系的サーベイ
 
 ### Neurosymbolic AI
 
-- [Neuro-Symbolic AI in 2024: A Systematic Review](https://arxiv.org/abs/2501.05435) — *arXiv 2025* · 📈83。ニューロシンボリックAIの2020-2024年の研究をPRISMA手法で167本精査した体系的レビュー
+- [Neuro-Symbolic AI in 2024: A Systematic Review](https://arxiv.org/abs/2501.05435) — *arXiv 2025* · 📈84。ニューロシンボリックAIの2020-2024年の研究をPRISMA手法で167本精査した体系的レビュー
 
 ### SAT Solving and ML
 
@@ -2905,86 +2905,86 @@
 
 ### Self-Improving AI
 
-- [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/abs/2404.14387) — *arXiv 2024* · 📈76。LLMが自己生成経験から自律的に獲得・改良・学習する自己進化手法を反復サイクルで整理したサーベイ
+- [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/abs/2404.14387) — *arXiv 2024* · 📈77。LLMが自己生成経験から自律的に獲得・改良・学習する自己進化手法を反復サイクルで整理したサーベイ
 
 ### Theorem Proving & ML
 
-- [A Survey on Deep Learning for Theorem Proving](https://arxiv.org/abs/2404.09939) — *COLM 2024*。自動形式化・前提選択・証明探索など定理証明への深層学習応用を網羅したサーベイ — [`zhaoyu-li/DL4TP`](https://github.com/zhaoyu-li/DL4TP) ⭐228🟡
+- [A Survey on Deep Learning for Theorem Proving](https://arxiv.org/abs/2404.09939) — *COLM 2024* · 📈77。自動形式化・前提選択・証明探索など定理証明への深層学習応用を網羅したサーベイ — [`zhaoyu-li/DL4TP`](https://github.com/zhaoyu-li/DL4TP) ⭐227🟡
 
 ### World Models
 
-- [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499) — *ACM Computing Surveys 2025*。世界理解と未来予測の2機能でworld modelsを体系化した包括的サーベイ — [`tsinghua-fib-lab/World-Model`](https://github.com/tsinghua-fib-lab/World-Model) ⭐816🟡
+- [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499) — *ACM Computing Surveys 2025* · 📈221。世界理解と未来予測の2機能でworld modelsを体系化した包括的サーベイ — [`tsinghua-fib-lab/World-Model`](https://github.com/tsinghua-fib-lab/World-Model) ⭐824🟡
 
 ## 🧩 ニューラルネット基礎
 
 ### Activation Functions
 
-- [Three Decades of Activations: A Comprehensive Survey of 400 Activation Functions for Neural Networks](https://arxiv.org/abs/2402.09092) — *arXiv 2024*。30年分400種類の活性化関数を網羅的に整理した大規模サーベイ
-- [Activation Functions in Deep Learning: A Comprehensive Survey and Benchmark](https://arxiv.org/abs/2109.14545) — *Neurocomputing 2022*。Sigmoid/ReLU/ELU/学習型など活性化関数を分類しベンチマーク比較したサーベイ
+- [Activation Functions in Deep Learning: A Comprehensive Survey and Benchmark](https://arxiv.org/abs/2109.14545) — *Neurocomputing 2022* · 📈1174。Sigmoid/ReLU/ELU/学習型など活性化関数を分類しベンチマーク比較したサーベイ
+- [Three Decades of Activations: A Comprehensive Survey of 400 Activation Functions for Neural Networks](https://arxiv.org/abs/2402.09092) — *arXiv 2024* · 📈57。30年分400種類の活性化関数を網羅的に整理した大規模サーベイ
 
 ### Attention Mechanisms
 
-- [Attention, please! A survey of Neural Attention Models in Deep Learning](https://arxiv.org/abs/2103.16775) — *Artificial Intelligence Review 2022*。650本超を分析し各種ニューラルattention機構を横断的に整理したサーベイ
+- [Attention, please! A survey of Neural Attention Models in Deep Learning](https://arxiv.org/abs/2103.16775) — *Artificial Intelligence Review 2022* · 📈298。650本超を分析し各種ニューラルattention機構を横断的に整理したサーベイ
 
 ### CNN Fundamentals
 
-- [A Survey of the Recent Architectures of Deep Convolutional Neural Networks](https://arxiv.org/abs/1901.06032) — *Artificial Intelligence Review 2020*。深層CNNの主要アーキテクチャ革新を分類整理した高被引用サーベイ
-- [Recent Advances in Convolutional Neural Networks](https://arxiv.org/abs/1512.07108) — *Pattern Recognition 2018*。層設計・活性化・損失・正則化・最適化などCNNの改良を網羅した定番総説
+- [Recent Advances in Convolutional Neural Networks](https://arxiv.org/abs/1512.07108) — *Pattern Recognition 2018* · 📈6068。層設計・活性化・損失・正則化・最適化などCNNの改良を網羅した定番総説
+- [A Survey of the Recent Architectures of Deep Convolutional Neural Networks](https://arxiv.org/abs/1901.06032) — *Artificial Intelligence Review 2020* · 📈2782。深層CNNの主要アーキテクチャ革新を分類整理した高被引用サーベイ
 
 ### Capsule Networks
 
-- [Learning with Capsules: A Survey](https://arxiv.org/abs/2206.02664) — *ACM Computing Surveys 2024*。部分-全体階層を扱うcapsule networkの概念・ルーティング・応用を整理したサーベイ
+- [Learning with Capsules: A Survey](https://arxiv.org/abs/2206.02664) — *ACM Computing Surveys 2024* · 📈23。部分-全体階層を扱うcapsule networkの概念・ルーティング・応用を整理したサーベイ
 
 ### Deep Learning Overview
 
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828) — *Neural Networks 2015* · 📈17702。深層学習の歴史と全体像を網羅したSchmidhuberの大型レビュー。超高被引用。
+- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828) — *Neural Networks 2015* · 📈17722。深層学習の歴史と全体像を網羅したSchmidhuberの大型レビュー。超高被引用。
 
 ### Diffusion Models Theory
 
-- [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796) — *ACM Computing Surveys 2023*。DDPM/SGM/Score SDEの三定式化と効率サンプリング・尤度改善を整理した総説 — [`YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy`](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) ⭐3364🟡
+- [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796) — *ACM Computing Surveys 2023* · 📈2395。DDPM/SGM/Score SDEの三定式化と効率サンプリング・尤度改善を整理した総説 — [`YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy`](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) ⭐3364🟡
 
 ### Efficient Transformers
 
-- [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) — *ACM Computing Surveys 2022*。計算/メモリ効率を改善する各種効率的Transformerを整理した定番サーベイ
+- [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) — *ACM Computing Surveys 2022* · 📈1633。計算/メモリ効率を改善する各種効率的Transformerを整理した定番サーベイ
 
 ### Equivariant Neural Networks
 
-- [Geometric Deep Learning and Equivariant Neural Networks](https://arxiv.org/abs/2105.13926) — *Artificial Intelligence Review 2023*。群同変・ゲージ同変NNの数学的基礎を球面ネットワーク等で詳説したサーベイ
+- [Geometric Deep Learning and Equivariant Neural Networks](https://arxiv.org/abs/2105.13926) — *Artificial Intelligence Review 2023* · 📈123。群同変・ゲージ同変NNの数学的基礎を球面ネットワーク等で詳説したサーベイ
 
 ### Geometric Deep Learning
 
-- [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478) — *arXiv 2021*。対称性とゲージ原理で各種NNアーキテクチャを統一する幾何深層学習の体系的論考 — [project](https://geometricdeeplearning.com/book/)
+- [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478) — *arXiv 2021* · 📈1709。対称性とゲージ原理で各種NNアーキテクチャを統一する幾何深層学習の体系的論考 — [project](https://geometricdeeplearning.com/book/)
 
 ### Implicit Neural Representations
 
-- [Where Do We Stand with Implicit Neural Representations? A Technical and Performance Survey](https://arxiv.org/abs/2411.03688) — *arXiv 2024*。活性化・位置符号化・構造最適化の観点でINRを技術的・性能的に比較したサーベイ
+- [Where Do We Stand with Implicit Neural Representations? A Technical and Performance Survey](https://arxiv.org/abs/2411.03688) — *arXiv 2024* · 📈63。活性化・位置符号化・構造最適化の観点でINRを技術的・性能的に比較したサーベイ
 
 ### Mixture of Experts
 
-- [A Comprehensive Survey of Mixture-of-Experts: Algorithms, Theory, and Applications](https://arxiv.org/abs/2503.07137) — *arXiv 2025*。MoEのアルゴリズム・理論・多モーダル応用を包括的に整理した近年のサーベイ
-- [A Review of Sparse Expert Models in Deep Learning](https://arxiv.org/abs/2209.01667) — *arXiv 2022*。MoE/Switch等のスパースエキスパートモデルを概念整理したレビュー
+- [A Review of Sparse Expert Models in Deep Learning](https://arxiv.org/abs/2209.01667) — *arXiv 2022* · 📈212。MoE/Switch等のスパースエキスパートモデルを概念整理したレビュー
+- [A Comprehensive Survey of Mixture-of-Experts: Algorithms, Theory, and Applications](https://arxiv.org/abs/2503.07137) — *arXiv 2025* · 📈124。MoEのアルゴリズム・理論・多モーダル応用を包括的に整理した近年のサーベイ
 
 ### Neural ODE / Differential Equations
 
-- [Comprehensive Review of Neural Differential Equations for Time Series Analysis](https://arxiv.org/abs/2502.09885) — *IJCAI (Survey Track) 2025*。Neural ODE/CDE/SDEを時系列解析の観点で数理・応用ごとに整理したレビュー
+- [Comprehensive Review of Neural Differential Equations for Time Series Analysis](https://arxiv.org/abs/2502.09885) — *IJCAI (Survey Track) 2025* · 📈31。Neural ODE/CDE/SDEを時系列解析の観点で数理・応用ごとに整理したレビュー
 
 ### Normalization Layers
 
-- [Normalization Techniques in Training DNNs: Methodology, Analysis and Application](https://arxiv.org/abs/2009.12836) — *IEEE TPAMI 2023*。BatchNorm等の正規化手法を最適化観点で統一的に整理した分類学サーベイ — [`huangleiBuaa/NormalizationSurvey`](https://github.com/huangleiBuaa/NormalizationSurvey) ⭐85🔴
+- [Normalization Techniques in Training DNNs: Methodology, Analysis and Application](https://arxiv.org/abs/2009.12836) — *IEEE TPAMI 2023* · 📈471。BatchNorm等の正規化手法を最適化観点で統一的に整理した分類学サーベイ — [`huangleiBuaa/NormalizationSurvey`](https://github.com/huangleiBuaa/NormalizationSurvey) ⭐85🔴
 
 ### Physics-Informed NN
 
-- [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064) — *arXiv 2023*。物理事前知識の表現と組込み手法を軸に物理情報機械学習を体系化したサーベイ
+- [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064) — *arXiv 2023* · 📈196。物理事前知識の表現と組込み手法を軸に物理情報機械学習を体系化したサーベイ
 
 ### Quantum Machine Learning
 
-- [A comprehensive review of Quantum Machine Learning: from NISQ to Fault Tolerance](https://arxiv.org/abs/2401.11351) — *Reports on Progress in Physics 2024*。NISQから誤り耐性までのQML概念・アルゴリズム・統計学習理論を整理したレビュー
-- [A Survey on Quantum Machine Learning: Current Trends, Challenges, Opportunities, and the Road Ahead](https://arxiv.org/abs/2310.10315) — *arXiv 2023*。QMLアルゴリズム・データセット・ハード/ソフト基盤を網羅した動向サーベイ
+- [A comprehensive review of Quantum Machine Learning: from NISQ to Fault Tolerance](https://arxiv.org/abs/2401.11351) — *Reports on Progress in Physics 2024* · 📈128。NISQから誤り耐性までのQML概念・アルゴリズム・統計学習理論を整理したレビュー
+- [A Survey on Quantum Machine Learning: Current Trends, Challenges, Opportunities, and the Road Ahead](https://arxiv.org/abs/2310.10315) — *arXiv 2023* · 📈82。QMLアルゴリズム・データセット・ハード/ソフト基盤を網羅した動向サーベイ
 
 ### RNN / LSTM
 
-- [Recent Advances in Recurrent Neural Networks](https://arxiv.org/abs/1801.01078) — *arXiv 2018* · 📈749。RNNの基礎と最新動向を整理したレビュー。系列モデルの定番入門。
-- [Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network](https://arxiv.org/abs/1808.03314) — *Physica D 2020*。微分方程式からRNN/LSTMの正準形を導出する理論的基礎解説
+- [Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network](https://arxiv.org/abs/1808.03314) — *Physica D 2020* · 📈5206。微分方程式からRNN/LSTMの正準形を導出する理論的基礎解説
+- [Recent Advances in Recurrent Neural Networks](https://arxiv.org/abs/1801.01078) — *arXiv 2018* · 📈752。RNNの基礎と最新動向を整理したレビュー。系列モデルの定番入門。
 
 ### Regularization / Dropout
 
@@ -2992,26 +2992,26 @@
 
 ### Sparse Neural Networks
 
-- [A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations](https://arxiv.org/abs/2308.06767) — *IEEE TPAMI 2024*。DNN枝刈りの分類学・比較・分析・推奨を提供した近年の包括的サーベイ
-- [Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554) — *JMLR 2021*。300本超を統合し疎化(枝刈り/成長)の手法と実践を解説した大規模チュートリアル
+- [Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554) — *JMLR 2021* · 📈1004。300本超を統合し疎化(枝刈り/成長)の手法と実践を解説した大規模チュートリアル
+- [A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations](https://arxiv.org/abs/2308.06767) — *IEEE TPAMI 2024* · 📈549。DNN枝刈りの分類学・比較・分析・推奨を提供した近年の包括的サーベイ
 
 ### Spiking Neural Networks
 
-- [Toward Large-scale Spiking Neural Networks: A Comprehensive Survey and Future Directions](https://arxiv.org/abs/2409.02111) — *arXiv 2024*。大規模化と Spiking Transformer に焦点を当てた深層SNNの包括的サーベイ
-- [Deep Learning in Spiking Neural Networks](https://arxiv.org/abs/1804.08150) — *Neural Networks 2019*。深層SNNの教師あり/なし学習手法を精度・計算コスト・ハード親和性で比較した総説
+- [Deep Learning in Spiking Neural Networks](https://arxiv.org/abs/1804.08150) — *Neural Networks 2019* · 📈1401。深層SNNの教師あり/なし学習手法を精度・計算コスト・ハード親和性で比較した総説
+- [Toward Large-scale Spiking Neural Networks: A Comprehensive Survey and Future Directions](https://arxiv.org/abs/2409.02111) — *arXiv 2024* · 📈16。大規模化と Spiking Transformer に焦点を当てた深層SNNの包括的サーベイ
 
 ### State Space Models
 
-- [A Survey of Mamba](https://arxiv.org/abs/2408.01129) — *arXiv 2024*。Mambaベースモデルの進展・データ適応・応用を整理した状態空間モデルのサーベイ
-- [Mamba-360: Survey of State Space Models as Transformer Alternative for Long Sequence Modelling](https://arxiv.org/abs/2404.16112) — *arXiv 2024*。Transformer代替としてのSSMを長系列モデリング観点で分類・比較したサーベイ — [`badripatro/mamba360`](https://github.com/badripatro/mamba360) ⭐73🔴
+- [A Survey of Mamba](https://arxiv.org/abs/2408.01129) — *arXiv 2024* · 📈99。Mambaベースモデルの進展・データ適応・応用を整理した状態空間モデルのサーベイ
+- [Mamba-360: Survey of State Space Models as Transformer Alternative for Long Sequence Modelling](https://arxiv.org/abs/2404.16112) — *arXiv 2024* · 📈96。Transformer代替としてのSSMを長系列モデリング観点で分類・比較したサーベイ — [`badripatro/mamba360`](https://github.com/badripatro/mamba360) ⭐73🔴
 
 ### Test-Time Adaptation
 
-- [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://arxiv.org/abs/2303.15361) — *IJCV 2025*。分布シフト下でのテスト時適応(TTA)を試験データ形態で分類した包括的サーベイ — [`tim-learn/awesome-test-time-adaptation`](https://github.com/tim-learn/awesome-test-time-adaptation) ⭐1305🟡
+- [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://arxiv.org/abs/2303.15361) — *IJCV 2025* · 📈607。分布シフト下でのテスト時適応(TTA)を試験データ形態で分類した包括的サーベイ — [`tim-learn/awesome-test-time-adaptation`](https://github.com/tim-learn/awesome-test-time-adaptation) ⭐1306🟡
 
 ### Transformer Architectures
 
-- [A Survey of Transformers](https://arxiv.org/abs/2106.04554) — *AI Open 2022*。X-formerの分類体系(構造改良・事前学習・応用)を提示したTransformer総説
+- [A Survey of Transformers](https://arxiv.org/abs/2106.04554) — *AI Open 2022* · 📈1558。X-formerの分類体系(構造改良・事前学習・応用)を提示したTransformer総説
 
 ## 🏭 応用・横断領域
 
@@ -3025,19 +3025,19 @@
 
 ### AI x Education - Intelligent Tutoring
 
-- [Large Language Models for Education: A Survey](https://arxiv.org/abs/2405.13001) — *arXiv 2024* · 📈91。教育分野(知能チュータ等)におけるLLM応用を体系化したサーベイ
+- [Large Language Models for Education: A Survey](https://arxiv.org/abs/2405.13001) — *arXiv 2024* · 📈93。教育分野(知能チュータ等)におけるLLM応用を体系化したサーベイ
 
 ### AI x Energy - Load Forecasting
 
-- [Short-Term Electricity-Load Forecasting by Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2408.16202) — *arXiv 2025* · 📈82。短期電力負荷予測の深層学習手法を包括的に整理したサーベイ
+- [Short-Term Electricity-Load Forecasting by Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2408.16202) — *arXiv 2025* · 📈85。短期電力負荷予測の深層学習手法を包括的に整理したサーベイ
 
 ### AI x Finance
 
-- [Deep Learning for Financial Applications : A Survey](https://arxiv.org/abs/2002.05786) — *Applied Soft Computing 2020*。金融応用への深層学習をサブ分野・モデル別に整理した高被引用サーベイ
+- [Deep Learning for Financial Applications : A Survey](https://arxiv.org/abs/2002.05786) — *Applied Soft Computing 2020* · 📈520。金融応用への深層学習をサブ分野・モデル別に整理した高被引用サーベイ
 
 ### AI x Finance - Algorithmic Trading
 
-- [Deep Reinforcement Learning in Quantitative Algorithmic Trading: A Review](https://arxiv.org/abs/2106.00123) — *arXiv 2021* · 📈57。定量的アルゴリズム取引における深層強化学習を整理したレビュー
+- [Deep Reinforcement Learning in Quantitative Algorithmic Trading: A Review](https://arxiv.org/abs/2106.00123) — *arXiv 2021* · 📈58。定量的アルゴリズム取引における深層強化学習を整理したレビュー
 
 ### AI x Finance - Financial LLM
 
@@ -3045,11 +3045,11 @@
 
 ### AI x Finance - Fraud Detection
 
-- [Year-over-Year Developments in Financial Fraud Detection via Deep Learning: A Systematic Literature Review](https://arxiv.org/abs/2502.00201) — *arXiv 2025* · 📈48。金融不正検知の深層学習手法を年次推移で分析した系統的文献レビュー
+- [Year-over-Year Developments in Financial Fraud Detection via Deep Learning: A Systematic Literature Review](https://arxiv.org/abs/2502.00201) — *arXiv 2025* · 📈49。金融不正検知の深層学習手法を年次推移で分析した系統的文献レビュー
 
 ### AI x Healthcare
 
-- [Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis](https://arxiv.org/abs/1706.03446) — *IEEE JBHI 2018*。電子カルテ解析への深層学習応用を構造・技術・臨床応用面で整理したサーベイ
+- [Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis](https://arxiv.org/abs/1706.03446) — *IEEE JBHI 2018* · 📈1510。電子カルテ解析への深層学習応用を構造・技術・臨床応用面で整理したサーベイ
 
 ### AI x Healthcare - Clinical NLP / EHR
 
@@ -3065,7 +3065,7 @@
 
 ### AI x Healthcare - Medical Image Segmentation
 
-- [From CNN to Transformer: A Review of Medical Image Segmentation Models](https://arxiv.org/abs/2308.05305) — *arXiv 2023* · 📈227。医療画像セグメンテーションのCNNからTransformerへの進化を整理したレビュー
+- [From CNN to Transformer: A Review of Medical Image Segmentation Models](https://arxiv.org/abs/2308.05305) — *arXiv 2023* · 📈229。医療画像セグメンテーションのCNNからTransformerへの進化を整理したレビュー
 
 ### AI x Healthcare - Medical LLM
 
@@ -3081,7 +3081,7 @@
 
 ### AI x IoT/Edge - TinyML
 
-- [From Tiny Machine Learning to Tiny Deep Learning: A Survey](https://arxiv.org/abs/2506.18927) — *arXiv 2025* · 📈49。TinyMLからTinyDLへの移行(量子化・剪定・NAS・HW)を網羅したサーベイ
+- [From Tiny Machine Learning to Tiny Deep Learning: A Survey](https://arxiv.org/abs/2506.18927) — *arXiv 2025* · 📈51。TinyMLからTinyDLへの移行(量子化・剪定・NAS・HW)を網羅したサーベイ
 
 ### AI x Law - Legal LLM
 
@@ -3089,15 +3089,15 @@
 
 ### AI x Manufacturing - Anomaly Detection
 
-- [Deep Learning for Unsupervised Anomaly Localization in Industrial Images: A Survey](https://arxiv.org/abs/2207.10298) — *arXiv 2022* · 📈275。産業画像の教師なし異常箇所特定の深層学習手法を整理したサーベイ
+- [Deep Learning for Unsupervised Anomaly Localization in Industrial Images: A Survey](https://arxiv.org/abs/2207.10298) — *arXiv 2022* · 📈277。産業画像の教師なし異常箇所特定の深層学習手法を整理したサーベイ
 
 ### AI x Manufacturing - Industrial Time Series Anomaly Detection
 
-- [A Comprehensive Survey of Deep Transfer Learning for Anomaly Detection in Industrial Time Series: Methods, Applications, and Directions](https://arxiv.org/abs/2307.05638) — *arXiv 2024* · 📈197。産業時系列の異常検知における深層転移学習を網羅したサーベイ
+- [A Comprehensive Survey of Deep Transfer Learning for Anomaly Detection in Industrial Time Series: Methods, Applications, and Directions](https://arxiv.org/abs/2307.05638) — *arXiv 2024* · 📈200。産業時系列の異常検知における深層転移学習を網羅したサーベイ
 
 ### AI x Mobility - Autonomous Driving Foundation Models
 
-- [A Survey for Foundation Models in Autonomous Driving](https://arxiv.org/abs/2402.01105) — *arXiv 2024* · 📈70。自動運転における基盤モデル(マルチモーダル/LLM等)を分類したサーベイ
+- [A Survey for Foundation Models in Autonomous Driving](https://arxiv.org/abs/2402.01105) — *arXiv 2024* · 📈71。自動運転における基盤モデル(マルチモーダル/LLM等)を分類したサーベイ
 
 ### AI x Music - Deep Music Generation
 
@@ -3105,7 +3105,7 @@
 
 ### AI x Networking
 
-- [Deep Learning in Mobile and Wireless Networking: A Survey](https://arxiv.org/abs/1803.04311) — *IEEE Communications Surveys & Tutorials 2019*。モバイル/無線ネットワーク研究への深層学習応用を横断的に整理した定番サーベイ
+- [Deep Learning in Mobile and Wireless Networking: A Survey](https://arxiv.org/abs/1803.04311) — *IEEE Communications Surveys & Tutorials 2019* · 📈1555。モバイル/無線ネットワーク研究への深層学習応用を横断的に整理した定番サーベイ
 
 ### AI x Society - Finance/Healthcare/Law
 
@@ -3113,11 +3113,11 @@
 
 ### AI x Software Engineering
 
-- [A Survey on Deep Learning for Software Engineering](https://arxiv.org/abs/2011.14597) — *ACM Computing Surveys 2022*。20主要会議誌の142本を分析しSEタスクへの深層学習応用を分類したサーベイ
+- [A Survey on Deep Learning for Software Engineering](https://arxiv.org/abs/2011.14597) — *ACM Computing Surveys 2022* · 📈244。20主要会議誌の142本を分析しSEタスクへの深層学習応用を分類したサーベイ
 
 ### AI x Software Engineering - LLM Agents
 
-- [Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977) — *arXiv 2025* · 📈238。ソフトウェア工学向けLLMエージェントをSE/エージェント両視点で整理したサーベイ
+- [Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977) — *arXiv 2025* · 📈244。ソフトウェア工学向けLLMエージェントをSE/エージェント両視点で整理したサーベイ
 
 ### AI x Transportation - GNN
 
@@ -3125,35 +3125,35 @@
 
 ### Geospatial - Remote Sensing Foundation Models
 
-- [Foundation Models for Remote Sensing and Earth Observation: A Survey](https://arxiv.org/abs/2410.16602) — *IEEE Geoscience and Remote Sensing Magazine 2025* · 📈110。リモートセンシング/地球観測の基盤モデルを網羅したサーベイ(IEEE GRSM採録)
+- [Foundation Models for Remote Sensing and Earth Observation: A Survey](https://arxiv.org/abs/2410.16602) — *IEEE Geoscience and Remote Sensing Magazine 2025* · 📈116。リモートセンシング/地球観測の基盤モデルを網羅したサーベイ(IEEE GRSM採録)
 
 ### Geospatial - Self-Supervised GeoAI
 
-- [Self-Supervised Representation Learning for Geospatial Objects: A Survey](https://arxiv.org/abs/2408.12133) — *arXiv 2025* · 📈22。地理空間オブジェクトの自己教師あり表現学習を整理したサーベイ
+- [Self-Supervised Representation Learning for Geospatial Objects: A Survey](https://arxiv.org/abs/2408.12133) — *arXiv 2025* · 📈23。地理空間オブジェクトの自己教師あり表現学習を整理したサーベイ
 
 ## 📊 データ中心AI・評価
 
 ### Active Learning
 
-- [A Survey on Deep Active Learning: Recent Advances and New Frontiers](https://arxiv.org/abs/2405.00334) — *IEEE TNNLS 2024* · 📈158。深層能動学習をアノテーション種別・クエリ戦略・モデル・学習パラダイム・訓練過程の5観点で分類したサーベイ
-- [A Survey of Deep Active Learning](https://arxiv.org/abs/2009.00236) — *ACM Computing Surveys 2022*。深層能動学習の初の包括レビュー。クエリ戦略やラベリングコスト削減手法を整理
+- [A Survey of Deep Active Learning](https://arxiv.org/abs/2009.00236) — *ACM Computing Surveys 2022* · 📈1542。深層能動学習の初の包括レビュー。クエリ戦略やラベリングコスト削減手法を整理
+- [A Survey on Deep Active Learning: Recent Advances and New Frontiers](https://arxiv.org/abs/2405.00334) — *IEEE TNNLS 2024* · 📈160。深層能動学習をアノテーション種別・クエリ戦略・モデル・学習パラダイム・訓練過程の5観点で分類したサーベイ
 
 ### Benchmark Contamination
 
-- [A Survey on Data Contamination for Large Language Models](https://arxiv.org/abs/2502.14425) — *arXiv 2025*。データ汚染の定義・影響と汚染フリー評価手法(更新/書換/予防)を整理したサーベイ
-- [Benchmark Data Contamination of Large Language Models: A Survey](https://arxiv.org/abs/2406.04244) — *arXiv 2024*。LLMのベンチマーク汚染問題と検出・緩和手法を整理したサーベイ
+- [Benchmark Data Contamination of Large Language Models: A Survey](https://arxiv.org/abs/2406.04244) — *arXiv 2024* · 📈146。LLMのベンチマーク汚染問題と検出・緩和手法を整理したサーベイ
+- [A Survey on Data Contamination for Large Language Models](https://arxiv.org/abs/2502.14425) — *arXiv 2025* · 📈34。データ汚染の定義・影響と汚染フリー評価手法(更新/書換/予防)を整理したサーベイ
 
 ### Benchmark Design / Model Evaluation
 
-- [Evaluation and Benchmarking of LLM Agents: A Survey](https://arxiv.org/abs/2507.21504) — *arXiv 2025* · 📈185。LLMエージェントの評価を評価対象と評価プロセスの2次元分類で俯瞰したサーベイ
+- [Evaluation and Benchmarking of LLM Agents: A Survey](https://arxiv.org/abs/2507.21504) — *arXiv 2025* · 📈189。LLMエージェントの評価を評価対象と評価プロセスの2次元分類で俯瞰したサーベイ
 
 ### Benchmark Methodology
 
-- [Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation](https://arxiv.org/abs/2502.06559) — *arXiv 2025* · 📈79。AIベンチマークの設計上の欠陥とデータ汚染・指標ゲーミング等の問題を約100本から学際的にレビューした論文
+- [Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation](https://arxiv.org/abs/2502.06559) — *arXiv 2025* · 📈80。AIベンチマークの設計上の欠陥とデータ汚染・指標ゲーミング等の問題を約100本から学際的にレビューした論文
 
 ### Coreset Selection / Data Pruning
 
-- [A Coreset Selection of Coreset Selection Literature: Introduction and Recent Advances](https://arxiv.org/abs/2505.17799) — *arXiv 2025* · 📈27。coreset選択(データ枝刈り)を訓練不要・訓練指向・ラベル不要の3系統に統一分類したサーベイ
+- [A Coreset Selection of Coreset Selection Literature: Introduction and Recent Advances](https://arxiv.org/abs/2505.17799) — *arXiv 2025* · 📈28。coreset選択(データ枝刈り)を訓練不要・訓練指向・ラベル不要の3系統に統一分類したサーベイ
 
 ### Data Augmentation (Graph)
 
@@ -3161,16 +3161,16 @@
 
 ### Data-Centric AI
 
-- [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158) — *ACM Computing Surveys 2025*。学習/推論データ開発とデータ保守の3目標でデータ中心AIを俯瞰したサーベイ — [`daochenzha/data-centric-AI`](https://github.com/daochenzha/data-centric-AI) ⭐1155🔴
+- [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158) — *ACM Computing Surveys 2025* · 📈490。学習/推論データ開発とデータ保守の3目標でデータ中心AIを俯瞰したサーベイ — [`daochenzha/data-centric-AI`](https://github.com/daochenzha/data-centric-AI) ⭐1157🔴
 
 ### Dataset Distillation
 
-- [A Comprehensive Survey of Dataset Distillation](https://arxiv.org/abs/2301.05603) — *IEEE TPAMI 2024*。データ蒸留のフレームワーク・アルゴリズム・分解型手法・応用を整理したサーベイ
-- [Dataset Distillation: A Comprehensive Review](https://arxiv.org/abs/2301.07014) — *IEEE TPAMI 2024*。合成サンプルで小規模代替データを生成するデータ蒸留の近年の進展を整理したレビュー
+- [Dataset Distillation: A Comprehensive Review](https://arxiv.org/abs/2301.07014) — *IEEE TPAMI 2024* · 📈210。合成サンプルで小規模代替データを生成するデータ蒸留の近年の進展を整理したレビュー
+- [A Comprehensive Survey of Dataset Distillation](https://arxiv.org/abs/2301.05603) — *IEEE TPAMI 2024* · 📈195。データ蒸留のフレームワーク・アルゴリズム・分解型手法・応用を整理したサーベイ
 
 ### LLM-as-Judge Evaluation
 
-- [A Survey on LLM-as-a-Judge](https://arxiv.org/abs/2411.15594) — *arXiv 2024*。LLM-as-a-Judgeの信頼性向上(一貫性・バイアス緩和等)の戦略を整理したサーベイ
+- [A Survey on LLM-as-a-Judge](https://arxiv.org/abs/2411.15594) — *arXiv 2024* · 📈1694。LLM-as-a-Judgeの信頼性向上(一貫性・バイアス緩和等)の戦略を整理したサーベイ
 
 ### Multimodal Harmful Content
 
@@ -3178,17 +3178,17 @@
 
 ### Synthetic Data
 
-- [Machine Learning for Synthetic Data Generation: A Review](https://arxiv.org/abs/2302.04062) — *arXiv 2023* · 📈303。機械学習による合成データ生成を応用領域・深層生成モデル・プライバシ/公平性の観点で体系レビューした論文
-- [Comprehensive Exploration of Synthetic Data Generation: A Survey](https://arxiv.org/abs/2401.02524) — *arXiv 2024* · 📈113。過去10年の合成データ生成モデル417件を分類しトレンドを分析したサーベイ
+- [Machine Learning for Synthetic Data Generation: A Review](https://arxiv.org/abs/2302.04062) — *arXiv 2023* · 📈305。機械学習による合成データ生成を応用領域・深層生成モデル・プライバシ/公平性の観点で体系レビューした論文
+- [Comprehensive Exploration of Synthetic Data Generation: A Survey](https://arxiv.org/abs/2401.02524) — *arXiv 2024* · 📈114。過去10年の合成データ生成モデル417件を分類しトレンドを分析したサーベイ
 
 ### Synthetic Data (LLM)
 
-- [On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey](https://arxiv.org/abs/2406.15126) — *ACL Findings 2024* · 📈366。LLM駆動の合成データ生成・キュレーション・評価を統一ワークフローで整理したサーベイ
+- [On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey](https://arxiv.org/abs/2406.15126) — *ACL Findings 2024* · 📈369。LLM駆動の合成データ生成・キュレーション・評価を統一ワークフローで整理したサーベイ
 
 ### Synthetic Data Generation
 
-- [Synthetic Data Generation Using Large Language Models: Advances in Text and Code](https://arxiv.org/abs/2503.14023) — *IEEE Access 2025*。LLMによるテキスト・コードの合成データ生成手法(プロンプト/RAG/自己改良)を概観
-- [A Survey on Data Synthesis and Augmentation for Large Language Models](https://arxiv.org/abs/2410.12896) — *arXiv 2024*。LLMのライフサイクル全体にわたるデータ合成・拡張技術を整理したサーベイ
+- [Synthetic Data Generation Using Large Language Models: Advances in Text and Code](https://arxiv.org/abs/2503.14023) — *IEEE Access 2025* · 📈115。LLMによるテキスト・コードの合成データ生成手法(プロンプト/RAG/自己改良)を概観
+- [A Survey on Data Synthesis and Augmentation for Large Language Models](https://arxiv.org/abs/2410.12896) — *arXiv 2024* · 📈52。LLMのライフサイクル全体にわたるデータ合成・拡張技術を整理したサーベイ
 
 ## 貢献
 
