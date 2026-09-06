@@ -4,7 +4,7 @@
 
 > A curated collection of high-quality **survey, review, and overview papers** from top AI conferences, journals, and arXiv. It is designed as a fast starting point for finding authoritative review papers across AI research.
 
-**955 survey papers** across 30 fields, with 122 companion repositories. Last updated 2026-08-30.
+**955 survey papers** across 30 fields, with 122 companion repositories. Last updated 2026-09-06.
 
 Each item uses the format `[title](paper URL) — *venue year* · 📈 citations — note — [`companion repo`](github) ⭐stars🟢freshness · [project](page)`.
 
@@ -49,77 +49,77 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Code LLM
 
-- [Large Language Models for Software Engineering: A Systematic Literature Review](https://arxiv.org/abs/2308.10620) — *ACM TOSEM 2023* · 📈1278 — A systematic literature review on code LLM, summarizing key methods, datasets, applications, and research directions.
-- [A Survey on Large Language Models for Code Generation](https://arxiv.org/abs/2406.00515) — *arXiv 2024* · 📈1129 — A comprehensive survey on code LLM, with emphasis on benchmarks, evaluation, and representative methods. — [`huybery/Awesome-Code-LLM`](https://github.com/huybery/Awesome-Code-LLM) ⭐1290🔴
-- [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) — *TMLR 2023* · 📈115 — A comprehensive survey on code LLM, organizing major methods, taxonomies, and design choices. — [`codefuse-ai/Awesome-Code-LLM`](https://github.com/codefuse-ai/Awesome-Code-LLM) ⭐3434🟢
+- [Large Language Models for Software Engineering: A Systematic Literature Review](https://arxiv.org/abs/2308.10620) — *ACM TOSEM 2023* · 📈1297 — A systematic literature review on code LLM, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Large Language Models for Code Generation](https://arxiv.org/abs/2406.00515) — *arXiv 2024* · 📈1143 — A comprehensive survey on code LLM, with emphasis on benchmarks, evaluation, and representative methods. — [`huybery/Awesome-Code-LLM`](https://github.com/huybery/Awesome-Code-LLM) ⭐1290🔴
+- [Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code](https://arxiv.org/abs/2311.07989) — *TMLR 2023* · 📈117 — A comprehensive survey on code LLM, organizing major methods, taxonomies, and design choices. — [`codefuse-ai/Awesome-Code-LLM`](https://github.com/codefuse-ai/Awesome-Code-LLM) ⭐3434🟢
 
 ### Code Reasoning
 
-- [Code to Think, Think to Code: A Survey on Code-Enhanced Reasoning and Reasoning-Driven Code Intelligence in LLMs](https://arxiv.org/abs/2502.19411) — *arXiv 2025* · 📈59 — A survey on code reasoning, organizing major methods, taxonomies, and design choices.
+- [Code to Think, Think to Code: A Survey on Code-Enhanced Reasoning and Reasoning-Driven Code Intelligence in LLMs](https://arxiv.org/abs/2502.19411) — *arXiv 2025* — A survey on code reasoning, organizing major methods, taxonomies, and design choices.
 
 ### Compression / Quantization
 
-- [A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633) — *TACL 2023* · 📈501 — A survey on compression and quantization, organizing major methods, taxonomies, and design choices.
-- [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863) — *TMLR 2023* · 📈253 — A comprehensive survey on compression and quantization, organizing major methods, taxonomies, and design choices. — [`AIoT-MLSys-Lab/Efficient-LLMs-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey) ⭐1257🟡
+- [A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633) — *TACL 2023* · 📈506 — A survey on compression and quantization, organizing major methods, taxonomies, and design choices.
+- [Efficient Large Language Models: A Survey](https://arxiv.org/abs/2312.03863) — *TMLR 2023* · 📈258 — A comprehensive survey on compression and quantization, organizing major methods, taxonomies, and design choices. — [`AIoT-MLSys-Lab/Efficient-LLMs-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey) ⭐1257🟡
 - [The Efficiency Spectrum of Large Language Models: An Algorithmic Survey](https://arxiv.org/abs/2312.00678) — *arXiv 2023* · 📈41 — A survey on compression and quantization, surveying major methods, techniques, and algorithmic choices.
 
 ### Context Engineering
 
-- [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334) — *arXiv 2025* · 📈147 — A comprehensive survey on context engineering, organizing major methods, taxonomies, and design choices. — [`Meirtz/Awesome-Context-Engineering`](https://github.com/Meirtz/Awesome-Context-Engineering) ⭐3287🟢
+- [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334) — *arXiv 2025* — A comprehensive survey on context engineering, organizing major methods, taxonomies, and design choices. — [`Meirtz/Awesome-Context-Engineering`](https://github.com/Meirtz/Awesome-Context-Engineering) ⭐3297🟢
 
 ### Continual Learning
 
-- [Towards Lifelong Learning of Large Language Models: A Survey](https://arxiv.org/abs/2406.06391) — *ACM Computing Surveys 2024* · 📈106 — A survey on continual learning, organizing major methods, taxonomies, and design choices.
+- [Towards Lifelong Learning of Large Language Models: A Survey](https://arxiv.org/abs/2406.06391) — *ACM Computing Surveys 2024* · 📈107 — A survey on continual learning, organizing major methods, taxonomies, and design choices.
 
 ### Data Agents
 
-- [A Survey of Data Agents: Emerging Paradigm or Overstated Hype?](https://arxiv.org/abs/2510.23587) — *arXiv 2025* · 📈40 — A survey on data agents, summarizing key methods, datasets, applications, and research directions. — [`HKUSTDial/awesome-data-agents`](https://github.com/HKUSTDial/awesome-data-agents) ⭐721🟢
+- [A Survey of Data Agents: Emerging Paradigm or Overstated Hype?](https://arxiv.org/abs/2510.23587) — *arXiv 2025* — A survey on data agents, summarizing key methods, datasets, applications, and research directions. — [`HKUSTDial/awesome-data-agents`](https://github.com/HKUSTDial/awesome-data-agents) ⭐731🟢
 
 ### Diffusion Language Models
 
-- [A Survey on Diffusion Language Models](https://arxiv.org/abs/2508.10875) — *arXiv 2025* · 📈69 — A recent survey on diffusion language models, summarizing key methods, datasets, applications, and research directions. — [`VILA-Lab/Awesome-DLMs`](https://github.com/VILA-Lab/Awesome-DLMs) ⭐1201🟢
+- [A Survey on Diffusion Language Models](https://arxiv.org/abs/2508.10875) — *arXiv 2025* — A recent survey on diffusion language models, summarizing key methods, datasets, applications, and research directions. — [`VILA-Lab/Awesome-DLMs`](https://github.com/VILA-Lab/Awesome-DLMs) ⭐1204🟢
 
 ### Efficient Inference / KV Cache
 
-- [A Survey on Efficient Inference for Large Language Models](https://arxiv.org/abs/2404.14294) — *arXiv 2024* · 📈263 — A survey on efficient inference and KV cache, with comparative analysis of representative methods and systems.
-- [LLM Inference Unveiled: Survey and Roofline Model Insights](https://arxiv.org/abs/2402.16363) — *arXiv 2024* · 📈218 — A survey on efficient inference and KV cache, summarizing key methods, datasets, applications, and research directions.
-- [Towards Efficient Generative LLM Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234) — *ACM Computing Surveys 2023* · 📈187 — A survey on efficient inference and KV cache, surveying major methods, techniques, and algorithmic choices.
+- [A Survey on Efficient Inference for Large Language Models](https://arxiv.org/abs/2404.14294) — *arXiv 2024* · 📈264 — A survey on efficient inference and KV cache, with comparative analysis of representative methods and systems.
+- [LLM Inference Unveiled: Survey and Roofline Model Insights](https://arxiv.org/abs/2402.16363) — *arXiv 2024* · 📈219 — A survey on efficient inference and KV cache, summarizing key methods, datasets, applications, and research directions.
+- [Towards Efficient Generative LLM Serving: A Survey from Algorithms to Systems](https://arxiv.org/abs/2312.15234) — *ACM Computing Surveys 2023* · 📈191 — A survey on efficient inference and KV cache, surveying major methods, techniques, and algorithmic choices.
 
 ### Efficient Reasoning
 
-- [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.16419) — *arXiv 2025* · 📈452 — A comprehensive survey on efficient reasoning, organizing major methods, taxonomies, and design choices. — [`Eclipsess/Awesome-Efficient-Reasoning-LLMs`](https://github.com/Eclipsess/Awesome-Efficient-Reasoning-LLMs) ⭐786🟡
-- [A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond](https://arxiv.org/abs/2503.21614) — *arXiv 2025* · 📈143 — A survey on efficient reasoning, organizing major methods, taxonomies, and design choices. — [`XiaoYee/Awesome_Efficient_LRM_Reasoning`](https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning) ⭐360🟡
+- [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.16419) — *arXiv 2025* — A comprehensive survey on efficient reasoning, organizing major methods, taxonomies, and design choices. — [`Eclipsess/Awesome-Efficient-Reasoning-LLMs`](https://github.com/Eclipsess/Awesome-Efficient-Reasoning-LLMs) ⭐787🟡
+- [A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond](https://arxiv.org/abs/2503.21614) — *arXiv 2025* — A survey on efficient reasoning, organizing major methods, taxonomies, and design choices. — [`XiaoYee/Awesome_Efficient_LRM_Reasoning`](https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning) ⭐360🟡
 
 ### Emergent Abilities / Scaling
 
-- [Emergent Abilities in Large Language Models: A Survey](https://arxiv.org/abs/2503.05788) — *arXiv 2025* · 📈57 — A survey on emergent abilities and scaling, organizing major methods, taxonomies, and design choices.
+- [Emergent Abilities in Large Language Models: A Survey](https://arxiv.org/abs/2503.05788) — *arXiv 2025* — A survey on emergent abilities and scaling, organizing major methods, taxonomies, and design choices.
 
 ### GUI Agents
 
-- [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/abs/2411.18279) — *arXiv 2024* · 📈195 — A comprehensive survey on GUI agents, organizing major methods, taxonomies, and design choices. — [`vyokky/LLM-Brained-GUI-Agents-Survey`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey) ⭐231🟡
+- [Large Language Model-Brained GUI Agents: A Survey](https://arxiv.org/abs/2411.18279) — *arXiv 2024* — A comprehensive survey on GUI agents, organizing major methods, taxonomies, and design choices. — [`vyokky/LLM-Brained-GUI-Agents-Survey`](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey) ⭐231🟡
 
 ### GraphRAG
 
-- [A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models](https://arxiv.org/abs/2501.13958) — *arXiv 2025* · 📈142 — A comprehensive survey on graphrag, organizing major methods, taxonomies, and design choices. — [`DEEP-PolyU/Awesome-GraphRAG`](https://github.com/DEEP-PolyU/Awesome-GraphRAG) ⭐2617🟢
+- [A Survey of Graph Retrieval-Augmented Generation for Customized Large Language Models](https://arxiv.org/abs/2501.13958) — *arXiv 2025* — A comprehensive survey on graphrag, organizing major methods, taxonomies, and design choices. — [`DEEP-PolyU/Awesome-GraphRAG`](https://github.com/DEEP-PolyU/Awesome-GraphRAG) ⭐2634🟢
 
 ### Hallucination
 
-- [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/abs/2311.05232) — *ACM TOIS 2023* · 📈3635 — A standard comprehensive survey on hallucination, covering methods, challenges, and future research directions. — [`LuckyyySTA/Awesome-LLM-hallucination`](https://github.com/LuckyyySTA/Awesome-LLM-hallucination) ⭐338🔴
-- [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219) — *arXiv 2023* · 📈1138 — A survey on hallucination, organizing major methods, taxonomies, and design choices. — [`HillZhang1999/llm-hallucination-survey`](https://github.com/HillZhang1999/llm-hallucination-survey) ⭐1085🟡
-- [A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models](https://arxiv.org/abs/2401.01313) — *arXiv 2024* · 📈510 — A comprehensive survey on hallucination, with comparative analysis of representative methods and systems.
+- [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/abs/2311.05232) — *ACM TOIS 2023* · 📈3675 — A standard comprehensive survey on hallucination, covering methods, challenges, and future research directions. — [`LuckyyySTA/Awesome-LLM-hallucination`](https://github.com/LuckyyySTA/Awesome-LLM-hallucination) ⭐338🔴
+- [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219) — *arXiv 2023* · 📈1143 — A survey on hallucination, organizing major methods, taxonomies, and design choices. — [`HillZhang1999/llm-hallucination-survey`](https://github.com/HillZhang1999/llm-hallucination-survey) ⭐1085🟡
+- [A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models](https://arxiv.org/abs/2401.01313) — *arXiv 2024* · 📈511 — A comprehensive survey on hallucination, with comparative analysis of representative methods and systems.
 
 ### In-Context Learning
 
-- [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234) — *EMNLP 2023* · 📈1144 — A standard comprehensive survey on in-context learning, organizing major methods, taxonomies, and design choices. — [`EgoAlpha/prompt-in-context-learning`](https://github.com/EgoAlpha/prompt-in-context-learning) ⭐2248🟢
+- [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234) — *EMNLP 2023* · 📈1157 — A standard comprehensive survey on in-context learning, organizing major methods, taxonomies, and design choices. — [`EgoAlpha/prompt-in-context-learning`](https://github.com/EgoAlpha/prompt-in-context-learning) ⭐2247🟢
 
 ### In-Context Learning Theory
 
-- [The Mystery of In-Context Learning: A Comprehensive Survey on Interpretation and Analysis](https://arxiv.org/abs/2311.00237) — *EMNLP 2023* · 📈51 — A comprehensive comprehensive survey on in-context learning theory, covering theoretical foundations, methods, and implications.
+- [The Mystery of In-Context Learning: A Comprehensive Survey on Interpretation and Analysis](https://arxiv.org/abs/2311.00237) — *EMNLP 2023* — A comprehensive comprehensive survey on in-context learning theory, covering theoretical foundations, methods, and implications.
 
 ### Instruction Tuning
 
-- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) — *NeurIPS 2022* · 📈23687 — The InstructGPT paper that established instruction-following language-model training with human feedback.
-- [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792) — *arXiv 2023* · 📈925 — A standard survey on instruction tuning, covering core methods, applications, and research trends. — [`xiaoya-li/Instruction-Tuning-Survey`](https://github.com/xiaoya-li/Instruction-Tuning-Survey) ⭐232🟡
+- [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792) — *arXiv 2023* — A standard survey on instruction tuning, covering core methods, applications, and research trends. — [`xiaoya-li/Instruction-Tuning-Survey`](https://github.com/xiaoya-li/Instruction-Tuning-Survey) ⭐232🟡
+- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) — *NeurIPS 2022* — The InstructGPT paper that established instruction-following language-model training with human feedback.
 
 ### KV Cache Compression
 
@@ -127,65 +127,65 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Knowledge & Dataset Distillation for LLMs
 
-- [Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions](https://arxiv.org/abs/2504.14772) — *arXiv preprint 2025* · 📈58 — A comprehensive key reference on knowledge & dataset distillation for llms, surveying major methods, techniques, and algorithmic choices.
+- [Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions](https://arxiv.org/abs/2504.14772) — *arXiv preprint 2025* · 📈61 — A comprehensive key reference on knowledge & dataset distillation for llms, surveying major methods, techniques, and algorithmic choices.
 
 ### Knowledge Distillation
 
-- [A Survey on Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2402.13116) — *arXiv 2024* · 📈372 — A comprehensive survey on knowledge distillation, organizing major methods, taxonomies, and design choices. — [`Tebmer/Awesome-Knowledge-Distillation-of-LLMs`](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs) ⭐1305🟡
+- [A Survey on Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2402.13116) — *arXiv 2024* — A comprehensive survey on knowledge distillation, organizing major methods, taxonomies, and design choices. — [`Tebmer/Awesome-Knowledge-Distillation-of-LLMs`](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs) ⭐1306🔴
 
 ### Knowledge Editing
 
-- [Editing Large Language Models: Problems, Methods, and Opportunities](https://arxiv.org/abs/2305.13172) — *EMNLP 2023* · 📈487 — A key reference on knowledge editing, covering methods, challenges, and future research directions. — [`zjunlp/KnowledgeEditingPapers`](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐1246🟢
 - [Knowledge Editing for Large Language Models: A Survey](https://arxiv.org/abs/2310.16218) — *ACM Computing Surveys 2023* · 📈284 — A standard survey on knowledge editing, with emphasis on benchmarks, evaluation, and representative methods.
-- [A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286) — *arXiv 2024* · 📈180 — A key reference on knowledge editing, organizing major methods, taxonomies, and design choices. — [`zjunlp/EasyEdit`](https://github.com/zjunlp/EasyEdit) ⭐2910🟢
+- [A Comprehensive Study of Knowledge Editing for Large Language Models](https://arxiv.org/abs/2401.01286) — *arXiv 2024* · 📈181 — A key reference on knowledge editing, organizing major methods, taxonomies, and design choices. — [`zjunlp/EasyEdit`](https://github.com/zjunlp/EasyEdit) ⭐2911🟢
+- [Editing Large Language Models: Problems, Methods, and Opportunities](https://arxiv.org/abs/2305.13172) — *EMNLP 2023* — A key reference on knowledge editing, covering methods, challenges, and future research directions. — [`zjunlp/KnowledgeEditingPapers`](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐1247🟢
 
 ### Knowledge Mechanisms
 
-- [Knowledge Mechanisms in Large Language Models: A Survey and Perspective](https://arxiv.org/abs/2407.15017) — *EMNLP Findings 2024* · 📈76 — A survey on knowledge mechanisms, summarizing key methods, datasets, applications, and research directions. — [`zjunlp/KnowledgeEditingPapers`](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐1246🟢
+- [Knowledge Mechanisms in Large Language Models: A Survey and Perspective](https://arxiv.org/abs/2407.15017) — *EMNLP Findings 2024* — A survey on knowledge mechanisms, summarizing key methods, datasets, applications, and research directions. — [`zjunlp/KnowledgeEditingPapers`](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐1247🟢
 
 ### LLM Agents
 
-- [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) — *Frontiers of Computer Science 2023* · 📈3698 — A standard survey on LLM agents, with emphasis on benchmarks, evaluation, and representative methods. — [`Paitesanshi/LLM-Agent-Survey`](https://github.com/Paitesanshi/LLM-Agent-Survey) ⭐2910🔴
-- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) — *arXiv 2023* · 📈2024 — A comprehensive survey on LLM agents, summarizing key methods, datasets, applications, and research directions. — [`WooooDyy/LLM-Agent-Paper-List`](https://github.com/WooooDyy/LLM-Agent-Paper-List) ⭐8181🟡
-- [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201) — *ICLR 2024* · 📈978 — A key reference on LLM agents, with emphasis on benchmarks, evaluation, and representative methods. — [`thunlp/ChatEval`](https://github.com/thunlp/ChatEval) ⭐342🔴
+- [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) — *Frontiers of Computer Science 2023* · 📈3757 — A standard survey on LLM agents, with emphasis on benchmarks, evaluation, and representative methods. — [`Paitesanshi/LLM-Agent-Survey`](https://github.com/Paitesanshi/LLM-Agent-Survey) ⭐2911🔴
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) — *arXiv 2023* · 📈2040 — A comprehensive survey on LLM agents, summarizing key methods, datasets, applications, and research directions. — [`WooooDyy/LLM-Agent-Paper-List`](https://github.com/WooooDyy/LLM-Agent-Paper-List) ⭐8198🟡
+- [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201) — *ICLR 2024* · 📈983 — A key reference on LLM agents, with emphasis on benchmarks, evaluation, and representative methods. — [`thunlp/ChatEval`](https://github.com/thunlp/ChatEval) ⭐342🔴
 
 ### LLM Evaluation
 
-- [A Survey on Evaluation of Large Language Models](https://arxiv.org/abs/2307.03109) — *ACM TIST 2023* · 📈3743 — A standard survey on LLM evaluation, with emphasis on benchmarks, evaluation, and representative methods. — [`MLGroupJLU/LLM-eval-survey`](https://github.com/MLGroupJLU/LLM-eval-survey) ⭐1608🟢
-- [Evaluating Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2310.19736) — *arXiv 2023* · 📈323 — A comprehensive comprehensive survey on LLM evaluation, with emphasis on benchmarks, evaluation, and representative methods. — [`tjunlp-lab/Awesome-LLMs-Evaluation-Papers`](https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers) ⭐808🔴
+- [A Survey on Evaluation of Large Language Models](https://arxiv.org/abs/2307.03109) — *ACM TIST 2023* · 📈3766 — A standard survey on LLM evaluation, with emphasis on benchmarks, evaluation, and representative methods. — [`MLGroupJLU/LLM-eval-survey`](https://github.com/MLGroupJLU/LLM-eval-survey) ⭐1609🟢
+- [Evaluating Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2310.19736) — *arXiv 2023* · 📈324 — A comprehensive comprehensive survey on LLM evaluation, with emphasis on benchmarks, evaluation, and representative methods. — [`tjunlp-lab/Awesome-LLMs-Evaluation-Papers`](https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers) ⭐810🔴
 
 ### LLM General
 
-- [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) — *arXiv 2023* · 📈4920 — A comprehensive, large-scale survey of LLM pretraining, adaptation, usage, and evaluation. — [`RUCAIBox/LLMSurvey`](https://github.com/RUCAIBox/LLMSurvey) ⭐12204🟡
-- [A Comprehensive Overview of Large Language Models](https://arxiv.org/abs/2307.06435) — *arXiv 2023* · 📈1925 — An overview on large language models, organizing major methods, taxonomies, and design choices.
-- [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196) — *arXiv 2024* · 📈1072 — A survey on large language models, with emphasis on benchmarks, evaluation, and representative methods.
-- [Datasets for Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2402.18041) — *arXiv 2024* · 📈141 — A comprehensive comprehensive survey on large language models, with emphasis on benchmarks, evaluation, and representative methods.
+- [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196) — *arXiv 2024* — A survey on large language models, with emphasis on benchmarks, evaluation, and representative methods.
+- [Datasets for Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2402.18041) — *arXiv 2024* — A comprehensive comprehensive survey on large language models, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) — *arXiv 2023* — A comprehensive, large-scale survey of LLM pretraining, adaptation, usage, and evaluation. — [`RUCAIBox/LLMSurvey`](https://github.com/RUCAIBox/LLMSurvey) ⭐12210🔴
+- [A Comprehensive Overview of Large Language Models](https://arxiv.org/abs/2307.06435) — *arXiv 2023* — An overview on large language models, organizing major methods, taxonomies, and design choices.
 
 ### LLM Unlearning
 
-- [A Comprehensive Survey of Machine Unlearning Techniques for Large Language Models](https://arxiv.org/abs/2503.01854) — *arXiv 2025* · 📈36 — A comprehensive comprehensive survey on LLM unlearning, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey of Machine Unlearning Techniques for Large Language Models](https://arxiv.org/abs/2503.01854) — *arXiv 2025* — A comprehensive comprehensive survey on LLM unlearning, organizing major methods, taxonomies, and design choices.
 
 ### Long Context
 
-- [Advancing Transformer Architecture in Long-Context LLMs: A Comprehensive Survey](https://arxiv.org/abs/2311.12351) — *arXiv 2023* · 📈134 — A comprehensive comprehensive survey on long context, organizing major methods, taxonomies, and design choices. — [`Strivin0311/long-llms-learning`](https://github.com/Strivin0311/long-llms-learning) ⭐274🔴
-- [Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models](https://arxiv.org/abs/2402.02244) — *IJCAI 2024* · 📈114 — A survey on long context, organizing major methods, taxonomies, and design choices.
+- [Advancing Transformer Architecture in Long-Context LLMs: A Comprehensive Survey](https://arxiv.org/abs/2311.12351) — *arXiv 2023* · 📈134 — A comprehensive comprehensive survey on long context, organizing major methods, taxonomies, and design choices. — [`Strivin0311/long-llms-learning`](https://github.com/Strivin0311/long-llms-learning) ⭐273🔴
 - [The What, Why, and How of Context Length Extension Techniques in Large Language Models](https://arxiv.org/abs/2401.07872) — *arXiv 2024* · 📈49 — A comprehensive key reference on long context, with emphasis on benchmarks, evaluation, and representative methods.
+- [Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models](https://arxiv.org/abs/2402.02244) — *IJCAI 2024* — A survey on long context, organizing major methods, taxonomies, and design choices.
 
 ### Long Context Modeling
 
-- [A Comprehensive Survey on Long Context Language Modeling](https://arxiv.org/abs/2503.17407) — *arXiv 2025* · 📈132 — A comprehensive comprehensive survey on long context modeling, with emphasis on benchmarks, evaluation, and representative methods. — [`Xnhyacinth/Awesome-LLM-Long-Context-Modeling`](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) ⭐2165🟢
+- [A Comprehensive Survey on Long Context Language Modeling](https://arxiv.org/abs/2503.17407) — *arXiv 2025* — A comprehensive comprehensive survey on long context modeling, with emphasis on benchmarks, evaluation, and representative methods. — [`Xnhyacinth/Awesome-LLM-Long-Context-Modeling`](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) ⭐2164🟢
 
 ### Mathematical Reasoning
 
-- [A Survey on Large Language Models for Mathematical Reasoning](https://arxiv.org/abs/2506.08446) — *arXiv 2025* · 📈76 — A survey on mathematical reasoning, organizing major methods, taxonomies, and design choices.
+- [A Survey on Large Language Models for Mathematical Reasoning](https://arxiv.org/abs/2506.08446) — *arXiv 2025* — A survey on mathematical reasoning, organizing major methods, taxonomies, and design choices.
 
 ### Mechanistic Interpretability
 
-- [A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models](https://arxiv.org/abs/2503.05613) — *arXiv 2025* · 📈75 — A survey on mechanistic interpretability, organizing major methods, taxonomies, and design choices.
+- [A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of Large Language Models](https://arxiv.org/abs/2503.05613) — *arXiv 2025* — A survey on mechanistic interpretability, organizing major methods, taxonomies, and design choices.
 
 ### Mixture-of-Experts
 
-- [A Survey on Mixture of Experts in Large Language Models](https://arxiv.org/abs/2407.06204) — *IEEE TKDE 2024* · 📈393 — A survey on mixture-of-experts, covering core methods, applications, and research trends. — [`withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs`](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs) ⭐505🟢
+- [A Survey on Mixture of Experts in Large Language Models](https://arxiv.org/abs/2407.06204) — *IEEE TKDE 2024* · 📈395 — A survey on mixture-of-experts, covering core methods, applications, and research trends. — [`withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs`](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs) ⭐506🟢
 
 ### Multilingual LLM
 
@@ -193,18 +193,18 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Parameter-Efficient Fine-Tuning
 
-- [Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey](https://arxiv.org/abs/2403.14608) — *TMLR 2024* · 📈1074 — A comprehensive comprehensive survey on parameter-efficient fine-tuning, organizing major methods, taxonomies, and design choices.
-- [Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment](https://arxiv.org/abs/2312.12148) — *arXiv 2023* · 📈386 — A review on parameter-efficient fine-tuning, with emphasis on benchmarks, evaluation, and representative methods.
+- [Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey](https://arxiv.org/abs/2403.14608) — *TMLR 2024* · 📈1086 — A comprehensive comprehensive survey on parameter-efficient fine-tuning, organizing major methods, taxonomies, and design choices.
+- [Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment](https://arxiv.org/abs/2312.12148) — *arXiv 2023* · 📈387 — A review on parameter-efficient fine-tuning, with emphasis on benchmarks, evaluation, and representative methods.
 - [Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2303.15647) — *arXiv 2023* · 📈295 — A key reference on parameter-efficient fine-tuning, with comparative analysis of representative methods and systems.
-- [A Survey on LoRA of Large Language Models](https://arxiv.org/abs/2407.11046) — *Frontiers of Computer Science 2024* · 📈181 — A survey on parameter-efficient fine-tuning, covering core methods, applications, and research trends. — [`ZJU-LLMs/Awesome-LoRAs`](https://github.com/ZJU-LLMs/Awesome-LoRAs) ⭐279🔴
+- [A Survey on LoRA of Large Language Models](https://arxiv.org/abs/2407.11046) — *Frontiers of Computer Science 2024* — A survey on parameter-efficient fine-tuning, covering core methods, applications, and research trends. — [`ZJU-LLMs/Awesome-LoRAs`](https://github.com/ZJU-LLMs/Awesome-LoRAs) ⭐279🔴
 
 ### Persona / Role-Play
 
-- [Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization](https://arxiv.org/abs/2406.01171) — *arXiv 2024* · 📈304 — A survey on persona and role-play, organizing major methods, taxonomies, and design choices.
+- [Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization](https://arxiv.org/abs/2406.01171) — *arXiv 2024* — A survey on persona and role-play, organizing major methods, taxonomies, and design choices.
 
 ### Personal LLM Agents
 
-- [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459) — *arXiv 2024* · 📈375 — A survey on personal LLM agents, organizing major methods, taxonomies, and design choices. — [`MobileLLM/Personal_LLM_Agents_Survey`](https://github.com/MobileLLM/Personal_LLM_Agents_Survey) ⭐436🟢
+- [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459) — *arXiv 2024* — A survey on personal LLM agents, organizing major methods, taxonomies, and design choices. — [`MobileLLM/Personal_LLM_Agents_Survey`](https://github.com/MobileLLM/Personal_LLM_Agents_Survey) ⭐436🟢
 
 ### RL for Deep Research Agents
 
@@ -212,48 +212,48 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### RL for LLMs
 
-- [Reinforcement Learning Meets Large Language Models: A Survey of Advancements and Applications Across the LLM Lifecycle](https://arxiv.org/abs/2509.16679) — *arXiv preprint 2025* · 📈35 — A survey on RL for llms, summarizing key methods, datasets, applications, and research directions.
+- [Reinforcement Learning Meets Large Language Models: A Survey of Advancements and Applications Across the LLM Lifecycle](https://arxiv.org/abs/2509.16679) — *arXiv preprint 2025* · 📈36 — A survey on RL for llms, summarizing key methods, datasets, applications, and research directions.
 
 ### RL for Reasoning
 
-- [A Survey of Reinforcement Learning for Large Reasoning Models](https://arxiv.org/abs/2509.08827) — *arXiv 2025* · 📈164 — A comprehensive survey on RL for reasoning, organizing major methods, taxonomies, and design choices.
+- [A Survey of Reinforcement Learning for Large Reasoning Models](https://arxiv.org/abs/2509.08827) — *arXiv 2025* — A comprehensive survey on RL for reasoning, organizing major methods, taxonomies, and design choices.
 
 ### RLHF / Alignment
 
-- [Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2310.12773) — *ICLR 2024* · 📈764 — A key reference on RLHF and alignment, surveying major methods, techniques, and algorithmic choices.
-- [AI Alignment: A Comprehensive Survey](https://arxiv.org/abs/2310.19852) — *arXiv 2023* · 📈390 — A comprehensive comprehensive survey on RLHF and alignment, organizing major methods, taxonomies, and design choices. — [`PKU-Alignment/AlignmentSurvey`](https://github.com/PKU-Alignment/AlignmentSurvey) ⭐139🔴 · [project](https://alignmentsurvey.com)
+- [Safe RLHF: Safe Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2310.12773) — *ICLR 2024* · 📈770 — A key reference on RLHF and alignment, surveying major methods, techniques, and algorithmic choices.
 - [Large Language Model Alignment: A Survey](https://arxiv.org/abs/2309.15025) — *arXiv 2023* · 📈333 — A survey on RLHF and alignment, with emphasis on benchmarks, evaluation, and representative methods.
-- [Secrets of RLHF in Large Language Models Part I: PPO](https://arxiv.org/abs/2307.04964) — *arXiv 2023* · 📈284 — A key reference on RLHF and alignment, summarizing key methods, datasets, applications, and research directions.
+- [Secrets of RLHF in Large Language Models Part I: PPO](https://arxiv.org/abs/2307.04964) — *arXiv 2023* — A key reference on RLHF and alignment, summarizing key methods, datasets, applications, and research directions.
+- [AI Alignment: A Comprehensive Survey](https://arxiv.org/abs/2310.19852) — *arXiv 2023* — A comprehensive comprehensive survey on RLHF and alignment, organizing major methods, taxonomies, and design choices. — [`PKU-Alignment/AlignmentSurvey`](https://github.com/PKU-Alignment/AlignmentSurvey) ⭐139🔴 · [project](https://alignmentsurvey.com)
 
 ### Reasoning / Chain-of-Thought
 
-- [Towards Reasoning in Large Language Models: A Survey](https://arxiv.org/abs/2212.10403) — *ACL Findings 2022* · 📈948 — A survey on reasoning and chain-of-thought, with emphasis on benchmarks, evaluation, and representative methods.
-- [Navigate through Enigmatic Labyrinth: A Survey of Chain of Thought Reasoning](https://arxiv.org/abs/2309.15402) — *ACL 2024* · 📈276 — A survey on reasoning and chain-of-thought, covering methods, challenges, and future research directions. — [`Zoeyyao27/CoT-Igniting-Agent`](https://github.com/Zoeyyao27/CoT-Igniting-Agent) ⭐364🔴
-- [LLM Post-Training: A Deep Dive into Reasoning Large Language Models](https://arxiv.org/abs/2502.21321) — *arXiv 2025* · 📈123 — A key reference on reasoning and chain-of-thought, summarizing key methods, datasets, applications, and research directions.
+- [Towards Reasoning in Large Language Models: A Survey](https://arxiv.org/abs/2212.10403) — *ACL Findings 2022* · 📈953 — A survey on reasoning and chain-of-thought, with emphasis on benchmarks, evaluation, and representative methods.
+- [Navigate through Enigmatic Labyrinth: A Survey of Chain of Thought Reasoning](https://arxiv.org/abs/2309.15402) — *ACL 2024* · 📈275 — A survey on reasoning and chain-of-thought, covering methods, challenges, and future research directions. — [`Zoeyyao27/CoT-Igniting-Agent`](https://github.com/Zoeyyao27/CoT-Igniting-Agent) ⭐364🔴
+- [LLM Post-Training: A Deep Dive into Reasoning Large Language Models](https://arxiv.org/abs/2502.21321) — *arXiv 2025* · 📈124 — A key reference on reasoning and chain-of-thought, summarizing key methods, datasets, applications, and research directions.
 
 ### Retrieval-Augmented Generation
 
-- [A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2405.06211) — *KDD 2024* · 📈1112 — A survey on retrieval-augmented generation, covering core methods, applications, and research trends.
-- [Retrieval-Augmented Generation for AI-Generated Content: A Survey](https://arxiv.org/abs/2402.19473) — *arXiv 2024* · 📈686 — A comprehensive survey on retrieval-augmented generation, covering core methods, applications, and research trends. — [`hymie122/RAG-Survey`](https://github.com/hymie122/RAG-Survey) ⭐1790🔴
+- [A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2405.06211) — *KDD 2024* · 📈1118 — A survey on retrieval-augmented generation, covering core methods, applications, and research trends.
+- [Retrieval-Augmented Generation for AI-Generated Content: A Survey](https://arxiv.org/abs/2402.19473) — *arXiv 2024* — A comprehensive survey on retrieval-augmented generation, covering core methods, applications, and research trends. — [`hymie122/RAG-Survey`](https://github.com/hymie122/RAG-Survey) ⭐1790🔴
 
 ### Role-Play
 
-- [The Oscars of AI Theater: A Survey on Role-Playing with Language Models](https://arxiv.org/abs/2407.11484) — *arXiv 2024* · 📈63 — A comprehensive survey on role-play, organizing major methods, taxonomies, and design choices.
+- [The Oscars of AI Theater: A Survey on Role-Playing with Language Models](https://arxiv.org/abs/2407.11484) — *arXiv 2024* — A comprehensive survey on role-play, organizing major methods, taxonomies, and design choices.
 
 ### Safety / Jailbreak
 
-- [Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models' Alignment](https://arxiv.org/abs/2308.05374) — *arXiv 2023* · 📈586 — A survey on safety and jailbreak, with emphasis on benchmarks, evaluation, and representative methods.
-- [Jailbreak Attacks and Defenses Against Large Language Models: A Survey](https://arxiv.org/abs/2407.04295) — *arXiv 2024* · 📈305 — A survey on safety and jailbreak, organizing major methods, taxonomies, and design choices.
-- [Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey](https://arxiv.org/abs/2402.09283) — *NAACL 2024* · 📈179 — A survey on safety and jailbreak, with emphasis on benchmarks, evaluation, and representative methods. — [`niconi19/LLM-Conversation-Safety`](https://github.com/niconi19/LLM-Conversation-Safety) ⭐112🔴
+- [Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models' Alignment](https://arxiv.org/abs/2308.05374) — *arXiv 2023* · 📈588 — A survey on safety and jailbreak, with emphasis on benchmarks, evaluation, and representative methods.
+- [Jailbreak Attacks and Defenses Against Large Language Models: A Survey](https://arxiv.org/abs/2407.04295) — *arXiv 2024* · 📈309 — A survey on safety and jailbreak, organizing major methods, taxonomies, and design choices.
+- [Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey](https://arxiv.org/abs/2402.09283) — *NAACL 2024* · 📈183 — A survey on safety and jailbreak, with emphasis on benchmarks, evaluation, and representative methods. — [`niconi19/LLM-Conversation-Safety`](https://github.com/niconi19/LLM-Conversation-Safety) ⭐112🔴
 
 ### Self-Correction
 
-- [Automatically Correcting Large Language Models: Surveying the landscape of diverse self-correction strategies](https://arxiv.org/abs/2308.03188) — *TACL 2023* · 📈297 — A survey on self-correction, organizing major methods, taxonomies, and design choices.
+- [Automatically Correcting Large Language Models: Surveying the landscape of diverse self-correction strategies](https://arxiv.org/abs/2308.03188) — *TACL 2023* — A survey on self-correction, organizing major methods, taxonomies, and design choices.
 
 ### Small Language Models
 
-- [A Comprehensive Survey of Small Language Models in the Era of Large Language Models](https://arxiv.org/abs/2411.03350) — *arXiv 2024* · 📈264 — A comprehensive comprehensive survey on small language models, covering core methods, applications, and research trends.
-- [A Survey of Small Language Models](https://arxiv.org/abs/2410.20011) — *arXiv 2024* · 📈69 — A survey on small language models, organizing major methods, taxonomies, and design choices.
+- [A Survey of Small Language Models](https://arxiv.org/abs/2410.20011) — *arXiv 2024* — A survey on small language models, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey of Small Language Models in the Era of Large Language Models](https://arxiv.org/abs/2411.03350) — *arXiv 2024* — A comprehensive comprehensive survey on small language models, covering core methods, applications, and research trends.
 
 ### Speculative Decoding
 
@@ -261,51 +261,51 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Test-Time Compute
 
-- [A Survey of Test-Time Compute: From Intuitive Inference to Deliberate Reasoning](https://arxiv.org/abs/2501.02497) — *arXiv 2025* · 📈21 — A survey on test-time compute, organizing major methods, taxonomies, and design choices.
+- [A Survey of Test-Time Compute: From Intuitive Inference to Deliberate Reasoning](https://arxiv.org/abs/2501.02497) — *arXiv 2025* — A survey on test-time compute, organizing major methods, taxonomies, and design choices.
 
 ### Text Watermarking
 
-- [A Survey of Text Watermarking in the Era of Large Language Models](https://arxiv.org/abs/2312.07913) — *arXiv 2023* · 📈191 — A survey on text watermarking, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey of Text Watermarking in the Era of Large Language Models](https://arxiv.org/abs/2312.07913) — *arXiv 2023* — A survey on text watermarking, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Theory of Mind
 
-- [A Survey of Theory of Mind in Large Language Models: Evaluations, Representations, and Safety Risks](https://arxiv.org/abs/2502.06470) — *arXiv 2025* · 📈10 — A survey on theory of mind, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey of Theory of Mind in Large Language Models: Evaluations, Representations, and Safety Risks](https://arxiv.org/abs/2502.06470) — *arXiv 2025* — A survey on theory of mind, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Tool Use
 
-- [Tool Learning with Foundation Models](https://arxiv.org/abs/2304.08354) — *ACM Computing Surveys 2023* · 📈449 — A standard comprehensive key reference on tool use, organizing major methods, taxonomies, and design choices. — [`OpenBMB/BMTools`](https://github.com/OpenBMB/BMTools) ⭐2771🔴
-- [What Are Tools Anyway? A Survey from the Language Model Perspective](https://arxiv.org/abs/2403.15452) — *COLM 2024* · 📈69 — A survey on tool use, summarizing key methods, datasets, applications, and research directions.
+- [Tool Learning with Foundation Models](https://arxiv.org/abs/2304.08354) — *ACM Computing Surveys 2023* · 📈451 — A standard comprehensive key reference on tool use, organizing major methods, taxonomies, and design choices. — [`OpenBMB/BMTools`](https://github.com/OpenBMB/BMTools) ⭐2771🔴
+- [What Are Tools Anyway? A Survey from the Language Model Perspective](https://arxiv.org/abs/2403.15452) — *COLM 2024* · 📈70 — A survey on tool use, summarizing key methods, datasets, applications, and research directions.
 
 ## 🎨 Generative AI and Diffusion Models
 
 ### 3D Generation
 
-- [Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era](https://arxiv.org/abs/2305.06131) — *arXiv 2023* · 📈109 — A survey on 3D generation, organizing major methods, taxonomies, and design choices.
-- [Advances in 3D Generation: A Survey](https://arxiv.org/abs/2401.17807) — *arXiv 2024* · 📈94 — A survey on 3D generation, covering core methods, applications, and research trends.
+- [Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era](https://arxiv.org/abs/2305.06131) — *arXiv 2023* · 📈111 — A survey on 3D generation, organizing major methods, taxonomies, and design choices.
+- [Advances in 3D Generation: A Survey](https://arxiv.org/abs/2401.17807) — *arXiv 2024* · 📈95 — A survey on 3D generation, covering core methods, applications, and research trends.
 
 ### 4D Generation
 
-- [Advances in 4D Generation: A Survey](https://arxiv.org/abs/2503.14501) — *arXiv 2025* · 📈0 — A comprehensive survey on 4D generation, covering core methods, applications, and research trends.
+- [Advances in 4D Generation: A Survey](https://arxiv.org/abs/2503.14501) — *arXiv 2025* — A comprehensive survey on 4D generation, covering core methods, applications, and research trends.
 
 ### AIGC General
 
-- [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/abs/2303.04226) — *arXiv 2023* · 📈844 — A comprehensive survey on AIGC general, summarizing key methods, datasets, applications, and research directions.
+- [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/abs/2303.04226) — *arXiv 2023* · 📈848 — A comprehensive survey on AIGC general, summarizing key methods, datasets, applications, and research directions.
 
 ### Audio / Music Generation
 
-- [Sparks of Large Audio Models: A Survey and Outlook](https://arxiv.org/abs/2308.12792) — *arXiv 2023* · 📈69 — A comprehensive survey on audio and music generation, summarizing key methods, datasets, applications, and research directions. — [`EmulationAI/awesome-large-audio-models`](https://github.com/EmulationAI/awesome-large-audio-models) ⭐737🟢
+- [Sparks of Large Audio Models: A Survey and Outlook](https://arxiv.org/abs/2308.12792) — *arXiv 2023* · 📈70 — A comprehensive survey on audio and music generation, summarizing key methods, datasets, applications, and research directions. — [`EmulationAI/awesome-large-audio-models`](https://github.com/EmulationAI/awesome-large-audio-models) ⭐738🟢
 
 ### Autoregressive Visual Generation
 
-- [Autoregressive Models in Vision: A Survey](https://arxiv.org/abs/2411.05902) — *TMLR 2024* · 📈59 — A survey on autoregressive visual generation, organizing major methods, taxonomies, and design choices. — [`ChaofanTao/Autoregressive-Models-in-Vision-Survey`](https://github.com/ChaofanTao/Autoregressive-Models-in-Vision-Survey) ⭐807🟢
+- [Autoregressive Models in Vision: A Survey](https://arxiv.org/abs/2411.05902) — *TMLR 2024* — A survey on autoregressive visual generation, organizing major methods, taxonomies, and design choices. — [`ChaofanTao/Autoregressive-Models-in-Vision-Survey`](https://github.com/ChaofanTao/Autoregressive-Models-in-Vision-Survey) ⭐808🟢
 
 ### Concept Erasure
 
-- [A Comprehensive Survey on Concept Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2502.14896) — *arXiv 2025* · 📈10 — A comprehensive survey on concept erasure, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Concept Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2502.14896) — *arXiv 2025* — A comprehensive survey on concept erasure, organizing major methods, taxonomies, and design choices.
 
 ### Controllable Generation
 
-- [Controllable Generation with Text-to-Image Diffusion Models: A Survey](https://arxiv.org/abs/2403.04279) — *IEEE TPAMI 2024* · 📈118 — A survey on controllable generation, organizing major methods, taxonomies, and design choices. — [`PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models`](https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models) ⭐1110🔴
+- [Controllable Generation with Text-to-Image Diffusion Models: A Survey](https://arxiv.org/abs/2403.04279) — *IEEE TPAMI 2024* · 📈125 — A survey on controllable generation, organizing major methods, taxonomies, and design choices. — [`PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models`](https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models) ⭐1110🔴
 
 ### Diffusion Acceleration
 
@@ -313,35 +313,35 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Diffusion Distillation
 
-- [A Survey on Pre-Trained Diffusion Model Distillations](https://arxiv.org/abs/2502.08364) — *arXiv 2025* · 📈5 — A survey on diffusion distillation, organizing major methods, taxonomies, and design choices.
+- [A Survey on Pre-Trained Diffusion Model Distillations](https://arxiv.org/abs/2502.08364) — *arXiv 2025* — A survey on diffusion distillation, organizing major methods, taxonomies, and design choices.
 
 ### Diffusion Theory
 
-- [Score-based Diffusion Models via Stochastic Differential Equations -- a Technical Tutorial](https://arxiv.org/abs/2402.07487) — *arXiv 2024* · 📈53 — A tutorial survey on diffusion theory, covering theoretical foundations, methods, and implications.
+- [Score-based Diffusion Models via Stochastic Differential Equations -- a Technical Tutorial](https://arxiv.org/abs/2402.07487) — *arXiv 2024* — A tutorial survey on diffusion theory, covering theoretical foundations, methods, and implications.
 
 ### Efficient Diffusion
 
-- [Efficient Diffusion Models: A Survey](https://arxiv.org/abs/2502.06805) — *TMLR 2025* · 📈51 — A survey on efficient diffusion, organizing major methods, taxonomies, and design choices. — [`AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey) ⭐186🟡
+- [Efficient Diffusion Models: A Survey](https://arxiv.org/abs/2502.06805) — *TMLR 2025* — A survey on efficient diffusion, organizing major methods, taxonomies, and design choices. — [`AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey`](https://github.com/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey) ⭐186🟡
 
 ### GAN
 
-- [NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160) — *NIPS Tutorial 2016* · 📈1822 — A highly cited standard tutorial survey on GAN, covering theoretical foundations, methods, and implications.
-- [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937) — *IEEE TKDE 2020* · 📈1156 — A standard comprehensive review on GAN, covering core methods, applications, and research trends.
-- [Generative Adversarial Networks: Challenges, Solutions, and Future Directions](https://arxiv.org/abs/2005.00065) — *ACM Computing Surveys 2021* · 📈482 — A standard key reference on GAN, covering methods, challenges, and future research directions.
+- [NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160) — *NIPS Tutorial 2016* · 📈1823 — A highly cited standard tutorial survey on GAN, covering theoretical foundations, methods, and implications.
+- [A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications](https://arxiv.org/abs/2001.06937) — *IEEE TKDE 2020* · 📈1159 — A standard comprehensive review on GAN, covering core methods, applications, and research trends.
+- [Generative Adversarial Networks: Challenges, Solutions, and Future Directions](https://arxiv.org/abs/2005.00065) — *ACM Computing Surveys 2021* · 📈486 — A standard key reference on GAN, covering methods, challenges, and future research directions.
 - [Generative Adversarial Networks in Computer Vision: A Survey and Taxonomy](https://arxiv.org/abs/1906.01529) — *ACM Computing Surveys 2021* · 📈94 — A highly cited comprehensive survey on GAN, covering core methods, applications, and research trends.
 
 ### Human Motion Generation
 
-- [Human Motion Generation: A Survey](https://arxiv.org/abs/2307.10894) — *IEEE TPAMI 2023* · 📈153 — A survey on human motion generation, summarizing key methods, datasets, applications, and research directions.
+- [Human Motion Generation: A Survey](https://arxiv.org/abs/2307.10894) — *IEEE TPAMI 2023* — A survey on human motion generation, summarizing key methods, datasets, applications, and research directions.
 
 ### Image Editing
 
-- [Diffusion Model-Based Image Editing: A Survey](https://arxiv.org/abs/2402.17525) — *IEEE TPAMI 2024* · 📈299 — A survey on image editing, organizing major methods, taxonomies, and design choices. — [`SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods`](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) ⭐713🟡
-- [A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models](https://arxiv.org/abs/2406.14555) — *arXiv 2024* · 📈70 — A survey on image editing, summarizing key methods, datasets, applications, and research directions.
+- [Diffusion Model-Based Image Editing: A Survey](https://arxiv.org/abs/2402.17525) — *IEEE TPAMI 2024* · 📈305 — A survey on image editing, organizing major methods, taxonomies, and design choices. — [`SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods`](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) ⭐714🟡
+- [A Survey of Multimodal-Guided Image Editing with Text-to-Image Diffusion Models](https://arxiv.org/abs/2406.14555) — *arXiv 2024* — A survey on image editing, summarizing key methods, datasets, applications, and research directions.
 
 ### Music Generation
 
-- [Vision-to-Music Generation: A Survey](https://arxiv.org/abs/2503.21254) — *ISMIR 2025* · 📈7 — A survey on music generation, with emphasis on benchmarks, evaluation, and representative methods. — [`wzk1015/Awesome-Vision-to-Music-Generation`](https://github.com/wzk1015/Awesome-Vision-to-Music-Generation) ⭐126🟡
+- [Vision-to-Music Generation: A Survey](https://arxiv.org/abs/2503.21254) — *ISMIR 2025* — A survey on music generation, with emphasis on benchmarks, evaluation, and representative methods. — [`wzk1015/Awesome-Vision-to-Music-Generation`](https://github.com/wzk1015/Awesome-Vision-to-Music-Generation) ⭐126🟡
 
 ### Normalizing Flow
 
@@ -349,39 +349,39 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Personalization
 
-- [A Survey on Personalized Content Synthesis with Diffusion Models](https://arxiv.org/abs/2405.05538) — *arXiv 2024* · 📈43 — A survey on personalization, organizing major methods, taxonomies, and design choices.
+- [A Survey on Personalized Content Synthesis with Diffusion Models](https://arxiv.org/abs/2405.05538) — *arXiv 2024* — A survey on personalization, organizing major methods, taxonomies, and design choices.
 
 ### Text-to-Image
 
-- [RenAIssance: A Survey into AI Text-to-Image Generation in the Era of Large Model](https://arxiv.org/abs/2309.00810) — *IEEE TPAMI 2023* · 📈93 — A comprehensive survey on text-to-image, summarizing key methods, datasets, applications, and research directions.
+- [RenAIssance: A Survey into AI Text-to-Image Generation in the Era of Large Model](https://arxiv.org/abs/2309.00810) — *IEEE TPAMI 2023* · 📈94 — A comprehensive survey on text-to-image, summarizing key methods, datasets, applications, and research directions.
 
 ### Text-to-Video
 
-- [A Survey on Video Diffusion Models](https://arxiv.org/abs/2310.10647) — *ACM Computing Surveys 2023* · 📈301 — A standard survey on text-to-video, organizing major methods, taxonomies, and design choices. — [`ChenHsing/Awesome-Video-Diffusion-Models`](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models) ⭐2316🟢
+- [A Survey on Video Diffusion Models](https://arxiv.org/abs/2310.10647) — *ACM Computing Surveys 2023* · 📈303 — A standard survey on text-to-video, organizing major methods, taxonomies, and design choices. — [`ChenHsing/Awesome-Video-Diffusion-Models`](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models) ⭐2316🟢
 - [Sora as a World Model? A Complete Survey on Text-to-Video Generation](https://arxiv.org/abs/2403.05131) — *arXiv 2024* · 📈78 — A survey on text-to-video, organizing major methods, taxonomies, and design choices.
 - [Video Diffusion Models: A Survey](https://arxiv.org/abs/2405.03150) — *TMLR 2024* · 📈48 — A survey on text-to-video, organizing major methods, taxonomies, and design choices. — [`ndrwmlnk/Awesome-Video-Diffusion-Models`](https://github.com/ndrwmlnk/Awesome-Video-Diffusion-Models) ⭐57🔴
 
 ### VAE
 
-- [An Introduction to Variational Autoencoders](https://arxiv.org/abs/1906.02691) — *Foundations and Trends in ML 2019* · 📈3184 — A standard comprehensive key reference on VAE, covering theoretical foundations, methods, and implications.
+- [An Introduction to Variational Autoencoders](https://arxiv.org/abs/1906.02691) — *Foundations and Trends in ML 2019* · 📈3192 — A standard comprehensive key reference on VAE, covering theoretical foundations, methods, and implications.
 
 ### Video Editing
 
-- [Diffusion Model-Based Video Editing: A Survey](https://arxiv.org/abs/2407.07111) — *arXiv 2024* · 📈54 — A survey on video editing, covering theoretical foundations, methods, and implications.
+- [Diffusion Model-Based Video Editing: A Survey](https://arxiv.org/abs/2407.07111) — *arXiv 2024* — A survey on video editing, covering theoretical foundations, methods, and implications.
 
 ### Video Generation
 
-- [Controllable Video Generation: A Survey](https://arxiv.org/abs/2507.16869) — *arXiv 2025* · 📈86 — A comprehensive survey on video generation, organizing major methods, taxonomies, and design choices. — [`mayuelala/Awesome-Controllable-Video-Generation`](https://github.com/mayuelala/Awesome-Controllable-Video-Generation) ⭐769🟢
+- [Controllable Video Generation: A Survey](https://arxiv.org/abs/2507.16869) — *arXiv 2025* — A comprehensive survey on video generation, organizing major methods, taxonomies, and design choices. — [`mayuelala/Awesome-Controllable-Video-Generation`](https://github.com/mayuelala/Awesome-Controllable-Video-Generation) ⭐770🟢
 
 ### World Models
 
-- [Simulating the Real World: A Unified Survey of Multimodal Generative Models](https://arxiv.org/abs/2503.04641) — *IEEE TPAMI 2025* · 📈23 — A survey on world models, summarizing key methods, datasets, applications, and research directions. — [`ALEEEHU/World-Simulator`](https://github.com/ALEEEHU/World-Simulator) ⭐384🟢
+- [Simulating the Real World: A Unified Survey of Multimodal Generative Models](https://arxiv.org/abs/2503.04641) — *IEEE TPAMI 2025* — A survey on world models, summarizing key methods, datasets, applications, and research directions. — [`ALEEEHU/World-Simulator`](https://github.com/ALEEEHU/World-Simulator) ⭐384🟢
 
 ## 🖼️ Multimodal and Vision-Language AI
 
 ### 3D-LLM
 
-- [When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models](https://arxiv.org/abs/2405.10255) — *arXiv 2024* · 📈46 — A comprehensive systematic review and meta-analysis on 3D-LLM, organizing major methods, taxonomies, and design choices. — [`ActiveVisionLab/Awesome-LLM-3D`](https://github.com/ActiveVisionLab/Awesome-LLM-3D) ⭐2254🟢
+- [When LLMs step into the 3D World: A Survey and Meta-Analysis of 3D Tasks via Multi-modal Large Language Models](https://arxiv.org/abs/2405.10255) — *arXiv 2024* — A comprehensive systematic review and meta-analysis on 3D-LLM, organizing major methods, taxonomies, and design choices. — [`ActiveVisionLab/Awesome-LLM-3D`](https://github.com/ActiveVisionLab/Awesome-LLM-3D) ⭐2255🟢
 
 ### Audio-Visual
 
@@ -389,51 +389,51 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Autonomous Driving
 
-- [A Survey on Multimodal Large Language Models for Autonomous Driving](https://arxiv.org/abs/2311.12320) — *WACV 2024* · 📈559 — A survey on autonomous driving, covering methods, challenges, and future research directions. — [`IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving`](https://github.com/IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving) ⭐311🔴
+- [A Survey on Multimodal Large Language Models for Autonomous Driving](https://arxiv.org/abs/2311.12320) — *WACV 2024* — A survey on autonomous driving, covering methods, challenges, and future research directions. — [`IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving`](https://github.com/IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving) ⭐311🔴
 
 ### Document AI
 
-- [Document AI: Benchmarks, Models and Applications](https://arxiv.org/abs/2111.08609) — *arXiv 2021* · 📈104 — A benchmarking reference on document AI, with emphasis on benchmarks, evaluation, and representative methods.
+- [Document AI: Benchmarks, Models and Applications](https://arxiv.org/abs/2111.08609) — *arXiv 2021* · 📈105 — A benchmarking reference on document AI, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Embodied Multimodal
 
-- [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) — *arXiv 2024* · 📈347 — A survey on embodied multimodal, organizing major methods, taxonomies, and design choices.
-- [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568) — *arXiv 2024* · 📈275 — A survey on embodied multimodal, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) — *arXiv 2024* · 📈356 — A survey on embodied multimodal, organizing major methods, taxonomies, and design choices.
+- [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568) — *arXiv 2024* · 📈276 — A survey on embodied multimodal, summarizing key methods, datasets, applications, and research directions.
 
 ### Label-Free VLM Adaptation
 
-- [Adapting Vision-Language Models Without Labels: A Comprehensive Survey](https://arxiv.org/abs/2508.05547) — *arXiv preprint 2025* · 📈9 — A comprehensive survey on label-free VLM adaptation, organizing major methods, taxonomies, and design choices. — [`tim-learn/Awesome-LabelFree-VLMs`](https://github.com/tim-learn/Awesome-LabelFree-VLMs) ⭐94🟢
+- [Adapting Vision-Language Models Without Labels: A Comprehensive Survey](https://arxiv.org/abs/2508.05547) — *arXiv preprint 2025* · 📈10 — A comprehensive survey on label-free VLM adaptation, organizing major methods, taxonomies, and design choices. — [`tim-learn/Awesome-LabelFree-VLMs`](https://github.com/tim-learn/Awesome-LabelFree-VLMs) ⭐95🟢
 
 ### Mathematical Reasoning
 
-- [A Survey of Mathematical Reasoning in the Era of Multimodal Large Language Model: Benchmark, Method & Challenges](https://arxiv.org/abs/2412.11936) — *ACL Findings 2024* · 📈70 — A survey on mathematical reasoning, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey of Mathematical Reasoning in the Era of Multimodal Large Language Model: Benchmark, Method & Challenges](https://arxiv.org/abs/2412.11936) — *ACL Findings 2024* — A survey on mathematical reasoning, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Mechanistic Interpretability
 
-- [A Survey on Mechanistic Interpretability for Multi-Modal Foundation Models](https://arxiv.org/abs/2502.17516) — *arXiv 2025* · 📈41 — A survey on mechanistic interpretability, organizing major methods, taxonomies, and design choices.
+- [A Survey on Mechanistic Interpretability for Multi-Modal Foundation Models](https://arxiv.org/abs/2502.17516) — *arXiv 2025* — A survey on mechanistic interpretability, organizing major methods, taxonomies, and design choices.
 
 ### Multimodal Agents
 
-- [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116) — *arXiv 2024* · 📈129 — A comprehensive survey on multimodal agents, organizing major methods, taxonomies, and design choices. — [`jun0wanan/awesome-large-multimodal-agents`](https://github.com/jun0wanan/awesome-large-multimodal-agents) ⭐497🔴
+- [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116) — *arXiv 2024* · 📈130 — A comprehensive survey on multimodal agents, organizing major methods, taxonomies, and design choices. — [`jun0wanan/awesome-large-multimodal-agents`](https://github.com/jun0wanan/awesome-large-multimodal-agents) ⭐497🔴
 
 ### Multimodal Hallucination
 
-- [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930) — *arXiv 2024* · 📈453 — A survey on multimodal hallucination, with emphasis on benchmarks, evaluation, and representative methods.
+- [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930) — *arXiv 2024* · 📈455 — A survey on multimodal hallucination, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Multimodal LLM
 
-- [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) — *National Science Review 2023* · 📈1598 — A standard survey on multimodal LLM, with emphasis on benchmarks, evaluation, and representative methods. — [`BradyFU/Awesome-Multimodal-Large-Language-Models`](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) ⭐17994🟢
-- [MM-LLMs: Recent Advances in MultiModal Large Language Models](https://arxiv.org/abs/2401.13601) — *ACL Findings 2024* · 📈462 — A key reference on multimodal LLM, organizing major methods, taxonomies, and design choices. — [project](https://mm-llms.github.io)
+- [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) — *National Science Review 2023* · 📈1611 — A standard survey on multimodal LLM, with emphasis on benchmarks, evaluation, and representative methods. — [`BradyFU/Awesome-Multimodal-Large-Language-Models`](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) ⭐18000🟢
+- [MM-LLMs: Recent Advances in MultiModal Large Language Models](https://arxiv.org/abs/2401.13601) — *ACL Findings 2024* · 📈466 — A key reference on multimodal LLM, organizing major methods, taxonomies, and design choices. — [project](https://mm-llms.github.io)
 
 ### Multimodal RAG
 
-- [Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2502.08826) — *ACL Findings 2025* · 📈76 — A comprehensive comprehensive survey on multimodal RAG, organizing major methods, taxonomies, and design choices.
-- [A Survey of Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2504.08748) — *arXiv 2025* · 📈55 — A survey on multimodal RAG, surveying major methods, techniques, and algorithmic choices.
+- [A Survey of Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2504.08748) — *arXiv 2025* — A survey on multimodal RAG, surveying major methods, techniques, and algorithmic choices.
+- [Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2502.08826) — *ACL Findings 2025* — A comprehensive comprehensive survey on multimodal RAG, organizing major methods, taxonomies, and design choices.
 
 ### Multimodal Reasoning
 
-- [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/abs/2503.12605) — *arXiv 2025* · 📈202 — A comprehensive comprehensive survey on multimodal reasoning, organizing major methods, taxonomies, and design choices. — [`yaotingwangofficial/Awesome-MCoT`](https://github.com/yaotingwangofficial/Awesome-MCoT) ⭐1023🟢
-- [Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models](https://arxiv.org/abs/2505.04921) — *arXiv 2025* · 📈94 — A comprehensive survey on multimodal reasoning, organizing major methods, taxonomies, and design choices.
+- [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/abs/2503.12605) — *arXiv 2025* — A comprehensive comprehensive survey on multimodal reasoning, organizing major methods, taxonomies, and design choices. — [`yaotingwangofficial/Awesome-MCoT`](https://github.com/yaotingwangofficial/Awesome-MCoT) ⭐1025🟢
+- [Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models](https://arxiv.org/abs/2505.04921) — *arXiv 2025* — A comprehensive survey on multimodal reasoning, organizing major methods, taxonomies, and design choices.
 
 ### Prompt Engineering
 
@@ -441,15 +441,15 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Unified Multimodal Models
 
-- [Unified Multimodal Understanding and Generation Models: Advances, Challenges, and Opportunities](https://arxiv.org/abs/2505.02567) — *arXiv 2025* · 📈81 — A key reference on unified multimodal models, covering methods, challenges, and future research directions. — [`ATH-MaaS/Awesome-Unified-Multimodal-Models`](https://github.com/ATH-MaaS/Awesome-Unified-Multimodal-Models) ⭐1314🟢
+- [Unified Multimodal Understanding and Generation Models: Advances, Challenges, and Opportunities](https://arxiv.org/abs/2505.02567) — *arXiv 2025* — A key reference on unified multimodal models, covering methods, challenges, and future research directions. — [`ATH-MaaS/Awesome-Unified-Multimodal-Models`](https://github.com/ATH-MaaS/Awesome-Unified-Multimodal-Models) ⭐1315🟢
 
 ### Video LLM
 
-- [Video Understanding with Large Language Models: A Survey](https://arxiv.org/abs/2312.17432) — *arXiv 2023* · 📈296 — A survey on video LLM, organizing major methods, taxonomies, and design choices.
+- [Video Understanding with Large Language Models: A Survey](https://arxiv.org/abs/2312.17432) — *arXiv 2023* — A survey on video LLM, organizing major methods, taxonomies, and design choices.
 
 ### Video-Language
 
-- [Video-Language Understanding: A Survey from Model Architecture, Model Training, and Data Perspectives](https://arxiv.org/abs/2406.05615) — *ACL Findings 2024* · 📈55 — A survey on video-language, organizing major methods, taxonomies, and design choices.
+- [Video-Language Understanding: A Survey from Model Architecture, Model Training, and Data Perspectives](https://arxiv.org/abs/2406.05615) — *ACL Findings 2024* · 📈56 — A survey on video-language, organizing major methods, taxonomies, and design choices.
 
 ### Vision-Language Pretraining
 
@@ -459,43 +459,43 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Adversarial Attacks (NLP)
 
-- [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/abs/1901.06796) — *ACM TIST 2019* · 📈57 — A standard comprehensive survey on adversarial attacks (NLP), organizing major methods, taxonomies, and design choices.
-- [A Survey of Adversarial Defences and Robustness in NLP](https://arxiv.org/abs/2203.06414) — *ACM Computing Surveys 2022* · 📈38 — A survey on adversarial attacks (NLP), organizing major methods, taxonomies, and design choices.
-- [Adversarial Attacks and Defense on Texts: A Survey](https://arxiv.org/abs/2005.14108) — *arXiv 2020* · 📈25 — A survey on adversarial attacks (NLP), organizing major methods, taxonomies, and design choices.
+- [A Survey of Adversarial Defences and Robustness in NLP](https://arxiv.org/abs/2203.06414) — *ACM Computing Surveys 2022* — A survey on adversarial attacks (NLP), organizing major methods, taxonomies, and design choices.
+- [Adversarial Attacks and Defense on Texts: A Survey](https://arxiv.org/abs/2005.14108) — *arXiv 2020* — A survey on adversarial attacks (NLP), organizing major methods, taxonomies, and design choices.
+- [Adversarial Attacks on Deep Learning Models in Natural Language Processing: A Survey](https://arxiv.org/abs/1901.06796) — *ACM TIST 2019* — A standard comprehensive survey on adversarial attacks (NLP), organizing major methods, taxonomies, and design choices.
 
 ### Argument Mining
 
-- [Large Language Models in Argument Mining: A Survey](https://arxiv.org/abs/2506.16383) — *arXiv 2025* · 📈18 — A survey on argument mining, organizing major methods, taxonomies, and design choices.
+- [Large Language Models in Argument Mining: A Survey](https://arxiv.org/abs/2506.16383) — *arXiv 2025* — A survey on argument mining, organizing major methods, taxonomies, and design choices.
 
 ### Biomedical NLP
 
-- [SECNLP: A Survey of Embeddings in Clinical Natural Language Processing](https://arxiv.org/abs/1903.01039) — *Journal of Biomedical Informatics 2019* · 📈98 — A survey on biomedical NLP, organizing major methods, taxonomies, and design choices.
+- [SECNLP: A Survey of Embeddings in Clinical Natural Language Processing](https://arxiv.org/abs/1903.01039) — *Journal of Biomedical Informatics 2019* — A survey on biomedical NLP, organizing major methods, taxonomies, and design choices.
 
 ### Code-switching
 
-- [A Survey of Code-switched Speech and Language Processing](https://arxiv.org/abs/1904.00784) — *arXiv 2019* · 📈166 — A survey on code-switching, organizing major methods, taxonomies, and design choices.
-- [The Decades Progress on Code-Switching Research in NLP: A Systematic Survey on Trends and Challenges](https://arxiv.org/abs/2212.09660) — *ACL Findings 2023* · 📈70 — A comprehensive survey on code-switching, covering methods, challenges, and future research directions.
+- [The Decades Progress on Code-Switching Research in NLP: A Systematic Survey on Trends and Challenges](https://arxiv.org/abs/2212.09660) — *ACL Findings 2023* — A comprehensive survey on code-switching, covering methods, challenges, and future research directions.
+- [A Survey of Code-switched Speech and Language Processing](https://arxiv.org/abs/1904.00784) — *arXiv 2019* — A survey on code-switching, organizing major methods, taxonomies, and design choices.
 
 ### Computational Morphology
 
-- [Recent advancements in computational morphology: A comprehensive survey](https://arxiv.org/abs/2406.05424) — *arXiv 2024* · 📈6 — A comprehensive comprehensive survey on computational morphology, organizing major methods, taxonomies, and design choices.
+- [Recent advancements in computational morphology: A comprehensive survey](https://arxiv.org/abs/2406.05424) — *arXiv 2024* — A comprehensive comprehensive survey on computational morphology, organizing major methods, taxonomies, and design choices.
 
 ### Coreference Resolution
 
-- [A Neural Entity Coreference Resolution Review](https://arxiv.org/abs/1910.09329) — *Expert Systems with Applications 2019* · 📈43 — A review on coreference resolution, with emphasis on benchmarks, evaluation, and representative methods.
-- [Coreference Resolution for the Biomedical Domain: A Survey](https://arxiv.org/abs/2109.12424) — *arXiv 2021* · 📈21 — A survey on coreference resolution, organizing major methods, taxonomies, and design choices.
+- [Coreference Resolution for the Biomedical Domain: A Survey](https://arxiv.org/abs/2109.12424) — *arXiv 2021* — A survey on coreference resolution, organizing major methods, taxonomies, and design choices.
+- [A Neural Entity Coreference Resolution Review](https://arxiv.org/abs/1910.09329) — *Expert Systems with Applications 2019* — A review on coreference resolution, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Cross-lingual Transfer
 
-- [Transfer Learning for Multi-lingual Tasks -- a Survey](https://arxiv.org/abs/2110.02052) — *arXiv 2021* · 📈6 — A survey on cross-lingual transfer, organizing major methods, taxonomies, and design choices.
+- [Transfer Learning for Multi-lingual Tasks -- a Survey](https://arxiv.org/abs/2110.02052) — *arXiv 2021* — A survey on cross-lingual transfer, organizing major methods, taxonomies, and design choices.
 
 ### Data Augmentation (NLP)
 
-- [A Survey of Data Augmentation Approaches for NLP](https://arxiv.org/abs/2105.03075) — *Findings of ACL 2021* · 📈1014 — A standard comprehensive survey on data augmentation (NLP), organizing major methods, taxonomies, and design choices.
+- [A Survey of Data Augmentation Approaches for NLP](https://arxiv.org/abs/2105.03075) — *Findings of ACL 2021* — A standard comprehensive survey on data augmentation (NLP), organizing major methods, taxonomies, and design choices.
 
 ### Data-to-Text Generation
 
-- [Innovations in Neural Data-to-text Generation: A Survey](https://arxiv.org/abs/2207.12571) — *arXiv 2022* · 📈12 — A survey on data-to-text generation, organizing major methods, taxonomies, and design choices.
+- [Innovations in Neural Data-to-text Generation: A Survey](https://arxiv.org/abs/2207.12571) — *arXiv 2022* — A survey on data-to-text generation, organizing major methods, taxonomies, and design choices.
 
 ### Deep Learning for NLP (Overview)
 
@@ -503,171 +503,171 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Dialogue State Tracking
 
-- ["Do you follow me?": A Survey of Recent Approaches in Dialogue State Tracking](https://arxiv.org/abs/2207.14627) — *SIGDIAL 2022* · 📈38 — A recent survey on dialogue state tracking, organizing major methods, taxonomies, and design choices.
+- ["Do you follow me?": A Survey of Recent Approaches in Dialogue State Tracking](https://arxiv.org/abs/2207.14627) — *SIGDIAL 2022* — A recent survey on dialogue state tracking, organizing major methods, taxonomies, and design choices.
 
 ### Dialogue Systems
 
-- [A Survey on Dialogue Systems: Recent Advances and New Frontiers](https://arxiv.org/abs/1711.01731) — *ACM SIGKDD Explorations 2017* · 📈784 — A standard survey on dialogue systems, summarizing key methods, datasets, applications, and research directions.
-- [Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey](https://arxiv.org/abs/2105.04387) — *Artificial Intelligence Review 2021* · 📈355 — A comprehensive survey on dialogue systems, organizing major methods, taxonomies, and design choices.
-- [A Short Survey of Pre-trained Language Models for Conversational AI - A New Age in NLP](https://arxiv.org/abs/2104.10810) — *ACSW 2020* · 📈83 — A survey on dialogue systems, organizing major methods, taxonomies, and design choices.
+- [Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey](https://arxiv.org/abs/2105.04387) — *Artificial Intelligence Review 2021* — A comprehensive survey on dialogue systems, organizing major methods, taxonomies, and design choices.
+- [A Short Survey of Pre-trained Language Models for Conversational AI - A New Age in NLP](https://arxiv.org/abs/2104.10810) — *ACSW 2020* — A survey on dialogue systems, organizing major methods, taxonomies, and design choices.
+- [A Survey on Dialogue Systems: Recent Advances and New Frontiers](https://arxiv.org/abs/1711.01731) — *ACM SIGKDD Explorations 2017* — A standard survey on dialogue systems, summarizing key methods, datasets, applications, and research directions.
 
 ### Discourse Parsing
 
-- [A Survey of Implicit Discourse Relation Recognition](https://arxiv.org/abs/2203.02982) — *ACM Computing Surveys 2022* · 📈34 — A comprehensive survey on discourse parsing, organizing major methods, taxonomies, and design choices.
+- [A Survey of Implicit Discourse Relation Recognition](https://arxiv.org/abs/2203.02982) — *ACM Computing Surveys 2022* — A comprehensive survey on discourse parsing, organizing major methods, taxonomies, and design choices.
 
 ### Empathetic Dialogue
 
-- [Empathetic Conversational Systems: A Review of Current Advances, Gaps, and Opportunities](https://arxiv.org/abs/2206.05017) — *IEEE Transactions on Affective Computing 2022* · 📈59 — A review on empathetic dialogue, summarizing key methods, datasets, applications, and research directions.
+- [Empathetic Conversational Systems: A Review of Current Advances, Gaps, and Opportunities](https://arxiv.org/abs/2206.05017) — *IEEE Transactions on Affective Computing 2022* — A review on empathetic dialogue, summarizing key methods, datasets, applications, and research directions.
 
 ### Evaluation & Benchmarks
 
-- [A Survey of Evaluation Metrics Used for NLG Systems](https://arxiv.org/abs/2008.12009) — *ACM Computing Surveys 2020* · 📈353 — A survey on evaluation & benchmarks, with emphasis on benchmarks, evaluation, and representative methods.
-- [Survey on Factuality in Large Language Models: Knowledge, Retrieval and Domain-Specificity](https://arxiv.org/abs/2310.07521) — *arXiv 2023* · 📈303 — A survey on evaluation & benchmarks, organizing major methods, taxonomies, and design choices.
+- [Survey on Factuality in Large Language Models: Knowledge, Retrieval and Domain-Specificity](https://arxiv.org/abs/2310.07521) — *arXiv 2023* — A survey on evaluation & benchmarks, organizing major methods, taxonomies, and design choices.
+- [A Survey of Evaluation Metrics Used for NLG Systems](https://arxiv.org/abs/2008.12009) — *ACM Computing Surveys 2020* — A survey on evaluation & benchmarks, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Explainability (NLP)
 
-- [A Survey of the State of Explainable AI for Natural Language Processing](https://arxiv.org/abs/2010.00711) — *AACL-IJCNLP 2020* · 📈480 — A standard survey on explainability (NLP), surveying major methods, techniques, and algorithmic choices.
-- [Post-hoc Interpretability for Neural NLP: A Survey](https://arxiv.org/abs/2108.04840) — *ACM Computing Surveys 2021* · 📈328 — A survey on explainability (NLP), organizing major methods, taxonomies, and design choices.
-- [Local Interpretations for Explainable Natural Language Processing: A Survey](https://arxiv.org/abs/2103.11072) — *ACM Computing Surveys 2021* · 📈78 — A survey on explainability (NLP), surveying major methods, techniques, and algorithmic choices.
+- [Post-hoc Interpretability for Neural NLP: A Survey](https://arxiv.org/abs/2108.04840) — *ACM Computing Surveys 2021* — A survey on explainability (NLP), organizing major methods, taxonomies, and design choices.
+- [Local Interpretations for Explainable Natural Language Processing: A Survey](https://arxiv.org/abs/2103.11072) — *ACM Computing Surveys 2021* — A survey on explainability (NLP), surveying major methods, techniques, and algorithmic choices.
+- [A Survey of the State of Explainable AI for Natural Language Processing](https://arxiv.org/abs/2010.00711) — *AACL-IJCNLP 2020* — A standard survey on explainability (NLP), surveying major methods, techniques, and algorithmic choices.
 
 ### Fact-Checking
 
-- [A Survey on Automated Fact-Checking](https://arxiv.org/abs/2108.11896) — *TACL 2021* · 📈781 — A standard survey on fact-checking, summarizing key methods, datasets, applications, and research directions.
-- [Explainable Automated Fact-Checking: A Survey](https://arxiv.org/abs/2011.03870) — *COLING 2020* · 📈158 — A survey on fact-checking, surveying major methods, techniques, and algorithmic choices.
-- [Generative Large Language Models in Automated Fact-Checking: A Survey](https://arxiv.org/abs/2407.02351) — *arXiv 2024* · 📈26 — A survey on fact-checking, organizing major methods, taxonomies, and design choices.
+- [Generative Large Language Models in Automated Fact-Checking: A Survey](https://arxiv.org/abs/2407.02351) — *arXiv 2024* — A survey on fact-checking, organizing major methods, taxonomies, and design choices.
+- [A Survey on Automated Fact-Checking](https://arxiv.org/abs/2108.11896) — *TACL 2021* — A standard survey on fact-checking, summarizing key methods, datasets, applications, and research directions.
+- [Explainable Automated Fact-Checking: A Survey](https://arxiv.org/abs/2011.03870) — *COLING 2020* — A survey on fact-checking, surveying major methods, techniques, and algorithmic choices.
 
 ### Financial NLP
 
-- [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/abs/2402.02315) — *arXiv 2024* · 📈175 — A survey on financial NLP, covering methods, challenges, and future research directions.
-- [Language Modeling for the Future of Finance: A Survey into Metrics, Tasks, and Data Opportunities](https://arxiv.org/abs/2504.07274) — *arXiv 2025* · 📈6 — A survey on financial NLP, summarizing key methods, datasets, applications, and research directions.
+- [Language Modeling for the Future of Finance: A Survey into Metrics, Tasks, and Data Opportunities](https://arxiv.org/abs/2504.07274) — *arXiv 2025* — A survey on financial NLP, summarizing key methods, datasets, applications, and research directions.
+- [A Survey of Large Language Models in Finance (FinLLMs)](https://arxiv.org/abs/2402.02315) — *arXiv 2024* — A survey on financial NLP, covering methods, challenges, and future research directions.
 
 ### Grammatical Error Correction
 
-- [Grammatical Error Correction: A Survey of the State of the Art](https://arxiv.org/abs/2211.05166) — *Computational Linguistics 2023* · 📈144 — A standard comprehensive survey on grammatical error correction, with emphasis on benchmarks, evaluation, and representative methods.
-- [A Comprehensive Survey of Grammar Error Correction](https://arxiv.org/abs/2005.06600) — *arXiv 2020* · 📈42 — A comprehensive comprehensive survey on grammatical error correction, organizing major methods, taxonomies, and design choices.
+- [Grammatical Error Correction: A Survey of the State of the Art](https://arxiv.org/abs/2211.05166) — *Computational Linguistics 2023* — A standard comprehensive survey on grammatical error correction, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Comprehensive Survey of Grammar Error Correction](https://arxiv.org/abs/2005.06600) — *arXiv 2020* — A comprehensive comprehensive survey on grammatical error correction, organizing major methods, taxonomies, and design choices.
 
 ### Keyphrase Extraction
 
-- [Keyphrase Generation: A Multi-Aspect Survey](https://arxiv.org/abs/1910.05059) — *FRUCT 2019* · 📈24 — A survey on keyphrase extraction, organizing major methods, taxonomies, and design choices.
+- [Keyphrase Generation: A Multi-Aspect Survey](https://arxiv.org/abs/1910.05059) — *FRUCT 2019* — A survey on keyphrase extraction, organizing major methods, taxonomies, and design choices.
 
 ### Legal NLP
 
-- [Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models, and Challenges](https://arxiv.org/abs/2410.21306) — *ACM Computing Surveys 2025* · 📈127 — A comprehensive survey on legal NLP, covering methods, challenges, and future research directions.
+- [Natural Language Processing for the Legal Domain: A Survey of Tasks, Datasets, Models, and Challenges](https://arxiv.org/abs/2410.21306) — *ACM Computing Surveys 2025* — A comprehensive survey on legal NLP, covering methods, challenges, and future research directions.
 
 ### Long Document Summarization
 
-- [An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics](https://arxiv.org/abs/2207.00939) — *ACM Computing Surveys 2022* · 📈191 — A survey on long document summarization, with emphasis on benchmarks, evaluation, and representative methods.
+- [An Empirical Survey on Long Document Summarization: Datasets, Models and Metrics](https://arxiv.org/abs/2207.00939) — *ACM Computing Surveys 2022* — A survey on long document summarization, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Low-Resource & Multilingual
 
-- [Neural Machine Translation for Low-Resource Languages: A Survey](https://arxiv.org/abs/2106.15115) — *ACM Computing Surveys 2021* · 📈388 — A survey on low-resource & multilingual, summarizing key methods, datasets, applications, and research directions.
-- [A Survey on Low-Resource Neural Machine Translation](https://arxiv.org/abs/2107.04239) — *IJCAI 2021* · 📈83 — A survey on low-resource & multilingual, organizing major methods, taxonomies, and design choices.
+- [A Survey on Low-Resource Neural Machine Translation](https://arxiv.org/abs/2107.04239) — *IJCAI 2021* — A survey on low-resource & multilingual, organizing major methods, taxonomies, and design choices.
+- [Neural Machine Translation for Low-Resource Languages: A Survey](https://arxiv.org/abs/2106.15115) — *ACM Computing Surveys 2021* — A survey on low-resource & multilingual, summarizing key methods, datasets, applications, and research directions.
 
 ### Machine Translation
 
-- [Neural Machine Translation: A Review and Survey](https://arxiv.org/abs/1912.02047) — *JAIR 2020* · 📈440 — A standard comprehensive survey on machine translation, organizing major methods, taxonomies, and design choices.
-- [A Survey of Deep Learning Techniques for Neural Machine Translation](https://arxiv.org/abs/2002.07526) — *arXiv 2020* · 📈156 — A comprehensive survey on machine translation, organizing major methods, taxonomies, and design choices.
-- [A Survey on Non-Autoregressive Generation for Neural Machine Translation and Beyond](https://arxiv.org/abs/2204.09269) — *IEEE TPAMI 2022* · 📈130 — A survey on machine translation, organizing major methods, taxonomies, and design choices.
+- [A Survey on Non-Autoregressive Generation for Neural Machine Translation and Beyond](https://arxiv.org/abs/2204.09269) — *IEEE TPAMI 2022* — A survey on machine translation, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Learning Techniques for Neural Machine Translation](https://arxiv.org/abs/2002.07526) — *arXiv 2020* — A comprehensive survey on machine translation, organizing major methods, taxonomies, and design choices.
+- [Neural Machine Translation: A Review and Survey](https://arxiv.org/abs/1912.02047) — *JAIR 2020* — A standard comprehensive survey on machine translation, organizing major methods, taxonomies, and design choices.
 
 ### Multi-document Summarization
 
-- [Multi-document Summarization via Deep Learning Techniques: A Survey](https://arxiv.org/abs/2011.04843) — *ACM Computing Surveys 2020* · 📈164 — A comprehensive survey on multi-document summarization, organizing major methods, taxonomies, and design choices.
-- [Survey on Multi-Document Summarization: Systematic Literature Review](https://arxiv.org/abs/2312.12915) — *arXiv 2023* · 📈3 — A systematic literature review on multi-document summarization, organizing major methods, taxonomies, and design choices.
+- [Survey on Multi-Document Summarization: Systematic Literature Review](https://arxiv.org/abs/2312.12915) — *arXiv 2023* — A systematic literature review on multi-document summarization, organizing major methods, taxonomies, and design choices.
+- [Multi-document Summarization via Deep Learning Techniques: A Survey](https://arxiv.org/abs/2011.04843) — *ACM Computing Surveys 2020* — A comprehensive survey on multi-document summarization, organizing major methods, taxonomies, and design choices.
 
 ### NLG Evaluation
 
-- [Leveraging Large Language Models for NLG Evaluation: Advances and Challenges](https://arxiv.org/abs/2401.07103) — *EMNLP 2024* · 📈47 — A key reference on NLG evaluation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Leveraging Large Language Models for NLG Evaluation: Advances and Challenges](https://arxiv.org/abs/2401.07103) — *EMNLP 2024* — A key reference on NLG evaluation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Named Entity Recognition
 
-- [A Survey on Deep Learning for Named Entity Recognition](https://arxiv.org/abs/1812.09449) — *IEEE TKDE 2020* · 📈1522 — A standard survey on named entity recognition, summarizing key methods, datasets, applications, and research directions.
-- [Recent Advances in Named Entity Recognition: A Comprehensive Survey and Comparative Study](https://arxiv.org/abs/2401.10825) — *arXiv 2024* · 📈60 — A recent comprehensive survey on named entity recognition, with comparative analysis of representative methods and systems.
+- [Recent Advances in Named Entity Recognition: A Comprehensive Survey and Comparative Study](https://arxiv.org/abs/2401.10825) — *arXiv 2024* — A recent comprehensive survey on named entity recognition, with comparative analysis of representative methods and systems.
+- [A Survey on Deep Learning for Named Entity Recognition](https://arxiv.org/abs/1812.09449) — *IEEE TKDE 2020* — A standard survey on named entity recognition, summarizing key methods, datasets, applications, and research directions.
 
 ### Neural Topic Models
 
-- [A Survey on Neural Topic Models: Methods, Applications, and Challenges](https://arxiv.org/abs/2401.15351) — *Artificial Intelligence Review 2024* · 📈125 — A comprehensive survey on neural topic models, covering methods, challenges, and future research directions.
+- [A Survey on Neural Topic Models: Methods, Applications, and Challenges](https://arxiv.org/abs/2401.15351) — *Artificial Intelligence Review 2024* — A comprehensive survey on neural topic models, covering methods, challenges, and future research directions.
 
 ### Persona Dialogue
 
-- [Recent Trends in Personalized Dialogue Generation: A Review of Datasets, Methodologies, and Evaluations](https://arxiv.org/abs/2405.17974) — *LREC-COLING 2024* · 📈42 — A comprehensive review on persona dialogue, with emphasis on benchmarks, evaluation, and representative methods.
+- [Recent Trends in Personalized Dialogue Generation: A Review of Datasets, Methodologies, and Evaluations](https://arxiv.org/abs/2405.17974) — *LREC-COLING 2024* — A comprehensive review on persona dialogue, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Pretrained Language Models (BERT)
 
-- [A Primer in BERTology: What We Know About How BERT Works](https://arxiv.org/abs/2002.12327) — *TACL 2020* · 📈1971 — A standard introductory survey on pretrained language models (BERT), summarizing key methods, datasets, applications, and research directions.
-- [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271) — *Science China Technological Sciences 2020* · 📈1731 — A highly cited survey on pretrained language models (BERT), organizing major methods, taxonomies, and design choices.
-- [Recent Advances in Natural Language Processing via Large Pre-Trained Language Models: A Survey](https://arxiv.org/abs/2111.01243) — *ACM Computing Surveys 2021* · 📈1628 — A comprehensive survey on pretrained language models (BERT), organizing major methods, taxonomies, and design choices.
-- [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139) — *AI Open 2021* · 📈1104 — A comprehensive key reference on pretrained language models (BERT), summarizing key methods, datasets, applications, and research directions.
+- [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139) — *AI Open 2021* — A comprehensive key reference on pretrained language models (BERT), summarizing key methods, datasets, applications, and research directions.
+- [Recent Advances in Natural Language Processing via Large Pre-Trained Language Models: A Survey](https://arxiv.org/abs/2111.01243) — *ACM Computing Surveys 2021* — A comprehensive survey on pretrained language models (BERT), organizing major methods, taxonomies, and design choices.
+- [A Primer in BERTology: What We Know About How BERT Works](https://arxiv.org/abs/2002.12327) — *TACL 2020* — A standard introductory survey on pretrained language models (BERT), summarizing key methods, datasets, applications, and research directions.
+- [Pre-trained Models for Natural Language Processing: A Survey](https://arxiv.org/abs/2003.08271) — *Science China Technological Sciences 2020* — A highly cited survey on pretrained language models (BERT), organizing major methods, taxonomies, and design choices.
 
 ### Prompting
 
-- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/abs/2107.13586) — *ACM Computing Surveys 2021* · 📈5721 — A key survey that systematizes prompting methods and the prompt-based NLP paradigm. — [`thunlp/PromptPapers`](https://github.com/thunlp/PromptPapers) ⭐4325🔴
+- [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/abs/2107.13586) — *ACM Computing Surveys 2021* — A key survey that systematizes prompting methods and the prompt-based NLP paradigm. — [`thunlp/PromptPapers`](https://github.com/thunlp/PromptPapers) ⭐4325🔴
 
 ### Question Answering
 
-- [A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions](https://arxiv.org/abs/2105.11644) — *IJCAI 2021* · 📈216 — A survey on question answering, covering methods, challenges, and future research directions.
-- [QA Dataset Explosion: A Taxonomy of NLP Resources for Question Answering and Reading Comprehension](https://arxiv.org/abs/2107.12708) — *ACM Computing Surveys 2021* · 📈206 — A comprehensive taxonomy on question answering, organizing major methods, taxonomies, and design choices.
-- [A Survey on Neural Machine Reading Comprehension](https://arxiv.org/abs/1906.03824) — *arXiv 2019* · 📈32 — A survey on question answering, organizing major methods, taxonomies, and design choices.
+- [QA Dataset Explosion: A Taxonomy of NLP Resources for Question Answering and Reading Comprehension](https://arxiv.org/abs/2107.12708) — *ACM Computing Surveys 2021* — A comprehensive taxonomy on question answering, organizing major methods, taxonomies, and design choices.
+- [A Survey on Complex Knowledge Base Question Answering: Methods, Challenges and Solutions](https://arxiv.org/abs/2105.11644) — *IJCAI 2021* — A survey on question answering, covering methods, challenges, and future research directions.
+- [A Survey on Neural Machine Reading Comprehension](https://arxiv.org/abs/1906.03824) — *arXiv 2019* — A survey on question answering, organizing major methods, taxonomies, and design choices.
 
 ### Question Generation
 
-- [A Survey on Neural Question Generation: Methods, Applications, and Prospects](https://arxiv.org/abs/2402.18267) — *IJCAI 2024* · 📈22 — A survey on question generation, organizing major methods, taxonomies, and design choices.
+- [A Survey on Neural Question Generation: Methods, Applications, and Prospects](https://arxiv.org/abs/2402.18267) — *IJCAI 2024* — A survey on question generation, organizing major methods, taxonomies, and design choices.
 
 ### Readability Assessment
 
-- [Trends, Limitations and Open Challenges in Automatic Readability Assessment Research](https://arxiv.org/abs/2105.00973) — *LREC 2022* · 📈67 — A key reference on readability assessment, with emphasis on benchmarks, evaluation, and representative methods.
+- [Trends, Limitations and Open Challenges in Automatic Readability Assessment Research](https://arxiv.org/abs/2105.00973) — *LREC 2022* — A key reference on readability assessment, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Relation Extraction
 
-- [A Comprehensive Survey on Relation Extraction: Recent Advances and New Frontiers](https://arxiv.org/abs/2306.02051) — *ACM Computing Surveys 2023* · 📈147 — A comprehensive survey on relation extraction, organizing major methods, taxonomies, and design choices.
-- [A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/abs/1705.03645) — *arXiv 2017* · 📈124 — A survey on relation extraction, summarizing key methods, datasets, applications, and research directions.
+- [A Comprehensive Survey on Relation Extraction: Recent Advances and New Frontiers](https://arxiv.org/abs/2306.02051) — *ACM Computing Surveys 2023* — A comprehensive survey on relation extraction, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/abs/1705.03645) — *arXiv 2017* — A survey on relation extraction, summarizing key methods, datasets, applications, and research directions.
 
 ### Sarcasm Detection
 
-- [A Survey of Multimodal Sarcasm Detection](https://arxiv.org/abs/2410.18882) — *IJCAI 2024* · 📈44 — A comprehensive survey on sarcasm detection, organizing major methods, taxonomies, and design choices.
+- [A Survey of Multimodal Sarcasm Detection](https://arxiv.org/abs/2410.18882) — *IJCAI 2024* — A comprehensive survey on sarcasm detection, organizing major methods, taxonomies, and design choices.
 
 ### Sentiment Analysis
 
-- [Deep Learning for Sentiment Analysis: A Survey](https://arxiv.org/abs/1801.07883) — *WIREs Data Mining and Knowledge Discovery 2018* · 📈1948 — A highly cited survey on sentiment analysis, summarizing key methods, datasets, applications, and research directions.
-- [A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges](https://arxiv.org/abs/2203.01054) — *IEEE TKDE 2022* · 📈448 — A comprehensive survey on sentiment analysis, covering methods, challenges, and future research directions.
+- [A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges](https://arxiv.org/abs/2203.01054) — *IEEE TKDE 2022* — A comprehensive survey on sentiment analysis, covering methods, challenges, and future research directions.
+- [Deep Learning for Sentiment Analysis: A Survey](https://arxiv.org/abs/1801.07883) — *WIREs Data Mining and Knowledge Discovery 2018* — A highly cited survey on sentiment analysis, summarizing key methods, datasets, applications, and research directions.
 
 ### Stance Detection
 
-- [A Survey on Stance Detection for Mis- and Disinformation Identification](https://arxiv.org/abs/2103.00242) — *NAACL Findings 2021* · 📈183 — A survey on stance detection, summarizing key methods, datasets, applications, and research directions.
-- [A Survey of Stance Detection on Social Media: New Directions and Perspectives](https://arxiv.org/abs/2409.15690) — *arXiv 2024* · 📈19 — A survey on stance detection, covering methods, challenges, and future research directions.
+- [A Survey of Stance Detection on Social Media: New Directions and Perspectives](https://arxiv.org/abs/2409.15690) — *arXiv 2024* — A survey on stance detection, covering methods, challenges, and future research directions.
+- [A Survey on Stance Detection for Mis- and Disinformation Identification](https://arxiv.org/abs/2103.00242) — *NAACL Findings 2021* — A survey on stance detection, summarizing key methods, datasets, applications, and research directions.
 
 ### Summarization
 
-- [A Survey on Neural Network-Based Summarization Methods](https://arxiv.org/abs/1804.04589) — *arXiv 2018* · 📈38 — A survey on summarization, organizing major methods, taxonomies, and design choices.
-- [A Survey on Neural Abstractive Summarization Methods and Factual Consistency of Summarization](https://arxiv.org/abs/2204.09519) — *arXiv 2022* · 📈9 — A survey on summarization, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Neural Abstractive Summarization Methods and Factual Consistency of Summarization](https://arxiv.org/abs/2204.09519) — *arXiv 2022* — A survey on summarization, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Neural Network-Based Summarization Methods](https://arxiv.org/abs/1804.04589) — *arXiv 2018* — A survey on summarization, organizing major methods, taxonomies, and design choices.
 
 ### Syntactic & Semantic Parsing
 
-- [A Survey on Semantic Parsing](https://arxiv.org/abs/1812.00978) — *AKBC 2018* · 📈139 — A survey on syntactic & semantic parsing, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Semantic Parsing](https://arxiv.org/abs/1812.00978) — *AKBC 2018* — A survey on syntactic & semantic parsing, summarizing key methods, datasets, applications, and research directions.
 
 ### Text Classification
 
-- [Recent Trends in Deep Learning Based Natural Language Processing](https://arxiv.org/abs/1708.02709) — *IEEE Computational Intelligence Magazine 2018* · 📈3095 — A highly cited key reference on text classification, covering core methods, applications, and research trends.
-- [Deep Learning Based Text Classification: A Comprehensive Review](https://arxiv.org/abs/2004.03705) — *ACM Computing Surveys 2020* · 📈1365 — A review on text classification, organizing major methods, taxonomies, and design choices.
-- [A Survey on Text Classification: From Shallow to Deep Learning](https://arxiv.org/abs/2008.00364) — *ACM TIST 2020* · 📈558 — A survey on text classification, organizing major methods, taxonomies, and design choices.
-- [Topic Modelling Meets Deep Neural Networks: A Survey](https://arxiv.org/abs/2103.00498) — *IJCAI 2021* · 📈173 — A comprehensive survey on text classification, organizing major methods, taxonomies, and design choices.
+- [Topic Modelling Meets Deep Neural Networks: A Survey](https://arxiv.org/abs/2103.00498) — *IJCAI 2021* — A comprehensive survey on text classification, organizing major methods, taxonomies, and design choices.
+- [A Survey on Text Classification: From Shallow to Deep Learning](https://arxiv.org/abs/2008.00364) — *ACM TIST 2020* — A survey on text classification, organizing major methods, taxonomies, and design choices.
+- [Deep Learning Based Text Classification: A Comprehensive Review](https://arxiv.org/abs/2004.03705) — *ACM Computing Surveys 2020* — A review on text classification, organizing major methods, taxonomies, and design choices.
+- [Recent Trends in Deep Learning Based Natural Language Processing](https://arxiv.org/abs/1708.02709) — *IEEE Computational Intelligence Magazine 2018* — A highly cited key reference on text classification, covering core methods, applications, and research trends.
 
 ### Text Generation
 
-- [Survey of the State of the Art in Natural Language Generation: Core Tasks, Applications and Evaluation](https://arxiv.org/abs/1703.09902) — *JAIR 2018* · 📈919 — A standard comprehensive survey on text generation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Survey of the State of the Art in Natural Language Generation: Core Tasks, Applications and Evaluation](https://arxiv.org/abs/1703.09902) — *JAIR 2018* — A standard comprehensive survey on text generation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Text Simplification
 
-- [A Survey on Text Simplification](https://arxiv.org/abs/2008.08612) — *arXiv 2020* · 📈32 — A survey on text simplification, summarizing key methods, datasets, applications, and research directions.
-- [Deep Learning Approaches to Lexical Simplification: A Survey](https://arxiv.org/abs/2305.12000) — *arXiv 2023* · 📈27 — A survey on text simplification, organizing major methods, taxonomies, and design choices.
+- [Deep Learning Approaches to Lexical Simplification: A Survey](https://arxiv.org/abs/2305.12000) — *arXiv 2023* — A survey on text simplification, organizing major methods, taxonomies, and design choices.
+- [A Survey on Text Simplification](https://arxiv.org/abs/2008.08612) — *arXiv 2020* — A survey on text simplification, summarizing key methods, datasets, applications, and research directions.
 
 ### Text Style Transfer
 
-- [A Survey of Text Style Transfer: Applications and Ethical Implications](https://arxiv.org/abs/2407.16737) — *arXiv 2024* · 📈2 — A survey on text style transfer, covering core methods, applications, and research trends.
+- [A Survey of Text Style Transfer: Applications and Ethical Implications](https://arxiv.org/abs/2407.16737) — *arXiv 2024* — A survey on text style transfer, covering core methods, applications, and research trends.
 
 ### Word & Sentence Embeddings
 
-- [A Survey on Contextual Embeddings](https://arxiv.org/abs/2003.07278) — *arXiv 2020* · 📈182 — A survey on word & sentence embeddings, covering core methods, applications, and research trends.
-- [A Comprehensive Survey of Sentence Representations: From the BERT Epoch to the ChatGPT Era and Beyond](https://arxiv.org/abs/2305.12641) — *EACL 2024* · 📈26 — A comprehensive comprehensive survey on word & sentence embeddings, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey of Sentence Representations: From the BERT Epoch to the ChatGPT Era and Beyond](https://arxiv.org/abs/2305.12641) — *EACL 2024* — A comprehensive comprehensive survey on word & sentence embeddings, organizing major methods, taxonomies, and design choices.
+- [A Survey on Contextual Embeddings](https://arxiv.org/abs/2003.07278) — *arXiv 2020* — A survey on word & sentence embeddings, covering core methods, applications, and research trends.
 
 ### Word Embeddings
 
@@ -675,111 +675,111 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Word Sense Disambiguation
 
-- [A Survey on Lexical Ambiguity Detection and Word Sense Disambiguation](https://arxiv.org/abs/2403.16129) — *arXiv 2024* · 📈14 — A survey on word sense disambiguation, organizing major methods, taxonomies, and design choices.
+- [A Survey on Lexical Ambiguity Detection and Word Sense Disambiguation](https://arxiv.org/abs/2403.16129) — *arXiv 2024* — A survey on word sense disambiguation, organizing major methods, taxonomies, and design choices.
 
 ## 🔊 Speech and Signal Processing
 
 ### Audio Foundation Models
 
-- [Audio-Language Models for Audio-Centric Tasks: A Systematic Survey](https://arxiv.org/abs/2501.15177) — *arXiv 2025* · 📈1 — A comprehensive recent survey on audio foundation models, organizing major methods, taxonomies, and design choices.
+- [Audio-Language Models for Audio-Centric Tasks: A Systematic Survey](https://arxiv.org/abs/2501.15177) — *arXiv 2025* — A comprehensive recent survey on audio foundation models, organizing major methods, taxonomies, and design choices.
 
 ### Automatic Speech Recognition (ASR)
 
-- [A Review of Deep Learning Techniques for Speech Processing](https://arxiv.org/abs/2305.00359) — *Information Fusion 2023* · 📈367 — A comprehensive review on automatic speech recognition (ASR), organizing major methods, taxonomies, and design choices.
-- [End-to-End Speech Recognition: A Survey](https://arxiv.org/abs/2303.03329) — *IEEE/ACM TASLP 2023* · 📈318 — A standard survey on automatic speech recognition (ASR), organizing major methods, taxonomies, and design choices.
+- [End-to-End Speech Recognition: A Survey](https://arxiv.org/abs/2303.03329) — *IEEE/ACM TASLP 2023* — A standard survey on automatic speech recognition (ASR), organizing major methods, taxonomies, and design choices.
+- [A Review of Deep Learning Techniques for Speech Processing](https://arxiv.org/abs/2305.00359) — *Information Fusion 2023* — A comprehensive review on automatic speech recognition (ASR), organizing major methods, taxonomies, and design choices.
 - [Speech Recognition Using Deep Neural Networks: A Systematic Review](https://doi.org/10.1109/ACCESS.2019.2896880) — *IEEE Access 2019* — A highly cited standard review on automatic speech recognition (ASR), organizing major methods, taxonomies, and design choices.
 
 ### Controllable TTS
 
-- [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Systematic Survey](https://arxiv.org/abs/2412.06602) — *EMNLP 2025* · 📈48 — A comprehensive survey on controllable TTS, organizing major methods, taxonomies, and design choices. — [`imxtx/awesome-controllable-speech-synthesis`](https://github.com/imxtx/awesome-controllable-speech-synthesis) ⭐281🟢
+- [Towards Controllable Speech Synthesis in the Era of Large Language Models: A Systematic Survey](https://arxiv.org/abs/2412.06602) — *EMNLP 2025* — A comprehensive survey on controllable TTS, organizing major methods, taxonomies, and design choices. — [`imxtx/awesome-controllable-speech-synthesis`](https://github.com/imxtx/awesome-controllable-speech-synthesis) ⭐284🟢
 
 ### Keyword Spotting
 
-- [Advances in Small-Footprint Keyword Spotting: A Comprehensive Review of Efficient Models and Algorithms](https://arxiv.org/abs/2506.11169) — *arXiv 2025* · 📈10 — A comprehensive review on keyword spotting, organizing major methods, taxonomies, and design choices.
+- [Advances in Small-Footprint Keyword Spotting: A Comprehensive Review of Efficient Models and Algorithms](https://arxiv.org/abs/2506.11169) — *arXiv 2025* — A comprehensive review on keyword spotting, organizing major methods, taxonomies, and design choices.
 
 ### Multilingual ASR
 
-- [A Survey of Multilingual Models for Automatic Speech Recognition](https://arxiv.org/abs/2202.12576) — *LREC 2022* · 📈58 — A survey on multilingual ASR, surveying major methods, techniques, and algorithmic choices.
+- [A Survey of Multilingual Models for Automatic Speech Recognition](https://arxiv.org/abs/2202.12576) — *LREC 2022* — A survey on multilingual ASR, surveying major methods, techniques, and algorithmic choices.
 
 ### Music Information Retrieval
 
-- [A Tutorial on Deep Learning for Music Information Retrieval](https://arxiv.org/abs/1709.04396) — *arXiv 2017* · 📈104 — A tutorial survey on music information retrieval, summarizing key methods, datasets, applications, and research directions.
+- [A Tutorial on Deep Learning for Music Information Retrieval](https://arxiv.org/abs/1709.04396) — *arXiv 2017* — A tutorial survey on music information retrieval, summarizing key methods, datasets, applications, and research directions.
 
 ### Self-Supervised Speech (wav2vec)
 
-- [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477) — *NeurIPS 2020* · 📈9131 — A foundational reference for self-supervised speech representation learning.
-- [Self-Supervised Speech Representation Learning: A Review](https://arxiv.org/abs/2205.10643) — *IEEE JSTSP 2022* · 📈526 — A standard comprehensive review on self-supervised speech (wav2vec), organizing major methods, taxonomies, and design choices.
+- [Self-Supervised Speech Representation Learning: A Review](https://arxiv.org/abs/2205.10643) — *IEEE JSTSP 2022* — A standard comprehensive review on self-supervised speech (wav2vec), organizing major methods, taxonomies, and design choices.
+- [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477) — *NeurIPS 2020* — A foundational reference for self-supervised speech representation learning.
 
 ### Sound Event Detection
 
-- [Sound Event Detection: A Tutorial](https://arxiv.org/abs/2107.05463) — *IEEE Signal Processing Magazine 2021* · 📈283 — A tutorial survey on sound event detection, with emphasis on benchmarks, evaluation, and representative methods.
+- [Sound Event Detection: A Tutorial](https://arxiv.org/abs/2107.05463) — *IEEE Signal Processing Magazine 2021* — A tutorial survey on sound event detection, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Speaker Recognition & Diarization
 
-- [A Review of Speaker Diarization: Recent Advances with Deep Learning](https://arxiv.org/abs/2101.09624) — *Computer Speech & Language 2021* · 📈446 — A standard review on speaker recognition & diarization, organizing major methods, taxonomies, and design choices.
+- [A Review of Speaker Diarization: Recent Advances with Deep Learning](https://arxiv.org/abs/2101.09624) — *Computer Speech & Language 2021* — A standard review on speaker recognition & diarization, organizing major methods, taxonomies, and design choices.
 
 ### Speech Emotion Recognition
 
-- [A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning](https://arxiv.org/abs/2312.05735) — *arXiv 2023* · 📈60 — A comprehensive comprehensive survey on speech emotion recognition, organizing major methods, taxonomies, and design choices.
-- [Emotion Recognition and Generation: A Comprehensive Review of Face, Speech, and Text Modalities](https://arxiv.org/abs/2502.06803) — *arXiv 2025* · 📈12 — A comprehensive recent review on speech emotion recognition, surveying major methods, techniques, and algorithmic choices.
+- [Emotion Recognition and Generation: A Comprehensive Review of Face, Speech, and Text Modalities](https://arxiv.org/abs/2502.06803) — *arXiv 2025* — A comprehensive recent review on speech emotion recognition, surveying major methods, techniques, and algorithmic choices.
+- [A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning](https://arxiv.org/abs/2312.05735) — *arXiv 2023* — A comprehensive comprehensive survey on speech emotion recognition, organizing major methods, taxonomies, and design choices.
 
 ### Speech Enhancement & Separation
 
-- [Supervised Speech Separation Based on Deep Learning: An Overview](https://arxiv.org/abs/1708.07524) — *IEEE/ACM TASLP 2018* · 📈1619 — A standard comprehensive overview on speech enhancement & separation, organizing major methods, taxonomies, and design choices.
+- [Supervised Speech Separation Based on Deep Learning: An Overview](https://arxiv.org/abs/1708.07524) — *IEEE/ACM TASLP 2018* — A standard comprehensive overview on speech enhancement & separation, organizing major methods, taxonomies, and design choices.
 
 ### Speech LLM / Audio Foundation Models
 
-- [A Survey on Speech Large Language Models for Understanding](https://arxiv.org/abs/2410.18908) — *arXiv 2024* · 📈107 — A comprehensive survey on speech LLM and audio foundation models, organizing major methods, taxonomies, and design choices.
+- [A Survey on Speech Large Language Models for Understanding](https://arxiv.org/abs/2410.18908) — *arXiv 2024* — A comprehensive survey on speech LLM and audio foundation models, organizing major methods, taxonomies, and design choices.
 
 ### Speech Language Models
 
-- [Recent Advances in Speech Language Models: A Survey](https://arxiv.org/abs/2410.03751) — *ACL 2025* · 📈132 — A comprehensive survey on speech language models, summarizing key methods, datasets, applications, and research directions. — [`dreamtheater123/Awesome-SpeechLM-Survey`](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey) ⭐221🟢
+- [Recent Advances in Speech Language Models: A Survey](https://arxiv.org/abs/2410.03751) — *ACL 2025* — A comprehensive survey on speech language models, summarizing key methods, datasets, applications, and research directions. — [`dreamtheater123/Awesome-SpeechLM-Survey`](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey) ⭐225🟢
 
 ### Speech Translation
 
-- [Direct Speech-to-Speech Neural Machine Translation: A Survey](https://arxiv.org/abs/2411.14453) — *arXiv 2024* · 📈9 — A survey on speech translation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Direct Speech-to-Speech Neural Machine Translation: A Survey](https://arxiv.org/abs/2411.14453) — *arXiv 2024* — A survey on speech translation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Spoken Dialogue Systems
 
-- [WavChat: A Survey of Spoken Dialogue Models](https://arxiv.org/abs/2411.13577) — *arXiv 2024* · 📈113 — A comprehensive survey on spoken dialogue systems, with emphasis on benchmarks, evaluation, and representative methods. — [`jishengpeng/WavChat`](https://github.com/jishengpeng/WavChat) ⭐316🔴
+- [WavChat: A Survey of Spoken Dialogue Models](https://arxiv.org/abs/2411.13577) — *arXiv 2024* — A comprehensive survey on spoken dialogue systems, with emphasis on benchmarks, evaluation, and representative methods. — [`jishengpeng/WavChat`](https://github.com/jishengpeng/WavChat) ⭐317🔴
 
 ### Spoken Language Understanding (SLU)
 
-- [A Survey on Spoken Language Understanding: Recent Advances and New Frontiers](https://arxiv.org/abs/2103.03095) — *IJCAI 2021* · 📈125 — A standard survey on spoken language understanding (SLU), organizing major methods, taxonomies, and design choices.
+- [A Survey on Spoken Language Understanding: Recent Advances and New Frontiers](https://arxiv.org/abs/2103.03095) — *IJCAI 2021* — A standard survey on spoken language understanding (SLU), organizing major methods, taxonomies, and design choices.
 
 ### Text-to-Speech (TTS)
 
-- [A Survey on Neural Speech Synthesis](https://arxiv.org/abs/2106.15561) — *arXiv 2021* · 📈490 — A standard survey on text-to-speech (TTS), summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Neural Speech Synthesis](https://arxiv.org/abs/2106.15561) — *arXiv 2021* — A standard survey on text-to-speech (TTS), summarizing key methods, datasets, applications, and research directions.
 
 ### Voice Conversion
 
-- [An Overview of Voice Conversion and its Challenges: From Statistical Modeling to Deep Learning](https://arxiv.org/abs/2008.03648) — *IEEE/ACM TASLP 2020* · 📈430 — A standard comprehensive overview on voice conversion, summarizing key methods, datasets, applications, and research directions.
-- [Reimagining Speech: A Scoping Review of Deep Learning-Powered Voice Conversion](https://arxiv.org/abs/2311.08104) — *arXiv 2023* · 📈9 — A review on voice conversion, summarizing key methods, datasets, applications, and research directions.
-- [Generative Adversarial Network based Voice Conversion: Techniques, Challenges, and Recent Advancements](https://arxiv.org/abs/2504.19197) — *arXiv 2025* · 📈7 — A comprehensive recent key reference on voice conversion, covering methods, challenges, and future research directions.
+- [Generative Adversarial Network based Voice Conversion: Techniques, Challenges, and Recent Advancements](https://arxiv.org/abs/2504.19197) — *arXiv 2025* — A comprehensive recent key reference on voice conversion, covering methods, challenges, and future research directions.
+- [Reimagining Speech: A Scoping Review of Deep Learning-Powered Voice Conversion](https://arxiv.org/abs/2311.08104) — *arXiv 2023* — A review on voice conversion, summarizing key methods, datasets, applications, and research directions.
+- [An Overview of Voice Conversion and its Challenges: From Statistical Modeling to Deep Learning](https://arxiv.org/abs/2008.03648) — *IEEE/ACM TASLP 2020* — A standard comprehensive overview on voice conversion, summarizing key methods, datasets, applications, and research directions.
 
 ## 👁️ Computer Vision (CV)
 
 ### 3D Gaussian Splatting
 
-- [A Survey on 3D Gaussian Splatting](https://arxiv.org/abs/2401.03890) — *TPAMI 2024* · 📈363 — A comprehensive survey on 3D gaussian splatting, covering core methods, applications, and research trends. — [`guikunchen/Awesome3DGS`](https://github.com/guikunchen/Awesome3DGS) ⭐103🟡
+- [A Survey on 3D Gaussian Splatting](https://arxiv.org/abs/2401.03890) — *TPAMI 2024* — A comprehensive survey on 3D gaussian splatting, covering core methods, applications, and research trends. — [`guikunchen/Awesome3DGS`](https://github.com/guikunchen/Awesome3DGS) ⭐105🟡
 
 ### 3D Object Detection
 
-- [3D Object Detection for Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2206.09474) — *IJCV 2023* · 📈487 — A comprehensive comprehensive survey on 3D object detection, summarizing key methods, datasets, applications, and research directions. — [`PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving`](https://github.com/PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving) ⭐612🔴
+- [3D Object Detection for Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2206.09474) — *IJCV 2023* · 📈490 — A comprehensive comprehensive survey on 3D object detection, summarizing key methods, datasets, applications, and research directions. — [`PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving`](https://github.com/PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving) ⭐612🔴
 
 ### 3D Vision / Point Cloud
 
-- [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/abs/1912.12033) — *TPAMI 2021* · 📈2341 — A standard comprehensive survey on 3D vision and point cloud, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/abs/1912.12033) — *TPAMI 2021* · 📈2348 — A standard comprehensive survey on 3D vision and point cloud, organizing major methods, taxonomies, and design choices.
 - [Transformers in 3D Point Clouds: A Survey](https://arxiv.org/abs/2205.07417) — *arXiv 2022* · 📈79 — A comprehensive survey on 3D vision and point cloud, organizing major methods, taxonomies, and design choices.
 
 ### 6D Pose Estimation
 
-- [Deep Learning-Based Object Pose Estimation: A Comprehensive Survey](https://arxiv.org/abs/2405.07801) — *IJCV 2024* · 📈82 — A comprehensive comprehensive survey on 6D pose estimation, summarizing key methods, datasets, applications, and research directions.
+- [Deep Learning-Based Object Pose Estimation: A Comprehensive Survey](https://arxiv.org/abs/2405.07801) — *IJCV 2024* — A comprehensive comprehensive survey on 6D pose estimation, summarizing key methods, datasets, applications, and research directions.
 
 ### Action Recognition
 
-- [Human Action Recognition from Various Data Modalities: A Review](https://arxiv.org/abs/2012.11866) — *TPAMI 2023* · 📈816 — A review on action recognition, organizing major methods, taxonomies, and design choices.
-- [Going Deeper into Action Recognition: A Survey](https://arxiv.org/abs/1605.04988) — *Image and Vision Computing 2017* · 📈648 — A standard survey on action recognition, surveying major methods, techniques, and algorithmic choices.
+- [Human Action Recognition from Various Data Modalities: A Review](https://arxiv.org/abs/2012.11866) — *TPAMI 2023* · 📈820 — A review on action recognition, organizing major methods, taxonomies, and design choices.
+- [Going Deeper into Action Recognition: A Survey](https://arxiv.org/abs/1605.04988) — *Image and Vision Computing 2017* · 📈649 — A standard survey on action recognition, surveying major methods, techniques, and algorithmic choices.
 
 ### Adversarial Robustness
 
@@ -787,24 +787,24 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Anomaly Detection
 
-- [Deep Learning for Anomaly Detection: A Review](https://arxiv.org/abs/2007.02500) — *CSUR 2021* · 📈1444 — A comprehensive review on anomaly detection, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Anomaly Detection: A Review](https://arxiv.org/abs/2007.02500) — *CSUR 2021* · 📈1446 — A comprehensive review on anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### Camouflaged Object Detection
 
-- [A Survey of Camouflaged Object Detection and Beyond](https://arxiv.org/abs/2408.14562) — *arXiv 2024* · 📈74 — A comprehensive recent survey on camouflaged object detection, summarizing key methods, datasets, applications, and research directions.
+- [A Survey of Camouflaged Object Detection and Beyond](https://arxiv.org/abs/2408.14562) — *arXiv 2024* — A comprehensive recent survey on camouflaged object detection, summarizing key methods, datasets, applications, and research directions.
 
 ### Continual Learning
 
-- [Class-Incremental Learning: A Survey](https://arxiv.org/abs/2302.03648) — *TPAMI 2023* · 📈404 — A comprehensive survey on continual learning, with comparative analysis of representative methods and systems.
+- [Class-Incremental Learning: A Survey](https://arxiv.org/abs/2302.03648) — *TPAMI 2023* — A comprehensive survey on continual learning, with comparative analysis of representative methods and systems.
 
 ### Crowd Counting
 
-- [A Survey on Deep Learning-based Single Image Crowd Counting: Network Design, Loss Function and Supervisory Signal](https://arxiv.org/abs/2012.15685) — *Neurocomputing 2020* · 📈33 — A survey on crowd counting, organizing major methods, taxonomies, and design choices.
+- [A Survey on Deep Learning-based Single Image Crowd Counting: Network Design, Loss Function and Supervisory Signal](https://arxiv.org/abs/2012.15685) — *Neurocomputing 2020* — A survey on crowd counting, organizing major methods, taxonomies, and design choices.
 
 ### Deepfake Detection
 
-- [Deepfake Detection: A Comprehensive Survey from the Reliability Perspective](https://arxiv.org/abs/2211.10881) — *ACM Computing Surveys 2022* · 📈146 — A comprehensive survey on deepfake detection, organizing major methods, taxonomies, and design choices.
-- [Deepfake Generation and Detection: A Benchmark and Survey](https://arxiv.org/abs/2403.17881) — *arXiv 2024* · 📈142 — A comprehensive survey on deepfake detection, with emphasis on benchmarks, evaluation, and representative methods.
+- [Deepfake Generation and Detection: A Benchmark and Survey](https://arxiv.org/abs/2403.17881) — *arXiv 2024* — A comprehensive survey on deepfake detection, with emphasis on benchmarks, evaluation, and representative methods.
+- [Deepfake Detection: A Comprehensive Survey from the Reliability Perspective](https://arxiv.org/abs/2211.10881) — *ACM Computing Surveys 2022* — A comprehensive survey on deepfake detection, organizing major methods, taxonomies, and design choices.
 
 ### Depth Estimation
 
@@ -812,38 +812,38 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Domain Adaptation
 
-- [Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601) — *Neurocomputing 2018* · 📈2364 — A standard survey on domain adaptation, organizing major methods, taxonomies, and design choices.
+- [Deep Visual Domain Adaptation: A Survey](https://arxiv.org/abs/1802.03601) — *Neurocomputing 2018* · 📈2367 — A standard survey on domain adaptation, organizing major methods, taxonomies, and design choices.
 - [Domain Adaptation for Visual Applications: A Comprehensive Survey](https://arxiv.org/abs/1702.05374) — *Springer (book chapter) 2017* · 📈554 — A standard comprehensive comprehensive survey on domain adaptation, summarizing key methods, datasets, applications, and research directions.
 
 ### Domain Generalization / Adaptation (CLIP)
 
-- [CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey](https://arxiv.org/abs/2504.14280) — *arXiv preprint 2025* · 📈22 — A comprehensive comprehensive survey on domain generalization and adaptation (CLIP), organizing major methods, taxonomies, and design choices. — [`jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation`](https://github.com/jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation) ⭐82🟢
+- [CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey](https://arxiv.org/abs/2504.14280) — *arXiv preprint 2025* · 📈26 — A comprehensive comprehensive survey on domain generalization and adaptation (CLIP), organizing major methods, taxonomies, and design choices. — [`jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation`](https://github.com/jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation) ⭐83🟢
 
 ### Event Camera
 
-- [Deep Learning for Event-based Vision: A Comprehensive Survey and Benchmarks](https://arxiv.org/abs/2302.08890) — *arXiv 2023* · 📈148 — A comprehensive comprehensive survey on event camera, with emphasis on benchmarks, evaluation, and representative methods.
+- [Deep Learning for Event-based Vision: A Comprehensive Survey and Benchmarks](https://arxiv.org/abs/2302.08890) — *arXiv 2023* — A comprehensive comprehensive survey on event camera, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Face Generation/Editing
 
-- [Face Generation and Editing with StyleGAN: A Survey](https://arxiv.org/abs/2212.09102) — *TPAMI 2022* · 📈104 — A survey on face generation/editing, organizing major methods, taxonomies, and design choices.
+- [Face Generation and Editing with StyleGAN: A Survey](https://arxiv.org/abs/2212.09102) — *TPAMI 2022* — A survey on face generation/editing, organizing major methods, taxonomies, and design choices.
 
 ### Face Recognition
 
-- [Deep Face Recognition: A Survey](https://arxiv.org/abs/1804.06655) — *Neurocomputing 2021* · 📈1471 — A standard comprehensive survey on face recognition, organizing major methods, taxonomies, and design choices.
+- [Deep Face Recognition: A Survey](https://arxiv.org/abs/1804.06655) — *Neurocomputing 2021* · 📈1472 — A standard comprehensive survey on face recognition, organizing major methods, taxonomies, and design choices.
 
 ### Facial Expression Recognition
 
-- [Deep Facial Expression Recognition: A Survey](https://arxiv.org/abs/1804.08348) — *IEEE Trans. Affective Computing 2018* · 📈1742 — A survey on facial expression recognition, covering methods, challenges, and future research directions.
-- [Deep Learning for Micro-expression Recognition: A Survey](https://arxiv.org/abs/2107.02823) — *IEEE Trans. Affective Computing 2021* · 📈151 — A survey on facial expression recognition, with emphasis on benchmarks, evaluation, and representative methods.
+- [Deep Learning for Micro-expression Recognition: A Survey](https://arxiv.org/abs/2107.02823) — *IEEE Trans. Affective Computing 2021* — A survey on facial expression recognition, with emphasis on benchmarks, evaluation, and representative methods.
+- [Deep Facial Expression Recognition: A Survey](https://arxiv.org/abs/1804.08348) — *IEEE Trans. Affective Computing 2018* — A survey on facial expression recognition, covering methods, challenges, and future research directions.
 
 ### Few-Shot Learning
 
-- [Generalizing from a Few Examples: A Survey on Few-Shot Learning](https://arxiv.org/abs/1904.05046) — *CSUR 2020* · 📈2187 — A standard survey on few-shot learning, organizing major methods, taxonomies, and design choices.
+- [Generalizing from a Few Examples: A Survey on Few-Shot Learning](https://arxiv.org/abs/1904.05046) — *CSUR 2020* · 📈2192 — A standard survey on few-shot learning, organizing major methods, taxonomies, and design choices.
 - [Few-Shot Object Detection: A Comprehensive Survey](https://arxiv.org/abs/2112.11699) — *TNNLS 2023* · 📈130 — A comprehensive comprehensive survey on few-shot learning, organizing major methods, taxonomies, and design choices.
 
 ### Fine-Grained Recognition
 
-- [Fine-Grained Image Analysis with Deep Learning: A Survey](https://arxiv.org/abs/2111.06119) — *TPAMI 2021* · 📈467 — A survey on fine-grained recognition, organizing major methods, taxonomies, and design choices.
+- [Fine-Grained Image Analysis with Deep Learning: A Survey](https://arxiv.org/abs/2111.06119) — *TPAMI 2021* — A survey on fine-grained recognition, organizing major methods, taxonomies, and design choices.
 
 ### Foundation Models / Segmentation
 
@@ -851,28 +851,28 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Gait Recognition
 
-- [Deep Gait Recognition: A Survey](https://arxiv.org/abs/2102.09546) — *TPAMI 2021* · 📈283 — A comprehensive survey on gait recognition, covering methods, challenges, and future research directions.
+- [Deep Gait Recognition: A Survey](https://arxiv.org/abs/2102.09546) — *TPAMI 2021* — A comprehensive survey on gait recognition, covering methods, challenges, and future research directions.
 
 ### Gaussian Splatting
 
-- [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](https://arxiv.org/abs/2407.17418) — *arXiv 2024* · 📈162 — A comprehensive survey on gaussian splatting, covering methods, challenges, and future research directions. — [`qqqqqqy0227/awesome-3DGS`](https://github.com/qqqqqqy0227/awesome-3DGS) ⭐316🔴
-- [A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977) — *arXiv 2025* · 📈22 — A survey on gaussian splatting, covering core methods, applications, and research trends. — [`heshuting555/Awesome-3DGS-Applications`](https://github.com/heshuting555/Awesome-3DGS-Applications) ⭐408🟢
+- [A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977) — *arXiv 2025* — A survey on gaussian splatting, covering core methods, applications, and research trends. — [`heshuting555/Awesome-3DGS-Applications`](https://github.com/heshuting555/Awesome-3DGS-Applications) ⭐411🟢
+- [3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities](https://arxiv.org/abs/2407.17418) — *arXiv 2024* — A comprehensive survey on gaussian splatting, covering methods, challenges, and future research directions. — [`qqqqqqy0227/awesome-3DGS`](https://github.com/qqqqqqy0227/awesome-3DGS) ⭐317🔴
 
 ### Gaze Estimation
 
-- [Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark](https://arxiv.org/abs/2104.12668) — *TPAMI 2021* · 📈265 — A review on gaze estimation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark](https://arxiv.org/abs/2104.12668) — *TPAMI 2021* — A review on gaze estimation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Hand Pose Estimation
 
-- [Efficient Annotation and Learning for 3D Hand Pose Estimation: A Survey](https://arxiv.org/abs/2206.02257) — *IJCV 2022* · 📈31 — A survey on hand pose estimation, organizing major methods, taxonomies, and design choices.
+- [Efficient Annotation and Learning for 3D Hand Pose Estimation: A Survey](https://arxiv.org/abs/2206.02257) — *IJCV 2022* — A survey on hand pose estimation, organizing major methods, taxonomies, and design choices.
 
 ### Human Pose Estimation
 
-- [Deep learning for 3D human pose estimation and mesh recovery: A survey](https://arxiv.org/abs/2402.18844) — *Neurocomputing 2024* · 📈41 — A survey on human pose estimation, organizing major methods, taxonomies, and design choices.
+- [Deep learning for 3D human pose estimation and mesh recovery: A survey](https://arxiv.org/abs/2402.18844) — *Neurocomputing 2024* — A survey on human pose estimation, organizing major methods, taxonomies, and design choices.
 
 ### Human-Object Interaction
 
-- [A Review of Human-Object Interaction Detection](https://arxiv.org/abs/2408.10641) — *arXiv 2024* · 📈11 — A comprehensive review on human-object interaction, surveying major methods, techniques, and algorithmic choices.
+- [A Review of Human-Object Interaction Detection](https://arxiv.org/abs/2408.10641) — *arXiv 2024* — A comprehensive review on human-object interaction, surveying major methods, techniques, and algorithmic choices.
 
 ### Image Captioning
 
@@ -880,53 +880,53 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Image Classification / Backbone
 
-- [A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects](https://arxiv.org/abs/2004.02806) — *TNNLS 2022* · 📈4416 — A backbone survey of CNN history, representative architectures, applications, and prospects.
+- [A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects](https://arxiv.org/abs/2004.02806) — *TNNLS 2022* · 📈4439 — A backbone survey of CNN history, representative architectures, applications, and prospects.
 
 ### Image Colorization
 
-- [Image Colorization: A Survey and Dataset](https://arxiv.org/abs/2008.10774) — *Information Fusion 2020* · 📈110 — A survey on image colorization, organizing major methods, taxonomies, and design choices.
+- [Image Colorization: A Survey and Dataset](https://arxiv.org/abs/2008.10774) — *Information Fusion 2020* — A survey on image colorization, organizing major methods, taxonomies, and design choices.
 
 ### Image Deblurring
 
-- [Deep Image Deblurring: A Survey](https://arxiv.org/abs/2201.10700) — *IJCV 2022* · 📈402 — A survey on image deblurring, covering core methods, applications, and research trends.
+- [Deep Image Deblurring: A Survey](https://arxiv.org/abs/2201.10700) — *IJCV 2022* — A survey on image deblurring, covering core methods, applications, and research trends.
 
 ### Image Dehazing
 
-- [A Comprehensive Survey and Taxonomy on Single Image Dehazing Based on Deep Learning](https://arxiv.org/abs/2106.03323) — *ACM Computing Surveys 2021* · 📈112 — A comprehensive comprehensive survey on image dehazing, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey and Taxonomy on Single Image Dehazing Based on Deep Learning](https://arxiv.org/abs/2106.03323) — *ACM Computing Surveys 2021* — A comprehensive comprehensive survey on image dehazing, organizing major methods, taxonomies, and design choices.
 
 ### Image Deraining
 
-- [Towards Unified Deep Image Deraining: A Survey and A New Benchmark](https://arxiv.org/abs/2310.03535) — *arXiv 2023* · 📈70 — A survey on image deraining, with emphasis on benchmarks, evaluation, and representative methods.
+- [Towards Unified Deep Image Deraining: A Survey and A New Benchmark](https://arxiv.org/abs/2310.03535) — *arXiv 2023* — A survey on image deraining, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Image Fusion
 
-- [Multimodal Alignment and Fusion: A Survey](https://arxiv.org/abs/2411.17040) — *arXiv 2024* · 📈190 — A survey on image fusion, organizing major methods, taxonomies, and design choices.
+- [Multimodal Alignment and Fusion: A Survey](https://arxiv.org/abs/2411.17040) — *arXiv 2024* — A survey on image fusion, organizing major methods, taxonomies, and design choices.
 
 ### Image Generation (Diffusion)
 
-- [Diffusion Models in Vision: A Survey](https://arxiv.org/abs/2209.04747) — *TPAMI 2023* · 📈2293 — A survey on image generation (diffusion), covering core methods, applications, and research trends. — [`CroitoruAlin/Diffusion-Models-in-Vision-A-Survey`](https://github.com/CroitoruAlin/Diffusion-Models-in-Vision-A-Survey) ⭐405🔴
-- [Text-to-image Diffusion Models in Generative AI: A Survey](https://arxiv.org/abs/2303.07909) — *arXiv 2023* · 📈450 — A survey on image generation (diffusion), covering core methods, applications, and research trends.
+- [Diffusion Models in Vision: A Survey](https://arxiv.org/abs/2209.04747) — *TPAMI 2023* · 📈2301 — A survey on image generation (diffusion), covering core methods, applications, and research trends. — [`CroitoruAlin/Diffusion-Models-in-Vision-A-Survey`](https://github.com/CroitoruAlin/Diffusion-Models-in-Vision-A-Survey) ⭐405🔴
+- [Text-to-image Diffusion Models in Generative AI: A Survey](https://arxiv.org/abs/2303.07909) — *arXiv 2023* · 📈452 — A survey on image generation (diffusion), covering core methods, applications, and research trends.
 
 ### Image Generation (GAN)
 
-- [Generative Adversarial Networks: An Overview](https://arxiv.org/abs/1710.07035) — *IEEE Signal Processing Magazine 2018* · 📈3848 — A standard overview of GAN training, architectures, and applications including image synthesis.
-- [GAN Inversion: A Survey](https://arxiv.org/abs/2101.05278) — *TPAMI 2022* · 📈643 — A survey on image generation (GAN), surveying major methods, techniques, and algorithmic choices. — [`weihaox/GAN-Inversion`](https://github.com/weihaox/GAN-Inversion) ⭐1127🟢
+- [Generative Adversarial Networks: An Overview](https://arxiv.org/abs/1710.07035) — *IEEE Signal Processing Magazine 2018* · 📈3858 — A standard overview of GAN training, architectures, and applications including image synthesis.
+- [GAN Inversion: A Survey](https://arxiv.org/abs/2101.05278) — *TPAMI 2022* · 📈646 — A survey on image generation (GAN), surveying major methods, techniques, and algorithmic choices. — [`weihaox/GAN-Inversion`](https://github.com/weihaox/GAN-Inversion) ⭐1127🟢
 
 ### Image Inpainting
 
-- [Deep Learning-based Image and Video Inpainting: A Survey](https://arxiv.org/abs/2401.03395) — *IJCV 2024* · 📈102 — A comprehensive survey on image inpainting, organizing major methods, taxonomies, and design choices.
+- [Deep Learning-based Image and Video Inpainting: A Survey](https://arxiv.org/abs/2401.03395) — *IJCV 2024* — A comprehensive survey on image inpainting, organizing major methods, taxonomies, and design choices.
 
 ### Image Matching / Local Features
 
-- [Local Feature Matching Using Deep Learning: A Survey](https://arxiv.org/abs/2401.17592) — *Information Fusion 2024* · 📈112 — A survey on image matching and local features, organizing major methods, taxonomies, and design choices. — [`vignywang/Awesome-Local-Feature-Matching`](https://github.com/vignywang/Awesome-Local-Feature-Matching) ⭐160🔴
+- [Local Feature Matching Using Deep Learning: A Survey](https://arxiv.org/abs/2401.17592) — *Information Fusion 2024* — A survey on image matching and local features, organizing major methods, taxonomies, and design choices. — [`vignywang/Awesome-Local-Feature-Matching`](https://github.com/vignywang/Awesome-Local-Feature-Matching) ⭐161🟢
 
 ### Image Matting
 
-- [Deep Image Matting: A Comprehensive Survey](https://arxiv.org/abs/2304.04672) — *arXiv 2023* · 📈23 — A comprehensive survey on image matting, organizing major methods, taxonomies, and design choices. — [`JizhiziLi/matting-survey`](https://github.com/JizhiziLi/matting-survey) ⭐201🔴
+- [Deep Image Matting: A Comprehensive Survey](https://arxiv.org/abs/2304.04672) — *arXiv 2023* — A comprehensive survey on image matting, organizing major methods, taxonomies, and design choices. — [`JizhiziLi/matting-survey`](https://github.com/JizhiziLi/matting-survey) ⭐201🔴
 
 ### Image Quality Assessment
 
-- [A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook](https://arxiv.org/abs/2502.08540) — *arXiv 2025* · 📈20 — A recent survey on image quality assessment, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook](https://arxiv.org/abs/2502.08540) — *arXiv 2025* — A recent survey on image quality assessment, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Image Restoration
 
@@ -934,28 +934,28 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Long-Tailed Recognition
 
-- [A Survey on Long-Tailed Visual Recognition](https://arxiv.org/abs/2205.13775) — *IJCV 2022* · 📈205 — A survey on long-tailed recognition, organizing major methods, taxonomies, and design choices.
+- [A Survey on Long-Tailed Visual Recognition](https://arxiv.org/abs/2205.13775) — *IJCV 2022* — A survey on long-tailed recognition, organizing major methods, taxonomies, and design choices.
 
 ### Low-Light Image Enhancement
 
-- [Low-Light Image and Video Enhancement Using Deep Learning: A Survey](https://arxiv.org/abs/2104.10729) — *TPAMI 2021* · 📈592 — A comprehensive survey on low-light image enhancement, organizing major methods, taxonomies, and design choices. — [`ShenZheng2000/LLIE_Survey`](https://github.com/ShenZheng2000/LLIE_Survey) ⭐155🔴
+- [Low-Light Image and Video Enhancement Using Deep Learning: A Survey](https://arxiv.org/abs/2104.10729) — *TPAMI 2021* — A comprehensive survey on low-light image enhancement, organizing major methods, taxonomies, and design choices. — [`ShenZheng2000/LLIE_Survey`](https://github.com/ShenZheng2000/LLIE_Survey) ⭐155🔴
 
 ### Medical Image Analysis
 
-- [A Survey on Deep Learning in Medical Image Analysis](https://arxiv.org/abs/1702.05747) — *Medical Image Analysis 2017* · 📈14254 — A classic survey of deep learning for medical image analysis, organizing more than 300 papers.
-- [Transformers in Medical Imaging: A Survey](https://arxiv.org/abs/2201.09873) — *Medical Image Analysis 2023* · 📈1266 — A survey on medical image analysis, covering core methods, applications, and research trends.
+- [A Survey on Deep Learning in Medical Image Analysis](https://arxiv.org/abs/1702.05747) — *Medical Image Analysis 2017* · 📈14305 — A classic survey of deep learning for medical image analysis, organizing more than 300 papers.
+- [Transformers in Medical Imaging: A Survey](https://arxiv.org/abs/2201.09873) — *Medical Image Analysis 2023* · 📈1273 — A survey on medical image analysis, covering core methods, applications, and research trends.
 
 ### Multi-Object Tracking
 
-- [Deep Learning-Based Multi-Object Tracking: A Comprehensive Survey from Foundations to State-of-the-Art](https://arxiv.org/abs/2506.13457) — *arXiv 2025* · 📈10 — A comprehensive recent comprehensive survey on multi-object tracking, covering theoretical foundations, methods, and implications.
+- [Deep Learning-Based Multi-Object Tracking: A Comprehensive Survey from Foundations to State-of-the-Art](https://arxiv.org/abs/2506.13457) — *arXiv 2025* — A comprehensive recent comprehensive survey on multi-object tracking, covering theoretical foundations, methods, and implications.
 
 ### Multi-View Stereo
 
-- [Learning-based Multi-View Stereo: A Survey](https://arxiv.org/abs/2408.15235) — *arXiv 2024* · 📈40 — A survey on multi-view stereo, organizing major methods, taxonomies, and design choices.
+- [Learning-based Multi-View Stereo: A Survey](https://arxiv.org/abs/2408.15235) — *arXiv 2024* — A survey on multi-view stereo, organizing major methods, taxonomies, and design choices.
 
 ### Neural Rendering
 
-- [Advances in Neural Rendering](https://arxiv.org/abs/2111.05849) — *Computer Graphics Forum 2021* · 📈558 — A comprehensive key reference on neural rendering, summarizing key methods, datasets, applications, and research directions.
+- [Advances in Neural Rendering](https://arxiv.org/abs/2111.05849) — *Computer Graphics Forum 2021* — A comprehensive key reference on neural rendering, summarizing key methods, datasets, applications, and research directions.
 
 ### Neural Rendering / NeRF
 
@@ -964,31 +964,31 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Neural Style Transfer
 
-- [Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058) — *TVCG 2017* · 📈881 — A standard review on neural style transfer, with emphasis on benchmarks, evaluation, and representative methods.
+- [Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058) — *TVCG 2017* — A standard review on neural style transfer, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### OCR / Document Analysis
 
-- [A Survey of Deep Learning Approaches for OCR and Document Understanding](https://arxiv.org/abs/2011.13534) — *arXiv 2020* · 📈89 — A survey on OCR and document analysis, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Learning Approaches for OCR and Document Understanding](https://arxiv.org/abs/2011.13534) — *arXiv 2020* · 📈90 — A survey on OCR and document analysis, organizing major methods, taxonomies, and design choices.
 
 ### OCR / Scene Text
 
-- [Scene Text Detection and Recognition: The Deep Learning Era](https://arxiv.org/abs/1811.04256) — *IJCV 2021* · 📈509 — A standard key reference on OCR and scene text, organizing major methods, taxonomies, and design choices.
+- [Scene Text Detection and Recognition: The Deep Learning Era](https://arxiv.org/abs/1811.04256) — *IJCV 2021* · 📈510 — A standard key reference on OCR and scene text, organizing major methods, taxonomies, and design choices.
 
 ### Object Detection
 
-- [Object Detection in 20 Years: A Survey](https://arxiv.org/abs/1905.05055) — *Proceedings of the IEEE 2023* · 📈3579 — A standard survey on object detection, surveying major methods, techniques, and algorithmic choices.
-- [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/abs/1809.02165) — *IJCV 2020* · 📈2862 — A comprehensive survey on object detection, organizing major methods, taxonomies, and design choices.
-- [A Survey of Deep Learning-based Object Detection](https://arxiv.org/abs/1907.09408) — *IEEE Access 2019* · 📈1160 — A comprehensive survey on object detection, organizing major methods, taxonomies, and design choices.
-- [A Survey of Modern Deep Learning based Object Detection Models](https://arxiv.org/abs/2104.11892) — *Digital Signal Processing 2022* · 📈933 — A survey on object detection, organizing major methods, taxonomies, and design choices.
+- [Object Detection in 20 Years: A Survey](https://arxiv.org/abs/1905.05055) — *Proceedings of the IEEE 2023* · 📈3597 — A standard survey on object detection, surveying major methods, techniques, and algorithmic choices.
+- [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/abs/1809.02165) — *IJCV 2020* · 📈2867 — A comprehensive survey on object detection, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Learning-based Object Detection](https://arxiv.org/abs/1907.09408) — *IEEE Access 2019* · 📈1161 — A comprehensive survey on object detection, organizing major methods, taxonomies, and design choices.
+- [A Survey of Modern Deep Learning based Object Detection Models](https://arxiv.org/abs/2104.11892) — *Digital Signal Processing 2022* · 📈934 — A survey on object detection, organizing major methods, taxonomies, and design choices.
 
 ### Object Tracking
 
-- [Deep Learning for Visual Tracking: A Comprehensive Survey](https://arxiv.org/abs/1912.00535) — *IEEE T-ITS 2022* · 📈368 — A comprehensive comprehensive survey on object tracking, with emphasis on benchmarks, evaluation, and representative methods.
+- [Deep Learning for Visual Tracking: A Comprehensive Survey](https://arxiv.org/abs/1912.00535) — *IEEE T-ITS 2022* · 📈369 — A comprehensive comprehensive survey on object tracking, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Open-Vocabulary Detection/Segmentation
 
-- [Towards Open Vocabulary Learning: A Survey](https://arxiv.org/abs/2306.15880) — *TPAMI 2023* · 📈276 — A comprehensive survey on open-vocabulary detection/segmentation, summarizing key methods, datasets, applications, and research directions. — [`jianzongwu/Awesome-Open-Vocabulary`](https://github.com/jianzongwu/Awesome-Open-Vocabulary) ⭐1002🟢
-- [A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future](https://arxiv.org/abs/2307.09220) — *TPAMI 2023* · 📈112 — A survey on open-vocabulary detection/segmentation, organizing major methods, taxonomies, and design choices.
+- [A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future](https://arxiv.org/abs/2307.09220) — *TPAMI 2023* — A survey on open-vocabulary detection/segmentation, organizing major methods, taxonomies, and design choices.
+- [Towards Open Vocabulary Learning: A Survey](https://arxiv.org/abs/2306.15880) — *TPAMI 2023* — A comprehensive survey on open-vocabulary detection/segmentation, summarizing key methods, datasets, applications, and research directions. — [`jianzongwu/Awesome-Open-Vocabulary`](https://github.com/jianzongwu/Awesome-Open-Vocabulary) ⭐1003🟢
 
 ### Optical Flow
 
@@ -996,154 +996,154 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Panoptic Segmentation
 
-- [Panoptic Segmentation: A Review](https://arxiv.org/abs/2111.10250) — *arXiv 2021* · 📈51 — A comprehensive review on panoptic segmentation, summarizing key methods, datasets, applications, and research directions.
+- [Panoptic Segmentation: A Review](https://arxiv.org/abs/2111.10250) — *arXiv 2021* — A comprehensive review on panoptic segmentation, summarizing key methods, datasets, applications, and research directions.
 
 ### Person Re-identification
 
-- [Deep Learning for Person Re-identification: A Survey and Outlook](https://arxiv.org/abs/2001.04193) — *TPAMI 2022* · 📈2244 — A standard survey on person re-identification, organizing major methods, taxonomies, and design choices.
-- [Deep Learning for Video-based Person Re-Identification: A Survey](https://arxiv.org/abs/2303.11332) — *arXiv 2023* · 📈12 — A survey on person re-identification, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Person Re-identification: A Survey and Outlook](https://arxiv.org/abs/2001.04193) — *TPAMI 2022* · 📈2248 — A standard survey on person re-identification, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Video-based Person Re-Identification: A Survey](https://arxiv.org/abs/2303.11332) — *arXiv 2023* — A survey on person re-identification, organizing major methods, taxonomies, and design choices.
 
 ### Point Cloud
 
-- [A Survey of Label-Efficient Deep Learning for 3D Point Clouds](https://arxiv.org/abs/2305.19812) — *TPAMI 2023* · 📈55 — A survey on point cloud, organizing major methods, taxonomies, and design choices.
+- [A Survey of Label-Efficient Deep Learning for 3D Point Clouds](https://arxiv.org/abs/2305.19812) — *TPAMI 2023* — A survey on point cloud, organizing major methods, taxonomies, and design choices.
 
 ### Point Cloud Completion
 
-- [Comprehensive Review of Deep Learning-Based 3D Point Cloud Completion Processing and Analysis](https://arxiv.org/abs/2203.03311) — *IEEE T-ITS 2022* · 📈202 — A comprehensive review on point cloud completion, surveying major methods, techniques, and algorithmic choices.
+- [Comprehensive Review of Deep Learning-Based 3D Point Cloud Completion Processing and Analysis](https://arxiv.org/abs/2203.03311) — *IEEE T-ITS 2022* — A comprehensive review on point cloud completion, surveying major methods, techniques, and algorithmic choices.
 
 ### Point Cloud Registration
 
-- [Deep Learning-Based Point Cloud Registration: A Comprehensive Survey and Taxonomy](https://arxiv.org/abs/2404.13830) — *IJCV 2024* · 📈17 — A comprehensive comprehensive survey on point cloud registration, organizing major methods, taxonomies, and design choices.
+- [Deep Learning-Based Point Cloud Registration: A Comprehensive Survey and Taxonomy](https://arxiv.org/abs/2404.13830) — *IJCV 2024* — A comprehensive comprehensive survey on point cloud registration, organizing major methods, taxonomies, and design choices.
 
 ### Pose Estimation
 
-- [Deep Learning-Based Human Pose Estimation: A Survey](https://arxiv.org/abs/2012.13392) — *CSUR 2023* · 📈1016 — A survey on pose estimation, organizing major methods, taxonomies, and design choices.
+- [Deep Learning-Based Human Pose Estimation: A Survey](https://arxiv.org/abs/2012.13392) — *CSUR 2023* · 📈1021 — A survey on pose estimation, organizing major methods, taxonomies, and design choices.
 - [2D Human Pose Estimation: A Survey](https://arxiv.org/abs/2204.07370) — *arXiv 2022* · 📈107 — A survey on pose estimation, organizing major methods, taxonomies, and design choices.
 
 ### Referring Segmentation
 
-- [Multimodal Referring Segmentation: A Survey](https://arxiv.org/abs/2508.00265) — *arXiv 2025* · 📈32 — A survey on referring segmentation, summarizing key methods, datasets, applications, and research directions.
+- [Multimodal Referring Segmentation: A Survey](https://arxiv.org/abs/2508.00265) — *arXiv 2025* — A survey on referring segmentation, summarizing key methods, datasets, applications, and research directions.
 
 ### Remote Sensing
 
-- [Deep Learning in Remote Sensing: A Review](https://arxiv.org/abs/1710.03959) — *IEEE GRSM 2017* · 📈1938 — A standard review on remote sensing, covering core methods, applications, and research trends.
+- [Deep Learning in Remote Sensing: A Review](https://arxiv.org/abs/1710.03959) — *IEEE GRSM 2017* · 📈1947 — A standard review on remote sensing, covering core methods, applications, and research trends.
 
 ### Salient Object Detection
 
-- [Salient Object Detection in the Deep Learning Era: An In-Depth Survey](https://arxiv.org/abs/1904.09146) — *TPAMI 2022* · 📈758 — A comprehensive survey on salient object detection, with emphasis on benchmarks, evaluation, and representative methods.
-- [RGB-D Salient Object Detection: A Survey](https://arxiv.org/abs/2008.00230) — *Computational Visual Media 2020* · 📈310 — A comprehensive survey on salient object detection, summarizing key methods, datasets, applications, and research directions. — [`taozh2017/RGBD-SODsurvey`](https://github.com/taozh2017/RGBD-SODsurvey) ⭐375🔴
+- [Salient Object Detection in the Deep Learning Era: An In-Depth Survey](https://arxiv.org/abs/1904.09146) — *TPAMI 2022* · 📈760 — A comprehensive survey on salient object detection, with emphasis on benchmarks, evaluation, and representative methods.
+- [RGB-D Salient Object Detection: A Survey](https://arxiv.org/abs/2008.00230) — *Computational Visual Media 2020* — A comprehensive survey on salient object detection, summarizing key methods, datasets, applications, and research directions. — [`taozh2017/RGBD-SODsurvey`](https://github.com/taozh2017/RGBD-SODsurvey) ⭐376🔴
 
 ### Scene Graph Generation
 
-- [Scene Graph Generation: A Comprehensive Survey](https://arxiv.org/abs/2201.00443) — *Neurocomputing 2022* · 📈175 — A comprehensive comprehensive survey on scene graph generation, organizing major methods, taxonomies, and design choices.
+- [Scene Graph Generation: A Comprehensive Survey](https://arxiv.org/abs/2201.00443) — *Neurocomputing 2022* — A comprehensive comprehensive survey on scene graph generation, organizing major methods, taxonomies, and design choices.
 
 ### Self-Supervised Learning
 
-- [Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey](https://arxiv.org/abs/1902.06162) — *IEEE TPAMI 2021* · 📈2059 — A highly cited comprehensive survey on self-supervised learning, organizing major methods, taxonomies, and design choices.
-- [A Survey on Contrastive Self-supervised Learning](https://arxiv.org/abs/2011.00362) — *Technologies 2021* · 📈1799 — A survey on self-supervised learning, summarizing key methods, datasets, applications, and research directions.
-- [A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends](https://arxiv.org/abs/2301.05712) — *TPAMI 2024* · 📈593 — A survey on self-supervised learning, covering core methods, applications, and research trends.
+- [Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey](https://arxiv.org/abs/1902.06162) — *IEEE TPAMI 2021* · 📈2065 — A highly cited comprehensive survey on self-supervised learning, organizing major methods, taxonomies, and design choices.
+- [A Survey on Contrastive Self-supervised Learning](https://arxiv.org/abs/2011.00362) — *Technologies 2021* · 📈1803 — A survey on self-supervised learning, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Self-supervised Learning: Algorithms, Applications, and Future Trends](https://arxiv.org/abs/2301.05712) — *TPAMI 2024* · 📈599 — A survey on self-supervised learning, covering core methods, applications, and research trends.
 - [Masked Image Modeling: A Survey](https://arxiv.org/abs/2408.06687) — *IJCV 2025* · 📈53 — A survey on self-supervised learning, summarizing key methods, datasets, applications, and research directions.
-- [Masked Modeling for Self-supervised Representation Learning on Vision and Beyond](https://arxiv.org/abs/2401.00897) — *arXiv 2024* · 📈37 — A key reference on self-supervised learning, organizing major methods, taxonomies, and design choices. — [`Lupin1998/Awesome-MIM`](https://github.com/Lupin1998/Awesome-MIM) ⭐355🟡
+- [Masked Modeling for Self-supervised Representation Learning on Vision and Beyond](https://arxiv.org/abs/2401.00897) — *arXiv 2024* — A key reference on self-supervised learning, organizing major methods, taxonomies, and design choices. — [`Lupin1998/Awesome-MIM`](https://github.com/Lupin1998/Awesome-MIM) ⭐355🟡
 
 ### Semantic Segmentation
 
-- [Image Segmentation Using Deep Learning: A Survey](https://arxiv.org/abs/2001.05566) — *TPAMI 2022* · 📈3880 — A standard survey of deep semantic and instance segmentation methods.
+- [Image Segmentation Using Deep Learning: A Survey](https://arxiv.org/abs/2001.05566) — *TPAMI 2022* · 📈3889 — A standard survey of deep semantic and instance segmentation methods.
 - [A Review on Deep Learning Techniques Applied to Semantic Segmentation](https://arxiv.org/abs/1704.06857) — *arXiv 2017* · 📈1398 — A standard review on semantic segmentation, with emphasis on benchmarks, evaluation, and representative methods.
-- [Transformer-Based Visual Segmentation: A Survey](https://arxiv.org/abs/2304.09854) — *TPAMI 2024* · 📈329 — A survey on semantic segmentation, summarizing key methods, datasets, applications, and research directions. — [`lxtGH/Awesome-Segmentation-With-Transformer`](https://github.com/lxtGH/Awesome-Segmentation-With-Transformer) ⭐755🔴
+- [Transformer-Based Visual Segmentation: A Survey](https://arxiv.org/abs/2304.09854) — *TPAMI 2024* · 📈332 — A survey on semantic segmentation, summarizing key methods, datasets, applications, and research directions. — [`lxtGH/Awesome-Segmentation-With-Transformer`](https://github.com/lxtGH/Awesome-Segmentation-With-Transformer) ⭐755🔴
 
 ### Stereo Matching
 
-- [A Survey on Deep Stereo Matching in the Twenties](https://arxiv.org/abs/2407.07816) — *IJCV 2024* · 📈77 — A recent survey on stereo matching, organizing major methods, taxonomies, and design choices.
+- [A Survey on Deep Stereo Matching in the Twenties](https://arxiv.org/abs/2407.07816) — *IJCV 2024* — A recent survey on stereo matching, organizing major methods, taxonomies, and design choices.
 
 ### Super-Resolution
 
-- [Deep Learning for Image Super-resolution: A Survey](https://arxiv.org/abs/1902.06068) — *TPAMI 2021* · 📈1844 — A standard survey on super-resolution, organizing major methods, taxonomies, and design choices.
-- [Video Super Resolution Based on Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2007.12928) — *Artificial Intelligence Review 2020* · 📈232 — A comprehensive comprehensive survey on super-resolution, organizing major methods, taxonomies, and design choices.
-- [Diffusion Models, Image Super-Resolution And Everything: A Survey](https://arxiv.org/abs/2401.00736) — *TNNLS 2024* · 📈158 — A survey on super-resolution, summarizing key methods, datasets, applications, and research directions.
+- [Deep Learning for Image Super-resolution: A Survey](https://arxiv.org/abs/1902.06068) — *TPAMI 2021* · 📈1851 — A standard survey on super-resolution, organizing major methods, taxonomies, and design choices.
+- [Diffusion Models, Image Super-Resolution And Everything: A Survey](https://arxiv.org/abs/2401.00736) — *TNNLS 2024* — A survey on super-resolution, summarizing key methods, datasets, applications, and research directions.
+- [Video Super Resolution Based on Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2007.12928) — *Artificial Intelligence Review 2020* — A comprehensive comprehensive survey on super-resolution, organizing major methods, taxonomies, and design choices.
 
 ### Talking Head Generation
 
-- [From Pixels to Portraits: A Comprehensive Survey of Talking Head Generation Techniques and Applications](https://arxiv.org/abs/2308.16041) — *arXiv 2023* · 📈11 — A comprehensive comprehensive survey on talking head generation, organizing major methods, taxonomies, and design choices.
+- [From Pixels to Portraits: A Comprehensive Survey of Talking Head Generation Techniques and Applications](https://arxiv.org/abs/2308.16041) — *arXiv 2023* — A comprehensive comprehensive survey on talking head generation, organizing major methods, taxonomies, and design choices.
 
 ### Temporal Action Detection
 
-- [A Survey on Deep Learning-based Spatio-temporal Action Detection](https://arxiv.org/abs/2308.01618) — *Int. J. Wavelets Multiresolut. Inf. Process. 2023* · 📈13 — A comprehensive survey on temporal action detection, organizing major methods, taxonomies, and design choices.
+- [A Survey on Deep Learning-based Spatio-temporal Action Detection](https://arxiv.org/abs/2308.01618) — *Int. J. Wavelets Multiresolut. Inf. Process. 2023* — A comprehensive survey on temporal action detection, organizing major methods, taxonomies, and design choices.
 
 ### Video Anomaly Detection
 
-- [Video Anomaly Detection in 10 Years: A Survey and Outlook](https://arxiv.org/abs/2405.19387) — *arXiv 2024* · 📈70 — A survey on video anomaly detection, summarizing key methods, datasets, applications, and research directions.
+- [Video Anomaly Detection in 10 Years: A Survey and Outlook](https://arxiv.org/abs/2405.19387) — *arXiv 2024* — A survey on video anomaly detection, summarizing key methods, datasets, applications, and research directions.
 
 ### Video Segmentation
 
-- [A Survey on Deep Learning Technique for Video Segmentation](https://arxiv.org/abs/2107.01153) — *TPAMI 2023* · 📈310 — A survey on video segmentation, organizing major methods, taxonomies, and design choices. — [`tfzhou/VS-Survey`](https://github.com/tfzhou/VS-Survey) ⭐205🔴
-- [Deep Learning Techniques for Video Instance Segmentation: A Survey](https://arxiv.org/abs/2310.12393) — *arXiv 2023* · 📈5 — A survey on video segmentation, organizing major methods, taxonomies, and design choices.
+- [A Survey on Deep Learning Technique for Video Segmentation](https://arxiv.org/abs/2107.01153) — *TPAMI 2023* · 📈311 — A survey on video segmentation, organizing major methods, taxonomies, and design choices. — [`tfzhou/VS-Survey`](https://github.com/tfzhou/VS-Survey) ⭐205🔴
+- [Deep Learning Techniques for Video Instance Segmentation: A Survey](https://arxiv.org/abs/2310.12393) — *arXiv 2023* — A survey on video segmentation, organizing major methods, taxonomies, and design choices.
 
 ### Video Understanding
 
-- [Video Transformers: A Survey](https://arxiv.org/abs/2201.05991) — *TPAMI 2023* · 📈177 — A survey on video understanding, organizing major methods, taxonomies, and design choices.
+- [Video Transformers: A Survey](https://arxiv.org/abs/2201.05991) — *TPAMI 2023* · 📈178 — A survey on video understanding, organizing major methods, taxonomies, and design choices.
 
 ### Vision Transformer
 
-- [A Survey on Vision Transformer](https://arxiv.org/abs/2012.12556) — *TPAMI 2023* · 📈3860 — A highly cited survey that organizes Vision Transformer methods by task and design choice.
-- [Transformers in Vision: A Survey](https://arxiv.org/abs/2101.01169) — *CSUR 2022* · 📈3795 — An ACM CSUR survey covering Transformer applications across vision tasks.
+- [A Survey on Vision Transformer](https://arxiv.org/abs/2012.12556) — *TPAMI 2023* · 📈3876 — A highly cited survey that organizes Vision Transformer methods by task and design choice.
+- [Transformers in Vision: A Survey](https://arxiv.org/abs/2101.01169) — *CSUR 2022* · 📈3808 — An ACM CSUR survey covering Transformer applications across vision tasks.
 - [A Survey of Visual Transformers](https://arxiv.org/abs/2111.06091) — *TNNLS 2023* · 📈561 — A survey on vision Transformer, organizing major methods, taxonomies, and design choices.
 
 ### Vision-Language Models
 
-- [Vision-Language Models for Vision Tasks: A Survey](https://arxiv.org/abs/2304.00685) — *TPAMI 2024* · 📈1580 — A comprehensive survey on vision-language models, organizing major methods, taxonomies, and design choices. — [`jingyi0000/VLM_survey`](https://github.com/jingyi0000/VLM_survey) ⭐3126🟡
+- [Vision-Language Models for Vision Tasks: A Survey](https://arxiv.org/abs/2304.00685) — *TPAMI 2024* · 📈1601 — A comprehensive survey on vision-language models, organizing major methods, taxonomies, and design choices. — [`jingyi0000/VLM_survey`](https://github.com/jingyi0000/VLM_survey) ⭐3126🟡
 
 ### Visual SLAM
 
-- [Deep Learning for Visual Localization and Mapping: A Survey](https://arxiv.org/abs/2308.14039) — *arXiv 2023* · 📈94 — A survey on visual SLAM, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Visual Localization and Mapping: A Survey](https://arxiv.org/abs/2308.14039) — *arXiv 2023* — A survey on visual SLAM, organizing major methods, taxonomies, and design choices.
 
 ### World Models
 
-- [3D and 4D World Modeling: A Survey](https://arxiv.org/abs/2509.07996) — *arXiv 2025* · 📈66 — A survey on world models, organizing major methods, taxonomies, and design choices. — [`worldbench/awesome-3d-4d-world-models`](https://github.com/worldbench/awesome-3d-4d-world-models) ⭐975🟢 · [project](https://worldbench.github.io/survey)
+- [3D and 4D World Modeling: A Survey](https://arxiv.org/abs/2509.07996) — *arXiv 2025* — A survey on world models, organizing major methods, taxonomies, and design choices. — [`worldbench/awesome-3d-4d-world-models`](https://github.com/worldbench/awesome-3d-4d-world-models) ⭐980🟢 · [project](https://worldbench.github.io/survey)
 
 ### Zero-Shot Learning
 
-- [Zero-Shot Learning -- A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://arxiv.org/abs/1707.00600) — *TPAMI 2019* · 📈1884 — A standard key reference on zero-shot learning, with emphasis on benchmarks, evaluation, and representative methods.
+- [Zero-Shot Learning -- A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://arxiv.org/abs/1707.00600) — *TPAMI 2019* · 📈1886 — A standard key reference on zero-shot learning, with emphasis on benchmarks, evaluation, and representative methods.
 
 ## 📈 Machine Learning (General)
 
 ### Anomaly Detection
 
-- [A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges](https://arxiv.org/abs/2110.14051) — *TMLR 2022* · 📈256 — A survey on anomaly detection, organizing major methods, taxonomies, and design choices.
+- [A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges](https://arxiv.org/abs/2110.14051) — *TMLR 2022* — A survey on anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### AutoML
 
-- [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/abs/1908.00709) — *Knowledge-Based Systems 2021* · 📈1863 — A survey on automl, summarizing key methods, datasets, applications, and research directions.
+- [AutoML: A Survey of the State-of-the-Art](https://arxiv.org/abs/1908.00709) — *Knowledge-Based Systems 2021* · 📈1869 — A survey on automl, summarizing key methods, datasets, applications, and research directions.
 
 ### Bayesian Deep Learning
 
-- [Hands-on Bayesian Neural Networks -- a Tutorial for Deep Learning Users](https://arxiv.org/abs/2007.06823) — *IEEE Computational Intelligence Magazine 2022* · 📈933 — A tutorial survey on bayesian deep learning, summarizing key methods, datasets, applications, and research directions.
+- [Hands-on Bayesian Neural Networks -- a Tutorial for Deep Learning Users](https://arxiv.org/abs/2007.06823) — *IEEE Computational Intelligence Magazine 2022* · 📈938 — A tutorial survey on bayesian deep learning, summarizing key methods, datasets, applications, and research directions.
 
 ### Calibration
 
-- [Calibration in Deep Learning: A Survey of the State-of-the-Art](https://arxiv.org/abs/2308.01222) — *arXiv 2023* · 📈112 — A survey on calibration, organizing major methods, taxonomies, and design choices.
+- [Calibration in Deep Learning: A Survey of the State-of-the-Art](https://arxiv.org/abs/2308.01222) — *arXiv 2023* — A survey on calibration, organizing major methods, taxonomies, and design choices.
 
 ### Causal Machine Learning
 
-- [Towards Causal Representation Learning](https://arxiv.org/abs/2102.11107) — *Proceedings of the IEEE 2021* · 📈365 — A key reference on causal machine learning, summarizing key methods, datasets, applications, and research directions.
+- [Towards Causal Representation Learning](https://arxiv.org/abs/2102.11107) — *Proceedings of the IEEE 2021* · 📈366 — A key reference on causal machine learning, summarizing key methods, datasets, applications, and research directions.
 
 ### Clustering
 
-- [Deep Clustering: A Comprehensive Survey](https://arxiv.org/abs/2210.04142) — *IEEE TNNLS 2022* · 📈281 — A comprehensive survey on clustering, organizing major methods, taxonomies, and design choices.
+- [Deep Clustering: A Comprehensive Survey](https://arxiv.org/abs/2210.04142) — *IEEE TNNLS 2022* — A comprehensive survey on clustering, organizing major methods, taxonomies, and design choices.
 
 ### Conformal Prediction
 
-- [A tutorial on conformal prediction](https://arxiv.org/abs/0706.3188) — *JMLR 2008* · 📈1766 — A standard tutorial survey on conformal prediction, summarizing key methods, datasets, applications, and research directions.
-- [A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511) — *arXiv 2021* · 📈1262 — A key reference on conformal prediction, summarizing key methods, datasets, applications, and research directions.
-- [Conformal Prediction for Natural Language Processing: A Survey](https://arxiv.org/abs/2405.01976) — *TACL 2024* · 📈71 — A survey on conformal prediction, organizing major methods, taxonomies, and design choices.
+- [Conformal Prediction for Natural Language Processing: A Survey](https://arxiv.org/abs/2405.01976) — *TACL 2024* — A survey on conformal prediction, organizing major methods, taxonomies, and design choices.
+- [A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511) — *arXiv 2021* — A key reference on conformal prediction, summarizing key methods, datasets, applications, and research directions.
+- [A tutorial on conformal prediction](https://arxiv.org/abs/0706.3188) — *JMLR 2008* — A standard tutorial survey on conformal prediction, summarizing key methods, datasets, applications, and research directions.
 
 ### Continual Learning
 
-- [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) — *Neural Networks 2019* · 📈3713 — A standard review on continual learning, organizing major methods, taxonomies, and design choices.
-- [A Comprehensive Survey of Continual Learning: Theory, Method and Application](https://arxiv.org/abs/2302.00487) — *TPAMI 2023* · 📈1563 — A comprehensive recent comprehensive survey on continual learning, covering core methods, applications, and research trends.
+- [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) — *Neural Networks 2019* · 📈3720 — A standard review on continual learning, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey of Continual Learning: Theory, Method and Application](https://arxiv.org/abs/2302.00487) — *TPAMI 2023* · 📈1573 — A comprehensive recent comprehensive survey on continual learning, covering core methods, applications, and research trends.
 
 ### Continual Learning / Forgetting
 
-- [A Comprehensive Survey of Forgetting in Deep Learning Beyond Continual Learning](https://arxiv.org/abs/2307.09218) — *IEEE TPAMI 2024* · 📈130 — A comprehensive survey on continual learning and forgetting, summarizing key methods, datasets, applications, and research directions. — [`EnnengYang/Awesome-Forgetting-in-Deep-Learning`](https://github.com/EnnengYang/Awesome-Forgetting-in-Deep-Learning) ⭐366🟡
+- [A Comprehensive Survey of Forgetting in Deep Learning Beyond Continual Learning](https://arxiv.org/abs/2307.09218) — *IEEE TPAMI 2024* — A comprehensive survey on continual learning and forgetting, summarizing key methods, datasets, applications, and research directions. — [`EnnengYang/Awesome-Forgetting-in-Deep-Learning`](https://github.com/EnnengYang/Awesome-Forgetting-in-Deep-Learning) ⭐366🟡
 
 ### Curriculum Learning
 
@@ -1151,8 +1151,8 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Data Augmentation
 
-- [Time Series Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2002.12478) — *IJCAI 2021* · 📈864 — A survey on data augmentation, organizing major methods, taxonomies, and design choices.
-- [Image Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2204.08610) — *arXiv 2022* · 📈417 — A comprehensive survey on data augmentation, organizing major methods, taxonomies, and design choices.
+- [Time Series Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2002.12478) — *IJCAI 2021* · 📈866 — A survey on data augmentation, organizing major methods, taxonomies, and design choices.
+- [Image Data Augmentation for Deep Learning: A Survey](https://arxiv.org/abs/2204.08610) — *arXiv 2022* · 📈420 — A comprehensive survey on data augmentation, organizing major methods, taxonomies, and design choices.
 
 ### Dataset Distillation
 
@@ -1160,11 +1160,11 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Dictionary Learning
 
-- [Supervised Dictionary Learning and Sparse Representation-A Review](https://arxiv.org/abs/1502.05928) — *arXiv 2015* · 📈60 — A review on dictionary learning, organizing major methods, taxonomies, and design choices.
+- [Supervised Dictionary Learning and Sparse Representation-A Review](https://arxiv.org/abs/1502.05928) — *arXiv 2015* — A review on dictionary learning, organizing major methods, taxonomies, and design choices.
 
 ### Diffusion (Time Series)
 
-- [A Survey on Diffusion Models for Time Series and Spatio-Temporal Data](https://arxiv.org/abs/2404.18886) — *arXiv 2024* · 📈132 — A survey on diffusion (time series), covering core methods, applications, and research trends. — [`yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model`](https://github.com/yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model) ⭐1005🟡
+- [A Survey on Diffusion Models for Time Series and Spatio-Temporal Data](https://arxiv.org/abs/2404.18886) — *arXiv 2024* — A survey on diffusion (time series), covering core methods, applications, and research trends. — [`yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model`](https://github.com/yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model) ⭐1006🟡
 
 ### Distributed Deep Learning Systems
 
@@ -1176,61 +1176,61 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Domain Adaptation
 
-- [A Survey of Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1812.02849) — *ACM TIST 2020* · 📈1058 — A highly cited standard survey on domain adaptation, organizing major methods, taxonomies, and design choices.
-- [A Brief Review of Domain Adaptation](https://arxiv.org/abs/2010.03978) — *arXiv 2020* · 📈824 — A review on domain adaptation, organizing major methods, taxonomies, and design choices.
+- [A Survey of Unsupervised Deep Domain Adaptation](https://arxiv.org/abs/1812.02849) — *ACM TIST 2020* · 📈1060 — A highly cited standard survey on domain adaptation, organizing major methods, taxonomies, and design choices.
+- [A Brief Review of Domain Adaptation](https://arxiv.org/abs/2010.03978) — *arXiv 2020* · 📈826 — A review on domain adaptation, organizing major methods, taxonomies, and design choices.
 
 ### Domain Generalization
 
-- [Domain Generalization: A Survey](https://arxiv.org/abs/2103.02503) — *TPAMI 2022* · 📈1667 — A survey on domain generalization, with emphasis on benchmarks, evaluation, and representative methods.
+- [Domain Generalization: A Survey](https://arxiv.org/abs/2103.02503) — *TPAMI 2022* · 📈1675 — A survey on domain generalization, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Dynamic Networks
 
-- [Dynamic Neural Networks: A Survey](https://arxiv.org/abs/2102.04906) — *TPAMI 2022* · 📈966 — A survey on dynamic networks, organizing major methods, taxonomies, and design choices.
+- [Dynamic Neural Networks: A Survey](https://arxiv.org/abs/2102.04906) — *TPAMI 2022* — A survey on dynamic networks, organizing major methods, taxonomies, and design choices.
 
 ### Edge AI / Model Optimization
 
-- [Cognitive Edge Computing: A Comprehensive Survey on Optimizing Large Models and AI Agents for Pervasive Deployment](https://arxiv.org/abs/2501.03265) — *arXiv preprint 2025* · 📈37 — A comprehensive comprehensive survey on edge AI and model optimization, organizing major methods, taxonomies, and design choices.
+- [Cognitive Edge Computing: A Comprehensive Survey on Optimizing Large Models and AI Agents for Pervasive Deployment](https://arxiv.org/abs/2501.03265) — *arXiv preprint 2025* — A comprehensive comprehensive survey on edge AI and model optimization, organizing major methods, taxonomies, and design choices.
 
 ### Efficient Inference / Hardware
 
-- [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039) — *Proceedings of the IEEE 2017* · 📈3807 — Sze's highly cited tutorial survey on efficient DNN processing, including hardware-aware methods.
+- [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039) — *Proceedings of the IEEE 2017* · 📈3819 — Sze's highly cited tutorial survey on efficient DNN processing, including hardware-aware methods.
 
 ### Energy-Based Models
 
-- [Hitchhiker's guide on the relation of Energy-Based Models with other generative models, sampling and statistical physics: a comprehensive review](https://arxiv.org/abs/2406.13661) — *TMLR 2025* · 📈6 — A comprehensive review on energy-based models, organizing major methods, taxonomies, and design choices.
+- [Hitchhiker's guide on the relation of Energy-Based Models with other generative models, sampling and statistical physics: a comprehensive review](https://arxiv.org/abs/2406.13661) — *TMLR 2025* — A comprehensive review on energy-based models, organizing major methods, taxonomies, and design choices.
 
 ### Ensemble Learning
 
-- [Ensemble deep learning: A review](https://arxiv.org/abs/2104.02395) — *Engineering Applications of AI 2022* · 📈2067 — A review on ensemble learning, summarizing key methods, datasets, applications, and research directions.
+- [Ensemble deep learning: A review](https://arxiv.org/abs/2104.02395) — *Engineering Applications of AI 2022* · 📈2073 — A review on ensemble learning, summarizing key methods, datasets, applications, and research directions.
 
 ### Explainable AI
 
-- [Interpretable Deep Learning: Interpretation, Interpretability, Trustworthiness, and Beyond](https://arxiv.org/abs/2103.10689) — *Knowledge and Information Systems 2021* · 📈519 — A key reference on explainable AI, organizing major methods, taxonomies, and design choices.
+- [Interpretable Deep Learning: Interpretation, Interpretability, Trustworthiness, and Beyond](https://arxiv.org/abs/2103.10689) — *Knowledge and Information Systems 2021* · 📈522 — A key reference on explainable AI, organizing major methods, taxonomies, and design choices.
 - [Explainable Artificial Intelligence: a Systematic Review](https://arxiv.org/abs/2006.00093) — *arXiv 2020* · 📈325 — A comprehensive review on explainable AI, organizing major methods, taxonomies, and design choices.
 
 ### Fairness
 
-- [A Survey on Bias and Fairness in Machine Learning](https://arxiv.org/abs/1908.09635) — *ACM Computing Surveys 2021* · 📈6278 — A highly cited survey of definitions, measurements, and mitigation methods for bias and fairness in machine learning.
-- [What-is and How-to for Fairness in Machine Learning: A Survey, Reflection, and Perspective](https://arxiv.org/abs/2206.04101) — *ACM Computing Surveys 2023* · 📈43 — A survey on fairness, organizing major methods, taxonomies, and design choices.
+- [A Survey on Bias and Fairness in Machine Learning](https://arxiv.org/abs/1908.09635) — *ACM Computing Surveys 2021* · 📈6314 — A highly cited survey of definitions, measurements, and mitigation methods for bias and fairness in machine learning.
+- [What-is and How-to for Fairness in Machine Learning: A Survey, Reflection, and Perspective](https://arxiv.org/abs/2206.04101) — *ACM Computing Surveys 2023* · 📈44 — A survey on fairness, organizing major methods, taxonomies, and design choices.
 
 ### Gaussian Processes
 
-- [When Gaussian Process Meets Big Data: A Review of Scalable GPs](https://arxiv.org/abs/1807.01065) — *IEEE TNNLS 2018* · 📈888 — A comprehensive review on gaussian processes, organizing major methods, taxonomies, and design choices.
-- [Deep Gaussian Processes: A Survey](https://arxiv.org/abs/2106.12135) — *arXiv 2021* · 📈27 — A survey on gaussian processes, organizing major methods, taxonomies, and design choices.
+- [Deep Gaussian Processes: A Survey](https://arxiv.org/abs/2106.12135) — *arXiv 2021* — A survey on gaussian processes, organizing major methods, taxonomies, and design choices.
+- [When Gaussian Process Meets Big Data: A Review of Scalable GPs](https://arxiv.org/abs/1807.01065) — *IEEE TNNLS 2018* — A comprehensive review on gaussian processes, organizing major methods, taxonomies, and design choices.
 
 ### Generalization
 
-- [Model Complexity of Deep Learning: A Survey](https://arxiv.org/abs/2103.05127) — *Knowledge and Information Systems 2021* · 📈405 — A survey on generalization, organizing major methods, taxonomies, and design choices.
+- [Model Complexity of Deep Learning: A Survey](https://arxiv.org/abs/2103.05127) — *Knowledge and Information Systems 2021* · 📈406 — A survey on generalization, organizing major methods, taxonomies, and design choices.
 
 ### Generative Recommendation
 
-- [Large Language Models for Generative Recommendation: A Survey and Visionary Discussions](https://arxiv.org/abs/2309.01157) — *arXiv 2023* · 📈180 — A survey on generative recommendation, covering methods, challenges, and future research directions.
-- [A Survey of Generative Search and Recommendation in the Era of Large Language Models](https://arxiv.org/abs/2404.16924) — *arXiv 2024* · 📈29 — A survey on generative recommendation, organizing major methods, taxonomies, and design choices.
-- [GR-LLMs: Recent Advances in Generative Recommendation Based on Large Language Models](https://arxiv.org/abs/2507.06507) — *arXiv 2025* · 📈4 — A recent key reference on generative recommendation, covering core methods, applications, and research trends.
+- [GR-LLMs: Recent Advances in Generative Recommendation Based on Large Language Models](https://arxiv.org/abs/2507.06507) — *arXiv 2025* — A recent key reference on generative recommendation, covering core methods, applications, and research trends.
+- [A Survey of Generative Search and Recommendation in the Era of Large Language Models](https://arxiv.org/abs/2404.16924) — *arXiv 2024* — A survey on generative recommendation, organizing major methods, taxonomies, and design choices.
+- [Large Language Models for Generative Recommendation: A Survey and Visionary Discussions](https://arxiv.org/abs/2309.01157) — *arXiv 2023* — A survey on generative recommendation, covering methods, challenges, and future research directions.
 
 ### Graph Foundation Models
 
-- [Graph Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2505.15116) — *arXiv 2025* · 📈51 — A comprehensive survey on graph foundation models, organizing major methods, taxonomies, and design choices.
+- [Graph Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2505.15116) — *arXiv 2025* — A comprehensive survey on graph foundation models, organizing major methods, taxonomies, and design choices.
 
 ### Green AI / Sustainable ML
 
@@ -1242,22 +1242,22 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Hyperparameter Optimization
 
-- [Hyper-Parameter Optimization: A Review of Algorithms and Applications](https://arxiv.org/abs/2003.05689) — *arXiv 2020* · 📈700 — A review on hyperparameter optimization, organizing major methods, taxonomies, and design choices.
-- [Hyperparameter Optimization in Machine Learning](https://arxiv.org/abs/2410.22854) — *arXiv preprint 2024* · 📈20 — A key reference on hyperparameter optimization, summarizing key methods, datasets, applications, and research directions.
+- [Hyper-Parameter Optimization: A Review of Algorithms and Applications](https://arxiv.org/abs/2003.05689) — *arXiv 2020* · 📈702 — A review on hyperparameter optimization, organizing major methods, taxonomies, and design choices.
+- [Hyperparameter Optimization in Machine Learning](https://arxiv.org/abs/2410.22854) — *arXiv preprint 2024* · 📈21 — A key reference on hyperparameter optimization, summarizing key methods, datasets, applications, and research directions.
 
 ### Imbalanced Learning
 
-- [A Survey of Methods for Addressing Class Imbalance in Deep-Learning Based Natural Language Processing](https://arxiv.org/abs/2210.04675) — *EACL 2023* · 📈63 — A comprehensive survey on imbalanced learning, organizing major methods, taxonomies, and design choices.
+- [A Survey of Methods for Addressing Class Imbalance in Deep-Learning Based Natural Language Processing](https://arxiv.org/abs/2210.04675) — *EACL 2023* — A comprehensive survey on imbalanced learning, organizing major methods, taxonomies, and design choices.
 
 ### Kernel Methods
 
-- [Kernel Mean Embedding of Distributions: A Review and Beyond](https://arxiv.org/abs/1605.09522) — *Foundations and Trends in ML 2017* · 📈919 — A comprehensive review on kernel methods, covering core methods, applications, and research trends.
-- [Reproducing Kernel Hilbert Space, Mercer's Theorem, Eigenfunctions, Nystrom Method, and Use of Kernels in Machine Learning: Tutorial and Survey](https://arxiv.org/abs/2106.08443) — *arXiv 2021* · 📈62 — A tutorial survey on kernel methods, covering theoretical foundations, methods, and implications.
-- [Neural Tangent Kernel: A Survey](https://arxiv.org/abs/2208.13614) — *arXiv 2022* · 📈24 — A survey on kernel methods, covering theoretical foundations, methods, and implications.
+- [Neural Tangent Kernel: A Survey](https://arxiv.org/abs/2208.13614) — *arXiv 2022* — A survey on kernel methods, covering theoretical foundations, methods, and implications.
+- [Reproducing Kernel Hilbert Space, Mercer's Theorem, Eigenfunctions, Nystrom Method, and Use of Kernels in Machine Learning: Tutorial and Survey](https://arxiv.org/abs/2106.08443) — *arXiv 2021* — A tutorial survey on kernel methods, covering theoretical foundations, methods, and implications.
+- [Kernel Mean Embedding of Distributions: A Review and Beyond](https://arxiv.org/abs/1605.09522) — *Foundations and Trends in ML 2017* — A comprehensive review on kernel methods, covering core methods, applications, and research trends.
 
 ### Knowledge Distillation
 
-- [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525) — *IJCV 2021* · 📈4552 — A standard survey of knowledge types, training schemes, and algorithms in knowledge distillation.
+- [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525) — *IJCV 2021* · 📈4578 — A standard survey of knowledge types, training schemes, and algorithms in knowledge distillation.
 
 ### Knowledge Distillation / Amalgamation
 
@@ -1265,12 +1265,12 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Kolmogorov-Arnold Networks
 
-- [A Survey on Kolmogorov-Arnold Network](https://arxiv.org/abs/2411.06078) — *arXiv 2024* · 📈260 — A recent survey on kolmogorov-arnold networks, covering core methods, applications, and research trends.
-- [Kolmogorov-Arnold Networks: A Critical Assessment of Claims, Performance, and Practical Viability](https://arxiv.org/abs/2407.11075) — *arXiv 2024* · 📈56 — A key reference on kolmogorov-arnold networks, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey on Kolmogorov-Arnold Network](https://arxiv.org/abs/2411.06078) — *arXiv 2024* — A recent survey on kolmogorov-arnold networks, covering core methods, applications, and research trends.
+- [Kolmogorov-Arnold Networks: A Critical Assessment of Claims, Performance, and Practical Viability](https://arxiv.org/abs/2407.11075) — *arXiv 2024* — A key reference on kolmogorov-arnold networks, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### LLM Hardware Acceleration
 
-- [Hardware Acceleration of LLMs: A comprehensive survey and comparison](https://arxiv.org/abs/2409.03384) — *arXiv preprint 2024* · 📈19 — A comprehensive survey on LLM hardware acceleration, with comparative analysis of representative methods and systems.
+- [Hardware Acceleration of LLMs: A comprehensive survey and comparison](https://arxiv.org/abs/2409.03384) — *arXiv preprint 2024* · 📈20 — A comprehensive survey on LLM hardware acceleration, with comparative analysis of representative methods and systems.
 
 ### LLM Inference Acceleration (Hardware)
 
@@ -1278,105 +1278,105 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Label-Noise Learning
 
-- [Learning from Noisy Labels with Deep Neural Networks: A Survey](https://arxiv.org/abs/2007.08199) — *IEEE TNNLS 2022* · 📈1457 — A standard comprehensive survey on label-noise learning, organizing major methods, taxonomies, and design choices.
+- [Learning from Noisy Labels with Deep Neural Networks: A Survey](https://arxiv.org/abs/2007.08199) — *IEEE TNNLS 2022* · 📈1463 — A standard comprehensive survey on label-noise learning, organizing major methods, taxonomies, and design choices.
 
 ### Machine Unlearning
 
-- [A Survey of Machine Unlearning](https://arxiv.org/abs/2209.02299) — *arXiv 2022* · 📈465 — A standard comprehensive survey on machine unlearning, covering core methods, applications, and research trends. — [`tamlhp/awesome-machine-unlearning`](https://github.com/tamlhp/awesome-machine-unlearning) ⭐964🟢
+- [A Survey of Machine Unlearning](https://arxiv.org/abs/2209.02299) — *arXiv 2022* — A standard comprehensive survey on machine unlearning, covering core methods, applications, and research trends. — [`tamlhp/awesome-machine-unlearning`](https://github.com/tamlhp/awesome-machine-unlearning) ⭐965🟢
 
 ### Manifold Learning
 
-- [Manifold learning: what, how, and why](https://arxiv.org/abs/2311.03757) — *Annual Review of Statistics 2023* · 📈166 — A standard key reference on manifold learning, organizing major methods, taxonomies, and design choices.
+- [Manifold learning: what, how, and why](https://arxiv.org/abs/2311.03757) — *Annual Review of Statistics 2023* — A standard key reference on manifold learning, organizing major methods, taxonomies, and design choices.
 
 ### Meta-Learning
 
-- [Meta-Learning in Neural Networks: A Survey](https://arxiv.org/abs/2004.05439) — *TPAMI 2022* · 📈2769 — A standard survey on meta-learning, organizing major methods, taxonomies, and design choices.
+- [Meta-Learning in Neural Networks: A Survey](https://arxiv.org/abs/2004.05439) — *TPAMI 2022* · 📈2776 — A standard survey on meta-learning, organizing major methods, taxonomies, and design choices.
 
 ### Metric Learning
 
-- [A Survey on Metric Learning for Feature Vectors and Structured Data](https://arxiv.org/abs/1306.6709) — *arXiv 2013* · 📈719 — A standard comprehensive survey on metric learning, organizing major methods, taxonomies, and design choices.
-- [Spectral, Probabilistic, and Deep Metric Learning: Tutorial and Survey](https://arxiv.org/abs/2201.09267) — *arXiv 2022* · 📈30 — A tutorial survey on metric learning, summarizing key methods, datasets, applications, and research directions.
+- [Spectral, Probabilistic, and Deep Metric Learning: Tutorial and Survey](https://arxiv.org/abs/2201.09267) — *arXiv 2022* — A tutorial survey on metric learning, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Metric Learning for Feature Vectors and Structured Data](https://arxiv.org/abs/1306.6709) — *arXiv 2013* — A standard comprehensive survey on metric learning, organizing major methods, taxonomies, and design choices.
 
 ### Model Compression
 
-- [A Survey of Model Compression and Acceleration for Deep Neural Networks](https://arxiv.org/abs/1710.09282) — *IEEE Signal Processing Magazine 2020* · 📈1268 — A highly cited survey on model compression, surveying major methods, techniques, and algorithmic choices.
-- [Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better](https://arxiv.org/abs/2106.08962) — *ACM Computing Surveys 2021* · 📈683 — A survey on model compression, organizing major methods, taxonomies, and design choices.
+- [A Survey of Model Compression and Acceleration for Deep Neural Networks](https://arxiv.org/abs/1710.09282) — *IEEE Signal Processing Magazine 2020* · 📈1269 — A highly cited survey on model compression, surveying major methods, techniques, and algorithmic choices.
+- [Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better](https://arxiv.org/abs/2106.08962) — *ACM Computing Surveys 2021* · 📈684 — A survey on model compression, organizing major methods, taxonomies, and design choices.
 
 ### Model Merging
 
-- [Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities](https://arxiv.org/abs/2408.07666) — *ACM Computing Surveys 2024* · 📈299 — A comprehensive key reference on model merging, covering core methods, applications, and research trends. — [`EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications`](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) ⭐778🟢
+- [Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities](https://arxiv.org/abs/2408.07666) — *ACM Computing Surveys 2024* — A comprehensive key reference on model merging, covering core methods, applications, and research trends. — [`EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications`](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) ⭐779🟢
 
 ### Multi-Task Learning
 
-- [A Survey on Multi-Task Learning](https://arxiv.org/abs/1707.08114) — *IEEE TKDE 2021* · 📈3082 — A standard comprehensive survey on multi-task learning, organizing major methods, taxonomies, and design choices.
-- [Multi-Task Learning with Deep Neural Networks: A Survey](https://arxiv.org/abs/2009.09796) — *arXiv 2020* · 📈817 — A survey on multi-task learning, organizing major methods, taxonomies, and design choices.
+- [A Survey on Multi-Task Learning](https://arxiv.org/abs/1707.08114) — *IEEE TKDE 2021* · 📈3090 — A standard comprehensive survey on multi-task learning, organizing major methods, taxonomies, and design choices.
+- [Multi-Task Learning with Deep Neural Networks: A Survey](https://arxiv.org/abs/2009.09796) — *arXiv 2020* · 📈818 — A survey on multi-task learning, organizing major methods, taxonomies, and design choices.
 
 ### Multi-label Learning
 
-- [Deep Learning for Multi-Label Learning: A Comprehensive Survey](https://arxiv.org/abs/2401.16549) — *arXiv 2024* · 📈52 — A comprehensive comprehensive survey on multi-label learning, organizing major methods, taxonomies, and design choices.
-- [A Survey on Extreme Multi-label Learning](https://arxiv.org/abs/2210.03968) — *arXiv 2022* · 📈15 — A comprehensive survey on multi-label learning, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Multi-Label Learning: A Comprehensive Survey](https://arxiv.org/abs/2401.16549) — *arXiv 2024* — A comprehensive comprehensive survey on multi-label learning, organizing major methods, taxonomies, and design choices.
+- [A Survey on Extreme Multi-label Learning](https://arxiv.org/abs/2210.03968) — *arXiv 2022* — A comprehensive survey on multi-label learning, organizing major methods, taxonomies, and design choices.
 
 ### Multiple Instance Learning
 
-- [Multiple Instance Learning: A Survey of Problem Characteristics and Applications](https://arxiv.org/abs/1612.03365) — *Pattern Recognition 2016* · 📈763 — A standard comprehensive survey on multiple instance learning, covering core methods, applications, and research trends.
+- [Multiple Instance Learning: A Survey of Problem Characteristics and Applications](https://arxiv.org/abs/1612.03365) — *Pattern Recognition 2016* — A standard comprehensive survey on multiple instance learning, covering core methods, applications, and research trends.
 
 ### Neural Architecture Search
 
-- [Neural Architecture Search: Insights from 1000 Papers](https://arxiv.org/abs/2301.08727) — *arXiv 2023* · 📈239 — A comprehensive recent key reference on neural architecture search, summarizing key methods, datasets, applications, and research directions.
+- [Neural Architecture Search: Insights from 1000 Papers](https://arxiv.org/abs/2301.08727) — *arXiv 2023* · 📈240 — A comprehensive recent key reference on neural architecture search, summarizing key methods, datasets, applications, and research directions.
 - [Neural Architecture Search: A Survey](https://arxiv.org/abs/1808.05377) — *JMLR 2019* — A standard survey on neural architecture search, organizing major methods, taxonomies, and design choices.
 
 ### Neural Compression
 
-- [Information Compression in the AI Era: Recent Advances and Future Challenges](https://arxiv.org/abs/2406.10036) — *arXiv 2024* · 📈27 — A key reference on neural compression, covering theoretical foundations, methods, and implications.
+- [Information Compression in the AI Era: Recent Advances and Future Challenges](https://arxiv.org/abs/2406.10036) — *arXiv 2024* — A key reference on neural compression, covering theoretical foundations, methods, and implications.
 
 ### On-Device AI / Edge Intelligence
 
-- [Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models](https://arxiv.org/abs/2503.06027) — *arXiv preprint 2025* · 📈245 — A comprehensive comprehensive survey on on-device AI and edge intelligence, organizing major methods, taxonomies, and design choices.
+- [Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models](https://arxiv.org/abs/2503.06027) — *arXiv preprint 2025* — A comprehensive comprehensive survey on on-device AI and edge intelligence, organizing major methods, taxonomies, and design choices.
 
 ### On-Device Optimization / Edge ML
 
-- [Onboard Optimization and Learning: A Survey](https://arxiv.org/abs/2505.08793) — *arXiv preprint 2025* · 📈4 — A survey on on-device optimization and edge ML, organizing major methods, taxonomies, and design choices.
+- [Onboard Optimization and Learning: A Survey](https://arxiv.org/abs/2505.08793) — *arXiv preprint 2025* · 📈6 — A survey on on-device optimization and edge ML, organizing major methods, taxonomies, and design choices.
 
 ### Open-set Recognition
 
-- [A Survey on Open Set Recognition](https://arxiv.org/abs/2109.00893) — *arXiv 2021* · 📈58 — A comprehensive survey on open-set recognition, organizing major methods, taxonomies, and design choices.
+- [A Survey on Open Set Recognition](https://arxiv.org/abs/2109.00893) — *arXiv 2021* — A comprehensive survey on open-set recognition, organizing major methods, taxonomies, and design choices.
 
 ### Optimization
 
-- [An overview of gradient descent optimization algorithms](https://arxiv.org/abs/1609.04747) — *arXiv 2016* · 📈7037 — A highly cited overview of SGD, momentum, Adam, and related gradient-based optimization algorithms.
-- [A Survey of Optimization Methods from a Machine Learning Perspective](https://arxiv.org/abs/1906.06821) — *IEEE Transactions on Cybernetics 2020* · 📈683 — A highly cited comprehensive survey on optimization, organizing major methods, taxonomies, and design choices.
+- [An overview of gradient descent optimization algorithms](https://arxiv.org/abs/1609.04747) — *arXiv 2016* · 📈7046 — A highly cited overview of SGD, momentum, Adam, and related gradient-based optimization algorithms.
+- [A Survey of Optimization Methods from a Machine Learning Perspective](https://arxiv.org/abs/1906.06821) — *IEEE Transactions on Cybernetics 2020* · 📈685 — A highly cited comprehensive survey on optimization, organizing major methods, taxonomies, and design choices.
 - [A survey and taxonomy of loss functions in machine learning](https://arxiv.org/abs/2301.05579) — *arXiv 2023* · 📈57 — A comprehensive recent survey on optimization, organizing major methods, taxonomies, and design choices.
 
 ### Ordinal Regression
 
-- [A Survey on Ordinal Regression: Applications, Advances and Prospects](https://arxiv.org/abs/2503.00952) — *arXiv 2025* · 📈7 — A comprehensive survey on ordinal regression, covering core methods, applications, and research trends.
+- [A Survey on Ordinal Regression: Applications, Advances and Prospects](https://arxiv.org/abs/2503.00952) — *arXiv 2025* — A comprehensive survey on ordinal regression, covering core methods, applications, and research trends.
 
 ### Out-of-Distribution Detection
 
-- [Generalized Out-of-Distribution Detection: A Survey](https://arxiv.org/abs/2110.11334) — *IJCV 2024* · 📈1515 — A survey on out-of-distribution detection, organizing major methods, taxonomies, and design choices. — [`huytransformer/Awesome-Out-Of-Distribution-Detection`](https://github.com/huytransformer/Awesome-Out-Of-Distribution-Detection) ⭐1021🟢
+- [Generalized Out-of-Distribution Detection: A Survey](https://arxiv.org/abs/2110.11334) — *IJCV 2024* · 📈1523 — A survey on out-of-distribution detection, organizing major methods, taxonomies, and design choices. — [`huytransformer/Awesome-Out-Of-Distribution-Detection`](https://github.com/huytransformer/Awesome-Out-Of-Distribution-Detection) ⭐1022🟢
 
 ### PU Learning
 
-- [Learning from positive and unlabeled data: a survey](https://arxiv.org/abs/1811.04820) — *Machine Learning 2020* · 📈721 — A standard survey on PU learning, summarizing key methods, datasets, applications, and research directions.
+- [Learning from positive and unlabeled data: a survey](https://arxiv.org/abs/1811.04820) — *Machine Learning 2020* — A standard survey on PU learning, summarizing key methods, datasets, applications, and research directions.
 
 ### Pruning
 
-- [What is the State of Neural Network Pruning?](https://arxiv.org/abs/2003.03033) — *MLSys 2020* · 📈1293 — A key reference on pruning, with emphasis on benchmarks, evaluation, and representative methods.
+- [What is the State of Neural Network Pruning?](https://arxiv.org/abs/2003.03033) — *MLSys 2020* · 📈1299 — A key reference on pruning, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Quantization
 
-- [A Survey of Quantization Methods for Efficient Neural Network Inference](https://arxiv.org/abs/2103.13630) — *arXiv 2021* · 📈1690 — A standard comprehensive survey on quantization, organizing major methods, taxonomies, and design choices.
+- [A Survey of Quantization Methods for Efficient Neural Network Inference](https://arxiv.org/abs/2103.13630) — *arXiv 2021* · 📈1698 — A standard comprehensive survey on quantization, organizing major methods, taxonomies, and design choices.
 
 ### Representation Learning
 
-- [Representation Learning: A Review and New Perspectives](https://arxiv.org/abs/1206.5538) — *IEEE TPAMI 2013* · 📈14246 — A classic, highly cited review of representation learning and deep learning perspectives.
-- [Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069) — *NeurIPS Workshop 2018* · 📈517 — A recent key reference on representation learning, organizing major methods, taxonomies, and design choices.
+- [Representation Learning: A Review and New Perspectives](https://arxiv.org/abs/1206.5538) — *IEEE TPAMI 2013* · 📈14270 — A classic, highly cited review of representation learning and deep learning perspectives.
+- [Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069) — *NeurIPS Workshop 2018* — A recent key reference on representation learning, organizing major methods, taxonomies, and design choices.
 
 ### Self-Supervised Learning
 
-- [Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) — *NeurIPS 2020* · 📈8976 — The BYOL paper, a landmark self-supervised learning method that avoids negative pairs.
-- [Self-supervised Learning: Generative or Contrastive](https://arxiv.org/abs/2006.08218) — *IEEE TKDE 2021* · 📈2230 — A highly cited standard key reference on self-supervised learning, summarizing key methods, datasets, applications, and research directions.
-- [Self-Supervised Representation Learning: Introduction, Advances and Challenges](https://arxiv.org/abs/2110.09327) — *IEEE Signal Processing Magazine 2021* · 📈426 — A recent key reference on self-supervised learning, organizing major methods, taxonomies, and design choices.
+- [Self-supervised Learning: Generative or Contrastive](https://arxiv.org/abs/2006.08218) — *IEEE TKDE 2021* · 📈2237 — A highly cited standard key reference on self-supervised learning, summarizing key methods, datasets, applications, and research directions.
+- [Self-Supervised Representation Learning: Introduction, Advances and Challenges](https://arxiv.org/abs/2110.09327) — *IEEE Signal Processing Magazine 2021* · 📈427 — A recent key reference on self-supervised learning, organizing major methods, taxonomies, and design choices.
+- [Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733) — *NeurIPS 2020* — The BYOL paper, a landmark self-supervised learning method that avoids negative pairs.
 
 ### Semi-Supervised Learning
 
@@ -1384,100 +1384,100 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Sparse Representation
 
-- [A survey of sparse representation: algorithms and applications](https://arxiv.org/abs/1602.07017) — *IEEE Access 2015* · 📈1069 — A comprehensive survey on sparse representation, covering core methods, applications, and research trends.
+- [A survey of sparse representation: algorithms and applications](https://arxiv.org/abs/1602.07017) — *IEEE Access 2015* — A comprehensive survey on sparse representation, covering core methods, applications, and research trends.
 
 ### State Space Models
 
-- [Advancing Intelligent Sequence Modeling: Evolution, Trade-offs, and Applications of State-Space Architectures from S4 to Mamba](https://arxiv.org/abs/2503.18970) — *arXiv 2025* · 📈17 — A key reference on state space models, covering core methods, applications, and research trends.
+- [Advancing Intelligent Sequence Modeling: Evolution, Trade-offs, and Applications of State-Space Architectures from S4 to Mamba](https://arxiv.org/abs/2503.18970) — *arXiv 2025* — A key reference on state space models, covering core methods, applications, and research trends.
 
 ### Tabular Deep Learning
 
-- [Deep Neural Networks and Tabular Data: A Survey](https://arxiv.org/abs/2110.01889) — *IEEE TNNLS 2022* · 📈1290 — A comprehensive survey on tabular deep learning, organizing major methods, taxonomies, and design choices.
-- [A Survey on Deep Tabular Learning](https://arxiv.org/abs/2410.12034) — *arXiv 2024* · 📈54 — A survey on tabular deep learning, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Deep Tabular Learning](https://arxiv.org/abs/2410.12034) — *arXiv 2024* — A survey on tabular deep learning, summarizing key methods, datasets, applications, and research directions.
+- [Deep Neural Networks and Tabular Data: A Survey](https://arxiv.org/abs/2110.01889) — *IEEE TNNLS 2022* — A comprehensive survey on tabular deep learning, organizing major methods, taxonomies, and design choices.
 
 ### Tabular Foundation Models
 
-- [Representation Learning for Tabular Data: A Comprehensive Survey](https://arxiv.org/abs/2504.16109) — *arXiv 2025* · 📈67 — A comprehensive comprehensive survey on tabular foundation models, organizing major methods, taxonomies, and design choices. — [`LAMDA-Tabular/Tabular-Survey`](https://github.com/LAMDA-Tabular/Tabular-Survey) ⭐136🟢
+- [Representation Learning for Tabular Data: A Comprehensive Survey](https://arxiv.org/abs/2504.16109) — *arXiv 2025* — A comprehensive comprehensive survey on tabular foundation models, organizing major methods, taxonomies, and design choices. — [`LAMDA-Tabular/Tabular-Survey`](https://github.com/LAMDA-Tabular/Tabular-Survey) ⭐136🟢
 
 ### Time Series Foundation Models
 
-- [Foundation Models for Time Series: A Survey](https://arxiv.org/abs/2504.04011) — *arXiv 2025* · 📈37 — A survey on time series foundation models, organizing major methods, taxonomies, and design choices.
+- [Foundation Models for Time Series: A Survey](https://arxiv.org/abs/2504.04011) — *arXiv 2025* — A survey on time series foundation models, organizing major methods, taxonomies, and design choices.
 
 ### Transfer Learning
 
-- [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685) — *Proceedings of the IEEE 2020* · 📈6076 — A highly cited survey that classifies transfer learning methods by their underlying mechanisms.
-- [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974) — *ICANN 2018* · 📈2952 — A survey on transfer learning, organizing major methods, taxonomies, and design choices.
-- [A Survey on Negative Transfer](https://arxiv.org/abs/2009.00909) — *IEEE/CAA JAS 2022* · 📈396 — A comprehensive survey on transfer learning, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685) — *Proceedings of the IEEE 2020* · 📈6094 — A highly cited survey that classifies transfer learning methods by their underlying mechanisms.
+- [A Survey on Deep Transfer Learning](https://arxiv.org/abs/1808.01974) — *ICANN 2018* · 📈2956 — A survey on transfer learning, organizing major methods, taxonomies, and design choices.
+- [A Survey on Negative Transfer](https://arxiv.org/abs/2009.00909) — *IEEE/CAA JAS 2022* · 📈399 — A comprehensive survey on transfer learning, organizing major methods, taxonomies, and design choices.
 - [A Survey on Transfer Learning](https://doi.org/10.1109/TKDE.2009.191) — *IEEE TKDE 2010* — A standard survey on transfer learning, summarizing key methods, datasets, applications, and research directions.
 
 ### Uncertainty Estimation
 
-- [A Review of Uncertainty Quantification in Deep Learning: Techniques, Applications and Challenges](https://arxiv.org/abs/2011.06225) — *Information Fusion 2021* · 📈2781 — A highly cited comprehensive review on uncertainty estimation, organizing major methods, taxonomies, and design choices.
-- [A Survey of Uncertainty in Deep Neural Networks](https://arxiv.org/abs/2107.03342) — *Artificial Intelligence Review 2021* · 📈1950 — A comprehensive survey on uncertainty estimation, organizing major methods, taxonomies, and design choices.
+- [A Review of Uncertainty Quantification in Deep Learning: Techniques, Applications and Challenges](https://arxiv.org/abs/2011.06225) — *Information Fusion 2021* · 📈2799 — A highly cited comprehensive review on uncertainty estimation, organizing major methods, taxonomies, and design choices.
+- [A Survey of Uncertainty in Deep Neural Networks](https://arxiv.org/abs/2107.03342) — *Artificial Intelligence Review 2021* · 📈1960 — A comprehensive survey on uncertainty estimation, organizing major methods, taxonomies, and design choices.
 
 ### Variational Inference
 
-- [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) — *JASA 2017* · 📈5907 — A standard, highly cited review of variational inference and its statistical foundations.
+- [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) — *JASA 2017* · 📈5912 — A standard, highly cited review of variational inference and its statistical foundations.
 
 ### Weak Supervision
 
-- [A Survey on Programmatic Weak Supervision](https://arxiv.org/abs/2202.05433) — *arXiv 2022* · 📈116 — A survey on weak supervision, organizing major methods, taxonomies, and design choices.
+- [A Survey on Programmatic Weak Supervision](https://arxiv.org/abs/2202.05433) — *arXiv 2022* — A survey on weak supervision, organizing major methods, taxonomies, and design choices.
 
 ## 📐 Learning Theory
 
 ### Approximation Theory / Expressive Power
 
-- [Approximation Power of Deep Neural Networks: an explanatory mathematical survey](https://arxiv.org/abs/2207.09511) — *arXiv 2022* · 📈5 — A survey on approximation theory and expressive power, summarizing key methods, datasets, applications, and research directions.
+- [Approximation Power of Deep Neural Networks: an explanatory mathematical survey](https://arxiv.org/abs/2207.09511) — *arXiv 2022* — A survey on approximation theory and expressive power, summarizing key methods, datasets, applications, and research directions.
 
 ### Bandits
 
-- [Introduction to Multi-Armed Bandits](https://arxiv.org/abs/1904.07272) — *Foundations and Trends in ML 2019* · 📈1304 — A standard comprehensive key reference on bandits, covering theoretical foundations, methods, and implications.
+- [Introduction to Multi-Armed Bandits](https://arxiv.org/abs/1904.07272) — *Foundations and Trends in ML 2019* — A standard comprehensive key reference on bandits, covering theoretical foundations, methods, and implications.
 
 ### Deep Learning Theory
 
-- [The Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165) — *Cambridge University Press 2022* · 📈303 — A comprehensive key reference on deep learning theory, covering theoretical foundations, methods, and implications.
-- [The Modern Mathematics of Deep Learning](https://arxiv.org/abs/2105.04026) — *Cambridge University Press 2022* · 📈141 — A comprehensive key reference on deep learning theory, covering theoretical foundations, methods, and implications.
-- [A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models](https://arxiv.org/abs/2401.07187) — *Annual Review of Statistics and Its Application 2024* · 📈31 — A survey on deep learning theory, covering theoretical foundations, methods, and implications.
+- [A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models](https://arxiv.org/abs/2401.07187) — *Annual Review of Statistics and Its Application 2024* — A survey on deep learning theory, covering theoretical foundations, methods, and implications.
+- [The Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165) — *Cambridge University Press 2022* — A comprehensive key reference on deep learning theory, covering theoretical foundations, methods, and implications.
+- [The Modern Mathematics of Deep Learning](https://arxiv.org/abs/2105.04026) — *Cambridge University Press 2022* — A comprehensive key reference on deep learning theory, covering theoretical foundations, methods, and implications.
 
 ### Differential Privacy Theory
 
-- [A Comprehensive Guide to Differential Privacy: From Theory to User Expectations](https://arxiv.org/abs/2509.03294) — *arXiv 2025* · 📈6 — A comprehensive key reference on differential privacy theory, covering core methods, applications, and research trends.
+- [A Comprehensive Guide to Differential Privacy: From Theory to User Expectations](https://arxiv.org/abs/2509.03294) — *arXiv 2025* — A comprehensive key reference on differential privacy theory, covering core methods, applications, and research trends.
 
 ### Fairness Theory
 
-- [Fairness in Machine Learning: A Survey](https://arxiv.org/abs/2010.04053) — *ACM Computing Surveys 2020* · 📈930 — A survey on fairness theory, organizing major methods, taxonomies, and design choices.
+- [Fairness in Machine Learning: A Survey](https://arxiv.org/abs/2010.04053) — *ACM Computing Surveys 2020* — A survey on fairness theory, organizing major methods, taxonomies, and design choices.
 
 ### Generalization Bounds
 
-- [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468) — *Cambridge University Press 2022* · 📈503 — A key reference on generalization bounds, covering theoretical foundations, methods, and implications.
+- [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468) — *Cambridge University Press 2022* — A key reference on generalization bounds, covering theoretical foundations, methods, and implications.
 
 ### Implicit Regularization
 
-- [On the Implicit Bias in Deep-Learning Algorithms](https://arxiv.org/abs/2208.12591) — *Communications of the ACM 2022* · 📈122 — A key reference on implicit regularization, summarizing key methods, datasets, applications, and research directions.
+- [On the Implicit Bias in Deep-Learning Algorithms](https://arxiv.org/abs/2208.12591) — *Communications of the ACM 2022* — A key reference on implicit regularization, summarizing key methods, datasets, applications, and research directions.
 
 ### Multi-Armed Bandits
 
-- [A Survey on Contextual Multi-armed Bandits](https://arxiv.org/abs/1508.03326) — *arXiv 2016* · 📈145 — A survey on multi-armed bandits, organizing major methods, taxonomies, and design choices.
-- [A Survey on Practical Applications of Multi-Armed and Contextual Bandits](https://arxiv.org/abs/1904.10040) — *arXiv 2019* · 📈144 — A survey on multi-armed bandits, covering core methods, applications, and research trends.
-- [A Survey of Risk-Aware Multi-Armed Bandits](https://arxiv.org/abs/2205.05843) — *IJCAI 2022* · 📈13 — A survey on multi-armed bandits, organizing major methods, taxonomies, and design choices.
+- [A Survey of Risk-Aware Multi-Armed Bandits](https://arxiv.org/abs/2205.05843) — *IJCAI 2022* — A survey on multi-armed bandits, organizing major methods, taxonomies, and design choices.
+- [A Survey on Practical Applications of Multi-Armed and Contextual Bandits](https://arxiv.org/abs/1904.10040) — *arXiv 2019* — A survey on multi-armed bandits, covering core methods, applications, and research trends.
+- [A Survey on Contextual Multi-armed Bandits](https://arxiv.org/abs/1508.03326) — *arXiv 2016* — A survey on multi-armed bandits, organizing major methods, taxonomies, and design choices.
 
 ### Online Convex Optimization
 
-- [Introduction to Online Convex Optimization](https://arxiv.org/abs/1909.05207) — *Foundations and Trends in Optimization 2019* · 📈2341 — A standard comprehensive key reference on online convex optimization, covering theoretical foundations, methods, and implications.
-- [Online convex optimization and no-regret learning: Algorithms, guarantees and applications](https://arxiv.org/abs/1804.04529) — *arXiv 2018* · 📈45 — A key reference on online convex optimization, covering core methods, applications, and research trends.
+- [Introduction to Online Convex Optimization](https://arxiv.org/abs/1909.05207) — *Foundations and Trends in Optimization 2019* — A standard comprehensive key reference on online convex optimization, covering theoretical foundations, methods, and implications.
+- [Online convex optimization and no-regret learning: Algorithms, guarantees and applications](https://arxiv.org/abs/1804.04529) — *arXiv 2018* — A key reference on online convex optimization, covering core methods, applications, and research trends.
 
 ### Online Learning
 
-- [Online Learning: A Comprehensive Survey](https://arxiv.org/abs/1802.02871) — *Neurocomputing 2021* · 📈853 — A comprehensive comprehensive survey on online learning, covering theoretical foundations, methods, and implications.
-- [A Modern Introduction to Online Learning](https://arxiv.org/abs/1912.13213) — *arXiv 2019* · 📈569 — A key reference on online learning, summarizing key methods, datasets, applications, and research directions.
+- [Online Learning: A Comprehensive Survey](https://arxiv.org/abs/1802.02871) — *Neurocomputing 2021* — A comprehensive comprehensive survey on online learning, covering theoretical foundations, methods, and implications.
+- [A Modern Introduction to Online Learning](https://arxiv.org/abs/1912.13213) — *arXiv 2019* — A key reference on online learning, summarizing key methods, datasets, applications, and research directions.
 
 ### Overparameterization / Generalization
 
-- [Generalization in Neural Networks: A Broad Survey](https://arxiv.org/abs/2209.01610) — *Neurocomputing 2022* · 📈42 — A survey on overparameterization and generalization, organizing major methods, taxonomies, and design choices.
+- [Generalization in Neural Networks: A Broad Survey](https://arxiv.org/abs/2209.01610) — *Neurocomputing 2022* — A survey on overparameterization and generalization, organizing major methods, taxonomies, and design choices.
 
 ### PAC-Bayes
 
-- [A Primer on PAC-Bayesian Learning](https://arxiv.org/abs/1901.05353) — *arXiv 2019* · 📈244 — An introductory survey on PAC-bayes, covering theoretical foundations, methods, and implications.
+- [A Primer on PAC-Bayesian Learning](https://arxiv.org/abs/1901.05353) — *arXiv 2019* — An introductory survey on PAC-bayes, covering theoretical foundations, methods, and implications.
 
 ## 🎮 Reinforcement Learning (RL)
 
@@ -1491,33 +1491,33 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Credit Assignment
 
-- [A Survey of Temporal Credit Assignment in Deep Reinforcement Learning](https://arxiv.org/abs/2312.01072) — *arXiv 2023* · 📈69 — A survey on credit assignment, with comparative analysis of representative methods and systems.
+- [A Survey of Temporal Credit Assignment in Deep Reinforcement Learning](https://arxiv.org/abs/2312.01072) — *arXiv 2023* — A survey on credit assignment, with comparative analysis of representative methods and systems.
 
 ### Curriculum Learning
 
-- [Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey](https://arxiv.org/abs/2003.04960) — *JMLR 2020* · 📈782 — A survey on curriculum learning, organizing major methods, taxonomies, and design choices.
+- [Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey](https://arxiv.org/abs/2003.04960) — *JMLR 2020* · 📈788 — A survey on curriculum learning, organizing major methods, taxonomies, and design choices.
 
 ### Deep RL (general)
 
-- [Deep Reinforcement Learning: A Brief Survey](https://arxiv.org/abs/1708.05866) — *IEEE Signal Processing Magazine 2017* · 📈3595 — A concise standard introduction to value-based and policy-based deep reinforcement learning methods.
-- [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274) — *arXiv 2017* · 📈1888 — A comprehensive overview on deep RL (general), covering core methods, applications, and research trends.
+- [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274) — *arXiv 2017* — A comprehensive overview on deep RL (general), covering core methods, applications, and research trends.
+- [Deep Reinforcement Learning: A Brief Survey](https://arxiv.org/abs/1708.05866) — *IEEE Signal Processing Magazine 2017* — A concise standard introduction to value-based and policy-based deep reinforcement learning methods.
 
 ### Distributed RL
 
-- [Distributed Deep Reinforcement Learning: A Survey and A Multi-Player Multi-Agent Learning Toolbox](https://arxiv.org/abs/2212.00253) — *Machine Intelligence Research 2024* · 📈38 — A survey on distributed RL, organizing major methods, taxonomies, and design choices.
+- [Distributed Deep Reinforcement Learning: A Survey and A Multi-Player Multi-Agent Learning Toolbox](https://arxiv.org/abs/2212.00253) — *Machine Intelligence Research 2024* — A survey on distributed RL, organizing major methods, taxonomies, and design choices.
 
 ### Exploration
 
-- [Exploration in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2205.00824) — *Information Fusion 2022* · 📈624 — A survey on exploration, organizing major methods, taxonomies, and design choices.
-- [A Survey of Exploration Methods in Reinforcement Learning](https://arxiv.org/abs/2109.00157) — *arXiv 2021* · 📈113 — A survey on exploration, organizing major methods, taxonomies, and design choices.
+- [Exploration in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2205.00824) — *Information Fusion 2022* — A survey on exploration, organizing major methods, taxonomies, and design choices.
+- [A Survey of Exploration Methods in Reinforcement Learning](https://arxiv.org/abs/2109.00157) — *arXiv 2021* — A survey on exploration, organizing major methods, taxonomies, and design choices.
 
 ### Generalization
 
-- [A Survey of Zero-shot Generalisation in Deep Reinforcement Learning](https://arxiv.org/abs/2111.09794) — *JAIR 2023* · 📈294 — A survey on generalization, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey of Zero-shot Generalisation in Deep Reinforcement Learning](https://arxiv.org/abs/2111.09794) — *JAIR 2023* — A survey on generalization, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Goal-Conditioned RL
 
-- [Goal-Conditioned Reinforcement Learning: Problems and Solutions](https://arxiv.org/abs/2201.08299) — *IJCAI 2022* · 📈233 — A comprehensive key reference on goal-conditioned RL, organizing major methods, taxonomies, and design choices.
+- [Goal-Conditioned Reinforcement Learning: Problems and Solutions](https://arxiv.org/abs/2201.08299) — *IJCAI 2022* · 📈234 — A comprehensive key reference on goal-conditioned RL, organizing major methods, taxonomies, and design choices.
 
 ### Hierarchical RL
 
@@ -1525,43 +1525,43 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Imitation Learning
 
-- [An Algorithmic Perspective on Imitation Learning](https://arxiv.org/abs/1811.06711) — *Foundations and Trends in Robotics 2018* · 📈1050 — A standard comprehensive key reference on imitation learning, organizing major methods, taxonomies, and design choices.
+- [An Algorithmic Perspective on Imitation Learning](https://arxiv.org/abs/1811.06711) — *Foundations and Trends in Robotics 2018* — A standard comprehensive key reference on imitation learning, organizing major methods, taxonomies, and design choices.
 
 ### In-Context Reinforcement Learning
 
-- [A Survey of In-Context Reinforcement Learning](https://arxiv.org/abs/2502.07978) — *arXiv preprint 2025* · 📈36 — A survey on in-context reinforcement learning, organizing major methods, taxonomies, and design choices.
+- [A Survey of In-Context Reinforcement Learning](https://arxiv.org/abs/2502.07978) — *arXiv preprint 2025* · 📈37 — A survey on in-context reinforcement learning, organizing major methods, taxonomies, and design choices.
 
 ### Inverse RL
 
-- [A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress](https://arxiv.org/abs/1806.06877) — *Artificial Intelligence 2021* · 📈815 — A survey on inverse RL, covering methods, challenges, and future research directions.
+- [A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress](https://arxiv.org/abs/1806.06877) — *Artificial Intelligence 2021* — A survey on inverse RL, covering methods, challenges, and future research directions.
 
 ### Meta RL
 
-- [A Tutorial on Meta-Reinforcement Learning](https://arxiv.org/abs/2301.08028) — *Foundations and Trends in Machine Learning 2025* · 📈176 — A comprehensive tutorial survey on meta RL, organizing major methods, taxonomies, and design choices.
+- [A Tutorial on Meta-Reinforcement Learning](https://arxiv.org/abs/2301.08028) — *Foundations and Trends in Machine Learning 2025* — A comprehensive tutorial survey on meta RL, organizing major methods, taxonomies, and design choices.
 
 ### Model-based RL
 
-- [A Survey on Model-based Reinforcement Learning](https://arxiv.org/abs/2206.09328) — *Science China Information Sciences 2024* · 📈186 — A survey on model-based RL, summarizing key methods, datasets, applications, and research directions.
-- [Model-based Reinforcement Learning: A Survey](https://arxiv.org/abs/2006.16712) — *Foundations and Trends in Machine Learning 2023* · 📈69 — A standard comprehensive survey on model-based RL, organizing major methods, taxonomies, and design choices.
+- [A Survey on Model-based Reinforcement Learning](https://arxiv.org/abs/2206.09328) — *Science China Information Sciences 2024* — A survey on model-based RL, summarizing key methods, datasets, applications, and research directions.
+- [Model-based Reinforcement Learning: A Survey](https://arxiv.org/abs/2006.16712) — *Foundations and Trends in Machine Learning 2023* — A standard comprehensive survey on model-based RL, organizing major methods, taxonomies, and design choices.
 
 ### Multi-objective RL
 
-- [A Practical Guide to Multi-Objective Reinforcement Learning and Planning](https://arxiv.org/abs/2103.09568) — *AAMAS (JAAMAS) 2022* · 📈615 — A comprehensive key reference on multi-objective RL, summarizing key methods, datasets, applications, and research directions.
+- [A Practical Guide to Multi-Objective Reinforcement Learning and Planning](https://arxiv.org/abs/2103.09568) — *AAMAS (JAAMAS) 2022* — A comprehensive key reference on multi-objective RL, summarizing key methods, datasets, applications, and research directions.
 
 ### Offline RL
 
-- [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/abs/2005.01643) — *arXiv 2020* · 📈2778 — A tutorial survey on offline RL, covering methods, challenges, and future research directions.
-- [A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems](https://arxiv.org/abs/2203.01387) — *IEEE TNNLS 2023* · 📈442 — A survey on offline RL, organizing major methods, taxonomies, and design choices. — [`larocs/offline-rl-suvey`](https://github.com/larocs/offline-rl-suvey) ⭐8🔴
+- [A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems](https://arxiv.org/abs/2203.01387) — *IEEE TNNLS 2023* — A survey on offline RL, organizing major methods, taxonomies, and design choices. — [`larocs/offline-rl-suvey`](https://github.com/larocs/offline-rl-suvey) ⭐8🔴
+- [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/abs/2005.01643) — *arXiv 2020* — A tutorial survey on offline RL, covering methods, challenges, and future research directions.
 
 ### RL for Generative AI
 
 - [Reinforcement Learning for Generative AI: State of the Art, Opportunities and Open Research Challenges](https://arxiv.org/abs/2308.00031) — *JAIR 2024* · 📈39 — A key reference on RL for generative AI, covering methods, challenges, and future research directions.
-- [Reinforcement Learning for Generative AI: A Survey](https://arxiv.org/abs/2308.14328) — *arXiv 2023* · 📈30 — A survey on RL for generative AI, organizing major methods, taxonomies, and design choices.
+- [Reinforcement Learning for Generative AI: A Survey](https://arxiv.org/abs/2308.14328) — *arXiv 2023* — A survey on RL for generative AI, organizing major methods, taxonomies, and design choices.
 
 ### RLHF
 
-- [Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2307.15217) — *TMLR 2023* · 📈962 — A key reference on RLHF, covering methods, challenges, and future research directions.
-- [A Survey of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2312.14925) — *arXiv 2023* · 📈354 — A survey on RLHF, summarizing key methods, datasets, applications, and research directions.
+- [Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2307.15217) — *TMLR 2023* · 📈972 — A key reference on RLHF, covering methods, challenges, and future research directions.
+- [A Survey of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2312.14925) — *arXiv 2023* — A survey on RLHF, summarizing key methods, datasets, applications, and research directions.
 
 ### RLHF / Preference-based RL
 
@@ -1573,21 +1573,21 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Safe / Constrained RL
 
-- [A Survey of Safe Reinforcement Learning and Constrained MDPs: A Technical Survey on Single-Agent and Multi-Agent Safety](https://arxiv.org/abs/2505.17342) — *arXiv preprint 2025* · 📈27 — A survey on safe and constrained RL, organizing major methods, taxonomies, and design choices.
+- [A Survey of Safe Reinforcement Learning and Constrained MDPs: A Technical Survey on Single-Agent and Multi-Agent Safety](https://arxiv.org/abs/2505.17342) — *arXiv preprint 2025* · 📈28 — A survey on safe and constrained RL, organizing major methods, taxonomies, and design choices.
 
 ### Safe RL
 
-- [A Review of Safe Reinforcement Learning: Methods, Theory and Applications](https://arxiv.org/abs/2205.10330) — *IEEE TPAMI 2024* · 📈331 — A recent review on safe RL, with emphasis on benchmarks, evaluation, and representative methods. — [`chauncygu/Safe-Reinforcement-Learning-Baselines`](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines) ⭐813🟢
-- [A Survey of Constraint Formulations in Safe Reinforcement Learning](https://arxiv.org/abs/2402.02025) — *IJCAI 2024* · 📈90 — A standard survey on safe RL, covering theoretical foundations, methods, and implications.
+- [A Survey of Constraint Formulations in Safe Reinforcement Learning](https://arxiv.org/abs/2402.02025) — *IJCAI 2024* · 📈92 — A standard survey on safe RL, covering theoretical foundations, methods, and implications.
+- [A Review of Safe Reinforcement Learning: Methods, Theory and Applications](https://arxiv.org/abs/2205.10330) — *IEEE TPAMI 2024* — A recent review on safe RL, with emphasis on benchmarks, evaluation, and representative methods. — [`chauncygu/Safe-Reinforcement-Learning-Baselines`](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines) ⭐813🟢
 - [A Comprehensive Survey on Safe Reinforcement Learning](https://jmlr.org/papers/v16/garcia15a.html) — *JMLR 2015* — A standard comprehensive survey on safe RL, organizing major methods, taxonomies, and design choices.
 
 ### Sim-to-Real
 
-- [Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey](https://arxiv.org/abs/2009.13303) — *IEEE SSCI 2020* · 📈1093 — A survey on sim-to-real, surveying major methods, techniques, and algorithmic choices.
+- [Sim-to-Real Transfer in Deep Reinforcement Learning for Robotics: a Survey](https://arxiv.org/abs/2009.13303) — *IEEE SSCI 2020* — A survey on sim-to-real, surveying major methods, techniques, and algorithmic choices.
 
 ### Transfer Learning
 
-- [Transfer Learning in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2009.07888) — *IEEE TPAMI 2023* · 📈918 — A survey on transfer learning, organizing major methods, taxonomies, and design choices.
+- [Transfer Learning in Deep Reinforcement Learning: A Survey](https://arxiv.org/abs/2009.07888) — *IEEE TPAMI 2023* — A survey on transfer learning, organizing major methods, taxonomies, and design choices.
 
 ### Visual / Multimodal RL
 
@@ -1597,20 +1597,20 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Autonomous Driving
 
-- [Deep Reinforcement Learning for Autonomous Driving: A Survey](https://arxiv.org/abs/2002.00444) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈2462 — A standard survey on autonomous driving, covering methods, challenges, and future research directions.
-- [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/abs/1910.07738) — *Journal of Field Robotics 2020* · 📈1778 — A standard survey on autonomous driving, surveying major methods, techniques, and algorithmic choices.
-- [Survey of Deep Reinforcement Learning for Motion Planning of Autonomous Vehicles](https://arxiv.org/abs/2001.11231) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈614 — A survey on autonomous driving, organizing major methods, taxonomies, and design choices.
-- [A Survey of Deep RL and IL for Autonomous Driving Policy Learning](https://arxiv.org/abs/2101.01993) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈233 — A survey on autonomous driving, organizing major methods, taxonomies, and design choices.
+- [Deep Reinforcement Learning for Autonomous Driving: A Survey](https://arxiv.org/abs/2002.00444) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈2472 — A standard survey on autonomous driving, covering methods, challenges, and future research directions.
+- [A Survey of Deep Learning Techniques for Autonomous Driving](https://arxiv.org/abs/1910.07738) — *Journal of Field Robotics 2020* · 📈1782 — A standard survey on autonomous driving, surveying major methods, techniques, and algorithmic choices.
+- [Survey of Deep Reinforcement Learning for Motion Planning of Autonomous Vehicles](https://arxiv.org/abs/2001.11231) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈615 — A survey on autonomous driving, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep RL and IL for Autonomous Driving Policy Learning](https://arxiv.org/abs/2101.01993) — *IEEE Transactions on Intelligent Transportation Systems 2022* · 📈236 — A survey on autonomous driving, organizing major methods, taxonomies, and design choices.
 - [A Survey of Deep Reinforcement Learning Algorithms for Motion Planning and Control of Autonomous Vehicles](https://arxiv.org/abs/2105.14218) — *IEEE IV 2021* · 📈72 — A survey on autonomous driving, organizing major methods, taxonomies, and design choices.
 
 ### Embodied AI
 
-- [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) — *IEEE Transactions on Emerging Topics in Computational Intelligence 2022* · 📈564 — A survey on embodied AI, summarizing key methods, datasets, applications, and research directions.
-- [Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI](https://arxiv.org/abs/2407.06886) — *arXiv 2024* · 📈350 — A comprehensive comprehensive survey on embodied AI, organizing major methods, taxonomies, and design choices. — [`HCPLab-SYSU/Embodied_AI_Paper_List`](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) ⭐2158🟢
+- [Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI](https://arxiv.org/abs/2407.06886) — *arXiv 2024* — A comprehensive comprehensive survey on embodied AI, organizing major methods, taxonomies, and design choices. — [`HCPLab-SYSU/Embodied_AI_Paper_List`](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) ⭐2163🟢
+- [A Survey of Embodied AI: From Simulators to Research Tasks](https://arxiv.org/abs/2103.04918) — *IEEE Transactions on Emerging Topics in Computational Intelligence 2022* — A survey on embodied AI, summarizing key methods, datasets, applications, and research directions.
 
 ### Grasping
 
-- [Deep Learning Approaches to Grasp Synthesis: A Review](https://arxiv.org/abs/2207.02556) — *IEEE Transactions on Robotics 2023* · 📈292 — A comprehensive review on grasping, organizing major methods, taxonomies, and design choices.
+- [Deep Learning Approaches to Grasp Synthesis: A Review](https://arxiv.org/abs/2207.02556) — *IEEE Transactions on Robotics 2023* — A comprehensive review on grasping, organizing major methods, taxonomies, and design choices.
 
 ### Legged Locomotion
 
@@ -1618,107 +1618,107 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Manipulation
 
-- [A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms](https://arxiv.org/abs/1907.03146) — *JMLR 2021* · 📈523 — A review on manipulation, summarizing key methods, datasets, applications, and research directions.
 - [A Survey on Deep Reinforcement Learning Algorithms for Robotic Manipulation](https://doi.org/10.3390/s23073762) — *Sensors 2023* — A survey on manipulation, organizing major methods, taxonomies, and design choices.
+- [A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms](https://arxiv.org/abs/1907.03146) — *JMLR 2021* — A review on manipulation, summarizing key methods, datasets, applications, and research directions.
 
 ### Manipulation / Embodied AI
 
-- [A Survey of Embodied Learning for Object-Centric Robotic Manipulation](https://arxiv.org/abs/2408.11537) — *arXiv 2024* · 📈54 — A survey on manipulation and embodied AI, organizing major methods, taxonomies, and design choices. — [`RayYoh/OCRM_survey`](https://github.com/RayYoh/OCRM_survey) ⭐258🔴
+- [A Survey of Embodied Learning for Object-Centric Robotic Manipulation](https://arxiv.org/abs/2408.11537) — *arXiv 2024* — A survey on manipulation and embodied AI, organizing major methods, taxonomies, and design choices. — [`RayYoh/OCRM_survey`](https://github.com/RayYoh/OCRM_survey) ⭐258🔴
 
 ### Motion Planning (learning)
 
 - [A Survey of Optimization-based Task and Motion Planning: From Classical To Learning Approaches](https://arxiv.org/abs/2404.02817) — *IEEE/ASME Transactions on Mechatronics 2024* · 📈92 — A standard survey on motion planning (learning), surveying major methods, techniques, and algorithmic choices.
-- [A Survey on the Integration of Machine Learning with Sampling-based Motion Planning](https://arxiv.org/abs/2211.08368) — *Foundations and Trends in Robotics 2022* · 📈26 — A survey on motion planning (learning), organizing major methods, taxonomies, and design choices.
+- [A Survey on the Integration of Machine Learning with Sampling-based Motion Planning](https://arxiv.org/abs/2211.08368) — *Foundations and Trends in Robotics 2022* — A survey on motion planning (learning), organizing major methods, taxonomies, and design choices.
 
 ### Navigation
 
-- [Deep Learning for Embodied Vision Navigation: A Survey](https://arxiv.org/abs/2108.04097) — *arXiv 2021* · 📈1 — A survey on navigation, surveying major methods, techniques, and algorithmic choices.
+- [Deep Learning for Embodied Vision Navigation: A Survey](https://arxiv.org/abs/2108.04097) — *arXiv 2021* — A survey on navigation, surveying major methods, techniques, and algorithmic choices.
 
 ### Robot Foundation Models
 
-- [Foundation Models in Robotics: Applications, Challenges, and the Future](https://arxiv.org/abs/2312.07843) — *International Journal of Robotics Research 2024* · 📈427 — A key reference on robot foundation models, covering methods, challenges, and future research directions.
+- [Foundation Models in Robotics: Applications, Challenges, and the Future](https://arxiv.org/abs/2312.07843) — *International Journal of Robotics Research 2024* — A key reference on robot foundation models, covering methods, challenges, and future research directions.
 
 ### Robot Learning
 
-- [Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes](https://arxiv.org/abs/2408.03539) — *Annual Review of Control, Robotics, and Autonomous Systems 2025* · 📈432 — A survey on robot learning, with emphasis on benchmarks, evaluation, and representative methods.
+- [Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes](https://arxiv.org/abs/2408.03539) — *Annual Review of Control, Robotics, and Autonomous Systems 2025* — A survey on robot learning, with emphasis on benchmarks, evaluation, and representative methods.
 - [Reinforcement Learning in Robotics: A Survey](https://doi.org/10.1177/0278364913495721) — *International Journal of Robotics Research 2013* — A standard survey on robot learning, covering methods, challenges, and future research directions.
 
 ### Safe RL / Control
 
-- [Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning](https://arxiv.org/abs/2108.06266) — *Annual Review of Control, Robotics, and Autonomous Systems 2022* · 📈1039 — A key reference on safe RL and control, covering theoretical foundations, methods, and implications.
+- [Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning](https://arxiv.org/abs/2108.06266) — *Annual Review of Control, Robotics, and Autonomous Systems 2022* — A key reference on safe RL and control, covering theoretical foundations, methods, and implications.
 
 ### Soft Robotics (learning)
 
-- [Data-driven Methods Applied to Soft Robot Modeling and Control: A Review](https://arxiv.org/abs/2305.12137) — *IEEE Transactions on Automation Science and Engineering 2024* · 📈127 — A review on soft robotics (learning), organizing major methods, taxonomies, and design choices.
+- [Data-driven Methods Applied to Soft Robot Modeling and Control: A Review](https://arxiv.org/abs/2305.12137) — *IEEE Transactions on Automation Science and Engineering 2024* — A review on soft robotics (learning), organizing major methods, taxonomies, and design choices.
 
 ### World Models
 
-- [A Comprehensive Survey on World Models for Embodied AI](https://arxiv.org/abs/2510.16732) — *arXiv 2025* · 📈54 — A comprehensive survey on world models, organizing major methods, taxonomies, and design choices. — [`Li-Zn-H/AwesomeWorldModels`](https://github.com/Li-Zn-H/AwesomeWorldModels) ⭐354🟢
+- [A Comprehensive Survey on World Models for Embodied AI](https://arxiv.org/abs/2510.16732) — *arXiv 2025* — A comprehensive survey on world models, organizing major methods, taxonomies, and design choices. — [`Li-Zn-H/AwesomeWorldModels`](https://github.com/Li-Zn-H/AwesomeWorldModels) ⭐356🟢
 
 ### World Models for Robot Learning
 
-- [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080) — *arXiv preprint 2026* · 📈32 — A comprehensive comprehensive survey on world models for robot learning, organizing major methods, taxonomies, and design choices.
+- [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080) — *arXiv preprint 2026* · 📈33 — A comprehensive comprehensive survey on world models for robot learning, organizing major methods, taxonomies, and design choices.
 
 ## 👥 Multi-Agent Systems
 
 ### Agent Evaluation
 
-- [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416) — *arXiv 2025* · 📈214 — A comprehensive survey on agent evaluation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Survey on Evaluation of LLM-based Agents](https://arxiv.org/abs/2503.16416) — *arXiv 2025* — A comprehensive survey on agent evaluation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Agent Optimization
 
-- [A Survey on the Optimization of Large Language Model-based Agents](https://arxiv.org/abs/2503.12434) — *arXiv 2025* · 📈65 — A survey on agent optimization, organizing major methods, taxonomies, and design choices.
+- [A Survey on the Optimization of Large Language Model-based Agents](https://arxiv.org/abs/2503.12434) — *arXiv 2025* — A survey on agent optimization, organizing major methods, taxonomies, and design choices.
 
 ### Agentic RAG
 
-- [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](https://arxiv.org/abs/2501.09136) — *arXiv 2025* · 📈405 — A survey on agentic RAG, summarizing key methods, datasets, applications, and research directions. — [`asinghcsu/AgenticRAG-Survey`](https://github.com/asinghcsu/AgenticRAG-Survey) ⭐1724🟡
+- [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](https://arxiv.org/abs/2501.09136) — *arXiv 2025* — A survey on agentic RAG, summarizing key methods, datasets, applications, and research directions. — [`asinghcsu/AgenticRAG-Survey`](https://github.com/asinghcsu/AgenticRAG-Survey) ⭐1726🟡
 
 ### Agentic RL
 
-- [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://arxiv.org/abs/2509.02547) — *arXiv 2025* · 📈193 — A comprehensive survey on agentic RL, organizing major methods, taxonomies, and design choices.
+- [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://arxiv.org/abs/2509.02547) — *arXiv 2025* — A comprehensive survey on agentic RL, organizing major methods, taxonomies, and design choices.
 
 ### Autonomous Agents
 
-- [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](https://arxiv.org/abs/2503.21460) — *arXiv 2025* · 📈212 — A survey on autonomous agents, organizing major methods, taxonomies, and design choices. — [`luo-junyu/Awesome-Agent-Papers`](https://github.com/luo-junyu/Awesome-Agent-Papers) ⭐2836🟡
+- [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](https://arxiv.org/abs/2503.21460) — *arXiv 2025* — A survey on autonomous agents, organizing major methods, taxonomies, and design choices. — [`luo-junyu/Awesome-Agent-Papers`](https://github.com/luo-junyu/Awesome-Agent-Papers) ⭐2844🟡
 
 ### Cooperative MARL
 
-- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963) — *Applied Intelligence 2023* · 📈651 — A review on cooperative MARL, organizing major methods, taxonomies, and design choices.
-- [A Survey of Progress on Cooperative Multi-agent Reinforcement Learning in Open Environment](https://arxiv.org/abs/2312.01058) — *arXiv 2023* · 📈89 — A recent survey on cooperative MARL, organizing major methods, taxonomies, and design choices.
+- [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963) — *Applied Intelligence 2023* — A review on cooperative MARL, organizing major methods, taxonomies, and design choices.
+- [A Survey of Progress on Cooperative Multi-agent Reinforcement Learning in Open Environment](https://arxiv.org/abs/2312.01058) — *arXiv 2023* — A recent survey on cooperative MARL, organizing major methods, taxonomies, and design choices.
 
 ### Emergent Communication
 
-- [A Survey of Multi-Agent Deep Reinforcement Learning with Communication](https://arxiv.org/abs/2203.08975) — *AAMAS (JAAMAS) 2024* · 📈330 — A survey on emergent communication, organizing major methods, taxonomies, and design choices.
+- [A Survey of Multi-Agent Deep Reinforcement Learning with Communication](https://arxiv.org/abs/2203.08975) — *AAMAS (JAAMAS) 2024* — A survey on emergent communication, organizing major methods, taxonomies, and design choices.
 
 ### GUI Agents
 
-- [GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890) — *arXiv 2024* · 📈111 — A comprehensive comprehensive survey on GUI agents, organizing major methods, taxonomies, and design choices.
-- [GUI Agents: A Survey](https://arxiv.org/abs/2412.13501) — *ACL Findings 2024* · 📈110 — A survey on GUI agents, with emphasis on benchmarks, evaluation, and representative methods.
+- [GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890) — *arXiv 2024* — A comprehensive comprehensive survey on GUI agents, organizing major methods, taxonomies, and design choices.
+- [GUI Agents: A Survey](https://arxiv.org/abs/2412.13501) — *ACL Findings 2024* — A survey on GUI agents, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Game Theory & Learning
 
-- [An Overview of Multi-Agent Reinforcement Learning from Game Theoretical Perspective](https://arxiv.org/abs/2011.00583) — *arXiv 2020* · 📈217 — An overview on game theory & learning, covering theoretical foundations, methods, and implications.
+- [An Overview of Multi-Agent Reinforcement Learning from Game Theoretical Perspective](https://arxiv.org/abs/2011.00583) — *arXiv 2020* — An overview on game theory & learning, covering theoretical foundations, methods, and implications.
 
 ### LLM Agent Memory
 
-- [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) — *arXiv 2024* · 📈736 — A comprehensive survey on LLM agent memory, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) — *arXiv 2024* — A comprehensive survey on LLM agent memory, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### MARL (deep)
 
-- [Deep Reinforcement Learning for Multi-Agent Systems: A Review of Challenges, Solutions and Applications](https://arxiv.org/abs/1812.11794) — *IEEE Transactions on Cybernetics 2020* · 📈1059 — A review on MARL (deep), covering methods, challenges, and future research directions.
-- [A Survey and Critique of Multiagent Deep Reinforcement Learning](https://arxiv.org/abs/1810.05587) — *AAMAS (JAAMAS) 2019* · 📈745 — A standard survey on MARL (deep), summarizing key methods, datasets, applications, and research directions.
+- [Deep Reinforcement Learning for Multi-Agent Systems: A Review of Challenges, Solutions and Applications](https://arxiv.org/abs/1812.11794) — *IEEE Transactions on Cybernetics 2020* — A review on MARL (deep), covering methods, challenges, and future research directions.
+- [A Survey and Critique of Multiagent Deep Reinforcement Learning](https://arxiv.org/abs/1810.05587) — *AAMAS (JAAMAS) 2019* — A standard survey on MARL (deep), summarizing key methods, datasets, applications, and research directions.
 
 ### MARL (general)
 
-- [Multi-Agent Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/abs/2312.10256) — *arXiv 2024* · 📈76 — A comprehensive comprehensive survey on MARL (general), covering methods, challenges, and future research directions.
+- [Multi-Agent Reinforcement Learning: A Comprehensive Survey](https://arxiv.org/abs/2312.10256) — *arXiv 2024* — A comprehensive comprehensive survey on MARL (general), covering methods, challenges, and future research directions.
 
 ### MARL (theory)
 
-- [Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/abs/1911.10635) — *Handbook of RL and Control 2021* · 📈1739 — An overview on MARL (theory), covering theoretical foundations, methods, and implications.
+- [Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/abs/1911.10635) — *Handbook of RL and Control 2021* — An overview on MARL (theory), covering theoretical foundations, methods, and implications.
 
 ### Multi-Agent Collaboration
 
-- [Multi-Agent Collaboration Mechanisms: A Survey of LLMs](https://arxiv.org/abs/2501.06322) — *arXiv 2025* · 📈560 — A survey on multi-agent collaboration, summarizing key methods, datasets, applications, and research directions.
+- [Multi-Agent Collaboration Mechanisms: A Survey of LLMs](https://arxiv.org/abs/2501.06322) — *arXiv 2025* — A survey on multi-agent collaboration, summarizing key methods, datasets, applications, and research directions.
 
 ### Multi-Agent Reinforcement Learning
 
@@ -1726,59 +1726,59 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Role-Playing Agents
 
-- [From Persona to Personalization: A Survey on Role-Playing Language Agents](https://arxiv.org/abs/2404.18231) — *arXiv 2024* · 📈268 — A survey on role-playing agents, with emphasis on benchmarks, evaluation, and representative methods.
+- [From Persona to Personalization: A Survey on Role-Playing Language Agents](https://arxiv.org/abs/2404.18231) — *arXiv 2024* — A survey on role-playing agents, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Tool Learning
 
-- [Tool Learning with Large Language Models: A Survey](https://arxiv.org/abs/2405.17935) — *arXiv 2024* · 📈323 — A comprehensive survey on tool learning, with emphasis on benchmarks, evaluation, and representative methods. — [`quchangle1/LLM-Tool-Survey`](https://github.com/quchangle1/LLM-Tool-Survey) ⭐486🟡
+- [Tool Learning with Large Language Models: A Survey](https://arxiv.org/abs/2405.17935) — *arXiv 2024* — A comprehensive survey on tool learning, with emphasis on benchmarks, evaluation, and representative methods. — [`quchangle1/LLM-Tool-Survey`](https://github.com/quchangle1/LLM-Tool-Survey) ⭐488🟡
 
 ### Web Agents
 
-- [A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models](https://arxiv.org/abs/2503.23350) — *arXiv 2025* · 📈127 — A comprehensive survey on web agents, organizing major methods, taxonomies, and design choices.
+- [A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models](https://arxiv.org/abs/2503.23350) — *arXiv 2025* — A comprehensive survey on web agents, organizing major methods, taxonomies, and design choices.
 
 ## 🕸️ Graph Neural Networks (GNN)
 
 ### Dynamic Graph Neural Networks
 
-- [A survey of dynamic graph neural networks](https://arxiv.org/abs/2404.18211) — *Frontiers of Computer Science 2024* · 📈130 — A recent survey on dynamic graph neural networks, organizing major methods, taxonomies, and design choices.
+- [A survey of dynamic graph neural networks](https://arxiv.org/abs/2404.18211) — *Frontiers of Computer Science 2024* · 📈133 — A recent survey on dynamic graph neural networks, organizing major methods, taxonomies, and design choices.
 
 ### Dynamic Graphs
 
-- [Representation Learning for Dynamic Graphs: A Survey](https://arxiv.org/abs/1905.11485) — *JMLR 2020* · 📈659 — A standard survey on dynamic graphs, organizing major methods, taxonomies, and design choices.
-- [Graph Neural Networks for Temporal Graphs: State of the Art, Open Challenges, and Opportunities](https://arxiv.org/abs/2302.01018) — *TMLR 2023* · 📈124 — A recent key reference on dynamic graphs, covering methods, challenges, and future research directions.
+- [Graph Neural Networks for Temporal Graphs: State of the Art, Open Challenges, and Opportunities](https://arxiv.org/abs/2302.01018) — *TMLR 2023* — A recent key reference on dynamic graphs, covering methods, challenges, and future research directions.
+- [Representation Learning for Dynamic Graphs: A Survey](https://arxiv.org/abs/1905.11485) — *JMLR 2020* — A standard survey on dynamic graphs, organizing major methods, taxonomies, and design choices.
 
 ### GNN Benchmark
 
-- [Benchmarking Graph Neural Networks](https://arxiv.org/abs/2003.00982) — *JMLR 2023* · 📈1246 — A standard benchmarking reference on GNN benchmark, with emphasis on benchmarks, evaluation, and representative methods.
+- [Benchmarking Graph Neural Networks](https://arxiv.org/abs/2003.00982) — *JMLR 2023* — A standard benchmarking reference on GNN benchmark, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### GNN Explainability
 
-- [Explainability in Graph Neural Networks: A Taxonomic Survey](https://arxiv.org/abs/2012.15445) — *IEEE TPAMI 2022* · 📈878 — A standard survey on GNN explainability, with emphasis on benchmarks, evaluation, and representative methods.
+- [Explainability in Graph Neural Networks: A Taxonomic Survey](https://arxiv.org/abs/2012.15445) — *IEEE TPAMI 2022* — A standard survey on GNN explainability, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### GNN General
 
-- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434) — *AI Open 2020* · 📈7294 — A highly cited review that systematizes GNN architectures, design pipelines, and applications.
+- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434) — *AI Open 2020* — A highly cited review that systematizes GNN architectures, design pipelines, and applications.
 
 ### GNN for NLP
 
-- [Graph Neural Networks for Natural Language Processing: A Survey](https://arxiv.org/abs/2106.06090) — *Foundations and Trends in Machine Learning 2021* · 📈0 — A survey on GNN for NLP, organizing major methods, taxonomies, and design choices.
+- [Graph Neural Networks for Natural Language Processing: A Survey](https://arxiv.org/abs/2106.06090) — *Foundations and Trends in Machine Learning 2021* — A survey on GNN for NLP, organizing major methods, taxonomies, and design choices.
 
 ### Graph Adversarial Robustness
 
-- [Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies](https://arxiv.org/abs/2003.00653) — *SIGKDD Explorations 2020* · 📈108 — A review on graph adversarial robustness, organizing major methods, taxonomies, and design choices.
+- [Adversarial Attacks and Defenses on Graphs: A Review, A Tool and Empirical Studies](https://arxiv.org/abs/2003.00653) — *SIGKDD Explorations 2020* — A review on graph adversarial robustness, organizing major methods, taxonomies, and design choices.
 
 ### Graph Anomaly Detection
 
-- [Deep Graph Anomaly Detection: A Survey and New Perspectives](https://arxiv.org/abs/2409.09957) — *IEEE TKDE 2024* · 📈116 — A recent survey on graph anomaly detection, organizing major methods, taxonomies, and design choices.
+- [Deep Graph Anomaly Detection: A Survey and New Perspectives](https://arxiv.org/abs/2409.09957) — *IEEE TKDE 2024* — A recent survey on graph anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### Graph Condensation
 
-- [Graph Condensation: A Survey](https://arxiv.org/abs/2401.11720) — *arXiv preprint 2024* · 📈43 — A comprehensive survey on graph condensation, covering core methods, applications, and research trends.
-- [A Survey on Graph Condensation](https://arxiv.org/abs/2402.02000) — *arXiv preprint 2024* · 📈13 — A comprehensive survey on graph condensation, organizing major methods, taxonomies, and design choices.
+- [Graph Condensation: A Survey](https://arxiv.org/abs/2401.11720) — *arXiv preprint 2024* · 📈44 — A comprehensive survey on graph condensation, covering core methods, applications, and research trends.
+- [A Survey on Graph Condensation](https://arxiv.org/abs/2402.02000) — *arXiv preprint 2024* — A comprehensive survey on graph condensation, organizing major methods, taxonomies, and design choices.
 
 ### Graph Contrastive Learning
 
-- [Towards Graph Contrastive Learning: A Survey and Beyond](https://arxiv.org/abs/2405.11868) — *arXiv 2024* · 📈73 — A comprehensive survey on graph contrastive learning, organizing major methods, taxonomies, and design choices.
+- [Towards Graph Contrastive Learning: A Survey and Beyond](https://arxiv.org/abs/2405.11868) — *arXiv 2024* — A comprehensive survey on graph contrastive learning, organizing major methods, taxonomies, and design choices.
 
 ### Graph Distribution Shift
 
@@ -1786,50 +1786,50 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Graph Embedding
 
-- [A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications](https://arxiv.org/abs/1709.07604) — *IEEE TKDE 2018* · 📈1975 — A highly cited standard comprehensive survey on graph embedding, covering core methods, applications, and research trends.
+- [A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications](https://arxiv.org/abs/1709.07604) — *IEEE TKDE 2018* · 📈1979 — A highly cited standard comprehensive survey on graph embedding, covering core methods, applications, and research trends.
 - [Graph Embedding Techniques, Applications, and Performance: A Survey](https://arxiv.org/abs/1705.02801) — *Knowledge-Based Systems 2018* · 📈1826 — A standard survey on graph embedding, with comparative analysis of representative methods and systems.
 
 ### Graph Generation
 
-- [A Systematic Survey on Deep Generative Models for Graph Generation](https://arxiv.org/abs/2007.06686) — *IEEE TPAMI 2020* · 📈204 — A comprehensive survey on graph generation, organizing major methods, taxonomies, and design choices.
+- [A Systematic Survey on Deep Generative Models for Graph Generation](https://arxiv.org/abs/2007.06686) — *IEEE TPAMI 2020* — A comprehensive survey on graph generation, organizing major methods, taxonomies, and design choices.
 
 ### Graph OOD Adaptation
 
-- [Beyond Generalization: A Survey of Out-Of-Distribution Adaptation on Graphs](https://arxiv.org/abs/2402.11153) — *arXiv preprint 2024* · 📈10 — A survey on graph OOD adaptation, organizing major methods, taxonomies, and design choices. — [`kaize0409/Awesome-Graph-OOD`](https://github.com/kaize0409/Awesome-Graph-OOD) ⭐85🔴
+- [Beyond Generalization: A Survey of Out-Of-Distribution Adaptation on Graphs](https://arxiv.org/abs/2402.11153) — *arXiv preprint 2024* · 📈10 — A survey on graph OOD adaptation, organizing major methods, taxonomies, and design choices. — [`kaize0409/Awesome-Graph-OOD`](https://github.com/kaize0409/Awesome-Graph-OOD) ⭐86🔴
 
 ### Graph OOD Generalization / Adaptation
 
-- [A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation](https://arxiv.org/abs/2410.19265) — *arXiv preprint 2024* · 📈22 — A survey on graph OOD generalization and adaptation, organizing major methods, taxonomies, and design choices. — [`kaize0409/Awesome-Graph-OOD`](https://github.com/kaize0409/Awesome-Graph-OOD) ⭐85🔴
+- [A Survey of Deep Graph Learning under Distribution Shifts: from Graph Out-of-Distribution Generalization to Adaptation](https://arxiv.org/abs/2410.19265) — *arXiv preprint 2024* · 📈23 — A survey on graph OOD generalization and adaptation, organizing major methods, taxonomies, and design choices. — [`kaize0409/Awesome-Graph-OOD`](https://github.com/kaize0409/Awesome-Graph-OOD) ⭐86🔴
 
 ### Graph Pooling
 
-- [Graph Pooling for Graph Neural Networks: Progress, Challenges, and Opportunities](https://arxiv.org/abs/2204.07321) — *IJCAI Survey Track 2023* · 📈134 — A key reference on graph pooling, covering methods, challenges, and future research directions.
+- [Graph Pooling for Graph Neural Networks: Progress, Challenges, and Opportunities](https://arxiv.org/abs/2204.07321) — *IJCAI Survey Track 2023* — A key reference on graph pooling, covering methods, challenges, and future research directions.
 
 ### Graph Reduction
 
-- [A Comprehensive Survey on Graph Reduction: Sparsification, Coarsening, and Condensation](https://arxiv.org/abs/2402.03358) — *IJCAI 2024 2024* · 📈114 — A comprehensive survey on graph reduction, summarizing key methods, datasets, applications, and research directions.
+- [A Comprehensive Survey on Graph Reduction: Sparsification, Coarsening, and Condensation](https://arxiv.org/abs/2402.03358) — *IJCAI 2024 2024* — A comprehensive survey on graph reduction, summarizing key methods, datasets, applications, and research directions.
 
 ### Graph Representation Learning
 
-- [Machine Learning on Graphs: A Model and Comprehensive Taxonomy](https://arxiv.org/abs/2005.03675) — *JMLR 2022* · 📈347 — A taxonomy on graph representation learning, organizing major methods, taxonomies, and design choices.
+- [Machine Learning on Graphs: A Model and Comprehensive Taxonomy](https://arxiv.org/abs/2005.03675) — *JMLR 2022* — A taxonomy on graph representation learning, organizing major methods, taxonomies, and design choices.
 
 ### Graph Self-Supervised Learning
 
-- [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111) — *IEEE TKDE 2022* · 📈775 — A survey on graph self-supervised learning, organizing major methods, taxonomies, and design choices.
-- [Self-Supervised Learning of Graph Neural Networks: A Unified Review](https://arxiv.org/abs/2102.10757) — *IEEE TPAMI 2022* · 📈418 — A review on graph self-supervised learning, organizing major methods, taxonomies, and design choices.
-- [Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive](https://arxiv.org/abs/2105.07342) — *IEEE TKDE 2023* · 📈345 — A key reference on graph self-supervised learning, organizing major methods, taxonomies, and design choices. — [`LirongWu/awesome-graph-self-supervised-learning`](https://github.com/LirongWu/awesome-graph-self-supervised-learning) ⭐1436🔴
+- [Self-supervised Learning on Graphs: Contrastive, Generative, or Predictive](https://arxiv.org/abs/2105.07342) — *IEEE TKDE 2023* — A key reference on graph self-supervised learning, organizing major methods, taxonomies, and design choices. — [`LirongWu/awesome-graph-self-supervised-learning`](https://github.com/LirongWu/awesome-graph-self-supervised-learning) ⭐1436🔴
+- [Self-Supervised Learning of Graph Neural Networks: A Unified Review](https://arxiv.org/abs/2102.10757) — *IEEE TPAMI 2022* — A review on graph self-supervised learning, organizing major methods, taxonomies, and design choices.
+- [Graph Self-Supervised Learning: A Survey](https://arxiv.org/abs/2103.00111) — *IEEE TKDE 2022* — A survey on graph self-supervised learning, organizing major methods, taxonomies, and design choices.
 
 ### Graph Transformers
 
-- [Transformer for Graphs: An Overview from Architecture Perspective](https://arxiv.org/abs/2202.08455) — *arXiv 2022* · 📈217 — An overview on graph transformers, with comparative analysis of representative methods and systems.
+- [Transformer for Graphs: An Overview from Architecture Perspective](https://arxiv.org/abs/2202.08455) — *arXiv 2022* — An overview on graph transformers, with comparative analysis of representative methods and systems.
 
 ### Heterogeneous Graphs
 
-- [Heterogeneous Network Representation Learning: A Unified Framework With Survey and Benchmark](https://arxiv.org/abs/2004.00216) — *IEEE TKDE 2022* · 📈60 — A survey on heterogeneous graphs, with emphasis on benchmarks, evaluation, and representative methods.
+- [Heterogeneous Network Representation Learning: A Unified Framework With Survey and Benchmark](https://arxiv.org/abs/2004.00216) — *IEEE TKDE 2022* — A survey on heterogeneous graphs, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Heterophilic GNN
 
-- [Graph Neural Networks for Graphs with Heterophily: A Survey](https://arxiv.org/abs/2202.07082) — *IEEE TKDE 2022* · 📈322 — A comprehensive survey on heterophilic GNN, organizing major methods, taxonomies, and design choices.
+- [Graph Neural Networks for Graphs with Heterophily: A Survey](https://arxiv.org/abs/2202.07082) — *IEEE TKDE 2022* — A comprehensive survey on heterophilic GNN, organizing major methods, taxonomies, and design choices.
 
 ### Hypergraph Neural Networks
 
@@ -1841,16 +1841,16 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Molecular / Drug Discovery
 
-- [Graph Neural Networks for the Prediction of Molecular Structure-Property Relationships](https://arxiv.org/abs/2208.04852) — *RSC (Machine Learning and Hybrid Modelling for Reaction Engineering) 2022* · 📈25 — A key reference on molecular and drug discovery, summarizing key methods, datasets, applications, and research directions.
-- [A Survey of Graph Neural Networks for Drug Discovery: Recent Developments and Challenges](https://arxiv.org/abs/2509.07887) — *arXiv 2025* · 📈0 — A recent survey on molecular and drug discovery, organizing major methods, taxonomies, and design choices.
+- [A Survey of Graph Neural Networks for Drug Discovery: Recent Developments and Challenges](https://arxiv.org/abs/2509.07887) — *arXiv 2025* — A recent survey on molecular and drug discovery, organizing major methods, taxonomies, and design choices.
+- [Graph Neural Networks for the Prediction of Molecular Structure-Property Relationships](https://arxiv.org/abs/2208.04852) — *RSC (Machine Learning and Hybrid Modelling for Reaction Engineering) 2022* — A key reference on molecular and drug discovery, summarizing key methods, datasets, applications, and research directions.
 
 ### Scalable GNN
 
-- [A Comprehensive Survey on Distributed Training of Graph Neural Networks](https://arxiv.org/abs/2211.05368) — *Proceedings of the IEEE 2022* · 📈50 — A comprehensive comprehensive survey on scalable GNN, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Distributed Training of Graph Neural Networks](https://arxiv.org/abs/2211.05368) — *Proceedings of the IEEE 2022* — A comprehensive comprehensive survey on scalable GNN, organizing major methods, taxonomies, and design choices.
 
 ### Spatio-Temporal GNN
 
-- [A Systematic Literature Review of Spatio-Temporal Graph Neural Network Models for Time Series Forecasting and Classification](https://arxiv.org/abs/2410.22377) — *arXiv preprint 2024* · 📈35 — A comprehensive systematic literature review on spatio-temporal GNN, organizing major methods, taxonomies, and design choices.
+- [A Systematic Literature Review of Spatio-Temporal Graph Neural Network Models for Time Series Forecasting and Classification](https://arxiv.org/abs/2410.22377) — *arXiv preprint 2024* · 📈38 — A comprehensive systematic literature review on spatio-temporal GNN, organizing major methods, taxonomies, and design choices.
 
 ## 🔗 Knowledge Representation and Knowledge Graphs
 
@@ -1864,73 +1864,73 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Entity Alignment
 
-- [A Benchmark and Comprehensive Survey on Knowledge Graph Entity Alignment via Representation Learning](https://arxiv.org/abs/2103.15059) — *The VLDB Journal 2021* · 📈103 — A comprehensive survey on entity alignment, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Benchmark and Comprehensive Survey on Knowledge Graph Entity Alignment via Representation Learning](https://arxiv.org/abs/2103.15059) — *The VLDB Journal 2021* — A comprehensive survey on entity alignment, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Graph + LLM
 
-- [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) — *KDD 2024* · 📈157 — A survey on graphs and large language models, organizing major methods, taxonomies, and design choices. — [`HKUDS/Awesome-LLM4Graph-Papers`](https://github.com/HKUDS/Awesome-LLM4Graph-Papers) ⭐371🟡
-- [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399) — *IJCAI 2024* · 📈123 — A survey on graphs and large language models, organizing major methods, taxonomies, and design choices. — [`yhLeeee/Awesome-LLMs-in-Graph-tasks`](https://github.com/yhLeeee/Awesome-LLMs-in-Graph-tasks) ⭐656🟡
+- [A Survey of Large Language Models for Graphs](https://arxiv.org/abs/2405.08011) — *KDD 2024* — A survey on graphs and large language models, organizing major methods, taxonomies, and design choices. — [`HKUDS/Awesome-LLM4Graph-Papers`](https://github.com/HKUDS/Awesome-LLM4Graph-Papers) ⭐371🟡
+- [A Survey of Graph Meets Large Language Model: Progress and Future Directions](https://arxiv.org/abs/2311.12399) — *IJCAI 2024* — A survey on graphs and large language models, organizing major methods, taxonomies, and design choices. — [`yhLeeee/Awesome-LLMs-in-Graph-tasks`](https://github.com/yhLeeee/Awesome-LLMs-in-Graph-tasks) ⭐657🟡
 
 ### Graph Retrieval-Augmented Generation
 
-- [Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/abs/2408.08921) — *arXiv 2024* · 📈559 — A comprehensive survey on graph retrieval-augmented generation, organizing major methods, taxonomies, and design choices.
+- [Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/abs/2408.08921) — *arXiv 2024* — A comprehensive survey on graph retrieval-augmented generation, organizing major methods, taxonomies, and design choices.
 
 ### Knowledge Base Question Answering
 
-- [Complex Knowledge Base Question Answering: A Survey](https://arxiv.org/abs/2108.06688) — *IEEE TKDE 2021* · 📈154 — A survey on knowledge base question answering, organizing major methods, taxonomies, and design choices.
+- [Complex Knowledge Base Question Answering: A Survey](https://arxiv.org/abs/2108.06688) — *IEEE TKDE 2021* — A survey on knowledge base question answering, organizing major methods, taxonomies, and design choices.
 
 ### Knowledge Graph + LLM
 
-- [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://arxiv.org/abs/2306.08302) — *IEEE TKDE 2023* · 📈1720 — A standard key reference on knowledge graphs and large language models, organizing major methods, taxonomies, and design choices. — [`RManLuo/Awesome-LLM-KG`](https://github.com/RManLuo/Awesome-LLM-KG) ⭐2614🟡
-- [LLMs for Knowledge Graph Construction and Reasoning: Recent Capabilities and Future Opportunities](https://arxiv.org/abs/2305.13168) — *World Wide Web Journal 2023* · 📈306 — A key reference on knowledge graphs and large language models, with emphasis on benchmarks, evaluation, and representative methods.
+- [Unifying Large Language Models and Knowledge Graphs: A Roadmap](https://arxiv.org/abs/2306.08302) — *IEEE TKDE 2023* — A standard key reference on knowledge graphs and large language models, organizing major methods, taxonomies, and design choices. — [`RManLuo/Awesome-LLM-KG`](https://github.com/RManLuo/Awesome-LLM-KG) ⭐2613🟡
+- [LLMs for Knowledge Graph Construction and Reasoning: Recent Capabilities and Future Opportunities](https://arxiv.org/abs/2305.13168) — *World Wide Web Journal 2023* — A key reference on knowledge graphs and large language models, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Knowledge Graph Completion
 
-- [A Review of Knowledge Graph Completion](https://arxiv.org/abs/2208.11652) — *Information (MDPI) 2022* · 📈94 — A recent review on knowledge graph completion, with comparative analysis of representative methods and systems.
+- [A Review of Knowledge Graph Completion](https://arxiv.org/abs/2208.11652) — *Information (MDPI) 2022* — A recent review on knowledge graph completion, with comparative analysis of representative methods and systems.
 
 ### Knowledge Graph Construction
 
-- [A Comprehensive Survey on Automatic Knowledge Graph Construction](https://arxiv.org/abs/2302.05019) — *ACM Computing Surveys 2023* · 📈376 — A comprehensive comprehensive survey on knowledge graph construction, organizing major methods, taxonomies, and design choices.
-- [Construction of Knowledge Graphs: State and Challenges](https://arxiv.org/abs/2302.11509) — *arXiv 2023* · 📈86 — A recent key reference on knowledge graph construction, summarizing key methods, datasets, applications, and research directions.
+- [A Comprehensive Survey on Automatic Knowledge Graph Construction](https://arxiv.org/abs/2302.05019) — *ACM Computing Surveys 2023* — A comprehensive comprehensive survey on knowledge graph construction, organizing major methods, taxonomies, and design choices.
+- [Construction of Knowledge Graphs: State and Challenges](https://arxiv.org/abs/2302.11509) — *arXiv 2023* — A recent key reference on knowledge graph construction, summarizing key methods, datasets, applications, and research directions.
 
 ### Knowledge Graph Embedding
 
-- [A Review of Relational Machine Learning for Knowledge Graphs](https://arxiv.org/abs/1503.00759) — *Proceedings of the IEEE 2016* · 📈1765 — A standard review on knowledge graph embedding, summarizing key methods, datasets, applications, and research directions.
-- [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842) — *arXiv 2021* · 📈69 — A survey on knowledge graph embedding, covering core methods, applications, and research trends.
-- [Negative Sampling in Knowledge Graph Representation Learning: A Review](https://arxiv.org/abs/2402.19195) — *arXiv 2024* · 📈15 — A comprehensive review on knowledge graph embedding, organizing major methods, taxonomies, and design choices.
-- [A Survey on Knowledge Graph Structure and Knowledge Graph Embeddings](https://arxiv.org/abs/2412.10092) — *arXiv 2024* · 📈4 — A comprehensive survey on knowledge graph embedding, organizing major methods, taxonomies, and design choices.
+- [A Survey on Knowledge Graph Structure and Knowledge Graph Embeddings](https://arxiv.org/abs/2412.10092) — *arXiv 2024* — A comprehensive survey on knowledge graph embedding, organizing major methods, taxonomies, and design choices.
+- [Negative Sampling in Knowledge Graph Representation Learning: A Review](https://arxiv.org/abs/2402.19195) — *arXiv 2024* — A comprehensive review on knowledge graph embedding, organizing major methods, taxonomies, and design choices.
+- [A Survey of Knowledge Graph Embedding and Their Applications](https://arxiv.org/abs/2107.07842) — *arXiv 2021* — A survey on knowledge graph embedding, covering core methods, applications, and research trends.
+- [A Review of Relational Machine Learning for Knowledge Graphs](https://arxiv.org/abs/1503.00759) — *Proceedings of the IEEE 2016* — A standard review on knowledge graph embedding, summarizing key methods, datasets, applications, and research directions.
 
 ### Knowledge Graph General
 
-- [Knowledge Graphs](https://arxiv.org/abs/2003.02320) — *ACM Computing Surveys 2021* · 📈2777 — A comprehensive key reference on knowledge graph general, organizing major methods, taxonomies, and design choices.
+- [Knowledge Graphs](https://arxiv.org/abs/2003.02320) — *ACM Computing Surveys 2021* — A comprehensive key reference on knowledge graph general, organizing major methods, taxonomies, and design choices.
 
 ### Knowledge Graph Question Answering
 
-- [Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities](https://arxiv.org/abs/2505.20099) — *arXiv 2025* · 📈52 — A key reference on knowledge graph question answering, organizing major methods, taxonomies, and design choices.
+- [Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities](https://arxiv.org/abs/2505.20099) — *arXiv 2025* — A key reference on knowledge graph question answering, organizing major methods, taxonomies, and design choices.
 
 ### Knowledge Graph Reasoning
 
-- [A Survey of Knowledge Graph Reasoning on Graph Types: Static, Dynamic, and Multimodal](https://arxiv.org/abs/2212.05767) — *IEEE TPAMI 2022* · 📈332 — A survey on knowledge graph reasoning, organizing major methods, taxonomies, and design choices.
+- [A Survey of Knowledge Graph Reasoning on Graph Types: Static, Dynamic, and Multimodal](https://arxiv.org/abs/2212.05767) — *IEEE TPAMI 2022* — A survey on knowledge graph reasoning, organizing major methods, taxonomies, and design choices.
 
 ### LLM-based Knowledge Graph Construction
 
-- [LLM-empowered knowledge graph construction: A survey](https://arxiv.org/abs/2510.20345) — *arXiv 2025* · 📈31 — A survey on LLM-based knowledge graph construction, organizing major methods, taxonomies, and design choices.
+- [LLM-empowered knowledge graph construction: A survey](https://arxiv.org/abs/2510.20345) — *arXiv 2025* — A survey on LLM-based knowledge graph construction, organizing major methods, taxonomies, and design choices.
 
 ### Neural-Symbolic Reasoning
 
-- [Neural-Symbolic Reasoning over Knowledge Graphs: A Survey from a Query Perspective](https://arxiv.org/abs/2412.10390) — *arXiv 2024* · 📈34 — A survey on neural-symbolic reasoning, summarizing key methods, datasets, applications, and research directions.
+- [Neural-Symbolic Reasoning over Knowledge Graphs: A Survey from a Query Perspective](https://arxiv.org/abs/2412.10390) — *arXiv 2024* — A survey on neural-symbolic reasoning, summarizing key methods, datasets, applications, and research directions.
 
 ### Neurosymbolic AI
 
-- [From Statistical Relational to Neurosymbolic Artificial Intelligence: a Survey](https://arxiv.org/abs/2108.11451) — *Artificial Intelligence 2021* · 📈133 — A survey on neurosymbolic AI, organizing major methods, taxonomies, and design choices.
+- [From Statistical Relational to Neurosymbolic Artificial Intelligence: a Survey](https://arxiv.org/abs/2108.11451) — *Artificial Intelligence 2021* — A survey on neurosymbolic AI, organizing major methods, taxonomies, and design choices.
 
 ### Neurosymbolic Reasoning
 
-- [Neurosymbolic AI for Reasoning over Knowledge Graphs: A Survey](https://arxiv.org/abs/2302.07200) — *arXiv 2023* · 📈63 — A survey on neurosymbolic reasoning, organizing major methods, taxonomies, and design choices.
+- [Neurosymbolic AI for Reasoning over Knowledge Graphs: A Survey](https://arxiv.org/abs/2302.07200) — *arXiv 2023* — A survey on neurosymbolic reasoning, organizing major methods, taxonomies, and design choices.
 
 ### Ontology Embedding
 
-- [Ontology Embedding: A Survey of Methods, Applications and Resources](https://arxiv.org/abs/2406.10964) — *arXiv 2024* · 📈34 — A comprehensive survey on ontology embedding, covering core methods, applications, and research trends.
+- [Ontology Embedding: A Survey of Methods, Applications and Resources](https://arxiv.org/abs/2406.10964) — *arXiv 2024* — A comprehensive survey on ontology embedding, covering core methods, applications, and research trends.
 
 ### Planning / RL for Optimization
 
@@ -1942,34 +1942,34 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### RDF Stores and SPARQL Engines
 
-- [A Survey of RDF Stores & SPARQL Engines for Querying Knowledge Graphs](https://arxiv.org/abs/2102.13027) — *The VLDB Journal 2021* · 📈121 — A survey on RDF stores and SPARQL engines, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey of RDF Stores & SPARQL Engines for Querying Knowledge Graphs](https://arxiv.org/abs/2102.13027) — *The VLDB Journal 2021* — A survey on RDF stores and SPARQL engines, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Temporal Knowledge Graph
 
-- [A Survey on Temporal Knowledge Graph: Representation Learning and Applications](https://arxiv.org/abs/2403.04782) — *arXiv 2024* · 📈68 — A comprehensive survey on temporal knowledge graph, covering core methods, applications, and research trends.
+- [A Survey on Temporal Knowledge Graph: Representation Learning and Applications](https://arxiv.org/abs/2403.04782) — *arXiv 2024* — A comprehensive survey on temporal knowledge graph, covering core methods, applications, and research trends.
 
 ### Temporal Knowledge Graph Completion
 
-- [A Survey on Temporal Knowledge Graph Completion: Taxonomy, Progress, and Prospects](https://arxiv.org/abs/2308.02457) — *arXiv 2023* · 📈43 — A survey on temporal knowledge graph completion, covering methods, challenges, and future research directions.
+- [A Survey on Temporal Knowledge Graph Completion: Taxonomy, Progress, and Prospects](https://arxiv.org/abs/2308.02457) — *arXiv 2023* — A survey on temporal knowledge graph completion, covering methods, challenges, and future research directions.
 
 ### Temporal Knowledge Graph Question Answering
 
-- [Temporal Knowledge Graph Question Answering: A Survey](https://arxiv.org/abs/2406.14191) — *arXiv 2024* · 📈20 — A survey on temporal knowledge graph question answering, organizing major methods, taxonomies, and design choices.
+- [Temporal Knowledge Graph Question Answering: A Survey](https://arxiv.org/abs/2406.14191) — *arXiv 2024* — A survey on temporal knowledge graph question answering, organizing major methods, taxonomies, and design choices.
 
 ## 🎯 Causal Inference
 
 ### Causal Discovery
 
-- [D'ya like DAGs? A Survey on Structure Learning and Causal Discovery](https://arxiv.org/abs/2103.02582) — *ACM Computing Surveys 2021* · 📈408 — A standard comprehensive survey on causal discovery, organizing major methods, taxonomies, and design choices.
-- [A Survey on Causal Discovery Methods for I.I.D. and Time Series Data](https://arxiv.org/abs/2303.15027) — *TMLR 2023* · 📈66 — A recent survey on causal discovery, organizing major methods, taxonomies, and design choices.
+- [A Survey on Causal Discovery Methods for I.I.D. and Time Series Data](https://arxiv.org/abs/2303.15027) — *TMLR 2023* — A recent survey on causal discovery, organizing major methods, taxonomies, and design choices.
+- [D'ya like DAGs? A Survey on Structure Learning and Causal Discovery](https://arxiv.org/abs/2103.02582) — *ACM Computing Surveys 2021* — A standard comprehensive survey on causal discovery, organizing major methods, taxonomies, and design choices.
 
 ### Causal Generative Modeling
 
-- [From Identifiable Causal Representations to Controllable Counterfactual Generation: A Survey on Causal Generative Modeling](https://arxiv.org/abs/2310.11011) — *TMLR 2024* · 📈34 — A survey on causal generative modeling, covering theoretical foundations, methods, and implications.
+- [From Identifiable Causal Representations to Controllable Counterfactual Generation: A Survey on Causal Generative Modeling](https://arxiv.org/abs/2310.11011) — *TMLR 2024* · 📈35 — A survey on causal generative modeling, covering theoretical foundations, methods, and implications.
 
 ### Causal Inference
 
-- [A Survey on Causal Inference](https://arxiv.org/abs/2002.02770) — *ACM TKDD 2021* · 📈702 — A standard survey on causal inference, organizing major methods, taxonomies, and design choices.
+- [A Survey on Causal Inference](https://arxiv.org/abs/2002.02770) — *ACM TKDD 2021* — A standard survey on causal inference, organizing major methods, taxonomies, and design choices.
 
 ### Causal Machine Learning
 
@@ -1977,7 +1977,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Causal Reinforcement Learning
 
-- [Causal Reinforcement Learning: A Survey](https://arxiv.org/abs/2307.01452) — *TMLR 2023* · 📈46 — A comprehensive survey on causal reinforcement learning, organizing major methods, taxonomies, and design choices.
+- [Causal Reinforcement Learning: A Survey](https://arxiv.org/abs/2307.01452) — *TMLR 2023* · 📈47 — A comprehensive survey on causal reinforcement learning, organizing major methods, taxonomies, and design choices.
 
 ### Causal Representation Learning
 
@@ -1985,19 +1985,19 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Causality + LLM
 
-- [Causal Inference with Large Language Model: A Survey](https://arxiv.org/abs/2409.09822) — *arXiv 2024* · 📈49 — A recent survey on causality + LLM, organizing major methods, taxonomies, and design choices.
+- [Causal Inference with Large Language Model: A Survey](https://arxiv.org/abs/2409.09822) — *arXiv 2024* — A recent survey on causality + LLM, organizing major methods, taxonomies, and design choices.
 
 ### Causality and Fairness
 
-- [Survey on Causal-based Machine Learning Fairness Notions](https://arxiv.org/abs/2010.09553) — *arXiv 2020* · 📈100 — A comprehensive survey on causality and fairness, organizing major methods, taxonomies, and design choices.
+- [Survey on Causal-based Machine Learning Fairness Notions](https://arxiv.org/abs/2010.09553) — *arXiv 2020* · 📈99 — A comprehensive survey on causality and fairness, organizing major methods, taxonomies, and design choices.
 
 ### Causality and LLM
 
-- [Large Language Models and Causal Inference in Collaboration: A Survey](https://arxiv.org/abs/2403.09606) — *arXiv 2024* · 📈30 — A survey on causality and LLM, with emphasis on benchmarks, evaluation, and representative methods.
+- [Large Language Models and Causal Inference in Collaboration: A Survey](https://arxiv.org/abs/2403.09606) — *arXiv 2024* · 📈31 — A survey on causality and LLM, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Causality and NLP
 
-- [Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond](https://arxiv.org/abs/2109.00725) — *TACL 2022* · 📈340 — A standard key reference on causality and NLP, summarizing key methods, datasets, applications, and research directions.
+- [Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond](https://arxiv.org/abs/2109.00725) — *TACL 2022* · 📈342 — A standard key reference on causality and NLP, summarizing key methods, datasets, applications, and research directions.
 
 ### Causality and Recommendation
 
@@ -2009,15 +2009,15 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Treatment Effect Estimation
 
-- [A Survey of Deep Causal Models and Their Industrial Applications](https://arxiv.org/abs/2209.08860) — *arXiv 2022* · 📈22 — A survey on treatment effect estimation, covering core methods, applications, and research trends.
-- [Causal Inference with Complex Treatments: A Survey](https://arxiv.org/abs/2407.14022) — *arXiv 2024* · 📈11 — A survey on treatment effect estimation, organizing major methods, taxonomies, and design choices.
+- [Causal Inference with Complex Treatments: A Survey](https://arxiv.org/abs/2407.14022) — *arXiv 2024* — A survey on treatment effect estimation, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Causal Models and Their Industrial Applications](https://arxiv.org/abs/2209.08860) — *arXiv 2022* — A survey on treatment effect estimation, covering core methods, applications, and research trends.
 
 ## ⏱️ Time Series and Spatio-Temporal AI
 
 ### EEG / Biosignal Deep Learning
 
-- [Deep learning-based electroencephalography analysis: a systematic review](https://arxiv.org/abs/1901.05498) — *Journal of Neural Engineering 2019* · 📈1416 — A standard review on EEG and biosignal deep learning, covering core methods, applications, and research trends.
-- [Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics](https://arxiv.org/abs/2502.17213) — *arXiv 2025* · 📈9 — A comprehensive recent key reference on EEG and biosignal deep learning, organizing major methods, taxonomies, and design choices.
+- [Deep learning-based electroencephalography analysis: a systematic review](https://arxiv.org/abs/1901.05498) — *Journal of Neural Engineering 2019* · 📈1425 — A standard review on EEG and biosignal deep learning, covering core methods, applications, and research trends.
+- [Deep Learning-Powered Electrical Brain Signals Analysis: Advancing Neurological Diagnostics](https://arxiv.org/abs/2502.17213) — *arXiv 2025* · 📈10 — A comprehensive recent key reference on EEG and biosignal deep learning, organizing major methods, taxonomies, and design choices.
 
 ### Financial Time Series
 
@@ -2025,23 +2025,23 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Graph Time Series
 
-- [A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection](https://arxiv.org/abs/2307.03759) — *IEEE TPAMI 2024* · 📈532 — A survey on graph time series, organizing major methods, taxonomies, and design choices.
+- [A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection](https://arxiv.org/abs/2307.03759) — *IEEE TPAMI 2024* · 📈538 — A survey on graph time series, organizing major methods, taxonomies, and design choices.
 
 ### Human Activity Recognition (HAR)
 
-- [Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities](https://arxiv.org/abs/2001.07416) — *ACM Computing Surveys 2020* · 📈881 — A standard overview on human activity recognition (HAR), covering methods, challenges, and future research directions.
+- [Deep Learning for Sensor-based Human Activity Recognition: Overview, Challenges and Opportunities](https://arxiv.org/abs/2001.07416) — *ACM Computing Surveys 2020* · 📈884 — A standard overview on human activity recognition (HAR), covering methods, challenges, and future research directions.
 
 ### Irregular Time Series
 
-- [A Survey on Principles, Models and Methods for Learning from Irregularly Sampled Time Series](https://arxiv.org/abs/2012.00168) — *arXiv 2020* · 📈72 — A survey on irregular time series, organizing major methods, taxonomies, and design choices.
+- [A Survey on Principles, Models and Methods for Learning from Irregularly Sampled Time Series](https://arxiv.org/abs/2012.00168) — *arXiv 2020* · 📈73 — A survey on irregular time series, organizing major methods, taxonomies, and design choices.
 
 ### Spatio-Temporal Forecasting
 
-- [Spatio-Temporal Graph Neural Networks: A Survey](https://arxiv.org/abs/2301.10569) — *arXiv 2023* · 📈63 — A survey on spatio-temporal forecasting, covering methods, challenges, and future research directions.
+- [Spatio-Temporal Graph Neural Networks: A Survey](https://arxiv.org/abs/2301.10569) — *arXiv 2023* — A survey on spatio-temporal forecasting, covering methods, challenges, and future research directions.
 
 ### Time Series Anomaly Detection
 
-- [Dive into Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/abs/2412.20512) — *arXiv 2024* · 📈43 — A review on time series anomaly detection, organizing major methods, taxonomies, and design choices.
+- [Dive into Time-Series Anomaly Detection: A Decade Review](https://arxiv.org/abs/2412.20512) — *arXiv 2024* · 📈45 — A review on time series anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### Time Series Clustering
 
@@ -2049,75 +2049,75 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Time Series Forecasting
 
-- [Time Series Forecasting With Deep Learning: A Survey](https://arxiv.org/abs/2004.13408) — *Phil. Trans. R. Soc. A 2020* · 📈2091 — A standard survey on time series forecasting, organizing major methods, taxonomies, and design choices.
-- [Transformers in Time Series: A Survey](https://arxiv.org/abs/2202.07125) — *IJCAI 2023* · 📈1631 — A standard survey on time series forecasting, organizing major methods, taxonomies, and design choices. — [`qingsongedu/time-series-transformers-review`](https://github.com/qingsongedu/time-series-transformers-review) ⭐3004🔴
-- [A Comprehensive Survey of Deep Learning for Time Series Forecasting: Architectural Diversity and Open Challenges](https://arxiv.org/abs/2411.05793) — *Artificial Intelligence Review 2024* · 📈118 — A comprehensive comprehensive survey on time series forecasting, with comparative analysis of representative methods and systems.
+- [A Comprehensive Survey of Deep Learning for Time Series Forecasting: Architectural Diversity and Open Challenges](https://arxiv.org/abs/2411.05793) — *Artificial Intelligence Review 2024* — A comprehensive comprehensive survey on time series forecasting, with comparative analysis of representative methods and systems.
+- [Transformers in Time Series: A Survey](https://arxiv.org/abs/2202.07125) — *IJCAI 2023* — A standard survey on time series forecasting, organizing major methods, taxonomies, and design choices. — [`qingsongedu/time-series-transformers-review`](https://github.com/qingsongedu/time-series-transformers-review) ⭐3007🔴
+- [Time Series Forecasting With Deep Learning: A Survey](https://arxiv.org/abs/2004.13408) — *Phil. Trans. R. Soc. A 2020* — A standard survey on time series forecasting, organizing major methods, taxonomies, and design choices.
 
 ### Time Series Foundation Models
 
-- [Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735) — *KDD 2024* · 📈474 — A tutorial survey on time series foundation models, covering core methods, applications, and research trends.
-- [A Survey of Deep Learning and Foundation Models for Time Series Forecasting](https://arxiv.org/abs/2401.13912) — *arXiv 2024* · 📈86 — A survey on time series foundation models, organizing major methods, taxonomies, and design choices.
-- [Empowering Time Series Analysis with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2405.02358) — *arXiv 2024* · 📈33 — A comprehensive comprehensive survey on time series foundation models, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Learning and Foundation Models for Time Series Forecasting](https://arxiv.org/abs/2401.13912) — *arXiv 2024* — A survey on time series foundation models, organizing major methods, taxonomies, and design choices.
+- [Foundation Models for Time Series Analysis: A Tutorial and Survey](https://arxiv.org/abs/2403.14735) — *KDD 2024* — A tutorial survey on time series foundation models, covering core methods, applications, and research trends.
+- [Empowering Time Series Analysis with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2405.02358) — *arXiv 2024* — A comprehensive comprehensive survey on time series foundation models, organizing major methods, taxonomies, and design choices.
 
 ### Time Series Imputation
 
-- [Deep Learning for Multivariate Time Series Imputation: A Survey](https://arxiv.org/abs/2402.04059) — *IJCAI 2024* · 📈155 — A survey on time series imputation, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Multivariate Time Series Imputation: A Survey](https://arxiv.org/abs/2402.04059) — *IJCAI 2024* · 📈160 — A survey on time series imputation, organizing major methods, taxonomies, and design choices.
 
 ### Time Series Representation Learning
 
-- [Self-Supervised Learning for Time Series Analysis: Taxonomy, Progress, and Prospects](https://arxiv.org/abs/2306.10125) — *IEEE TPAMI 2023* · 📈280 — A taxonomy on time series representation learning, organizing major methods, taxonomies, and design choices. — [`qingsongedu/Awesome-SSL4TS`](https://github.com/qingsongedu/Awesome-SSL4TS) ⭐383🔴
-- [Universal Time-Series Representation Learning: A Survey](https://arxiv.org/abs/2401.03717) — *ACM Computing Surveys 2024* · 📈49 — A survey on time series representation learning, organizing major methods, taxonomies, and design choices.
+- [Universal Time-Series Representation Learning: A Survey](https://arxiv.org/abs/2401.03717) — *ACM Computing Surveys 2024* — A survey on time series representation learning, organizing major methods, taxonomies, and design choices.
+- [Self-Supervised Learning for Time Series Analysis: Taxonomy, Progress, and Prospects](https://arxiv.org/abs/2306.10125) — *IEEE TPAMI 2023* — A taxonomy on time series representation learning, organizing major methods, taxonomies, and design choices. — [`qingsongedu/Awesome-SSL4TS`](https://github.com/qingsongedu/Awesome-SSL4TS) ⭐384🔴
 
 ### Time Series x LLM
 
-- [Large Language Models for Time Series: A Survey](https://arxiv.org/abs/2402.01801) — *IJCAI 2024* · 📈189 — A survey on time series for LLM, organizing major methods, taxonomies, and design choices. — [`xiyuanzh/awesome-llm-time-series`](https://github.com/xiyuanzh/awesome-llm-time-series) ⭐521🔴
+- [Large Language Models for Time Series: A Survey](https://arxiv.org/abs/2402.01801) — *IJCAI 2024* · 📈191 — A survey on time series for LLM, organizing major methods, taxonomies, and design choices. — [`xiyuanzh/awesome-llm-time-series`](https://github.com/xiyuanzh/awesome-llm-time-series) ⭐521🔴
 
 ### Traffic Forecasting
 
-- [STG4Traffic: A Survey and Benchmark of Spatial-Temporal Graph Neural Networks for Traffic Prediction](https://arxiv.org/abs/2307.00495) — *arXiv 2023* · 📈19 — A survey on traffic forecasting, with emphasis on benchmarks, evaluation, and representative methods. — [`jwwthu/GNN4Traffic`](https://github.com/jwwthu/GNN4Traffic) ⭐1212🔴
+- [STG4Traffic: A Survey and Benchmark of Spatial-Temporal Graph Neural Networks for Traffic Prediction](https://arxiv.org/abs/2307.00495) — *arXiv 2023* — A survey on traffic forecasting, with emphasis on benchmarks, evaluation, and representative methods. — [`jwwthu/GNN4Traffic`](https://github.com/jwwthu/GNN4Traffic) ⭐1211🔴
 
 ## ⛏️ Data Mining
 
 ### Anomaly Detection
 
-- [Deep Learning for Anomaly Detection: A Survey](https://arxiv.org/abs/1901.03407) — *arXiv 2019* · 📈1898 — A highly cited standard survey on anomaly detection, summarizing key methods, datasets, applications, and research directions.
-- [A Unifying Review of Deep and Shallow Anomaly Detection](https://arxiv.org/abs/2009.11732) — *Proceedings of the IEEE 2021* · 📈1101 — A standard review on anomaly detection, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Anomaly Detection: A Survey](https://arxiv.org/abs/1901.03407) — *arXiv 2019* · 📈1904 — A highly cited standard survey on anomaly detection, summarizing key methods, datasets, applications, and research directions.
+- [A Unifying Review of Deep and Shallow Anomaly Detection](https://arxiv.org/abs/2009.11732) — *Proceedings of the IEEE 2021* · 📈1105 — A standard review on anomaly detection, organizing major methods, taxonomies, and design choices.
 - [Anomaly Detection: A Survey](https://doi.org/10.1145/1541880.1541882) — *ACM Computing Surveys 2009* — A highly cited standard survey on anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### Clustering
 
-- [A Comprehensive Survey on Deep Clustering: Taxonomy, Challenges, and Future Directions](https://arxiv.org/abs/2206.07579) — *ACM Computing Surveys 2024* · 📈229 — A comprehensive survey on clustering, covering methods, challenges, and future research directions.
+- [A Comprehensive Survey on Deep Clustering: Taxonomy, Challenges, and Future Directions](https://arxiv.org/abs/2206.07579) — *ACM Computing Surveys 2024* · 📈232 — A comprehensive survey on clustering, covering methods, challenges, and future research directions.
 
 ### Concept Drift
 
-- [Concept Drift Adaptation in Text Stream Mining Settings: A Systematic Review](https://arxiv.org/abs/2312.02901) — *ACM TIST 2024* · 📈18 — A comprehensive review on concept drift, organizing major methods, taxonomies, and design choices.
+- [Concept Drift Adaptation in Text Stream Mining Settings: A Systematic Review](https://arxiv.org/abs/2312.02901) — *ACM TIST 2024* — A comprehensive review on concept drift, organizing major methods, taxonomies, and design choices.
 
 ### Educational Data Mining
 
-- [Educational data mining and learning analytics: An updated survey](https://arxiv.org/abs/2402.07956) — *WIREs Data Mining and Knowledge Discovery 2024* · 📈1021 — A recent survey on educational data mining, summarizing key methods, datasets, applications, and research directions.
-- [A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining](https://arxiv.org/abs/2309.04761) — *arXiv 2023* · 📈69 — A comprehensive survey on educational data mining, organizing major methods, taxonomies, and design choices.
+- [Educational data mining and learning analytics: An updated survey](https://arxiv.org/abs/2402.07956) — *WIREs Data Mining and Knowledge Discovery 2024* — A recent survey on educational data mining, summarizing key methods, datasets, applications, and research directions.
+- [A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining](https://arxiv.org/abs/2309.04761) — *arXiv 2023* — A comprehensive survey on educational data mining, organizing major methods, taxonomies, and design choices.
 
 ### Explainable Anomaly Detection
 
-- [A Survey on Explainable Anomaly Detection](https://arxiv.org/abs/2210.06959) — *ACM TKDD 2022* · 📈203 — A comprehensive survey on explainable anomaly detection, organizing major methods, taxonomies, and design choices.
+- [A Survey on Explainable Anomaly Detection](https://arxiv.org/abs/2210.06959) — *ACM TKDD 2022* — A comprehensive survey on explainable anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### Frequent Pattern Mining
 
-- [A Survey of Parallel Sequential Pattern Mining](https://arxiv.org/abs/1805.10515) — *ACM TKDD 2019* · 📈259 — A survey on frequent pattern mining, surveying major methods, techniques, and algorithmic choices.
+- [A Survey of Parallel Sequential Pattern Mining](https://arxiv.org/abs/1805.10515) — *ACM TKDD 2019* · 📈260 — A survey on frequent pattern mining, surveying major methods, techniques, and algorithmic choices.
 
 ### Graph Anomaly Detection
 
-- [A Comprehensive Survey on Graph Anomaly Detection with Deep Learning](https://arxiv.org/abs/2106.07178) — *IEEE TKDE 2023* · 📈862 — A comprehensive comprehensive survey on graph anomaly detection, organizing major methods, taxonomies, and design choices.
-- [Graph Anomaly Detection in Time Series: A Survey](https://arxiv.org/abs/2302.00058) — *IEEE TPAMI 2023* · 📈42 — A comprehensive survey on graph anomaly detection, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Graph Anomaly Detection with Deep Learning](https://arxiv.org/abs/2106.07178) — *IEEE TKDE 2023* — A comprehensive comprehensive survey on graph anomaly detection, organizing major methods, taxonomies, and design choices.
+- [Graph Anomaly Detection in Time Series: A Survey](https://arxiv.org/abs/2302.00058) — *IEEE TPAMI 2023* — A comprehensive survey on graph anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### Graph Mining
 
-- [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596) — *IEEE TNNLS 2021* · 📈11864 — A highly cited survey that organizes graph neural networks into a clear taxonomy of major families.
+- [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596) — *IEEE TNNLS 2021* · 📈11918 — A highly cited survey that organizes graph neural networks into a clear taxonomy of major families.
 
 ### Graph Representation Learning
 
-- [A Comprehensive Survey on Deep Graph Representation Learning](https://arxiv.org/abs/2304.05055) — *Neural Networks 2024* · 📈351 — A comprehensive recent comprehensive survey on graph representation learning, organizing major methods, taxonomies, and design choices.
-- [A Survey on Graph Representation Learning Methods](https://arxiv.org/abs/2204.01855) — *ACM TIST 2024* · 📈263 — A comprehensive survey on graph representation learning, organizing major methods, taxonomies, and design choices.
+- [A Survey on Graph Representation Learning Methods](https://arxiv.org/abs/2204.01855) — *ACM TIST 2024* — A comprehensive survey on graph representation learning, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Deep Graph Representation Learning](https://arxiv.org/abs/2304.05055) — *Neural Networks 2024* — A comprehensive recent comprehensive survey on graph representation learning, organizing major methods, taxonomies, and design choices.
 
 ### Heterogeneous Information Networks
 
@@ -2130,7 +2130,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### LLM and Graphs
 
-- [Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783) — *IEEE TKDE 2024* · 📈344 — A comprehensive comprehensive survey on LLM and graphs, organizing major methods, taxonomies, and design choices. — [`PeterGriffinJin/Awesome-Language-Model-on-Graphs`](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs) ⭐999🔴
+- [Large Language Models on Graphs: A Comprehensive Survey](https://arxiv.org/abs/2312.02783) — *IEEE TKDE 2024* — A comprehensive comprehensive survey on LLM and graphs, organizing major methods, taxonomies, and design choices. — [`PeterGriffinJin/Awesome-Language-Model-on-Graphs`](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs) ⭐999🔴
 
 ### Outlier Detection
 
@@ -2138,17 +2138,17 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Process Mining
 
-- [Deep Learning for Predictive Business Process Monitoring: Review and Benchmark](https://arxiv.org/abs/2009.13251) — *IEEE TSC 2020* · 📈136 — A review on process mining, with emphasis on benchmarks, evaluation, and representative methods.
-- [Advances in Process Optimization: A Comprehensive Survey of Process Mining, Predictive Process Monitoring, and Process-Aware Recommender Systems](https://arxiv.org/abs/2301.10398) — *arXiv 2023* · 📈2 — A comprehensive comprehensive survey on process mining, organizing major methods, taxonomies, and design choices.
+- [Advances in Process Optimization: A Comprehensive Survey of Process Mining, Predictive Process Monitoring, and Process-Aware Recommender Systems](https://arxiv.org/abs/2301.10398) — *arXiv 2023* — A comprehensive comprehensive survey on process mining, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Predictive Business Process Monitoring: Review and Benchmark](https://arxiv.org/abs/2009.13251) — *IEEE TSC 2020* — A review on process mining, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Social Mining
 
-- [Automatic Rumor Detection on Microblogs: A Survey](https://arxiv.org/abs/1807.03505) — *arXiv 2018* · 📈92 — A survey on social mining, organizing major methods, taxonomies, and design choices.
-- [Influence Maximization in Social Networks: A Survey](https://arxiv.org/abs/2309.04668) — *arXiv 2023* · 📈11 — A survey on social mining, organizing major methods, taxonomies, and design choices.
+- [Influence Maximization in Social Networks: A Survey](https://arxiv.org/abs/2309.04668) — *arXiv 2023* — A survey on social mining, organizing major methods, taxonomies, and design choices.
+- [Automatic Rumor Detection on Microblogs: A Survey](https://arxiv.org/abs/1807.03505) — *arXiv 2018* — A survey on social mining, organizing major methods, taxonomies, and design choices.
 
 ### Spatiotemporal Data Mining
 
-- [Spatiotemporal Data Mining: A Survey](https://arxiv.org/abs/2206.12753) — *arXiv 2022* · 📈10 — A survey on spatiotemporal data mining, organizing major methods, taxonomies, and design choices.
+- [Spatiotemporal Data Mining: A Survey](https://arxiv.org/abs/2206.12753) — *arXiv 2022* — A survey on spatiotemporal data mining, organizing major methods, taxonomies, and design choices.
 
 ### Stream Mining
 
@@ -2156,30 +2156,30 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Text Mining
 
-- [A Brief Survey of Text Mining: Classification, Clustering and Extraction Techniques](https://arxiv.org/abs/1707.02919) — *arXiv 2017* · 📈568 — A survey on text mining, organizing major methods, taxonomies, and design choices.
+- [A Brief Survey of Text Mining: Classification, Clustering and Extraction Techniques](https://arxiv.org/abs/1707.02919) — *arXiv 2017* — A survey on text mining, organizing major methods, taxonomies, and design choices.
 
 ### Time Series Anomaly Detection
 
-- [Deep Learning for Time Series Anomaly Detection: A Survey](https://arxiv.org/abs/2211.05244) — *ACM Computing Surveys 2024* · 📈712 — A comprehensive recent survey on time series anomaly detection, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Time Series Anomaly Detection: A Survey](https://arxiv.org/abs/2211.05244) — *ACM Computing Surveys 2024* · 📈723 — A comprehensive recent survey on time series anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### Time Series Mining
 
-- [Deep Learning for Time Series Classification: A Review](https://arxiv.org/abs/1809.04356) — *Data Mining and Knowledge Discovery 2019* · 📈3388 — A standard comprehensive review on time series mining, with emphasis on benchmarks, evaluation, and representative methods.
-- [Deep Learning for Time Series Classification and Extrinsic Regression: A Current Survey](https://arxiv.org/abs/2302.02515) — *ACM Computing Surveys 2024* · 📈318 — A recent survey on time series mining, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Time Series Classification and Extrinsic Regression: A Current Survey](https://arxiv.org/abs/2302.02515) — *ACM Computing Surveys 2024* — A recent survey on time series mining, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Time Series Classification: A Review](https://arxiv.org/abs/1809.04356) — *Data Mining and Knowledge Discovery 2019* — A standard comprehensive review on time series mining, with emphasis on benchmarks, evaluation, and representative methods.
 
 ## 🗄️ Databases and Data Management
 
 ### Approximate Nearest Neighbor Search
 
-- [A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search](https://arxiv.org/abs/2101.12631) — *PVLDB 2021* · 📈394 — A standard comprehensive survey on approximate nearest neighbor search, with comparative analysis of representative methods and systems. — [`Lsyhprum/WEAVESS`](https://github.com/Lsyhprum/WEAVESS) ⭐81🔴
+- [A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search](https://arxiv.org/abs/2101.12631) — *PVLDB 2021* — A standard comprehensive survey on approximate nearest neighbor search, with comparative analysis of representative methods and systems. — [`Lsyhprum/WEAVESS`](https://github.com/Lsyhprum/WEAVESS) ⭐81🔴
 
 ### Cardinality Estimation
 
-- [Are We Ready For Learned Cardinality Estimation?](https://arxiv.org/abs/2012.06743) — *VLDB 2021* · 📈164 — A key reference on cardinality estimation, with comparative analysis of representative methods and systems.
+- [Are We Ready For Learned Cardinality Estimation?](https://arxiv.org/abs/2012.06743) — *VLDB 2021* — A key reference on cardinality estimation, with comparative analysis of representative methods and systems.
 
 ### Cloud and Serverless
 
-- [The Serverless Computing Survey: A Technical Primer for Design Architecture](https://arxiv.org/abs/2112.12921) — *ACM Computing Surveys 2022* · 📈213 — An introductory survey on cloud and serverless, surveying major methods, techniques, and algorithmic choices.
+- [The Serverless Computing Survey: A Technical Primer for Design Architecture](https://arxiv.org/abs/2112.12921) — *ACM Computing Surveys 2022* — An introductory survey on cloud and serverless, surveying major methods, techniques, and algorithmic choices.
 
 ### Data Cleaning
 
@@ -2187,70 +2187,70 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Data Lake
 
-- [Data Lakes: A Survey of Functions and Systems](https://arxiv.org/abs/2106.09592) — *IEEE TKDE 2021* · 📈125 — A survey on data lake, organizing major methods, taxonomies, and design choices.
+- [Data Lakes: A Survey of Functions and Systems](https://arxiv.org/abs/2106.09592) — *IEEE TKDE 2021* — A survey on data lake, organizing major methods, taxonomies, and design choices.
 
 ### Data Pricing
 
-- [A Survey on Data Pricing: from Economics to Data Science](https://arxiv.org/abs/2009.04462) — *IEEE TKDE 2022* · 📈180 — A survey on data pricing, organizing major methods, taxonomies, and design choices.
+- [A Survey on Data Pricing: from Economics to Data Science](https://arxiv.org/abs/2009.04462) — *IEEE TKDE 2022* — A survey on data pricing, organizing major methods, taxonomies, and design choices.
 
 ### Entity Matching
 
-- [Neural Networks for Entity Matching: A Survey](https://arxiv.org/abs/2010.11075) — *ACM TKDD 2021* · 📈152 — A survey on entity matching, organizing major methods, taxonomies, and design choices.
+- [Neural Networks for Entity Matching: A Survey](https://arxiv.org/abs/2010.11075) — *ACM TKDD 2021* — A survey on entity matching, organizing major methods, taxonomies, and design choices.
 
 ### Entity Resolution
 
-- [End-to-End Entity Resolution for Big Data: A Survey](https://arxiv.org/abs/1905.06397) — *ACM Computing Surveys 2021* · 📈69 — A standard comprehensive survey on entity resolution, organizing major methods, taxonomies, and design choices.
+- [End-to-End Entity Resolution for Big Data: A Survey](https://arxiv.org/abs/1905.06397) — *ACM Computing Surveys 2021* — A standard comprehensive survey on entity resolution, organizing major methods, taxonomies, and design choices.
 
 ### Learned Index
 
-- [A Survey of Learned Indexes for the Multi-dimensional Space](https://arxiv.org/abs/2403.06456) — *arXiv 2024* · 📈33 — A survey on learned index, organizing major methods, taxonomies, and design choices.
-- [How Good Are Multi-dimensional Learned Indices? An Experimental Survey](https://arxiv.org/abs/2405.05536) — *arXiv 2024* · 📈8 — A survey on learned index, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey of Learned Indexes for the Multi-dimensional Space](https://arxiv.org/abs/2403.06456) — *arXiv 2024* — A survey on learned index, organizing major methods, taxonomies, and design choices.
+- [How Good Are Multi-dimensional Learned Indices? An Experimental Survey](https://arxiv.org/abs/2405.05536) — *arXiv 2024* — A survey on learned index, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### ML for Query Optimization
 
-- [A Survey on Advancing the DBMS Query Optimizer: Cardinality, Cost Model, and Plan Enumeration](https://arxiv.org/abs/2101.01507) — *Data Science and Engineering 2021* · 📈123 — A survey on ML for query optimization, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Advancing the DBMS Query Optimizer: Cardinality, Cost Model, and Plan Enumeration](https://arxiv.org/abs/2101.01507) — *Data Science and Engineering 2021* — A survey on ML for query optimization, summarizing key methods, datasets, applications, and research directions.
 
 ### Text-to-SQL
 
-- [Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL](https://arxiv.org/abs/2406.08426) — *arXiv 2024* · 📈269 — A comprehensive survey on text-to-SQL, summarizing key methods, datasets, applications, and research directions.
-- [A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions](https://arxiv.org/abs/2208.13629) — *arXiv 2022* · 📈105 — A survey on text-to-SQL, covering methods, challenges, and future research directions.
-- [Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey](https://arxiv.org/abs/2208.04415) — *arXiv 2022* · 📈27 — A survey on text-to-SQL, organizing major methods, taxonomies, and design choices.
+- [Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL](https://arxiv.org/abs/2406.08426) — *arXiv 2024* — A comprehensive survey on text-to-SQL, summarizing key methods, datasets, applications, and research directions.
+- [A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions](https://arxiv.org/abs/2208.13629) — *arXiv 2022* — A survey on text-to-SQL, covering methods, challenges, and future research directions.
+- [Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey](https://arxiv.org/abs/2208.04415) — *arXiv 2022* — A survey on text-to-SQL, organizing major methods, taxonomies, and design choices.
 
 ### Time Series Database
 
-- [Time Series Management Systems: A Survey](https://arxiv.org/abs/1710.01077) — *IEEE TKDE 2017* · 📈211 — A survey on time series database, organizing major methods, taxonomies, and design choices.
+- [Time Series Management Systems: A Survey](https://arxiv.org/abs/1710.01077) — *IEEE TKDE 2017* — A survey on time series database, organizing major methods, taxonomies, and design choices.
 
 ### Vector Database
 
-- [Survey of Vector Database Management Systems](https://arxiv.org/abs/2310.14021) — *The VLDB Journal 2024* · 📈211 — A comprehensive survey on vector database, organizing major methods, taxonomies, and design choices.
-- [A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge](https://arxiv.org/abs/2310.11703) — *arXiv 2023* · 📈140 — A comprehensive comprehensive survey on vector database, covering methods, challenges, and future research directions.
+- [Survey of Vector Database Management Systems](https://arxiv.org/abs/2310.14021) — *The VLDB Journal 2024* — A comprehensive survey on vector database, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge](https://arxiv.org/abs/2310.11703) — *arXiv 2023* — A comprehensive comprehensive survey on vector database, covering methods, challenges, and future research directions.
 
 ## 🔍 Information Retrieval (IR)
 
 ### Conversational Search
 
-- [Conversational Information Seeking](https://arxiv.org/abs/2201.08808) — *Foundations and Trends in Information Retrieval 2023* · 📈142 — A comprehensive key reference on conversational search, with emphasis on benchmarks, evaluation, and representative methods.
-- [A Survey of Conversational Search](https://arxiv.org/abs/2410.15576) — *ACM TOIS 2025* · 📈70 — A comprehensive survey on conversational search, organizing major methods, taxonomies, and design choices.
+- [A Survey of Conversational Search](https://arxiv.org/abs/2410.15576) — *ACM TOIS 2025* — A comprehensive survey on conversational search, organizing major methods, taxonomies, and design choices.
+- [Conversational Information Seeking](https://arxiv.org/abs/2201.08808) — *Foundations and Trends in Information Retrieval 2023* — A comprehensive key reference on conversational search, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Cross-Lingual IR
 
-- [Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval with Multilingual LLMs](https://arxiv.org/abs/2510.00908) — *arXiv 2025* · 📈9 — A key reference on cross-lingual IR, summarizing key methods, datasets, applications, and research directions.
+- [Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval with Multilingual LLMs](https://arxiv.org/abs/2510.00908) — *arXiv 2025* — A key reference on cross-lingual IR, summarizing key methods, datasets, applications, and research directions.
 
 ### Cross-modal Retrieval
 
-- [A Comprehensive Survey on Cross-modal Retrieval](https://arxiv.org/abs/1607.06215) — *arXiv 2016* · 📈332 — A comprehensive survey on cross-modal retrieval, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Cross-modal Retrieval](https://arxiv.org/abs/1607.06215) — *arXiv 2016* — A comprehensive survey on cross-modal retrieval, organizing major methods, taxonomies, and design choices.
 
 ### Dense Retrieval
 
-- [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/abs/2211.14876) — *ACM TOIS 2024* · 📈338 — A survey on dense retrieval, organizing major methods, taxonomies, and design choices. — [`RUCAIBox/DenseRetrieval`](https://github.com/RUCAIBox/DenseRetrieval) ⭐221🔴
+- [Dense Text Retrieval based on Pretrained Language Models: A Survey](https://arxiv.org/abs/2211.14876) — *ACM TOIS 2024* — A survey on dense retrieval, organizing major methods, taxonomies, and design choices. — [`RUCAIBox/DenseRetrieval`](https://github.com/RUCAIBox/DenseRetrieval) ⭐221🔴
 
 ### Explainable IR
 
-- [Explainable Information Retrieval: A Survey](https://arxiv.org/abs/2211.02405) — *arXiv 2022* · 📈41 — A survey on explainable IR, organizing major methods, taxonomies, and design choices.
+- [Explainable Information Retrieval: A Survey](https://arxiv.org/abs/2211.02405) — *arXiv 2022* — A survey on explainable IR, organizing major methods, taxonomies, and design choices.
 
 ### Generative Retrieval
 
-- [A Survey of Generative Information Retrieval](https://arxiv.org/abs/2406.01197) — *ACM TOIS 2025* · 📈6 — A comprehensive survey on generative retrieval, organizing major methods, taxonomies, and design choices. — [`RUC-NLPIR/GenIR-Survey`](https://github.com/RUC-NLPIR/GenIR-Survey) ⭐210🟡
+- [A Survey of Generative Information Retrieval](https://arxiv.org/abs/2406.01197) — *ACM TOIS 2025* — A comprehensive survey on generative retrieval, organizing major methods, taxonomies, and design choices. — [`RUC-NLPIR/GenIR-Survey`](https://github.com/RUC-NLPIR/GenIR-Survey) ⭐210🟡
 
 ### Learning to Rank
 
@@ -2258,69 +2258,69 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Neural IR
 
-- [Pre-training Methods in Information Retrieval](https://arxiv.org/abs/2111.13853) — *Foundations and Trends in Information Retrieval 2022* · 📈15 — A comprehensive key reference on neural IR, organizing major methods, taxonomies, and design choices.
+- [Pre-training Methods in Information Retrieval](https://arxiv.org/abs/2111.13853) — *Foundations and Trends in Information Retrieval 2022* — A comprehensive key reference on neural IR, organizing major methods, taxonomies, and design choices.
 - [An Introduction to Neural Information Retrieval](https://doi.org/10.1561/1500000061) — *Foundations and Trends in Information Retrieval 2018* — A standard key reference on neural IR, covering theoretical foundations, methods, and implications.
 
 ### Neural IR Architectures
 
-- [A Survey of Model Architectures in Information Retrieval](https://arxiv.org/abs/2502.14822) — *arXiv 2025* · 📈32 — A survey on neural IR architectures, organizing major methods, taxonomies, and design choices.
+- [A Survey of Model Architectures in Information Retrieval](https://arxiv.org/abs/2502.14822) — *arXiv 2025* — A survey on neural IR architectures, organizing major methods, taxonomies, and design choices.
 
 ### Neural Ranking
 
-- [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467) — *Synthesis Lectures (Morgan & Claypool) 2021* · 📈791 — A standard comprehensive key reference on neural ranking, organizing major methods, taxonomies, and design choices.
-- [A Deep Look into Neural Ranking Models for Information Retrieval](https://arxiv.org/abs/1903.06902) — *Information Processing & Management 2019* · 📈390 — A key reference on neural ranking, summarizing key methods, datasets, applications, and research directions.
+- [A Deep Look into Neural Ranking Models for Information Retrieval](https://arxiv.org/abs/1903.06902) — *Information Processing & Management 2019* · 📈391 — A key reference on neural ranking, summarizing key methods, datasets, applications, and research directions.
+- [Pretrained Transformers for Text Ranking: BERT and Beyond](https://arxiv.org/abs/2010.06467) — *Synthesis Lectures (Morgan & Claypool) 2021* — A standard comprehensive key reference on neural ranking, organizing major methods, taxonomies, and design choices.
 
 ### Neural Retrieval
 
-- [Information Retrieval: Recent Advances and Beyond](https://arxiv.org/abs/2301.08801) — *IEEE Access 2023* · 📈174 — A key reference on neural retrieval, surveying major methods, techniques, and algorithmic choices.
+- [Information Retrieval: Recent Advances and Beyond](https://arxiv.org/abs/2301.08801) — *IEEE Access 2023* · 📈176 — A key reference on neural retrieval, surveying major methods, techniques, and algorithmic choices.
 
 ### RAG and Retrieval
 
-- [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) — *arXiv 2024* · 📈3980 — A standard comprehensive survey on retrieval-augmented generation and retrieval, organizing major methods, taxonomies, and design choices. — [`Tongji-KGLLM/RAG-Survey`](https://github.com/Tongji-KGLLM/RAG-Survey) ⭐2138🔴
-- [A Survey on Retrieval-Augmented Text Generation](https://arxiv.org/abs/2202.01110) — *arXiv 2022* · 📈298 — A survey on retrieval-augmented generation and retrieval, organizing major methods, taxonomies, and design choices.
+- [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) — *arXiv 2024* — A standard comprehensive survey on retrieval-augmented generation and retrieval, organizing major methods, taxonomies, and design choices. — [`Tongji-KGLLM/RAG-Survey`](https://github.com/Tongji-KGLLM/RAG-Survey) ⭐2138🔴
+- [A Survey on Retrieval-Augmented Text Generation](https://arxiv.org/abs/2202.01110) — *arXiv 2022* — A survey on retrieval-augmented generation and retrieval, organizing major methods, taxonomies, and design choices.
 
 ### Table Retrieval and QA
 
-- [Large Language Model for Table Processing: A Survey](https://arxiv.org/abs/2402.05121) — *Frontiers of Computer Science 2024* · 📈117 — A comprehensive survey on table retrieval and QA, summarizing key methods, datasets, applications, and research directions.
+- [Large Language Model for Table Processing: A Survey](https://arxiv.org/abs/2402.05121) — *Frontiers of Computer Science 2024* · 📈119 — A comprehensive survey on table retrieval and QA, summarizing key methods, datasets, applications, and research directions.
 
 ## 🛒 Recommender Systems
 
 ### AutoML Recommendation
 
-- [AutoML for Deep Recommender Systems: A Survey](https://arxiv.org/abs/2203.13922) — *ACM TOIS 2023* · 📈103 — A survey on automl recommendation, organizing major methods, taxonomies, and design choices.
+- [AutoML for Deep Recommender Systems: A Survey](https://arxiv.org/abs/2203.13922) — *ACM TOIS 2023* — A survey on automl recommendation, organizing major methods, taxonomies, and design choices.
 
 ### Bias and Fairness
 
-- [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) — *ACM TOIS 2023* · 📈951 — A standard comprehensive survey on bias and fairness, organizing major methods, taxonomies, and design choices. — [`jiawei-chen/RecDebiasing`](https://github.com/jiawei-chen/RecDebiasing) ⭐467🔴
-- [A Survey on the Fairness of Recommender Systems](https://arxiv.org/abs/2206.03761) — *ACM TOIS 2023* · 📈479 — A survey on bias and fairness, organizing major methods, taxonomies, and design choices.
+- [Bias and Debias in Recommender System: A Survey and Future Directions](https://arxiv.org/abs/2010.03240) — *ACM TOIS 2023* — A standard comprehensive survey on bias and fairness, organizing major methods, taxonomies, and design choices. — [`jiawei-chen/RecDebiasing`](https://github.com/jiawei-chen/RecDebiasing) ⭐467🔴
+- [A Survey on the Fairness of Recommender Systems](https://arxiv.org/abs/2206.03761) — *ACM TOIS 2023* — A survey on bias and fairness, organizing major methods, taxonomies, and design choices.
 
 ### CTR Prediction
 
-- [Deep Learning for Click-Through Rate Estimation](https://arxiv.org/abs/2104.10584) — *IJCAI 2021* · 📈136 — A key reference on CTR prediction, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Click-Through Rate Estimation](https://arxiv.org/abs/2104.10584) — *IJCAI 2021* — A key reference on CTR prediction, organizing major methods, taxonomies, and design choices.
 
 ### Cold-Start
 
-- [Cold-Start Recommendation towards the Era of Large Language Models (LLMs): A Comprehensive Survey and Roadmap](https://arxiv.org/abs/2501.01945) — *arXiv 2025* · 📈60 — A comprehensive recent comprehensive survey on cold-start, organizing major methods, taxonomies, and design choices. — [`YuanchenBei/Awesome-Cold-Start-Recommendation`](https://github.com/YuanchenBei/Awesome-Cold-Start-Recommendation) ⭐291🟢
+- [Cold-Start Recommendation towards the Era of Large Language Models (LLMs): A Comprehensive Survey and Roadmap](https://arxiv.org/abs/2501.01945) — *arXiv 2025* — A comprehensive recent comprehensive survey on cold-start, organizing major methods, taxonomies, and design choices. — [`YuanchenBei/Awesome-Cold-Start-Recommendation`](https://github.com/YuanchenBei/Awesome-Cold-Start-Recommendation) ⭐292🟢
 
 ### Conversational Recommendation
 
-- [Advances and Challenges in Conversational Recommender Systems: A Survey](https://arxiv.org/abs/2101.09459) — *AI Open 2021* · 📈372 — A standard comprehensive survey on conversational recommendation, covering methods, challenges, and future research directions.
+- [Advances and Challenges in Conversational Recommender Systems: A Survey](https://arxiv.org/abs/2101.09459) — *AI Open 2021* — A standard comprehensive survey on conversational recommendation, covering methods, challenges, and future research directions.
 
 ### Cross-Domain Recommendation
 
-- [Cross-Domain Recommendation: Challenges, Progress, and Prospects](https://arxiv.org/abs/2103.01696) — *IJCAI 2021* · 📈310 — A key reference on cross-domain recommendation, covering methods, challenges, and future research directions.
+- [Cross-Domain Recommendation: Challenges, Progress, and Prospects](https://arxiv.org/abs/2103.01696) — *IJCAI 2021* — A key reference on cross-domain recommendation, covering methods, challenges, and future research directions.
 
 ### Deep Learning Recommendation
 
-- [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/abs/1707.07435) — *ACM Computing Surveys 2019* · 📈1342 — A standard survey on deep learning recommendation, organizing major methods, taxonomies, and design choices.
+- [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/abs/1707.07435) — *ACM Computing Surveys 2019* — A standard survey on deep learning recommendation, organizing major methods, taxonomies, and design choices.
 
 ### Explainable Recommendation
 
-- [Explainable Recommendation: A Survey and New Perspectives](https://arxiv.org/abs/1804.11192) — *Foundations and Trends in Information Retrieval 2020* · 📈1193 — A standard survey on explainable recommendation, organizing major methods, taxonomies, and design choices.
+- [Explainable Recommendation: A Survey and New Perspectives](https://arxiv.org/abs/1804.11192) — *Foundations and Trends in Information Retrieval 2020* — A standard survey on explainable recommendation, organizing major methods, taxonomies, and design choices.
 
 ### Foundation Models Recommendation
 
-- [Foundation Models for Recommender Systems: A Survey and New Perspectives](https://arxiv.org/abs/2402.11143) — *arXiv 2024* · 📈18 — A comprehensive survey on foundation models recommendation, organizing major methods, taxonomies, and design choices.
+- [Foundation Models for Recommender Systems: A Survey and New Perspectives](https://arxiv.org/abs/2402.11143) — *arXiv 2024* — A comprehensive survey on foundation models recommendation, organizing major methods, taxonomies, and design choices.
 
 ### Generative Recommendation
 
@@ -2328,40 +2328,40 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Graph-based Recommendation
 
-- [Graph Neural Networks in Recommender Systems: A Survey](https://arxiv.org/abs/2011.02260) — *ACM Computing Surveys 2022* · 📈1869 — A standard survey on graph-based recommendation, organizing major methods, taxonomies, and design choices. — [`wusw14/GNN-in-RS`](https://github.com/wusw14/GNN-in-RS) ⭐307🔴
-- [Graph Learning based Recommender Systems: A Review](https://arxiv.org/abs/2105.06339) — *IJCAI 2021* · 📈249 — A comprehensive review on graph-based recommendation, organizing major methods, taxonomies, and design choices.
+- [Graph Neural Networks in Recommender Systems: A Survey](https://arxiv.org/abs/2011.02260) — *ACM Computing Surveys 2022* — A standard survey on graph-based recommendation, organizing major methods, taxonomies, and design choices. — [`wusw14/GNN-in-RS`](https://github.com/wusw14/GNN-in-RS) ⭐306🔴
+- [Graph Learning based Recommender Systems: A Review](https://arxiv.org/abs/2105.06339) — *IJCAI 2021* — A comprehensive review on graph-based recommendation, organizing major methods, taxonomies, and design choices.
 
 ### LLM Agents for Recommendation
 
-- [A Survey on LLM-powered Agents for Recommender Systems](https://arxiv.org/abs/2502.10050) — *arXiv preprint 2025* · 📈71 — A survey on LLM agents for recommendation, organizing major methods, taxonomies, and design choices.
+- [A Survey on LLM-powered Agents for Recommender Systems](https://arxiv.org/abs/2502.10050) — *arXiv preprint 2025* · 📈72 — A survey on LLM agents for recommendation, organizing major methods, taxonomies, and design choices.
 
 ### LLM and Recommendation
 
-- [A Survey on Large Language Models for Recommendation](https://arxiv.org/abs/2305.19860) — *World Wide Web Journal 2024* · 📈961 — A standard survey on LLM and recommendation, organizing major methods, taxonomies, and design choices.
+- [A Survey on Large Language Models for Recommendation](https://arxiv.org/abs/2305.19860) — *World Wide Web Journal 2024* — A standard survey on LLM and recommendation, organizing major methods, taxonomies, and design choices.
 
 ### Multimodal Recommendation
 
-- [Multimodal Recommender Systems: A Survey](https://arxiv.org/abs/2302.03883) — *ACM Computing Surveys 2024* · 📈199 — A survey on multimodal recommendation, organizing major methods, taxonomies, and design choices.
-- [A Comprehensive Survey on Multimodal Recommender Systems: Taxonomy, Evaluation, and Future Directions](https://arxiv.org/abs/2302.04473) — *arXiv 2023* · 📈73 — A comprehensive comprehensive survey on multimodal recommendation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Multimodal Recommender Systems: A Survey](https://arxiv.org/abs/2302.03883) — *ACM Computing Surveys 2024* — A survey on multimodal recommendation, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Multimodal Recommender Systems: Taxonomy, Evaluation, and Future Directions](https://arxiv.org/abs/2302.04473) — *arXiv 2023* — A comprehensive comprehensive survey on multimodal recommendation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Reinforcement Learning Recommendation
 
-- [A Survey of Deep Reinforcement Learning in Recommender Systems](https://arxiv.org/abs/2109.03540) — *arXiv 2021* · 📈75 — A comprehensive survey on reinforcement learning recommendation, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Reinforcement Learning in Recommender Systems](https://arxiv.org/abs/2109.03540) — *arXiv 2021* — A comprehensive survey on reinforcement learning recommendation, organizing major methods, taxonomies, and design choices.
 
 ### Self-Supervised Recommendation
 
-- [Self-Supervised Learning for Recommender Systems: A Survey](https://arxiv.org/abs/2203.15876) — *IEEE TKDE 2024* · 📈447 — A standard survey on self-supervised recommendation, organizing major methods, taxonomies, and design choices. — [`Coder-Yu/SELFRec`](https://github.com/Coder-Yu/SELFRec) ⭐641🟡
+- [Self-Supervised Learning for Recommender Systems: A Survey](https://arxiv.org/abs/2203.15876) — *IEEE TKDE 2024* — A standard survey on self-supervised recommendation, organizing major methods, taxonomies, and design choices. — [`Coder-Yu/SELFRec`](https://github.com/Coder-Yu/SELFRec) ⭐642🟡
 
 ### Sequential Recommendation
 
-- [Sequential Recommender Systems: Challenges, Progress and Prospects](https://arxiv.org/abs/2001.04830) — *IJCAI 2019* · 📈532 — A comprehensive key reference on sequential recommendation, covering methods, challenges, and future research directions.
-- [Deep Learning for Sequential Recommendation: Algorithms, Influential Factors, and Evaluations](https://arxiv.org/abs/1905.01997) — *ACM TOIS 2020* · 📈47 — A key reference on sequential recommendation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Deep Learning for Sequential Recommendation: Algorithms, Influential Factors, and Evaluations](https://arxiv.org/abs/1905.01997) — *ACM TOIS 2020* — A key reference on sequential recommendation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Sequential Recommender Systems: Challenges, Progress and Prospects](https://arxiv.org/abs/2001.04830) — *IJCAI 2019* — A comprehensive key reference on sequential recommendation, covering methods, challenges, and future research directions.
 
 ## 🌐 Web and Social Computing
 
 ### Bot Detection
 
-- [Social Media Bot Detection Research: Review of Literature](https://arxiv.org/abs/2503.22838) — *arXiv 2025* · 📈2 — A review on bot detection, covering methods, challenges, and future research directions.
+- [Social Media Bot Detection Research: Review of Literature](https://arxiv.org/abs/2503.22838) — *arXiv 2025* — A review on bot detection, covering methods, challenges, and future research directions.
 
 ### Community QA
 
@@ -2369,7 +2369,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Computational Social Science
 
-- [Data-driven Computational Social Science: A Survey](https://arxiv.org/abs/2008.12372) — *Big Data Research 2021* · 📈67 — A survey on computational social science, organizing major methods, taxonomies, and design choices.
+- [Data-driven Computational Social Science: A Survey](https://arxiv.org/abs/2008.12372) — *Big Data Research 2021* — A survey on computational social science, organizing major methods, taxonomies, and design choices.
 
 ### Crowdsourcing Quality
 
@@ -2382,20 +2382,20 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Fake News Detection
 
-- [Fake News Detection on Social Media: A Data Mining Perspective](https://arxiv.org/abs/1708.01967) — *ACM SIGKDD Explorations 2017* · 📈3381 — A highly cited key reference on fake news detection, organizing major methods, taxonomies, and design choices.
+- [Fake News Detection on Social Media: A Data Mining Perspective](https://arxiv.org/abs/1708.01967) — *ACM SIGKDD Explorations 2017* — A highly cited key reference on fake news detection, organizing major methods, taxonomies, and design choices.
 
 ### GNN for Social Networks
 
-- [A Survey of Graph Neural Networks for Social Recommender Systems](https://arxiv.org/abs/2212.04481) — *ACM Computing Surveys 2022* · 📈318 — A survey on GNN for social networks, organizing major methods, taxonomies, and design choices.
+- [A Survey of Graph Neural Networks for Social Recommender Systems](https://arxiv.org/abs/2212.04481) — *ACM Computing Surveys 2022* · 📈321 — A survey on GNN for social networks, organizing major methods, taxonomies, and design choices.
 
 ### Graph-based Fake News Detection
 
-- [Fake News Detection Through Graph-based Neural Networks: A Survey](https://arxiv.org/abs/2307.12639) — *arXiv 2023* · 📈27 — A survey on graph-based fake news detection, organizing major methods, taxonomies, and design choices.
+- [Fake News Detection Through Graph-based Neural Networks: A Survey](https://arxiv.org/abs/2307.12639) — *arXiv 2023* — A survey on graph-based fake news detection, organizing major methods, taxonomies, and design choices.
 
 ### Hate Speech Detection
 
-- [Towards generalisable hate speech detection: a review on obstacles and solutions](https://arxiv.org/abs/2102.08886) — *PeerJ Computer Science 2021* · 📈213 — A review on hate speech detection, organizing major methods, taxonomies, and design choices.
-- [A Survey on Automatic Online Hate Speech Detection in Low-Resource Languages](https://arxiv.org/abs/2411.19017) — *arXiv 2024* · 📈10 — A survey on hate speech detection, surveying major methods, techniques, and algorithmic choices.
+- [A Survey on Automatic Online Hate Speech Detection in Low-Resource Languages](https://arxiv.org/abs/2411.19017) — *arXiv 2024* — A survey on hate speech detection, surveying major methods, techniques, and algorithmic choices.
+- [Towards generalisable hate speech detection: a review on obstacles and solutions](https://arxiv.org/abs/2102.08886) — *PeerJ Computer Science 2021* — A review on hate speech detection, organizing major methods, taxonomies, and design choices.
 
 ### Link Prediction
 
@@ -2407,7 +2407,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Misinformation Detection
 
-- [Combating Misinformation in the Age of LLMs: Opportunities and Challenges](https://arxiv.org/abs/2311.05656) — *AI Magazine 2024* · 📈223 — A key reference on misinformation detection, covering methods, challenges, and future research directions. — [`llm-misinformation/llm-misinformation-survey`](https://github.com/llm-misinformation/llm-misinformation-survey) ⭐106🔴
+- [Combating Misinformation in the Age of LLMs: Opportunities and Challenges](https://arxiv.org/abs/2311.05656) — *AI Magazine 2024* — A key reference on misinformation detection, covering methods, challenges, and future research directions. — [`llm-misinformation/llm-misinformation-survey`](https://github.com/llm-misinformation/llm-misinformation-survey) ⭐106🔴
 
 ### Online Toxicity Detection
 
@@ -2415,12 +2415,12 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Recommendation Fairness
 
-- [Fairness and Diversity in Recommender Systems: A Survey](https://arxiv.org/abs/2307.04644) — *ACM TIST 2023* · 📈143 — A survey on recommendation fairness, organizing major methods, taxonomies, and design choices.
-- [A Survey on Fairness-aware Recommender Systems](https://arxiv.org/abs/2306.00403) — *Information Fusion 2023* · 📈91 — A survey on recommendation fairness, organizing major methods, taxonomies, and design choices.
+- [A Survey on Fairness-aware Recommender Systems](https://arxiv.org/abs/2306.00403) — *Information Fusion 2023* — A survey on recommendation fairness, organizing major methods, taxonomies, and design choices.
+- [Fairness and Diversity in Recommender Systems: A Survey](https://arxiv.org/abs/2307.04644) — *ACM TIST 2023* — A survey on recommendation fairness, organizing major methods, taxonomies, and design choices.
 
 ### Rumor Detection
 
-- [Detection of Rumors and Their Sources in Social Networks: A Comprehensive Survey](https://arxiv.org/abs/2501.05292) — *arXiv 2025* · 📈15 — A comprehensive comprehensive survey on rumor detection, summarizing key methods, datasets, applications, and research directions.
+- [Detection of Rumors and Their Sources in Social Networks: A Comprehensive Survey](https://arxiv.org/abs/2501.05292) — *arXiv 2025* · 📈16 — A comprehensive comprehensive survey on rumor detection, summarizing key methods, datasets, applications, and research directions.
 
 ### Social Bot Detection
 
@@ -2428,30 +2428,30 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Social Network Analysis
 
-- [A Comprehensive Survey on Community Detection with Deep Learning](https://arxiv.org/abs/2105.12584) — *IEEE TNNLS 2024* · 📈468 — A comprehensive comprehensive survey on social network analysis, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey on Community Detection with Deep Learning](https://arxiv.org/abs/2105.12584) — *IEEE TNNLS 2024* — A comprehensive comprehensive survey on social network analysis, organizing major methods, taxonomies, and design choices.
 
 ### Web Table Extraction
 
-- [Web Table Extraction, Retrieval and Augmentation: A Survey](https://arxiv.org/abs/2002.00207) — *ACM TIST 2020* · 📈68 — A survey on web table extraction, organizing major methods, taxonomies, and design choices.
+- [Web Table Extraction, Retrieval and Augmentation: A Survey](https://arxiv.org/abs/2002.00207) — *ACM TIST 2020* · 📈69 — A survey on web table extraction, organizing major methods, taxonomies, and design choices.
 
 ## 🛡️ Trustworthy AI (Fairness, XAI, and Safety)
 
 ### AI Content Watermarking / Detection
 
-- [Watermarking for AI Content Detection: A Review on Text, Visual, and Audio Modalities](https://arxiv.org/abs/2504.03765) — *ICLR 2025 Workshop (GenAI Watermarking) 2025* · 📈9 — A comprehensive review on AI content watermarking and detection, organizing major methods, taxonomies, and design choices.
+- [Watermarking for AI Content Detection: A Review on Text, Visual, and Audio Modalities](https://arxiv.org/abs/2504.03765) — *ICLR 2025 Workshop (GenAI Watermarking) 2025* — A comprehensive review on AI content watermarking and detection, organizing major methods, taxonomies, and design choices.
 
 ### AI Fairness / Bias
 
 - [The Frontiers of Fairness in Machine Learning](https://arxiv.org/abs/1810.08810) — *arXiv 2018* · 📈443 — A key reference on AI fairness and bias, covering methods, challenges, and future research directions.
-- [Bias Mitigation for Machine Learning Classifiers: A Comprehensive Survey](https://arxiv.org/abs/2207.07068) — *ACM JRC 2022* · 📈307 — A comprehensive comprehensive survey on AI fairness and bias, organizing major methods, taxonomies, and design choices.
+- [Bias Mitigation for Machine Learning Classifiers: A Comprehensive Survey](https://arxiv.org/abs/2207.07068) — *ACM JRC 2022* · 📈309 — A comprehensive comprehensive survey on AI fairness and bias, organizing major methods, taxonomies, and design choices.
 
 ### AI Governance / Ethics
 
-- [Worldwide AI Ethics: a review of 200 guidelines and recommendations for AI governance](https://arxiv.org/abs/2206.11922) — *Patterns 2022* · 📈287 — A comprehensive review on AI governance and ethics, summarizing key methods, datasets, applications, and research directions.
+- [Worldwide AI Ethics: a review of 200 guidelines and recommendations for AI governance](https://arxiv.org/abs/2206.11922) — *Patterns 2022* · 📈292 — A comprehensive review on AI governance and ethics, summarizing key methods, datasets, applications, and research directions.
 
 ### AI Safety
 
-- [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) — *arXiv 2016* · 📈3409 — A key reference on AI safety, covering methods, challenges, and future research directions.
+- [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) — *arXiv 2016* · 📈3427 — A key reference on AI safety, covering methods, challenges, and future research directions.
 
 ### AI-Generated Text Detection
 
@@ -2463,38 +2463,38 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Adversarial Robustness
 
-- [Adversarial Examples: Attacks and Defenses for Deep Learning](https://arxiv.org/abs/1712.07107) — *IEEE TNNLS 2017* · 📈1852 — A standard key reference on adversarial robustness, summarizing key methods, datasets, applications, and research directions.
+- [Adversarial Examples: Attacks and Defenses for Deep Learning](https://arxiv.org/abs/1712.07107) — *IEEE TNNLS 2017* · 📈1853 — A standard key reference on adversarial robustness, summarizing key methods, datasets, applications, and research directions.
 - [Adversarial Attacks and Defenses in Images, Graphs and Text: A Review](https://arxiv.org/abs/1909.08072) — *IJAC 2019* · 📈766 — A review on adversarial robustness, summarizing key methods, datasets, applications, and research directions.
 
 ### Backdoor Attacks
 
-- [Backdoor Learning: A Survey](https://arxiv.org/abs/2007.08745) — *IEEE TNNLS 2020* · 📈867 — A survey on backdoor attacks, organizing major methods, taxonomies, and design choices.
-- [Backdoor Attacks and Countermeasures on Deep Learning: A Comprehensive Review](https://arxiv.org/abs/2007.10760) — *arXiv 2020* · 📈293 — A comprehensive review on backdoor attacks, summarizing key methods, datasets, applications, and research directions.
+- [Backdoor Learning: A Survey](https://arxiv.org/abs/2007.08745) — *IEEE TNNLS 2020* · 📈873 — A survey on backdoor attacks, organizing major methods, taxonomies, and design choices.
+- [Backdoor Attacks and Countermeasures on Deep Learning: A Comprehensive Review](https://arxiv.org/abs/2007.10760) — *arXiv 2020* · 📈294 — A comprehensive review on backdoor attacks, summarizing key methods, datasets, applications, and research directions.
 
 ### Data Poisoning Security
 
-- [Wild Patterns Reloaded: A Survey of Machine Learning Security against Training Data Poisoning](https://arxiv.org/abs/2205.01992) — *ACM Computing Surveys 2022* · 📈213 — A comprehensive survey on data poisoning security, organizing major methods, taxonomies, and design choices.
+- [Wild Patterns Reloaded: A Survey of Machine Learning Security against Training Data Poisoning](https://arxiv.org/abs/2205.01992) — *ACM Computing Surveys 2022* · 📈214 — A comprehensive survey on data poisoning security, organizing major methods, taxonomies, and design choices.
 
 ### Deepfake Detection
 
-- [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179) — *Information Fusion 2020* · 📈1161 — A standard comprehensive survey on deepfake detection, organizing major methods, taxonomies, and design choices.
-- [The Creation and Detection of Deepfakes: A Survey](https://arxiv.org/abs/2004.11138) — *ACM Computing Surveys 2020* · 📈933 — A survey on deepfake detection, organizing major methods, taxonomies, and design choices.
+- [DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection](https://arxiv.org/abs/2001.00179) — *Information Fusion 2020* · 📈1165 — A standard comprehensive survey on deepfake detection, organizing major methods, taxonomies, and design choices.
+- [The Creation and Detection of Deepfakes: A Survey](https://arxiv.org/abs/2004.11138) — *ACM Computing Surveys 2020* · 📈941 — A survey on deepfake detection, organizing major methods, taxonomies, and design choices.
 
 ### Differential Privacy
 
-- [Differential Privacy and Machine Learning: a Survey and Review](https://arxiv.org/abs/1412.7584) — *arXiv 2014* · 📈297 — A survey on differential privacy, summarizing key methods, datasets, applications, and research directions.
+- [Differential Privacy and Machine Learning: a Survey and Review](https://arxiv.org/abs/1412.7584) — *arXiv 2014* · 📈298 — A survey on differential privacy, summarizing key methods, datasets, applications, and research directions.
 
 ### Explainable AI (XAI)
 
-- [A Survey of Methods for Explaining Black Box Models](https://arxiv.org/abs/1802.01933) — *ACM Computing Surveys 2018* · 📈5242 — A definitive, highly cited survey that established a taxonomy of explainable-AI methods for black-box models.
-- [A Survey on the Explainability of Supervised Machine Learning](https://arxiv.org/abs/2011.07876) — *JAIR 2021* · 📈979 — A survey on explainable AI (XAI), surveying major methods, techniques, and algorithmic choices.
-- [Opportunities and Challenges in Explainable Artificial Intelligence (XAI): A Survey](https://arxiv.org/abs/2006.11371) — *arXiv 2020* · 📈789 — A comprehensive survey on explainable AI (XAI), covering methods, challenges, and future research directions.
+- [A Survey of Methods for Explaining Black Box Models](https://arxiv.org/abs/1802.01933) — *ACM Computing Surveys 2018* · 📈5262 — A definitive, highly cited survey that established a taxonomy of explainable-AI methods for black-box models.
+- [A Survey on the Explainability of Supervised Machine Learning](https://arxiv.org/abs/2011.07876) — *JAIR 2021* · 📈983 — A survey on explainable AI (XAI), surveying major methods, techniques, and algorithmic choices.
+- [Opportunities and Challenges in Explainable Artificial Intelligence (XAI): A Survey](https://arxiv.org/abs/2006.11371) — *arXiv 2020* · 📈791 — A comprehensive survey on explainable AI (XAI), covering methods, challenges, and future research directions.
 - [One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques](https://arxiv.org/abs/1909.03012) — *arXiv 2019* · 📈480 — A taxonomy on explainable AI (XAI), surveying major methods, techniques, and algorithmic choices.
-- [Counterfactual Explanations and Algorithmic Recourses for Machine Learning: A Review](https://arxiv.org/abs/2010.10596) — *ACM Computing Surveys 2020* · 📈346 — A review on explainable AI (XAI), surveying major methods, techniques, and algorithmic choices.
+- [Counterfactual Explanations and Algorithmic Recourses for Machine Learning: A Review](https://arxiv.org/abs/2010.10596) — *ACM Computing Surveys 2020* · 📈349 — A review on explainable AI (XAI), surveying major methods, techniques, and algorithmic choices.
 
 ### LLM Red Teaming
 
-- [Building Safe GenAI Applications: An End-to-End Overview of Red Teaming for Large Language Models](https://arxiv.org/abs/2503.01742) — *arXiv preprint 2025* · 📈16 — An overview on LLM red teaming, organizing major methods, taxonomies, and design choices.
+- [Building Safe GenAI Applications: An End-to-End Overview of Red Teaming for Large Language Models](https://arxiv.org/abs/2503.01742) — *arXiv preprint 2025* · 📈17 — An overview on LLM red teaming, organizing major methods, taxonomies, and design choices.
 
 ### Machine Unlearning
 
@@ -2502,24 +2502,24 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Machine Unlearning (GenAI)
 
-- [Machine Unlearning in Generative AI: A Survey](https://arxiv.org/abs/2407.20516) — *arXiv preprint 2024* · 📈66 — A survey on machine unlearning (genai), surveying major methods, techniques, and algorithmic choices. — [`franciscoliu/Awesome-GenAI-Unlearning`](https://github.com/franciscoliu/Awesome-GenAI-Unlearning) ⭐187🟢
+- [Machine Unlearning in Generative AI: A Survey](https://arxiv.org/abs/2407.20516) — *arXiv preprint 2024* · 📈67 — A survey on machine unlearning (genai), surveying major methods, techniques, and algorithmic choices. — [`franciscoliu/Awesome-GenAI-Unlearning`](https://github.com/franciscoliu/Awesome-GenAI-Unlearning) ⭐187🟢
 
 ### Machine-Generated Text Detection
 
-- [Are AI Detectors Good Enough? A Survey on Quality of Datasets With Machine-Generated Texts](https://arxiv.org/abs/2410.14677) — *arXiv preprint 2024* · 📈21 — A survey on machine-generated text detection, with emphasis on benchmarks, evaluation, and representative methods.
+- [Are AI Detectors Good Enough? A Survey on Quality of Datasets With Machine-Generated Texts](https://arxiv.org/abs/2410.14677) — *arXiv preprint 2024* — A survey on machine-generated text detection, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Membership Inference
 
-- [Membership Inference Attacks on Machine Learning: A Survey](https://arxiv.org/abs/2103.07853) — *ACM Computing Surveys 2021* · 📈724 — A comprehensive survey on membership inference, organizing major methods, taxonomies, and design choices.
+- [Membership Inference Attacks on Machine Learning: A Survey](https://arxiv.org/abs/2103.07853) — *ACM Computing Surveys 2021* · 📈729 — A comprehensive survey on membership inference, organizing major methods, taxonomies, and design choices.
 
 ### Model Interpretability
 
-- [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) — *arXiv 2017* · 📈5495 — An influential paper defining a more rigorous science of interpretable machine learning.
-- [Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges](https://arxiv.org/abs/2103.11251) — *Statistics Surveys 2021* · 📈1021 — A key reference on model interpretability, covering methods, challenges, and future research directions.
+- [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) — *arXiv 2017* · 📈5517 — An influential paper defining a more rigorous science of interpretable machine learning.
+- [Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges](https://arxiv.org/abs/2103.11251) — *Statistics Surveys 2021* · 📈1029 — A key reference on model interpretability, covering methods, challenges, and future research directions.
 
 ### Privacy-Preserving ML
 
-- [A Survey of Privacy Attacks in Machine Learning](https://arxiv.org/abs/2007.07646) — *ACM Computing Surveys 2020* · 📈355 — A comprehensive survey on privacy-preserving ML, organizing major methods, taxonomies, and design choices.
+- [A Survey of Privacy Attacks in Machine Learning](https://arxiv.org/abs/2007.07646) — *ACM Computing Surveys 2020* · 📈356 — A comprehensive survey on privacy-preserving ML, organizing major methods, taxonomies, and design choices.
 - [Privacy-Preserving Machine Learning: Methods, Challenges and Directions](https://arxiv.org/abs/2108.04417) — *arXiv 2021* · 📈170 — A key reference on privacy-preserving ML, covering methods, challenges, and future research directions.
 
 ### Red Teaming for Generative Models
@@ -2528,21 +2528,21 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### XAI Evaluation
 
-- [From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review on Evaluating Explainable AI](https://arxiv.org/abs/2201.08164) — *ACM Computing Surveys 2022* · 📈747 — A review on XAI evaluation, with emphasis on benchmarks, evaluation, and representative methods.
+- [From Anecdotal Evidence to Quantitative Evaluation Methods: A Systematic Review on Evaluating Explainable AI](https://arxiv.org/abs/2201.08164) — *ACM Computing Surveys 2022* · 📈751 — A review on XAI evaluation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ## 📡 Federated Learning
 
 ### Asynchronous FL
 
-- [Asynchronous Federated Learning on Heterogeneous Devices: A Survey](https://arxiv.org/abs/2109.04269) — *arXiv 2021* · 📈393 — A survey on asynchronous FL, organizing major methods, taxonomies, and design choices.
+- [Asynchronous Federated Learning on Heterogeneous Devices: A Survey](https://arxiv.org/abs/2109.04269) — *arXiv 2021* · 📈397 — A survey on asynchronous FL, organizing major methods, taxonomies, and design choices.
 
 ### Communication Efficiency
 
-- [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/abs/1610.05492) — *NeurIPS Workshop 2016* · 📈5596 — A foundational paper on communication-efficient strategies for federated learning.
+- [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/abs/1610.05492) — *NeurIPS Workshop 2016* · 📈5603 — A foundational paper on communication-efficient strategies for federated learning.
 
 ### Decentralized FL
 
-- [A Survey on Decentralized Federated Learning](https://arxiv.org/abs/2308.04604) — *arXiv 2023* · 📈50 — A survey on decentralized FL, organizing major methods, taxonomies, and design choices.
+- [A Survey on Decentralized Federated Learning](https://arxiv.org/abs/2308.04604) — *arXiv 2023* · 📈51 — A survey on decentralized FL, organizing major methods, taxonomies, and design choices.
 
 ### Decentralized Learning
 
@@ -2554,7 +2554,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### FL Generalization/Robustness/Fairness
 
-- [Federated Learning for Generalization, Robustness, Fairness: A Survey and Benchmark](https://arxiv.org/abs/2311.06750) — *IEEE TPAMI 2023* · 📈268 — A survey on FL generalization/robustness/fairness, with emphasis on benchmarks, evaluation, and representative methods.
+- [Federated Learning for Generalization, Robustness, Fairness: A Survey and Benchmark](https://arxiv.org/abs/2311.06750) — *IEEE TPAMI 2023* · 📈271 — A survey on FL generalization/robustness/fairness, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### FL Incentive Mechanisms
 
@@ -2562,51 +2562,51 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### FL x Graph
 
-- [Federated Graph Machine Learning: A Survey of Concepts, Techniques, and Applications](https://arxiv.org/abs/2207.11812) — *SIGKDD Explorations 2022* · 📈71 — A survey on FL for graph, organizing major methods, taxonomies, and design choices.
+- [Federated Graph Machine Learning: A Survey of Concepts, Techniques, and Applications](https://arxiv.org/abs/2207.11812) — *SIGKDD Explorations 2022* · 📈72 — A survey on FL for graph, organizing major methods, taxonomies, and design choices.
 
 ### FL x LLM
 
-- [Federated Large Language Models: Current Progress and Future Directions](https://arxiv.org/abs/2409.15723) — *arXiv 2024* · 📈40 — A key reference on federated learning for large language models, covering methods, challenges, and future research directions.
+- [Federated Large Language Models: Current Progress and Future Directions](https://arxiv.org/abs/2409.15723) — *arXiv 2024* · 📈41 — A key reference on federated learning for large language models, covering methods, challenges, and future research directions.
 - [A Survey on Federated Fine-tuning of Large Language Models](https://arxiv.org/abs/2503.12016) — *arXiv 2025* · 📈35 — A comprehensive survey on federated learning for large language models, organizing major methods, taxonomies, and design choices.
 
 ### FL x Medical
 
-- [Federated Learning for Medical Image Analysis: A Survey](https://arxiv.org/abs/2306.05980) — *Pattern Recognition 2024* · 📈469 — A survey on FL for medical, organizing major methods, taxonomies, and design choices.
+- [Federated Learning for Medical Image Analysis: A Survey](https://arxiv.org/abs/2306.05980) — *Pattern Recognition 2024* · 📈475 — A survey on FL for medical, organizing major methods, taxonomies, and design choices.
 
 ### Federated Learning (General)
 
-- [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977) — *FnT in ML 2019* · 📈9407 — A standard, highly cited survey of progress and open problems in federated learning.
-- [Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873) — *IEEE Signal Processing Magazine 2019* · 📈6333 — A highly cited survey of federated learning challenges, methods, and future directions.
+- [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977) — *FnT in ML 2019* · 📈9459 — A standard, highly cited survey of progress and open problems in federated learning.
+- [Federated Learning: Challenges, Methods, and Future Directions](https://arxiv.org/abs/1908.07873) — *IEEE Signal Processing Magazine 2019* · 📈6356 — A highly cited survey of federated learning challenges, methods, and future directions.
 
 ### Heterogeneous FL
 
-- [Federated Learning on Non-IID Data: A Survey](https://arxiv.org/abs/2106.06843) — *Neurocomputing 2021* · 📈1410 — A survey on heterogeneous FL, covering methods, challenges, and future research directions.
+- [Federated Learning on Non-IID Data: A Survey](https://arxiv.org/abs/2106.06843) — *Neurocomputing 2021* · 📈1418 — A survey on heterogeneous FL, covering methods, challenges, and future research directions.
 - [A Survey on Heterogeneous Federated Learning](https://arxiv.org/abs/2210.04505) — *arXiv 2022* · 📈91 — A survey on heterogeneous FL, summarizing key methods, datasets, applications, and research directions.
-- [Non-IID data in Federated Learning: A Survey with Taxonomy, Metrics, Methods, Frameworks and Future Directions](https://arxiv.org/abs/2411.12377) — *arXiv 2024* · 📈39 — A comprehensive recent survey on heterogeneous FL, organizing major methods, taxonomies, and design choices.
+- [Non-IID data in Federated Learning: A Survey with Taxonomy, Metrics, Methods, Frameworks and Future Directions](https://arxiv.org/abs/2411.12377) — *arXiv 2024* · 📈40 — A comprehensive recent survey on heterogeneous FL, organizing major methods, taxonomies, and design choices.
 
 ### Personalization (FL)
 
-- [Towards Personalized Federated Learning](https://arxiv.org/abs/2103.00710) — *IEEE TNNLS 2021* · 📈1331 — A key reference on personalization (FL), organizing major methods, taxonomies, and design choices.
+- [Towards Personalized Federated Learning](https://arxiv.org/abs/2103.00710) — *IEEE TNNLS 2021* · 📈1336 — A key reference on personalization (FL), organizing major methods, taxonomies, and design choices.
 
 ### Privacy / Security (FL)
 
-- [Threats to Federated Learning: A Survey](https://arxiv.org/abs/2003.02133) — *arXiv 2020* · 📈556 — A comprehensive survey on privacy and security (FL), organizing major methods, taxonomies, and design choices.
+- [Threats to Federated Learning: A Survey](https://arxiv.org/abs/2003.02133) — *arXiv 2020* · 📈558 — A comprehensive survey on privacy and security (FL), organizing major methods, taxonomies, and design choices.
 
 ### Vertical Federated Learning
 
-- [A Survey on Vertical Federated Learning: From a Layered Perspective](https://arxiv.org/abs/2304.01829) — *arXiv 2023* · 📈50 — A comprehensive survey on vertical federated learning, organizing major methods, taxonomies, and design choices.
+- [A Survey on Vertical Federated Learning: From a Layered Perspective](https://arxiv.org/abs/2304.01829) — *arXiv 2023* · 📈51 — A comprehensive survey on vertical federated learning, organizing major methods, taxonomies, and design choices.
 
 ## 🖐️ HCI and Human-AI Interaction
 
 ### AI Trust and Reliance
 
-- [A Survey of AI Reliance](https://arxiv.org/abs/2408.03948) — *arXiv 2024* · 📈24 — A survey on AI trust and reliance, organizing major methods, taxonomies, and design choices.
-- [Trust, distrust, and appropriate reliance in (X)AI: a survey of empirical evaluation of user trust](https://arxiv.org/abs/2312.02034) — *arXiv 2023* · 📈14 — A survey on AI trust and reliance, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey of AI Reliance](https://arxiv.org/abs/2408.03948) — *arXiv 2024* — A survey on AI trust and reliance, organizing major methods, taxonomies, and design choices.
+- [Trust, distrust, and appropriate reliance in (X)AI: a survey of empirical evaluation of user trust](https://arxiv.org/abs/2312.02034) — *arXiv 2023* — A survey on AI trust and reliance, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### AI Writing Assistance
 
-- [The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing](https://arxiv.org/abs/2403.12004) — *CHI 2024* · 📈118 — A key reference on AI writing assistance, with comparative analysis of representative methods and systems.
-- [Co-Writing with AI, on Human Terms: Aligning Research with User Demands Across the Writing Process](https://arxiv.org/abs/2504.12488) — *arXiv 2025* · 📈50 — A key reference on AI writing assistance, organizing major methods, taxonomies, and design choices.
+- [Co-Writing with AI, on Human Terms: Aligning Research with User Demands Across the Writing Process](https://arxiv.org/abs/2504.12488) — *arXiv 2025* — A key reference on AI writing assistance, organizing major methods, taxonomies, and design choices.
+- [The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing](https://arxiv.org/abs/2403.12004) — *CHI 2024* — A key reference on AI writing assistance, with comparative analysis of representative methods and systems.
 
 ### AI-Assisted Decision Making
 
@@ -2618,7 +2618,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Conversational UI
 
-- [How should my chatbot interact? A survey on human-chatbot interaction design](https://arxiv.org/abs/1904.02743) — *International Journal of Human-Computer Interaction 2019* · 📈573 — A survey on conversational UI, covering methods, challenges, and future research directions.
+- [How should my chatbot interact? A survey on human-chatbot interaction design](https://arxiv.org/abs/1904.02743) — *International Journal of Human-Computer Interaction 2019* — A survey on conversational UI, covering methods, challenges, and future research directions.
 
 ### Crowdsourcing (HCOMP)
 
@@ -2627,7 +2627,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 ### Explainability & HCI
 
 - [Human-Centered Explainable AI (XAI): From Algorithms to User Experiences](https://arxiv.org/abs/2110.10790) — *arXiv 2021* · 📈353 — A key reference on explainability & HCI, surveying major methods, techniques, and algorithmic choices.
-- [Towards Human-centered Explainable AI: A Survey of User Studies for Model Explanations](https://arxiv.org/abs/2210.11584) — *IEEE TPAMI 2022* · 📈266 — A survey on explainability & HCI, summarizing key methods, datasets, applications, and research directions.
+- [Towards Human-centered Explainable AI: A Survey of User Studies for Model Explanations](https://arxiv.org/abs/2210.11584) — *IEEE TPAMI 2022* · 📈271 — A survey on explainability & HCI, summarizing key methods, datasets, applications, and research directions.
 
 ### Explainable AI Interface
 
@@ -2635,7 +2635,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Explainable AI and Users
 
-- [Towards Human-centered Design of Explainable Artificial Intelligence (XAI): A Survey of Empirical Studies](https://arxiv.org/abs/2410.21183) — *arXiv 2024* · 📈10 — A survey on explainable AI and users, organizing major methods, taxonomies, and design choices.
+- [Towards Human-centered Design of Explainable Artificial Intelligence (XAI): A Survey of Empirical Studies](https://arxiv.org/abs/2410.21183) — *arXiv 2024* — A survey on explainable AI and users, organizing major methods, taxonomies, and design choices.
 
 ### Generative AI and Creativity
 
@@ -2647,11 +2647,11 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Human-AI Teaming
 
-- [Advancing Human-Machine Teaming: Concepts, Challenges, and Applications](https://arxiv.org/abs/2503.16518) — *arXiv 2025* · 📈6 — A comprehensive key reference on human-AI teaming, organizing major methods, taxonomies, and design choices.
+- [Advancing Human-Machine Teaming: Concepts, Challenges, and Applications](https://arxiv.org/abs/2503.16518) — *arXiv 2025* — A comprehensive key reference on human-AI teaming, organizing major methods, taxonomies, and design choices.
 
 ### Human-in-the-loop
 
-- [A Survey of Human-in-the-loop for Machine Learning](https://arxiv.org/abs/2108.00941) — *Future Generation Computer Systems 2021* · 📈800 — A survey on human-in-the-loop, organizing major methods, taxonomies, and design choices.
+- [A Survey of Human-in-the-loop for Machine Learning](https://arxiv.org/abs/2108.00941) — *Future Generation Computer Systems 2021* · 📈804 — A survey on human-in-the-loop, organizing major methods, taxonomies, and design choices.
 
 ### Social Robot HRI
 
@@ -2659,29 +2659,29 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Visualization for ML
 
-- [A Survey of Visual Analytics Techniques for Machine Learning](https://arxiv.org/abs/2008.09632) — *Computational Visual Media 2020* · 📈279 — A survey on visualization for ML, organizing major methods, taxonomies, and design choices.
+- [A Survey of Visual Analytics Techniques for Machine Learning](https://arxiv.org/abs/2008.09632) — *Computational Visual Media 2020* · 📈280 — A survey on visualization for ML, organizing major methods, taxonomies, and design choices.
 
 ## 🧬 Evolutionary Computation
 
 ### Black-box Optimization
 
-- [A Tutorial on Bayesian Optimization](https://arxiv.org/abs/1807.02811) — *arXiv 2018* · 📈2464 — A standard tutorial survey on black-box optimization, summarizing key methods, datasets, applications, and research directions.
+- [A Tutorial on Bayesian Optimization](https://arxiv.org/abs/1807.02811) — *arXiv 2018* · 📈2479 — A standard tutorial survey on black-box optimization, summarizing key methods, datasets, applications, and research directions.
 
 ### Evolutionary Deep Learning
 
-- [Survey on Evolutionary Deep Learning: Principles, Algorithms, Applications and Open Issues](https://arxiv.org/abs/2208.10658) — *ACM Computing Surveys 2022* · 📈129 — A survey on evolutionary deep learning, surveying major methods, techniques, and algorithmic choices.
+- [Survey on Evolutionary Deep Learning: Principles, Algorithms, Applications and Open Issues](https://arxiv.org/abs/2208.10658) — *ACM Computing Surveys 2022* · 📈130 — A survey on evolutionary deep learning, surveying major methods, techniques, and algorithmic choices.
 
 ### Evolutionary Feature Selection
 
-- [Quantum-Inspired Evolutionary Algorithms for Feature Subset Selection: A Comprehensive Survey](https://arxiv.org/abs/2407.17946) — *arXiv 2024* · 📈26 — A comprehensive comprehensive survey on evolutionary feature selection, organizing major methods, taxonomies, and design choices.
+- [Quantum-Inspired Evolutionary Algorithms for Feature Subset Selection: A Comprehensive Survey](https://arxiv.org/abs/2407.17946) — *arXiv 2024* — A comprehensive comprehensive survey on evolutionary feature selection, organizing major methods, taxonomies, and design choices.
 
 ### Evolutionary Multi-Objective Optimization
 
-- [A Survey of Decomposition-Based Evolutionary Multi-Objective Optimization: Part I-Past and Future](https://arxiv.org/abs/2404.14571) — *IEEE TEVC 2024* · 📈3 — A standard survey on evolutionary multi-objective optimization, summarizing key methods, datasets, applications, and research directions.
+- [A Survey of Decomposition-Based Evolutionary Multi-Objective Optimization: Part I-Past and Future](https://arxiv.org/abs/2404.14571) — *IEEE TEVC 2024* — A standard survey on evolutionary multi-objective optimization, summarizing key methods, datasets, applications, and research directions.
 
 ### Evolutionary NAS
 
-- [A Survey on Evolutionary Neural Architecture Search](https://arxiv.org/abs/2008.10937) — *IEEE TNNLS 2020* · 📈601 — A survey on evolutionary NAS, organizing major methods, taxonomies, and design choices.
+- [A Survey on Evolutionary Neural Architecture Search](https://arxiv.org/abs/2008.10937) — *IEEE TNNLS 2020* · 📈602 — A survey on evolutionary NAS, organizing major methods, taxonomies, and design choices.
 
 ### Evolutionary RL
 
@@ -2697,11 +2697,11 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Genetic Programming
 
-- [A Recent Survey on the Applications of Genetic Programming in Image Processing](https://arxiv.org/abs/1901.07387) — *arXiv 2019* · 📈38 — A survey on genetic programming, covering core methods, applications, and research trends.
+- [A Recent Survey on the Applications of Genetic Programming in Image Processing](https://arxiv.org/abs/1901.07387) — *arXiv 2019* — A survey on genetic programming, covering core methods, applications, and research trends.
 
 ### Large-Scale Evolutionary Optimization
 
-- [A Survey on Learnable Evolutionary Algorithms for Scalable Multiobjective Optimization](https://arxiv.org/abs/2206.11526) — *IEEE TEVC 2022* · 📈108 — A survey on large-scale evolutionary optimization, surveying major methods, techniques, and algorithmic choices.
+- [A Survey on Learnable Evolutionary Algorithms for Scalable Multiobjective Optimization](https://arxiv.org/abs/2206.11526) — *IEEE TEVC 2022* — A survey on large-scale evolutionary optimization, surveying major methods, techniques, and algorithmic choices.
 
 ### Multi-objective Optimization
 
@@ -2713,13 +2713,13 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Swarm Intelligence (PSO)
 
-- [Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives](https://arxiv.org/abs/1804.05319) — *Machine Learning and Knowledge Extraction 2018* · 📈491 — A comprehensive recent survey on swarm intelligence (PSO), organizing major methods, taxonomies, and design choices.
+- [Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives](https://arxiv.org/abs/1804.05319) — *Machine Learning and Knowledge Extraction 2018* — A comprehensive recent survey on swarm intelligence (PSO), organizing major methods, taxonomies, and design choices.
 
 ## 🔢 Theoretical Computer Science
 
 ### Algorithmic Fairness Testing
 
-- [Fairness Testing: A Comprehensive Survey and Analysis of Trends](https://arxiv.org/abs/2207.10223) — *ACM TOSEM 2022* · 📈157 — A comprehensive comprehensive survey on algorithmic fairness testing, organizing major methods, taxonomies, and design choices.
+- [Fairness Testing: A Comprehensive Survey and Analysis of Trends](https://arxiv.org/abs/2207.10223) — *ACM TOSEM 2022* · 📈158 — A comprehensive comprehensive survey on algorithmic fairness testing, organizing major methods, taxonomies, and design choices.
 
 ### Algorithmic Game Theory
 
@@ -2731,15 +2731,15 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Computational Social Choice
 
-- [Preference Restrictions in Computational Social Choice: A Survey](https://arxiv.org/abs/2205.09092) — *arXiv 2022* · 📈54 — A survey on computational social choice, organizing major methods, taxonomies, and design choices.
+- [Preference Restrictions in Computational Social Choice: A Survey](https://arxiv.org/abs/2205.09092) — *arXiv 2022* — A survey on computational social choice, organizing major methods, taxonomies, and design choices.
 
 ### Constrained Optimization Learning
 
-- [End-to-End Constrained Optimization Learning: A Survey](https://arxiv.org/abs/2103.16378) — *IJCAI 2021* · 📈278 — A survey on constrained optimization learning, organizing major methods, taxonomies, and design choices.
+- [End-to-End Constrained Optimization Learning: A Survey](https://arxiv.org/abs/2103.16378) — *IJCAI 2021* · 📈280 — A survey on constrained optimization learning, organizing major methods, taxonomies, and design choices.
 
 ### Convex Optimization Theory
 
-- [Convex Optimization: Algorithms and Complexity](https://arxiv.org/abs/1405.4980) — *Foundations and Trends in Machine Learning 2015* · 📈2165 — A comprehensive key reference on convex optimization theory, organizing major methods, taxonomies, and design choices.
+- [Convex Optimization: Algorithms and Complexity](https://arxiv.org/abs/1405.4980) — *Foundations and Trends in Machine Learning 2015* · 📈2163 — A comprehensive key reference on convex optimization theory, organizing major methods, taxonomies, and design choices.
 
 ### Differentiable Optimization
 
@@ -2765,50 +2765,50 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### ML for Combinatorial Optimization
 
-- [Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon](https://arxiv.org/abs/1811.06128) — *European Journal of Operational Research 2018* · 📈1900 — A standard key reference on ML for combinatorial optimization, summarizing key methods, datasets, applications, and research directions.
+- [Machine Learning for Combinatorial Optimization: a Methodological Tour d'Horizon](https://arxiv.org/abs/1811.06128) — *European Journal of Operational Research 2018* · 📈1910 — A standard key reference on ML for combinatorial optimization, summarizing key methods, datasets, applications, and research directions.
 
 ### Spectral Methods
 
-- [A Comprehensive Survey on Spectral Clustering with Graph Structure Learning](https://arxiv.org/abs/2501.13597) — *arXiv 2025* · 📈71 — A comprehensive comprehensive survey on spectral methods, summarizing key methods, datasets, applications, and research directions.
+- [A Comprehensive Survey on Spectral Clustering with Graph Structure Learning](https://arxiv.org/abs/2501.13597) — *arXiv 2025* · 📈72 — A comprehensive comprehensive survey on spectral methods, summarizing key methods, datasets, applications, and research directions.
 
 ### Streaming / Sketching Algorithms
 
-- [Streaming and Sketching Complexity of CSPs: A survey](https://arxiv.org/abs/2205.02744) — *ICALP 2022* · 📈12 — A survey on streaming and sketching algorithms, summarizing key methods, datasets, applications, and research directions.
+- [Streaming and Sketching Complexity of CSPs: A survey](https://arxiv.org/abs/2205.02744) — *ICALP 2022* — A survey on streaming and sketching algorithms, summarizing key methods, datasets, applications, and research directions.
 
 ### Submodular Optimization
 
-- [Learning with Submodular Functions: A Convex Optimization Perspective](https://arxiv.org/abs/1111.6453) — *Foundations and Trends in Machine Learning 2013* · 📈531 — A standard key reference on submodular optimization, summarizing key methods, datasets, applications, and research directions.
-- [Convex Analysis and Optimization with Submodular Functions: a Tutorial](https://arxiv.org/abs/1010.4207) — *arXiv 2010* · 📈40 — A tutorial survey on submodular optimization, summarizing key methods, datasets, applications, and research directions.
+- [Learning with Submodular Functions: A Convex Optimization Perspective](https://arxiv.org/abs/1111.6453) — *Foundations and Trends in Machine Learning 2013* — A standard key reference on submodular optimization, summarizing key methods, datasets, applications, and research directions.
+- [Convex Analysis and Optimization with Submodular Functions: a Tutorial](https://arxiv.org/abs/1010.4207) — *arXiv 2010* — A tutorial survey on submodular optimization, summarizing key methods, datasets, applications, and research directions.
 
 ## 🔬 AI for Science
 
 ### AI Drug Discovery
 
-- [Deep Learning Methods for Small Molecule Drug Discovery: A Survey](https://arxiv.org/abs/2303.00313) — *IEEE TKDE 2023* · 📈25 — A survey on AI drug discovery, summarizing key methods, datasets, applications, and research directions.
+- [Deep Learning Methods for Small Molecule Drug Discovery: A Survey](https://arxiv.org/abs/2303.00313) — *IEEE TKDE 2023* · 📈26 — A survey on AI drug discovery, summarizing key methods, datasets, applications, and research directions.
 
 ### AI Physics Simulation
 
-- [Scientific Machine Learning through Physics-Informed Neural Networks: Where we are and What's next](https://arxiv.org/abs/2201.05624) — *Journal of Scientific Computing 2022* · 📈2650 — A key reference on AI physics simulation, covering methods, challenges, and future research directions.
+- [Scientific Machine Learning through Physics-Informed Neural Networks: Where we are and What's next](https://arxiv.org/abs/2201.05624) — *Journal of Scientific Computing 2022* · 📈2687 — A key reference on AI physics simulation, covering methods, challenges, and future research directions.
 
 ### AI for Science (Overview)
 
-- [A Survey of Deep Learning for Scientific Discovery](https://arxiv.org/abs/2003.11755) — *arXiv 2020* · 📈159 — A comprehensive survey on AI for science (overview), organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Learning for Scientific Discovery](https://arxiv.org/abs/2003.11755) — *arXiv 2020* · 📈160 — A comprehensive survey on AI for science (overview), organizing major methods, taxonomies, and design choices.
 
 ### AI4Science - Astronomy / Astrophysics
 
-- [Deep Learning in Astrophysics](https://arxiv.org/abs/2510.10713) — *Annual Review of Astronomy and Astrophysics 2026* · 📈6 — A key reference on ai4science: astronomy and astrophysics, organizing major methods, taxonomies, and design choices.
+- [Deep Learning in Astrophysics](https://arxiv.org/abs/2510.10713) — *Annual Review of Astronomy and Astrophysics 2026* · 📈7 — A key reference on ai4science: astronomy and astrophysics, organizing major methods, taxonomies, and design choices.
 
 ### AI4Science - Computational Fluid Dynamics
 
-- [Recent Advances on Machine Learning for Computational Fluid Dynamics: A Survey](https://arxiv.org/abs/2408.12171) — *arXiv 2024* · 📈73 — A survey on ai4science: computational fluid dynamics, covering core methods, applications, and research trends.
+- [Recent Advances on Machine Learning for Computational Fluid Dynamics: A Survey](https://arxiv.org/abs/2408.12171) — *arXiv 2024* · 📈75 — A survey on ai4science: computational fluid dynamics, covering core methods, applications, and research trends.
 
 ### AI4Science - Materials Discovery
 
-- [Machine Learning-Driven Materials Discovery: Unlocking Next-Generation Functional Materials - A review](https://arxiv.org/abs/2503.18975) — *arXiv 2025* · 📈38 — A review on ai4science: materials discovery, organizing major methods, taxonomies, and design choices.
+- [Machine Learning-Driven Materials Discovery: Unlocking Next-Generation Functional Materials - A review](https://arxiv.org/abs/2503.18975) — *arXiv 2025* · 📈40 — A review on ai4science: materials discovery, organizing major methods, taxonomies, and design choices.
 
 ### AI4Science - Molecular Generation / Drug Design
 
-- [A Survey of Generative AI for de novo Drug Design: New Frontiers in Molecule and Protein Generation](https://arxiv.org/abs/2402.08703) — *arXiv 2024* · 📈123 — A comprehensive survey on ai4science: molecular generation and drug design, organizing major methods, taxonomies, and design choices.
+- [A Survey of Generative AI for de novo Drug Design: New Frontiers in Molecule and Protein Generation](https://arxiv.org/abs/2402.08703) — *arXiv 2024* · 📈126 — A comprehensive survey on ai4science: molecular generation and drug design, organizing major methods, taxonomies, and design choices.
 
 ### AI4Science - Neuroscience & Deep Learning
 
@@ -2820,7 +2820,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI4Science - Protein Design
 
-- [A Model-Centric Review of Deep Learning for Protein Design](https://arxiv.org/abs/2502.19173) — *arXiv 2025* · 📈14 — A review on ai4science: protein design, organizing major methods, taxonomies, and design choices.
+- [A Model-Centric Review of Deep Learning for Protein Design](https://arxiv.org/abs/2502.19173) — *arXiv 2025* · 📈15 — A review on ai4science: protein design, organizing major methods, taxonomies, and design choices.
 
 ### AI4Science - Protein Structure Prediction
 
@@ -2828,7 +2828,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI4Science - Quantum Chemistry
 
-- [Ab-initio Quantum Chemistry with Neural-Network Wavefunctions](https://doi.org/10.1038/s41570-023-00516-8) — *Nature Reviews Chemistry 2023* · 📈146 — A key reference on ai4science: quantum chemistry, summarizing key methods, datasets, applications, and research directions.
+- [Ab-initio Quantum Chemistry with Neural-Network Wavefunctions](https://doi.org/10.1038/s41570-023-00516-8) — *Nature Reviews Chemistry 2023* · 📈147 — A key reference on ai4science: quantum chemistry, summarizing key methods, datasets, applications, and research directions.
 
 ### AI4Science - Single-Cell Bioinformatics
 
@@ -2840,7 +2840,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Climate / Weather ML
 
-- [Deep Learning and Foundation Models for Weather Prediction: A Survey](https://arxiv.org/abs/2501.06907) — *arXiv 2025* · 📈28 — A survey on climate and weather ML, organizing major methods, taxonomies, and design choices.
+- [Deep Learning and Foundation Models for Weather Prediction: A Survey](https://arxiv.org/abs/2501.06907) — *arXiv 2025* · 📈29 — A survey on climate and weather ML, organizing major methods, taxonomies, and design choices.
 - [Interpretable Machine Learning for Weather and Climate Prediction: A Survey](https://arxiv.org/abs/2403.18864) — *arXiv 2024* · 📈11 — A survey on climate and weather ML, summarizing key methods, datasets, applications, and research directions.
 
 ### Clinical NLP
@@ -2853,7 +2853,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Physics-Guided / Scientific ML
 
-- [Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems](https://arxiv.org/abs/2003.04919) — *ACM Computing Surveys 2022* · 📈811 — A standard comprehensive key reference on physics-guided and scientific ML, organizing major methods, taxonomies, and design choices.
+- [Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems](https://arxiv.org/abs/2003.04919) — *ACM Computing Surveys 2022* · 📈821 — A standard comprehensive key reference on physics-guided and scientific ML, organizing major methods, taxonomies, and design choices.
 
 ### Protein Structure Prediction
 
@@ -2873,7 +2873,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 ### Commonsense Reasoning
 
 - [Commonsense Reasoning for Natural Language Understanding: A Survey of Benchmarks, Resources, and Approaches](https://arxiv.org/abs/1904.01172) — *arXiv 2019* · 📈146 — A standard survey on commonsense reasoning, with emphasis on benchmarks, evaluation, and representative methods.
-- [Commonsense Knowledge Reasoning and Generation with Pre-trained Language Models: A Survey](https://arxiv.org/abs/2201.12438) — *AAAI 2022* · 📈78 — A survey on commonsense reasoning, organizing major methods, taxonomies, and design choices.
+- [Commonsense Knowledge Reasoning and Generation with Pre-trained Language Models: A Survey](https://arxiv.org/abs/2201.12438) — *AAAI 2022* · 📈79 — A survey on commonsense reasoning, organizing major methods, taxonomies, and design choices.
 
 ### Computational Argumentation
 
@@ -2881,15 +2881,15 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Foundation Models
 
-- [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) — *arXiv 2021* · 📈7226 — A broad Stanford report on the capabilities, technology, applications, and social impacts of foundation models.
+- [On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) — *arXiv 2021* · 📈7274 — A broad Stanford report on the capabilities, technology, applications, and social impacts of foundation models.
 
 ### Knowledge Graphs & Reasoning
 
-- [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/abs/2002.00388) — *IEEE TNNLS 2021* · 📈2881 — A highly cited comprehensive survey on knowledge graphs & reasoning, covering core methods, applications, and research trends.
+- [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/abs/2002.00388) — *IEEE TNNLS 2021* · 📈2901 — A highly cited comprehensive survey on knowledge graphs & reasoning, covering core methods, applications, and research trends.
 
 ### Mathematical Reasoning
 
-- [A Survey of Deep Learning for Mathematical Reasoning](https://arxiv.org/abs/2212.10535) — *ACL 2023* · 📈208 — A survey on mathematical reasoning, covering methods, challenges, and future research directions. — [`lupantech/dl4math`](https://github.com/lupantech/dl4math) ⭐372🔴
+- [A Survey of Deep Learning for Mathematical Reasoning](https://arxiv.org/abs/2212.10535) — *ACL 2023* · 📈209 — A survey on mathematical reasoning, covering methods, challenges, and future research directions. — [`lupantech/dl4math`](https://github.com/lupantech/dl4math) ⭐372🔴
 
 ### Neuro-Symbolic AI
 
@@ -2897,7 +2897,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Neurosymbolic AI
 
-- [Neuro-Symbolic AI in 2024: A Systematic Review](https://arxiv.org/abs/2501.05435) — *arXiv 2025* · 📈88 — A comprehensive review on neurosymbolic AI, organizing major methods, taxonomies, and design choices.
+- [Neuro-Symbolic AI in 2024: A Systematic Review](https://arxiv.org/abs/2501.05435) — *arXiv 2025* · 📈90 — A comprehensive review on neurosymbolic AI, organizing major methods, taxonomies, and design choices.
 
 ### SAT Solving and ML
 
@@ -2905,7 +2905,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Self-Improving AI
 
-- [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/abs/2404.14387) — *arXiv 2024* · 📈78 — A survey on self-improving AI, organizing major methods, taxonomies, and design choices.
+- [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/abs/2404.14387) — *arXiv 2024* · 📈80 — A survey on self-improving AI, organizing major methods, taxonomies, and design choices.
 
 ### Theorem Proving & ML
 
@@ -2913,23 +2913,23 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### World Models
 
-- [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499) — *ACM Computing Surveys 2025* · 📈226 — A comprehensive comprehensive survey on world models, organizing major methods, taxonomies, and design choices. — [`tsinghua-fib-lab/World-Model`](https://github.com/tsinghua-fib-lab/World-Model) ⭐834🟡
+- [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499) — *ACM Computing Surveys 2025* · 📈232 — A comprehensive comprehensive survey on world models, organizing major methods, taxonomies, and design choices. — [`tsinghua-fib-lab/World-Model`](https://github.com/tsinghua-fib-lab/World-Model) ⭐843🟡
 
 ## 🧩 Neural Network Foundations
 
 ### Activation Functions
 
-- [Activation Functions in Deep Learning: A Comprehensive Survey and Benchmark](https://arxiv.org/abs/2109.14545) — *Neurocomputing 2022* · 📈1185 — A comprehensive survey on activation functions, with emphasis on benchmarks, evaluation, and representative methods.
+- [Activation Functions in Deep Learning: A Comprehensive Survey and Benchmark](https://arxiv.org/abs/2109.14545) — *Neurocomputing 2022* · 📈1194 — A comprehensive survey on activation functions, with emphasis on benchmarks, evaluation, and representative methods.
 - [Three Decades of Activations: A Comprehensive Survey of 400 Activation Functions for Neural Networks](https://arxiv.org/abs/2402.09092) — *arXiv 2024* · 📈57 — A comprehensive comprehensive survey on activation functions, organizing major methods, taxonomies, and design choices.
 
 ### Attention Mechanisms
 
-- [Attention, please! A survey of Neural Attention Models in Deep Learning](https://arxiv.org/abs/2103.16775) — *Artificial Intelligence Review 2022* · 📈298 — A survey on attention mechanisms, organizing major methods, taxonomies, and design choices.
+- [Attention, please! A survey of Neural Attention Models in Deep Learning](https://arxiv.org/abs/2103.16775) — *Artificial Intelligence Review 2022* · 📈299 — A survey on attention mechanisms, organizing major methods, taxonomies, and design choices.
 
 ### CNN Fundamentals
 
-- [Recent Advances in Convolutional Neural Networks](https://arxiv.org/abs/1512.07108) — *Pattern Recognition 2018* · 📈6078 — A standard survey of CNN advances, including layer design, activations, losses, regularization, and optimization.
-- [A Survey of the Recent Architectures of Deep Convolutional Neural Networks](https://arxiv.org/abs/1901.06032) — *Artificial Intelligence Review 2020* · 📈2789 — A highly cited survey on CNN fundamentals, organizing major methods, taxonomies, and design choices.
+- [Recent Advances in Convolutional Neural Networks](https://arxiv.org/abs/1512.07108) — *Pattern Recognition 2018* · 📈6087 — A standard survey of CNN advances, including layer design, activations, losses, regularization, and optimization.
+- [A Survey of the Recent Architectures of Deep Convolutional Neural Networks](https://arxiv.org/abs/1901.06032) — *Artificial Intelligence Review 2020* · 📈2794 — A highly cited survey on CNN fundamentals, organizing major methods, taxonomies, and design choices.
 
 ### Capsule Networks
 
@@ -2937,23 +2937,23 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Deep Learning Overview
 
-- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828) — *Neural Networks 2015* · 📈17738 — Schmidhuber's broad, highly cited review of the history and landscape of deep learning.
+- [Deep Learning in Neural Networks: An Overview](https://arxiv.org/abs/1404.7828) — *Neural Networks 2015* · 📈17745 — Schmidhuber's broad, highly cited review of the history and landscape of deep learning.
 
 ### Diffusion Models Theory
 
-- [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796) — *ACM Computing Surveys 2023* · 📈2400 — A comprehensive survey on diffusion models theory, organizing major methods, taxonomies, and design choices. — [`YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy`](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) ⭐3364🟡
+- [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796) — *ACM Computing Surveys 2023* · 📈2415 — A comprehensive survey on diffusion models theory, organizing major methods, taxonomies, and design choices. — [`YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy`](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) ⭐3365🟡
 
 ### Efficient Transformers
 
-- [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) — *ACM Computing Surveys 2022* · 📈1643 — A standard survey on efficient transformers, organizing major methods, taxonomies, and design choices.
+- [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) — *ACM Computing Surveys 2022* · 📈1651 — A standard survey on efficient transformers, organizing major methods, taxonomies, and design choices.
 
 ### Equivariant Neural Networks
 
-- [Geometric Deep Learning and Equivariant Neural Networks](https://arxiv.org/abs/2105.13926) — *Artificial Intelligence Review 2023* · 📈123 — A key reference on equivariant neural networks, covering theoretical foundations, methods, and implications.
+- [Geometric Deep Learning and Equivariant Neural Networks](https://arxiv.org/abs/2105.13926) — *Artificial Intelligence Review 2023* · 📈124 — A key reference on equivariant neural networks, covering theoretical foundations, methods, and implications.
 
 ### Geometric Deep Learning
 
-- [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478) — *arXiv 2021* · 📈1717 — A comprehensive key reference on geometric deep learning, organizing major methods, taxonomies, and design choices. — [project](https://geometricdeeplearning.com/book/)
+- [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/abs/2104.13478) — *arXiv 2021* · 📈1728 — A comprehensive key reference on geometric deep learning, organizing major methods, taxonomies, and design choices. — [project](https://geometricdeeplearning.com/book/)
 
 ### Implicit Neural Representations
 
@@ -2962,7 +2962,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 ### Mixture of Experts
 
 - [A Review of Sparse Expert Models in Deep Learning](https://arxiv.org/abs/2209.01667) — *arXiv 2022* · 📈213 — A review on mixture of experts, organizing major methods, taxonomies, and design choices.
-- [A Comprehensive Survey of Mixture-of-Experts: Algorithms, Theory, and Applications](https://arxiv.org/abs/2503.07137) — *arXiv 2025* · 📈125 — A comprehensive recent comprehensive survey on mixture of experts, covering core methods, applications, and research trends.
+- [A Comprehensive Survey of Mixture-of-Experts: Algorithms, Theory, and Applications](https://arxiv.org/abs/2503.07137) — *arXiv 2025* · 📈127 — A comprehensive recent comprehensive survey on mixture of experts, covering core methods, applications, and research trends.
 
 ### Neural ODE / Differential Equations
 
@@ -2974,7 +2974,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Physics-Informed NN
 
-- [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064) — *arXiv 2023* · 📈200 — A comprehensive survey on physics-informed NN, organizing major methods, taxonomies, and design choices.
+- [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064) — *arXiv 2023* · 📈203 — A comprehensive survey on physics-informed NN, organizing major methods, taxonomies, and design choices.
 
 ### Quantum Machine Learning
 
@@ -2983,8 +2983,8 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### RNN / LSTM
 
-- [Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network](https://arxiv.org/abs/1808.03314) — *Physica D 2020* · 📈5221 — A theoretical primer deriving canonical RNN and LSTM forms from differential-equation perspectives.
-- [Recent Advances in Recurrent Neural Networks](https://arxiv.org/abs/1801.01078) — *arXiv 2018* · 📈756 — A standard recent key reference on RNN and LSTM, covering theoretical foundations, methods, and implications.
+- [Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network](https://arxiv.org/abs/1808.03314) — *Physica D 2020* · 📈5245 — A theoretical primer deriving canonical RNN and LSTM forms from differential-equation perspectives.
+- [Recent Advances in Recurrent Neural Networks](https://arxiv.org/abs/1801.01078) — *arXiv 2018* · 📈757 — A standard recent key reference on RNN and LSTM, covering theoretical foundations, methods, and implications.
 
 ### Regularization / Dropout
 
@@ -2992,26 +2992,26 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Sparse Neural Networks
 
-- [Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554) — *JMLR 2021* · 📈1010 — A comprehensive key reference on sparse neural networks, surveying major methods, techniques, and algorithmic choices.
-- [A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations](https://arxiv.org/abs/2308.06767) — *IEEE TPAMI 2024* · 📈556 — A comprehensive recent survey on sparse neural networks, with comparative analysis of representative methods and systems.
+- [Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks](https://arxiv.org/abs/2102.00554) — *JMLR 2021* · 📈1012 — A comprehensive key reference on sparse neural networks, surveying major methods, techniques, and algorithmic choices.
+- [A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations](https://arxiv.org/abs/2308.06767) — *IEEE TPAMI 2024* · 📈562 — A comprehensive recent survey on sparse neural networks, with comparative analysis of representative methods and systems.
 
 ### Spiking Neural Networks
 
-- [Deep Learning in Spiking Neural Networks](https://arxiv.org/abs/1804.08150) — *Neural Networks 2019* · 📈1403 — A key reference on spiking neural networks, with comparative analysis of representative methods and systems.
+- [Deep Learning in Spiking Neural Networks](https://arxiv.org/abs/1804.08150) — *Neural Networks 2019* · 📈1408 — A key reference on spiking neural networks, with comparative analysis of representative methods and systems.
 - [Toward Large-scale Spiking Neural Networks: A Comprehensive Survey and Future Directions](https://arxiv.org/abs/2409.02111) — *arXiv 2024* · 📈16 — A comprehensive comprehensive survey on spiking neural networks, summarizing key methods, datasets, applications, and research directions.
 
 ### State Space Models
 
-- [A Survey of Mamba](https://arxiv.org/abs/2408.01129) — *arXiv 2024* · 📈100 — A survey on state space models, covering core methods, applications, and research trends.
+- [A Survey of Mamba](https://arxiv.org/abs/2408.01129) — *arXiv 2024* · 📈101 — A survey on state space models, covering core methods, applications, and research trends.
 - [Mamba-360: Survey of State Space Models as Transformer Alternative for Long Sequence Modelling](https://arxiv.org/abs/2404.16112) — *arXiv 2024* · 📈97 — A survey on state space models, with comparative analysis of representative methods and systems. — [`badripatro/mamba360`](https://github.com/badripatro/mamba360) ⭐73🔴
 
 ### Test-Time Adaptation
 
-- [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://arxiv.org/abs/2303.15361) — *IJCV 2025* · 📈612 — A comprehensive comprehensive survey on test-time adaptation, organizing major methods, taxonomies, and design choices. — [`tim-learn/awesome-test-time-adaptation`](https://github.com/tim-learn/awesome-test-time-adaptation) ⭐1310🟡
+- [A Comprehensive Survey on Test-Time Adaptation under Distribution Shifts](https://arxiv.org/abs/2303.15361) — *IJCV 2025* · 📈613 — A comprehensive comprehensive survey on test-time adaptation, organizing major methods, taxonomies, and design choices. — [`tim-learn/awesome-test-time-adaptation`](https://github.com/tim-learn/awesome-test-time-adaptation) ⭐1312🟡
 
 ### Transformer Architectures
 
-- [A Survey of Transformers](https://arxiv.org/abs/2106.04554) — *AI Open 2022* · 📈1562 — A survey on Transformer architectures, covering core methods, applications, and research trends.
+- [A Survey of Transformers](https://arxiv.org/abs/2106.04554) — *AI Open 2022* · 📈1565 — A survey on Transformer architectures, covering core methods, applications, and research trends.
 
 ## 🏭 Applications and Cross-Domain AI
 
@@ -3025,15 +3025,15 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI x Education - Intelligent Tutoring
 
-- [Large Language Models for Education: A Survey](https://arxiv.org/abs/2405.13001) — *arXiv 2024* · 📈94 — A comprehensive survey on AI for education: intelligent tutoring, covering core methods, applications, and research trends.
+- [Large Language Models for Education: A Survey](https://arxiv.org/abs/2405.13001) — *arXiv 2024* · 📈95 — A comprehensive survey on AI for education: intelligent tutoring, covering core methods, applications, and research trends.
 
 ### AI x Energy - Load Forecasting
 
-- [Short-Term Electricity-Load Forecasting by Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2408.16202) — *arXiv 2025* · 📈90 — A comprehensive comprehensive survey on AI for energy: load forecasting, organizing major methods, taxonomies, and design choices.
+- [Short-Term Electricity-Load Forecasting by Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2408.16202) — *arXiv 2025* · 📈93 — A comprehensive comprehensive survey on AI for energy: load forecasting, organizing major methods, taxonomies, and design choices.
 
 ### AI x Finance
 
-- [Deep Learning for Financial Applications : A Survey](https://arxiv.org/abs/2002.05786) — *Applied Soft Computing 2020* · 📈520 — A highly cited survey on AI for finance, covering core methods, applications, and research trends.
+- [Deep Learning for Financial Applications : A Survey](https://arxiv.org/abs/2002.05786) — *Applied Soft Computing 2020* · 📈524 — A highly cited survey on AI for finance, covering core methods, applications, and research trends.
 
 ### AI x Finance - Algorithmic Trading
 
@@ -3041,7 +3041,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI x Finance - Financial LLM
 
-- [A Survey of Large Language Models for Financial Applications: Progress, Prospects and Challenges](https://arxiv.org/abs/2406.11903) — *arXiv 2024* · 📈169 — A survey on AI for finance: financial LLM, covering methods, challenges, and future research directions.
+- [A Survey of Large Language Models for Financial Applications: Progress, Prospects and Challenges](https://arxiv.org/abs/2406.11903) — *arXiv 2024* · 📈171 — A survey on AI for finance: financial LLM, covering methods, challenges, and future research directions.
 
 ### AI x Finance - Fraud Detection
 
@@ -3049,7 +3049,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI x Healthcare
 
-- [Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis](https://arxiv.org/abs/1706.03446) — *IEEE JBHI 2018* · 📈1517 — A survey on AI for healthcare, covering core methods, applications, and research trends.
+- [Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis](https://arxiv.org/abs/1706.03446) — *IEEE JBHI 2018* · 📈1523 — A survey on AI for healthcare, covering core methods, applications, and research trends.
 
 ### AI x Healthcare - Clinical NLP / EHR
 
@@ -3057,7 +3057,7 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI x Healthcare - Computational Pathology
 
-- [Artificial Intelligence for Digital and Computational Pathology](https://doi.org/10.1038/s44222-023-00096-8) — *Nature Reviews Bioengineering 2023* · 📈365 — A key reference on AI for healthcare: computational pathology, covering methods, challenges, and future research directions.
+- [Artificial Intelligence for Digital and Computational Pathology](https://doi.org/10.1038/s44222-023-00096-8) — *Nature Reviews Bioengineering 2023* · 📈369 — A key reference on AI for healthcare: computational pathology, covering methods, challenges, and future research directions.
 
 ### AI x Healthcare - Digital Pathology Foundation Models
 
@@ -3065,11 +3065,11 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI x Healthcare - Medical Image Segmentation
 
-- [From CNN to Transformer: A Review of Medical Image Segmentation Models](https://arxiv.org/abs/2308.05305) — *arXiv 2023* · 📈234 — A review on AI for healthcare: medical image segmentation, organizing major methods, taxonomies, and design choices.
+- [From CNN to Transformer: A Review of Medical Image Segmentation Models](https://arxiv.org/abs/2308.05305) — *arXiv 2023* · 📈236 — A review on AI for healthcare: medical image segmentation, organizing major methods, taxonomies, and design choices.
 
 ### AI x Healthcare - Medical LLM
 
-- [A Survey on Medical Large Language Models: Technology, Application, Trustworthiness, and Future Directions](https://arxiv.org/abs/2406.03712) — *arXiv 2024* · 📈61 — A comprehensive survey on AI for healthcare: medical LLM, covering methods, challenges, and future research directions.
+- [A Survey on Medical Large Language Models: Technology, Application, Trustworthiness, and Future Directions](https://arxiv.org/abs/2406.03712) — *arXiv 2024* · 📈62 — A comprehensive survey on AI for healthcare: medical LLM, covering methods, challenges, and future research directions.
 
 ### AI x Healthcare - Mental Health NLP
 
@@ -3081,19 +3081,19 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI x IoT/Edge - TinyML
 
-- [From Tiny Machine Learning to Tiny Deep Learning: A Survey](https://arxiv.org/abs/2506.18927) — *arXiv 2025* · 📈53 — A comprehensive survey on AI for iot/edge: tinyml, organizing major methods, taxonomies, and design choices.
+- [From Tiny Machine Learning to Tiny Deep Learning: A Survey](https://arxiv.org/abs/2506.18927) — *arXiv 2025* · 📈54 — A comprehensive survey on AI for iot/edge: tinyml, organizing major methods, taxonomies, and design choices.
 
 ### AI x Law - Legal LLM
 
-- [Large Language Models Meet Legal Artificial Intelligence: A Survey](https://arxiv.org/abs/2509.09969) — *arXiv 2025* · 📈8 — A comprehensive survey on AI for law: legal LLM, with emphasis on benchmarks, evaluation, and representative methods.
+- [Large Language Models Meet Legal Artificial Intelligence: A Survey](https://arxiv.org/abs/2509.09969) — *arXiv 2025* · 📈9 — A comprehensive survey on AI for law: legal LLM, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### AI x Manufacturing - Anomaly Detection
 
-- [Deep Learning for Unsupervised Anomaly Localization in Industrial Images: A Survey](https://arxiv.org/abs/2207.10298) — *arXiv 2022* · 📈279 — A survey on AI for manufacturing: anomaly detection, organizing major methods, taxonomies, and design choices.
+- [Deep Learning for Unsupervised Anomaly Localization in Industrial Images: A Survey](https://arxiv.org/abs/2207.10298) — *arXiv 2022* · 📈281 — A survey on AI for manufacturing: anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### AI x Manufacturing - Industrial Time Series Anomaly Detection
 
-- [A Comprehensive Survey of Deep Transfer Learning for Anomaly Detection in Industrial Time Series: Methods, Applications, and Directions](https://arxiv.org/abs/2307.05638) — *arXiv 2024* · 📈201 — A comprehensive comprehensive survey on AI for manufacturing: industrial time series anomaly detection, organizing major methods, taxonomies, and design choices.
+- [A Comprehensive Survey of Deep Transfer Learning for Anomaly Detection in Industrial Time Series: Methods, Applications, and Directions](https://arxiv.org/abs/2307.05638) — *arXiv 2024* · 📈205 — A comprehensive comprehensive survey on AI for manufacturing: industrial time series anomaly detection, organizing major methods, taxonomies, and design choices.
 
 ### AI x Mobility - Autonomous Driving Foundation Models
 
@@ -3101,15 +3101,15 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI x Music - Deep Music Generation
 
-- [A Comprehensive Survey on Deep Music Generation: Multi-level Representations, Algorithms, Evaluations, and Future Directions](https://arxiv.org/abs/2011.06801) — *arXiv 2020* · 📈153 — A comprehensive comprehensive survey on AI for music: deep music generation, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Comprehensive Survey on Deep Music Generation: Multi-level Representations, Algorithms, Evaluations, and Future Directions](https://arxiv.org/abs/2011.06801) — *arXiv 2020* — A comprehensive comprehensive survey on AI for music: deep music generation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### AI x Networking
 
-- [Deep Learning in Mobile and Wireless Networking: A Survey](https://arxiv.org/abs/1803.04311) — *IEEE Communications Surveys & Tutorials 2019* · 📈1560 — A standard survey on AI for networking, covering core methods, applications, and research trends.
+- [Deep Learning in Mobile and Wireless Networking: A Survey](https://arxiv.org/abs/1803.04311) — *IEEE Communications Surveys & Tutorials 2019* · 📈1562 — A standard survey on AI for networking, covering core methods, applications, and research trends.
 
 ### AI x Society - Finance/Healthcare/Law
 
-- [A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law](https://arxiv.org/abs/2405.01769) — *arXiv 2024* · 📈115 — A survey on AI for society: finance/healthcare/law, covering core methods, applications, and research trends.
+- [A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law](https://arxiv.org/abs/2405.01769) — *arXiv 2024* · 📈118 — A survey on AI for society: finance/healthcare/law, covering core methods, applications, and research trends.
 
 ### AI x Software Engineering
 
@@ -3117,39 +3117,39 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### AI x Software Engineering - LLM Agents
 
-- [Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977) — *arXiv 2025* · 📈245 — A survey on AI for software engineering: LLM agents, organizing major methods, taxonomies, and design choices.
+- [Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977) — *arXiv 2025* · 📈252 — A survey on AI for software engineering: LLM agents, organizing major methods, taxonomies, and design choices.
 
 ### AI x Transportation - GNN
 
-- [Graph Neural Networks in Intelligent Transportation Systems: Advances, Applications and Trends](https://arxiv.org/abs/2401.00713) — *arXiv 2024* · 📈22 — A key reference on AI for transportation: GNN, covering core methods, applications, and research trends.
+- [Graph Neural Networks in Intelligent Transportation Systems: Advances, Applications and Trends](https://arxiv.org/abs/2401.00713) — *arXiv 2024* · 📈23 — A key reference on AI for transportation: GNN, covering core methods, applications, and research trends.
 
 ### Geospatial - Remote Sensing Foundation Models
 
-- [Foundation Models for Remote Sensing and Earth Observation: A Survey](https://arxiv.org/abs/2410.16602) — *IEEE Geoscience and Remote Sensing Magazine 2025* · 📈118 — A comprehensive survey on geospatial: remote sensing foundation models, organizing major methods, taxonomies, and design choices.
+- [Foundation Models for Remote Sensing and Earth Observation: A Survey](https://arxiv.org/abs/2410.16602) — *IEEE Geoscience and Remote Sensing Magazine 2025* — A comprehensive survey on geospatial: remote sensing foundation models, organizing major methods, taxonomies, and design choices.
 
 ### Geospatial - Self-Supervised GeoAI
 
-- [Self-Supervised Representation Learning for Geospatial Objects: A Survey](https://arxiv.org/abs/2408.12133) — *arXiv 2025* · 📈23 — A survey on geospatial: self-supervised geoai, organizing major methods, taxonomies, and design choices.
+- [Self-Supervised Representation Learning for Geospatial Objects: A Survey](https://arxiv.org/abs/2408.12133) — *arXiv 2025* — A survey on geospatial: self-supervised geoai, organizing major methods, taxonomies, and design choices.
 
 ## 📊 Data-Centric AI and Evaluation
 
 ### Active Learning
 
-- [A Survey of Deep Active Learning](https://arxiv.org/abs/2009.00236) — *ACM Computing Surveys 2022* · 📈1546 — A comprehensive survey on active learning, organizing major methods, taxonomies, and design choices.
-- [A Survey on Deep Active Learning: Recent Advances and New Frontiers](https://arxiv.org/abs/2405.00334) — *IEEE TNNLS 2024* · 📈161 — A survey on active learning, organizing major methods, taxonomies, and design choices.
+- [A Survey of Deep Active Learning](https://arxiv.org/abs/2009.00236) — *ACM Computing Surveys 2022* · 📈1554 — A comprehensive survey on active learning, organizing major methods, taxonomies, and design choices.
+- [A Survey on Deep Active Learning: Recent Advances and New Frontiers](https://arxiv.org/abs/2405.00334) — *IEEE TNNLS 2024* · 📈162 — A survey on active learning, organizing major methods, taxonomies, and design choices.
 
 ### Benchmark Contamination
 
-- [Benchmark Data Contamination of Large Language Models: A Survey](https://arxiv.org/abs/2406.04244) — *arXiv 2024* · 📈148 — A survey on benchmark contamination, with emphasis on benchmarks, evaluation, and representative methods.
-- [A Survey on Data Contamination for Large Language Models](https://arxiv.org/abs/2502.14425) — *arXiv 2025* · 📈34 — A survey on benchmark contamination, with emphasis on benchmarks, evaluation, and representative methods.
+- [A Survey on Data Contamination for Large Language Models](https://arxiv.org/abs/2502.14425) — *arXiv 2025* — A survey on benchmark contamination, with emphasis on benchmarks, evaluation, and representative methods.
+- [Benchmark Data Contamination of Large Language Models: A Survey](https://arxiv.org/abs/2406.04244) — *arXiv 2024* — A survey on benchmark contamination, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Benchmark Design / Model Evaluation
 
-- [Evaluation and Benchmarking of LLM Agents: A Survey](https://arxiv.org/abs/2507.21504) — *arXiv 2025* · 📈191 — A survey on benchmark design and model evaluation, with emphasis on benchmarks, evaluation, and representative methods.
+- [Evaluation and Benchmarking of LLM Agents: A Survey](https://arxiv.org/abs/2507.21504) — *arXiv 2025* · 📈195 — A survey on benchmark design and model evaluation, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Benchmark Methodology
 
-- [Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation](https://arxiv.org/abs/2502.06559) — *arXiv 2025* · 📈83 — A review on benchmark methodology, with emphasis on benchmarks, evaluation, and representative methods.
+- [Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation](https://arxiv.org/abs/2502.06559) — *arXiv 2025* · 📈85 — A review on benchmark methodology, with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Coreset Selection / Data Pruning
 
@@ -3161,16 +3161,16 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Data-Centric AI
 
-- [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158) — *ACM Computing Surveys 2025* · 📈493 — A survey on data-centric AI, summarizing key methods, datasets, applications, and research directions. — [`daochenzha/data-centric-AI`](https://github.com/daochenzha/data-centric-AI) ⭐1158🔴
+- [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158) — *ACM Computing Surveys 2025* · 📈500 — A survey on data-centric AI, summarizing key methods, datasets, applications, and research directions. — [`daochenzha/data-centric-AI`](https://github.com/daochenzha/data-centric-AI) ⭐1159🔴
 
 ### Dataset Distillation
 
-- [Dataset Distillation: A Comprehensive Review](https://arxiv.org/abs/2301.07014) — *IEEE TPAMI 2024* · 📈210 — A recent review on dataset distillation, organizing major methods, taxonomies, and design choices.
+- [Dataset Distillation: A Comprehensive Review](https://arxiv.org/abs/2301.07014) — *IEEE TPAMI 2024* · 📈211 — A recent review on dataset distillation, organizing major methods, taxonomies, and design choices.
 - [A Comprehensive Survey of Dataset Distillation](https://arxiv.org/abs/2301.05603) — *IEEE TPAMI 2024* · 📈198 — A comprehensive survey on dataset distillation, covering core methods, applications, and research trends.
 
 ### LLM-as-Judge Evaluation
 
-- [A Survey on LLM-as-a-Judge](https://arxiv.org/abs/2411.15594) — *arXiv 2024* · 📈1724 — A survey on LLM-as-judge evaluation, organizing major methods, taxonomies, and design choices.
+- [A Survey on LLM-as-a-Judge](https://arxiv.org/abs/2411.15594) — *arXiv 2024* — A survey on LLM-as-judge evaluation, organizing major methods, taxonomies, and design choices.
 
 ### Multimodal Harmful Content
 
@@ -3178,17 +3178,17 @@ Legend: 📈 citation count (Semantic Scholar) · ⭐ GitHub stars · freshness 
 
 ### Synthetic Data
 
-- [Machine Learning for Synthetic Data Generation: A Review](https://arxiv.org/abs/2302.04062) — *arXiv 2023* · 📈305 — A review on synthetic data, covering core methods, applications, and research trends.
-- [Comprehensive Exploration of Synthetic Data Generation: A Survey](https://arxiv.org/abs/2401.02524) — *arXiv 2024* · 📈114 — A survey on synthetic data, organizing major methods, taxonomies, and design choices.
+- [Machine Learning for Synthetic Data Generation: A Review](https://arxiv.org/abs/2302.04062) — *arXiv 2023* · 📈306 — A review on synthetic data, covering core methods, applications, and research trends.
+- [Comprehensive Exploration of Synthetic Data Generation: A Survey](https://arxiv.org/abs/2401.02524) — *arXiv 2024* · 📈115 — A survey on synthetic data, organizing major methods, taxonomies, and design choices.
 
 ### Synthetic Data (LLM)
 
-- [On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey](https://arxiv.org/abs/2406.15126) — *ACL Findings 2024* · 📈375 — A survey on synthetic data (LLM), with emphasis on benchmarks, evaluation, and representative methods.
+- [On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey](https://arxiv.org/abs/2406.15126) — *ACL Findings 2024* · 📈380 — A survey on synthetic data (LLM), with emphasis on benchmarks, evaluation, and representative methods.
 
 ### Synthetic Data Generation
 
-- [Synthetic Data Generation Using Large Language Models: Advances in Text and Code](https://arxiv.org/abs/2503.14023) — *IEEE Access 2025* · 📈118 — A key reference on synthetic data generation, surveying major methods, techniques, and algorithmic choices.
-- [A Survey on Data Synthesis and Augmentation for Large Language Models](https://arxiv.org/abs/2410.12896) — *arXiv 2024* · 📈52 — A survey on synthetic data generation, organizing major methods, taxonomies, and design choices.
+- [Synthetic Data Generation Using Large Language Models: Advances in Text and Code](https://arxiv.org/abs/2503.14023) — *IEEE Access 2025* — A key reference on synthetic data generation, surveying major methods, techniques, and algorithmic choices.
+- [A Survey on Data Synthesis and Augmentation for Large Language Models](https://arxiv.org/abs/2410.12896) — *arXiv 2024* — A survey on synthetic data generation, organizing major methods, taxonomies, and design choices.
 
 ## Contributing
 
