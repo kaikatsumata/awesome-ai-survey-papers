@@ -1,6 +1,6 @@
 # 調査ノート — Awesome AI Survey Papers
 
-本ドキュメントは収集した全サーベイ論文のメタデータ・統計・調査手法をまとめたもの。READMEは分類済みリストに徹し、ここに全調査結果を集約する。最終更新 2026-09-27。
+本ドキュメントは収集した全サーベイ論文のメタデータ・統計・調査手法をまとめたもの。READMEは分類済みリストに徹し、ここに全調査結果を集約する。最終更新 2026-10-04。
 
 ## 調査手法と飽和判定
 
@@ -23,7 +23,7 @@
 - 分野数: 30
 - companion GitHub 付き: 122 件
 - arXiv ID あり: 940 件
-- 被引用数取得済み: 636 件
+- 被引用数取得済み: 935 件
 - 出版年の分布: 2008:1, 2009:3, 2010:2, 2012:1, 2013:4, 2014:2, 2015:6, 2016:9, 2017:22, 2018:30, 2019:38, 2020:78, 2021:114, 2022:125, 2023:146, 2024:231, 2025:138, 2026:5
 
 ### 分野別件数
@@ -65,94 +65,94 @@
 
 | 被引用 | タイトル | venue | 年 |
 |---:|---|---|---:|
-| 17789 | Deep Learning in Neural Networks: An Overview | Neural Networks | 2015 |
-| 14510 | A Survey on Deep Learning in Medical Image Analysis | Medical Image Analysis | 2017 |
-| 14333 | Representation Learning: A Review and New Perspectives | IEEE TPAMI | 2013 |
-| 12059 | A Comprehensive Survey on Graph Neural Networks | IEEE TNNLS | 2021 |
-| 9636 | Advances and Open Problems in Federated Learning | FnT in ML | 2019 |
-| 9329 | wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Repres | NeurIPS | 2020 |
-| 9095 | Bootstrap your own latent: A new approach to self-supervised Learning | NeurIPS | 2020 |
-| 7404 | On the Opportunities and Risks of Foundation Models | arXiv | 2021 |
-| 6451 | Federated Learning: Challenges, Methods, and Future Directions | IEEE Signal Processing Magazine | 2019 |
-| 6114 | Recent Advances in Convolutional Neural Networks | Pattern Recognition | 2018 |
-| 5952 | Variational Inference: A Review for Statisticians | JASA | 2017 |
-| 5812 | Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Metho | ACM Computing Surveys | 2021 |
-| 5645 | Federated Learning: Strategies for Improving Communication Efficiency | NeurIPS Workshop | 2016 |
-| 5596 | Towards A Rigorous Science of Interpretable Machine Learning | arXiv | 2017 |
-| 5346 | A Survey of Methods for Explaining Black Box Models | ACM Computing Surveys | 2018 |
-| 5278 | Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Mem | Physica D | 2020 |
-| 4487 | A Survey of Convolutional Neural Networks: Analysis, Applications, and | TNNLS | 2022 |
-| 3929 | A Survey on Vision Transformer | TPAMI | 2023 |
-| 3922 | Image Segmentation Using Deep Learning: A Survey | TPAMI | 2022 |
-| 3879 | Generative Adversarial Networks: An Overview | IEEE Signal Processing Magazine | 2018 |
-| 3863 | Efficient Processing of Deep Neural Networks: A Tutorial and Survey | Proceedings of the IEEE | 2017 |
-| 3855 | Transformers in Vision: A Survey | CSUR | 2022 |
-| 3649 | Object Detection in 20 Years: A Survey | Proceedings of the IEEE | 2023 |
-| 3612 | Deep Reinforcement Learning: A Brief Survey | IEEE Signal Processing Magazine | 2017 |
-| 3491 | Concrete Problems in AI Safety | arXiv | 2016 |
-| 3105 | Recent Trends in Deep Learning Based Natural Language Processing | IEEE Computational Intelligence Magazine | 2018 |
-| 2960 | A Survey on Knowledge Graphs: Representation, Acquisition and Applicat | IEEE TNNLS | 2021 |
-| 2883 | Deep Learning for Generic Object Detection: A Survey | IJCV | 2020 |
-| 2814 | Offline Reinforcement Learning: Tutorial, Review, and Perspectives on  | arXiv | 2020 |
-| 2811 | A Survey of the Recent Architectures of Deep Convolutional Neural Netw | Artificial Intelligence Review | 2020 |
+| 24618 | Training language models to follow instructions with human feedback | NeurIPS | 2022 |
+| 17806 | Deep Learning in Neural Networks: An Overview | Neural Networks | 2015 |
+| 14571 | A Survey on Deep Learning in Medical Image Analysis | Medical Image Analysis | 2017 |
+| 14366 | Representation Learning: A Review and New Perspectives | IEEE TPAMI | 2013 |
+| 12112 | A Comprehensive Survey on Graph Neural Networks | IEEE TNNLS | 2021 |
+| 9705 | Advances and Open Problems in Federated Learning | FnT in ML | 2019 |
+| 9415 | wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Repres | NeurIPS | 2020 |
+| 9151 | Bootstrap your own latent: A new approach to self-supervised Learning | NeurIPS | 2020 |
+| 7462 | On the Opportunities and Risks of Foundation Models | arXiv | 2021 |
+| 7439 | Graph Neural Networks: A Review of Methods and Applications | AI Open | 2020 |
+| 7077 | An overview of gradient descent optimization algorithms | arXiv | 2016 |
+| 6493 | Federated Learning: Challenges, Methods, and Future Directions | IEEE Signal Processing Magazine | 2019 |
+| 6440 | A Survey on Bias and Fairness in Machine Learning | ACM Computing Surveys | 2021 |
+| 6179 | A Comprehensive Survey on Transfer Learning | Proceedings of the IEEE | 2020 |
+| 6120 | Recent Advances in Convolutional Neural Networks | Pattern Recognition | 2018 |
+| 5978 | Variational Inference: A Review for Statisticians | JASA | 2017 |
+| 5852 | Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Metho | ACM Computing Surveys | 2021 |
+| 5654 | Federated Learning: Strategies for Improving Communication Efficiency | NeurIPS Workshop | 2016 |
+| 5635 | Towards A Rigorous Science of Interpretable Machine Learning | arXiv | 2017 |
+| 5388 | A Survey of Methods for Explaining Black Box Models | ACM Computing Surveys | 2018 |
+| 5302 | Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Mem | Physica D | 2020 |
+| 5082 | A Survey of Large Language Models | arXiv | 2023 |
+| 4689 | Knowledge Distillation: A Survey | IJCV | 2021 |
+| 4506 | A Survey of Convolutional Neural Networks: Analysis, Applications, and | TNNLS | 2022 |
+| 4207 | Retrieval-Augmented Generation for Large Language Models: A Survey | arXiv | 2024 |
+| 4024 | A Survey on Large Language Model based Autonomous Agents | Frontiers of Computer Science | 2023 |
+| 3951 | A Survey on Vision Transformer | TPAMI | 2023 |
+| 3935 | Image Segmentation Using Deep Learning: A Survey | TPAMI | 2022 |
+| 3887 | Generative Adversarial Networks: An Overview | IEEE Signal Processing Magazine | 2018 |
+| 3887 | A Survey on Hallucination in Large Language Models: Principles, Taxono | ACM TOIS | 2023 |
 
 ## companion GitHub リポジトリ（star順・実在検証済み）
 
 | ⭐star | repo | 最終更新 | 論文 |
 |---:|---|---|---|
-| 18041 | [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 2026-09-18 | A Survey on Multimodal Large Language Models |
-| 12219 | [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) | 2025-03-11 | A Survey of Large Language Models |
-| 8221 | [WooooDyy/LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List) | 2025-09-12 | The Rise and Potential of Large Language Model Bas |
-| 4326 | [thunlp/PromptPapers](https://github.com/thunlp/PromptPapers) | 2023-07-17 | Pre-train, Prompt, and Predict: A Systematic Surve |
-| 3440 | [codefuse-ai/Awesome-Code-LLM](https://github.com/codefuse-ai/Awesome-Code-LLM) | 2026-05-20 | Unifying the Perspectives of NLP and Software Engi |
-| 3364 | [YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) | 2025-09-27 | Diffusion Models: A Comprehensive Survey of Method |
-| 3313 | [Meirtz/Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | 2026-05-28 | A Survey of Context Engineering for Large Language |
-| 3126 | [jingyi0000/VLM_survey](https://github.com/jingyi0000/VLM_survey) | 2026-09-16 | Vision-Language Models for Vision Tasks: A Survey |
-| 3013 | [qingsongedu/time-series-transformers-review](https://github.com/qingsongedu/time-series-transformers-review) | 2024-08-08 | Transformers in Time Series: A Survey |
-| 2928 | [zjunlp/EasyEdit](https://github.com/zjunlp/EasyEdit) | 2026-09-24 | A Comprehensive Study of Knowledge Editing for Lar |
-| 2911 | [Paitesanshi/LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey) | 2025-02-20 | A Survey on Large Language Model based Autonomous  |
-| 2859 | [luo-junyu/Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers) | 2025-11-07 | Large Language Model Agent: A Survey on Methodolog |
+| 18043 | [BradyFU/Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 2026-10-01 | A Survey on Multimodal Large Language Models |
+| 12225 | [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) | 2025-03-11 | A Survey of Large Language Models |
+| 8222 | [WooooDyy/LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List) | 2025-09-12 | The Rise and Potential of Large Language Model Bas |
+| 4327 | [thunlp/PromptPapers](https://github.com/thunlp/PromptPapers) | 2023-07-17 | Pre-train, Prompt, and Predict: A Systematic Surve |
+| 3444 | [codefuse-ai/Awesome-Code-LLM](https://github.com/codefuse-ai/Awesome-Code-LLM) | 2026-05-20 | Unifying the Perspectives of NLP and Software Engi |
+| 3363 | [YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) | 2025-09-27 | Diffusion Models: A Comprehensive Survey of Method |
+| 3316 | [Meirtz/Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) | 2026-05-28 | A Survey of Context Engineering for Large Language |
+| 3126 | [jingyi0000/VLM_survey](https://github.com/jingyi0000/VLM_survey) | 2026-10-02 | Vision-Language Models for Vision Tasks: A Survey |
+| 3014 | [qingsongedu/time-series-transformers-review](https://github.com/qingsongedu/time-series-transformers-review) | 2024-08-08 | Transformers in Time Series: A Survey |
+| 2929 | [zjunlp/EasyEdit](https://github.com/zjunlp/EasyEdit) | 2026-10-04 | A Comprehensive Study of Knowledge Editing for Lar |
+| 2912 | [Paitesanshi/LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey) | 2025-02-20 | A Survey on Large Language Model based Autonomous  |
+| 2864 | [luo-junyu/Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers) | 2025-11-07 | Large Language Model Agent: A Survey on Methodolog |
 | 2773 | [OpenBMB/BMTools](https://github.com/OpenBMB/BMTools) | 2023-12-05 | Tool Learning with Foundation Models |
-| 2658 | [DEEP-PolyU/Awesome-GraphRAG](https://github.com/DEEP-PolyU/Awesome-GraphRAG) | 2026-06-02 | A Survey of Graph Retrieval-Augmented Generation f |
-| 2614 | [RManLuo/Awesome-LLM-KG](https://github.com/RManLuo/Awesome-LLM-KG) | 2025-05-02 | Unifying Large Language Models and Knowledge Graph |
-| 2319 | [ChenHsing/Awesome-Video-Diffusion-Models](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models) | 2026-09-04 | A Survey on Video Diffusion Models |
-| 2263 | [ActiveVisionLab/Awesome-LLM-3D](https://github.com/ActiveVisionLab/Awesome-LLM-3D) | 2026-04-16 | When LLMs step into the 3D World: A Survey and Met |
+| 2663 | [DEEP-PolyU/Awesome-GraphRAG](https://github.com/DEEP-PolyU/Awesome-GraphRAG) | 2026-06-02 | A Survey of Graph Retrieval-Augmented Generation f |
+| 2615 | [RManLuo/Awesome-LLM-KG](https://github.com/RManLuo/Awesome-LLM-KG) | 2025-05-02 | Unifying Large Language Models and Knowledge Graph |
+| 2320 | [ChenHsing/Awesome-Video-Diffusion-Models](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models) | 2026-09-04 | A Survey on Video Diffusion Models |
+| 2267 | [ActiveVisionLab/Awesome-LLM-3D](https://github.com/ActiveVisionLab/Awesome-LLM-3D) | 2026-04-16 | When LLMs step into the 3D World: A Survey and Met |
 | 2247 | [EgoAlpha/prompt-in-context-learning](https://github.com/EgoAlpha/prompt-in-context-learning) | 2026-05-29 | A Survey on In-context Learning |
-| 2173 | [HCPLab-SYSU/Embodied_AI_Paper_List](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) | 2026-06-10 | Aligning Cyber Space with Physical World: A Compre |
-| 2172 | [Xnhyacinth/Awesome-LLM-Long-Context-Modeling](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) | 2026-08-17 | A Comprehensive Survey on Long Context Language Mo |
-| 2137 | [Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey) | 2024-05-08 | Retrieval-Augmented Generation for Large Language  |
-| 1788 | [hymie122/RAG-Survey](https://github.com/hymie122/RAG-Survey) | 2024-08-20 | Retrieval-Augmented Generation for AI-Generated Co |
-| 1736 | [asinghcsu/AgenticRAG-Survey](https://github.com/asinghcsu/AgenticRAG-Survey) | 2025-10-20 | Agentic Retrieval-Augmented Generation: A Survey o |
-| 1610 | [MLGroupJLU/LLM-eval-survey](https://github.com/MLGroupJLU/LLM-eval-survey) | 2026-09-13 | A Survey on Evaluation of Large Language Models |
+| 2181 | [HCPLab-SYSU/Embodied_AI_Paper_List](https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List) | 2026-06-10 | Aligning Cyber Space with Physical World: A Compre |
+| 2175 | [Xnhyacinth/Awesome-LLM-Long-Context-Modeling](https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling) | 2026-08-17 | A Comprehensive Survey on Long Context Language Mo |
+| 2140 | [Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey) | 2024-05-08 | Retrieval-Augmented Generation for Large Language  |
+| 1789 | [hymie122/RAG-Survey](https://github.com/hymie122/RAG-Survey) | 2024-08-20 | Retrieval-Augmented Generation for AI-Generated Co |
+| 1738 | [asinghcsu/AgenticRAG-Survey](https://github.com/asinghcsu/AgenticRAG-Survey) | 2025-10-20 | Agentic Retrieval-Augmented Generation: A Survey o |
+| 1612 | [MLGroupJLU/LLM-eval-survey](https://github.com/MLGroupJLU/LLM-eval-survey) | 2026-09-13 | A Survey on Evaluation of Large Language Models |
 | 1436 | [LirongWu/awesome-graph-self-supervised-learning](https://github.com/LirongWu/awesome-graph-self-supervised-learning) | 2024-08-15 | Self-supervised Learning on Graphs: Contrastive, G |
-| 1325 | [tim-learn/awesome-test-time-adaptation](https://github.com/tim-learn/awesome-test-time-adaptation) | 2025-11-14 | A Comprehensive Survey on Test-Time Adaptation und |
+| 1327 | [tim-learn/awesome-test-time-adaptation](https://github.com/tim-learn/awesome-test-time-adaptation) | 2025-11-14 | A Comprehensive Survey on Test-Time Adaptation und |
 | 1322 | [ATH-MaaS/Awesome-Unified-Multimodal-Models](https://github.com/ATH-MaaS/Awesome-Unified-Multimodal-Models) | 2026-03-24 | Unified Multimodal Understanding and Generation Mo |
-| 1313 | [Tebmer/Awesome-Knowledge-Distillation-of-LLMs](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs) | 2025-03-09 | A Survey on Knowledge Distillation of Large Langua |
-| 1291 | [huybery/Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM) | 2024-12-10 | A Survey on Large Language Models for Code Generat |
+| 1315 | [Tebmer/Awesome-Knowledge-Distillation-of-LLMs](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs) | 2025-03-09 | A Survey on Knowledge Distillation of Large Langua |
+| 1293 | [huybery/Awesome-Code-LLM](https://github.com/huybery/Awesome-Code-LLM) | 2024-12-10 | A Survey on Large Language Models for Code Generat |
 | 1257 | [AIoT-MLSys-Lab/Efficient-LLMs-Survey](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey) | 2025-06-23 | Efficient Large Language Models: A Survey |
-| 1247 | [zjunlp/KnowledgeEditingPapers](https://github.com/zjunlp/KnowledgeEditingPapers) | 2026-08-20 | Editing Large Language Models: Problems, Methods,  |
-| 1247 | [zjunlp/KnowledgeEditingPapers](https://github.com/zjunlp/KnowledgeEditingPapers) | 2026-08-20 | Knowledge Mechanisms in Large Language Models: A S |
-| 1223 | [VILA-Lab/Awesome-DLMs](https://github.com/VILA-Lab/Awesome-DLMs) | 2026-09-23 | A Survey on Diffusion Language Models |
-| 1211 | [jwwthu/GNN4Traffic](https://github.com/jwwthu/GNN4Traffic) | 2024-08-07 | STG4Traffic: A Survey and Benchmark of Spatial-Tem |
+| 1249 | [zjunlp/KnowledgeEditingPapers](https://github.com/zjunlp/KnowledgeEditingPapers) | 2026-08-20 | Editing Large Language Models: Problems, Methods,  |
+| 1249 | [zjunlp/KnowledgeEditingPapers](https://github.com/zjunlp/KnowledgeEditingPapers) | 2026-08-20 | Knowledge Mechanisms in Large Language Models: A S |
+| 1228 | [VILA-Lab/Awesome-DLMs](https://github.com/VILA-Lab/Awesome-DLMs) | 2026-10-02 | A Survey on Diffusion Language Models |
+| 1210 | [jwwthu/GNN4Traffic](https://github.com/jwwthu/GNN4Traffic) | 2024-08-07 | STG4Traffic: A Survey and Benchmark of Spatial-Tem |
 | 1157 | [daochenzha/data-centric-AI](https://github.com/daochenzha/data-centric-AI) | 2024-06-26 | Data-centric Artificial Intelligence: A Survey |
 | 1127 | [weihaox/GAN-Inversion](https://github.com/weihaox/GAN-Inversion) | 2026-07-14 | GAN Inversion: A Survey |
 | 1111 | [PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models](https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models) | 2024-12-31 | Controllable Generation with Text-to-Image Diffusi |
-| 1087 | [HillZhang1999/llm-hallucination-survey](https://github.com/HillZhang1999/llm-hallucination-survey) | 2025-09-27 | Siren's Song in the AI Ocean: A Survey on Hallucin |
-| 1027 | [yaotingwangofficial/Awesome-MCoT](https://github.com/yaotingwangofficial/Awesome-MCoT) | 2026-05-22 | Multimodal Chain-of-Thought Reasoning: A Comprehen |
-| 1024 | [huytransformer/Awesome-Out-Of-Distribution-Detection](https://github.com/huytransformer/Awesome-Out-Of-Distribution-Detection) | 2026-04-03 | Generalized Out-of-Distribution Detection: A Surve |
+| 1086 | [HillZhang1999/llm-hallucination-survey](https://github.com/HillZhang1999/llm-hallucination-survey) | 2025-09-27 | Siren's Song in the AI Ocean: A Survey on Hallucin |
+| 1028 | [yaotingwangofficial/Awesome-MCoT](https://github.com/yaotingwangofficial/Awesome-MCoT) | 2026-10-03 | Multimodal Chain-of-Thought Reasoning: A Comprehen |
+| 1026 | [huytransformer/Awesome-Out-Of-Distribution-Detection](https://github.com/huytransformer/Awesome-Out-Of-Distribution-Detection) | 2026-04-03 | Generalized Out-of-Distribution Detection: A Surve |
+| 1009 | [jianzongwu/Awesome-Open-Vocabulary](https://github.com/jianzongwu/Awesome-Open-Vocabulary) | 2026-05-12 | Towards Open Vocabulary Learning: A Survey |
 | 1007 | [yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model](https://github.com/yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model) | 2026-02-05 | A Survey on Diffusion Models for Time Series and S |
-| 1006 | [jianzongwu/Awesome-Open-Vocabulary](https://github.com/jianzongwu/Awesome-Open-Vocabulary) | 2026-05-12 | Towards Open Vocabulary Learning: A Survey |
-| 996 | [PeterGriffinJin/Awesome-Language-Model-on-Graphs](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs) | 2025-03-02 | Large Language Models on Graphs: A Comprehensive S |
-| 991 | [worldbench/awesome-3d-4d-world-models](https://github.com/worldbench/awesome-3d-4d-world-models) | 2026-09-24 | 3D and 4D World Modeling: A Survey |
-| 969 | [tamlhp/awesome-machine-unlearning](https://github.com/tamlhp/awesome-machine-unlearning) | 2026-08-13 | A Survey of Machine Unlearning |
-| 858 | [tsinghua-fib-lab/World-Model](https://github.com/tsinghua-fib-lab/World-Model) | 2025-11-18 | Understanding World or Predicting Future? A Compre |
-| 814 | [chauncygu/Safe-Reinforcement-Learning-Baselines](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines) | 2026-03-13 | A Review of Safe Reinforcement Learning: Methods,  |
+| 997 | [PeterGriffinJin/Awesome-Language-Model-on-Graphs](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs) | 2025-03-02 | Large Language Models on Graphs: A Comprehensive S |
+| 992 | [worldbench/awesome-3d-4d-world-models](https://github.com/worldbench/awesome-3d-4d-world-models) | 2026-09-24 | 3D and 4D World Modeling: A Survey |
+| 971 | [tamlhp/awesome-machine-unlearning](https://github.com/tamlhp/awesome-machine-unlearning) | 2026-08-13 | A Survey of Machine Unlearning |
+| 861 | [tsinghua-fib-lab/World-Model](https://github.com/tsinghua-fib-lab/World-Model) | 2025-11-18 | Understanding World or Predicting Future? A Compre |
+| 813 | [chauncygu/Safe-Reinforcement-Learning-Baselines](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines) | 2026-03-13 | A Review of Safe Reinforcement Learning: Methods,  |
 | 809 | [tjunlp-lab/Awesome-LLMs-Evaluation-Papers](https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers) | 2024-05-08 | Evaluating Large Language Models: A Comprehensive  |
 | 808 | [ChaofanTao/Autoregressive-Models-in-Vision-Survey](https://github.com/ChaofanTao/Autoregressive-Models-in-Vision-Survey) | 2026-05-05 | Autoregressive Models in Vision: A Survey |
 | 791 | [Eclipsess/Awesome-Efficient-Reasoning-LLMs](https://github.com/Eclipsess/Awesome-Efficient-Reasoning-LLMs) | 2026-02-28 | Stop Overthinking: A Survey on Efficient Reasoning |
-| 786 | [EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) | 2026-09-27 | Model Merging in LLMs, MLLMs, and Beyond: Methods, |
-| 774 | [mayuelala/Awesome-Controllable-Video-Generation](https://github.com/mayuelala/Awesome-Controllable-Video-Generation) | 2026-07-31 | Controllable Video Generation: A Survey |
-| 760 | [HKUSTDial/awesome-data-agents](https://github.com/HKUSTDial/awesome-data-agents) | 2026-08-05 | A Survey of Data Agents: Emerging Paradigm or Over |
+| 791 | [EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) | 2026-10-04 | Model Merging in LLMs, MLLMs, and Beyond: Methods, |
+| 775 | [mayuelala/Awesome-Controllable-Video-Generation](https://github.com/mayuelala/Awesome-Controllable-Video-Generation) | 2026-07-31 | Controllable Video Generation: A Survey |
+| 765 | [HKUSTDial/awesome-data-agents](https://github.com/HKUSTDial/awesome-data-agents) | 2026-08-05 | A Survey of Data Agents: Emerging Paradigm or Over |
 | 755 | [lxtGH/Awesome-Segmentation-With-Transformer](https://github.com/lxtGH/Awesome-Segmentation-With-Transformer) | 2024-08-25 | Transformer-Based Visual Segmentation: A Survey |
 | 742 | [EmulationAI/awesome-large-audio-models](https://github.com/EmulationAI/awesome-large-audio-models) | 2026-08-08 | Sparks of Large Audio Models: A Survey and Outlook |
 | 714 | [SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) | 2025-07-15 | Diffusion Model-Based Image Editing: A Survey |
@@ -160,35 +160,35 @@
 | 642 | [Coder-Yu/SELFRec](https://github.com/Coder-Yu/SELFRec) | 2025-06-06 | Self-Supervised Learning for Recommender Systems:  |
 | 613 | [PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving](https://github.com/PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving) | 2023-05-04 | 3D Object Detection for Autonomous Driving: A Comp |
 | 521 | [xiyuanzh/awesome-llm-time-series](https://github.com/xiyuanzh/awesome-llm-time-series) | 2024-07-26 | Large Language Models for Time Series: A Survey |
-| 514 | [JindongGu/Awesome-Prompting-on-Vision-Language-Model](https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model) | 2025-03-18 | A Systematic Survey of Prompt Engineering on Visio |
-| 510 | [withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs) | 2026-08-18 | A Survey on Mixture of Experts in Large Language M |
-| 497 | [jun0wanan/awesome-large-multimodal-agents](https://github.com/jun0wanan/awesome-large-multimodal-agents) | 2024-09-25 | Large Multimodal Agents: A Survey |
+| 513 | [JindongGu/Awesome-Prompting-on-Vision-Language-Model](https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model) | 2025-03-18 | A Systematic Survey of Prompt Engineering on Visio |
+| 511 | [withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs](https://github.com/withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs) | 2026-08-18 | A Survey on Mixture of Experts in Large Language M |
+| 498 | [jun0wanan/awesome-large-multimodal-agents](https://github.com/jun0wanan/awesome-large-multimodal-agents) | 2024-09-25 | Large Multimodal Agents: A Survey |
 | 492 | [quchangle1/LLM-Tool-Survey](https://github.com/quchangle1/LLM-Tool-Survey) | 2026-09-09 | Tool Learning with Large Language Models: A Survey |
-| 467 | [jiawei-chen/RecDebiasing](https://github.com/jiawei-chen/RecDebiasing) | 2024-02-19 | Bias and Debias in Recommender System: A Survey an |
+| 468 | [jiawei-chen/RecDebiasing](https://github.com/jiawei-chen/RecDebiasing) | 2024-02-19 | Bias and Debias in Recommender System: A Survey an |
 | 455 | [weijiawu/Awesome-RL-for-Multimodal-Foundation-Models](https://github.com/weijiawu/Awesome-RL-for-Multimodal-Foundation-Models) | 2026-08-17 | Reinforcement Learning for Large Model: A Survey |
-| 436 | [MobileLLM/Personal_LLM_Agents_Survey](https://github.com/MobileLLM/Personal_LLM_Agents_Survey) | 2026-06-27 | Personal LLM Agents: Insights and Survey about the |
-| 420 | [heshuting555/Awesome-3DGS-Applications](https://github.com/heshuting555/Awesome-3DGS-Applications) | 2026-08-25 | A Survey on 3D Gaussian Splatting Applications: Se |
+| 435 | [MobileLLM/Personal_LLM_Agents_Survey](https://github.com/MobileLLM/Personal_LLM_Agents_Survey) | 2026-06-27 | Personal LLM Agents: Insights and Survey about the |
+| 421 | [heshuting555/Awesome-3DGS-Applications](https://github.com/heshuting555/Awesome-3DGS-Applications) | 2026-08-25 | A Survey on 3D Gaussian Splatting Applications: Se |
 | 405 | [CroitoruAlin/Diffusion-Models-in-Vision-A-Survey](https://github.com/CroitoruAlin/Diffusion-Models-in-Vision-A-Survey) | 2023-11-26 | Diffusion Models in Vision: A Survey |
-| 389 | [ALEEEHU/World-Simulator](https://github.com/ALEEEHU/World-Simulator) | 2026-09-25 | Simulating the Real World: A Unified Survey of Mul |
-| 384 | [qingsongedu/Awesome-SSL4TS](https://github.com/qingsongedu/Awesome-SSL4TS) | 2024-04-28 | Self-Supervised Learning for Time Series Analysis: |
+| 391 | [ALEEEHU/World-Simulator](https://github.com/ALEEEHU/World-Simulator) | 2026-10-04 | Simulating the Real World: A Unified Survey of Mul |
+| 385 | [qingsongedu/Awesome-SSL4TS](https://github.com/qingsongedu/Awesome-SSL4TS) | 2024-04-28 | Self-Supervised Learning for Time Series Analysis: |
 | 376 | [taozh2017/RGBD-SODsurvey](https://github.com/taozh2017/RGBD-SODsurvey) | 2023-08-01 | RGB-D Salient Object Detection: A Survey |
 | 371 | [lupantech/dl4math](https://github.com/lupantech/dl4math) | 2023-12-22 | A Survey of Deep Learning for Mathematical Reasoni |
-| 369 | [HKUDS/Awesome-LLM4Graph-Papers](https://github.com/HKUDS/Awesome-LLM4Graph-Papers) | 2025-03-15 | A Survey of Large Language Models for Graphs |
+| 368 | [HKUDS/Awesome-LLM4Graph-Papers](https://github.com/HKUDS/Awesome-LLM4Graph-Papers) | 2025-03-15 | A Survey of Large Language Models for Graphs |
 | 367 | [EnnengYang/Awesome-Forgetting-in-Deep-Learning](https://github.com/EnnengYang/Awesome-Forgetting-in-Deep-Learning) | 2026-01-27 | A Comprehensive Survey of Forgetting in Deep Learn |
+| 366 | [Li-Zn-H/AwesomeWorldModels](https://github.com/Li-Zn-H/AwesomeWorldModels) | 2026-08-13 | A Comprehensive Survey on World Models for Embodie |
 | 364 | [Zoeyyao27/CoT-Igniting-Agent](https://github.com/Zoeyyao27/CoT-Igniting-Agent) | 2023-11-25 | Navigate through Enigmatic Labyrinth: A Survey of  |
-| 364 | [Li-Zn-H/AwesomeWorldModels](https://github.com/Li-Zn-H/AwesomeWorldModels) | 2026-08-13 | A Comprehensive Survey on World Models for Embodie |
 | 360 | [XiaoYee/Awesome_Efficient_LRM_Reasoning](https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning) | 2026-01-22 | A Survey of Efficient Reasoning for Large Reasonin |
 | 355 | [Lupin1998/Awesome-MIM](https://github.com/Lupin1998/Awesome-MIM) | 2025-04-23 | Masked Modeling for Self-supervised Representation |
 | 343 | [thunlp/ChatEval](https://github.com/thunlp/ChatEval) | 2024-10-19 | ChatEval: Towards Better LLM-based Evaluators thro |
 | 338 | [LuckyyySTA/Awesome-LLM-hallucination](https://github.com/LuckyyySTA/Awesome-LLM-hallucination) | 2024-03-11 | A Survey on Hallucination in Large Language Models |
-| 318 | [qqqqqqy0227/awesome-3DGS](https://github.com/qqqqqqy0227/awesome-3DGS) | 2025-01-06 | 3D Gaussian Splatting: Survey, Technologies, Chall |
+| 319 | [qqqqqqy0227/awesome-3DGS](https://github.com/qqqqqqy0227/awesome-3DGS) | 2025-01-06 | 3D Gaussian Splatting: Survey, Technologies, Chall |
 | 317 | [jishengpeng/WavChat](https://github.com/jishengpeng/WavChat) | 2024-11-28 | WavChat: A Survey of Spoken Dialogue Models |
 | 311 | [IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving](https://github.com/IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving) | 2024-03-14 | A Survey on Multimodal Large Language Models for A |
 | 305 | [wusw14/GNN-in-RS](https://github.com/wusw14/GNN-in-RS) | 2022-06-25 | Graph Neural Networks in Recommender Systems: A Su |
-| 290 | [YuanchenBei/Awesome-Cold-Start-Recommendation](https://github.com/YuanchenBei/Awesome-Cold-Start-Recommendation) | 2026-03-26 | Cold-Start Recommendation towards the Era of Large |
-| 286 | [imxtx/awesome-controllable-speech-synthesis](https://github.com/imxtx/awesome-controllable-speech-synthesis) | 2026-09-26 | Towards Controllable Speech Synthesis in the Era o |
+| 292 | [YuanchenBei/Awesome-Cold-Start-Recommendation](https://github.com/YuanchenBei/Awesome-Cold-Start-Recommendation) | 2026-03-26 | Cold-Start Recommendation towards the Era of Large |
+| 286 | [imxtx/awesome-controllable-speech-synthesis](https://github.com/imxtx/awesome-controllable-speech-synthesis) | 2026-10-02 | Towards Controllable Speech Synthesis in the Era o |
 | 279 | [ZJU-LLMs/Awesome-LoRAs](https://github.com/ZJU-LLMs/Awesome-LoRAs) | 2024-08-12 | A Survey on LoRA of Large Language Models |
-| 273 | [Strivin0311/long-llms-learning](https://github.com/Strivin0311/long-llms-learning) | 2024-07-30 | Advancing Transformer Architecture in Long-Context |
+| 272 | [Strivin0311/long-llms-learning](https://github.com/Strivin0311/long-llms-learning) | 2024-07-30 | Advancing Transformer Architecture in Long-Context |
 | 258 | [RayYoh/OCRM_survey](https://github.com/RayYoh/OCRM_survey) | 2024-10-04 | A Survey of Embodied Learning for Object-Centric R |
 | 232 | [xiaoya-li/Instruction-Tuning-Survey](https://github.com/xiaoya-li/Instruction-Tuning-Survey) | 2025-08-10 | Instruction Tuning for Large Language Models: A Su |
 | 231 | [vyokky/LLM-Brained-GUI-Agents-Survey](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey) | 2025-06-23 | Large Language Model-Brained GUI Agents: A Survey |
@@ -196,31 +196,31 @@
 | 225 | [dreamtheater123/Awesome-SpeechLM-Survey](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey) | 2026-08-21 | Recent Advances in Speech Language Models: A Surve |
 | 221 | [RUCAIBox/DenseRetrieval](https://github.com/RUCAIBox/DenseRetrieval) | 2022-12-07 | Dense Text Retrieval based on Pretrained Language  |
 | 210 | [RUC-NLPIR/GenIR-Survey](https://github.com/RUC-NLPIR/GenIR-Survey) | 2025-04-05 | A Survey of Generative Information Retrieval |
-| 205 | [tfzhou/VS-Survey](https://github.com/tfzhou/VS-Survey) | 2022-12-28 | A Survey on Deep Learning Technique for Video Segm |
+| 204 | [tfzhou/VS-Survey](https://github.com/tfzhou/VS-Survey) | 2022-12-28 | A Survey on Deep Learning Technique for Video Segm |
 | 201 | [JizhiziLi/matting-survey](https://github.com/JizhiziLi/matting-survey) | 2023-05-16 | Deep Image Matting: A Comprehensive Survey |
 | 187 | [franciscoliu/Awesome-GenAI-Unlearning](https://github.com/franciscoliu/Awesome-GenAI-Unlearning) | 2026-04-22 | Machine Unlearning in Generative AI: A Survey |
 | 186 | [AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey](https://github.com/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey) | 2025-12-08 | Efficient Diffusion Models: A Comprehensive Survey |
 | 186 | [AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey](https://github.com/AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey) | 2025-12-08 | Efficient Diffusion Models: A Survey |
-| 164 | [vignywang/Awesome-Local-Feature-Matching](https://github.com/vignywang/Awesome-Local-Feature-Matching) | 2026-09-06 | Local Feature Matching Using Deep Learning: A Surv |
+| 166 | [vignywang/Awesome-Local-Feature-Matching](https://github.com/vignywang/Awesome-Local-Feature-Matching) | 2026-09-06 | Local Feature Matching Using Deep Learning: A Surv |
 | 156 | [ShenZheng2000/LLIE_Survey](https://github.com/ShenZheng2000/LLIE_Survey) | 2024-10-09 | Low-Light Image and Video Enhancement Using Deep L |
 | 139 | [PKU-Alignment/AlignmentSurvey](https://github.com/PKU-Alignment/AlignmentSurvey) | 2023-11-02 | AI Alignment: A Comprehensive Survey |
-| 138 | [LAMDA-Tabular/Tabular-Survey](https://github.com/LAMDA-Tabular/Tabular-Survey) | 2026-09-17 | Representation Learning for Tabular Data: A Compre |
+| 139 | [LAMDA-Tabular/Tabular-Survey](https://github.com/LAMDA-Tabular/Tabular-Survey) | 2026-09-17 | Representation Learning for Tabular Data: A Compre |
 | 126 | [wzk1015/Awesome-Vision-to-Music-Generation](https://github.com/wzk1015/Awesome-Vision-to-Music-Generation) | 2025-08-09 | Vision-to-Music Generation: A Survey |
+| 113 | [guikunchen/Awesome3DGS](https://github.com/guikunchen/Awesome3DGS) | 2026-01-18 | A Survey on 3D Gaussian Splatting |
 | 113 | [limengran98/Awesome-Literature-Graph-Learning-Challenges](https://github.com/limengran98/Awesome-Literature-Graph-Learning-Challenges) | 2025-09-25 | A Survey of Large Language Models for Data Challen |
 | 112 | [niconi19/LLM-Conversation-Safety](https://github.com/niconi19/LLM-Conversation-Safety) | 2024-08-07 | Attacks, Defenses and Evaluations for LLM Conversa |
-| 112 | [guikunchen/Awesome3DGS](https://github.com/guikunchen/Awesome3DGS) | 2026-01-18 | A Survey on 3D Gaussian Splatting |
-| 106 | [llm-misinformation/llm-misinformation-survey](https://github.com/llm-misinformation/llm-misinformation-survey) | 2024-11-09 | Combating Misinformation in the Age of LLMs: Oppor |
+| 107 | [llm-misinformation/llm-misinformation-survey](https://github.com/llm-misinformation/llm-misinformation-survey) | 2024-11-09 | Combating Misinformation in the Age of LLMs: Oppor |
 | 97 | [tim-learn/Awesome-LabelFree-VLMs](https://github.com/tim-learn/Awesome-LabelFree-VLMs) | 2026-07-27 | Adapting Vision-Language Models Without Labels: A  |
 | 86 | [yunfanLu/Awesome-Image-Prior](https://github.com/yunfanLu/Awesome-Image-Prior) | 2025-05-29 | Priors in Deep Image Restoration and Enhancement:  |
 | 85 | [huangleiBuaa/NormalizationSurvey](https://github.com/huangleiBuaa/NormalizationSurvey) | 2021-06-24 | Normalization Techniques in Training DNNs: Methodo |
 | 85 | [kaize0409/Awesome-Graph-OOD](https://github.com/kaize0409/Awesome-Graph-OOD) | 2024-10-28 | A Survey of Deep Graph Learning under Distribution |
 | 85 | [kaize0409/Awesome-Graph-OOD](https://github.com/kaize0409/Awesome-Graph-OOD) | 2024-10-28 | Beyond Generalization: A Survey of Out-Of-Distribu |
-| 83 | [jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation](https://github.com/jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation) | 2026-03-25 | CLIP-Powered Domain Generalization and Domain Adap |
+| 84 | [jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation](https://github.com/jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation) | 2026-03-25 | CLIP-Powered Domain Generalization and Domain Adap |
 | 82 | [Lsyhprum/WEAVESS](https://github.com/Lsyhprum/WEAVESS) | 2021-05-16 | A Comprehensive Survey and Experimental Comparison |
-| 81 | [IPL-sharif/KD_Survey](https://github.com/IPL-sharif/KD_Survey) | 2026-06-08 | A Comprehensive Survey on Knowledge Distillation |
+| 82 | [IPL-sharif/KD_Survey](https://github.com/IPL-sharif/KD_Survey) | 2026-06-08 | A Comprehensive Survey on Knowledge Distillation |
 | 74 | [badripatro/mamba360](https://github.com/badripatro/mamba360) | 2024-05-02 | Mamba-360: Survey of State Space Models as Transfo |
 | 57 | [ndrwmlnk/Awesome-Video-Diffusion-Models](https://github.com/ndrwmlnk/Awesome-Video-Diffusion-Models) | 2025-02-11 | Video Diffusion Models: A Survey |
-| 20 | [Kimho666/LLM_Hardware_Survey](https://github.com/Kimho666/LLM_Hardware_Survey) | 2025-07-15 | Large Language Model Inference Acceleration: A Com |
+| 21 | [Kimho666/LLM_Hardware_Survey](https://github.com/Kimho666/LLM_Hardware_Survey) | 2025-07-15 | Large Language Model Inference Acceleration: A Com |
 | 8 | [larocs/offline-rl-suvey](https://github.com/larocs/offline-rl-suvey) | 2022-10-12 | A Survey on Offline Reinforcement Learning: Taxono |
 
 ## 全エントリ一覧
@@ -229,225 +229,225 @@
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Retrieval-Augmented Generation for AI-Generated Content: A S | Penghao Zhao et al. | arXiv | 2024 | 2402.19473 | 724 | hymie122/RAG-Survey |
-| Editing Large Language Models: Problems, Methods, and Opport | Yunzhi Yao et al. | EMNLP | 2023 | 2305.13172 | 497 | zjunlp/KnowledgeEditingPapers |
-| Stop Overthinking: A Survey on Efficient Reasoning for Large | Yang Sui et al. | arXiv | 2025 | 2503.16419 | 462 | Eclipsess/Awesome-Efficient-Reasoning-LLMs |
-| Personal LLM Agents: Insights and Survey about the Capabilit | Yuanchun Li et al. | arXiv | 2024 | 2401.05459 | 382 | MobileLLM/Personal_LLM_Agents_Survey |
-| A Survey on Knowledge Distillation of Large Language Models | Xiaohan Xu et al. | arXiv | 2024 | 2402.13116 | 381 | Tebmer/Awesome-Knowledge-Distillation-of-LLMs |
-| Two Tales of Persona in LLMs: A Survey of Role-Playing and P | Yu-Min Tseng et al. | arXiv | 2024 | 2406.01171 | 328 |  |
-| Automatically Correcting Large Language Models: Surveying th | Liangming Pan et al. | TACL | 2023 | 2308.03188 | 304 |  |
-| A Comprehensive Survey of Small Language Models in the Era o | Fali Wang et al. | arXiv | 2024 | 2411.03350 | 277 |  |
-| Large Language Model-Brained GUI Agents: A Survey | Chaoyun Zhang et al. | arXiv | 2024 | 2411.18279 | 209 | vyokky/LLM-Brained-GUI-Agents-Survey |
-| A Survey of Text Watermarking in the Era of Large Language M | Aiwei Liu et al. | arXiv | 2023 | 2312.07913 | 200 |  |
-| A Survey on LoRA of Large Language Models | Yuren Mao et al. | Frontiers of Computer Science | 2024 | 2407.11046 | 189 | ZJU-LLMs/Awesome-LoRAs |
-| A Survey of Reinforcement Learning for Large Reasoning Model | Kaiyan Zhang et al. | arXiv | 2025 | 2509.08827 | 170 |  |
-| A Survey of Context Engineering for Large Language Models | Lingrui Mei et al. | arXiv | 2025 | 2507.13334 | 156 | Meirtz/Awesome-Context-Engineering |
-| A Survey of Graph Retrieval-Augmented Generation for Customi | Qinggang Zhang et al. | arXiv | 2025 | 2501.13958 | 150 | DEEP-PolyU/Awesome-GraphRAG |
-| A Survey of Efficient Reasoning for Large Reasoning Models:  | Xiaoye Qu et al. | arXiv | 2025 | 2503.21614 | 145 | XiaoYee/Awesome_Efficient_LRM_Reasoning |
-| A Comprehensive Survey on Long Context Language Modeling | Jiaheng Liu et al. | arXiv | 2025 | 2503.17407 | 138 | Xnhyacinth/Awesome-LLM-Long-Context-Modeling |
-| Beyond the Limits: A Survey of Techniques to Extend the Cont | Xindi Wang et al. | IJCAI | 2024 | 2402.02244 | 116 |  |
-| A Survey on Sparse Autoencoders: Interpreting the Internal M | Dong Shu et al. | arXiv | 2025 | 2503.05613 | 81 |  |
+| Training language models to follow instructions with human f | Long Ouyang et al. | NeurIPS | 2022 | 2203.02155 | 24618 |  |
+| A Survey of Large Language Models | Wayne Xin Zhao et al. | arXiv | 2023 | 2303.18223 | 5082 | RUCAIBox/LLMSurvey |
+| A Survey on Large Language Model based Autonomous Agents | Lei Wang et al. | Frontiers of Computer Science | 2023 | 2308.11432 | 4024 | Paitesanshi/LLM-Agent-Survey |
+| A Survey on Hallucination in Large Language Models: Principl | Lei Huang et al. | ACM TOIS | 2023 | 2311.05232 | 3887 | LuckyyySTA/Awesome-LLM-hallucination |
+| A Survey on Evaluation of Large Language Models | Yupeng Chang et al. | ACM TIST | 2023 | 2307.03109 | 3866 | MLGroupJLU/LLM-eval-survey |
+| The Rise and Potential of Large Language Model Based Agents: | Zhiheng Xi et al. | arXiv | 2023 | 2309.07864 | 2105 | WooooDyy/LLM-Agent-Paper-List |
+| A Comprehensive Overview of Large Language Models | Humza Naveed et al. | arXiv | 2023 | 2307.06435 | 2027 |  |
+| Large Language Models for Software Engineering: A Systematic | Xinyi Hou et al. | ACM TOSEM | 2023 | 2308.10620 | 1387 |  |
+| A Survey on Large Language Models for Code Generation | Juyong Jiang et al. | arXiv | 2024 | 2406.00515 | 1201 | huybery/Awesome-Code-LLM |
+| A Survey on In-context Learning | Qingxiu Dong et al. | EMNLP | 2023 | 2301.00234 | 1192 | EgoAlpha/prompt-in-context-learning |
+| A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented La | Wenqi Fan et al. | KDD | 2024 | 2405.06211 | 1189 |  |
+| Siren's Song in the AI Ocean: A Survey on Hallucination in L | Yue Zhang et al. | arXiv | 2023 | 2309.01219 | 1177 | HillZhang1999/llm-hallucination-survey |
+| Large Language Models: A Survey | Shervin Minaee et al. | arXiv | 2024 | 2402.06196 | 1124 |  |
+| Parameter-Efficient Fine-Tuning for Large Models: A Comprehe | Zeyu Han et al. | TMLR | 2024 | 2403.14608 | 1117 |  |
+| ChatEval: Towards Better LLM-based Evaluators through Multi- | Chi-Min Chan et al. | ICLR | 2024 | 2308.07201 | 1008 | thunlp/ChatEval |
+| Towards Reasoning in Large Language Models: A Survey | Jie Huang et al. | ACL Findings | 2022 | 2212.10403 | 971 |  |
+| Instruction Tuning for Large Language Models: A Survey | Shengyu Zhang et al. | arXiv | 2023 | 2308.10792 | 951 | xiaoya-li/Instruction-Tuning-Survey |
+| Safe RLHF: Safe Reinforcement Learning from Human Feedback | Josef Dai et al. | ICLR | 2024 | 2310.12773 | 788 |  |
+| Retrieval-Augmented Generation for AI-Generated Content: A S | Penghao Zhao et al. | arXiv | 2024 | 2402.19473 | 732 | hymie122/RAG-Survey |
+| Trustworthy LLMs: A Survey and Guideline for Evaluating Larg | Yang Liu et al. | arXiv | 2023 | 2308.05374 | 598 |  |
+| A Comprehensive Survey of Hallucination Mitigation Technique | S. M. Towhidul Islam Tonm | arXiv | 2024 | 2401.01313 | 526 |  |
+| A Survey on Model Compression for Large Language Models | Xunyu Zhu et al. | TACL | 2023 | 2308.07633 | 519 |  |
+| Editing Large Language Models: Problems, Methods, and Opport | Yunzhi Yao et al. | EMNLP | 2023 | 2305.13172 | 499 | zjunlp/KnowledgeEditingPapers |
+| Stop Overthinking: A Survey on Efficient Reasoning for Large | Yang Sui et al. | arXiv | 2025 | 2503.16419 | 469 | Eclipsess/Awesome-Efficient-Reasoning-LLMs |
+| Tool Learning with Foundation Models | Yujia Qin et al. | ACM Computing Surveys | 2023 | 2304.08354 | 466 | OpenBMB/BMTools |
+| A Survey on Mixture of Experts in Large Language Models | Weilin Cai et al. | IEEE TKDE | 2024 | 2407.06204 | 414 | withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs |
+| Parameter-Efficient Fine-Tuning Methods for Pretrained Langu | Lingling Xu et al. | arXiv | 2023 | 2312.12148 | 403 |  |
+| AI Alignment: A Comprehensive Survey | Jiaming Ji et al. | arXiv | 2023 | 2310.19852 | 397 | PKU-Alignment/AlignmentSurvey |
+| A Survey on Knowledge Distillation of Large Language Models | Xiaohan Xu et al. | arXiv | 2024 | 2402.13116 | 391 | Tebmer/Awesome-Knowledge-Distillation-of-LLMs |
+| Personal LLM Agents: Insights and Survey about the Capabilit | Yuanchun Li et al. | arXiv | 2024 | 2401.05459 | 387 | MobileLLM/Personal_LLM_Agents_Survey |
+| Large Language Model Alignment: A Survey | Tianhao Shen et al. | arXiv | 2023 | 2309.15025 | 336 |  |
+| Two Tales of Persona in LLMs: A Survey of Role-Playing and P | Yu-Min Tseng et al. | arXiv | 2024 | 2406.01171 | 332 |  |
+| Evaluating Large Language Models: A Comprehensive Survey | Zishan Guo et al. | arXiv | 2023 | 2310.19736 | 328 | tjunlp-lab/Awesome-LLMs-Evaluation-Papers |
+| Jailbreak Attacks and Defenses Against Large Language Models | Sibo Yi et al. | arXiv | 2024 | 2407.04295 | 313 |  |
+| Scaling Down to Scale Up: A Guide to Parameter-Efficient Fin | Vladislav Lialin et al. | arXiv | 2023 | 2303.15647 | 307 |  |
+| Automatically Correcting Large Language Models: Surveying th | Liangming Pan et al. | TACL | 2023 | 2308.03188 | 305 |  |
+| Secrets of RLHF in Large Language Models Part I: PPO | Rui Zheng et al. | arXiv | 2023 | 2307.04964 | 288 |  |
+| Knowledge Editing for Large Language Models: A Survey | Song Wang et al. | ACM Computing Surveys | 2023 | 2310.16218 | 288 |  |
+| A Comprehensive Survey of Small Language Models in the Era o | Fali Wang et al. | arXiv | 2024 | 2411.03350 | 282 |  |
+| Navigate through Enigmatic Labyrinth: A Survey of Chain of T | Zheng Chu et al. | ACL | 2024 | 2309.15402 | 279 | Zoeyyao27/CoT-Igniting-Agent |
+| A Survey on Efficient Inference for Large Language Models | Zixuan Zhou et al. | arXiv | 2024 | 2404.14294 | 271 |  |
+| Efficient Large Language Models: A Survey | Zhongwei Wan et al. | TMLR | 2023 | 2312.03863 | 268 | AIoT-MLSys-Lab/Efficient-LLMs-Survey |
+| LLM Inference Unveiled: Survey and Roofline Model Insights | Zhihang Yuan et al. | arXiv | 2024 | 2402.16363 | 229 |  |
+| Large Language Model-Brained GUI Agents: A Survey | Chaoyun Zhang et al. | arXiv | 2024 | 2411.18279 | 212 | vyokky/LLM-Brained-GUI-Agents-Survey |
+| A Survey of Text Watermarking in the Era of Large Language M | Aiwei Liu et al. | arXiv | 2023 | 2312.07913 | 202 |  |
+| Towards Efficient Generative LLM Serving: A Survey from Algo | Xupeng Miao et al. | ACM Computing Surveys | 2023 | 2312.15234 | 201 |  |
+| A Survey on LoRA of Large Language Models | Yuren Mao et al. | Frontiers of Computer Science | 2024 | 2407.11046 | 191 | ZJU-LLMs/Awesome-LoRAs |
+| Attacks, Defenses and Evaluations for LLM Conversation Safet | Zhichen Dong et al. | NAACL | 2024 | 2402.09283 | 188 | niconi19/LLM-Conversation-Safety |
+| A Comprehensive Study of Knowledge Editing for Large Languag | Ningyu Zhang et al. | arXiv | 2024 | 2401.01286 | 185 | zjunlp/EasyEdit |
+| A Survey of Reinforcement Learning for Large Reasoning Model | Kaiyan Zhang et al. | arXiv | 2025 | 2509.08827 | 172 |  |
+| A Survey on Multilingual Large Language Models: Corpora, Ali | Yuemei Xu et al. | arXiv | 2024 | 2404.00929 | 162 |  |
+| A Survey of Context Engineering for Large Language Models | Lingrui Mei et al. | arXiv | 2025 | 2507.13334 | 160 | Meirtz/Awesome-Context-Engineering |
+| A Survey of Graph Retrieval-Augmented Generation for Customi | Qinggang Zhang et al. | arXiv | 2025 | 2501.13958 | 154 | DEEP-PolyU/Awesome-GraphRAG |
+| A Survey of Efficient Reasoning for Large Reasoning Models:  | Xiaoye Qu et al. | arXiv | 2025 | 2503.21614 | 146 | XiaoYee/Awesome_Efficient_LRM_Reasoning |
+| A Comprehensive Survey on Long Context Language Modeling | Jiaheng Liu et al. | arXiv | 2025 | 2503.17407 | 143 | Xnhyacinth/Awesome-LLM-Long-Context-Modeling |
+| Datasets for Large Language Models: A Comprehensive Survey | Yang Liu et al. | arXiv | 2024 | 2402.18041 | 143 |  |
+| Advancing Transformer Architecture in Long-Context LLMs: A C | Yunpeng Huang et al. | arXiv | 2023 | 2311.12351 | 137 | Strivin0311/long-llms-learning |
+| LLM Post-Training: A Deep Dive into Reasoning Large Language | Komal Kumar et al. | arXiv | 2025 | 2502.21321 | 130 |  |
+| Unifying the Perspectives of NLP and Software Engineering: A | Ziyin Zhang et al. | TMLR | 2023 | 2311.07989 | 119 | codefuse-ai/Awesome-Code-LLM |
+| Beyond the Limits: A Survey of Techniques to Extend the Cont | Xindi Wang et al. | IJCAI | 2024 | 2402.02244 | 118 |  |
+| Towards Lifelong Learning of Large Language Models: A Survey | Junhao Zheng et al. | ACM Computing Surveys | 2024 | 2406.06391 | 111 |  |
+| A Survey on Sparse Autoencoders: Interpreting the Internal M | Dong Shu et al. | arXiv | 2025 | 2503.05613 | 86 |  |
+| Knowledge Mechanisms in Large Language Models: A Survey and  | Mengru Wang et al. | EMNLP Findings | 2024 | 2407.15017 | 79 | zjunlp/KnowledgeEditingPapers |
 | A Survey on Large Language Models for Mathematical Reasoning | Peng-Yuan Wang et al. | arXiv | 2025 | 2506.08446 | 78 |  |
-| Knowledge Mechanisms in Large Language Models: A Survey and  | Mengru Wang et al. | EMNLP Findings | 2024 | 2407.15017 | 77 | zjunlp/KnowledgeEditingPapers |
+| A Survey on Diffusion Language Models | Tianyi Li et al. | arXiv | 2025 | 2508.10875 | 74 | VILA-Lab/Awesome-DLMs |
 | A Survey of Small Language Models | Chien Van Nguyen et al. | arXiv | 2024 | 2410.20011 | 72 |  |
-| A Survey on Diffusion Language Models | Tianyi Li et al. | arXiv | 2025 | 2508.10875 | 71 | VILA-Lab/Awesome-DLMs |
+| What Are Tools Anyway? A Survey from the Language Model Pers | Zhiruo Wang et al. | COLM | 2024 | 2403.15452 | 70 |  |
+| Knowledge Distillation and Dataset Distillation of Large Lan | Luyang Fang et al. | arXiv preprint | 2025 | 2504.14772 | 69 |  |
 | The Oscars of AI Theater: A Survey on Role-Playing with Lang | Nuo Chen et al. | arXiv | 2024 | 2407.11484 | 64 |  |
-| Knowledge Distillation and Dataset Distillation of Large Lan | Luyang Fang et al. | arXiv preprint | 2025 | 2504.14772 | 63 |  |
 | Code to Think, Think to Code: A Survey on Code-Enhanced Reas | Dayu Yang et al. | arXiv | 2025 | 2502.19411 | 61 |  |
 | Emergent Abilities in Large Language Models: A Survey | Leonardo Berti et al. | arXiv | 2025 | 2503.05788 | 57 |  |
 | The Mystery of In-Context Learning: A Comprehensive Survey o | Yuxiang Zhou et al. | EMNLP | 2023 | 2311.00237 | 52 |  |
-| A Survey of Data Agents: Emerging Paradigm or Overstated Hyp | Yizhang Zhu et al. | arXiv | 2025 | 2510.23587 | 46 | HKUSTDial/awesome-data-agents |
-| A Comprehensive Survey of Machine Unlearning Techniques for  | Jiahui Geng et al. | arXiv | 2025 | 2503.01854 | 38 |  |
+| The What, Why, and How of Context Length Extension Technique | Saurav Pawar et al. | arXiv | 2024 | 2401.07872 | 49 |  |
+| A Survey of Data Agents: Emerging Paradigm or Overstated Hyp | Yizhang Zhu et al. | arXiv | 2025 | 2510.23587 | 47 | HKUSTDial/awesome-data-agents |
+| The Efficiency Spectrum of Large Language Models: An Algorit | Tianyu Ding et al. | arXiv | 2023 | 2312.00678 | 41 |  |
+| A Comprehensive Survey of Machine Unlearning Techniques for  | Jiahui Geng et al. | arXiv | 2025 | 2503.01854 | 39 |  |
 | Reinforcement Learning Meets Large Language Models: A Survey | Keliang Liu et al. | arXiv preprint | 2025 | 2509.16679 | 37 |  |
-| A Survey of Test-Time Compute: From Intuitive Inference to D | Yixin Ji et al. | arXiv | 2025 | 2501.02497 | 24 |  |
+| A Survey of Test-Time Compute: From Intuitive Inference to D | Yixin Ji et al. | arXiv | 2025 | 2501.02497 | 25 |  |
 | KV Cache Compression for Inference Efficiency in LLMs: A Rev | Yanyu Liu et al. | arXiv preprint | 2025 | 2508.06297 | 15 |  |
 | Reinforcement Learning Foundations for Deep Research Systems | Wenjun Li et al. | arXiv preprint | 2025 | 2509.06733 | 13 |  |
 | A Survey of Theory of Mind in Large Language Models: Evaluat | Hieu Minh Nguyen et al. | arXiv | 2025 | 2502.06470 | 10 |  |
 | Closer Look at Efficient Inference Methods: A Survey of Spec | Hyun Ryu et al. | arXiv preprint | 2024 | 2411.13157 | 7 |  |
-| LLM Post-Training: A Deep Dive into Reasoning Large Language | Komal Kumar et al. | arXiv | 2025 | 2502.21321 |  |  |
-| Large Language Models: A Survey | Shervin Minaee et al. | arXiv | 2024 | 2402.06196 |  |  |
-| Datasets for Large Language Models: A Comprehensive Survey | Yang Liu et al. | arXiv | 2024 | 2402.18041 |  |  |
-| Safe RLHF: Safe Reinforcement Learning from Human Feedback | Josef Dai et al. | ICLR | 2024 | 2310.12773 |  |  |
-| Navigate through Enigmatic Labyrinth: A Survey of Chain of T | Zheng Chu et al. | ACL | 2024 | 2309.15402 |  | Zoeyyao27/CoT-Igniting-Agent |
-| A Comprehensive Survey of Hallucination Mitigation Technique | S. M. Towhidul Islam Tonm | arXiv | 2024 | 2401.01313 |  |  |
-| A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented La | Wenqi Fan et al. | KDD | 2024 | 2405.06211 |  |  |
-| ChatEval: Towards Better LLM-based Evaluators through Multi- | Chi-Min Chan et al. | ICLR | 2024 | 2308.07201 |  | thunlp/ChatEval |
-| What Are Tools Anyway? A Survey from the Language Model Pers | Zhiruo Wang et al. | COLM | 2024 | 2403.15452 |  |  |
-| A Survey on Efficient Inference for Large Language Models | Zixuan Zhou et al. | arXiv | 2024 | 2404.14294 |  |  |
-| LLM Inference Unveiled: Survey and Roofline Model Insights | Zhihang Yuan et al. | arXiv | 2024 | 2402.16363 |  |  |
-| Parameter-Efficient Fine-Tuning for Large Models: A Comprehe | Zeyu Han et al. | TMLR | 2024 | 2403.14608 |  |  |
-| The What, Why, and How of Context Length Extension Technique | Saurav Pawar et al. | arXiv | 2024 | 2401.07872 |  |  |
-| Jailbreak Attacks and Defenses Against Large Language Models | Sibo Yi et al. | arXiv | 2024 | 2407.04295 |  |  |
-| Attacks, Defenses and Evaluations for LLM Conversation Safet | Zhichen Dong et al. | NAACL | 2024 | 2402.09283 |  | niconi19/LLM-Conversation-Safety |
-| A Survey on Large Language Models for Code Generation | Juyong Jiang et al. | arXiv | 2024 | 2406.00515 |  | huybery/Awesome-Code-LLM |
-| A Survey on Mixture of Experts in Large Language Models | Weilin Cai et al. | IEEE TKDE | 2024 | 2407.06204 |  | withinmiaov/A-Survey-on-Mixture-of-Experts-in-LLMs |
-| Towards Lifelong Learning of Large Language Models: A Survey | Junhao Zheng et al. | ACM Computing Surveys | 2024 | 2406.06391 |  |  |
-| A Comprehensive Study of Knowledge Editing for Large Languag | Ningyu Zhang et al. | arXiv | 2024 | 2401.01286 |  | zjunlp/EasyEdit |
-| A Survey on Multilingual Large Language Models: Corpora, Ali | Yuemei Xu et al. | arXiv | 2024 | 2404.00929 |  |  |
-| A Survey of Large Language Models | Wayne Xin Zhao et al. | arXiv | 2023 | 2303.18223 |  | RUCAIBox/LLMSurvey |
-| A Comprehensive Overview of Large Language Models | Humza Naveed et al. | arXiv | 2023 | 2307.06435 |  |  |
-| Instruction Tuning for Large Language Models: A Survey | Shengyu Zhang et al. | arXiv | 2023 | 2308.10792 |  | xiaoya-li/Instruction-Tuning-Survey |
-| Secrets of RLHF in Large Language Models Part I: PPO | Rui Zheng et al. | arXiv | 2023 | 2307.04964 |  |  |
-| AI Alignment: A Comprehensive Survey | Jiaming Ji et al. | arXiv | 2023 | 2310.19852 |  | PKU-Alignment/AlignmentSurvey |
-| Large Language Model Alignment: A Survey | Tianhao Shen et al. | arXiv | 2023 | 2309.15025 |  |  |
-| A Survey on In-context Learning | Qingxiu Dong et al. | EMNLP | 2023 | 2301.00234 |  | EgoAlpha/prompt-in-context-learning |
-| A Survey on Hallucination in Large Language Models: Principl | Lei Huang et al. | ACM TOIS | 2023 | 2311.05232 |  | LuckyyySTA/Awesome-LLM-hallucination |
-| Siren's Song in the AI Ocean: A Survey on Hallucination in L | Yue Zhang et al. | arXiv | 2023 | 2309.01219 |  | HillZhang1999/llm-hallucination-survey |
-| A Survey on Large Language Model based Autonomous Agents | Lei Wang et al. | Frontiers of Computer Science | 2023 | 2308.11432 |  | Paitesanshi/LLM-Agent-Survey |
-| The Rise and Potential of Large Language Model Based Agents: | Zhiheng Xi et al. | arXiv | 2023 | 2309.07864 |  | WooooDyy/LLM-Agent-Paper-List |
-| Tool Learning with Foundation Models | Yujia Qin et al. | ACM Computing Surveys | 2023 | 2304.08354 |  | OpenBMB/BMTools |
-| A Survey on Evaluation of Large Language Models | Yupeng Chang et al. | ACM TIST | 2023 | 2307.03109 |  | MLGroupJLU/LLM-eval-survey |
-| Evaluating Large Language Models: A Comprehensive Survey | Zishan Guo et al. | arXiv | 2023 | 2310.19736 |  | tjunlp-lab/Awesome-LLMs-Evaluation-Papers |
-| Towards Efficient Generative LLM Serving: A Survey from Algo | Xupeng Miao et al. | ACM Computing Surveys | 2023 | 2312.15234 |  |  |
-| Scaling Down to Scale Up: A Guide to Parameter-Efficient Fin | Vladislav Lialin et al. | arXiv | 2023 | 2303.15647 |  |  |
-| Parameter-Efficient Fine-Tuning Methods for Pretrained Langu | Lingling Xu et al. | arXiv | 2023 | 2312.12148 |  |  |
-| Advancing Transformer Architecture in Long-Context LLMs: A C | Yunpeng Huang et al. | arXiv | 2023 | 2311.12351 |  | Strivin0311/long-llms-learning |
-| Trustworthy LLMs: A Survey and Guideline for Evaluating Larg | Yang Liu et al. | arXiv | 2023 | 2308.05374 |  |  |
-| Large Language Models for Software Engineering: A Systematic | Xinyi Hou et al. | ACM TOSEM | 2023 | 2308.10620 |  |  |
-| Unifying the Perspectives of NLP and Software Engineering: A | Ziyin Zhang et al. | TMLR | 2023 | 2311.07989 |  | codefuse-ai/Awesome-Code-LLM |
-| A Survey on Model Compression for Large Language Models | Xunyu Zhu et al. | TACL | 2023 | 2308.07633 |  |  |
-| Efficient Large Language Models: A Survey | Zhongwei Wan et al. | TMLR | 2023 | 2312.03863 |  | AIoT-MLSys-Lab/Efficient-LLMs-Survey |
-| The Efficiency Spectrum of Large Language Models: An Algorit | Tianyu Ding et al. | arXiv | 2023 | 2312.00678 |  |  |
-| Knowledge Editing for Large Language Models: A Survey | Song Wang et al. | ACM Computing Surveys | 2023 | 2310.16218 |  |  |
-| Training language models to follow instructions with human f | Long Ouyang et al. | NeurIPS | 2022 | 2203.02155 |  |  |
-| Towards Reasoning in Large Language Models: A Survey | Jie Huang et al. | ACL Findings | 2022 | 2212.10403 |  |  |
 
 ### 🎨 生成AI・拡散モデル
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| NIPS 2016 Tutorial: Generative Adversarial Networks | Ian Goodfellow | NIPS Tutorial | 2016 | 1701.00160 | 1825 |  |
+| An Introduction to Variational Autoencoders | Diederik P. Kingma et al. | Foundations and Trends in ML | 2019 | 1906.02691 | 3241 |  |
+| NIPS 2016 Tutorial: Generative Adversarial Networks | Ian Goodfellow | NIPS Tutorial | 2016 | 1701.00160 | 1830 |  |
+| A Review on Generative Adversarial Networks: Algorithms, The | Jie Gui et al. | IEEE TKDE | 2020 | 2001.06937 | 1174 |  |
+| A Comprehensive Survey of AI-Generated Content (AIGC): A His | Yihan Cao et al. | arXiv | 2023 | 2303.04226 | 862 |  |
 | Generative Adversarial Networks: Challenges, Solutions, and  | Divya Saxena et al. | ACM Computing Surveys | 2021 | 2005.00065 | 490 |  |
+| Diffusion Model-Based Image Editing: A Survey | Yi Huang et al. | IEEE TPAMI | 2024 | 2402.17525 | 321 | SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods |
+| A Survey on Video Diffusion Models | Zhen Xing et al. | ACM Computing Surveys | 2023 | 2310.10647 | 313 | ChenHsing/Awesome-Video-Diffusion-Models |
 | Human Motion Generation: A Survey | Wentao Zhu et al. | IEEE TPAMI | 2023 | 2307.10894 | 156 |  |
-| Controllable Video Generation: A Survey | Yue Ma et al. | arXiv | 2025 | 2507.16869 | 95 | mayuelala/Awesome-Controllable-Video-Generation |
+| Controllable Generation with Text-to-Image Diffusion Models: | Pu Cao et al. | IEEE TPAMI | 2024 | 2403.04279 | 131 | PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models |
+| Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era | Chenghao Li et al. | arXiv | 2023 | 2305.06131 | 114 |  |
+| Controllable Video Generation: A Survey | Yue Ma et al. | arXiv | 2025 | 2507.16869 | 101 | mayuelala/Awesome-Controllable-Video-Generation |
+| RenAIssance: A Survey into AI Text-to-Image Generation in th | Fengxiang Bie et al. | IEEE TPAMI | 2023 | 2309.00810 | 100 |  |
+| Advances in 3D Generation: A Survey | Xiaoyu Li et al. | arXiv | 2024 | 2401.17807 | 97 |  |
 | Generative Adversarial Networks in Computer Vision: A Survey | Zhengwei Wang et al. | ACM Computing Surveys | 2021 | 1906.01529 | 94 |  |
+| Sora as a World Model? A Complete Survey on Text-to-Video Ge | Fachrina Dewi Puspitasari | arXiv | 2024 | 2403.05131 | 81 |  |
 | A Survey of Multimodal-Guided Image Editing with Text-to-Ima | Xincheng Shuai et al. | arXiv | 2024 | 2406.14555 | 72 |  |
+| Sparks of Large Audio Models: A Survey and Outlook | Siddique Latif et al. | arXiv | 2023 | 2308.12792 | 71 | EmulationAI/awesome-large-audio-models |
+| Efficient Diffusion Models: A Comprehensive Survey from Prin | Zhiyuan Ma et al. | TMLR | 2024 | 2410.11795 | 67 | AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey |
 | Autoregressive Models in Vision: A Survey | Jing Xiong et al. | TMLR | 2024 | 2411.05902 | 60 | ChaofanTao/Autoregressive-Models-in-Vision-Survey |
+| Normalizing Flows: An Introduction and Review of Current Met | Ivan Kobyzev et al. | IEEE TPAMI | 2019 | 1908.09257 | 59 |  |
+| Score-based Diffusion Models via Stochastic Differential Equ | Wenpin Tang et al. | arXiv | 2024 | 2402.07487 | 57 |  |
 | Efficient Diffusion Models: A Survey | Hui Shen et al. | TMLR | 2025 | 2502.06805 | 55 | AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey |
-| Score-based Diffusion Models via Stochastic Differential Equ | Wenpin Tang et al. | arXiv | 2024 | 2402.07487 | 55 |  |
-| Diffusion Model-Based Video Editing: A Survey | Wenhao Sun et al. | arXiv | 2024 | 2407.07111 | 54 |  |
-| A Survey on Personalized Content Synthesis with Diffusion Mo | Xulu Zhang et al. | arXiv | 2024 | 2405.05538 | 43 |  |
-| Simulating the Real World: A Unified Survey of Multimodal Ge | Yuqi Hu et al. | IEEE TPAMI | 2025 | 2503.04641 | 24 | ALEEEHU/World-Simulator |
-| A Comprehensive Survey on Concept Erasure in Text-to-Image D | Changhoon Kim et al. | arXiv | 2025 | 2502.14896 | 10 |  |
+| Diffusion Model-Based Video Editing: A Survey | Wenhao Sun et al. | arXiv | 2024 | 2407.07111 | 55 |  |
+| Video Diffusion Models: A Survey | Andrew Melnik et al. | TMLR | 2024 | 2405.03150 | 48 | ndrwmlnk/Awesome-Video-Diffusion-Models |
+| A Survey on Personalized Content Synthesis with Diffusion Mo | Xulu Zhang et al. | arXiv | 2024 | 2405.05538 | 44 |  |
+| Simulating the Real World: A Unified Survey of Multimodal Ge | Yuqi Hu et al. | IEEE TPAMI | 2025 | 2503.04641 | 25 | ALEEEHU/World-Simulator |
+| A Comprehensive Survey on Concept Erasure in Text-to-Image D | Changhoon Kim et al. | arXiv | 2025 | 2502.14896 | 12 |  |
 | Vision-to-Music Generation: A Survey | Zhaokai Wang et al. | ISMIR | 2025 | 2503.21254 | 8 | wzk1015/Awesome-Vision-to-Music-Generation |
 | A Survey on Pre-Trained Diffusion Model Distillations | Xuhui Fan et al. | arXiv | 2025 | 2502.08364 | 5 |  |
 | Advances in 4D Generation: A Survey | Qiaowei Miao et al. | arXiv | 2025 | 2503.14501 | 0 |  |
-| Efficient Diffusion Models: A Comprehensive Survey from Prin | Zhiyuan Ma et al. | TMLR | 2024 | 2410.11795 |  | AIoT-MLSys-Lab/Efficient-Diffusion-Model-Survey |
-| Video Diffusion Models: A Survey | Andrew Melnik et al. | TMLR | 2024 | 2405.03150 |  | ndrwmlnk/Awesome-Video-Diffusion-Models |
-| Sora as a World Model? A Complete Survey on Text-to-Video Ge | Fachrina Dewi Puspitasari | arXiv | 2024 | 2403.05131 |  |  |
-| Diffusion Model-Based Image Editing: A Survey | Yi Huang et al. | IEEE TPAMI | 2024 | 2402.17525 |  | SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods |
-| Controllable Generation with Text-to-Image Diffusion Models: | Pu Cao et al. | IEEE TPAMI | 2024 | 2403.04279 |  | PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models |
-| Advances in 3D Generation: A Survey | Xiaoyu Li et al. | arXiv | 2024 | 2401.17807 |  |  |
-| RenAIssance: A Survey into AI Text-to-Image Generation in th | Fengxiang Bie et al. | IEEE TPAMI | 2023 | 2309.00810 |  |  |
-| A Survey on Video Diffusion Models | Zhen Xing et al. | ACM Computing Surveys | 2023 | 2310.10647 |  | ChenHsing/Awesome-Video-Diffusion-Models |
-| Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era | Chenghao Li et al. | arXiv | 2023 | 2305.06131 |  |  |
-| Sparks of Large Audio Models: A Survey and Outlook | Siddique Latif et al. | arXiv | 2023 | 2308.12792 |  | EmulationAI/awesome-large-audio-models |
-| A Comprehensive Survey of AI-Generated Content (AIGC): A His | Yihan Cao et al. | arXiv | 2023 | 2303.04226 |  |  |
-| A Review on Generative Adversarial Networks: Algorithms, The | Jie Gui et al. | IEEE TKDE | 2020 | 2001.06937 |  |  |
-| An Introduction to Variational Autoencoders | Diederik P. Kingma et al. | Foundations and Trends in ML | 2019 | 1906.02691 |  |  |
-| Normalizing Flows: An Introduction and Review of Current Met | Ivan Kobyzev et al. | IEEE TPAMI | 2019 | 1908.09257 |  |  |
 
 ### 🖼️ マルチモーダル・視覚言語
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Survey on Multimodal Large Language Models for Autonomous  | Can Cui et al. | WACV | 2024 | 2311.12320 | 567 | IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving |
-| Video Understanding with Large Language Models: A Survey | Yunlong Tang et al. | arXiv | 2023 | 2312.17432 | 320 |  |
-| Multimodal Chain-of-Thought Reasoning: A Comprehensive Surve | Yaoting Wang et al. | arXiv | 2025 | 2503.12605 | 204 | yaotingwangofficial/Awesome-MCoT |
+| A Survey on Multimodal Large Language Models | Shukang Yin et al. | National Science Review | 2023 | 2306.13549 | 1667 | BradyFU/Awesome-Multimodal-Large-Language-Models |
+| A Survey on Multimodal Large Language Models for Autonomous  | Can Cui et al. | WACV | 2024 | 2311.12320 | 571 | IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving |
+| MM-LLMs: Recent Advances in MultiModal Large Language Models | Duzhen Zhang et al. | ACL Findings | 2024 | 2401.13601 | 479 |  |
+| Hallucination of Multimodal Large Language Models: A Survey | Zechen Bai et al. | arXiv | 2024 | 2404.18930 | 461 |  |
+| A Survey on Vision-Language-Action Models for Embodied AI | Yueen Ma et al. | arXiv | 2024 | 2405.14093 | 391 |  |
+| Video Understanding with Large Language Models: A Survey | Yunlong Tang et al. | arXiv | 2023 | 2312.17432 | 324 |  |
+| Agent AI: Surveying the Horizons of Multimodal Interaction | Zane Durante et al. | arXiv | 2024 | 2401.03568 | 283 |  |
+| Vision-Language Pre-training: Basics, Recent Advances, and F | Zhe Gan et al. | Foundations and Trends in CV | 2022 | 2210.09263 | 233 |  |
+| Multimodal Chain-of-Thought Reasoning: A Comprehensive Surve | Yaoting Wang et al. | arXiv | 2025 | 2503.12605 | 206 | yaotingwangofficial/Awesome-MCoT |
+| Deep Audio-Visual Learning: A Survey | Hao Zhu et al. | International Journal of Automation and Computing | 2020 | 2001.04758 | 198 |  |
+| Large Multimodal Agents: A Survey | Junlin Xie et al. | arXiv | 2024 | 2402.15116 | 136 | jun0wanan/awesome-large-multimodal-agents |
+| Document AI: Benchmarks, Models and Applications | Lei Cui et al. | arXiv | 2021 | 2111.08609 | 106 |  |
 | Perception, Reason, Think, and Plan: A Survey on Large Multi | Yunxin Li et al. | arXiv | 2025 | 2505.04921 | 96 |  |
-| Unified Multimodal Understanding and Generation Models: Adva | Shanshan Zhao et al. | arXiv | 2025 | 2505.02567 | 85 | ATH-MaaS/Awesome-Unified-Multimodal-Models |
-| Ask in Any Modality: A Comprehensive Survey on Multimodal Re | Mohammad Mahdi Abootorabi | ACL Findings | 2025 | 2502.08826 | 80 |  |
+| Unified Multimodal Understanding and Generation Models: Adva | Shanshan Zhao et al. | arXiv | 2025 | 2505.02567 | 87 | ATH-MaaS/Awesome-Unified-Multimodal-Models |
+| Ask in Any Modality: A Comprehensive Survey on Multimodal Re | Mohammad Mahdi Abootorabi | ACL Findings | 2025 | 2502.08826 | 81 |  |
 | A Survey of Mathematical Reasoning in the Era of Multimodal  | Yibo Yan et al. | ACL Findings | 2024 | 2412.11936 | 72 |  |
-| A Survey of Multimodal Retrieval-Augmented Generation | Lang Mei et al. | arXiv | 2025 | 2504.08748 | 59 |  |
+| A Survey of Multimodal Retrieval-Augmented Generation | Lang Mei et al. | arXiv | 2025 | 2504.08748 | 60 |  |
+| Video-Language Understanding: A Survey from Model Architectu | Thong Nguyen et al. | ACL Findings | 2024 | 2406.05615 | 60 |  |
 | When LLMs step into the 3D World: A Survey and Meta-Analysis | Xianzheng Ma et al. | arXiv | 2024 | 2405.10255 | 48 | ActiveVisionLab/Awesome-LLM-3D |
 | A Survey on Mechanistic Interpretability for Multi-Modal Fou | Zihao Lin et al. | arXiv | 2025 | 2502.17516 | 42 |  |
-| Adapting Vision-Language Models Without Labels: A Comprehens | Hao Dong et al. | arXiv preprint | 2025 | 2508.05547 | 11 | tim-learn/Awesome-LabelFree-VLMs |
-| MM-LLMs: Recent Advances in MultiModal Large Language Models | Duzhen Zhang et al. | ACL Findings | 2024 | 2401.13601 |  |  |
-| Video-Language Understanding: A Survey from Model Architectu | Thong Nguyen et al. | ACL Findings | 2024 | 2406.05615 |  |  |
-| A Survey on Vision-Language-Action Models for Embodied AI | Yueen Ma et al. | arXiv | 2024 | 2405.14093 |  |  |
-| Agent AI: Surveying the Horizons of Multimodal Interaction | Zane Durante et al. | arXiv | 2024 | 2401.03568 |  |  |
-| Large Multimodal Agents: A Survey | Junlin Xie et al. | arXiv | 2024 | 2402.15116 |  | jun0wanan/awesome-large-multimodal-agents |
-| Hallucination of Multimodal Large Language Models: A Survey | Zechen Bai et al. | arXiv | 2024 | 2404.18930 |  |  |
-| A Survey on Multimodal Large Language Models | Shukang Yin et al. | National Science Review | 2023 | 2306.13549 |  | BradyFU/Awesome-Multimodal-Large-Language-Models |
+| Adapting Vision-Language Models Without Labels: A Comprehens | Hao Dong et al. | arXiv preprint | 2025 | 2508.05547 | 12 | tim-learn/Awesome-LabelFree-VLMs |
 | A Systematic Survey of Prompt Engineering on Vision-Language | Jindong Gu et al. | arXiv | 2023 | 2307.12980 |  | JindongGu/Awesome-Prompting-on-Vision-Language-Model |
-| Vision-Language Pre-training: Basics, Recent Advances, and F | Zhe Gan et al. | Foundations and Trends in CV | 2022 | 2210.09263 |  |  |
-| Document AI: Benchmarks, Models and Applications | Lei Cui et al. | arXiv | 2021 | 2111.08609 |  |  |
-| Deep Audio-Visual Learning: A Survey | Hao Zhu et al. | International Journal of Automation and Computing | 2020 | 2001.04758 |  |  |
 
 ### 💬 自然言語処理 (NLP)
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Pre-train, Prompt, and Predict: A Systematic Survey of Promp | Pengfei Liu et al. | ACM Computing Surveys | 2021 | 2107.13586 | 5812 | thunlp/PromptPapers |
-| Recent Trends in Deep Learning Based Natural Language Proces | Tom Young et al. | IEEE Computational Intelligence Magazine | 2018 | 1708.02709 | 3105 |  |
-| A Primer in BERTology: What We Know About How BERT Works | Anna Rogers et al. | TACL | 2020 | 2002.12327 | 1997 |  |
-| Deep Learning for Sentiment Analysis: A Survey | Lei Zhang et al. | WIREs Data Mining and Knowledge Discovery | 2018 | 1801.07883 | 1966 |  |
-| Pre-trained Models for Natural Language Processing: A Survey | Xipeng Qiu et al. | Science China Technological Sciences | 2020 | 2003.08271 | 1748 |  |
-| Recent Advances in Natural Language Processing via Large Pre | Bonan Min et al. | ACM Computing Surveys | 2021 | 2111.01243 | 1663 |  |
-| A Survey on Deep Learning for Named Entity Recognition | Jing Li et al. | IEEE TKDE | 2020 | 1812.09449 | 1537 |  |
-| Deep Learning Based Text Classification: A Comprehensive Rev | Shervin Minaee et al. | ACM Computing Surveys | 2020 | 2004.03705 | 1378 |  |
-| Pre-Trained Models: Past, Present and Future | Xu Han et al. | AI Open | 2021 | 2106.07139 | 1122 |  |
-| A Survey of Data Augmentation Approaches for NLP | Steven Y. Feng et al. | Findings of ACL | 2021 | 2105.03075 | 1028 |  |
-| Survey of the State of the Art in Natural Language Generatio | Albert Gatt et al. | JAIR | 2018 | 1703.09902 | 923 |  |
-| A Survey on Automated Fact-Checking | Zhijiang Guo et al. | TACL | 2021 | 2108.11896 | 797 |  |
-| A Survey on Dialogue Systems: Recent Advances and New Fronti | Hongshen Chen et al. | ACM SIGKDD Explorations | 2017 | 1711.01731 | 786 |  |
-| A Survey on Text Classification: From Shallow to Deep Learni | Qian Li et al. | ACM TIST | 2020 | 2008.00364 | 573 |  |
-| A Survey of the State of Explainable AI for Natural Language | Marina Danilevsky et al. | AACL-IJCNLP | 2020 | 2010.00711 | 484 |  |
-| A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, | Wenxuan Zhang et al. | IEEE TKDE | 2022 | 2203.01054 | 462 |  |
+| Pre-train, Prompt, and Predict: A Systematic Survey of Promp | Pengfei Liu et al. | ACM Computing Surveys | 2021 | 2107.13586 | 5852 | thunlp/PromptPapers |
+| Recent Trends in Deep Learning Based Natural Language Proces | Tom Young et al. | IEEE Computational Intelligence Magazine | 2018 | 1708.02709 | 3108 |  |
+| A Primer in BERTology: What We Know About How BERT Works | Anna Rogers et al. | TACL | 2020 | 2002.12327 | 2003 |  |
+| Deep Learning for Sentiment Analysis: A Survey | Lei Zhang et al. | WIREs Data Mining and Knowledge Discovery | 2018 | 1801.07883 | 1977 |  |
+| Pre-trained Models for Natural Language Processing: A Survey | Xipeng Qiu et al. | Science China Technological Sciences | 2020 | 2003.08271 | 1750 |  |
+| Recent Advances in Natural Language Processing via Large Pre | Bonan Min et al. | ACM Computing Surveys | 2021 | 2111.01243 | 1670 |  |
+| A Survey on Deep Learning for Named Entity Recognition | Jing Li et al. | IEEE TKDE | 2020 | 1812.09449 | 1539 |  |
+| Deep Learning Based Text Classification: A Comprehensive Rev | Shervin Minaee et al. | ACM Computing Surveys | 2020 | 2004.03705 | 1382 |  |
+| Pre-Trained Models: Past, Present and Future | Xu Han et al. | AI Open | 2021 | 2106.07139 | 1128 |  |
+| A Survey of Data Augmentation Approaches for NLP | Steven Y. Feng et al. | Findings of ACL | 2021 | 2105.03075 | 1033 |  |
+| Survey of the State of the Art in Natural Language Generatio | Albert Gatt et al. | JAIR | 2018 | 1703.09902 | 924 |  |
+| A Survey on Automated Fact-Checking | Zhijiang Guo et al. | TACL | 2021 | 2108.11896 | 802 |  |
+| A Survey on Dialogue Systems: Recent Advances and New Fronti | Hongshen Chen et al. | ACM SIGKDD Explorations | 2017 | 1711.01731 | 787 |  |
+| A Survey on Text Classification: From Shallow to Deep Learni | Qian Li et al. | ACM TIST | 2020 | 2008.00364 | 577 |  |
+| A Survey of the State of Explainable AI for Natural Language | Marina Danilevsky et al. | AACL-IJCNLP | 2020 | 2010.00711 | 485 |  |
+| A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, | Wenxuan Zhang et al. | IEEE TKDE | 2022 | 2203.01054 | 467 |  |
 | Neural Machine Translation: A Review and Survey | Felix Stahlberg et al. | JAIR | 2020 | 1912.02047 | 445 |  |
-| Neural Machine Translation for Low-Resource Languages: A Sur | Surangika Ranathunga et a | ACM Computing Surveys | 2021 | 2106.15115 | 397 |  |
-| A Survey of Evaluation Metrics Used for NLG Systems | Ananya B. Sai et al. | ACM Computing Surveys | 2020 | 2008.12009 | 359 |  |
-| Recent Advances in Deep Learning Based Dialogue Systems: A S | Jinjie Ni et al. | Artificial Intelligence Review | 2021 | 2105.04387 | 358 |  |
-| Post-hoc Interpretability for Neural NLP: A Survey | Andreas Madsen et al. | ACM Computing Surveys | 2021 | 2108.04840 | 329 |  |
-| Survey on Factuality in Large Language Models: Knowledge, Re | Cunxiang Wang et al. | arXiv | 2023 | 2310.07521 | 304 |  |
+| Neural Machine Translation for Low-Resource Languages: A Sur | Surangika Ranathunga et a | ACM Computing Surveys | 2021 | 2106.15115 | 404 |  |
+| A Survey of Evaluation Metrics Used for NLG Systems | Ananya B. Sai et al. | ACM Computing Surveys | 2020 | 2008.12009 | 361 |  |
+| Recent Advances in Deep Learning Based Dialogue Systems: A S | Jinjie Ni et al. | Artificial Intelligence Review | 2021 | 2105.04387 | 359 |  |
+| Post-hoc Interpretability for Neural NLP: A Survey | Andreas Madsen et al. | ACM Computing Surveys | 2021 | 2108.04840 | 332 |  |
+| Survey on Factuality in Large Language Models: Knowledge, Re | Cunxiang Wang et al. | arXiv | 2023 | 2310.07521 | 305 |  |
 | Word Embeddings: A Survey | Felipe Almeida et al. | arXiv | 2019 | 1901.09069 | 248 |  |
-| A Survey on Complex Knowledge Base Question Answering: Metho | Yunshi Lan et al. | IJCAI | 2021 | 2105.11644 | 218 |  |
+| A Survey on Complex Knowledge Base Question Answering: Metho | Yunshi Lan et al. | IJCAI | 2021 | 2105.11644 | 221 |  |
 | QA Dataset Explosion: A Taxonomy of NLP Resources for Questi | Anna Rogers et al. | ACM Computing Surveys | 2021 | 2107.12708 | 207 |  |
 | An Empirical Survey on Long Document Summarization: Datasets | Huan Yee Koh et al. | ACM Computing Surveys | 2022 | 2207.00939 | 196 |  |
-| A Survey on Stance Detection for Mis- and Disinformation Ide | Momchil Hardalov et al. | NAACL Findings | 2021 | 2103.00242 | 187 |  |
-| A Survey of Large Language Models in Finance (FinLLMs) | Jean Lee et al. | arXiv | 2024 | 2402.02315 | 186 |  |
-| A Survey on Contextual Embeddings | Qi Liu et al. | arXiv | 2020 | 2003.07278 | 182 |  |
+| A Survey on Stance Detection for Mis- and Disinformation Ide | Momchil Hardalov et al. | NAACL Findings | 2021 | 2103.00242 | 189 |  |
+| A Survey of Large Language Models in Finance (FinLLMs) | Jean Lee et al. | arXiv | 2024 | 2402.02315 | 188 |  |
+| A Survey on Contextual Embeddings | Qi Liu et al. | arXiv | 2020 | 2003.07278 | 186 |  |
 | Topic Modelling Meets Deep Neural Networks: A Survey | He Zhao et al. | IJCAI | 2021 | 2103.00498 | 175 |  |
-| A Survey of Code-switched Speech and Language Processing | Sunayana Sitaram et al. | arXiv | 2019 | 1904.00784 | 171 |  |
+| A Survey of Code-switched Speech and Language Processing | Sunayana Sitaram et al. | arXiv | 2019 | 1904.00784 | 173 |  |
 | Multi-document Summarization via Deep Learning Techniques: A | Congbo Ma et al. | ACM Computing Surveys | 2020 | 2011.04843 | 167 |  |
-| Explainable Automated Fact-Checking: A Survey | Neema Kotonya et al. | COLING | 2020 | 2011.03870 | 163 |  |
-| A Comprehensive Survey on Relation Extraction: Recent Advanc | Xiaoyan Zhao et al. | ACM Computing Surveys | 2023 | 2306.02051 | 157 |  |
+| Explainable Automated Fact-Checking: A Survey | Neema Kotonya et al. | COLING | 2020 | 2011.03870 | 166 |  |
+| A Comprehensive Survey on Relation Extraction: Recent Advanc | Xiaoyan Zhao et al. | ACM Computing Surveys | 2023 | 2306.02051 | 160 |  |
 | A Survey of Deep Learning Techniques for Neural Machine Tran | Shuoheng Yang et al. | arXiv | 2020 | 2002.07526 | 157 |  |
-| Grammatical Error Correction: A Survey of the State of the A | Christopher Bryant et al. | Computational Linguistics | 2023 | 2211.05166 | 148 |  |
-| Natural Language Processing for the Legal Domain: A Survey o | Farid Ariai et al. | ACM Computing Surveys | 2025 | 2410.21306 | 143 |  |
+| Grammatical Error Correction: A Survey of the State of the A | Christopher Bryant et al. | Computational Linguistics | 2023 | 2211.05166 | 150 |  |
+| Natural Language Processing for the Legal Domain: A Survey o | Farid Ariai et al. | ACM Computing Surveys | 2025 | 2410.21306 | 145 |  |
 | A Survey on Semantic Parsing | Aishwarya Kamath et al. | AKBC | 2018 | 1812.00978 | 141 |  |
-| A Survey on Non-Autoregressive Generation for Neural Machine | Yisheng Xiao et al. | IEEE TPAMI | 2022 | 2204.09269 | 131 |  |
-| A Survey on Neural Topic Models: Methods, Applications, and  | Xiaobao Wu et al. | Artificial Intelligence Review | 2024 | 2401.15351 | 130 |  |
+| A Survey on Non-Autoregressive Generation for Neural Machine | Yisheng Xiao et al. | IEEE TPAMI | 2022 | 2204.09269 | 133 |  |
+| A Survey on Neural Topic Models: Methods, Applications, and  | Xiaobao Wu et al. | Artificial Intelligence Review | 2024 | 2401.15351 | 132 |  |
 | A Survey of Deep Learning Methods for Relation Extraction | Shantanu Kumar et al. | arXiv | 2017 | 1705.03645 | 125 |  |
-| SECNLP: A Survey of Embeddings in Clinical Natural Language  | Kalyan KS et al. | Journal of Biomedical Informatics | 2019 | 1903.01039 | 100 |  |
-| A Survey on Low-Resource Neural Machine Translation | Rui Wang et al. | IJCAI | 2021 | 2107.04239 | 84 |  |
+| SECNLP: A Survey of Embeddings in Clinical Natural Language  | Kalyan KS et al. | Journal of Biomedical Informatics | 2019 | 1903.01039 | 101 |  |
+| A Survey on Low-Resource Neural Machine Translation | Rui Wang et al. | IJCAI | 2021 | 2107.04239 | 85 |  |
 | A Short Survey of Pre-trained Language Models for Conversati | Munazza Zaib et al. | ACSW | 2020 | 2104.10810 | 84 |  |
-| Local Interpretations for Explainable Natural Language Proce | Siwen Luo et al. | ACM Computing Surveys | 2021 | 2103.11072 | 78 |  |
-| The Decades Progress on Code-Switching Research in NLP: A Sy | Genta Indra Winata et al. | ACL Findings | 2023 | 2212.09660 | 73 |  |
-| Trends, Limitations and Open Challenges in Automatic Readabi | Sowmya Vajjala et al. | LREC | 2022 | 2105.00973 | 68 |  |
-| Recent Advances in Named Entity Recognition: A Comprehensive | Imed Keraghel et al. | arXiv | 2024 | 2401.10825 | 61 |  |
-| Empathetic Conversational Systems: A Review of Current Advan | Aravind Sesagiri Raamkuma | IEEE Transactions on Affective Computing | 2022 | 2206.05017 | 61 |  |
+| Local Interpretations for Explainable Natural Language Proce | Siwen Luo et al. | ACM Computing Surveys | 2021 | 2103.11072 | 80 |  |
+| The Decades Progress on Code-Switching Research in NLP: A Sy | Genta Indra Winata et al. | ACL Findings | 2023 | 2212.09660 | 74 |  |
+| Trends, Limitations and Open Challenges in Automatic Readabi | Sowmya Vajjala et al. | LREC | 2022 | 2105.00973 | 69 |  |
+| Recent Advances in Named Entity Recognition: A Comprehensive | Imed Keraghel et al. | arXiv | 2024 | 2401.10825 | 65 |  |
+| Empathetic Conversational Systems: A Review of Current Advan | Aravind Sesagiri Raamkuma | IEEE Transactions on Affective Computing | 2022 | 2206.05017 | 62 |  |
 | Adversarial Attacks on Deep Learning Models in Natural Langu | Wei Emma Zhang et al. | ACM TIST | 2019 | 1901.06796 | 57 |  |
-| Leveraging Large Language Models for NLG Evaluation: Advance | Zhen Li et al. | EMNLP | 2024 | 2401.07103 | 48 |  |
-| A Survey of Multimodal Sarcasm Detection | Shafkat Farabi et al. | IJCAI | 2024 | 2410.18882 | 45 |  |
-| Recent Trends in Personalized Dialogue Generation: A Review  | Yi-Pei Chen et al. | LREC-COLING | 2024 | 2405.17974 | 45 |  |
+| Leveraging Large Language Models for NLG Evaluation: Advance | Zhen Li et al. | EMNLP | 2024 | 2401.07103 | 50 |  |
+| A Survey of Multimodal Sarcasm Detection | Shafkat Farabi et al. | IJCAI | 2024 | 2410.18882 | 46 |  |
+| Recent Trends in Personalized Dialogue Generation: A Review  | Yi-Pei Chen et al. | LREC-COLING | 2024 | 2405.17974 | 46 |  |
 | A Neural Entity Coreference Resolution Review | Nikolaos Stylianou et al. | Expert Systems with Applications | 2019 | 1910.09329 | 44 |  |
-| A Comprehensive Survey of Grammar Error Correction | Yu Wang et al. | arXiv | 2020 | 2005.06600 | 42 |  |
+| A Comprehensive Survey of Grammar Error Correction | Yu Wang et al. | arXiv | 2020 | 2005.06600 | 43 |  |
 | "Do you follow me?": A Survey of Recent Approaches in Dialog | Leo Jacqmin et al. | SIGDIAL | 2022 | 2207.14627 | 40 |  |
 | A Survey of Adversarial Defences and Robustness in NLP | Shreya Goyal et al. | ACM Computing Surveys | 2022 | 2203.06414 | 38 |  |
 | A Survey on Neural Network-Based Summarization Methods | Yue Dong et al. | arXiv | 2018 | 1804.04589 | 38 |  |
 | A Survey of Implicit Discourse Relation Recognition | Wei Xiang et al. | ACM Computing Surveys | 2022 | 2203.02982 | 36 |  |
 | A Survey on Text Simplification | Punardeep Sikka et al. | arXiv | 2020 | 2008.08612 | 32 |  |
 | A Survey on Neural Machine Reading Comprehension | Boyu Qiu et al. | arXiv | 2019 | 1906.03824 | 32 |  |
+| Generative Large Language Models in Automated Fact-Checking: | Ivan Vykopal et al. | arXiv | 2024 | 2407.02351 | 29 |  |
 | Deep Learning Approaches to Lexical Simplification: A Survey | Kai North et al. | arXiv | 2023 | 2305.12000 | 27 |  |
 | A Comprehensive Survey of Sentence Representations: From the | Abhinav Ramesh Kashyap et | EACL | 2024 | 2305.12641 | 26 |  |
-| Generative Large Language Models in Automated Fact-Checking: | Ivan Vykopal et al. | arXiv | 2024 | 2407.02351 | 26 |  |
 | Adversarial Attacks and Defense on Texts: A Survey | Aminul Huq et al. | arXiv | 2020 | 2005.14108 | 26 |  |
 | A Survey on Neural Question Generation: Methods, Application | Shasha Guo et al. | IJCAI | 2024 | 2402.18267 | 24 |  |
 | Keyphrase Generation: A Multi-Aspect Survey | Erion Cano et al. | FRUCT | 2019 | 1910.05059 | 24 |  |
+| A Survey of Stance Detection on Social Media: New Directions | Bowen Zhang et al. | arXiv | 2024 | 2409.15690 | 21 |  |
 | Coreference Resolution for the Biomedical Domain: A Survey | Pengcheng Lu et al. | arXiv | 2021 | 2109.12424 | 21 |  |
-| A Survey of Stance Detection on Social Media: New Directions | Bowen Zhang et al. | arXiv | 2024 | 2409.15690 | 20 |  |
-| Large Language Models in Argument Mining: A Survey | Hao Li et al. | arXiv | 2025 | 2506.16383 | 18 |  |
+| Large Language Models in Argument Mining: A Survey | Hao Li et al. | arXiv | 2025 | 2506.16383 | 19 |  |
 | A Survey on Lexical Ambiguity Detection and Word Sense Disam | Miuru Abeysiriwardana et  | arXiv | 2024 | 2403.16129 | 14 |  |
 | Innovations in Neural Data-to-text Generation: A Survey | Mandar Sharma et al. | arXiv | 2022 | 2207.12571 | 13 |  |
 | A Survey of the Usages of Deep Learning in Natural Language  | Daniel W. Otter et al. | IEEE TNNLS | 2021 | 1807.10854 | 12 |  |
@@ -462,201 +462,237 @@
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| wav2vec 2.0: A Framework for Self-Supervised Learning of Spe | Alexei Baevski et al. | NeurIPS | 2020 | 2006.11477 | 9329 |  |
-| Supervised Speech Separation Based on Deep Learning: An Over | DeLiang Wang et al. | IEEE/ACM TASLP | 2018 | 1708.07524 | 1630 |  |
-| Self-Supervised Speech Representation Learning: A Review | Abdelrahman Mohamed et al | IEEE JSTSP | 2022 | 2205.10643 | 530 |  |
-| A Survey on Neural Speech Synthesis | Xu Tan et al. | arXiv | 2021 | 2106.15561 | 502 |  |
-| A Review of Speaker Diarization: Recent Advances with Deep L | Tae Jin Park et al. | Computer Speech & Language | 2021 | 2101.09624 | 457 |  |
-| A Review of Deep Learning Techniques for Speech Processing | Ambuj Mehrish et al. | Information Fusion | 2023 | 2305.00359 | 374 |  |
-| End-to-End Speech Recognition: A Survey | Rohit Prabhavalkar et al. | IEEE/ACM TASLP | 2023 | 2303.03329 | 331 |  |
-| Recent Advances in Speech Language Models: A Survey | Wenqian Cui et al. | ACL | 2025 | 2410.03751 | 140 | dreamtheater123/Awesome-SpeechLM-Survey |
-| A Tutorial on Deep Learning for Music Information Retrieval | Keunwoo Choi et al. | arXiv | 2017 | 1709.04396 | 105 |  |
-| Towards Controllable Speech Synthesis in the Era of Large La | Tianxin Xie et al. | EMNLP | 2025 | 2412.06602 | 55 | imxtx/awesome-controllable-speech-synthesis |
-| Direct Speech-to-Speech Neural Machine Translation: A Survey | Mahendra Gupta et al. | arXiv | 2024 | 2411.14453 | 9 |  |
-| Audio-Language Models for Audio-Centric Tasks: A Systematic  | Yi Su et al. | arXiv | 2025 | 2501.15177 |  |  |
-| Generative Adversarial Network based Voice Conversion: Techn | Sandipan Dhar et al. | arXiv | 2025 | 2504.19197 |  |  |
-| Advances in Small-Footprint Keyword Spotting: A Comprehensiv | Soumen Garai et al. | arXiv | 2025 | 2506.11169 |  |  |
-| Emotion Recognition and Generation: A Comprehensive Review o | Rebecca Mobbs et al. | arXiv | 2025 | 2502.06803 |  |  |
-| A Survey on Speech Large Language Models for Understanding | Jing Peng et al. | arXiv | 2024 | 2410.18908 |  |  |
-| WavChat: A Survey of Spoken Dialogue Models | Shengpeng Ji et al. | arXiv | 2024 | 2411.13577 |  | jishengpeng/WavChat |
-| Reimagining Speech: A Scoping Review of Deep Learning-Powere | Anders R. Bargum et al. | arXiv | 2023 | 2311.08104 |  |  |
-| A Comprehensive Survey on Multi-modal Conversational Emotion | Yuntao Shou et al. | arXiv | 2023 | 2312.05735 |  |  |
-| A Survey of Multilingual Models for Automatic Speech Recogni | Hemant Yadav et al. | LREC | 2022 | 2202.12576 |  |  |
-| A Survey on Spoken Language Understanding: Recent Advances a | Libo Qin et al. | IJCAI | 2021 | 2103.03095 |  |  |
-| Sound Event Detection: A Tutorial | Annamaria Mesaros et al. | IEEE Signal Processing Magazine | 2021 | 2107.05463 |  |  |
-| An Overview of Voice Conversion and its Challenges: From Sta | Berrak Sisman et al. | IEEE/ACM TASLP | 2020 | 2008.03648 |  |  |
+| wav2vec 2.0: A Framework for Self-Supervised Learning of Spe | Alexei Baevski et al. | NeurIPS | 2020 | 2006.11477 | 9415 |  |
+| Supervised Speech Separation Based on Deep Learning: An Over | DeLiang Wang et al. | IEEE/ACM TASLP | 2018 | 1708.07524 | 1635 |  |
+| Self-Supervised Speech Representation Learning: A Review | Abdelrahman Mohamed et al | IEEE JSTSP | 2022 | 2205.10643 | 531 |  |
+| A Survey on Neural Speech Synthesis | Xu Tan et al. | arXiv | 2021 | 2106.15561 | 506 |  |
+| A Review of Speaker Diarization: Recent Advances with Deep L | Tae Jin Park et al. | Computer Speech & Language | 2021 | 2101.09624 | 461 |  |
+| An Overview of Voice Conversion and its Challenges: From Sta | Berrak Sisman et al. | IEEE/ACM TASLP | 2020 | 2008.03648 | 439 |  |
+| A Review of Deep Learning Techniques for Speech Processing | Ambuj Mehrish et al. | Information Fusion | 2023 | 2305.00359 | 379 |  |
+| End-to-End Speech Recognition: A Survey | Rohit Prabhavalkar et al. | IEEE/ACM TASLP | 2023 | 2303.03329 | 338 |  |
+| Sound Event Detection: A Tutorial | Annamaria Mesaros et al. | IEEE Signal Processing Magazine | 2021 | 2107.05463 | 293 |  |
+| Recent Advances in Speech Language Models: A Survey | Wenqian Cui et al. | ACL | 2025 | 2410.03751 | 142 | dreamtheater123/Awesome-SpeechLM-Survey |
+| A Survey on Spoken Language Understanding: Recent Advances a | Libo Qin et al. | IJCAI | 2021 | 2103.03095 | 126 |  |
+| WavChat: A Survey of Spoken Dialogue Models | Shengpeng Ji et al. | arXiv | 2024 | 2411.13577 | 121 | jishengpeng/WavChat |
+| A Survey on Speech Large Language Models for Understanding | Jing Peng et al. | arXiv | 2024 | 2410.18908 | 116 |  |
+| A Tutorial on Deep Learning for Music Information Retrieval | Keunwoo Choi et al. | arXiv | 2017 | 1709.04396 | 106 |  |
+| A Comprehensive Survey on Multi-modal Conversational Emotion | Yuntao Shou et al. | arXiv | 2023 | 2312.05735 | 65 |  |
+| A Survey of Multilingual Models for Automatic Speech Recogni | Hemant Yadav et al. | LREC | 2022 | 2202.12576 | 60 |  |
+| Towards Controllable Speech Synthesis in the Era of Large La | Tianxin Xie et al. | EMNLP | 2025 | 2412.06602 | 56 | imxtx/awesome-controllable-speech-synthesis |
+| Advances in Small-Footprint Keyword Spotting: A Comprehensiv | Soumen Garai et al. | arXiv | 2025 | 2506.11169 | 13 |  |
+| Emotion Recognition and Generation: A Comprehensive Review o | Rebecca Mobbs et al. | arXiv | 2025 | 2502.06803 | 12 |  |
+| Direct Speech-to-Speech Neural Machine Translation: A Survey | Mahendra Gupta et al. | arXiv | 2024 | 2411.14453 | 10 |  |
+| Reimagining Speech: A Scoping Review of Deep Learning-Powere | Anders R. Bargum et al. | arXiv | 2023 | 2311.08104 | 9 |  |
+| Generative Adversarial Network based Voice Conversion: Techn | Sandipan Dhar et al. | arXiv | 2025 | 2504.19197 | 7 |  |
+| Audio-Language Models for Audio-Centric Tasks: A Systematic  | Yi Su et al. | arXiv | 2025 | 2501.15177 | 2 |  |
 | Speech Recognition Using Deep Neural Networks: A Systematic  | Ali Bou Nassif et al. | IEEE Access | 2019 |  |  |  |
 
 ### 👁️ コンピュータビジョン (CV)
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Survey on Deep Learning in Medical Image Analysis | Geert Litjens et al. | Medical Image Analysis | 2017 | 1702.05747 | 14510 |  |
-| A Survey of Convolutional Neural Networks: Analysis, Applica | Zewen Li et al. | TNNLS | 2022 | 2004.02806 | 4487 |  |
-| A Survey on Vision Transformer | Kai Han et al. | TPAMI | 2023 | 2012.12556 | 3929 |  |
-| Image Segmentation Using Deep Learning: A Survey | Shervin Minaee et al. | TPAMI | 2022 | 2001.05566 | 3922 |  |
-| Generative Adversarial Networks: An Overview | Antonia Creswell et al. | IEEE Signal Processing Magazine | 2018 | 1710.07035 | 3879 |  |
-| Transformers in Vision: A Survey | Salman Khan et al. | CSUR | 2022 | 2101.01169 | 3855 |  |
-| Object Detection in 20 Years: A Survey | Zhengxia Zou et al. | Proceedings of the IEEE | 2023 | 1905.05055 | 3649 |  |
-| Deep Learning for Generic Object Detection: A Survey | Li Liu et al. | IJCV | 2020 | 1809.02165 | 2883 |  |
-| Deep Visual Domain Adaptation: A Survey | Mei Wang et al. | Neurocomputing | 2018 | 1802.03601 | 2386 |  |
-| Deep Learning for 3D Point Clouds: A Survey | Yulan Guo et al. | TPAMI | 2021 | 1912.12033 | 2380 |  |
-| Diffusion Models in Vision: A Survey | Florinel-Alin Croitoru et | TPAMI | 2023 | 2209.04747 | 2343 | CroitoruAlin/Diffusion-Models-in-Vision-A-Survey |
-| Deep Learning for Person Re-identification: A Survey and Out | Mang Ye et al. | TPAMI | 2022 | 2001.04193 | 2280 |  |
-| Generalizing from a Few Examples: A Survey on Few-Shot Learn | Yaqing Wang et al. | CSUR | 2020 | 1904.05046 | 2202 |  |
-| Threat of Adversarial Attacks on Deep Learning in Computer V | Naveed Akhtar et al. | IEEE Access | 2018 | 1801.00553 | 2095 |  |
-| Self-supervised Visual Feature Learning with Deep Neural Net | Longlong Jing et al. | IEEE TPAMI | 2021 | 1902.06162 | 2080 |  |
-| Deep Learning in Remote Sensing: A Review | Xiao Xiang Zhu et al. | IEEE GRSM | 2017 | 1710.03959 | 1967 |  |
-| Zero-Shot Learning -- A Comprehensive Evaluation of the Good | Yongqin Xian et al. | TPAMI | 2019 | 1707.00600 | 1899 |  |
-| Deep Learning for Image Super-resolution: A Survey | Zhihao Wang et al. | TPAMI | 2021 | 1902.06068 | 1868 |  |
-| A Survey on Contrastive Self-supervised Learning | Ashish Jaiswal et al. | Technologies | 2021 | 2011.00362 | 1818 |  |
-| Vision-Language Models for Vision Tasks: A Survey | Jingyi Zhang et al. | TPAMI | 2024 | 2304.00685 | 1635 | jingyi0000/VLM_survey |
-| Deep Learning for Anomaly Detection: A Review | Guansong Pang et al. | CSUR | 2021 | 2007.02500 | 1488 |  |
-| Deep Face Recognition: A Survey | Mei Wang et al. | Neurocomputing | 2021 | 1804.06655 | 1479 |  |
-| A Review on Deep Learning Techniques Applied to Semantic Seg | Alberto Garcia-Garcia et  | arXiv | 2017 | 1704.06857 | 1405 |  |
-| Transformers in Medical Imaging: A Survey | Fahad Shamshad et al. | Medical Image Analysis | 2023 | 2201.09873 | 1305 |  |
-| A Survey of Deep Learning-based Object Detection | Licheng Jiao et al. | IEEE Access | 2019 | 1907.09408 | 1166 |  |
-| Deep Learning-Based Human Pose Estimation: A Survey | Ce Zheng et al. | CSUR | 2023 | 2012.13392 | 1036 |  |
+| A Survey on Deep Learning in Medical Image Analysis | Geert Litjens et al. | Medical Image Analysis | 2017 | 1702.05747 | 14571 |  |
+| A Survey of Convolutional Neural Networks: Analysis, Applica | Zewen Li et al. | TNNLS | 2022 | 2004.02806 | 4506 |  |
+| A Survey on Vision Transformer | Kai Han et al. | TPAMI | 2023 | 2012.12556 | 3951 |  |
+| Image Segmentation Using Deep Learning: A Survey | Shervin Minaee et al. | TPAMI | 2022 | 2001.05566 | 3935 |  |
+| Generative Adversarial Networks: An Overview | Antonia Creswell et al. | IEEE Signal Processing Magazine | 2018 | 1710.07035 | 3887 |  |
+| Transformers in Vision: A Survey | Salman Khan et al. | CSUR | 2022 | 2101.01169 | 3879 |  |
+| Object Detection in 20 Years: A Survey | Zhengxia Zou et al. | Proceedings of the IEEE | 2023 | 1905.05055 | 3673 |  |
+| Deep Learning for Generic Object Detection: A Survey | Li Liu et al. | IJCV | 2020 | 1809.02165 | 2887 |  |
+| Deep Visual Domain Adaptation: A Survey | Mei Wang et al. | Neurocomputing | 2018 | 1802.03601 | 2393 |  |
+| Deep Learning for 3D Point Clouds: A Survey | Yulan Guo et al. | TPAMI | 2021 | 1912.12033 | 2390 |  |
+| Diffusion Models in Vision: A Survey | Florinel-Alin Croitoru et | TPAMI | 2023 | 2209.04747 | 2359 | CroitoruAlin/Diffusion-Models-in-Vision-A-Survey |
+| Deep Learning for Person Re-identification: A Survey and Out | Mang Ye et al. | TPAMI | 2022 | 2001.04193 | 2293 |  |
+| Generalizing from a Few Examples: A Survey on Few-Shot Learn | Yaqing Wang et al. | CSUR | 2020 | 1904.05046 | 2203 |  |
+| Threat of Adversarial Attacks on Deep Learning in Computer V | Naveed Akhtar et al. | IEEE Access | 2018 | 1801.00553 | 2097 |  |
+| Self-supervised Visual Feature Learning with Deep Neural Net | Longlong Jing et al. | IEEE TPAMI | 2021 | 1902.06162 | 2083 |  |
+| Deep Learning in Remote Sensing: A Review | Xiao Xiang Zhu et al. | IEEE GRSM | 2017 | 1710.03959 | 1975 |  |
+| Zero-Shot Learning -- A Comprehensive Evaluation of the Good | Yongqin Xian et al. | TPAMI | 2019 | 1707.00600 | 1900 |  |
+| Deep Learning for Image Super-resolution: A Survey | Zhihao Wang et al. | TPAMI | 2021 | 1902.06068 | 1874 |  |
+| A Survey on Contrastive Self-supervised Learning | Ashish Jaiswal et al. | Technologies | 2021 | 2011.00362 | 1820 |  |
+| Deep Facial Expression Recognition: A Survey | Shan Li et al. | IEEE Trans. Affective Computing | 2018 | 1804.08348 | 1778 |  |
+| Vision-Language Models for Vision Tasks: A Survey | Jingyi Zhang et al. | TPAMI | 2024 | 2304.00685 | 1654 | jingyi0000/VLM_survey |
+| Deep Learning for Anomaly Detection: A Review | Guansong Pang et al. | CSUR | 2021 | 2007.02500 | 1501 |  |
+| Deep Face Recognition: A Survey | Mei Wang et al. | Neurocomputing | 2021 | 1804.06655 | 1480 |  |
+| A Review on Deep Learning Techniques Applied to Semantic Seg | Alberto Garcia-Garcia et  | arXiv | 2017 | 1704.06857 | 1404 |  |
+| Transformers in Medical Imaging: A Survey | Fahad Shamshad et al. | Medical Image Analysis | 2023 | 2201.09873 | 1320 |  |
+| A Survey of Deep Learning-based Object Detection | Licheng Jiao et al. | IEEE Access | 2019 | 1907.09408 | 1170 |  |
+| Deep Learning-Based Human Pose Estimation: A Survey | Ce Zheng et al. | CSUR | 2023 | 2012.13392 | 1044 |  |
 | A Survey of Modern Deep Learning based Object Detection Mode | Syed Sahil Abbas Zaidi et | Digital Signal Processing | 2022 | 2104.11892 | 943 |  |
-| A Comprehensive Survey of Deep Learning for Image Captioning | MD Zakir Hossain et al. | CSUR | 2019 | 1810.04020 | 909 |  |
-| Neural Style Transfer: A Review | Yongcheng Jing et al. | TVCG | 2017 | 1705.04058 | 891 |  |
-| Human Action Recognition from Various Data Modalities: A Rev | Zehua Sun et al. | TPAMI | 2023 | 2012.11866 | 841 |  |
+| A Comprehensive Survey of Deep Learning for Image Captioning | MD Zakir Hossain et al. | CSUR | 2019 | 1810.04020 | 908 |  |
+| Neural Style Transfer: A Review | Yongcheng Jing et al. | TVCG | 2017 | 1705.04058 | 894 |  |
+| Human Action Recognition from Various Data Modalities: A Rev | Zehua Sun et al. | TPAMI | 2023 | 2012.11866 | 844 |  |
 | Salient Object Detection in the Deep Learning Era: An In-Dep | Wenguan Wang et al. | TPAMI | 2022 | 1904.09146 | 764 |  |
+| GAN Inversion: A Survey | Weihao Xia et al. | TPAMI | 2022 | 2101.05278 | 651 | weihaox/GAN-Inversion |
 | Going Deeper into Action Recognition: A Survey | Samitha Herath et al. | Image and Vision Computing | 2017 | 1605.04988 | 651 |  |
-| GAN Inversion: A Survey | Weihao Xia et al. | TPAMI | 2022 | 2101.05278 | 650 | weihaox/GAN-Inversion |
-| A Survey on Self-supervised Learning: Algorithms, Applicatio | Jie Gui et al. | TPAMI | 2024 | 2301.05712 | 622 |  |
-| A Survey of Visual Transformers | Yang Liu et al. | TNNLS | 2023 | 2111.06091 | 568 |  |
-| Domain Adaptation for Visual Applications: A Comprehensive S | Gabriela Csurka | Springer (book chapter) | 2017 | 1702.05374 | 556 |  |
-| Scene Text Detection and Recognition: The Deep Learning Era | Shangbang Long et al. | IJCV | 2021 | 1811.04256 | 515 |  |
-| 3D Object Detection for Autonomous Driving: A Comprehensive  | Jiageng Mao et al. | IJCV | 2023 | 2206.09474 | 498 | PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving |
-| Fine-Grained Image Analysis with Deep Learning: A Survey | Xiu-Shen Wei et al. | TPAMI | 2021 | 2111.06119 | 477 |  |
-| Text-to-image Diffusion Models in Generative AI: A Survey | Chenshuang Zhang et al. | arXiv | 2023 | 2303.07909 | 455 |  |
-| Class-Incremental Learning: A Survey | Da-Wei Zhou et al. | TPAMI | 2023 | 2302.03648 | 426 |  |
-| Deep Image Deblurring: A Survey | Kaihao Zhang et al. | IJCV | 2022 | 2201.10700 | 411 |  |
+| A Survey on Self-supervised Learning: Algorithms, Applicatio | Jie Gui et al. | TPAMI | 2024 | 2301.05712 | 632 |  |
+| Low-Light Image and Video Enhancement Using Deep Learning: A | Chongyi Li et al. | TPAMI | 2021 | 2104.10729 | 609 | ShenZheng2000/LLIE_Survey |
+| A Survey of Visual Transformers | Yang Liu et al. | TNNLS | 2023 | 2111.06091 | 570 |  |
+| Advances in Neural Rendering | Ayush Tewari et al. | Computer Graphics Forum | 2021 | 2111.05849 | 566 |  |
+| Domain Adaptation for Visual Applications: A Comprehensive S | Gabriela Csurka | Springer (book chapter) | 2017 | 1702.05374 | 557 |  |
+| Scene Text Detection and Recognition: The Deep Learning Era | Shangbang Long et al. | IJCV | 2021 | 1811.04256 | 519 |  |
+| 3D Object Detection for Autonomous Driving: A Comprehensive  | Jiageng Mao et al. | IJCV | 2023 | 2206.09474 | 501 | PointsCoder/Awesome-3D-Object-Detection-for-Autonomous-Driving |
+| Fine-Grained Image Analysis with Deep Learning: A Survey | Xiu-Shen Wei et al. | TPAMI | 2021 | 2111.06119 | 483 |  |
+| Text-to-image Diffusion Models in Generative AI: A Survey | Chenshuang Zhang et al. | arXiv | 2023 | 2303.07909 | 456 |  |
+| Class-Incremental Learning: A Survey | Da-Wei Zhou et al. | TPAMI | 2023 | 2302.03648 | 433 |  |
+| Deep Image Deblurring: A Survey | Kaihao Zhang et al. | IJCV | 2022 | 2201.10700 | 412 |  |
+| A Survey on 3D Gaussian Splatting | Guikun Chen et al. | TPAMI | 2024 | 2401.03890 | 379 | guikunchen/Awesome3DGS |
 | Deep Learning for Visual Tracking: A Comprehensive Survey | Seyed Mojtaba Marvasti-Za | IEEE T-ITS | 2022 | 1912.00535 | 372 |  |
-| Transformer-Based Visual Segmentation: A Survey | Xiangtai Li et al. | TPAMI | 2024 | 2304.09854 | 340 | lxtGH/Awesome-Segmentation-With-Transformer |
+| Transformer-Based Visual Segmentation: A Survey | Xiangtai Li et al. | TPAMI | 2024 | 2304.09854 | 341 | lxtGH/Awesome-Segmentation-With-Transformer |
+| NeRF: Neural Radiance Field in 3D Vision: A Comprehensive Re | Kyle Gao et al. | arXiv | 2022 | 2210.00379 | 317 |  |
 | A Survey on Deep Learning Technique for Video Segmentation | Wenguan Wang et al. | TPAMI | 2023 | 2107.01153 | 314 | tfzhou/VS-Survey |
-| NeRF: Neural Radiance Field in 3D Vision: A Comprehensive Re | Kyle Gao et al. | arXiv | 2022 | 2210.00379 | 314 |  |
-| RGB-D Salient Object Detection: A Survey | Tao Zhou et al. | Computational Visual Media | 2020 | 2008.00230 | 313 | taozh2017/RGBD-SODsurvey |
-| Monocular Depth Estimation Based On Deep Learning: An Overvi | Chaoqiang Zhao et al. | Science China Technological Sciences | 2020 | 2003.06620 | 301 |  |
-| Towards Open Vocabulary Learning: A Survey | Jianzong Wu et al. | TPAMI | 2023 | 2306.15880 | 281 | jianzongwu/Awesome-Open-Vocabulary |
-| A Survey on Long-Tailed Visual Recognition | Lu Yang et al. | IJCV | 2022 | 2205.13775 | 210 |  |
+| RGB-D Salient Object Detection: A Survey | Tao Zhou et al. | Computational Visual Media | 2020 | 2008.00230 | 314 | taozh2017/RGBD-SODsurvey |
+| Monocular Depth Estimation Based On Deep Learning: An Overvi | Chaoqiang Zhao et al. | Science China Technological Sciences | 2020 | 2003.06620 | 302 |  |
+| Deep Gait Recognition: A Survey | Alireza Sepas-Moghaddam e | TPAMI | 2021 | 2102.09546 | 291 |  |
+| Towards Open Vocabulary Learning: A Survey | Jianzong Wu et al. | TPAMI | 2023 | 2306.15880 | 283 | jianzongwu/Awesome-Open-Vocabulary |
+| Appearance-based Gaze Estimation With Deep Learning: A Revie | Yihua Cheng et al. | TPAMI | 2021 | 2104.12668 | 275 |  |
+| Video Super Resolution Based on Deep Learning: A Comprehensi | Hongying Liu et al. | Artificial Intelligence Review | 2020 | 2007.12928 | 234 |  |
+| Multimodal Alignment and Fusion: A Survey | Songtao Li et al. | arXiv | 2024 | 2411.17040 | 212 |  |
+| A Survey on Long-Tailed Visual Recognition | Lu Yang et al. | IJCV | 2022 | 2205.13775 | 211 |  |
 | Comprehensive Review of Deep Learning-Based 3D Point Cloud C | Ben Fei et al. | IEEE T-ITS | 2022 | 2203.03311 | 207 |  |
-| Multimodal Alignment and Fusion: A Survey | Songtao Li et al. | arXiv | 2024 | 2411.17040 | 206 |  |
+| Scene Graph Generation: A Comprehensive Survey | Guangming Zhu et al. | Neurocomputing | 2022 | 2201.00443 | 183 |  |
 | Video Transformers: A Survey | Javier Selva et al. | TPAMI | 2023 | 2201.05991 | 181 |  |
-| 3D Gaussian Splatting: Survey, Technologies, Challenges, and | Yanqi Bao et al. | arXiv | 2024 | 2407.17418 | 170 | qqqqqqy0227/awesome-3DGS |
-| A Comprehensive Survey on Segment Anything Model for Vision  | Chunhui Zhang et al. | arXiv | 2023 | 2305.08196 | 152 |  |
-| Deepfake Detection: A Comprehensive Survey from the Reliabil | Tianyi Wang et al. | ACM Computing Surveys | 2022 | 2211.10881 | 151 |  |
+| 3D Gaussian Splatting: Survey, Technologies, Challenges, and | Yanqi Bao et al. | arXiv | 2024 | 2407.17418 | 177 | qqqqqqy0227/awesome-3DGS |
+| Diffusion Models, Image Super-Resolution And Everything: A S | Brian B. Moser et al. | TNNLS | 2024 | 2401.00736 | 170 |  |
+| Deep Learning for Micro-expression Recognition: A Survey | Yante Li et al. | IEEE Trans. Affective Computing | 2021 | 2107.02823 | 157 |  |
+| Deepfake Detection: A Comprehensive Survey from the Reliabil | Tianyi Wang et al. | ACM Computing Surveys | 2022 | 2211.10881 | 154 |  |
+| A Comprehensive Survey on Segment Anything Model for Vision  | Chunhui Zhang et al. | arXiv | 2023 | 2305.08196 | 153 |  |
+| Deepfake Generation and Detection: A Benchmark and Survey | Gan Pei et al. | arXiv | 2024 | 2403.17881 | 152 |  |
 | Deep Learning for Event-based Vision: A Comprehensive Survey | Xu Zheng et al. | arXiv | 2023 | 2302.08890 | 149 |  |
-| Deepfake Generation and Detection: A Benchmark and Survey | Gan Pei et al. | arXiv | 2024 | 2403.17881 | 147 |  |
-| Few-Shot Object Detection: A Comprehensive Survey | Mona Köhler et al. | TNNLS | 2023 | 2112.11699 | 133 |  |
-| A Survey on Open-Vocabulary Detection and Segmentation: Past | Chaoyang Zhu et al. | TPAMI | 2023 | 2307.09220 | 118 |  |
-| Local Feature Matching Using Deep Learning: A Survey | Shibiao Xu et al. | Information Fusion | 2024 | 2401.17592 | 116 | vignywang/Awesome-Local-Feature-Matching |
+| Few-Shot Object Detection: A Comprehensive Survey | Mona Köhler et al. | TNNLS | 2023 | 2112.11699 | 134 |  |
+| A Survey on Open-Vocabulary Detection and Segmentation: Past | Chaoyang Zhu et al. | TPAMI | 2023 | 2307.09220 | 119 |  |
+| Local Feature Matching Using Deep Learning: A Survey | Shibiao Xu et al. | Information Fusion | 2024 | 2401.17592 | 117 | vignywang/Awesome-Local-Feature-Matching |
+| A Comprehensive Survey and Taxonomy on Single Image Dehazing | Jie Gui et al. | ACM Computing Surveys | 2021 | 2106.03323 | 117 |  |
 | Image Colorization: A Survey and Dataset | Saeed Anwar et al. | Information Fusion | 2020 | 2008.10774 | 114 |  |
-| 2D Human Pose Estimation: A Survey | Haoming Chen et al. | arXiv | 2022 | 2204.07370 | 110 |  |
+| 2D Human Pose Estimation: A Survey | Haoming Chen et al. | arXiv | 2022 | 2204.07370 | 111 |  |
 | Face Generation and Editing with StyleGAN: A Survey | Andrew Melnik et al. | TPAMI | 2022 | 2212.09102 | 108 |  |
-| Deep Learning-based Image and Video Inpainting: A Survey | Weize Quan et al. | IJCV | 2024 | 2401.03395 | 104 |  |
+| Deep Learning-based Image and Video Inpainting: A Survey | Weize Quan et al. | IJCV | 2024 | 2401.03395 | 105 |  |
 | Deep Learning for Visual Localization and Mapping: A Survey | Changhao Chen et al. | arXiv | 2023 | 2308.14039 | 99 |  |
-| A Survey of Deep Learning Approaches for OCR and Document Un | Nishant Subramani et al. | arXiv | 2020 | 2011.13534 | 91 |  |
-| Deep Learning-Based Object Pose Estimation: A Comprehensive  | Jian Liu et al. | IJCV | 2024 | 2405.07801 | 82 |  |
-| A Survey on Deep Stereo Matching in the Twenties | Fabio Tosi et al. | IJCV | 2024 | 2407.07816 | 81 |  |
+| A Survey of Deep Learning Approaches for OCR and Document Un | Nishant Subramani et al. | arXiv | 2020 | 2011.13534 | 93 |  |
+| Deep Learning-Based Object Pose Estimation: A Comprehensive  | Jian Liu et al. | IJCV | 2024 | 2405.07801 | 86 |  |
+| A Survey on Deep Stereo Matching in the Twenties | Fabio Tosi et al. | IJCV | 2024 | 2407.07816 | 84 |  |
+| Video Anomaly Detection in 10 Years: A Survey and Outlook | Moshira Abdalla et al. | arXiv | 2024 | 2405.19387 | 79 |  |
 | Transformers in 3D Point Clouds: A Survey | Dening Lu et al. | arXiv | 2022 | 2205.07417 | 79 |  |
-| Video Anomaly Detection in 10 Years: A Survey and Outlook | Moshira Abdalla et al. | arXiv | 2024 | 2405.19387 | 78 |  |
-| A Survey of Camouflaged Object Detection and Beyond | Fengyang Xiao et al. | arXiv | 2024 | 2408.14562 | 75 |  |
+| A Survey of Camouflaged Object Detection and Beyond | Fengyang Xiao et al. | arXiv | 2024 | 2408.14562 | 76 |  |
 | Neural Volume Rendering: NeRF And Beyond | Frank Dellaert et al. | arXiv | 2021 | 2101.05204 | 73 |  |
 | Towards Unified Deep Image Deraining: A Survey and A New Ben | Xiang Chen et al. | arXiv | 2023 | 2310.03535 | 71 |  |
-| 3D and 4D World Modeling: A Survey | Lingdong Kong et al. | arXiv | 2025 | 2509.07996 | 68 | worldbench/awesome-3d-4d-world-models |
+| 3D and 4D World Modeling: A Survey | Lingdong Kong et al. | arXiv | 2025 | 2509.07996 | 70 | worldbench/awesome-3d-4d-world-models |
+| Masked Image Modeling: A Survey | Vlad Hondru et al. | IJCV | 2025 | 2408.06687 | 57 |  |
 | A Survey of Label-Efficient Deep Learning for 3D Point Cloud | Aoran Xiao et al. | TPAMI | 2023 | 2305.19812 | 57 |  |
-| Masked Image Modeling: A Survey | Vlad Hondru et al. | IJCV | 2025 | 2408.06687 | 56 |  |
-| Panoptic Segmentation: A Review | Omar Elharrouss et al. | arXiv | 2021 | 2111.10250 | 51 |  |
-| Deep learning for 3D human pose estimation and mesh recovery | Yang Liu et al. | Neurocomputing | 2024 | 2402.18844 | 45 |  |
+| Panoptic Segmentation: A Review | Omar Elharrouss et al. | arXiv | 2021 | 2111.10250 | 52 |  |
+| Deep learning for 3D human pose estimation and mesh recovery | Yang Liu et al. | Neurocomputing | 2024 | 2402.18844 | 46 |  |
 | Learning-based Multi-View Stereo: A Survey | Fangjinhua Wang et al. | arXiv | 2024 | 2408.15235 | 44 |  |
 | Optical Flow Estimation in the Deep Learning Age | Junhwa Hur et al. | arXiv | 2020 | 2004.02853 | 42 |  |
 | Masked Modeling for Self-supervised Representation Learning  | Siyuan Li et al. | arXiv | 2024 | 2401.00897 | 37 | Lupin1998/Awesome-MIM |
+| A Survey on Deep Learning-based Single Image Crowd Counting: | Haoyue Bai et al. | Neurocomputing | 2020 | 2012.15685 | 34 |  |
 | Multimodal Referring Segmentation: A Survey | Henghui Ding et al. | arXiv | 2025 | 2508.00265 | 33 |  |
 | Efficient Annotation and Learning for 3D Hand Pose Estimatio | Takehiko Ohkawa et al. | IJCV | 2022 | 2206.02257 | 32 |  |
+| A Survey on 3D Gaussian Splatting Applications: Segmentation | Shuting He et al. | arXiv | 2025 | 2508.09977 | 29 | heshuting555/Awesome-3DGS-Applications |
 | CLIP-Powered Domain Generalization and Domain Adaptation: A  | Jindong Li et al. | arXiv preprint | 2025 | 2504.14280 | 28 | jindongli-Ai/Survey_on_CLIP-Powered_Domain_Generalization_and_Adaptation |
-| A Survey on 3D Gaussian Splatting Applications: Segmentation | Shuting He et al. | arXiv | 2025 | 2508.09977 | 27 | heshuting555/Awesome-3DGS-Applications |
 | Deep Image Matting: A Comprehensive Survey | Jizhizi Li et al. | arXiv | 2023 | 2304.04672 | 23 | JizhiziLi/matting-survey |
-| Deep Learning-Based Point Cloud Registration: A Comprehensiv | Yu-Xin Zhang et al. | IJCV | 2024 | 2404.13830 | 18 |  |
+| A Survey on Image Quality Assessment: Insights, Analysis, an | Chengqian Ma et al. | arXiv | 2025 | 2502.08540 | 21 |  |
+| Deep Learning-Based Point Cloud Registration: A Comprehensiv | Yu-Xin Zhang et al. | IJCV | 2024 | 2404.13830 | 20 |  |
+| Deep Learning-Based Multi-Object Tracking: A Comprehensive S | Momir Adžemović et al. | arXiv | 2025 | 2506.13457 | 14 |  |
 | A Survey on Deep Learning-based Spatio-temporal Action Detec | Peng Wang et al. | Int. J. Wavelets Multiresolut. Inf. Process. | 2023 | 2308.01618 | 13 |  |
+| A Review of Human-Object Interaction Detection | Yuxiao Wang et al. | arXiv | 2024 | 2408.10641 | 12 |  |
+| Deep Learning for Video-based Person Re-Identification: A Su | Khawar Islam et al. | arXiv | 2023 | 2303.11332 | 12 |  |
+| Priors in Deep Image Restoration and Enhancement: A Survey | Yunfan Lu et al. | arXiv | 2022 | 2206.02070 | 12 | yunfanLu/Awesome-Image-Prior |
 | From Pixels to Portraits: A Comprehensive Survey of Talking  | Shreyank N Gowda et al. | arXiv | 2023 | 2308.16041 | 11 |  |
-| Priors in Deep Image Restoration and Enhancement: A Survey | Yunfan Lu et al. | arXiv | 2022 | 2206.02070 | 10 | yunfanLu/Awesome-Image-Prior |
-| Deep Learning Techniques for Video Instance Segmentation: A  | Chenhao Xu et al. | arXiv | 2023 | 2310.12393 | 5 |  |
-| Deep Learning-Based Multi-Object Tracking: A Comprehensive S | Momir Adžemović et al. | arXiv | 2025 | 2506.13457 |  |  |
-| A Survey on Image Quality Assessment: Insights, Analysis, an | Chengqian Ma et al. | arXiv | 2025 | 2502.08540 |  |  |
-| Diffusion Models, Image Super-Resolution And Everything: A S | Brian B. Moser et al. | TNNLS | 2024 | 2401.00736 |  |  |
-| A Survey on 3D Gaussian Splatting | Guikun Chen et al. | TPAMI | 2024 | 2401.03890 |  | guikunchen/Awesome3DGS |
-| A Review of Human-Object Interaction Detection | Yuxiao Wang et al. | arXiv | 2024 | 2408.10641 |  |  |
-| Deep Learning for Video-based Person Re-Identification: A Su | Khawar Islam et al. | arXiv | 2023 | 2303.11332 |  |  |
-| Scene Graph Generation: A Comprehensive Survey | Guangming Zhu et al. | Neurocomputing | 2022 | 2201.00443 |  |  |
-| Advances in Neural Rendering | Ayush Tewari et al. | Computer Graphics Forum | 2021 | 2111.05849 |  |  |
-| Appearance-based Gaze Estimation With Deep Learning: A Revie | Yihua Cheng et al. | TPAMI | 2021 | 2104.12668 |  |  |
-| Deep Gait Recognition: A Survey | Alireza Sepas-Moghaddam e | TPAMI | 2021 | 2102.09546 |  |  |
-| Deep Learning for Micro-expression Recognition: A Survey | Yante Li et al. | IEEE Trans. Affective Computing | 2021 | 2107.02823 |  |  |
-| Low-Light Image and Video Enhancement Using Deep Learning: A | Chongyi Li et al. | TPAMI | 2021 | 2104.10729 |  | ShenZheng2000/LLIE_Survey |
-| A Comprehensive Survey and Taxonomy on Single Image Dehazing | Jie Gui et al. | ACM Computing Surveys | 2021 | 2106.03323 |  |  |
-| Video Super Resolution Based on Deep Learning: A Comprehensi | Hongying Liu et al. | Artificial Intelligence Review | 2020 | 2007.12928 |  |  |
-| A Survey on Deep Learning-based Single Image Crowd Counting: | Haoyue Bai et al. | Neurocomputing | 2020 | 2012.15685 |  |  |
-| Deep Facial Expression Recognition: A Survey | Shan Li et al. | IEEE Trans. Affective Computing | 2018 | 1804.08348 |  |  |
+| Deep Learning Techniques for Video Instance Segmentation: A  | Chenhao Xu et al. | arXiv | 2023 | 2310.12393 | 6 |  |
 
 ### 📈 機械学習 (一般)
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Representation Learning: A Review and New Perspectives | Yoshua Bengio et al. | IEEE TPAMI | 2013 | 1206.5538 | 14333 |  |
-| Bootstrap your own latent: A new approach to self-supervised | Jean-Bastien Grill et al. | NeurIPS | 2020 | 2006.07733 | 9095 |  |
-| Variational Inference: A Review for Statisticians | David M. Blei et al. | JASA | 2017 | 1601.00670 | 5952 |  |
-| Efficient Processing of Deep Neural Networks: A Tutorial and | Vivienne Sze et al. | Proceedings of the IEEE | 2017 | 1703.09039 | 3863 |  |
-| Self-supervised Learning: Generative or Contrastive | Xiao Liu et al. | IEEE TKDE | 2021 | 2006.08218 | 2250 |  |
-| A tutorial on conformal prediction | Glenn Shafer et al. | JMLR | 2008 | 0706.3188 | 1829 |  |
-| Deep Neural Networks and Tabular Data: A Survey | Vadim Borisov et al. | IEEE TNNLS | 2022 | 2110.01889 | 1349 |  |
-| A Gentle Introduction to Conformal Prediction and Distributi | Anastasios N. Angelopoulo | arXiv | 2021 | 2107.07511 | 1316 |  |
-| A Survey of Unsupervised Deep Domain Adaptation | Garrett Wilson et al. | ACM TIST | 2020 | 1812.02849 | 1075 |  |
-| A survey of sparse representation: algorithms and applicatio | Zheng Zhang et al. | IEEE Access | 2015 | 1602.07017 | 1070 |  |
-| Dynamic Neural Networks: A Survey | Yizeng Han et al. | TPAMI | 2022 | 2102.04906 | 989 |  |
-| Kernel Mean Embedding of Distributions: A Review and Beyond | Krikamol Muandet et al. | Foundations and Trends in ML | 2017 | 1605.09522 | 934 |  |
-| When Gaussian Process Meets Big Data: A Review of Scalable G | Haitao Liu et al. | IEEE TNNLS | 2018 | 1807.01065 | 907 |  |
-| Multiple Instance Learning: A Survey of Problem Characterist | Marc-Andre Carbonneau et  | Pattern Recognition | 2016 | 1612.03365 | 773 |  |
-| Learning from positive and unlabeled data: a survey | Jessa Bekker et al. | Machine Learning | 2020 | 1811.04820 | 741 |  |
+| Representation Learning: A Review and New Perspectives | Yoshua Bengio et al. | IEEE TPAMI | 2013 | 1206.5538 | 14366 |  |
+| Bootstrap your own latent: A new approach to self-supervised | Jean-Bastien Grill et al. | NeurIPS | 2020 | 2006.07733 | 9151 |  |
+| An overview of gradient descent optimization algorithms | Sebastian Ruder et al. | arXiv | 2016 | 1609.04747 | 7077 |  |
+| A Survey on Bias and Fairness in Machine Learning | Ninareh Mehrabi et al. | ACM Computing Surveys | 2021 | 1908.09635 | 6440 |  |
+| A Comprehensive Survey on Transfer Learning | Fuzhen Zhuang et al. | Proceedings of the IEEE | 2020 | 1911.02685 | 6179 |  |
+| Variational Inference: A Review for Statisticians | David M. Blei et al. | JASA | 2017 | 1601.00670 | 5978 |  |
+| Knowledge Distillation: A Survey | Jianping Gou et al. | IJCV | 2021 | 2006.05525 | 4689 |  |
+| Efficient Processing of Deep Neural Networks: A Tutorial and | Vivienne Sze et al. | Proceedings of the IEEE | 2017 | 1703.09039 | 3878 |  |
+| Continual Lifelong Learning with Neural Networks: A Review | German I. Parisi et al. | Neural Networks | 2019 | 1802.07569 | 3791 |  |
+| A Survey on Multi-Task Learning | Yu Zhang et al. | IEEE TKDE | 2021 | 1707.08114 | 3140 |  |
+| A Survey on Deep Transfer Learning | Chuanqi Tan et al. | ICANN | 2018 | 1808.01974 | 2973 |  |
+| A Review of Uncertainty Quantification in Deep Learning: Tec | Moloud Abdar et al. | Information Fusion | 2021 | 2011.06225 | 2870 |  |
+| Meta-Learning in Neural Networks: A Survey | Timothy Hospedales et al. | TPAMI | 2022 | 2004.05439 | 2817 |  |
+| Self-supervised Learning: Generative or Contrastive | Xiao Liu et al. | IEEE TKDE | 2021 | 2006.08218 | 2261 |  |
+| Ensemble deep learning: A review | M. A. Ganaie et al. | Engineering Applications of AI | 2022 | 2104.02395 | 2103 |  |
+| A Survey of Uncertainty in Deep Neural Networks | Jakob Gawlikowski et al. | Artificial Intelligence Review | 2021 | 2107.03342 | 2041 |  |
+| AutoML: A Survey of the State-of-the-Art | Xin He et al. | Knowledge-Based Systems | 2021 | 1908.00709 | 1901 |  |
+| A tutorial on conformal prediction | Glenn Shafer et al. | JMLR | 2008 | 0706.3188 | 1850 |  |
+| Domain Generalization: A Survey | Kaiyang Zhou et al. | TPAMI | 2022 | 2103.02503 | 1736 |  |
+| A Survey of Quantization Methods for Efficient Neural Networ | Amir Gholami et al. | arXiv | 2021 | 2103.13630 | 1733 |  |
+| A Comprehensive Survey of Continual Learning: Theory, Method | Liyuan Wang et al. | TPAMI | 2023 | 2302.00487 | 1650 |  |
+| Generalized Out-of-Distribution Detection: A Survey | Jingkang Yang et al. | IJCV | 2024 | 2110.11334 | 1557 | huytransformer/Awesome-Out-Of-Distribution-Detection |
+| Learning from Noisy Labels with Deep Neural Networks: A Surv | Hwanjun Song et al. | IEEE TNNLS | 2022 | 2007.08199 | 1502 |  |
+| Deep Neural Networks and Tabular Data: A Survey | Vadim Borisov et al. | IEEE TNNLS | 2022 | 2110.01889 | 1363 |  |
+| A Gentle Introduction to Conformal Prediction and Distributi | Anastasios N. Angelopoulo | arXiv | 2021 | 2107.07511 | 1340 |  |
+| What is the State of Neural Network Pruning? | Davis Blalock et al. | MLSys | 2020 | 2003.03033 | 1313 |  |
+| A Survey of Model Compression and Acceleration for Deep Neur | Yu Cheng et al. | IEEE Signal Processing Magazine | 2020 | 1710.09282 | 1276 |  |
+| A Survey of Unsupervised Deep Domain Adaptation | Garrett Wilson et al. | ACM TIST | 2020 | 1812.02849 | 1080 |  |
+| A survey of sparse representation: algorithms and applicatio | Zheng Zhang et al. | IEEE Access | 2015 | 1602.07017 | 1069 |  |
+| Dynamic Neural Networks: A Survey | Yizeng Han et al. | TPAMI | 2022 | 2102.04906 | 999 |  |
+| Hands-on Bayesian Neural Networks -- a Tutorial for Deep Lea | Laurent Valentin Jospin e | IEEE Computational Intelligence Magazine | 2022 | 2007.06823 | 959 |  |
+| Kernel Mean Embedding of Distributions: A Review and Beyond | Krikamol Muandet et al. | Foundations and Trends in ML | 2017 | 1605.09522 | 941 |  |
+| When Gaussian Process Meets Big Data: A Review of Scalable G | Haitao Liu et al. | IEEE TNNLS | 2018 | 1807.01065 | 914 |  |
+| Time Series Data Augmentation for Deep Learning: A Survey | Qingsong Wen et al. | IJCAI | 2021 | 2002.12478 | 884 |  |
+| A Brief Review of Domain Adaptation | Abolfazl Farahani et al. | arXiv | 2020 | 2010.03978 | 840 |  |
+| Multi-Task Learning with Deep Neural Networks: A Survey | Michael Crawshaw et al. | arXiv | 2020 | 2009.09796 | 832 |  |
+| Multiple Instance Learning: A Survey of Problem Characterist | Marc-Andre Carbonneau et  | Pattern Recognition | 2016 | 1612.03365 | 776 |  |
+| Learning from positive and unlabeled data: a survey | Jessa Bekker et al. | Machine Learning | 2020 | 1811.04820 | 745 |  |
 | A Survey on Metric Learning for Feature Vectors and Structur | Aurelien Bellet et al. | arXiv | 2013 | 1306.6709 | 719 |  |
+| Hyper-Parameter Optimization: A Review of Algorithms and App | Tong Yu et al. | arXiv | 2020 | 2003.05689 | 705 |  |
+| Efficient Deep Learning: A Survey on Making Deep Learning Mo | Gaurav Menghani et al. | ACM Computing Surveys | 2021 | 2106.08962 | 702 |  |
 | A Survey of Optimization Methods from a Machine Learning Per | Shiliang Sun et al. | IEEE Transactions on Cybernetics | 2020 | 1906.06821 | 688 |  |
-| Curriculum Learning: A Survey | Petru Soviany et al. | IJCV | 2022 | 2101.10382 | 619 |  |
+| Curriculum Learning: A Survey | Petru Soviany et al. | IJCV | 2022 | 2101.10382 | 622 |  |
+| Interpretable Deep Learning: Interpretation, Interpretabilit | Xuhong Li et al. | Knowledge and Information Systems | 2021 | 2103.10689 | 531 |  |
 | Recent Advances in Autoencoder-Based Representation Learning | Michael Tschannen et al. | NeurIPS Workshop | 2018 | 1812.05069 | 519 |  |
-| A Survey of Machine Unlearning | Thanh Tam Nguyen et al. | arXiv | 2022 | 2209.02299 | 481 | tamlhp/awesome-machine-unlearning |
-| Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, | Enneng Yang et al. | ACM Computing Surveys | 2024 | 2408.07666 | 307 | EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications |
-| Deep Clustering: A Comprehensive Survey | Yazhou Ren et al. | IEEE TNNLS | 2022 | 2210.04142 | 291 |  |
-| A Survey on Kolmogorov-Arnold Network | Shriyank Somvanshi et al. | arXiv | 2024 | 2411.06078 | 277 |  |
-| Empowering Edge Intelligence: A Comprehensive Survey on On-D | Xubin Wang et al. | arXiv preprint | 2025 | 2503.06027 | 268 |  |
+| A Survey of Machine Unlearning | Thanh Tam Nguyen et al. | arXiv | 2022 | 2209.02299 | 489 | tamlhp/awesome-machine-unlearning |
+| Self-Supervised Representation Learning: Introduction, Advan | Linus Ericsson et al. | IEEE Signal Processing Magazine | 2021 | 2110.09327 | 438 |  |
+| Image Data Augmentation for Deep Learning: A Survey | Suorong Yang et al. | arXiv | 2022 | 2204.08610 | 425 |  |
+| A Survey on Negative Transfer | Wen Zhang et al. | IEEE/CAA JAS | 2022 | 2009.00909 | 417 |  |
+| Model Complexity of Deep Learning: A Survey | Xia Hu et al. | Knowledge and Information Systems | 2021 | 2103.05127 | 413 |  |
+| Towards Causal Representation Learning | Bernhard Schölkopf et al. | Proceedings of the IEEE | 2021 | 2102.11107 | 366 |  |
+| Explainable Artificial Intelligence: a Systematic Review | Giulia Vilone et al. | arXiv | 2020 | 2006.00093 | 330 |  |
+| Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, | Enneng Yang et al. | ACM Computing Surveys | 2024 | 2408.07666 | 315 | EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications |
+| Deep Clustering: A Comprehensive Survey | Yazhou Ren et al. | IEEE TNNLS | 2022 | 2210.04142 | 294 |  |
+| A Survey on Kolmogorov-Arnold Network | Shriyank Somvanshi et al. | arXiv | 2024 | 2411.06078 | 281 |  |
+| Empowering Edge Intelligence: A Comprehensive Survey on On-D | Xubin Wang et al. | arXiv preprint | 2025 | 2503.06027 | 274 |  |
 | A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-D | Mohammadreza Salehi et al | TMLR | 2022 | 2110.14051 | 258 |  |
-| Large Language Models for Generative Recommendation: A Surve | Lei Li et al. | arXiv | 2023 | 2309.01157 | 184 |  |
-| Manifold learning: what, how, and why | Marina Meila et al. | Annual Review of Statistics | 2023 | 2311.03757 | 174 |  |
-| A Survey on Diffusion Models for Time Series and Spatio-Temp | Yiyuan Yang et al. | arXiv | 2024 | 2404.18886 | 140 | yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model |
+| Neural Architecture Search: Insights from 1000 Papers | Colin White et al. | arXiv | 2023 | 2301.08727 | 246 |  |
+| A survey on Semi-, Self- and Unsupervised Learning for Image | Lars Schmarje et al. | IEEE Access | 2021 | 2002.08721 | 193 |  |
+| Large Language Models for Generative Recommendation: A Surve | Lei Li et al. | arXiv | 2023 | 2309.01157 | 188 |  |
+| Manifold learning: what, how, and why | Marina Meila et al. | Annual Review of Statistics | 2023 | 2311.03757 | 175 |  |
+| A Survey on Diffusion Models for Time Series and Spatio-Temp | Yiyuan Yang et al. | arXiv | 2024 | 2404.18886 | 143 | yyysjz1997/Awesome-TimeSeries-SpatioTemporal-Diffusion-Model |
 | A Comprehensive Survey of Forgetting in Deep Learning Beyond | Zhenyi Wang et al. | IEEE TPAMI | 2024 | 2307.09218 | 139 | EnnengYang/Awesome-Forgetting-in-Deep-Learning |
-| Calibration in Deep Learning: A Survey of the State-of-the-A | Cheng Wang et al. | arXiv | 2023 | 2308.01222 | 117 |  |
-| A Survey on Programmatic Weak Supervision | Jieyu Zhang et al. | arXiv | 2022 | 2202.05433 | 117 |  |
-| A Comprehensive Survey on Knowledge Distillation | Amir M. Mansourian et al. | arXiv preprint | 2025 | 2503.12067 | 97 | IPL-sharif/KD_Survey |
+| Calibration in Deep Learning: A Survey of the State-of-the-A | Cheng Wang et al. | arXiv | 2023 | 2308.01222 | 118 |  |
+| A Survey on Programmatic Weak Supervision | Jieyu Zhang et al. | arXiv | 2022 | 2202.05433 | 118 |  |
+| A Comprehensive Survey on Knowledge Distillation | Amir M. Mansourian et al. | arXiv preprint | 2025 | 2503.12067 | 104 | IPL-sharif/KD_Survey |
 | Large Language Model Inference Acceleration: A Comprehensive | Jinhao Li et al. | arXiv preprint | 2024 | 2410.04466 | 93 | Kimho666/LLM_Hardware_Survey |
-| Conformal Prediction for Natural Language Processing: A Surv | Margarida M. Campos et al | TACL | 2024 | 2405.01976 | 78 |  |
-| Representation Learning for Tabular Data: A Comprehensive Su | Jun-Peng Jiang et al. | arXiv | 2025 | 2504.16109 | 74 | LAMDA-Tabular/Tabular-Survey |
-| A Survey of Methods for Addressing Class Imbalance in Deep-L | Sophie Henning et al. | EACL | 2023 | 2210.04675 | 66 |  |
-| Efficient Training of Large Language Models on Distributed I | Jiangfei Duan et al. | arXiv preprint | 2024 | 2407.20018 | 64 |  |
+| Conformal Prediction for Natural Language Processing: A Surv | Margarida M. Campos et al | TACL | 2024 | 2405.01976 | 80 |  |
+| Representation Learning for Tabular Data: A Comprehensive Su | Jun-Peng Jiang et al. | arXiv | 2025 | 2504.16109 | 75 | LAMDA-Tabular/Tabular-Survey |
+| A Survey of Methods for Addressing Class Imbalance in Deep-L | Sophie Henning et al. | EACL | 2023 | 2210.04675 | 69 |  |
+| Efficient Training of Large Language Models on Distributed I | Jiangfei Duan et al. | arXiv preprint | 2024 | 2407.20018 | 65 |  |
 | Reproducing Kernel Hilbert Space, Mercer's Theorem, Eigenfun | Benyamin Ghojogh et al. | arXiv | 2021 | 2106.08443 | 63 |  |
+| A Survey on Open Set Recognition | Atefeh Mahdavi et al. | arXiv | 2021 | 2109.00893 | 61 |  |
 | Supervised Dictionary Learning and Sparse Representation-A R | Mehrdad J. Gangeh et al. | arXiv | 2015 | 1502.05928 | 60 |  |
 | A Survey on Deep Tabular Learning | Shriyank Somvanshi et al. | arXiv | 2024 | 2410.12034 | 59 |  |
-| A Survey on Open Set Recognition | Atefeh Mahdavi et al. | arXiv | 2021 | 2109.00893 | 59 |  |
+| A survey and taxonomy of loss functions in machine learning | Lorenzo Ciampiconi et al. | arXiv | 2023 | 2301.05579 | 59 |  |
 | Graph Foundation Models: A Comprehensive Survey | Zehong Wang et al. | arXiv | 2025 | 2505.15116 | 58 |  |
 | Kolmogorov-Arnold Networks: A Critical Assessment of Claims, | Yuntian Hou et al. | arXiv | 2024 | 2407.11075 | 57 |  |
 | Deep Learning for Multi-Label Learning: A Comprehensive Surv | Adane Nega Tarekegn et al | arXiv | 2024 | 2401.16549 | 55 |  |
-| Foundation Models for Time Series: A Survey | Siva Rama Krishna Kottapa | arXiv | 2025 | 2504.04011 | 41 |  |
+| What-is and How-to for Fairness in Machine Learning: A Surve | Zeyu Tang et al. | ACM Computing Surveys | 2023 | 2206.04101 | 45 |  |
+| Foundation Models for Time Series: A Survey | Siva Rama Krishna Kottapa | arXiv | 2025 | 2504.04011 | 42 |  |
 | Cognitive Edge Computing: A Comprehensive Survey on Optimizi | Xubin Wang et al. | arXiv preprint | 2025 | 2501.03265 | 39 |  |
+| The Evolution of Dataset Distillation: Toward Scalable and G | Ping Liu et al. | arXiv preprint | 2025 | 2502.05673 | 31 |  |
+| A Survey of Generative Search and Recommendation in the Era  | Yongqi Li et al. | arXiv | 2024 | 2404.16924 | 31 |  |
 | Spectral, Probabilistic, and Deep Metric Learning: Tutorial  | Benyamin Ghojogh et al. | arXiv | 2022 | 2201.09267 | 31 |  |
-| The Evolution of Dataset Distillation: Toward Scalable and G | Ping Liu et al. | arXiv preprint | 2025 | 2502.05673 | 30 |  |
-| A Survey of Generative Search and Recommendation in the Era  | Yongqi Li et al. | arXiv | 2024 | 2404.16924 | 30 |  |
 | Information Compression in the AI Era: Recent Advances and F | Jun Chen et al. | arXiv | 2024 | 2406.10036 | 28 |  |
 | Deep Gaussian Processes: A Survey | Kalvik Jakkala et al. | arXiv | 2021 | 2106.12135 | 27 |  |
 | Hyperparameter Optimization in Machine Learning | Luca Franceschi et al. | arXiv preprint | 2024 | 2410.22854 | 25 |  |
-| Neural Tangent Kernel: A Survey | Eugene Golikov et al. | arXiv | 2022 | 2208.13614 | 24 |  |
+| Neural Tangent Kernel: A Survey | Eugene Golikov et al. | arXiv | 2022 | 2208.13614 | 25 |  |
 | Hardware Acceleration of LLMs: A comprehensive survey and co | Nikoletta Koilia et al. | arXiv preprint | 2024 | 2409.03384 | 22 |  |
 | Advancing Intelligent Sequence Modeling: Evolution, Trade-of | Shriyank Somvanshi et al. | arXiv | 2025 | 2503.18970 | 17 |  |
 | A Survey on Extreme Multi-label Learning | Tong Wei et al. | arXiv | 2022 | 2210.03968 | 16 |  |
@@ -667,101 +703,65 @@
 | Green AI: A systematic review and meta-analysis of its defin | Marcel Rojahn et al. | arXiv preprint | 2025 | 2511.07090 | 6 |  |
 | Onboard Optimization and Learning: A Survey | Monirul Islam Pavel et al | arXiv preprint | 2025 | 2505.08793 | 6 |  |
 | GR-LLMs: Recent Advances in Generative Recommendation Based  | Zhen Yang et al. | arXiv | 2025 | 2507.06507 | 4 |  |
-| Generalized Out-of-Distribution Detection: A Survey | Jingkang Yang et al. | IJCV | 2024 | 2110.11334 |  | huytransformer/Awesome-Out-Of-Distribution-Detection |
-| Neural Architecture Search: Insights from 1000 Papers | Colin White et al. | arXiv | 2023 | 2301.08727 |  |  |
-| A Comprehensive Survey of Continual Learning: Theory, Method | Liyuan Wang et al. | TPAMI | 2023 | 2302.00487 |  |  |
-| What-is and How-to for Fairness in Machine Learning: A Surve | Zeyu Tang et al. | ACM Computing Surveys | 2023 | 2206.04101 |  |  |
-| A survey and taxonomy of loss functions in machine learning | Lorenzo Ciampiconi et al. | arXiv | 2023 | 2301.05579 |  |  |
-| A Survey on Negative Transfer | Wen Zhang et al. | IEEE/CAA JAS | 2022 | 2009.00909 |  |  |
-| Meta-Learning in Neural Networks: A Survey | Timothy Hospedales et al. | TPAMI | 2022 | 2004.05439 |  |  |
-| Ensemble deep learning: A review | M. A. Ganaie et al. | Engineering Applications of AI | 2022 | 2104.02395 |  |  |
-| Hands-on Bayesian Neural Networks -- a Tutorial for Deep Lea | Laurent Valentin Jospin e | IEEE Computational Intelligence Magazine | 2022 | 2007.06823 |  |  |
-| Domain Generalization: A Survey | Kaiyang Zhou et al. | TPAMI | 2022 | 2103.02503 |  |  |
-| Image Data Augmentation for Deep Learning: A Survey | Suorong Yang et al. | arXiv | 2022 | 2204.08610 |  |  |
-| Learning from Noisy Labels with Deep Neural Networks: A Surv | Hwanjun Song et al. | IEEE TNNLS | 2022 | 2007.08199 |  |  |
-| A Survey on Multi-Task Learning | Yu Zhang et al. | IEEE TKDE | 2021 | 1707.08114 |  |  |
-| A survey on Semi-, Self- and Unsupervised Learning for Image | Lars Schmarje et al. | IEEE Access | 2021 | 2002.08721 |  |  |
-| Self-Supervised Representation Learning: Introduction, Advan | Linus Ericsson et al. | IEEE Signal Processing Magazine | 2021 | 2110.09327 |  |  |
-| A Review of Uncertainty Quantification in Deep Learning: Tec | Moloud Abdar et al. | Information Fusion | 2021 | 2011.06225 |  |  |
-| A Survey of Uncertainty in Deep Neural Networks | Jakob Gawlikowski et al. | Artificial Intelligence Review | 2021 | 2107.03342 |  |  |
-| Knowledge Distillation: A Survey | Jianping Gou et al. | IJCV | 2021 | 2006.05525 |  |  |
-| Efficient Deep Learning: A Survey on Making Deep Learning Mo | Gaurav Menghani et al. | ACM Computing Surveys | 2021 | 2106.08962 |  |  |
-| A Survey of Quantization Methods for Efficient Neural Networ | Amir Gholami et al. | arXiv | 2021 | 2103.13630 |  |  |
-| Time Series Data Augmentation for Deep Learning: A Survey | Qingsong Wen et al. | IJCAI | 2021 | 2002.12478 |  |  |
-| Interpretable Deep Learning: Interpretation, Interpretabilit | Xuhong Li et al. | Knowledge and Information Systems | 2021 | 2103.10689 |  |  |
-| A Survey on Bias and Fairness in Machine Learning | Ninareh Mehrabi et al. | ACM Computing Surveys | 2021 | 1908.09635 |  |  |
-| Towards Causal Representation Learning | Bernhard Schölkopf et al. | Proceedings of the IEEE | 2021 | 2102.11107 |  |  |
-| AutoML: A Survey of the State-of-the-Art | Xin He et al. | Knowledge-Based Systems | 2021 | 1908.00709 |  |  |
-| Model Complexity of Deep Learning: A Survey | Xia Hu et al. | Knowledge and Information Systems | 2021 | 2103.05127 |  |  |
-| A Comprehensive Survey on Transfer Learning | Fuzhen Zhuang et al. | Proceedings of the IEEE | 2020 | 1911.02685 |  |  |
-| Multi-Task Learning with Deep Neural Networks: A Survey | Michael Crawshaw et al. | arXiv | 2020 | 2009.09796 |  |  |
-| A Brief Review of Domain Adaptation | Abolfazl Farahani et al. | arXiv | 2020 | 2010.03978 |  |  |
-| A Survey of Model Compression and Acceleration for Deep Neur | Yu Cheng et al. | IEEE Signal Processing Magazine | 2020 | 1710.09282 |  |  |
-| What is the State of Neural Network Pruning? | Davis Blalock et al. | MLSys | 2020 | 2003.03033 |  |  |
-| Explainable Artificial Intelligence: a Systematic Review | Giulia Vilone et al. | arXiv | 2020 | 2006.00093 |  |  |
-| Hyper-Parameter Optimization: A Review of Algorithms and App | Tong Yu et al. | arXiv | 2020 | 2003.05689 |  |  |
 | Neural Architecture Search: A Survey | Thomas Elsken et al. | JMLR | 2019 | 1808.05377 |  |  |
-| Continual Lifelong Learning with Neural Networks: A Review | German I. Parisi et al. | Neural Networks | 2019 | 1802.07569 |  |  |
-| A Survey on Deep Transfer Learning | Chuanqi Tan et al. | ICANN | 2018 | 1808.01974 |  |  |
-| An overview of gradient descent optimization algorithms | Sebastian Ruder et al. | arXiv | 2016 | 1609.04747 |  |  |
 | A Survey on Transfer Learning | Sinno Jialin Pan et al. | IEEE TKDE | 2010 |  |  |  |
 
 ### 📐 学習理論
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Introduction to Multi-Armed Bandits | Aleksandrs Slivkins et al | Foundations and Trends in ML | 2019 | 1904.07272 | 1315 |  |
-| Online Learning: A Comprehensive Survey | Steven C. H. Hoi et al. | Neurocomputing | 2021 | 1802.02871 | 865 |  |
-| Generalization in Deep Learning | Kenji Kawaguchi et al. | Cambridge University Press | 2022 | 1710.05468 | 502 |  |
-| The Principles of Deep Learning Theory | Daniel A. Roberts et al. | Cambridge University Press | 2022 | 2106.10165 | 305 |  |
+| Introduction to Online Convex Optimization | Elad Hazan et al. | Foundations and Trends in Optimization | 2019 | 1909.05207 | 2370 |  |
+| Introduction to Multi-Armed Bandits | Aleksandrs Slivkins et al | Foundations and Trends in ML | 2019 | 1904.07272 | 1317 |  |
+| Fairness in Machine Learning: A Survey | Simon Caton et al. | ACM Computing Surveys | 2020 | 2010.04053 | 953 |  |
+| Online Learning: A Comprehensive Survey | Steven C. H. Hoi et al. | Neurocomputing | 2021 | 1802.02871 | 869 |  |
+| A Modern Introduction to Online Learning | Francesco Orabona et al. | arXiv | 2019 | 1912.13213 | 577 |  |
+| Generalization in Deep Learning | Kenji Kawaguchi et al. | Cambridge University Press | 2022 | 1710.05468 | 506 |  |
+| The Principles of Deep Learning Theory | Daniel A. Roberts et al. | Cambridge University Press | 2022 | 2106.10165 | 307 |  |
+| A Primer on PAC-Bayesian Learning | Benjamin Guedj et al. | arXiv | 2019 | 1901.05353 | 245 |  |
+| A Survey on Practical Applications of Multi-Armed and Contex | Djallel Bouneffouf et al. | arXiv | 2019 | 1904.10040 | 146 |  |
+| A Survey on Contextual Multi-armed Bandits | Li Zhou et al. | arXiv | 2016 | 1508.03326 | 146 |  |
 | The Modern Mathematics of Deep Learning | Julius Berner et al. | Cambridge University Press | 2022 | 2105.04026 | 144 |  |
-| A Comprehensive Guide to Differential Privacy: From Theory t | Napsu Karmitsa et al. | arXiv | 2025 | 2509.03294 |  |  |
-| A Survey on Statistical Theory of Deep Learning: Approximati | Namjoon Suh et al. | Annual Review of Statistics and Its Application | 2024 | 2401.07187 |  |  |
-| A Survey of Risk-Aware Multi-Armed Bandits | Vincent Y. F. Tan et al. | IJCAI | 2022 | 2205.05843 |  |  |
-| On the Implicit Bias in Deep-Learning Algorithms | Gal Vardi et al. | Communications of the ACM | 2022 | 2208.12591 |  |  |
-| Generalization in Neural Networks: A Broad Survey | Chris Rohlfs et al. | Neurocomputing | 2022 | 2209.01610 |  |  |
-| Approximation Power of Deep Neural Networks: an explanatory  | Owen Davis et al. | arXiv | 2022 | 2207.09511 |  |  |
-| Fairness in Machine Learning: A Survey | Simon Caton et al. | ACM Computing Surveys | 2020 | 2010.04053 |  |  |
-| A Modern Introduction to Online Learning | Francesco Orabona et al. | arXiv | 2019 | 1912.13213 |  |  |
-| A Survey on Practical Applications of Multi-Armed and Contex | Djallel Bouneffouf et al. | arXiv | 2019 | 1904.10040 |  |  |
-| Introduction to Online Convex Optimization | Elad Hazan et al. | Foundations and Trends in Optimization | 2019 | 1909.05207 |  |  |
-| A Primer on PAC-Bayesian Learning | Benjamin Guedj et al. | arXiv | 2019 | 1901.05353 |  |  |
-| Online convex optimization and no-regret learning: Algorithm | E. Veronica Belmega et al | arXiv | 2018 | 1804.04529 |  |  |
-| A Survey on Contextual Multi-armed Bandits | Li Zhou et al. | arXiv | 2016 | 1508.03326 |  |  |
+| On the Implicit Bias in Deep-Learning Algorithms | Gal Vardi et al. | Communications of the ACM | 2022 | 2208.12591 | 126 |  |
+| Online convex optimization and no-regret learning: Algorithm | E. Veronica Belmega et al | arXiv | 2018 | 1804.04529 | 45 |  |
+| Generalization in Neural Networks: A Broad Survey | Chris Rohlfs et al. | Neurocomputing | 2022 | 2209.01610 | 44 |  |
+| A Survey on Statistical Theory of Deep Learning: Approximati | Namjoon Suh et al. | Annual Review of Statistics and Its Application | 2024 | 2401.07187 | 34 |  |
+| A Survey of Risk-Aware Multi-Armed Bandits | Vincent Y. F. Tan et al. | IJCAI | 2022 | 2205.05843 | 13 |  |
+| A Comprehensive Guide to Differential Privacy: From Theory t | Napsu Karmitsa et al. | arXiv | 2025 | 2509.03294 | 6 |  |
+| Approximation Power of Deep Neural Networks: an explanatory  | Owen Davis et al. | arXiv | 2022 | 2207.09511 | 5 |  |
 
 ### 🎮 強化学習 (RL)
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Deep Reinforcement Learning: A Brief Survey | Kai Arulkumaran et al. | IEEE Signal Processing Magazine | 2017 | 1708.05866 | 3612 |  |
-| Offline Reinforcement Learning: Tutorial, Review, and Perspe | Sergey Levine et al. | arXiv | 2020 | 2005.01643 | 2814 |  |
-| Deep Reinforcement Learning: An Overview | Yuxi Li | arXiv | 2017 | 1701.07274 | 1904 |  |
-| Sim-to-Real Transfer in Deep Reinforcement Learning for Robo | Wenshuai Zhao et al. | IEEE SSCI | 2020 | 2009.13303 | 1121 |  |
-| An Algorithmic Perspective on Imitation Learning | Takayuki Osa et al. | Foundations and Trends in Robotics | 2018 | 1811.06711 | 1065 |  |
-| Open Problems and Fundamental Limitations of Reinforcement L | Stephen Casper et al. | TMLR | 2023 | 2307.15217 | 979 |  |
-| Transfer Learning in Deep Reinforcement Learning: A Survey | Zhuangdi Zhu et al. | IEEE TPAMI | 2023 | 2009.07888 | 931 |  |
-| A Survey of Inverse Reinforcement Learning: Challenges, Meth | Saurabh Arora et al. | Artificial Intelligence | 2021 | 1806.06877 | 822 |  |
-| Reinforcement Learning in Healthcare: A Survey | Chao Yu et al. | ACM Computing Surveys | 2021 | 1908.08796 | 822 |  |
-| Curriculum Learning for Reinforcement Learning Domains: A Fr | Sanmit Narvekar et al. | JMLR | 2020 | 2003.04960 | 803 |  |
-| Exploration in Deep Reinforcement Learning: A Survey | Pawel Ladosz et al. | Information Fusion | 2022 | 2205.00824 | 634 |  |
-| A Practical Guide to Multi-Objective Reinforcement Learning  | Conor F. Hayes et al. | AAMAS (JAAMAS) | 2022 | 2103.09568 | 630 |  |
-| A Survey on Offline Reinforcement Learning: Taxonomy, Review | Rafael Figueiredo Prudenc | IEEE TNNLS | 2023 | 2203.01387 | 450 | larocs/offline-rl-suvey |
-| A Survey of Reinforcement Learning from Human Feedback | Timo Kaufmann et al. | arXiv | 2023 | 2312.14925 | 360 |  |
-| A Review of Safe Reinforcement Learning: Methods, Theory and | Shangding Gu et al. | IEEE TPAMI | 2024 | 2205.10330 | 335 | chauncygu/Safe-Reinforcement-Learning-Baselines |
-| A Survey of Zero-shot Generalisation in Deep Reinforcement L | Robert Kirk et al. | JAIR | 2023 | 2111.09794 | 302 |  |
-| Goal-Conditioned Reinforcement Learning: Problems and Soluti | Minghuan Liu et al. | IJCAI | 2022 | 2201.08299 | 239 |  |
+| Deep Reinforcement Learning: A Brief Survey | Kai Arulkumaran et al. | IEEE Signal Processing Magazine | 2017 | 1708.05866 | 3616 |  |
+| Offline Reinforcement Learning: Tutorial, Review, and Perspe | Sergey Levine et al. | arXiv | 2020 | 2005.01643 | 2836 |  |
+| Deep Reinforcement Learning: An Overview | Yuxi Li | arXiv | 2017 | 1701.07274 | 1905 |  |
+| Sim-to-Real Transfer in Deep Reinforcement Learning for Robo | Wenshuai Zhao et al. | IEEE SSCI | 2020 | 2009.13303 | 1131 |  |
+| An Algorithmic Perspective on Imitation Learning | Takayuki Osa et al. | Foundations and Trends in Robotics | 2018 | 1811.06711 | 1074 |  |
+| Open Problems and Fundamental Limitations of Reinforcement L | Stephen Casper et al. | TMLR | 2023 | 2307.15217 | 986 |  |
+| Transfer Learning in Deep Reinforcement Learning: A Survey | Zhuangdi Zhu et al. | IEEE TPAMI | 2023 | 2009.07888 | 933 |  |
+| A Survey of Inverse Reinforcement Learning: Challenges, Meth | Saurabh Arora et al. | Artificial Intelligence | 2021 | 1806.06877 | 827 |  |
+| Reinforcement Learning in Healthcare: A Survey | Chao Yu et al. | ACM Computing Surveys | 2021 | 1908.08796 | 824 |  |
+| Curriculum Learning for Reinforcement Learning Domains: A Fr | Sanmit Narvekar et al. | JMLR | 2020 | 2003.04960 | 815 |  |
+| A Practical Guide to Multi-Objective Reinforcement Learning  | Conor F. Hayes et al. | AAMAS (JAAMAS) | 2022 | 2103.09568 | 637 |  |
+| Exploration in Deep Reinforcement Learning: A Survey | Pawel Ladosz et al. | Information Fusion | 2022 | 2205.00824 | 637 |  |
+| A Survey on Offline Reinforcement Learning: Taxonomy, Review | Rafael Figueiredo Prudenc | IEEE TNNLS | 2023 | 2203.01387 | 456 | larocs/offline-rl-suvey |
+| A Survey of Reinforcement Learning from Human Feedback | Timo Kaufmann et al. | arXiv | 2023 | 2312.14925 | 362 |  |
+| A Review of Safe Reinforcement Learning: Methods, Theory and | Shangding Gu et al. | IEEE TPAMI | 2024 | 2205.10330 | 336 | chauncygu/Safe-Reinforcement-Learning-Baselines |
+| A Survey of Zero-shot Generalisation in Deep Reinforcement L | Robert Kirk et al. | JAIR | 2023 | 2111.09794 | 304 |  |
+| Goal-Conditioned Reinforcement Learning: Problems and Soluti | Minghuan Liu et al. | IJCAI | 2022 | 2201.08299 | 244 |  |
 | A Survey on Model-based Reinforcement Learning | Fan-Ming Luo et al. | Science China Information Sciences | 2024 | 2206.09328 | 190 |  |
-| A Tutorial on Meta-Reinforcement Learning | Jacob Beck et al. | Foundations and Trends in Machine Learning | 2025 | 2301.08028 | 177 |  |
-| A Survey of Exploration Methods in Reinforcement Learning | Susan Amin et al. | arXiv | 2021 | 2109.00157 | 113 |  |
-| A Survey of Constraint Formulations in Safe Reinforcement Le | Akifumi Wachi et al. | IJCAI | 2024 | 2402.02025 | 99 |  |
-| A Survey of Temporal Credit Assignment in Deep Reinforcement | Eduardo Pignatelli et al. | arXiv | 2023 | 2312.01072 | 74 |  |
-| Model-based Reinforcement Learning: A Survey | Thomas M. Moerland et al. | Foundations and Trends in Machine Learning | 2023 | 2006.16712 | 66 |  |
+| A Tutorial on Meta-Reinforcement Learning | Jacob Beck et al. | Foundations and Trends in Machine Learning | 2025 | 2301.08028 | 178 |  |
+| A Survey of Exploration Methods in Reinforcement Learning | Susan Amin et al. | arXiv | 2021 | 2109.00157 | 114 |  |
+| A Survey of Constraint Formulations in Safe Reinforcement Le | Akifumi Wachi et al. | IJCAI | 2024 | 2402.02025 | 105 |  |
+| A Survey of Temporal Credit Assignment in Deep Reinforcement | Eduardo Pignatelli et al. | arXiv | 2023 | 2312.01072 | 75 |  |
+| Model-based Reinforcement Learning: A Survey | Thomas M. Moerland et al. | Foundations and Trends in Machine Learning | 2023 | 2006.16712 | 67 |  |
 | Reinforcement Learning for Generative AI: State of the Art,  | Giorgio Franceschelli et  | JAIR | 2024 | 2308.00031 | 41 |  |
+| A Survey of In-Context Reinforcement Learning | Amir Moeini et al. | arXiv preprint | 2025 | 2502.07978 | 40 |  |
 | Distributed Deep Reinforcement Learning: A Survey and A Mult | Qiyue Yin et al. | Machine Intelligence Research | 2024 | 2212.00253 | 40 |  |
 | Reward Models in Deep Reinforcement Learning: A Survey | Rui Yu et al. | IJCAI | 2025 | 2506.15421 | 37 |  |
-| A Survey of In-Context Reinforcement Learning | Amir Moeini et al. | arXiv preprint | 2025 | 2502.07978 | 37 |  |
 | Reinforcement Learning for Generative AI: A Survey | Yuanjiang Cao et al. | arXiv | 2023 | 2308.14328 | 31 |  |
-| A Survey of Safe Reinforcement Learning and Constrained MDPs | Ankita Kushwaha et al. | arXiv preprint | 2025 | 2505.17342 | 28 |  |
+| A Survey of Safe Reinforcement Learning and Constrained MDPs | Ankita Kushwaha et al. | arXiv preprint | 2025 | 2505.17342 | 30 |  |
 | Reinforcement Learning for Large Model: A Survey | Weijia Wu et al. | arXiv preprint | 2025 | 2508.08189 | 6 | weijiawu/Awesome-RL-for-Multimodal-Foundation-Models |
 | Hierarchical Reinforcement Learning: A Comprehensive Survey | Shubham Pateria et al. | ACM Computing Surveys | 2021 |  |  |  |
 | A Survey of Preference-Based Reinforcement Learning Methods | Christian Wirth et al. | JMLR | 2017 |  |  |  |
@@ -772,24 +772,24 @@
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Deep Reinforcement Learning for Autonomous Driving: A Survey | B Ravi Kiran et al. | IEEE Transactions on Intelligent Transportation Systems | 2022 | 2002.00444 | 2493 |  |
-| A Survey of Deep Learning Techniques for Autonomous Driving | Sorin Grigorescu et al. | Journal of Field Robotics | 2020 | 1910.07738 | 1795 |  |
-| Safe Learning in Robotics: From Learning-Based Control to Sa | Lukas Brunke et al. | Annual Review of Control, Robotics, and Autonomous Systems | 2022 | 2108.06266 | 1073 |  |
-| Survey of Deep Reinforcement Learning for Motion Planning of | Szilard Aradi | IEEE Transactions on Intelligent Transportation Systems | 2022 | 2001.11231 | 622 |  |
-| A Survey of Embodied AI: From Simulators to Research Tasks | Jiafei Duan et al. | IEEE Transactions on Emerging Topics in Computational Intelligence | 2022 | 2103.04918 | 586 |  |
-| A Review of Robot Learning for Manipulation: Challenges, Rep | Oliver Kroemer et al. | JMLR | 2021 | 1907.03146 | 532 |  |
-| Deep Reinforcement Learning for Robotics: A Survey of Real-W | Chunlok Lo et al. | Annual Review of Control, Robotics, and Autonomous Systems | 2025 | 2408.03539 | 461 |  |
-| Foundation Models in Robotics: Applications, Challenges, and | Roya Firoozi et al. | International Journal of Robotics Research | 2024 | 2312.07843 | 443 |  |
-| Aligning Cyber Space with Physical World: A Comprehensive Su | Yang Liu et al. | arXiv | 2024 | 2407.06886 | 366 | HCPLab-SYSU/Embodied_AI_Paper_List |
-| Deep Learning Approaches to Grasp Synthesis: A Review | Rhys Newbury et al. | IEEE Transactions on Robotics | 2023 | 2207.02556 | 302 |  |
-| A Survey of Deep RL and IL for Autonomous Driving Policy Lea | Zeyu Zhu et al. | IEEE Transactions on Intelligent Transportation Systems | 2022 | 2101.01993 | 239 |  |
-| Data-driven Methods Applied to Soft Robot Modeling and Contr | Zixi Chen et al. | IEEE Transactions on Automation Science and Engineering | 2024 | 2305.12137 | 134 |  |
-| A Survey of Optimization-based Task and Motion Planning: Fro | Zhigen Zhao et al. | IEEE/ASME Transactions on Mechatronics | 2024 | 2404.02817 | 99 |  |
-| A Survey of Deep Reinforcement Learning Algorithms for Motio | Fei Ye et al. | IEEE IV | 2021 | 2105.14218 | 72 |  |
-| A Comprehensive Survey on World Models for Embodied AI | Xinqing Li et al. | arXiv | 2025 | 2510.16732 | 59 | Li-Zn-H/AwesomeWorldModels |
-| A Survey of Embodied Learning for Object-Centric Robotic Man | Ying Zheng et al. | arXiv | 2024 | 2408.11537 | 58 | RayYoh/OCRM_survey |
-| World Model for Robot Learning: A Comprehensive Survey | Bohan Hou et al. | arXiv preprint | 2026 | 2605.00080 | 39 |  |
-| A Survey on the Integration of Machine Learning with Samplin | Troy McMahon et al. | Foundations and Trends in Robotics | 2022 | 2211.08368 | 26 |  |
+| Deep Reinforcement Learning for Autonomous Driving: A Survey | B Ravi Kiran et al. | IEEE Transactions on Intelligent Transportation Systems | 2022 | 2002.00444 | 2508 |  |
+| A Survey of Deep Learning Techniques for Autonomous Driving | Sorin Grigorescu et al. | Journal of Field Robotics | 2020 | 1910.07738 | 1806 |  |
+| Safe Learning in Robotics: From Learning-Based Control to Sa | Lukas Brunke et al. | Annual Review of Control, Robotics, and Autonomous Systems | 2022 | 2108.06266 | 1091 |  |
+| Survey of Deep Reinforcement Learning for Motion Planning of | Szilard Aradi | IEEE Transactions on Intelligent Transportation Systems | 2022 | 2001.11231 | 629 |  |
+| A Survey of Embodied AI: From Simulators to Research Tasks | Jiafei Duan et al. | IEEE Transactions on Emerging Topics in Computational Intelligence | 2022 | 2103.04918 | 590 |  |
+| A Review of Robot Learning for Manipulation: Challenges, Rep | Oliver Kroemer et al. | JMLR | 2021 | 1907.03146 | 537 |  |
+| Deep Reinforcement Learning for Robotics: A Survey of Real-W | Chunlok Lo et al. | Annual Review of Control, Robotics, and Autonomous Systems | 2025 | 2408.03539 | 467 |  |
+| Foundation Models in Robotics: Applications, Challenges, and | Roya Firoozi et al. | International Journal of Robotics Research | 2024 | 2312.07843 | 448 |  |
+| Aligning Cyber Space with Physical World: A Comprehensive Su | Yang Liu et al. | arXiv | 2024 | 2407.06886 | 375 | HCPLab-SYSU/Embodied_AI_Paper_List |
+| Deep Learning Approaches to Grasp Synthesis: A Review | Rhys Newbury et al. | IEEE Transactions on Robotics | 2023 | 2207.02556 | 306 |  |
+| A Survey of Deep RL and IL for Autonomous Driving Policy Lea | Zeyu Zhu et al. | IEEE Transactions on Intelligent Transportation Systems | 2022 | 2101.01993 | 240 |  |
+| Data-driven Methods Applied to Soft Robot Modeling and Contr | Zixi Chen et al. | IEEE Transactions on Automation Science and Engineering | 2024 | 2305.12137 | 139 |  |
+| A Survey of Optimization-based Task and Motion Planning: Fro | Zhigen Zhao et al. | IEEE/ASME Transactions on Mechatronics | 2024 | 2404.02817 | 101 |  |
+| A Survey of Deep Reinforcement Learning Algorithms for Motio | Fei Ye et al. | IEEE IV | 2021 | 2105.14218 | 73 |  |
+| A Comprehensive Survey on World Models for Embodied AI | Xinqing Li et al. | arXiv | 2025 | 2510.16732 | 61 | Li-Zn-H/AwesomeWorldModels |
+| A Survey of Embodied Learning for Object-Centric Robotic Man | Ying Zheng et al. | arXiv | 2024 | 2408.11537 | 60 | RayYoh/OCRM_survey |
+| World Model for Robot Learning: A Comprehensive Survey | Bohan Hou et al. | arXiv preprint | 2026 | 2605.00080 | 41 |  |
+| A Survey on the Integration of Machine Learning with Samplin | Troy McMahon et al. | Foundations and Trends in Robotics | 2022 | 2211.08368 | 27 |  |
 | Reinforcement Learning For Quadrupedal Locomotion: Current A | Maurya Gurram et al. | arXiv | 2024 | 2410.10438 | 4 |  |
 | Deep Learning for Embodied Vision Navigation: A Survey | Fengda Zhu et al. | arXiv | 2021 | 2108.04097 | 1 |  |
 | A Survey on Deep Reinforcement Learning Algorithms for Robot | Dong Han et al. | Sensors | 2023 |  |  |  |
@@ -799,175 +799,175 @@
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Multi-Agent Reinforcement Learning: A Selective Overview of  | Kaiqing Zhang et al. | Handbook of RL and Control | 2021 | 1911.10635 | 1772 |  |
-| Deep Reinforcement Learning for Multi-Agent Systems: A Revie | Thanh Thi Nguyen et al. | IEEE Transactions on Cybernetics | 2020 | 1812.11794 | 1075 |  |
-| A Survey on the Memory Mechanism of Large Language Model bas | Zeyu Zhang et al. | arXiv | 2024 | 2404.13501 | 796 |  |
-| A Survey and Critique of Multiagent Deep Reinforcement Learn | Pablo Hernandez-Leal et a | AAMAS (JAAMAS) | 2019 | 1810.05587 | 760 |  |
-| A Review of Cooperative Multi-Agent Deep Reinforcement Learn | Afshin Oroojlooy et al. | Applied Intelligence | 2023 | 1908.03963 | 668 |  |
-| Multi-Agent Collaboration Mechanisms: A Survey of LLMs | Khanh-Tung Tran et al. | arXiv | 2025 | 2501.06322 | 587 |  |
-| Agentic Retrieval-Augmented Generation: A Survey on Agentic  | Aditi Singh et al. | arXiv | 2025 | 2501.09136 | 425 | asinghcsu/AgenticRAG-Survey |
-| A Survey of Multi-Agent Deep Reinforcement Learning with Com | Changxi Zhu et al. | AAMAS (JAAMAS) | 2024 | 2203.08975 | 345 |  |
-| Tool Learning with Large Language Models: A Survey | Changle Qu et al. | arXiv | 2024 | 2405.17935 | 334 | quchangle1/LLM-Tool-Survey |
-| From Persona to Personalization: A Survey on Role-Playing La | Jiangjie Chen et al. | arXiv | 2024 | 2404.18231 | 289 |  |
-| Survey on Evaluation of LLM-based Agents | Asaf Yehudai et al. | arXiv | 2025 | 2503.16416 | 227 |  |
-| Large Language Model Agent: A Survey on Methodology, Applica | Junyu Luo et al. | arXiv | 2025 | 2503.21460 | 226 | luo-junyu/Awesome-Agent-Papers |
-| An Overview of Multi-Agent Reinforcement Learning from Game  | Yaodong Yang et al. | arXiv | 2020 | 2011.00583 | 217 |  |
-| The Landscape of Agentic Reinforcement Learning for LLMs: A  | Guibin Zhang et al. | arXiv | 2025 | 2509.02547 | 202 |  |
-| A Survey of WebAgents: Towards Next-Generation AI Agents for | Liangbo Ning et al. | arXiv | 2025 | 2503.23350 | 135 |  |
-| GUI Agents: A Survey | Dang Nguyen et al. | ACL Findings | 2024 | 2412.13501 | 121 |  |
-| GUI Agents with Foundation Models: A Comprehensive Survey | Shuai Wang et al. | arXiv | 2024 | 2411.04890 | 118 |  |
-| A Survey of Progress on Cooperative Multi-agent Reinforcemen | Lei Yuan et al. | arXiv | 2023 | 2312.01058 | 91 |  |
-| Multi-Agent Reinforcement Learning: A Comprehensive Survey | Dom Huh et al. | arXiv | 2024 | 2312.10256 | 77 |  |
-| A Survey on the Optimization of Large Language Model-based A | Shangheng Du et al. | arXiv | 2025 | 2503.12434 | 73 |  |
+| Multi-Agent Reinforcement Learning: A Selective Overview of  | Kaiqing Zhang et al. | Handbook of RL and Control | 2021 | 1911.10635 | 1783 |  |
+| Deep Reinforcement Learning for Multi-Agent Systems: A Revie | Thanh Thi Nguyen et al. | IEEE Transactions on Cybernetics | 2020 | 1812.11794 | 1077 |  |
+| A Survey on the Memory Mechanism of Large Language Model bas | Zeyu Zhang et al. | arXiv | 2024 | 2404.13501 | 829 |  |
+| A Survey and Critique of Multiagent Deep Reinforcement Learn | Pablo Hernandez-Leal et a | AAMAS (JAAMAS) | 2019 | 1810.05587 | 766 |  |
+| A Review of Cooperative Multi-Agent Deep Reinforcement Learn | Afshin Oroojlooy et al. | Applied Intelligence | 2023 | 1908.03963 | 671 |  |
+| Multi-Agent Collaboration Mechanisms: A Survey of LLMs | Khanh-Tung Tran et al. | arXiv | 2025 | 2501.06322 | 599 |  |
+| Agentic Retrieval-Augmented Generation: A Survey on Agentic  | Aditi Singh et al. | arXiv | 2025 | 2501.09136 | 435 | asinghcsu/AgenticRAG-Survey |
+| A Survey of Multi-Agent Deep Reinforcement Learning with Com | Changxi Zhu et al. | AAMAS (JAAMAS) | 2024 | 2203.08975 | 350 |  |
+| Tool Learning with Large Language Models: A Survey | Changle Qu et al. | arXiv | 2024 | 2405.17935 | 339 | quchangle1/LLM-Tool-Survey |
+| From Persona to Personalization: A Survey on Role-Playing La | Jiangjie Chen et al. | arXiv | 2024 | 2404.18231 | 290 |  |
+| Survey on Evaluation of LLM-based Agents | Asaf Yehudai et al. | arXiv | 2025 | 2503.16416 | 235 |  |
+| Large Language Model Agent: A Survey on Methodology, Applica | Junyu Luo et al. | arXiv | 2025 | 2503.21460 | 231 | luo-junyu/Awesome-Agent-Papers |
+| An Overview of Multi-Agent Reinforcement Learning from Game  | Yaodong Yang et al. | arXiv | 2020 | 2011.00583 | 218 |  |
+| The Landscape of Agentic Reinforcement Learning for LLMs: A  | Guibin Zhang et al. | arXiv | 2025 | 2509.02547 | 214 |  |
+| A Survey of WebAgents: Towards Next-Generation AI Agents for | Liangbo Ning et al. | arXiv | 2025 | 2503.23350 | 137 |  |
+| GUI Agents: A Survey | Dang Nguyen et al. | ACL Findings | 2024 | 2412.13501 | 125 |  |
+| GUI Agents with Foundation Models: A Comprehensive Survey | Shuai Wang et al. | arXiv | 2024 | 2411.04890 | 119 |  |
+| A Survey of Progress on Cooperative Multi-agent Reinforcemen | Lei Yuan et al. | arXiv | 2023 | 2312.01058 | 92 |  |
+| Multi-Agent Reinforcement Learning: A Comprehensive Survey | Dom Huh et al. | arXiv | 2024 | 2312.10256 | 79 |  |
+| A Survey on the Optimization of Large Language Model-based A | Shangheng Du et al. | arXiv | 2025 | 2503.12434 | 77 |  |
 | A Survey of Multi Agent Reinforcement Learning: Federated Le | Kemboi Cheruiyot et al. | arXiv preprint | 2025 | 2507.06278 | 13 |  |
 
 ### 🕸️ グラフニューラルネット (GNN)
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Comprehensive Survey of Graph Embedding: Problems, Techniq | Hongyun Cai et al. | IEEE TKDE | 2018 | 1709.07604 | 1983 |  |
-| Graph Embedding Techniques, Applications, and Performance: A | Palash Goyal et al. | Knowledge-Based Systems | 2018 | 1705.02801 | 1831 |  |
-| A survey of dynamic graph neural networks | Yanping Zheng et al. | Frontiers of Computer Science | 2024 | 2404.18211 | 142 |  |
-| A Comprehensive Survey on Graph Reduction: Sparsification, C | Mohammad Hashemi et al. | IJCAI 2024 | 2024 | 2402.03358 | 117 |  |
+| Graph Neural Networks: A Review of Methods and Applications | Jie Zhou et al. | AI Open | 2020 | 1812.08434 | 7439 |  |
+| A Comprehensive Survey of Graph Embedding: Problems, Techniq | Hongyun Cai et al. | IEEE TKDE | 2018 | 1709.07604 | 1987 |  |
+| Graph Embedding Techniques, Applications, and Performance: A | Palash Goyal et al. | Knowledge-Based Systems | 2018 | 1705.02801 | 1832 |  |
+| Benchmarking Graph Neural Networks | Vijay Prakash Dwivedi et  | JMLR | 2023 | 2003.00982 | 1274 |  |
+| Explainability in Graph Neural Networks: A Taxonomic Survey | Hao Yuan et al. | IEEE TPAMI | 2022 | 2012.15445 | 901 |  |
+| Graph Self-Supervised Learning: A Survey | Yixin Liu et al. | IEEE TKDE | 2022 | 2103.00111 | 783 |  |
+| Representation Learning for Dynamic Graphs: A Survey | Seyed Mehran Kazemi et al | JMLR | 2020 | 1905.11485 | 675 |  |
+| Self-Supervised Learning of Graph Neural Networks: A Unified | Yaochen Xie et al. | IEEE TPAMI | 2022 | 2102.10757 | 420 |  |
+| Self-supervised Learning on Graphs: Contrastive, Generative, | Lirong Wu et al. | IEEE TKDE | 2023 | 2105.07342 | 354 | LirongWu/awesome-graph-self-supervised-learning |
+| Machine Learning on Graphs: A Model and Comprehensive Taxono | Ines Chami et al. | JMLR | 2022 | 2005.03675 | 350 |  |
+| Graph Neural Networks for Graphs with Heterophily: A Survey | Xin Zheng et al. | IEEE TKDE | 2022 | 2202.07082 | 338 |  |
+| Transformer for Graphs: An Overview from Architecture Perspe | Erxue Min et al. | arXiv | 2022 | 2202.08455 | 221 |  |
+| A Systematic Survey on Deep Generative Models for Graph Gene | Xiaojie Guo et al. | IEEE TPAMI | 2020 | 2007.06686 | 209 |  |
+| A survey of dynamic graph neural networks | Yanping Zheng et al. | Frontiers of Computer Science | 2024 | 2404.18211 | 145 |  |
+| Graph Pooling for Graph Neural Networks: Progress, Challenge | Chuang Liu et al. | IJCAI Survey Track | 2023 | 2204.07321 | 136 |  |
+| Deep Graph Anomaly Detection: A Survey and New Perspectives | Hezhe Qiao et al. | IEEE TKDE | 2024 | 2409.09957 | 129 |  |
+| Graph Neural Networks for Temporal Graphs: State of the Art, | Antonio Longa et al. | TMLR | 2023 | 2302.01018 | 123 |  |
+| A Comprehensive Survey on Graph Reduction: Sparsification, C | Mohammad Hashemi et al. | IJCAI 2024 | 2024 | 2402.03358 | 118 |  |
+| Adversarial Attacks and Defenses on Graphs: A Review, A Tool | Wei Jin et al. | SIGKDD Explorations | 2020 | 2003.00653 | 108 |  |
+| Towards Graph Contrastive Learning: A Survey and Beyond | Wei Ju et al. | arXiv | 2024 | 2405.11868 | 76 |  |
+| Heterogeneous Network Representation Learning: A Unified Fra | Carl Yang et al. | IEEE TKDE | 2022 | 2004.00216 | 60 |  |
+| A Comprehensive Survey on Distributed Training of Graph Neur | Haiyang Lin et al. | Proceedings of the IEEE | 2022 | 2211.05368 | 51 |  |
 | Graph Condensation: A Survey | Xinyi Gao et al. | arXiv preprint | 2024 | 2401.11720 | 46 |  |
-| A Systematic Literature Review of Spatio-Temporal Graph Neur | Flavio Corradini et al. | arXiv preprint | 2024 | 2410.22377 | 41 |  |
+| A Systematic Literature Review of Spatio-Temporal Graph Neur | Flavio Corradini et al. | arXiv preprint | 2024 | 2410.22377 | 42 |  |
 | Graph Learning under Distribution Shifts: A Comprehensive Su | Man Wu et al. | arXiv preprint | 2024 | 2402.16374 | 37 |  |
+| Graph Neural Networks for the Prediction of Molecular Struct | Jan G. Rittig et al. | RSC (Machine Learning and Hybrid Modelling for Reaction Engineering) | 2022 | 2208.04852 | 26 |  |
 | A Survey of Deep Graph Learning under Distribution Shifts: f | Kexin Zhang et al. | arXiv preprint | 2024 | 2410.19265 | 25 | kaize0409/Awesome-Graph-OOD |
-| Recent Advances in Hypergraph Neural Networks | Murong Yang et al. | arXiv preprint | 2025 | 2503.07959 | 20 |  |
+| Recent Advances in Hypergraph Neural Networks | Murong Yang et al. | arXiv preprint | 2025 | 2503.07959 | 21 |  |
 | A Survey on Graph Condensation | Hongjia Xu et al. | arXiv preprint | 2024 | 2402.02000 | 13 |  |
 | A Survey of Large Language Models for Data Challenges in Gra | Mengran Li et al. | arXiv preprint | 2025 | 2505.18475 | 10 | limengran98/Awesome-Literature-Graph-Learning-Challenges |
 | Beyond Generalization: A Survey of Out-Of-Distribution Adapt | Shuhan Liu et al. | arXiv preprint | 2024 | 2402.11153 | 10 | kaize0409/Awesome-Graph-OOD |
-| A Survey of Graph Neural Networks for Drug Discovery: Recent | Jun Li et al. | arXiv | 2025 | 2509.07887 |  |  |
-| Towards Graph Contrastive Learning: A Survey and Beyond | Wei Ju et al. | arXiv | 2024 | 2405.11868 |  |  |
-| Deep Graph Anomaly Detection: A Survey and New Perspectives | Hezhe Qiao et al. | IEEE TKDE | 2024 | 2409.09957 |  |  |
-| Benchmarking Graph Neural Networks | Vijay Prakash Dwivedi et  | JMLR | 2023 | 2003.00982 |  |  |
-| Graph Neural Networks for Temporal Graphs: State of the Art, | Antonio Longa et al. | TMLR | 2023 | 2302.01018 |  |  |
-| Self-supervised Learning on Graphs: Contrastive, Generative, | Lirong Wu et al. | IEEE TKDE | 2023 | 2105.07342 |  | LirongWu/awesome-graph-self-supervised-learning |
-| Graph Pooling for Graph Neural Networks: Progress, Challenge | Chuang Liu et al. | IJCAI Survey Track | 2023 | 2204.07321 |  |  |
-| Machine Learning on Graphs: A Model and Comprehensive Taxono | Ines Chami et al. | JMLR | 2022 | 2005.03675 |  |  |
-| Transformer for Graphs: An Overview from Architecture Perspe | Erxue Min et al. | arXiv | 2022 | 2202.08455 |  |  |
-| Heterogeneous Network Representation Learning: A Unified Fra | Carl Yang et al. | IEEE TKDE | 2022 | 2004.00216 |  |  |
-| A Comprehensive Survey on Distributed Training of Graph Neur | Haiyang Lin et al. | Proceedings of the IEEE | 2022 | 2211.05368 |  |  |
-| Explainability in Graph Neural Networks: A Taxonomic Survey | Hao Yuan et al. | IEEE TPAMI | 2022 | 2012.15445 |  |  |
-| Graph Neural Networks for the Prediction of Molecular Struct | Jan G. Rittig et al. | RSC (Machine Learning and Hybrid Modelling for Reaction Engineering) | 2022 | 2208.04852 |  |  |
-| Self-Supervised Learning of Graph Neural Networks: A Unified | Yaochen Xie et al. | IEEE TPAMI | 2022 | 2102.10757 |  |  |
-| Graph Self-Supervised Learning: A Survey | Yixin Liu et al. | IEEE TKDE | 2022 | 2103.00111 |  |  |
-| Graph Neural Networks for Graphs with Heterophily: A Survey | Xin Zheng et al. | IEEE TKDE | 2022 | 2202.07082 |  |  |
-| Graph Neural Networks for Natural Language Processing: A Sur | Lingfei Wu et al. | Foundations and Trends in Machine Learning | 2021 | 2106.06090 |  |  |
-| Graph Neural Networks: A Review of Methods and Applications | Jie Zhou et al. | AI Open | 2020 | 1812.08434 |  |  |
-| Representation Learning for Dynamic Graphs: A Survey | Seyed Mehran Kazemi et al | JMLR | 2020 | 1905.11485 |  |  |
-| A Systematic Survey on Deep Generative Models for Graph Gene | Xiaojie Guo et al. | IEEE TPAMI | 2020 | 2007.06686 |  |  |
-| Adversarial Attacks and Defenses on Graphs: A Review, A Tool | Wei Jin et al. | SIGKDD Explorations | 2020 | 2003.00653 |  |  |
+| A Survey of Graph Neural Networks for Drug Discovery: Recent | Jun Li et al. | arXiv | 2025 | 2509.07887 | 1 |  |
+| Graph Neural Networks for Natural Language Processing: A Sur | Lingfei Wu et al. | Foundations and Trends in Machine Learning | 2021 | 2106.06090 | 0 |  |
 
 ### 🔗 知識表現・知識グラフ
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Comprehensive Survey on Automatic Knowledge Graph Construc | Lingfeng Zhong et al. | ACM Computing Surveys | 2023 | 2302.05019 | 392 |  |
+| Knowledge Graphs | Aidan Hogan et al. | ACM Computing Surveys | 2021 | 2003.02320 | 2929 |  |
+| Unifying Large Language Models and Knowledge Graphs: A Roadm | Shirui Pan et al. | IEEE TKDE | 2023 | 2306.08302 | 1810 | RManLuo/Awesome-LLM-KG |
+| A Review of Relational Machine Learning for Knowledge Graphs | Maximilian Nickel et al. | Proceedings of the IEEE | 2016 | 1503.00759 | 1784 |  |
+| Graph Retrieval-Augmented Generation: A Survey | Boci Peng et al. | arXiv | 2024 | 2408.08921 | 637 |  |
+| A Comprehensive Survey on Automatic Knowledge Graph Construc | Lingfeng Zhong et al. | ACM Computing Surveys | 2023 | 2302.05019 | 394 |  |
+| A Survey of Knowledge Graph Reasoning on Graph Types: Static | Ke Liang et al. | IEEE TPAMI | 2022 | 2212.05767 | 348 |  |
+| LLMs for Knowledge Graph Construction and Reasoning: Recent  | Yuqi Zhu et al. | World Wide Web Journal | 2023 | 2305.13168 | 326 |  |
+| A Survey of Large Language Models for Graphs | Xubin Ren et al. | KDD | 2024 | 2405.08011 | 167 | HKUDS/Awesome-LLM4Graph-Papers |
+| Complex Knowledge Base Question Answering: A Survey | Yunshi Lan et al. | IEEE TKDE | 2021 | 2108.06688 | 161 |  |
+| From Statistical Relational to Neurosymbolic Artificial Inte | Giuseppe Marra et al. | Artificial Intelligence | 2021 | 2108.11451 | 144 |  |
+| A Survey of Graph Meets Large Language Model: Progress and F | Yuhan Li et al. | IJCAI | 2024 | 2311.12399 | 128 | yhLeeee/Awesome-LLMs-in-Graph-tasks |
 | A Survey of RDF Stores & SPARQL Engines for Querying Knowled | Waqas Ali et al. | The VLDB Journal | 2021 | 2102.13027 | 124 |  |
-| Construction of Knowledge Graphs: State and Challenges | Marvin Hofer et al. | arXiv | 2023 | 2302.11509 | 88 |  |
+| A Benchmark and Comprehensive Survey on Knowledge Graph Enti | Rui Zhang et al. | The VLDB Journal | 2021 | 2103.15059 | 106 |  |
+| A Review of Knowledge Graph Completion | Mohamad Zamini et al. | Information (MDPI) | 2022 | 2208.11652 | 95 |  |
+| Construction of Knowledge Graphs: State and Challenges | Marvin Hofer et al. | arXiv | 2023 | 2302.11509 | 90 |  |
 | A Survey on Temporal Knowledge Graph: Representation Learnin | Li Cai et al. | arXiv | 2024 | 2403.04782 | 71 |  |
-| Neurosymbolic AI for Reasoning over Knowledge Graphs: A Surv | Lauren Nicole DeLong et a | arXiv | 2023 | 2302.07200 | 70 |  |
+| Neurosymbolic AI for Reasoning over Knowledge Graphs: A Surv | Lauren Nicole DeLong et a | arXiv | 2023 | 2302.07200 | 71 |  |
+| A Survey of Knowledge Graph Embedding and Their Applications | Shivani Choudhary et al. | arXiv | 2021 | 2107.07842 | 69 |  |
+| Large Language Models Meet Knowledge Graphs for Question Ans | Chuangtao Ma et al. | arXiv | 2025 | 2505.20099 | 61 |  |
 | A Survey on Temporal Knowledge Graph Completion: Taxonomy, P | Jiapu Wang et al. | arXiv | 2023 | 2308.02457 | 45 |  |
-| LLM-empowered knowledge graph construction: A survey | Haonan Bian et al. | arXiv | 2025 | 2510.20345 | 39 |  |
+| LLM-empowered knowledge graph construction: A survey | Haonan Bian et al. | arXiv | 2025 | 2510.20345 | 41 |  |
 | Neural-Symbolic Reasoning over Knowledge Graphs: A Survey fr | Lihui Liu et al. | arXiv | 2024 | 2412.10390 | 37 |  |
+| Ontology Embedding: A Survey of Methods, Applications and Re | Jiaoyan Chen et al. | arXiv | 2024 | 2406.10964 | 36 |  |
 | A Survey of Reinforcement Learning for Optimization in Autom | Ahmad Farooq et al. | arXiv | 2025 | 2502.09417 | 27 |  |
-| Autoformalization in the Era of Large Language Models: A Sur | Ke Weng et al. | arXiv | 2025 | 2505.23486 | 23 |  |
+| Autoformalization in the Era of Large Language Models: A Sur | Ke Weng et al. | arXiv | 2025 | 2505.23486 | 24 |  |
 | Temporal Knowledge Graph Question Answering: A Survey | Miao Su et al. | arXiv | 2024 | 2406.14191 | 21 |  |
+| Negative Sampling in Knowledge Graph Representation Learning | Tiroshan Madushanka et al | arXiv | 2024 | 2402.19195 | 17 |  |
+| A Survey on Knowledge Graph Structure and Knowledge Graph Em | Jeffrey Sardina et al. | arXiv | 2024 | 2412.10092 | 6 |  |
 | The ARC of Progress towards AGI: A Living Survey of Abstract | Sahar Vahdati et al. | arXiv | 2026 | 2603.13372 | 3 |  |
-| Large Language Models Meet Knowledge Graphs for Question Ans | Chuangtao Ma et al. | arXiv | 2025 | 2505.20099 |  |  |
 | From Provable Correctness to Probabilistic Generation: A Com | Zurabi Kobaladze et al. | arXiv | 2025 | 2508.00013 | 0 |  |
-| A Survey on Knowledge Graph Structure and Knowledge Graph Em | Jeffrey Sardina et al. | arXiv | 2024 | 2412.10092 |  |  |
-| Negative Sampling in Knowledge Graph Representation Learning | Tiroshan Madushanka et al | arXiv | 2024 | 2402.19195 |  |  |
-| A Survey of Large Language Models for Graphs | Xubin Ren et al. | KDD | 2024 | 2405.08011 |  | HKUDS/Awesome-LLM4Graph-Papers |
-| A Survey of Graph Meets Large Language Model: Progress and F | Yuhan Li et al. | IJCAI | 2024 | 2311.12399 |  | yhLeeee/Awesome-LLMs-in-Graph-tasks |
-| Ontology Embedding: A Survey of Methods, Applications and Re | Jiaoyan Chen et al. | arXiv | 2024 | 2406.10964 |  |  |
-| Graph Retrieval-Augmented Generation: A Survey | Boci Peng et al. | arXiv | 2024 | 2408.08921 |  |  |
-| Unifying Large Language Models and Knowledge Graphs: A Roadm | Shirui Pan et al. | IEEE TKDE | 2023 | 2306.08302 |  | RManLuo/Awesome-LLM-KG |
-| LLMs for Knowledge Graph Construction and Reasoning: Recent  | Yuqi Zhu et al. | World Wide Web Journal | 2023 | 2305.13168 |  |  |
-| A Review of Knowledge Graph Completion | Mohamad Zamini et al. | Information (MDPI) | 2022 | 2208.11652 |  |  |
-| A Survey of Knowledge Graph Reasoning on Graph Types: Static | Ke Liang et al. | IEEE TPAMI | 2022 | 2212.05767 |  |  |
-| Knowledge Graphs | Aidan Hogan et al. | ACM Computing Surveys | 2021 | 2003.02320 |  |  |
-| A Survey of Knowledge Graph Embedding and Their Applications | Shivani Choudhary et al. | arXiv | 2021 | 2107.07842 |  |  |
-| From Statistical Relational to Neurosymbolic Artificial Inte | Giuseppe Marra et al. | Artificial Intelligence | 2021 | 2108.11451 |  |  |
-| A Benchmark and Comprehensive Survey on Knowledge Graph Enti | Rui Zhang et al. | The VLDB Journal | 2021 | 2103.15059 |  |  |
-| Complex Knowledge Base Question Answering: A Survey | Yunshi Lan et al. | IEEE TKDE | 2021 | 2108.06688 |  |  |
-| A Review of Relational Machine Learning for Knowledge Graphs | Maximilian Nickel et al. | Proceedings of the IEEE | 2016 | 1503.00759 |  |  |
 
 ### 🎯 因果推論
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
+| A Survey on Causal Inference | Liuyi Yao et al. | ACM TKDD | 2021 | 2002.02770 | 714 |  |
+| D'ya like DAGs? A Survey on Structure Learning and Causal Di | Matthew J. Vowels et al. | ACM Computing Surveys | 2021 | 2103.02582 | 414 |  |
 | Causal Inference in Natural Language Processing: Estimation, | Amir Feder et al. | TACL | 2022 | 2109.00725 | 348 |  |
-| Causal Machine Learning: A Survey and Open Problems | Jean Kaddour et al. | arXiv | 2022 | 2206.15475 | 181 |  |
-| Causal Inference in Recommender Systems: A Survey and Future | Chen Gao et al. | ACM TOIS | 2022 | 2208.12397 | 180 |  |
-| Survey on Causal-based Machine Learning Fairness Notions | Karima Makhlouf et al. | arXiv | 2020 | 2010.09553 | 100 |  |
-| Robust Counterfactual Explanations in Machine Learning: A Su | Junqi Jiang et al. | IJCAI | 2024 | 2402.01928 | 52 |  |
+| Causal Machine Learning: A Survey and Open Problems | Jean Kaddour et al. | arXiv | 2022 | 2206.15475 | 182 |  |
+| Causal Inference in Recommender Systems: A Survey and Future | Chen Gao et al. | ACM TOIS | 2022 | 2208.12397 | 182 |  |
+| Survey on Causal-based Machine Learning Fairness Notions | Karima Makhlouf et al. | arXiv | 2020 | 2010.09553 | 99 |  |
+| A Survey on Causal Discovery Methods for I.I.D. and Time Ser | Uzma Hasan et al. | TMLR | 2023 | 2303.15027 | 70 |  |
+| Causal Inference with Large Language Model: A Survey | Jing Ma et al. | arXiv | 2024 | 2409.09822 | 59 |  |
+| Robust Counterfactual Explanations in Machine Learning: A Su | Junqi Jiang et al. | IJCAI | 2024 | 2402.01928 | 54 |  |
 | Causal Reinforcement Learning: A Survey | Zhihong Deng et al. | TMLR | 2023 | 2307.01452 | 48 |  |
-| From Identifiable Causal Representations to Controllable Cou | Aneesh Komanduri et al. | TMLR | 2024 | 2310.11011 | 36 |  |
+| From Identifiable Causal Representations to Controllable Cou | Aneesh Komanduri et al. | TMLR | 2024 | 2310.11011 | 37 |  |
 | Large Language Models and Causal Inference in Collaboration: | Xiaoyu Liu et al. | arXiv | 2024 | 2403.09606 | 30 |  |
-| Causal Inference with Complex Treatments: A Survey | Yingrong Wang et al. | arXiv | 2024 | 2407.14022 |  |  |
-| Causal Inference with Large Language Model: A Survey | Jing Ma et al. | arXiv | 2024 | 2409.09822 |  |  |
-| A Survey on Causal Discovery Methods for I.I.D. and Time Ser | Uzma Hasan et al. | TMLR | 2023 | 2303.15027 |  |  |
-| A Survey of Deep Causal Models and Their Industrial Applicat | Zongyu Li et al. | arXiv | 2022 | 2209.08860 |  |  |
+| A Survey of Deep Causal Models and Their Industrial Applicat | Zongyu Li et al. | arXiv | 2022 | 2209.08860 | 24 |  |
+| Causal Inference with Complex Treatments: A Survey | Yingrong Wang et al. | arXiv | 2024 | 2407.14022 | 11 |  |
 | A Survey on Causal Representation Learning and Future Work f | Changjie Lu et al. | arXiv | 2022 | 2210.16034 | 0 |  |
-| D'ya like DAGs? A Survey on Structure Learning and Causal Di | Matthew J. Vowels et al. | ACM Computing Surveys | 2021 | 2103.02582 |  |  |
-| A Survey on Causal Inference | Liuyi Yao et al. | ACM TKDD | 2021 | 2002.02770 |  |  |
 
 ### ⏱️ 時系列・時空間
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Deep learning-based electroencephalography analysis: a syste | Yannick Roy et al. | Journal of Neural Engineering | 2019 | 1901.05498 | 1451 |  |
-| Deep Learning for Sensor-based Human Activity Recognition: O | Kaixuan Chen et al. | ACM Computing Surveys | 2020 | 2001.07416 | 899 |  |
-| A Survey on Graph Neural Networks for Time Series: Forecasti | Ming Jin et al. | IEEE TPAMI | 2024 | 2307.03759 | 565 |  |
-| Large Language Models for Time Series: A Survey | Xiyuan Zhang et al. | IJCAI | 2024 | 2402.01801 | 197 | xiyuanzh/awesome-llm-time-series |
-| Deep Learning for Multivariate Time Series Imputation: A Sur | Jun Wang et al. | IJCAI | 2024 | 2402.04059 | 164 |  |
+| Time Series Forecasting With Deep Learning: A Survey | Bryan Lim et al. | Phil. Trans. R. Soc. A | 2020 | 2004.13408 | 2163 |  |
+| Transformers in Time Series: A Survey | Qingsong Wen et al. | IJCAI | 2023 | 2202.07125 | 1694 | qingsongedu/time-series-transformers-review |
+| Deep learning-based electroencephalography analysis: a syste | Yannick Roy et al. | Journal of Neural Engineering | 2019 | 1901.05498 | 1464 |  |
+| Deep Learning for Sensor-based Human Activity Recognition: O | Kaixuan Chen et al. | ACM Computing Surveys | 2020 | 2001.07416 | 903 |  |
+| A Survey on Graph Neural Networks for Time Series: Forecasti | Ming Jin et al. | IEEE TPAMI | 2024 | 2307.03759 | 572 |  |
+| Foundation Models for Time Series Analysis: A Tutorial and S | Yuxuan Liang et al. | KDD | 2024 | 2403.14735 | 494 |  |
+| Self-Supervised Learning for Time Series Analysis: Taxonomy, | Kexin Zhang et al. | IEEE TPAMI | 2023 | 2306.10125 | 303 | qingsongedu/Awesome-SSL4TS |
+| Large Language Models for Time Series: A Survey | Xiyuan Zhang et al. | IJCAI | 2024 | 2402.01801 | 200 | xiyuanzh/awesome-llm-time-series |
+| Deep learning models for price forecasting of financial time | Cheng Zhang et al. | arXiv | 2023 | 2305.04811 | 174 |  |
+| Deep Learning for Multivariate Time Series Imputation: A Sur | Jun Wang et al. | IJCAI | 2024 | 2402.04059 | 168 |  |
+| A Comprehensive Survey of Deep Learning for Time Series Fore | Jongseon Kim et al. | Artificial Intelligence Review | 2024 | 2411.05793 | 127 |  |
+| A Survey of Deep Learning and Foundation Models for Time Ser | John A. Miller et al. | arXiv | 2024 | 2401.13912 | 91 |  |
 | A Survey on Principles, Models and Methods for Learning from | Satya Narayan Shukla et a | arXiv | 2020 | 2012.00168 | 73 |  |
-| Dive into Time-Series Anomaly Detection: A Decade Review | Paul Boniol et al. | arXiv | 2024 | 2412.20512 | 46 |  |
+| Spatio-Temporal Graph Neural Networks: A Survey | Zahraa Al Sahili et al. | arXiv | 2023 | 2301.10569 | 68 |  |
+| Dive into Time-Series Anomaly Detection: A Decade Review | Paul Boniol et al. | arXiv | 2024 | 2412.20512 | 52 |  |
+| Universal Time-Series Representation Learning: A Survey | Patara Trirat et al. | ACM Computing Surveys | 2024 | 2401.03717 | 50 |  |
+| Empowering Time Series Analysis with Foundation Models: A Co | Jiexia Ye et al. | arXiv | 2024 | 2405.02358 | 36 |  |
+| STG4Traffic: A Survey and Benchmark of Spatial-Temporal Grap | Xunlian Luo et al. | arXiv | 2023 | 2307.00495 | 19 | jwwthu/GNN4Traffic |
 | Deep Learning-Powered Electrical Brain Signals Analysis: Adv | Jiahe Li et al. | arXiv | 2025 | 2502.17213 | 11 |  |
-| A Comprehensive Survey of Deep Learning for Time Series Fore | Jongseon Kim et al. | Artificial Intelligence Review | 2024 | 2411.05793 |  |  |
-| A Survey of Deep Learning and Foundation Models for Time Ser | John A. Miller et al. | arXiv | 2024 | 2401.13912 |  |  |
-| Foundation Models for Time Series Analysis: A Tutorial and S | Yuxuan Liang et al. | KDD | 2024 | 2403.14735 |  |  |
-| Empowering Time Series Analysis with Foundation Models: A Co | Jiexia Ye et al. | arXiv | 2024 | 2405.02358 |  |  |
-| Universal Time-Series Representation Learning: A Survey | Patara Trirat et al. | ACM Computing Surveys | 2024 | 2401.03717 |  |  |
 | Bridging the Gap: A Decade Review of Time-Series Clustering  | John Paparrizos et al. | arXiv | 2024 | 2412.20582 |  |  |
-| Transformers in Time Series: A Survey | Qingsong Wen et al. | IJCAI | 2023 | 2202.07125 |  | qingsongedu/time-series-transformers-review |
-| Self-Supervised Learning for Time Series Analysis: Taxonomy, | Kexin Zhang et al. | IEEE TPAMI | 2023 | 2306.10125 |  | qingsongedu/Awesome-SSL4TS |
-| Spatio-Temporal Graph Neural Networks: A Survey | Zahraa Al Sahili et al. | arXiv | 2023 | 2301.10569 |  |  |
-| STG4Traffic: A Survey and Benchmark of Spatial-Temporal Grap | Xunlian Luo et al. | arXiv | 2023 | 2307.00495 |  | jwwthu/GNN4Traffic |
-| Deep learning models for price forecasting of financial time | Cheng Zhang et al. | arXiv | 2023 | 2305.04811 |  |  |
-| Time Series Forecasting With Deep Learning: A Survey | Bryan Lim et al. | Phil. Trans. R. Soc. A | 2020 | 2004.13408 |  |  |
 
 ### ⛏️ データマイニング
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Comprehensive Survey on Graph Neural Networks | Zonghan Wu et al. | IEEE TNNLS | 2021 | 1901.00596 | 12059 |  |
-| Deep Learning for Anomaly Detection: A Survey | Raghavendra Chalapathy et | arXiv | 2019 | 1901.03407 | 1918 |  |
-| A Unifying Review of Deep and Shallow Anomaly Detection | Lukas Ruff et al. | Proceedings of the IEEE | 2021 | 2009.11732 | 1130 |  |
-| Deep Learning for Time Series Anomaly Detection: A Survey | Zahra Zamanzadeh Darban e | ACM Computing Surveys | 2024 | 2211.05244 | 763 |  |
+| A Comprehensive Survey on Graph Neural Networks | Zonghan Wu et al. | IEEE TNNLS | 2021 | 1901.00596 | 12112 |  |
+| Deep Learning for Time Series Classification: A Review | Hassan Ismail Fawaz et al | Data Mining and Knowledge Discovery | 2019 | 1809.04356 | 3444 |  |
+| Deep Learning for Anomaly Detection: A Survey | Raghavendra Chalapathy et | arXiv | 2019 | 1901.03407 | 1925 |  |
+| A Unifying Review of Deep and Shallow Anomaly Detection | Lukas Ruff et al. | Proceedings of the IEEE | 2021 | 2009.11732 | 1137 |  |
+| Educational data mining and learning analytics: An updated s | Cristobal Romero et al. | WIREs Data Mining and Knowledge Discovery | 2024 | 2402.07956 | 1096 |  |
+| A Survey of Heterogeneous Information Network Analysis | Chuan Shi et al. | IEEE TKDE | 2017 | 1511.04854 | 1040 |  |
+| A Comprehensive Survey on Graph Anomaly Detection with Deep  | Xiaoxiao Ma et al. | IEEE TKDE | 2023 | 2106.07178 | 891 |  |
+| Deep Learning for Time Series Anomaly Detection: A Survey | Zahra Zamanzadeh Darban e | ACM Computing Surveys | 2024 | 2211.05244 | 778 |  |
+| A Brief Survey of Text Mining: Classification, Clustering an | Mehdi Allahyari et al. | arXiv | 2017 | 1707.02919 | 574 |  |
+| Large Language Models on Graphs: A Comprehensive Survey | Bowen Jin et al. | IEEE TKDE | 2024 | 2312.02783 | 366 | PeterGriffinJin/Awesome-Language-Model-on-Graphs |
+| A Comprehensive Survey on Deep Graph Representation Learning | Wei Ju et al. | Neural Networks | 2024 | 2304.05055 | 363 |  |
+| Deep Learning for Time Series Classification and Extrinsic R | Navid Mohammadi Foumani e | ACM Computing Surveys | 2024 | 2302.02515 | 341 |  |
+| A Survey on Graph Representation Learning Methods | Shima Khoshraftar et al. | ACM TIST | 2024 | 2204.01855 | 272 |  |
 | A Survey of Parallel Sequential Pattern Mining | Wensheng Gan et al. | ACM TKDD | 2019 | 1805.10515 | 262 |  |
-| A Comprehensive Survey on Deep Clustering: Taxonomy, Challen | Sheng Zhou et al. | ACM Computing Surveys | 2024 | 2206.07579 | 242 |  |
-| A Survey on Graph Representation Learning Methods | Shima Khoshraftar et al. | ACM TIST | 2024 | 2204.01855 |  |  |
-| A Comprehensive Survey on Deep Graph Representation Learning | Wei Ju et al. | Neural Networks | 2024 | 2304.05055 |  |  |
-| Deep Learning for Time Series Classification and Extrinsic R | Navid Mohammadi Foumani e | ACM Computing Surveys | 2024 | 2302.02515 |  |  |
-| Large Language Models on Graphs: A Comprehensive Survey | Bowen Jin et al. | IEEE TKDE | 2024 | 2312.02783 |  | PeterGriffinJin/Awesome-Language-Model-on-Graphs |
-| Educational data mining and learning analytics: An updated s | Cristobal Romero et al. | WIREs Data Mining and Knowledge Discovery | 2024 | 2402.07956 |  |  |
-| Concept Drift Adaptation in Text Stream Mining Settings: A S | Cristiano Mesquita Garcia | ACM TIST | 2024 | 2312.02901 |  |  |
-| A Comprehensive Survey on Graph Anomaly Detection with Deep  | Xiaoxiao Ma et al. | IEEE TKDE | 2023 | 2106.07178 |  |  |
-| Graph Anomaly Detection in Time Series: A Survey | Thi Kieu Khanh Ho et al. | IEEE TPAMI | 2023 | 2302.00058 |  |  |
-| Advances in Process Optimization: A Comprehensive Survey of  | Asjad Khan et al. | arXiv | 2023 | 2301.10398 |  |  |
-| A Comprehensive Survey on Deep Learning Techniques in Educat | Yuanguo Lin et al. | arXiv | 2023 | 2309.04761 |  |  |
-| Influence Maximization in Social Networks: A Survey | Hui Li et al. | arXiv | 2023 | 2309.04668 |  |  |
-| Spatiotemporal Data Mining: A Survey | Arun Sharma et al. | arXiv | 2022 | 2206.12753 |  |  |
-| A Survey on Explainable Anomaly Detection | Zhong Li et al. | ACM TKDD | 2022 | 2210.06959 |  |  |
-| Deep Learning for Predictive Business Process Monitoring: Re | Efren Rama-Maneiro et al. | IEEE TSC | 2020 | 2009.13251 |  |  |
-| Deep Learning for Time Series Classification: A Review | Hassan Ismail Fawaz et al | Data Mining and Knowledge Discovery | 2019 | 1809.04356 |  |  |
-| Automatic Rumor Detection on Microblogs: A Survey | Juan Cao et al. | arXiv | 2018 | 1807.03505 |  |  |
+| A Comprehensive Survey on Deep Clustering: Taxonomy, Challen | Sheng Zhou et al. | ACM Computing Surveys | 2024 | 2206.07579 | 245 |  |
+| A Survey on Explainable Anomaly Detection | Zhong Li et al. | ACM TKDD | 2022 | 2210.06959 | 213 |  |
+| Deep Learning for Predictive Business Process Monitoring: Re | Efren Rama-Maneiro et al. | IEEE TSC | 2020 | 2009.13251 | 146 |  |
+| Automatic Rumor Detection on Microblogs: A Survey | Juan Cao et al. | arXiv | 2018 | 1807.03505 | 91 |  |
+| A Comprehensive Survey on Deep Learning Techniques in Educat | Yuanguo Lin et al. | arXiv | 2023 | 2309.04761 | 76 |  |
+| Graph Anomaly Detection in Time Series: A Survey | Thi Kieu Khanh Ho et al. | IEEE TPAMI | 2023 | 2302.00058 | 49 |  |
+| Concept Drift Adaptation in Text Stream Mining Settings: A S | Cristiano Mesquita Garcia | ACM TIST | 2024 | 2312.02901 | 21 |  |
+| Influence Maximization in Social Networks: A Survey | Hui Li et al. | arXiv | 2023 | 2309.04668 | 12 |  |
+| Spatiotemporal Data Mining: A Survey | Arun Sharma et al. | arXiv | 2022 | 2206.12753 | 11 |  |
+| Advances in Process Optimization: A Comprehensive Survey of  | Asjad Khan et al. | arXiv | 2023 | 2301.10398 | 2 |  |
 | Learning from Class-Imbalanced Data: Review of Methods and A | Guo Haixiang et al. | Expert Systems with Applications | 2017 |  |  |  |
-| A Survey of Heterogeneous Information Network Analysis | Chuan Shi et al. | IEEE TKDE | 2017 | 1511.04854 |  |  |
-| A Brief Survey of Text Mining: Classification, Clustering an | Mehdi Allahyari et al. | arXiv | 2017 | 1707.02919 |  |  |
 | A Survey on Concept Drift Adaptation | João Gama et al. | ACM Computing Surveys | 2014 |  |  |  |
 | A Survey on Unsupervised Outlier Detection in High-Dimension | Arthur Zimek et al. | Statistical Analysis and Data Mining | 2012 |  |  |  |
 | Anomaly Detection: A Survey | Varun Chandola et al. | ACM Computing Surveys | 2009 |  |  |  |
@@ -977,131 +977,131 @@
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Survey of Learned Indexes for the Multi-dimensional Space | Abdullah Al-Mamun et al. | arXiv | 2024 | 2403.06456 |  |  |
-| How Good Are Multi-dimensional Learned Indices? An Experimen | Qiyu Liu et al. | arXiv | 2024 | 2405.05536 |  |  |
-| Survey of Vector Database Management Systems | James Jie Pan et al. | The VLDB Journal | 2024 | 2310.14021 |  |  |
-| Next-Generation Database Interfaces: A Survey of LLM-based T | Zijin Hong et al. | arXiv | 2024 | 2406.08426 |  |  |
-| A Comprehensive Survey on Vector Database: Storage and Retri | Le Ma et al. | arXiv | 2023 | 2310.11703 |  |  |
-| A Survey on Data Pricing: from Economics to Data Science | Jian Pei | IEEE TKDE | 2022 | 2009.04462 |  |  |
-| The Serverless Computing Survey: A Technical Primer for Desi | Zijun Li et al. | ACM Computing Surveys | 2022 | 2112.12921 |  |  |
-| A Survey on Text-to-SQL Parsing: Concepts, Methods, and Futu | Bowen Qin et al. | arXiv | 2022 | 2208.13629 |  |  |
-| Deep Learning Driven Natural Languages Text to SQL Query Con | Ayush Kumar et al. | arXiv | 2022 | 2208.04415 |  |  |
-| A Survey on Advancing the DBMS Query Optimizer: Cardinality, | Hai Lan et al. | Data Science and Engineering | 2021 | 2101.01507 |  |  |
-| End-to-End Entity Resolution for Big Data: A Survey | Vassilis Christophides et | ACM Computing Surveys | 2021 | 1905.06397 |  |  |
-| A Comprehensive Survey and Experimental Comparison of Graph- | Mengzhao Wang et al. | PVLDB | 2021 | 2101.12631 |  | Lsyhprum/WEAVESS |
-| Are We Ready For Learned Cardinality Estimation? | Xiaoying Wang et al. | VLDB | 2021 | 2012.06743 |  |  |
-| Data Lakes: A Survey of Functions and Systems | Rihan Hai et al. | IEEE TKDE | 2021 | 2106.09592 |  |  |
-| Neural Networks for Entity Matching: A Survey | Nils Barlaug et al. | ACM TKDD | 2021 | 2010.11075 |  |  |
-| Time Series Management Systems: A Survey | Soren Kejser Jensen et al | IEEE TKDE | 2017 | 1710.01077 |  |  |
+| A Comprehensive Survey and Experimental Comparison of Graph- | Mengzhao Wang et al. | PVLDB | 2021 | 2101.12631 | 417 | Lsyhprum/WEAVESS |
+| Next-Generation Database Interfaces: A Survey of LLM-based T | Zijin Hong et al. | arXiv | 2024 | 2406.08426 | 292 |  |
+| Survey of Vector Database Management Systems | James Jie Pan et al. | The VLDB Journal | 2024 | 2310.14021 | 225 |  |
+| The Serverless Computing Survey: A Technical Primer for Desi | Zijun Li et al. | ACM Computing Surveys | 2022 | 2112.12921 | 221 |  |
+| Time Series Management Systems: A Survey | Soren Kejser Jensen et al | IEEE TKDE | 2017 | 1710.01077 | 215 |  |
+| A Survey on Data Pricing: from Economics to Data Science | Jian Pei | IEEE TKDE | 2022 | 2009.04462 | 185 |  |
+| Are We Ready For Learned Cardinality Estimation? | Xiaoying Wang et al. | VLDB | 2021 | 2012.06743 | 166 |  |
+| Neural Networks for Entity Matching: A Survey | Nils Barlaug et al. | ACM TKDD | 2021 | 2010.11075 | 161 |  |
+| A Comprehensive Survey on Vector Database: Storage and Retri | Le Ma et al. | arXiv | 2023 | 2310.11703 | 149 |  |
+| Data Lakes: A Survey of Functions and Systems | Rihan Hai et al. | IEEE TKDE | 2021 | 2106.09592 | 134 |  |
+| A Survey on Advancing the DBMS Query Optimizer: Cardinality, | Hai Lan et al. | Data Science and Engineering | 2021 | 2101.01507 | 127 |  |
+| A Survey on Text-to-SQL Parsing: Concepts, Methods, and Futu | Bowen Qin et al. | arXiv | 2022 | 2208.13629 | 110 |  |
+| End-to-End Entity Resolution for Big Data: A Survey | Vassilis Christophides et | ACM Computing Surveys | 2021 | 1905.06397 | 70 |  |
+| A Survey of Learned Indexes for the Multi-dimensional Space | Abdullah Al-Mamun et al. | arXiv | 2024 | 2403.06456 | 34 |  |
+| Deep Learning Driven Natural Languages Text to SQL Query Con | Ayush Kumar et al. | arXiv | 2022 | 2208.04415 | 29 |  |
+| How Good Are Multi-dimensional Learned Indices? An Experimen | Qiyu Liu et al. | arXiv | 2024 | 2405.05536 | 9 |  |
 | Data Cleaning: Overview and Emerging Challenges | Xu Chu et al. | SIGMOD | 2016 |  |  |  |
 
 ### 🔍 情報検索 (IR)
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Deep Look into Neural Ranking Models for Information Retri | Jiafeng Guo et al. | Information Processing & Management | 2019 | 1903.06902 | 392 |  |
-| Information Retrieval: Recent Advances and Beyond | Kailash A. Hambarde et al | IEEE Access | 2023 | 2301.08801 | 181 |  |
-| Large Language Model for Table Processing: A Survey | Weizheng Lu et al. | Frontiers of Computer Science | 2024 | 2402.05121 | 125 |  |
-| A Survey of Conversational Search | Fengran Mo et al. | ACM TOIS | 2025 | 2410.15576 |  |  |
-| A Survey of Generative Information Retrieval | Tianyu Li et al. | ACM TOIS | 2025 | 2406.01197 |  | RUC-NLPIR/GenIR-Survey |
-| Bridging Language Gaps: Advances in Cross-Lingual Informatio | Roksana Goworek et al. | arXiv | 2025 | 2510.00908 |  |  |
-| A Survey of Model Architectures in Information Retrieval | Zhichao Xu et al. | arXiv | 2025 | 2502.14822 |  |  |
-| Dense Text Retrieval based on Pretrained Language Models: A  | Wayne Xin Zhao et al. | ACM TOIS | 2024 | 2211.14876 |  | RUCAIBox/DenseRetrieval |
-| Retrieval-Augmented Generation for Large Language Models: A  | Yunfan Gao et al. | arXiv | 2024 | 2312.10997 |  | Tongji-KGLLM/RAG-Survey |
-| Conversational Information Seeking | Hamed Zamani et al. | Foundations and Trends in Information Retrieval | 2023 | 2201.08808 |  |  |
-| Pre-training Methods in Information Retrieval | Yixing Fan et al. | Foundations and Trends in Information Retrieval | 2022 | 2111.13853 |  |  |
-| A Survey on Retrieval-Augmented Text Generation | Huayang Li et al. | arXiv | 2022 | 2202.01110 |  |  |
-| Explainable Information Retrieval: A Survey | Avishek Anand et al. | arXiv | 2022 | 2211.02405 |  |  |
-| Pretrained Transformers for Text Ranking: BERT and Beyond | Jimmy Lin et al. | Synthesis Lectures (Morgan & Claypool) | 2021 | 2010.06467 |  |  |
+| Retrieval-Augmented Generation for Large Language Models: A  | Yunfan Gao et al. | arXiv | 2024 | 2312.10997 | 4207 | Tongji-KGLLM/RAG-Survey |
+| Pretrained Transformers for Text Ranking: BERT and Beyond | Jimmy Lin et al. | Synthesis Lectures (Morgan & Claypool) | 2021 | 2010.06467 | 804 |  |
+| A Deep Look into Neural Ranking Models for Information Retri | Jiafeng Guo et al. | Information Processing & Management | 2019 | 1903.06902 | 394 |  |
+| Dense Text Retrieval based on Pretrained Language Models: A  | Wayne Xin Zhao et al. | ACM TOIS | 2024 | 2211.14876 | 357 | RUCAIBox/DenseRetrieval |
+| A Comprehensive Survey on Cross-modal Retrieval | Kaiye Wang et al. | arXiv | 2016 | 1607.06215 | 334 |  |
+| A Survey on Retrieval-Augmented Text Generation | Huayang Li et al. | arXiv | 2022 | 2202.01110 | 307 |  |
+| Information Retrieval: Recent Advances and Beyond | Kailash A. Hambarde et al | IEEE Access | 2023 | 2301.08801 | 183 |  |
+| Conversational Information Seeking | Hamed Zamani et al. | Foundations and Trends in Information Retrieval | 2023 | 2201.08808 | 147 |  |
+| Large Language Model for Table Processing: A Survey | Weizheng Lu et al. | Frontiers of Computer Science | 2024 | 2402.05121 | 127 |  |
+| A Survey of Conversational Search | Fengran Mo et al. | ACM TOIS | 2025 | 2410.15576 | 76 |  |
+| Explainable Information Retrieval: A Survey | Avishek Anand et al. | arXiv | 2022 | 2211.02405 | 41 |  |
+| A Survey of Model Architectures in Information Retrieval | Zhichao Xu et al. | arXiv | 2025 | 2502.14822 | 36 |  |
+| Pre-training Methods in Information Retrieval | Yixing Fan et al. | Foundations and Trends in Information Retrieval | 2022 | 2111.13853 | 15 |  |
+| Bridging Language Gaps: Advances in Cross-Lingual Informatio | Roksana Goworek et al. | arXiv | 2025 | 2510.00908 | 10 |  |
+| A Survey of Generative Information Retrieval | Tianyu Li et al. | ACM TOIS | 2025 | 2406.01197 | 7 | RUC-NLPIR/GenIR-Survey |
 | An Introduction to Neural Information Retrieval | Bhaskar Mitra et al. | Foundations and Trends in Information Retrieval | 2018 |  |  |  |
-| A Comprehensive Survey on Cross-modal Retrieval | Kaiye Wang et al. | arXiv | 2016 | 1607.06215 |  |  |
 | Learning to Rank for Information Retrieval | Tie-Yan Liu | Foundations and Trends in Information Retrieval | 2009 |  |  |  |
 
 ### 🛒 推薦システム
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Survey on LLM-powered Agents for Recommender Systems | Qiyao Peng et al. | arXiv preprint | 2025 | 2502.10050 | 80 |  |
+| Graph Neural Networks in Recommender Systems: A Survey | Shiwen Wu et al. | ACM Computing Surveys | 2022 | 2011.02260 | 1922 | wusw14/GNN-in-RS |
+| Deep Learning based Recommender System: A Survey and New Per | Shuai Zhang et al. | ACM Computing Surveys | 2019 | 1707.07435 | 1369 |  |
+| Explainable Recommendation: A Survey and New Perspectives | Yongfeng Zhang et al. | Foundations and Trends in Information Retrieval | 2020 | 1804.11192 | 1232 |  |
+| A Survey on Large Language Models for Recommendation | Likang Wu et al. | World Wide Web Journal | 2024 | 2305.19860 | 1016 |  |
+| Bias and Debias in Recommender System: A Survey and Future D | Jiawei Chen et al. | ACM TOIS | 2023 | 2010.03240 | 973 | jiawei-chen/RecDebiasing |
+| Sequential Recommender Systems: Challenges, Progress and Pro | Shoujin Wang et al. | IJCAI | 2019 | 2001.04830 | 541 |  |
+| A Survey on the Fairness of Recommender Systems | Yifan Wang et al. | ACM TOIS | 2023 | 2206.03761 | 491 |  |
+| Self-Supervised Learning for Recommender Systems: A Survey | Junliang Yu et al. | IEEE TKDE | 2024 | 2203.15876 | 462 | Coder-Yu/SELFRec |
+| Advances and Challenges in Conversational Recommender System | Chongming Gao et al. | AI Open | 2021 | 2101.09459 | 394 |  |
+| Cross-Domain Recommendation: Challenges, Progress, and Prosp | Feng Zhu et al. | IJCAI | 2021 | 2103.01696 | 314 |  |
+| Graph Learning based Recommender Systems: A Review | Shoujin Wang et al. | IJCAI | 2021 | 2105.06339 | 253 |  |
+| Multimodal Recommender Systems: A Survey | Qidong Liu et al. | ACM Computing Surveys | 2024 | 2302.03883 | 214 |  |
+| Deep Learning for Click-Through Rate Estimation | Weinan Zhang et al. | IJCAI | 2021 | 2104.10584 | 137 |  |
+| AutoML for Deep Recommender Systems: A Survey | Ruiqi Zheng et al. | ACM TOIS | 2023 | 2203.13922 | 103 |  |
+| A Survey on LLM-powered Agents for Recommender Systems | Qiyao Peng et al. | arXiv preprint | 2025 | 2502.10050 | 85 |  |
+| A Comprehensive Survey on Multimodal Recommender Systems: Ta | Hongyu Zhou et al. | arXiv | 2023 | 2302.04473 | 76 |  |
+| A Survey of Deep Reinforcement Learning in Recommender Syste | Xiaocong Chen et al. | arXiv | 2021 | 2109.03540 | 75 |  |
+| Cold-Start Recommendation towards the Era of Large Language  | Weizhi Zhang et al. | arXiv | 2025 | 2501.01945 | 65 | YuanchenBei/Awesome-Cold-Start-Recommendation |
+| Deep Learning for Sequential Recommendation: Algorithms, Inf | Hui Fang et al. | ACM TOIS | 2020 | 1905.01997 | 47 |  |
 | A Survey on Generative Recommendation: Data, Model, and Task | Min Hou et al. | arXiv preprint | 2025 | 2510.27157 | 28 |  |
-| Cold-Start Recommendation towards the Era of Large Language  | Weizhi Zhang et al. | arXiv | 2025 | 2501.01945 |  | YuanchenBei/Awesome-Cold-Start-Recommendation |
-| A Survey on Large Language Models for Recommendation | Likang Wu et al. | World Wide Web Journal | 2024 | 2305.19860 |  |  |
-| Self-Supervised Learning for Recommender Systems: A Survey | Junliang Yu et al. | IEEE TKDE | 2024 | 2203.15876 |  | Coder-Yu/SELFRec |
-| Multimodal Recommender Systems: A Survey | Qidong Liu et al. | ACM Computing Surveys | 2024 | 2302.03883 |  |  |
-| Foundation Models for Recommender Systems: A Survey and New  | Chengkai Huang et al. | arXiv | 2024 | 2402.11143 |  |  |
-| Bias and Debias in Recommender System: A Survey and Future D | Jiawei Chen et al. | ACM TOIS | 2023 | 2010.03240 |  | jiawei-chen/RecDebiasing |
-| A Survey on the Fairness of Recommender Systems | Yifan Wang et al. | ACM TOIS | 2023 | 2206.03761 |  |  |
-| AutoML for Deep Recommender Systems: A Survey | Ruiqi Zheng et al. | ACM TOIS | 2023 | 2203.13922 |  |  |
-| A Comprehensive Survey on Multimodal Recommender Systems: Ta | Hongyu Zhou et al. | arXiv | 2023 | 2302.04473 |  |  |
-| Graph Neural Networks in Recommender Systems: A Survey | Shiwen Wu et al. | ACM Computing Surveys | 2022 | 2011.02260 |  | wusw14/GNN-in-RS |
-| Graph Learning based Recommender Systems: A Review | Shoujin Wang et al. | IJCAI | 2021 | 2105.06339 |  |  |
-| Deep Learning for Click-Through Rate Estimation | Weinan Zhang et al. | IJCAI | 2021 | 2104.10584 |  |  |
-| Advances and Challenges in Conversational Recommender System | Chongming Gao et al. | AI Open | 2021 | 2101.09459 |  |  |
-| A Survey of Deep Reinforcement Learning in Recommender Syste | Xiaocong Chen et al. | arXiv | 2021 | 2109.03540 |  |  |
-| Cross-Domain Recommendation: Challenges, Progress, and Prosp | Feng Zhu et al. | IJCAI | 2021 | 2103.01696 |  |  |
-| Deep Learning for Sequential Recommendation: Algorithms, Inf | Hui Fang et al. | ACM TOIS | 2020 | 1905.01997 |  |  |
-| Explainable Recommendation: A Survey and New Perspectives | Yongfeng Zhang et al. | Foundations and Trends in Information Retrieval | 2020 | 1804.11192 |  |  |
-| Deep Learning based Recommender System: A Survey and New Per | Shuai Zhang et al. | ACM Computing Surveys | 2019 | 1707.07435 |  |  |
-| Sequential Recommender Systems: Challenges, Progress and Pro | Shoujin Wang et al. | IJCAI | 2019 | 2001.04830 |  |  |
+| Foundation Models for Recommender Systems: A Survey and New  | Chengkai Huang et al. | arXiv | 2024 | 2402.11143 | 18 |  |
 
 ### 🌐 Web・ソーシャル
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Survey of Graph Neural Networks for Social Recommender Sys | Kartik Sharma et al. | ACM Computing Surveys | 2022 | 2212.04481 | 331 |  |
+| Fake News Detection on Social Media: A Data Mining Perspecti | Kai Shu et al. | ACM SIGKDD Explorations | 2017 | 1708.01967 | 3435 |  |
+| A Comprehensive Survey on Community Detection with Deep Lear | Xing Su et al. | IEEE TNNLS | 2024 | 2105.12584 | 476 |  |
+| A Survey of Graph Neural Networks for Social Recommender Sys | Kartik Sharma et al. | ACM Computing Surveys | 2022 | 2212.04481 | 333 |  |
+| Combating Misinformation in the Age of LLMs: Opportunities a | Canyu Chen et al. | AI Magazine | 2024 | 2311.05656 | 234 | llm-misinformation/llm-misinformation-survey |
+| Towards generalisable hate speech detection: a review on obs | Wenjie Yin et al. | PeerJ Computer Science | 2021 | 2102.08886 | 218 |  |
+| Fairness and Diversity in Recommender Systems: A Survey | Yuying Zhao et al. | ACM TIST | 2023 | 2307.04644 | 156 |  |
+| A Survey on Fairness-aware Recommender Systems | Di Jin et al. | Information Fusion | 2023 | 2306.00403 | 97 |  |
 | A Survey on Expert Recommendation in Community Question Answ | Xianzhi Wang et al. | Journal of Computer Science and Technology | 2018 | 1807.05540 | 75 |  |
 | Web Table Extraction, Retrieval and Augmentation: A Survey | Shuo Zhang et al. | ACM TIST | 2020 | 2002.00207 | 69 |  |
+| Data-driven Computational Social Science: A Survey | Bin Zhao et al. | Big Data Research | 2021 | 2008.12372 | 68 |  |
 | A Technical Survey on Statistical Modelling and Design Metho | Yuan Jin et al. | Artificial Intelligence | 2018 | 1812.02736 | 43 |  |
+| Fake News Detection Through Graph-based Neural Networks: A S | Shuzhi Gong et al. | arXiv | 2023 | 2307.12639 | 29 |  |
 | Toxic Memes: A Survey of Computational Perspectives on the D | Delfina Sol Martinez Pand | arXiv | 2024 | 2406.07353 | 27 |  |
 | Detection of Rumors and Their Sources in Social Networks: A  | Otabek Sattarov et al. | arXiv | 2025 | 2501.05292 | 16 |  |
 | Toxicity in Online Platforms and AI Systems: A Survey of Nee | Smita Khapre et al. | arXiv | 2025 | 2509.25539 | 11 |  |
-| Heterogeneity in Entity Matching: A Survey and Experimental  | Mohammad Hossein Moslemi  | arXiv | 2025 | 2508.08076 | 8 |  |
+| A Survey on Automatic Online Hate Speech Detection in Low-Re | Susmita Das et al. | arXiv | 2024 | 2411.19017 | 10 |  |
+| Heterogeneity in Entity Matching: A Survey and Experimental  | Mohammad Hossein Moslemi  | arXiv | 2025 | 2508.08076 | 9 |  |
 | Social Bots: Detection and Challenges | Kai-Cheng Yang et al. | Handbook of Computational Social Science | 2023 | 2312.17423 | 8 |  |
+| Social Media Bot Detection Research: Review of Literature | Blaž Rodič et al. | arXiv | 2025 | 2503.22838 | 2 |  |
 | Quality Control in Open-Ended Crowdsourcing: A Survey | Lei Chai et al. | arXiv | 2024 | 2412.03991 | 1 |  |
-| Social Media Bot Detection Research: Review of Literature | Blaž Rodič et al. | arXiv | 2025 | 2503.22838 |  |  |
-| A Comprehensive Survey on Community Detection with Deep Lear | Xing Su et al. | IEEE TNNLS | 2024 | 2105.12584 |  |  |
-| Combating Misinformation in the Age of LLMs: Opportunities a | Canyu Chen et al. | AI Magazine | 2024 | 2311.05656 |  | llm-misinformation/llm-misinformation-survey |
-| A Survey on Automatic Online Hate Speech Detection in Low-Re | Susmita Das et al. | arXiv | 2024 | 2411.19017 |  |  |
-| Fake News Detection Through Graph-based Neural Networks: A S | Shuzhi Gong et al. | arXiv | 2023 | 2307.12639 |  |  |
 | A Survey of Link Prediction Algorithms | Vivian Feng et al. | arXiv | 2023 | 2306.12970 |  |  |
-| A Survey on Fairness-aware Recommender Systems | Di Jin et al. | Information Fusion | 2023 | 2306.00403 |  |  |
-| Fairness and Diversity in Recommender Systems: A Survey | Yuying Zhao et al. | ACM TIST | 2023 | 2307.04644 |  |  |
-| Data-driven Computational Social Science: A Survey | Bin Zhao et al. | Big Data Research | 2021 | 2008.12372 |  |  |
-| Towards generalisable hate speech detection: a review on obs | Wenjie Yin et al. | PeerJ Computer Science | 2021 | 2102.08886 |  |  |
-| Fake News Detection on Social Media: A Data Mining Perspecti | Kai Shu et al. | ACM SIGKDD Explorations | 2017 | 1708.01967 |  |  |
 
 ### 🛡️ 信頼できるAI (公平性・XAI・安全性)
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Towards A Rigorous Science of Interpretable Machine Learning | Finale Doshi-Velez et al. | arXiv | 2017 | 1702.08608 | 5596 |  |
-| A Survey of Methods for Explaining Black Box Models | Riccardo Guidotti et al. | ACM Computing Surveys | 2018 | 1802.01933 | 5346 |  |
-| Concrete Problems in AI Safety | Dario Amodei et al. | arXiv | 2016 | 1606.06565 | 3491 |  |
-| Adversarial Examples: Attacks and Defenses for Deep Learning | Xiaoyong Yuan et al. | IEEE TNNLS | 2017 | 1712.07107 | 1855 |  |
-| DeepFakes and Beyond: A Survey of Face Manipulation and Fake | Ruben Tolosana et al. | Information Fusion | 2020 | 2001.00179 | 1183 |  |
-| Interpretable Machine Learning: Fundamental Principles and 1 | Cynthia Rudin et al. | Statistics Surveys | 2021 | 2103.11251 | 1056 |  |
-| A Survey on the Explainability of Supervised Machine Learnin | Nadia Burkart et al. | JAIR | 2021 | 2011.07876 | 993 |  |
-| The Creation and Detection of Deepfakes: A Survey | Yisroel Mirsky et al. | ACM Computing Surveys | 2020 | 2004.11138 | 965 |  |
-| Backdoor Learning: A Survey | Yiming Li et al. | IEEE TNNLS | 2020 | 2007.08745 | 890 |  |
+| Towards A Rigorous Science of Interpretable Machine Learning | Finale Doshi-Velez et al. | arXiv | 2017 | 1702.08608 | 5635 |  |
+| A Survey of Methods for Explaining Black Box Models | Riccardo Guidotti et al. | ACM Computing Surveys | 2018 | 1802.01933 | 5388 |  |
+| Concrete Problems in AI Safety | Dario Amodei et al. | arXiv | 2016 | 1606.06565 | 3515 |  |
+| Adversarial Examples: Attacks and Defenses for Deep Learning | Xiaoyong Yuan et al. | IEEE TNNLS | 2017 | 1712.07107 | 1857 |  |
+| DeepFakes and Beyond: A Survey of Face Manipulation and Fake | Ruben Tolosana et al. | Information Fusion | 2020 | 2001.00179 | 1191 |  |
+| Interpretable Machine Learning: Fundamental Principles and 1 | Cynthia Rudin et al. | Statistics Surveys | 2021 | 2103.11251 | 1060 |  |
+| A Survey on the Explainability of Supervised Machine Learnin | Nadia Burkart et al. | JAIR | 2021 | 2011.07876 | 996 |  |
+| The Creation and Detection of Deepfakes: A Survey | Yisroel Mirsky et al. | ACM Computing Surveys | 2020 | 2004.11138 | 975 |  |
+| Backdoor Learning: A Survey | Yiming Li et al. | IEEE TNNLS | 2020 | 2007.08745 | 894 |  |
 | Opportunities and Challenges in Explainable Artificial Intel | Arun Das et al. | arXiv | 2020 | 2006.11371 | 796 |  |
-| From Anecdotal Evidence to Quantitative Evaluation Methods:  | Meike Nauta et al. | ACM Computing Surveys | 2022 | 2201.08164 | 771 |  |
-| Adversarial Attacks and Defenses in Images, Graphs and Text: | Han Xu et al. | IJAC | 2019 | 1909.08072 | 769 |  |
-| Membership Inference Attacks on Machine Learning: A Survey | Hongsheng Hu et al. | ACM Computing Surveys | 2021 | 2103.07853 | 741 |  |
-| One Explanation Does Not Fit All: A Toolkit and Taxonomy of  | Vijay Arya et al. | arXiv | 2019 | 1909.03012 | 486 |  |
-| The Frontiers of Fairness in Machine Learning | Alexandra Chouldechova et | arXiv | 2018 | 1810.08810 | 446 |  |
+| From Anecdotal Evidence to Quantitative Evaluation Methods:  | Meike Nauta et al. | ACM Computing Surveys | 2022 | 2201.08164 | 783 |  |
+| Adversarial Attacks and Defenses in Images, Graphs and Text: | Han Xu et al. | IJAC | 2019 | 1909.08072 | 771 |  |
+| Membership Inference Attacks on Machine Learning: A Survey | Hongsheng Hu et al. | ACM Computing Surveys | 2021 | 2103.07853 | 744 |  |
+| One Explanation Does Not Fit All: A Toolkit and Taxonomy of  | Vijay Arya et al. | arXiv | 2019 | 1909.03012 | 487 |  |
+| The Frontiers of Fairness in Machine Learning | Alexandra Chouldechova et | arXiv | 2018 | 1810.08810 | 448 |  |
+| Counterfactual Explanations and Algorithmic Recourses for Ma | Sahil Verma et al. | ACM Computing Surveys | 2020 | 2010.10596 | 365 |  |
 | A Survey of Privacy Attacks in Machine Learning | Maria Rigaki et al. | ACM Computing Surveys | 2020 | 2007.07646 | 365 |  |
-| Counterfactual Explanations and Algorithmic Recourses for Ma | Sahil Verma et al. | ACM Computing Surveys | 2020 | 2010.10596 | 361 |  |
-| Bias Mitigation for Machine Learning Classifiers: A Comprehe | Max Hort et al. | ACM JRC | 2022 | 2207.07068 | 314 |  |
-| Worldwide AI Ethics: a review of 200 guidelines and recommen | Nicholas Kluge Correa et  | Patterns | 2022 | 2206.11922 | 300 |  |
+| Bias Mitigation for Machine Learning Classifiers: A Comprehe | Max Hort et al. | ACM JRC | 2022 | 2207.07068 | 316 |  |
+| Worldwide AI Ethics: a review of 200 guidelines and recommen | Nicholas Kluge Correa et  | Patterns | 2022 | 2206.11922 | 304 |  |
 | Differential Privacy and Machine Learning: a Survey and Revi | Zhanglong Ji et al. | arXiv | 2014 | 1412.7584 | 300 |  |
-| Backdoor Attacks and Countermeasures on Deep Learning: A Com | Yansong Gao et al. | arXiv | 2020 | 2007.10760 | 296 |  |
-| Wild Patterns Reloaded: A Survey of Machine Learning Securit | Antonio Emanuele Cina et  | ACM Computing Surveys | 2022 | 2205.01992 | 223 |  |
-| Privacy-Preserving Machine Learning: Methods, Challenges and | Runhua Xu et al. | arXiv | 2021 | 2108.04417 | 175 |  |
-| Against The Achilles' Heel: A Survey on Red Teaming for Gene | Lizhi Lin et al. | arXiv preprint | 2024 | 2404.00629 | 67 |  |
+| Backdoor Attacks and Countermeasures on Deep Learning: A Com | Yansong Gao et al. | arXiv | 2020 | 2007.10760 | 297 |  |
+| Wild Patterns Reloaded: A Survey of Machine Learning Securit | Antonio Emanuele Cina et  | ACM Computing Surveys | 2022 | 2205.01992 | 227 |  |
+| Privacy-Preserving Machine Learning: Methods, Challenges and | Runhua Xu et al. | arXiv | 2021 | 2108.04417 | 177 |  |
+| Against The Achilles' Heel: A Survey on Red Teaming for Gene | Lizhi Lin et al. | arXiv preprint | 2024 | 2404.00629 | 69 |  |
 | Machine Unlearning in Generative AI: A Survey | Zheyuan Liu et al. | arXiv preprint | 2024 | 2407.20516 | 67 | franciscoliu/Awesome-GenAI-Unlearning |
-| Machine Unlearning: A Comprehensive Survey | Weiqi Wang et al. | arXiv preprint | 2024 | 2405.07406 | 62 |  |
+| Machine Unlearning: A Comprehensive Survey | Weiqi Wang et al. | arXiv preprint | 2024 | 2405.07406 | 63 |  |
 | Towards Possibilities & Impossibilities of AI-generated Text | Soumya Suvra Ghosal et al | arXiv preprint | 2023 | 2310.15264 | 59 |  |
 | A Survey of AI-generated Text Forensic Systems: Detection, A | Tharindu Kumarage et al. | arXiv preprint | 2024 | 2403.01152 | 37 |  |
-| Are AI Detectors Good Enough? A Survey on Quality of Dataset | German Gritsai et al. | arXiv preprint | 2024 | 2410.14677 | 21 |  |
+| Are AI Detectors Good Enough? A Survey on Quality of Dataset | German Gritsai et al. | arXiv preprint | 2024 | 2410.14677 | 22 |  |
 | Building Safe GenAI Applications: An End-to-End Overview of  | Alberto Purpura et al. | arXiv preprint | 2025 | 2503.01742 | 20 |  |
 | Watermarking for AI Content Detection: A Review on Text, Vis | Lele Cao et al. | ICLR 2025 Workshop (GenAI Watermarking) | 2025 | 2504.03765 | 11 |  |
 
@@ -1109,107 +1109,107 @@
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Advances and Open Problems in Federated Learning | Peter Kairouz et al. | FnT in ML | 2019 | 1912.04977 | 9636 |  |
-| Federated Learning: Challenges, Methods, and Future Directio | Tian Li et al. | IEEE Signal Processing Magazine | 2019 | 1908.07873 | 6451 |  |
-| Federated Learning: Strategies for Improving Communication E | Jakub Konecny et al. | NeurIPS Workshop | 2016 | 1610.05492 | 5645 |  |
-| Federated Learning on Non-IID Data: A Survey | Hangyu Zhu et al. | Neurocomputing | 2021 | 2106.06843 | 1448 |  |
-| Towards Personalized Federated Learning | Alysa Ziying Tan et al. | IEEE TNNLS | 2021 | 2103.00710 | 1366 |  |
-| Threats to Federated Learning: A Survey | Lingjuan Lyu et al. | arXiv | 2020 | 2003.02133 | 565 |  |
-| Federated Learning for Medical Image Analysis: A Survey | Hao Guan et al. | Pattern Recognition | 2024 | 2306.05980 | 489 |  |
-| Asynchronous Federated Learning on Heterogeneous Devices: A  | Chenhao Xu et al. | arXiv | 2021 | 2109.04269 | 405 |  |
-| Federated Learning for Generalization, Robustness, Fairness: | Wenke Huang et al. | IEEE TPAMI | 2023 | 2311.06750 | 287 |  |
+| Advances and Open Problems in Federated Learning | Peter Kairouz et al. | FnT in ML | 2019 | 1912.04977 | 9705 |  |
+| Federated Learning: Challenges, Methods, and Future Directio | Tian Li et al. | IEEE Signal Processing Magazine | 2019 | 1908.07873 | 6493 |  |
+| Federated Learning: Strategies for Improving Communication E | Jakub Konecny et al. | NeurIPS Workshop | 2016 | 1610.05492 | 5654 |  |
+| Federated Learning on Non-IID Data: A Survey | Hangyu Zhu et al. | Neurocomputing | 2021 | 2106.06843 | 1455 |  |
+| Towards Personalized Federated Learning | Alysa Ziying Tan et al. | IEEE TNNLS | 2021 | 2103.00710 | 1376 |  |
+| Threats to Federated Learning: A Survey | Lingjuan Lyu et al. | arXiv | 2020 | 2003.02133 | 567 |  |
+| Federated Learning for Medical Image Analysis: A Survey | Hao Guan et al. | Pattern Recognition | 2024 | 2306.05980 | 498 |  |
+| Asynchronous Federated Learning on Heterogeneous Devices: A  | Chenhao Xu et al. | arXiv | 2021 | 2109.04269 | 406 |  |
+| Federated Learning for Generalization, Robustness, Fairness: | Wenke Huang et al. | IEEE TPAMI | 2023 | 2311.06750 | 292 |  |
 | A Comprehensive Survey of Incentive Mechanism for Federated  | Rongfei Zeng et al. | arXiv | 2021 | 2106.15406 | 135 |  |
 | A Survey on Heterogeneous Federated Learning | Dashan Gao et al. | arXiv | 2022 | 2210.04505 | 94 |  |
 | Federated Graph Machine Learning: A Survey of Concepts, Tech | Xingbo Fu et al. | SIGKDD Explorations | 2022 | 2207.11812 | 74 |  |
 | Decentralized Deep Learning for Multi-Access Edge Computing: | Yuwei Sun et al. | IEEE TAI | 2021 | 2108.03980 | 58 |  |
+| A Survey on Decentralized Federated Learning | Edoardo Gabrielli et al. | arXiv | 2023 | 2308.04604 | 54 |  |
 | A Survey on Vertical Federated Learning: From a Layered Pers | Liu Yang et al. | arXiv | 2023 | 2304.01829 | 52 |  |
-| A Survey on Decentralized Federated Learning | Edoardo Gabrielli et al. | arXiv | 2023 | 2308.04604 | 52 |  |
 | Non-IID data in Federated Learning: A Survey with Taxonomy,  | Daniel M. Jimenez G. et a | arXiv | 2024 | 2411.12377 | 45 |  |
-| Federated Large Language Models: Current Progress and Future | Yuhang Yao et al. | arXiv | 2024 | 2409.15723 | 43 |  |
-| A Survey on Federated Fine-tuning of Large Language Models | Yebo Wu et al. | arXiv | 2025 | 2503.12016 | 36 |  |
+| Federated Large Language Models: Current Progress and Future | Yuhang Yao et al. | arXiv | 2024 | 2409.15723 | 44 |  |
+| A Survey on Federated Fine-tuning of Large Language Models | Yebo Wu et al. | arXiv | 2025 | 2503.12016 | 39 |  |
 | A Survey on Group Fairness in Federated Learning: Challenges | Teresa Salazar et al. | arXiv | 2024 | 2410.03855 | 8 |  |
 
 ### 🖐️ HCI・ヒューマンAI
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Survey of Human-in-the-loop for Machine Learning | Xingjiao Wu et al. | Future Generation Computer Systems | 2021 | 2108.00941 | 818 |  |
-| Human-Centered Explainable AI (XAI): From Algorithms to User | Q. Vera Liao et al. | arXiv | 2021 | 2110.10790 | 361 |  |
+| A Survey of Human-in-the-loop for Machine Learning | Xingjiao Wu et al. | Future Generation Computer Systems | 2021 | 2108.00941 | 823 |  |
+| How should my chatbot interact? A survey on human-chatbot in | Ana Paula Chaves et al. | International Journal of Human-Computer Interaction | 2019 | 1904.02743 | 585 |  |
+| Human-Centered Explainable AI (XAI): From Algorithms to User | Q. Vera Liao et al. | arXiv | 2021 | 2110.10790 | 364 |  |
+| Towards Human-centered Explainable AI: A Survey of User Stud | Yao Rong et al. | IEEE TPAMI | 2022 | 2210.11584 | 284 |  |
 | A Survey of Visual Analytics Techniques for Machine Learning | Jun Yuan et al. | Computational Visual Media | 2020 | 2008.09632 | 281 |  |
-| Towards Human-centered Explainable AI: A Survey of User Stud | Yao Rong et al. | IEEE TPAMI | 2022 | 2210.11584 | 280 |  |
-| Towards a Science of Human-AI Decision Making: A Survey of E | Vivian Lai et al. | arXiv | 2021 | 2112.11471 | 255 |  |
+| Towards a Science of Human-AI Decision Making: A Survey of E | Vivian Lai et al. | arXiv | 2021 | 2112.11471 | 256 |  |
 | Quality Control in Crowdsourcing: A Survey of Quality Attrib | Florian Daniel et al. | ACM Computing Surveys | 2018 | 1801.02546 | 198 |  |
 | UX Research on Conversational Human-AI Interaction: A Litera | Qingxiao Zheng et al. | CHI | 2022 | 2202.09895 | 127 |  |
-| Generative AI and Creativity: A Systematic Literature Review | Niklas Holzner et al. | arXiv | 2025 | 2505.17241 | 32 |  |
-| A Survey on Human-AI Collaboration with Large Foundation Mod | Vanshika Vats et al. | arXiv | 2024 | 2403.04931 | 21 |  |
-| How Human-Centered Explainable AI Interface Are Designed and | Thu Nguyen et al. | arXiv | 2024 | 2403.14496 | 21 |  |
+| The Value, Benefits, and Concerns of Generative AI-Powered A | Zhuoyan Li et al. | CHI | 2024 | 2403.12004 | 125 |  |
+| Co-Writing with AI, on Human Terms: Aligning Research with U | Mohi Reza et al. | arXiv | 2025 | 2504.12488 | 59 |  |
+| Generative AI and Creativity: A Systematic Literature Review | Niklas Holzner et al. | arXiv | 2025 | 2505.17241 | 33 |  |
+| A Survey of AI Reliance | Sven Eckhardt et al. | arXiv | 2024 | 2408.03948 | 26 |  |
+| A Survey on Human-AI Collaboration with Large Foundation Mod | Vanshika Vats et al. | arXiv | 2024 | 2403.04931 | 22 |  |
+| How Human-Centered Explainable AI Interface Are Designed and | Thu Nguyen et al. | arXiv | 2024 | 2403.14496 | 22 |  |
 | Concerns and Values in Human-Robot Interactions: A Focus on  | Giulio Antonio Abbo et al | arXiv | 2025 | 2501.05628 | 15 |  |
-| Advancing Human-Machine Teaming: Concepts, Challenges, and A | Dian Chen et al. | arXiv | 2025 | 2503.16518 |  |  |
-| Co-Writing with AI, on Human Terms: Aligning Research with U | Mohi Reza et al. | arXiv | 2025 | 2504.12488 |  |  |
-| Towards Human-centered Design of Explainable Artificial Inte | Shuai Ma et al. | arXiv | 2024 | 2410.21183 |  |  |
-| A Survey of AI Reliance | Sven Eckhardt et al. | arXiv | 2024 | 2408.03948 |  |  |
-| The Value, Benefits, and Concerns of Generative AI-Powered A | Zhuoyan Li et al. | CHI | 2024 | 2403.12004 |  |  |
-| Trust, distrust, and appropriate reliance in (X)AI: a survey | Roel Visser et al. | arXiv | 2023 | 2312.02034 |  |  |
-| How should my chatbot interact? A survey on human-chatbot in | Ana Paula Chaves et al. | International Journal of Human-Computer Interaction | 2019 | 1904.02743 |  |  |
+| Trust, distrust, and appropriate reliance in (X)AI: a survey | Roel Visser et al. | arXiv | 2023 | 2312.02034 | 15 |  |
+| Towards Human-centered Design of Explainable Artificial Inte | Shuai Ma et al. | arXiv | 2024 | 2410.21183 | 11 |  |
+| Advancing Human-Machine Teaming: Concepts, Challenges, and A | Dian Chen et al. | arXiv | 2025 | 2503.16518 | 7 |  |
 
 ### 🧬 進化計算
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Tutorial on Bayesian Optimization | Peter I. Frazier et al. | arXiv | 2018 | 1807.02811 | 2511 |  |
-| A Survey on Evolutionary Neural Architecture Search | Yuqiao Liu et al. | IEEE TNNLS | 2020 | 2008.10937 | 608 |  |
-| A Review of Evolutionary Multi-modal Multi-objective Optimiz | Ryoji Tanabe et al. | IEEE TEVC | 2020 | 2009.13347 | 203 |  |
-| Neuroevolution in Deep Neural Networks: Current Trends and F | Edgar Galvan et al. | IEEE TETCI | 2020 | 2006.05415 | 178 |  |
-| Survey on Evolutionary Deep Learning: Principles, Algorithms | Nan Li et al. | ACM Computing Surveys | 2022 | 2208.10658 | 131 |  |
-| Bridging Evolutionary Algorithms and Reinforcement Learning: | Pengyi Li et al. | IEEE TEVC | 2024 | 2401.11963 | 104 |  |
+| A Tutorial on Bayesian Optimization | Peter I. Frazier et al. | arXiv | 2018 | 1807.02811 | 2526 |  |
+| A Survey on Evolutionary Neural Architecture Search | Yuqiao Liu et al. | IEEE TNNLS | 2020 | 2008.10937 | 613 |  |
+| Particle Swarm Optimization: A survey of historical and rece | Saptarshi Sengupta et al. | Machine Learning and Knowledge Extraction | 2018 | 1804.05319 | 494 |  |
+| A Review of Evolutionary Multi-modal Multi-objective Optimiz | Ryoji Tanabe et al. | IEEE TEVC | 2020 | 2009.13347 | 206 |  |
+| Neuroevolution in Deep Neural Networks: Current Trends and F | Edgar Galvan et al. | IEEE TETCI | 2020 | 2006.05415 | 180 |  |
+| Survey on Evolutionary Deep Learning: Principles, Algorithms | Nan Li et al. | ACM Computing Surveys | 2022 | 2208.10658 | 134 |  |
+| A Survey on Learnable Evolutionary Algorithms for Scalable M | Songbai Liu et al. | IEEE TEVC | 2022 | 2206.11526 | 114 |  |
+| Bridging Evolutionary Algorithms and Reinforcement Learning: | Pengyi Li et al. | IEEE TEVC | 2024 | 2401.11963 | 106 |  |
 | Evolutionary Multitask Optimization: a Methodological Overvi | Eneko Osaba et al. | Cognitive Computation | 2021 | 2102.02558 | 90 |  |
 | Combining Evolution and Deep Reinforcement Learning for Poli | Olivier Sigaud et al. | ACM TELO | 2022 | 2203.14009 | 73 |  |
-| A Survey of Decomposition-Based Evolutionary Multi-Objective | Ke Li et al. | IEEE TEVC | 2024 | 2404.14571 |  |  |
-| Quantum-Inspired Evolutionary Algorithms for Feature Subset  | Yelleti Vivek et al. | arXiv | 2024 | 2407.17946 |  |  |
-| A Survey on Learnable Evolutionary Algorithms for Scalable M | Songbai Liu et al. | IEEE TEVC | 2022 | 2206.11526 |  |  |
-| A Recent Survey on the Applications of Genetic Programming i | Asifullah Khan et al. | arXiv | 2019 | 1901.07387 |  |  |
-| Particle Swarm Optimization: A survey of historical and rece | Saptarshi Sengupta et al. | Machine Learning and Knowledge Extraction | 2018 | 1804.05319 |  |  |
+| A Recent Survey on the Applications of Genetic Programming i | Asifullah Khan et al. | arXiv | 2019 | 1901.07387 | 38 |  |
+| Quantum-Inspired Evolutionary Algorithms for Feature Subset  | Yelleti Vivek et al. | arXiv | 2024 | 2407.17946 | 30 |  |
+| A Survey of Decomposition-Based Evolutionary Multi-Objective | Ke Li et al. | IEEE TEVC | 2024 | 2404.14571 | 4 |  |
 
 ### 🔢 理論計算機科学
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
 | Convex Optimization: Algorithms and Complexity | Sébastien Bubeck | Foundations and Trends in Machine Learning | 2015 | 1405.4980 | 2159 |  |
-| Machine Learning for Combinatorial Optimization: a Methodolo | Yoshua Bengio et al. | European Journal of Operational Research | 2018 | 1811.06128 | 1946 |  |
-| Algorithms with Predictions | Michael Mitzenmacher et a | Beyond the Worst-Case Analysis of Algorithms (book chapter) | 2020 | 2006.09123 | 351 |  |
-| End-to-End Constrained Optimization Learning: A Survey | James Kotary et al. | IJCAI | 2021 | 2103.16378 | 285 |  |
-| Fairness Testing: A Comprehensive Survey and Analysis of Tre | Zhenpeng Chen et al. | ACM TOSEM | 2022 | 2207.10223 | 159 |  |
-| Fair Division of Indivisible Goods: A Survey | Georgios Amanatidis et al | IJCAI | 2022 | 2202.07551 | 100 |  |
-| A Comprehensive Survey on Spectral Clustering with Graph Str | Kamal Berahmand et al. | arXiv | 2025 | 2501.13597 | 74 |  |
-| A Survey of Distributed Optimization Methods for Multi-Robot | Trevor Halsted et al. | arXiv | 2021 | 2103.12840 | 66 |  |
-| Empirical Game-Theoretic Analysis: A Survey | Michael P. Wellman et al. | JAIR | 2025 | 2403.04018 | 47 |  |
+| Machine Learning for Combinatorial Optimization: a Methodolo | Yoshua Bengio et al. | European Journal of Operational Research | 2018 | 1811.06128 | 1962 |  |
+| Learning with Submodular Functions: A Convex Optimization Pe | Francis Bach et al. | Foundations and Trends in Machine Learning | 2013 | 1111.6453 | 533 |  |
+| Algorithms with Predictions | Michael Mitzenmacher et a | Beyond the Worst-Case Analysis of Algorithms (book chapter) | 2020 | 2006.09123 | 352 |  |
+| End-to-End Constrained Optimization Learning: A Survey | James Kotary et al. | IJCAI | 2021 | 2103.16378 | 290 |  |
+| Fairness Testing: A Comprehensive Survey and Analysis of Tre | Zhenpeng Chen et al. | ACM TOSEM | 2022 | 2207.10223 | 158 |  |
+| Fair Division of Indivisible Goods: A Survey | Georgios Amanatidis et al | IJCAI | 2022 | 2202.07551 | 101 |  |
+| A Comprehensive Survey on Spectral Clustering with Graph Str | Kamal Berahmand et al. | arXiv | 2025 | 2501.13597 | 75 |  |
+| A Survey of Distributed Optimization Methods for Multi-Robot | Trevor Halsted et al. | arXiv | 2021 | 2103.12840 | 67 |  |
+| Preference Restrictions in Computational Social Choice: A Su | Edith Elkind et al. | arXiv | 2022 | 2205.09092 | 56 |  |
+| Empirical Game-Theoretic Analysis: A Survey | Michael P. Wellman et al. | JAIR | 2025 | 2403.04018 | 49 |  |
 | Survey of Distributed Algorithms for Resource Allocation ove | Mohammadreza Doostmohamma | arXiv | 2024 | 2401.15607 | 47 |  |
 | Fair Division: The Computer Scientist's Perspective | Toby Walsh | IJCAI | 2020 | 2005.04855 | 45 |  |
+| Convex Analysis and Optimization with Submodular Functions:  | Francis Bach et al. | arXiv | 2010 | 1010.4207 | 40 |  |
+| Streaming and Sketching Complexity of CSPs: A survey | Madhu Sudan et al. | ICALP | 2022 | 2205.02744 | 11 |  |
 | Review of Mathematical Optimization in Federated Learning | Shusen Yang et al. | arXiv | 2024 | 2412.01630 | 7 |  |
 | Differentiable Convex Optimization Layers in Neural Architec | Calder Katyal et al. | arXiv | 2024 | 2412.20679 | 4 |  |
 | Differential Privacy in Machine Learning: A Survey from Symb | Francisco Aguilera-Martín | arXiv | 2025 | 2506.11687 | 3 |  |
-| Streaming and Sketching Complexity of CSPs: A survey | Madhu Sudan et al. | ICALP | 2022 | 2205.02744 |  |  |
-| Preference Restrictions in Computational Social Choice: A Su | Edith Elkind et al. | arXiv | 2022 | 2205.09092 |  |  |
-| Learning with Submodular Functions: A Convex Optimization Pe | Francis Bach et al. | Foundations and Trends in Machine Learning | 2013 | 1111.6453 |  |  |
-| Convex Analysis and Optimization with Submodular Functions:  | Francis Bach et al. | arXiv | 2010 | 1010.4207 |  |  |
 
 ### 🔬 AI for Science
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Scientific Machine Learning through Physics-Informed Neural  | Salvatore Cuomo et al. | Journal of Scientific Computing | 2022 | 2201.05624 | 2785 |  |
-| Integrating Scientific Knowledge with Machine Learning for E | Jared Willard et al. | ACM Computing Surveys | 2022 | 2003.04919 | 867 |  |
-| Neural Natural Language Processing for Unstructured Data in  | Irene Li et al. | Computer Science Review | 2021 | 2107.02975 | 242 |  |
-| A Survey of Deep Learning for Scientific Discovery | Maithra Raghu et al. | arXiv | 2020 | 2003.11755 | 162 |  |
-| Ab-initio Quantum Chemistry with Neural-Network Wavefunction | Jan Hermann et al. | Nature Reviews Chemistry | 2023 | 2208.12590 | 153 |  |
-| A Survey of Generative AI for de novo Drug Design: New Front | Xiangru Tang et al. | arXiv | 2024 | 2402.08703 | 130 |  |
-| Advances of Machine Learning in Materials Science: Ideas and | Sue Sin Chong et al. | Frontiers of Physics | 2023 | 2307.14032 | 95 |  |
-| Recent Advances on Machine Learning for Computational Fluid  | Haixin Wang et al. | arXiv | 2024 | 2408.12171 | 77 |  |
+| Scientific Machine Learning through Physics-Informed Neural  | Salvatore Cuomo et al. | Journal of Scientific Computing | 2022 | 2201.05624 | 2837 |  |
+| Integrating Scientific Knowledge with Machine Learning for E | Jared Willard et al. | ACM Computing Surveys | 2022 | 2003.04919 | 885 |  |
+| Neural Natural Language Processing for Unstructured Data in  | Irene Li et al. | Computer Science Review | 2021 | 2107.02975 | 243 |  |
+| A Survey of Deep Learning for Scientific Discovery | Maithra Raghu et al. | arXiv | 2020 | 2003.11755 | 163 |  |
+| Ab-initio Quantum Chemistry with Neural-Network Wavefunction | Jan Hermann et al. | Nature Reviews Chemistry | 2023 | 2208.12590 | 157 |  |
+| A Survey of Generative AI for de novo Drug Design: New Front | Xiangru Tang et al. | arXiv | 2024 | 2402.08703 | 132 |  |
+| Advances of Machine Learning in Materials Science: Ideas and | Sue Sin Chong et al. | Frontiers of Physics | 2023 | 2307.14032 | 96 |  |
+| Recent Advances on Machine Learning for Computational Fluid  | Haixin Wang et al. | arXiv | 2024 | 2408.12171 | 78 |  |
 | Partial Differential Equations Meet Deep Neural Networks: A  | Shudong Huang et al. | arXiv | 2022 | 2211.05567 | 58 |  |
-| Machine Learning-Driven Materials Discovery: Unlocking Next- | Dilshod Nematov et al. | arXiv | 2025 | 2503.18975 | 46 |  |
-| Deep Learning and Foundation Models for Weather Prediction:  | Jimeng Shi et al. | arXiv | 2025 | 2501.06907 | 30 |  |
-| Deep Learning Methods for Small Molecule Drug Discovery: A S | Wenhao Hu et al. | IEEE TKDE | 2023 | 2303.00313 | 28 |  |
-| A Review of Neuroscience-Inspired Machine Learning | Alexander Ororbia et al. | arXiv | 2024 | 2403.18929 | 19 |  |
+| Machine Learning-Driven Materials Discovery: Unlocking Next- | Dilshod Nematov et al. | arXiv | 2025 | 2503.18975 | 51 |  |
+| Deep Learning and Foundation Models for Weather Prediction:  | Jimeng Shi et al. | arXiv | 2025 | 2501.06907 | 31 |  |
+| Deep Learning Methods for Small Molecule Drug Discovery: A S | Wenhao Hu et al. | IEEE TKDE | 2023 | 2303.00313 | 29 |  |
+| A Review of Neuroscience-Inspired Machine Learning | Alexander Ororbia et al. | arXiv | 2024 | 2403.18929 | 20 |  |
 | A Model-Centric Review of Deep Learning for Protein Design | Gregory W. Kyro et al. | arXiv | 2025 | 2502.19173 | 15 |  |
 | Interpretable Machine Learning for Weather and Climate Predi | Ruyi Yang et al. | arXiv | 2024 | 2403.18864 | 11 |  |
 | Deep Learning in Astrophysics | Yuan-Sen Ting et al. | Annual Review of Astronomy and Astrophysics | 2026 | 2510.10713 | 8 |  |
@@ -1222,17 +1222,17 @@
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| On the Opportunities and Risks of Foundation Models | Rishi Bommasani et al. | arXiv | 2021 | 2108.07258 | 7404 |  |
-| A Survey on Knowledge Graphs: Representation, Acquisition an | Shaoxiong Ji et al. | IEEE TNNLS | 2021 | 2002.00388 | 2960 |  |
-| Understanding World or Predicting Future? A Comprehensive Su | Jingtao Ding et al. | ACM Computing Surveys | 2025 | 2411.14499 | 245 | tsinghua-fib-lab/World-Model |
+| On the Opportunities and Risks of Foundation Models | Rishi Bommasani et al. | arXiv | 2021 | 2108.07258 | 7462 |  |
+| A Survey on Knowledge Graphs: Representation, Acquisition an | Shaoxiong Ji et al. | IEEE TNNLS | 2021 | 2002.00388 | 2976 |  |
+| Understanding World or Predicting Future? A Comprehensive Su | Jingtao Ding et al. | ACM Computing Surveys | 2025 | 2411.14499 | 249 | tsinghua-fib-lab/World-Model |
 | A Survey of Deep Learning for Mathematical Reasoning | Pan Lu et al. | ACL | 2023 | 2212.10535 | 209 | lupantech/dl4math |
 | Commonsense Reasoning for Natural Language Understanding: A  | Shane Storks et al. | arXiv | 2019 | 1904.01172 | 147 |  |
-| Neuro-Symbolic AI in 2024: A Systematic Review | Brandon C. Colelough et a | arXiv | 2025 | 2501.05435 | 92 |  |
-| A Survey on Self-Evolution of Large Language Models | Zhengwei Tao et al. | arXiv | 2024 | 2404.14387 | 84 |  |
-| A Survey on Deep Learning for Theorem Proving | Zhaoyu Li et al. | COLM | 2024 | 2404.09939 | 82 | zhaoyu-li/DL4TP |
+| Neuro-Symbolic AI in 2024: A Systematic Review | Brandon C. Colelough et a | arXiv | 2025 | 2501.05435 | 95 |  |
+| A Survey on Self-Evolution of Large Language Models | Zhengwei Tao et al. | arXiv | 2024 | 2404.14387 | 90 |  |
+| A Survey on Deep Learning for Theorem Proving | Zhaoyu Li et al. | COLM | 2024 | 2404.09939 | 83 | zhaoyu-li/DL4TP |
+| Towards Data-and Knowledge-Driven Artificial Intelligence: A | Wenguan Wang et al. | IEEE TPAMI | 2024 | 2210.15889 | 80 |  |
 | Commonsense Knowledge Reasoning and Generation with Pre-trai | Prajjwal Bhargava et al. | AAAI | 2022 | 2201.12438 | 79 |  |
-| Towards Data-and Knowledge-Driven Artificial Intelligence: A | Wenguan Wang et al. | IEEE TPAMI | 2024 | 2210.15889 | 77 |  |
-| LLMs as Planning Formalizers: A Survey for Leveraging Large  | Marcus Tantakoun et al. | arXiv | 2025 | 2503.18971 | 56 |  |
+| LLMs as Planning Formalizers: A Survey for Leveraging Large  | Marcus Tantakoun et al. | arXiv | 2025 | 2503.18971 | 57 |  |
 | Machine Learning Methods in Solving the Boolean Satisfiabili | Wenxuan Guo et al. | Machine Intelligence Research | 2022 | 2203.04755 | 54 |  |
 | Computational Argumentation-based Chatbots: a Survey | Federico Castagna et al. | JAIR | 2024 | 2401.03454 | 24 |  |
 | AI Planning: A Primer and Survey (Preliminary Report) | Dillon Z. Chen et al. | arXiv | 2024 | 2412.05528 | 5 |  |
@@ -1242,90 +1242,90 @@
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Deep Learning in Neural Networks: An Overview | Juergen Schmidhuber | Neural Networks | 2015 | 1404.7828 | 17789 |  |
-| Recent Advances in Convolutional Neural Networks | Jiuxiang Gu et al. | Pattern Recognition | 2018 | 1512.07108 | 6114 |  |
-| Fundamentals of Recurrent Neural Network (RNN) and Long Shor | Alex Sherstinsky | Physica D | 2020 | 1808.03314 | 5278 |  |
-| A Survey of the Recent Architectures of Deep Convolutional N | Asifullah Khan et al. | Artificial Intelligence Review | 2020 | 1901.06032 | 2811 |  |
-| Diffusion Models: A Comprehensive Survey of Methods and Appl | Ling Yang et al. | ACM Computing Surveys | 2023 | 2209.00796 | 2455 | YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy |
-| Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, a | Michael M. Bronstein et a | arXiv | 2021 | 2104.13478 | 1760 |  |
-| Efficient Transformers: A Survey | Yi Tay et al. | ACM Computing Surveys | 2022 | 2009.06732 | 1675 |  |
-| A Survey of Transformers | Tianyang Lin et al. | AI Open | 2022 | 2106.04554 | 1581 |  |
-| Deep Learning in Spiking Neural Networks | Amirhossein Tavanaei et a | Neural Networks | 2019 | 1804.08150 | 1418 |  |
-| Activation Functions in Deep Learning: A Comprehensive Surve | Shiv Ram Dubey et al. | Neurocomputing | 2022 | 2109.14545 | 1216 |  |
-| Sparsity in Deep Learning: Pruning and growth for efficient  | Torsten Hoefler et al. | JMLR | 2021 | 2102.00554 | 1019 |  |
-| Recent Advances in Recurrent Neural Networks | Hojjat Salehinejad et al. | arXiv | 2018 | 1801.01078 | 759 |  |
-| A Comprehensive Survey on Test-Time Adaptation under Distrib | Jian Liang et al. | IJCV | 2025 | 2303.15361 | 631 | tim-learn/awesome-test-time-adaptation |
-| A Survey on Deep Neural Network Pruning: Taxonomy, Compariso | Hongrong Cheng et al. | IEEE TPAMI | 2024 | 2308.06767 | 584 |  |
-| Normalization Techniques in Training DNNs: Methodology, Anal | Lei Huang et al. | IEEE TPAMI | 2023 | 2009.12836 | 486 | huangleiBuaa/NormalizationSurvey |
+| Deep Learning in Neural Networks: An Overview | Juergen Schmidhuber | Neural Networks | 2015 | 1404.7828 | 17806 |  |
+| Recent Advances in Convolutional Neural Networks | Jiuxiang Gu et al. | Pattern Recognition | 2018 | 1512.07108 | 6120 |  |
+| Fundamentals of Recurrent Neural Network (RNN) and Long Shor | Alex Sherstinsky | Physica D | 2020 | 1808.03314 | 5302 |  |
+| A Survey of the Recent Architectures of Deep Convolutional N | Asifullah Khan et al. | Artificial Intelligence Review | 2020 | 1901.06032 | 2815 |  |
+| Diffusion Models: A Comprehensive Survey of Methods and Appl | Ling Yang et al. | ACM Computing Surveys | 2023 | 2209.00796 | 2469 | YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy |
+| Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, a | Michael M. Bronstein et a | arXiv | 2021 | 2104.13478 | 1771 |  |
+| Efficient Transformers: A Survey | Yi Tay et al. | ACM Computing Surveys | 2022 | 2009.06732 | 1687 |  |
+| A Survey of Transformers | Tianyang Lin et al. | AI Open | 2022 | 2106.04554 | 1584 |  |
+| Deep Learning in Spiking Neural Networks | Amirhossein Tavanaei et a | Neural Networks | 2019 | 1804.08150 | 1424 |  |
+| Activation Functions in Deep Learning: A Comprehensive Surve | Shiv Ram Dubey et al. | Neurocomputing | 2022 | 2109.14545 | 1222 |  |
+| Sparsity in Deep Learning: Pruning and growth for efficient  | Torsten Hoefler et al. | JMLR | 2021 | 2102.00554 | 1021 |  |
+| Recent Advances in Recurrent Neural Networks | Hojjat Salehinejad et al. | arXiv | 2018 | 1801.01078 | 761 |  |
+| A Comprehensive Survey on Test-Time Adaptation under Distrib | Jian Liang et al. | IJCV | 2025 | 2303.15361 | 639 | tim-learn/awesome-test-time-adaptation |
+| A Survey on Deep Neural Network Pruning: Taxonomy, Compariso | Hongrong Cheng et al. | IEEE TPAMI | 2024 | 2308.06767 | 586 |  |
+| Normalization Techniques in Training DNNs: Methodology, Anal | Lei Huang et al. | IEEE TPAMI | 2023 | 2009.12836 | 485 | huangleiBuaa/NormalizationSurvey |
 | Attention, please! A survey of Neural Attention Models in De | Alana de Santana Correia  | Artificial Intelligence Review | 2022 | 2103.16775 | 303 |  |
-| A Review of Sparse Expert Models in Deep Learning | William Fedus et al. | arXiv | 2022 | 2209.01667 | 216 |  |
-| Physics-Informed Machine Learning: A Survey on Problems, Met | Zhongkai Hao et al. | arXiv | 2023 | 2211.08064 | 206 |  |
+| A Review of Sparse Expert Models in Deep Learning | William Fedus et al. | arXiv | 2022 | 2209.01667 | 217 |  |
+| Physics-Informed Machine Learning: A Survey on Problems, Met | Zhongkai Hao et al. | arXiv | 2023 | 2211.08064 | 207 |  |
 | Survey of Dropout Methods for Deep Neural Networks | Alex Labach et al. | arXiv | 2019 | 1904.13310 | 180 |  |
 | A Comprehensive Survey of Mixture-of-Experts: Algorithms, Th | Siyuan Mu et al. | arXiv | 2025 | 2503.07137 | 136 |  |
-| A comprehensive review of Quantum Machine Learning: from NIS | Yunfei Wang et al. | Reports on Progress in Physics | 2024 | 2401.11351 | 132 |  |
-| Geometric Deep Learning and Equivariant Neural Networks | Jan E. Gerken et al. | Artificial Intelligence Review | 2023 | 2105.13926 | 126 |  |
-| A Survey of Mamba | Haohao Qu et al. | arXiv | 2024 | 2408.01129 | 106 |  |
-| Mamba-360: Survey of State Space Models as Transformer Alter | Badri Narayana Patro et a | arXiv | 2024 | 2404.16112 | 100 | badripatro/mamba360 |
+| A comprehensive review of Quantum Machine Learning: from NIS | Yunfei Wang et al. | Reports on Progress in Physics | 2024 | 2401.11351 | 133 |  |
+| Geometric Deep Learning and Equivariant Neural Networks | Jan E. Gerken et al. | Artificial Intelligence Review | 2023 | 2105.13926 | 127 |  |
+| A Survey of Mamba | Haohao Qu et al. | arXiv | 2024 | 2408.01129 | 110 |  |
+| Mamba-360: Survey of State Space Models as Transformer Alter | Badri Narayana Patro et a | arXiv | 2024 | 2404.16112 | 101 | badripatro/mamba360 |
 | A Survey on Quantum Machine Learning: Current Trends, Challe | Kamila Zaman et al. | arXiv | 2023 | 2310.10315 | 85 |  |
 | Where Do We Stand with Implicit Neural Representations? A Te | Amer Essakine et al. | arXiv | 2024 | 2411.03688 | 66 |  |
-| Three Decades of Activations: A Comprehensive Survey of 400  | Vladimir Kunc et al. | arXiv | 2024 | 2402.09092 | 57 |  |
-| Comprehensive Review of Neural Differential Equations for Ti | YongKyung Oh et al. | IJCAI (Survey Track) | 2025 | 2502.09885 | 33 |  |
+| Three Decades of Activations: A Comprehensive Survey of 400  | Vladimir Kunc et al. | arXiv | 2024 | 2402.09092 | 58 |  |
+| Comprehensive Review of Neural Differential Equations for Ti | YongKyung Oh et al. | IJCAI (Survey Track) | 2025 | 2502.09885 | 32 |  |
 | Learning with Capsules: A Survey | Fabio De Sousa Ribeiro et | ACM Computing Surveys | 2024 | 2206.02664 | 23 |  |
-| Toward Large-scale Spiking Neural Networks: A Comprehensive  | Yangfan Hu et al. | arXiv | 2024 | 2409.02111 | 17 |  |
+| Toward Large-scale Spiking Neural Networks: A Comprehensive  | Yangfan Hu et al. | arXiv | 2024 | 2409.02111 | 18 |  |
 
 ### 🏭 応用・横断領域
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| Deep Learning in Mobile and Wireless Networking: A Survey | Chaoyun Zhang et al. | IEEE Communications Surveys & Tutorials | 2019 | 1803.04311 | 1578 |  |
-| Deep EHR: A Survey of Recent Advances in Deep Learning Techn | Benjamin Shickel et al. | IEEE JBHI | 2018 | 1706.03446 | 1546 |  |
-| Deep Learning for Financial Applications : A Survey | Ahmet Murat Ozbayoglu et  | Applied Soft Computing | 2020 | 2002.05786 | 533 |  |
-| Artificial Intelligence for Digital and Computational Pathol | Andrew H. Song et al. | Nature Reviews Bioengineering | 2023 | 2401.06148 | 379 |  |
+| Deep Learning in Mobile and Wireless Networking: A Survey | Chaoyun Zhang et al. | IEEE Communications Surveys & Tutorials | 2019 | 1803.04311 | 1580 |  |
+| Deep EHR: A Survey of Recent Advances in Deep Learning Techn | Benjamin Shickel et al. | IEEE JBHI | 2018 | 1706.03446 | 1553 |  |
+| Deep Learning for Financial Applications : A Survey | Ahmet Murat Ozbayoglu et  | Applied Soft Computing | 2020 | 2002.05786 | 535 |  |
+| Artificial Intelligence for Digital and Computational Pathol | Andrew H. Song et al. | Nature Reviews Bioengineering | 2023 | 2401.06148 | 382 |  |
 | Deep Learning for Unsupervised Anomaly Localization in Indus | Xian Tao et al. | arXiv | 2022 | 2207.10298 | 285 |  |
-| Large Language Model-Based Agents for Software Engineering:  | Junwei Liu et al. | arXiv | 2025 | 2409.02977 | 264 |  |
+| Large Language Model-Based Agents for Software Engineering:  | Junwei Liu et al. | arXiv | 2025 | 2409.02977 | 274 |  |
 | A Survey on Deep Learning for Software Engineering | Yanming Yang et al. | ACM Computing Surveys | 2022 | 2011.14597 | 247 |  |
-| From CNN to Transformer: A Review of Medical Image Segmentat | Wenjian Yao et al. | arXiv | 2023 | 2308.05305 | 241 |  |
-| A Comprehensive Survey of Deep Transfer Learning for Anomaly | Peng Yan et al. | arXiv | 2024 | 2307.05638 | 212 |  |
-| A Survey of Large Language Models for Financial Applications | Yuqi Nie et al. | arXiv | 2024 | 2406.11903 | 177 |  |
+| From CNN to Transformer: A Review of Medical Image Segmentat | Wenjian Yao et al. | arXiv | 2023 | 2308.05305 | 242 |  |
+| A Comprehensive Survey of Deep Transfer Learning for Anomaly | Peng Yan et al. | arXiv | 2024 | 2307.05638 | 213 |  |
+| A Survey of Large Language Models for Financial Applications | Yuqi Nie et al. | arXiv | 2024 | 2406.11903 | 178 |  |
 | A Comprehensive Survey on Deep Music Generation: Multi-level | Shulei Ji et al. | arXiv | 2020 | 2011.06801 | 154 |  |
-| Foundation Models for Remote Sensing and Earth Observation:  | Aoran Xiao et al. | IEEE Geoscience and Remote Sensing Magazine | 2025 | 2410.16602 | 125 |  |
+| Foundation Models for Remote Sensing and Earth Observation:  | Aoran Xiao et al. | IEEE Geoscience and Remote Sensing Magazine | 2025 | 2410.16602 | 129 |  |
 | A Survey on Large Language Models for Critical Societal Doma | Zhiyu Zoey Chen et al. | arXiv | 2024 | 2405.01769 | 125 |  |
-| Short-Term Electricity-Load Forecasting by Deep Learning: A  | Qi Dong et al. | arXiv | 2025 | 2408.16202 | 100 |  |
-| Large Language Models for Education: A Survey | Hanyi Xu et al. | arXiv | 2024 | 2405.13001 | 98 |  |
-| A Survey for Foundation Models in Autonomous Driving | Haoxiang Gao et al. | arXiv | 2024 | 2402.01105 | 73 |  |
+| Short-Term Electricity-Load Forecasting by Deep Learning: A  | Qi Dong et al. | arXiv | 2025 | 2408.16202 | 103 |  |
+| Large Language Models for Education: A Survey | Hanyi Xu et al. | arXiv | 2024 | 2405.13001 | 102 |  |
+| A Survey for Foundation Models in Autonomous Driving | Haoxiang Gao et al. | arXiv | 2024 | 2402.01105 | 76 |  |
 | A Survey on Medical Large Language Models: Technology, Appli | Lei Liu et al. | arXiv | 2024 | 2406.03712 | 66 |  |
-| From Tiny Machine Learning to Tiny Deep Learning: A Survey | Shriyank Somvanshi et al. | arXiv | 2025 | 2506.18927 | 64 |  |
+| From Tiny Machine Learning to Tiny Deep Learning: A Survey | Shriyank Somvanshi et al. | arXiv | 2025 | 2506.18927 | 65 |  |
 | Deep Reinforcement Learning in Quantitative Algorithmic Trad | Tidor-Vlad Pricope et al. | arXiv | 2021 | 2106.00123 | 59 |  |
 | Year-over-Year Developments in Financial Fraud Detection via | Yisong Chen et al. | arXiv | 2025 | 2502.00201 | 51 |  |
-| Deep Learning-based Intrusion Detection Systems: A Survey | Zhiwei Xu et al. | arXiv | 2025 | 2504.07839 | 41 |  |
+| Deep Learning-based Intrusion Detection Systems: A Survey | Zhiwei Xu et al. | arXiv | 2025 | 2504.07839 | 42 |  |
 | Self-Supervised Representation Learning for Geospatial Objec | Yile Chen et al. | arXiv | 2025 | 2408.12133 | 27 |  |
-| Graph Neural Networks in Intelligent Transportation Systems: | Hourun Li et al. | arXiv | 2024 | 2401.00713 | 24 |  |
+| Graph Neural Networks in Intelligent Transportation Systems: | Hourun Li et al. | arXiv | 2024 | 2401.00713 | 25 |  |
+| A Comprehensive Survey of Electronic Health Record Modeling: | Weijieying Ren et al. | arXiv | 2025 | 2507.12774 | 15 |  |
 | A New Era in Computational Pathology: A Survey on Foundation | Dibaloke Chanda et al. | arXiv | 2024 | 2408.14496 | 14 |  |
-| A Comprehensive Survey of Electronic Health Record Modeling: | Weijieying Ren et al. | arXiv | 2025 | 2507.12774 | 13 |  |
-| AI in Agriculture: A Survey of Deep Learning Techniques for  | Umair Nawaz et al. | arXiv | 2026 | 2507.22101 | 12 |  |
+| AI in Agriculture: A Survey of Deep Learning Techniques for  | Umair Nawaz et al. | arXiv | 2026 | 2507.22101 | 13 |  |
 | A Survey of Deep Learning-based Radiology Report Generation  | Xinyi Wang et al. | arXiv | 2025 | 2405.12833 | 11 |  |
-| Large Language Models Meet Legal Artificial Intelligence: A  | Zhitian Hou et al. | arXiv | 2025 | 2509.09969 | 10 |  |
+| Large Language Models Meet Legal Artificial Intelligence: A  | Zhitian Hou et al. | arXiv | 2025 | 2509.09969 | 11 |  |
 | A Survey on Multilingual Mental Disorders Detection from Soc | Ana-Maria Bucur et al. | arXiv | 2026 | 2505.15556 | 7 |  |
 
 ### 📊 データ中心AI・評価
 
 | タイトル | 著者 | venue | 年 | arXiv | 📈 | github |
 |---|---|---|---:|---|---:|---|
-| A Survey of Deep Active Learning | Pengzhen Ren et al. | ACM Computing Surveys | 2022 | 2009.00236 | 1574 |  |
-| Data-centric Artificial Intelligence: A Survey | Daochen Zha et al. | ACM Computing Surveys | 2025 | 2303.10158 | 520 | daochenzha/data-centric-AI |
-| On LLMs-Driven Synthetic Data Generation, Curation, and Eval | Lin Long et al. | ACL Findings | 2024 | 2406.15126 | 389 |  |
-| Machine Learning for Synthetic Data Generation: A Review | Yingzhou Lu et al. | arXiv | 2023 | 2302.04062 | 309 |  |
+| A Survey on LLM-as-a-Judge | Jiawei Gu et al. | arXiv | 2024 | 2411.15594 | 1889 |  |
+| A Survey of Deep Active Learning | Pengzhen Ren et al. | ACM Computing Surveys | 2022 | 2009.00236 | 1578 |  |
+| Data-centric Artificial Intelligence: A Survey | Daochen Zha et al. | ACM Computing Surveys | 2025 | 2303.10158 | 531 | daochenzha/data-centric-AI |
+| On LLMs-Driven Synthetic Data Generation, Curation, and Eval | Lin Long et al. | ACL Findings | 2024 | 2406.15126 | 401 |  |
+| Machine Learning for Synthetic Data Generation: A Review | Yingzhou Lu et al. | arXiv | 2023 | 2302.04062 | 311 |  |
+| Evaluation and Benchmarking of LLM Agents: A Survey | Mahmoud Mohammadi et al. | arXiv | 2025 | 2507.21504 | 217 |  |
 | Dataset Distillation: A Comprehensive Review | Ruonan Yu et al. | IEEE TPAMI | 2024 | 2301.07014 | 213 |  |
-| Evaluation and Benchmarking of LLM Agents: A Survey | Mahmoud Mohammadi et al. | arXiv | 2025 | 2507.21504 | 207 |  |
-| A Comprehensive Survey of Dataset Distillation | Shiye Lei et al. | IEEE TPAMI | 2024 | 2301.05603 | 202 |  |
-| A Survey on Deep Active Learning: Recent Advances and New Fr | Dongyuan Li et al. | IEEE TNNLS | 2024 | 2405.00334 | 169 |  |
+| A Comprehensive Survey of Dataset Distillation | Shiye Lei et al. | IEEE TPAMI | 2024 | 2301.05603 | 203 |  |
+| A Survey on Deep Active Learning: Recent Advances and New Fr | Dongyuan Li et al. | IEEE TNNLS | 2024 | 2405.00334 | 174 |  |
+| Benchmark Data Contamination of Large Language Models: A Sur | Cheng Xu et al. | arXiv | 2024 | 2406.04244 | 158 |  |
+| Synthetic Data Generation Using Large Language Models: Advan | Mihai Nadas et al. | IEEE Access | 2025 | 2503.14023 | 131 |  |
+| Comprehensive Exploration of Synthetic Data Generation: A Su | André Bauer et al. | arXiv | 2024 | 2401.02524 | 118 |  |
 | Detecting and Understanding Harmful Memes: A Survey | Shivam Sharma et al. | IJCAI | 2022 | 2205.04274 | 118 |  |
-| Comprehensive Exploration of Synthetic Data Generation: A Su | André Bauer et al. | arXiv | 2024 | 2401.02524 | 117 |  |
 | Graph Data Augmentation for Graph Machine Learning: A Survey | Tong Zhao et al. | IEEE Data Engineering Bulletin | 2022 | 2202.08871 | 113 |  |
-| Can We Trust AI Benchmarks? An Interdisciplinary Review of C | Maria Eriksson et al. | arXiv | 2025 | 2502.06559 | 91 |  |
+| Can We Trust AI Benchmarks? An Interdisciplinary Review of C | Maria Eriksson et al. | arXiv | 2025 | 2502.06559 | 92 |  |
+| A Survey on Data Synthesis and Augmentation for Large Langua | Ke Wang et al. | arXiv | 2024 | 2410.12896 | 56 |  |
+| A Survey on Data Contamination for Large Language Models | Yuxing Cheng et al. | arXiv | 2025 | 2502.14425 | 38 |  |
 | A Coreset Selection of Coreset Selection Literature: Introdu | Brian B. Moser et al. | arXiv | 2025 | 2505.17799 | 31 |  |
-| A Survey on Data Contamination for Large Language Models | Yuxing Cheng et al. | arXiv | 2025 | 2502.14425 |  |  |
-| Synthetic Data Generation Using Large Language Models: Advan | Mihai Nadas et al. | IEEE Access | 2025 | 2503.14023 |  |  |
-| A Survey on LLM-as-a-Judge | Jiawei Gu et al. | arXiv | 2024 | 2411.15594 |  |  |
-| Benchmark Data Contamination of Large Language Models: A Sur | Cheng Xu et al. | arXiv | 2024 | 2406.04244 |  |  |
-| A Survey on Data Synthesis and Augmentation for Large Langua | Ke Wang et al. | arXiv | 2024 | 2410.12896 |  |  |
